@@ -23,11 +23,11 @@ final class FamilyStore: ObservableObject {
         var problem: String?
         if let data = storage.data(forKey: storageKey) {
             do { restored = try FamilyState.decode(data) }
-            catch { problem = "Your saved family data could not be opened. It has been kept on this device. Please close the app and try again." }
+            catch { problem = L10n.string("Your saved family data could not be opened. It has been kept on this device. Please close the app and try again.") }
         }
         self.state = restored
         do { self.activities = try ActivityCatalog.load() }
-        catch { problem = "The activity library could not be opened. Please close the app and try again." }
+        catch { problem = L10n.string("The activity library could not be opened. Please close the app and try again.") }
         self.errorMessage = problem
         #if DEBUG
         if ProcessInfo.processInfo.arguments.contains("--demo"), problem == nil {
@@ -99,6 +99,6 @@ final class FamilyStore: ObservableObject {
         // Never overwrite an unreadable saved record with an empty state.
         guard errorMessage == nil else { return }
         do { defaults.set(try state.encoded(), forKey: storageKey) }
-        catch { errorMessage = "Your latest change could not be saved. Please try reopening the app." }
+        catch { errorMessage = L10n.string("Your latest change could not be saved. Please try reopening the app.") }
     }
 }

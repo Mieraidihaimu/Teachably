@@ -7,6 +7,7 @@ struct WanderView: View {
     @State private var showLibrary = false
     @State private var query = ""
     @State private var recallQuery = ""
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
         ScrollViewReader { reader in
@@ -15,12 +16,13 @@ struct WanderView: View {
                     Color.clear.frame(height: 1).id("wander-top")
                     if let layer = wander.current {
                         heading(layer)
+                        generationControls(layer)
                         if let label = wander.highlightLabel {
                             HStack {
-                                Label("Found: \(label)", systemImage: "magnifyingglass").font(.caption)
+                                Label(L10n.format("Found: %@", label), systemImage: "magnifyingglass").font(.caption)
                                 Spacer()
                                 Button { wander.clearHighlight() } label: { Image(systemName: "xmark") }
-                                    .accessibilityLabel("Dismiss search highlight")
+                                    .accessibilityLabel(L10n.string("Dismiss search highlight"))
                             }.padding(14).background(Palette.sage, in: RoundedRectangle(cornerRadius: 15))
                         }
                         if layer.isMap {
@@ -28,52 +30,67 @@ struct WanderView: View {
                             WanderTopicView(layer: layer, layout: wander.layout, viewport: wander.viewport,
                                 visited: wander.engine.visitedBubbleIDs, highlightID: wander.highlightID,
                                 onExpand: { wander.explore(.expand, bubbleID: $0.id) }, onViewport: wander.setViewport)
+                                .disabled(wander.isGenerating)
                             HStack(spacing: 12) {
-                                Button { wander.explore(.explain) } label: { Label("Explain", systemImage: "lightbulb") }
+                                Button { wander.explore(.explain) } label: { Label(L10n.string("Explain"), systemImage: "lightbulb") }
                                 Spacer()
-                                Button { wander.explore(.example) } label: { Label("Show an example", systemImage: "hands.sparkles") }
+                                Button { wander.explore(.example) } label: { Label(L10n.string("Show an example"), systemImage: "hands.sparkles") }
                             }
-                            .font(.subheadline.weight(.semibold)).padding(.vertical, 8)
+                            .font(.subheadline.weight(.semibold)).padding(.vertical, 8).disabled(wander.isGenerating)
                         } else if let lesson = layer.lesson {
                             lessonContent(lesson)
                         }
-                        Text("From your activity library · Saved on this device")
+                        Text(layer.provenance == nil ? L10n.string("From your activity library · Saved on this device") : L10n.string("Generated on this device · Review before sharing"))
                             .font(.caption2).foregroundStyle(Palette.muted).frame(maxWidth: .infinity)
                     } else if wander.errorMessage == nil {
-                        ProgressView("Opening your map…").frame(maxWidth: .infinity, minHeight: 300)
-                    }
-                    if let error = wander.errorMessage {
-                        WanderNotice(text: error) { wander.errorMessage = nil }
+                        ProgressView(L10n.string("Opening your map…")).frame(maxWidth: .infinity, minHeight: 300)
                     }
                     if wander.removedPinID != nil {
                         HStack {
-                            Text("Idea unpinned. Your trail is still saved.").font(.caption)
+                            Text(L10n.string("Idea unpinned. Your trail is still saved.")).font(.caption)
                             Spacer()
-                            Button("Undo", action: wander.undoUnpin).font(.caption.bold())
+                            Button(L10n.string("Undo"), action: wander.undoUnpin).font(.caption.bold())
                         }.padding(16).background(Palette.sage.opacity(0.6), in: RoundedRectangle(cornerRadius: 16))
                     }
                 }.padding(.horizontal, 22).padding(.bottom, 24)
             }
             .onChange(of: wander.current?.id) { _, _ in reader.scrollTo("wander-top", anchor: .top) }
             .background(Palette.background).foregroundStyle(Palette.ink)
-            .safeAreaInset(edge: .bottom) { composer }
+            .safeAreaInset(edge: .bottom) {
+                VStack(spacing: 0) {
+                    if wander.isGenerating {
+                        HStack {
+                            ProgressView().tint(Palette.green)
+                            Text(L10n.string("Generating on this device…")).font(.caption)
+                            Spacer()
+                            Button(L10n.string("Cancel"), action: wander.cancelGeneration).font(.caption.bold())
+                        }.padding(.horizontal, 22).padding(.vertical, 10)
+                    }
+                    if let error = wander.errorMessage {
+                        WanderNotice(text: error) { wander.errorMessage = nil }.padding(.horizontal, 18)
+                    }
+                    composer
+                }.background(Palette.background)
+            }
         }
-        .navigationTitle("Wander").navigationBarTitleDisplayMode(.inline)
+        .navigationTitle(L10n.string("Wander")).navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button { recallQuery = ""; showLibrary = true } label: {
                     Image(systemName: "bookmark")
-                }.accessibilityLabel("Wander library")
+                }.accessibilityLabel(L10n.string("Wander library")).disabled(wander.isGenerating)
             }
             ToolbarItem(placement: .topBarTrailing) {
                 Menu {
-                    Button("Return to starting map", systemImage: "safari") { wander.explore(.root) }
-                    Button("Reload this layer", systemImage: "arrow.clockwise") { wander.explore(.refresh) }
+                    Button(L10n.string("Return to starting map"), systemImage: "safari") { wander.explore(.root) }
+                    Button(L10n.string("Reload this layer"), systemImage: "arrow.clockwise") { wander.explore(.refresh) }
                 } label: { Image(systemName: "ellipsis") }
-                .accessibilityLabel("Wander options")
+                .accessibilityLabel(L10n.string("Wander options"))
+                .disabled(wander.isGenerating)
             }
         }
         .onChange(of: family.profile.skills, initial: true) { _, skills in wander.start(interests: skills) }
+        .onChange(of: scenePhase) { _, phase in if phase == .active { wander.refreshModelStatus() } }
         .sheet(isPresented: $showLibrary) {
             WanderLibraryView(wander: wander, initialQuery: recallQuery)
         }
@@ -82,16 +99,16 @@ struct WanderView: View {
     private func heading(_ layer: WanderLayer) -> some View {
         VStack(alignment: .leading, spacing: 13) {
             HStack {
-                Eyebrow(text: layer.depth == 0 ? "A little room to wonder" : "Your trail of curiosity")
+                Eyebrow(text: layer.depth == 0 ? L10n.string("A little room to wonder") : L10n.string("Your trail of curiosity"))
                 Spacer()
-                Text("L\(layer.depth)").font(.caption.bold()).foregroundStyle(Palette.green)
+                Text(L10n.format("L%lld", layer.depth)).font(.caption.bold()).foregroundStyle(Palette.green)
                     .padding(.horizontal, 10).padding(.vertical, 6).background(Palette.sage, in: Capsule())
             }
             HStack(alignment: .top, spacing: 12) {
                 if let parent = layer.parentID {
                     Button { wander.open(parent) } label: {
                         Image(systemName: "arrow.left").frame(width: 40, height: 40).background(.white, in: Circle())
-                    }.accessibilityLabel("Back one layer")
+                    }.accessibilityLabel(L10n.string("Back one layer")).disabled(wander.isGenerating)
                 }
                 Text(layer.title).font(.system(.largeTitle, design: .serif, weight: .medium))
                     .tracking(-1).fixedSize(horizontal: false, vertical: true)
@@ -101,22 +118,54 @@ struct WanderView: View {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 8) {
                         ForEach(wander.trail) { ancestor in
-                            Button(ancestor.depth == 0 ? "Starting point" : ancestor.title) { wander.open(ancestor.id) }
-                                .accessibilityLabel("Return to \(ancestor.title)")
+                            Button(ancestor.depth == 0 ? L10n.string("Starting point") : ancestor.title) { wander.open(ancestor.id) }
+                                .accessibilityLabel(L10n.format("Return to %@", ancestor.title))
+                                .disabled(wander.isGenerating)
                             Image(systemName: "chevron.right").font(.system(size: 9))
                         }
-                        Text("You are here").foregroundStyle(Palette.muted)
+                        Text(L10n.string("You are here")).foregroundStyle(Palette.muted)
                     }.font(.caption).padding(.vertical, 6)
                 }
             }
         }
     }
 
+    private func generationControls(_ layer: WanderLayer) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack {
+                Label(layer.provenance != nil ? L10n.string("Apple Intelligence · On-device") : (layer.depth == 0 ? L10n.string("Your selected interests") : L10n.string("Activity library")),
+                      systemImage: layer.provenance != nil ? "sparkles" : "books.vertical")
+                    .font(.caption.weight(.medium))
+                    .accessibilityIdentifier(layer.provenance != nil ? "wander.source.apple" : "wander.source.library")
+                Spacer()
+                Menu {
+                    Button(L10n.string("Apple AI"), systemImage: "sparkles") { wander.setMode(.appleAI) }
+                        .disabled(!wander.modelStatus.isAvailable)
+                    Button(L10n.string("Activity library"), systemImage: "books.vertical") { wander.setMode(.library) }
+                    Button(L10n.string("Check availability"), systemImage: "arrow.clockwise", action: wander.refreshModelStatus)
+                } label: {
+                    HStack(spacing: 4) {
+                        Text(wander.mode == .appleAI ? L10n.string("Apple AI") : L10n.string("Library"))
+                        Image(systemName: "chevron.down").font(.system(size: 9))
+                    }.font(.caption.bold())
+                }.accessibilityLabel(L10n.string("Wander content source")).disabled(wander.isGenerating)
+            }
+            if !wander.modelStatus.isAvailable {
+                Text(wander.modelStatus.message).font(.caption2).foregroundStyle(Palette.muted)
+            } else if layer.depth == 0 && wander.mode == .appleAI {
+                Text(L10n.string("Choose an interest or ask a question to generate a fresh idea here."))
+                    .font(.caption2).foregroundStyle(Palette.muted)
+            }
+        }
+        .padding(14).background(Palette.sage.opacity(0.45), in: RoundedRectangle(cornerRadius: 17))
+        .foregroundStyle(Palette.green)
+    }
+
     private var mapControls: some View {
         HStack {
-            Text("Choose an idea").font(.caption).foregroundStyle(Palette.muted)
+            Text(L10n.string("Choose an idea")).font(.caption).foregroundStyle(Palette.muted)
             Spacer()
-            Picker("Topic layout", selection: Binding(get: { wander.layout }, set: wander.setLayout)) {
+            Picker(L10n.string("Topic layout"), selection: Binding(get: { wander.layout }, set: wander.setLayout)) {
                 ForEach(WanderLayout.allCases, id: \.self) { layout in Text(layout.title).tag(layout) }
             }.pickerStyle(.segmented).frame(maxWidth: 200)
         }
@@ -126,26 +175,26 @@ struct WanderView: View {
         VStack(alignment: .leading, spacing: 20) {
             PaperCard {
                 VStack(alignment: .leading, spacing: 12) {
-                    Eyebrow(text: "The idea")
+                    Eyebrow(text: L10n.string("The idea"))
                     Text(lesson.definition).font(.system(.title3, design: .serif)).lineSpacing(4)
                 }
             }
             PaperCard {
                 VStack(alignment: .leading, spacing: 12) {
-                    Eyebrow(text: "Try it together")
+                    Eyebrow(text: L10n.string("Try it together"))
                     Text(lesson.exampleTitle).font(.headline)
                     Text(lesson.example).font(.subheadline).foregroundStyle(Palette.muted)
                 }
             }
-            AgeCard(name: family.profile.youngerName, age: 2, prompt: lesson.toddler)
-            AgeCard(name: family.profile.olderName, age: 6, prompt: lesson.older)
+            AgeCard(name: family.profile.youngerDisplayName, age: 2, prompt: lesson.toddler)
+            AgeCard(name: family.profile.olderDisplayName, age: 6, prompt: lesson.older)
             Text(lesson.personalPrompt).font(.system(.body, design: .serif).italic()).foregroundStyle(Palette.green)
-            DisclosureGroup("Keep in mind") {
+            DisclosureGroup(L10n.string("Keep in mind")) {
                 Text(lesson.consideration).font(.caption).foregroundStyle(Palette.muted).padding(.top, 8)
             }.font(.subheadline)
-            if let activity = family.activity(lesson.activityID) {
+            if let activityID = lesson.activityID, let activity = family.activity(activityID) {
                 NavigationLink { ActivityDetailView(activity: activity) } label: {
-                    Label("Open the 30-minute adventure", systemImage: "arrow.up.right")
+                    Label(L10n.string("Open the 30-minute adventure"), systemImage: "arrow.up.right")
                 }.buttonStyle(PrimaryButtonStyle())
             }
         }
@@ -159,17 +208,18 @@ struct WanderView: View {
                 Image(systemName: wander.currentPin == nil ? "pin" : "pin.fill")
                     .font(.title3).foregroundStyle(Palette.green).frame(width: 36, height: 40)
             }
-            .accessibilityLabel(wander.currentPin == nil ? "Keep this idea" : "Unpin this idea")
+            .accessibilityLabel(wander.currentPin == nil ? L10n.string("Keep this idea") : L10n.string("Unpin this idea"))
             .accessibilityIdentifier("wander.pin").disabled(wander.current == nil)
-            TextField("A topic, question, or example…", text: $query)
+            TextField(L10n.string("A topic, question, or example…"), text: $query)
                 .font(.subheadline).submitLabel(.search).onSubmit(submit)
-                .accessibilityLabel("Explore a topic")
+                .accessibilityLabel(L10n.string("Explore a topic"))
                 .onChange(of: query) { _, value in if value.count > 240 { query = String(value.prefix(240)) } }
+                .disabled(wander.isGenerating)
             Button(action: submit) {
                 Image(systemName: "arrow.up").font(.headline).foregroundStyle(.white)
                     .frame(width: 40, height: 40).background(Palette.green, in: Circle())
-            }.disabled(query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
-                .accessibilityLabel("Explore topic")
+            }.disabled(wander.isGenerating || query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                .accessibilityLabel(L10n.string("Explore topic"))
         }
         .padding(10).background(.white, in: RoundedRectangle(cornerRadius: 23))
         .padding(.horizontal, 18).padding(.vertical, 8).background(Palette.background)
@@ -177,8 +227,8 @@ struct WanderView: View {
     private func submit() {
         let text = query.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !text.isEmpty else { return }
-        if text.lowercased().hasPrefix("find ") {
-            recallQuery = String(text.dropFirst(5)); showLibrary = true
+        if let recalled = WanderQuery.recallQuery(in: text) {
+            recallQuery = recalled; showLibrary = true
         } else { wander.explore(.refine, query: text) }
         query = ""
     }
@@ -189,9 +239,9 @@ struct WanderNotice: View {
     let dismiss: () -> Void
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Text(text).font(.caption)
+            Text(text).font(.caption).accessibilityIdentifier("wander.error")
             Spacer(minLength: 0)
-            Button(action: dismiss) { Image(systemName: "xmark") }.accessibilityLabel("Dismiss message")
+            Button(action: dismiss) { Image(systemName: "xmark") }.accessibilityLabel(L10n.string("Dismiss message"))
         }.padding(16).background(Palette.peach.opacity(0.65), in: RoundedRectangle(cornerRadius: 17))
     }
 }
@@ -280,9 +330,9 @@ struct WanderTopicView: View {
                 }
                 .aspectRatio(1, contentMode: .fit).clipped()
                 HStack(spacing: 20) {
-                    Button { zoom(-0.1) } label: { Image(systemName: "minus") }.accessibilityLabel("Zoom out map")
-                    Button("\(Int(viewport.scale * 100))%") { onViewport(WanderViewport()) }.accessibilityLabel("Fit map")
-                    Button { zoom(0.1) } label: { Image(systemName: "plus") }.accessibilityLabel("Zoom in map")
+                    Button { zoom(-0.1) } label: { Image(systemName: "minus") }.accessibilityLabel(L10n.string("Zoom out map"))
+                    Button("\(Int(viewport.scale * 100))%") { onViewport(WanderViewport()) }.accessibilityLabel(L10n.string("Fit map"))
+                    Button { zoom(0.1) } label: { Image(systemName: "plus") }.accessibilityLabel(L10n.string("Zoom in map"))
                 }
                 .font(.caption.weight(.medium)).padding(.bottom, 14)
             }

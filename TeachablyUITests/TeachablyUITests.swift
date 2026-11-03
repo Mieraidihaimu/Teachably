@@ -9,16 +9,17 @@ final class TeachablyUITests: XCTestCase {
     @MainActor
     func testFirstAdventureAndMemorySurviveRelaunch() throws {
         let app = XCUIApplication()
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB"]
         // A new suite exercises first-run behaviour without erasing user data.
         app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.tests.\(UUID().uuidString)"
         app.launch()
         XCTAssertTrue(app.staticTexts["You already have\nso much to share."].waitForExistence(timeout: 10))
-        XCTAssertTrue(app.staticTexts["7 interests · 21 adventures"].exists)
+        XCTAssertTrue(app.staticTexts["Interests: 7 · Adventures: 42"].exists)
         let maths = app.buttons.containing(.staticText, identifier: "Maths & numbers").firstMatch
         maths.tap()
-        XCTAssertTrue(app.staticTexts["6 interests · 18 adventures"].exists)
+        XCTAssertTrue(app.staticTexts["Interests: 6 · Adventures: 36"].exists)
         maths.tap()
-        XCTAssertTrue(app.staticTexts["7 interests · 21 adventures"].exists)
+        XCTAssertTrue(app.staticTexts["Interests: 7 · Adventures: 42"].exists)
         attachScreenshot("Your interests", app: app)
         let begin = app.buttons["Find our first adventure"]
         if !begin.isHittable { app.swipeUp() }
@@ -56,8 +57,9 @@ final class TeachablyUITests: XCTestCase {
     @MainActor
     func testWanderCanExplorePinRecallAndRestoreAfterRelaunch() throws {
         let app = XCUIApplication()
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB"]
         app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.wander.tests.\(UUID().uuidString)"
-        app.launchArguments = ["--demo"]
+        app.launchArguments += ["--demo"]
         app.launch()
         app.tabBars.buttons["Wander"].tap()
         let coding = app.buttons["Coding & logic"]
@@ -100,6 +102,94 @@ final class TeachablyUITests: XCTestCase {
         result.tap()
         XCTAssertTrue(app.staticTexts["Found: A loop of silly moves"].waitForExistence(timeout: 5))
         attachScreenshot("Wander recall", app: app)
+    }
+
+    @MainActor
+    func testAppleGenerationRestoresAnIdeaOrPreservesTheMapOnServiceFailure() throws {
+        let app = XCUIApplication()
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB"]
+        app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.apple.tests.\(UUID().uuidString)"
+        app.launchArguments += ["--demo", "--apple-ai"]
+        app.launch()
+        app.tabBars.buttons["Wander"].tap()
+        let ready = app.staticTexts["Choose an interest or ask a question to generate a fresh idea here."]
+        guard ready.waitForExistence(timeout: 10) else {
+            attachScreenshot("Apple model availability", app: app)
+            throw XCTSkip("Apple Intelligence is unavailable on this simulator. The live provider is verified separately on a supported host.")
+        }
+        let query = app.textFields["Explore a topic"]
+        query.tap()
+        query.typeText("Why do rainbows form?")
+        app.buttons["Explore topic"].tap()
+        let source = app.staticTexts["wander.source.apple"]
+        let failure = app.staticTexts["wander.error"]
+        let completed = expectation(for: NSPredicate { _, _ in source.exists || failure.exists }, evaluatedWith: nil)
+        wait(for: [completed], timeout: 90)
+        if failure.exists {
+            // Some simulator runtimes advertise availability but cannot load
+            // their model assets. Exercise the actual service failure path.
+            XCTAssertTrue(app.staticTexts["wander.source.library"].exists)
+            XCTAssertTrue(app.buttons["Coding & logic"].exists)
+            XCTAssertTrue(query.isEnabled)
+            XCTAssertFalse(source.exists)
+            attachScreenshot("Apple service failure preserves current map", app: app)
+            app.buttons["Dismiss message"].tap()
+            app.buttons["Wander content source"].tap()
+            app.buttons["Activity library"].tap()
+            app.buttons["Coding & logic"].tap()
+            XCTAssertTrue(app.buttons["Be my friendly robot"].waitForExistence(timeout: 5))
+            attachScreenshot("Library usable after Apple service failure", app: app)
+            return
+        }
+        XCTAssertTrue(source.exists)
+        XCTAssertTrue(app.staticTexts["THE IDEA"].exists)
+        attachScreenshot("Apple generated explanation", app: app)
+        app.buttons["wander.pin"].tap()
+        app.terminate()
+        app.launch()
+        app.tabBars.buttons["Wander"].tap()
+        XCTAssertTrue(source.waitForExistence(timeout: 10))
+        XCTAssertEqual(app.buttons["wander.pin"].label, "Unpin this idea")
+        attachScreenshot("Apple generated idea restored", app: app)
+    }
+
+    @MainActor
+    func testEverySupportedLanguageLocalizesOnboardingTodayAndMemories() throws {
+        let languages: [(code: String, today: String, memories: String)] = [
+            ("en", "Today", "Memories"),
+            ("zh-Hans", "今天", "回忆"),
+            ("zh-Hant", "今天", "回憶"),
+            ("ja", "今日", "思い出"),
+            ("es", "Hoy", "Recuerdos"),
+            ("id", "Hari ini", "Kenangan")
+        ]
+        var englishActivityTitle = ""
+        for language in languages {
+            let app = XCUIApplication()
+            app.launchArguments = ["-AppleLanguages", "(\(language.code))", "-AppleLocale", language.code]
+            app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.localization.\(UUID().uuidString)"
+            app.launch()
+            let welcome = app.staticTexts["skills.heading"]
+            XCTAssertTrue(welcome.waitForExistence(timeout: 10), language.code)
+            if language.code != "en" {
+                XCTAssertNotEqual(welcome.label, "You already have\nso much to share.", language.code)
+            }
+            app.buttons["skills.save"].tap()
+            let heading = app.staticTexts["today.heading"]
+            XCTAssertTrue(heading.waitForExistence(timeout: 10), language.code)
+            XCTAssertEqual(app.tabBars.buttons.element(boundBy: 0).label, language.today, language.code)
+            let title = app.staticTexts["today.activity.title"].label
+            XCTAssertFalse(title.isEmpty)
+            if language.code == "en" { englishActivityTitle = title }
+            else {
+                XCTAssertNotEqual(heading.label, "Little moments.\nBig discoveries.", language.code)
+                XCTAssertNotEqual(title, englishActivityTitle, language.code)
+            }
+            attachScreenshot("Today · \(language.code)", app: app)
+            app.tabBars.buttons.element(boundBy: 4).tap()
+            XCTAssertTrue(app.navigationBars[language.memories].waitForExistence(timeout: 5), language.code)
+            app.terminate()
+        }
     }
 
     @MainActor

@@ -1,0 +1,3071 @@
+[
+  {
+    "id": "shadow-stories",
+    "title": "Ke mana perginya bayangan?",
+    "subtitle": "Senter, dinding, dan sedikit keajaiban.",
+    "skill": "science",
+    "symbol": "flashlight.on.fill",
+    "takeaway": "Bayangan muncul ketika ada sesuatu yang menghalangi cahaya.",
+    "parentPrimer": "Cahaya berasal dari sumber. Benda tak tembus cahaya menghalangi sebagian cahaya sehingga lebih sedikit cahaya mencapai permukaan di belakangnya. Mendekatkan tangan ke senter biasanya memperbesar bayangannya pada dinding yang tetap.",
+    "materials": [
+      "Senter",
+      "Dinding kosong",
+      "Tangan kalian"
+    ],
+    "toddler": {
+      "action": "Lambaikan tangan pada bayangan, tirukan bentuknya, dan coba mendekat. Melihat atau menunjuk juga termasuk ikut serta.",
+      "question": "Bisakah bayangannya melambai?"
+    },
+    "older": {
+      "action": "Tebak apa yang terjadi saat tangan mendekati senter, lalu coba. Buat cerita bayangan dengan dua tokoh.",
+      "question": "Bagaimana kita membuat bayangannya lebih besar?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Buat bayangan melambai menyapa. Tanyakan dari mana asalnya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Halangi senter dengan tangan: “Tanganku menghentikan sebagian cahaya.” Ajak kedua anak mencoba."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Bergiliran membuat bentuk. Biarkan adik bergerak bebas sementara kakak mengubah satu hal setiap kali mencoba. Akhiri dengan cerita bayangan singkat."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing memilih bayangan favorit. Ajak kakak menjelaskan satu penemuan dan adik memperagakannya."
+      }
+    ],
+    "personalPrompt": "Kapan Anda memakai senter atau melihat bayangan mengejutkan? Bagikan pengalaman itu.",
+    "careNote": "Pastikan ruangan mudah dilalui. Orang dewasa memegang senter; jangan arahkan ke mata. Pastikan penutup baterai terkunci."
+  },
+  {
+    "id": "sound-lab",
+    "title": "Bisakah kamu melihat suara?",
+    "subtitle": "Rasakan dengungan dan temukan getaran kecil.",
+    "skill": "science",
+    "symbol": "waveform",
+    "takeaway": "Suara bermula dari getaran.",
+    "parentPrimer": "Getaran adalah gerak bolak-balik. Bersenandung membuat bagian tenggorokan bergetar, dan ketukan lembut dapat menggetarkan kotak kardus. Gunakan suara pelan dan perbandingan sederhana.",
+    "materials": [
+      "Kotak kardus besar kosong",
+      "Suara kalian"
+    ],
+    "toddler": {
+      "action": "Tirukan dengungan pelan atau tepuk kotak dengan telapak tangan terbuka.",
+      "question": "Mau bersenandung pelan?"
+    },
+    "older": {
+      "action": "Sentuhkan ujung jari perlahan ke tenggorokan sendiri saat bersenandung. Bandingkan bunyi ketukan pelan di bagian kotak yang berbeda.",
+      "question": "Apa yang terasa saat bersenandung?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Sapa dengan senandung dan ajak anak menirukannya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Bersenandung sambil menyentuh tenggorokan sendiri. Jelaskan bahwa gerakan kecil membantu menghasilkan suara."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Buat kelompok musik pelan dengan suara dan ketukan kotak. Bergiliran memimpin. Bandingkan ketukan dengan dengungan, lalu ciptakan pola bunyi pendek."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Ulangi bunyi favorit dan sebutkan sesuatu yang bergerak."
+      }
+    ],
+    "personalPrompt": "Alat musik, mesin, atau suara keseharian apa yang Anda pahami? Ceritakan kapan Anda pertama kali memperhatikannya.",
+    "careNote": "Jaga suara tetap pelan dan nyaman. Sentuh tenggorokan sendiri saja. Gunakan kotak bersih tanpa staples atau bagian lepas."
+  },
+  {
+    "id": "leaf-detectives",
+    "title": "Setiap daun punya cerita",
+    "subtitle": "Ubah jalan-jalan biasa menjadi penjelajahan kecil.",
+    "skill": "nature",
+    "symbol": "leaf.fill",
+    "takeaway": "Daun memiliki bentuk, tepi, dan tekstur yang berbeda.",
+    "parentPrimer": "Mengamati dengan saksama adalah keterampilan berguna. Daun dapat digambarkan tanpa tahu nama tumbuhannya: bulat atau runcing, halus atau kasar, lebar atau sempit. Satu pohon dapat memiliki banyak daun berbentuk serupa.",
+    "materials": [
+      "Tempat luar ruang yang sudah dikenal",
+      "Beberapa daun besar yang gugur"
+    ],
+    "toddler": {
+      "action": "Tunjuk warna, rasakan daun bersama, dan gunakan kata besar, kecil, halus, atau berkerut.",
+      "question": "Daun mana yang ingin kamu tunjukkan?"
+    },
+    "older": {
+      "action": "Kelompokkan daun gugur menurut ciri pilihanmu. Jelaskan aturannya lalu coba aturan lain.",
+      "question": "Bagaimana cara lain mengelompokkan daun ini?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Temukan dua daun gugur yang tampak sangat berbeda."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tunjukkan cara mengamati bentuk, tepi, dan warna. Sebutkan nama pohon yang Anda kenal, jika ada."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Jelajahi rute pendek yang dikenal. Ambil sedikit daun gugur saja, gambarkan cirinya, lalu susun menjadi gambar di tanah."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing memilih satu daun dan menceritakan atau menunjukkan keistimewaannya."
+      }
+    ],
+    "personalPrompt": "Adakah pohon, kebun, atau tempat luar ruang dari masa kecil Anda? Bagikan ceritanya.",
+    "careNote": "Tetap bersama, jauh dari jalan raya dan air. Pegang hanya daun gugur yang dikenal; jangan masukkan tumbuhan ke mulut dan cuci tangan sesudahnya."
+  },
+  {
+    "id": "sky-watchers",
+    "title": "Cerita di langit",
+    "subtitle": "Cari bentuk di awan dan perhatikan perubahannya.",
+    "skill": "nature",
+    "symbol": "cloud.fill",
+    "takeaway": "Bentuk awan dapat berubah saat awan bergerak dan berkembang.",
+    "parentPrimer": "Awan berisi titik air atau kristal es kecil. Angin dapat menggerakkannya. Melihat bentuk binatang adalah imajinasi; memperhatikan arah dan perubahan adalah pengamatan.",
+    "materials": [
+      "Tempat aman untuk melihat langit",
+      "Kertas dan krayon besar (opsional)"
+    ],
+    "toddler": {
+      "action": "Tunjuk awan, tirukan bentuknya dengan lengan, atau cukup mengamati di samping saya.",
+      "question": "Apakah awan itu tampak empuk?"
+    },
+    "older": {
+      "action": "Pilih awan, gambarkan, lalu lihat lagi beberapa menit kemudian. Bedakan yang terlihat dengan cerita yang kamu bayangkan.",
+      "question": "Apa yang berubah selama kita mengamati?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Cari awan yang menyerupai binatang. Langit mendung bisa dibayangkan sebagai selimut raksasa."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Bagikan pengetahuan tentang awan atau cuaca. Sebutkan mana yang terlihat langsung dan mana yang merupakan dugaan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Amati dari tempat aman. Ceritakan kisah awan dan buat bentuknya dengan lengan. Jika tidak berawan, gambar langit khayalan bersama."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Sebutkan satu hal nyata yang diamati dan satu hal yang dibayangkan."
+      }
+    ],
+    "personalPrompt": "Ceritakan perjalanan atau hari berkesan ketika cuaca mengubah rencana Anda.",
+    "careNote": "Jangan pernah menatap matahari langsung. Pilih tempat teduh dan aman, jauh dari lalu lintas, balkon, atau air."
+  },
+  {
+    "id": "paper-bridges",
+    "title": "Bangun jembatan menuju suatu tempat",
+    "subtitle": "Tantangan teknik kecil dengan imajinasi besar.",
+    "skill": "making",
+    "symbol": "building.2.fill",
+    "takeaway": "Mengubah bentuk dapat mengubah kemampuan struktur menahan beban.",
+    "parentPrimer": "Kertas datar mudah melengkung. Lipatan dapat membuat lembar yang sama lebih kaku. Anak dapat membandingkan rancangan tanpa penjelasan teknis tentang gaya.",
+    "materials": [
+      "Kertas",
+      "Dua kotak besar yang stabil",
+      "Mainan besar dan ringan"
+    ],
+    "toddler": {
+      "action": "Letakkan mainan di samping jembatan dan bantu pegang atau lipat kertas besar.",
+      "question": "Mainanmu akan pergi ke mana?"
+    },
+    "older": {
+      "action": "Bandingkan kertas datar dan terlipat melintasi celah kecil yang sama. Uji dengan mainan ringan yang sama.",
+      "question": "Bentuk mana yang lebih sedikit melengkung?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Buat celah di antara dua kotak rendah. Mainan perlu menyeberang."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Peragakan satu lipatan dan ceritakan sesuatu yang pernah Anda buat atau perbaiki."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Coba jembatan datar, lalu yang terlipat. Jaga celah tetap kecil. Biarkan adik bermain dengan mainan sementara kakak merancang ulang jembatan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih rancangan favorit. Tanyakan apa yang ingin dicoba berbeda besok."
+      }
+    ],
+    "personalPrompt": "Apa yang pernah Anda buat atau perbaiki? Ceritakan saat percobaan pertama belum berhasil.",
+    "careNote": "Bangun di lantai. Gunakan mainan ringan yang terlalu besar untuk tertelan. Jembatan ini hanya untuk mainan, bukan untuk diinjak atau dipanjat."
+  },
+  {
+    "id": "cardboard-town",
+    "title": "Kota buatan kita",
+    "subtitle": "Buat tempat yang memberi ruang bagi semua.",
+    "skill": "making",
+    "symbol": "house.fill",
+    "takeaway": "Kita dapat merancang tempat sesuai kebutuhan orang.",
+    "parentPrimer": "Rancangan bermula dari kebutuhan: beristirahat, bermain, bepergian, atau bertemu. Model kardus memudahkan kita mencoba ide, memindahkan bagian, dan membahas siapa penggunanya.",
+    "materials": [
+      "Kotak kardus besar yang bersih",
+      "Kertas",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Pilih rumah kotak dan pindahkan mainan besar dari satu tempat ke tempat lain.",
+      "question": "Di mana mainanmu sebaiknya tidur?"
+    },
+    "older": {
+      "action": "Rencanakan tiga tempat yang dibutuhkan kota dan jelaskan siapa yang terbantu. Ubah susunannya setelah perjalanan pura-pura.",
+      "question": "Apa yang membuat kota ini lebih mudah dikunjungi?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Tanyakan ke mana mainan akan pergi jika membutuhkan rumah."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Bagikan pengetahuan tentang membangun, memperbaiki, atau menata ruang. Gambar denah sangat sederhana."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Susun kotak sebagai bangunan di lantai. Tambahkan jalan dari kertas. Setiap anak memilih tempat lalu membawa mainan menjelajahi kota."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Beri nama kota dan tunjukkan satu pilihan rancangan yang memperhatikan kebutuhan orang."
+      }
+    ],
+    "personalPrompt": "Apa yang Anda sukai dari tempat yang pernah dihuni atau dikunjungi? Tambahkan idenya ke kota.",
+    "careNote": "Orang dewasa melepas staples dan memotong terlebih dahulu. Jaga jalur berjalan tetap kosong dan jangan biarkan anak memanjat masuk ke kotak yang tidak stabil."
+  },
+  {
+    "id": "kitchen-measures",
+    "title": "Berapa banyak yang muat?",
+    "subtitle": "Peralatan dapur menjadi laboratorium kecil.",
+    "skill": "cooking",
+    "symbol": "cup.and.saucer.fill",
+    "takeaway": "Wadah dapat menampung jumlah berbeda, meskipun bentuknya menipu.",
+    "parentPrimer": "Kapasitas berarti banyaknya isi yang dapat ditampung. Memakai cangkir kecil yang sama memberi satuan sederhana untuk membandingkan. Ajak menebak sebelum menghitung; tumpahan adalah bagian dari penjelajahan.",
+    "materials": [
+      "Baki dangkal",
+      "Cangkir besar yang tidak mudah pecah",
+      "Sedikit air",
+      "Handuk"
+    ],
+    "toddler": {
+      "action": "Bantu tuang sedikit air antarcangkir besar dengan tangan saya dekat. Gunakan kata penuh dan kosong.",
+      "question": "Cangkir ini penuh atau kosong?"
+    },
+    "older": {
+      "action": "Tebak berapa cangkir kecil diperlukan untuk memenuhi wadah besar, lalu hitung sambil menuang.",
+      "question": "Bagaimana membuat perbandingan ini adil?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Tunjukkan dua wadah berbeda. Tanyakan mana yang mungkin menampung lebih banyak."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Ceritakan penggunaan cangkir atau takaran saat memasak. Peragakan menuang perlahan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Bandingkan wadah dengan cangkir kecil yang sama. Adik menuang dengan bantuan dan kakak menghitung. Akhiri dengan mengelap bersama."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih wadah dan ingat bagaimana kalian membandingkannya."
+      }
+    ],
+    "personalPrompt": "Apa yang Anda suka masak? Jelaskan kapan takaran bahan menjadi penting.",
+    "careNote": "Orang dewasa selalu berada dalam jangkauan. Gunakan sedikit air dalam baki dangkal; segera kosongkan setelah selesai dan lap tumpahan."
+  },
+  {
+    "id": "recipe-moves",
+    "title": "Resep tanpa kompor",
+    "subtitle": "Temukan bagaimana urutan membuat langkah menjadi berguna.",
+    "skill": "cooking",
+    "symbol": "list.number",
+    "takeaway": "Resep adalah urutan instruksi.",
+    "parentPrimer": "Urutan membantu kita mengulang proses. Resep pura-pura menunjukkan pentingnya urutan dan instruksi jelas tanpa peralatan panas atau menyiapkan makanan sungguhan.",
+    "materials": [
+      "Kertas",
+      "Krayon besar",
+      "Mangkuk besar dan sendok yang tidak mudah pecah"
+    ],
+    "toddler": {
+      "action": "Aduk campuran pura-pura dan tirukan satu gerakan sederhana setiap kali.",
+      "question": "Ayo aduk, aduk, aduk?"
+    },
+    "older": {
+      "action": "Gambar empat langkah resep, jelaskan urutannya, lalu uji apakah orang lain dapat mengikutinya.",
+      "question": "Apa yang terjadi jika langkah ini ditukar?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Umumkan dapur pura-pura yang membuat sup khayalan."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Ceritakan resep nyata yang Anda kenal. Peragakan mengumpulkan bahan, mencampur, dan menyajikan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Ciptakan resep khayalan bersama. Gambar langkahnya, berganti peran juru masak dan pembantu, lalu sengaja acak urutannya dan betulkan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing memilih langkah favorit. Kakak menjelaskan urutan dan adik memperagakan satu langkah."
+      }
+    ],
+    "personalPrompt": "Bagikan masakan yang diajarkan seseorang kepada Anda, serta orang atau tempat yang mengingatkan Anda padanya.",
+    "careNote": "Tetaplah bermain pura-pura dengan peralatan yang tidak mudah pecah. Simpan alat panas, pisau, dan bahan sungguhan."
+  },
+  {
+    "id": "rhythm-echo",
+    "title": "Kamu membuatnya. Aku menirukan.",
+    "subtitle": "Sedikit irama, banyak mendengarkan.",
+    "skill": "music",
+    "symbol": "hands.clap.fill",
+    "takeaway": "Irama adalah pola suara dan keheningan.",
+    "parentPrimer": "Ketukan tetap dapat dibedakan dari irama yang dimainkan di atasnya. Mulai dengan ketukan lambat yang nyaman, lalu tambahkan pola pendek dengan jeda. Mendengarkan sama bermanfaatnya dengan bermain.",
+    "materials": [
+      "Tangan kalian",
+      "Bantal untuk ditepuk"
+    ],
+    "toddler": {
+      "action": "Tirukan satu tepukan dan pilih gerakan yang ditirukan semua orang.",
+      "question": "Bisa kita menepuk bersama?"
+    },
+    "older": {
+      "action": "Buat pola pendek dengan jeda. Ajarkan pada keluarga lalu ubah satu bagiannya.",
+      "question": "Bagaimana kita mengingat bagian yang sunyi?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Sapa dengan tepukan lembut dan sisakan waktu untuk balasan."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Bagikan irama atau lagu yang Anda kenal. Ketuk lutut dengan tempo lambat."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Bergiliran membuat pola pendek. Jaga ketukan tetap bersama, tambahkan keheningan, lalu biarkan setiap anak memimpin kelompok musik kecil keluarga."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Mainkan pola favorit sekali lagi dan saling berterima kasih karena sudah mendengarkan."
+      }
+    ],
+    "personalPrompt": "Musik apa yang Anda sukai dan siapa yang mengenalkannya? Bersenandunglah sedikit sambil bercerita.",
+    "careNote": "Jaga volume tetap nyaman. Gunakan tangan dan permukaan empuk; hindari alat musik lepas dengan bagian kecil."
+  },
+  {
+    "id": "soundtrack-story",
+    "title": "Beri cerita musik pengiring",
+    "subtitle": "Ubah langkah kaki, hujan, dan raksasa menjadi musik.",
+    "skill": "music",
+    "symbol": "pianokeys",
+    "takeaway": "Musik dan suara dapat membantu bercerita.",
+    "parentPrimer": "Tempo menunjukkan cepat lambat musik. Suara pelan atau lebih kuat, pola cepat atau lambat, serta jeda dapat menggambarkan tindakan atau suasana. Tidak ada satu musik pengiring yang paling benar.",
+    "materials": [
+      "Bantal",
+      "Kertas",
+      "Suara kalian"
+    ],
+    "toddler": {
+      "action": "Pilih suara lembut untuk hujan dan tirukan langkah raksasa yang lambat sambil duduk atau berdiri.",
+      "question": "Bagaimana suara raksasa kita?"
+    },
+    "older": {
+      "action": "Buat suara berbeda untuk tiga kejadian cerita dan jelaskan pilihanmu.",
+      "question": "Apa yang bisa diceritakan oleh jeda?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Bisikkan bahwa makhluk kecil akan berpetualang."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tunjukkan ketukan lambat sebagai langkah kaki dan gemerisik lembut sebagai hujan. Bagikan musik yang mengingatkan Anda pada cerita."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Ceritakan perjalanan sederhana. Berhenti sejenak agar setiap anak menambahkan suara. Ubah cuaca atau tokohnya lalu buat musik pengiring baru."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Ceritakan ulang momen favorit hanya dengan bunyinya."
+      }
+    ],
+    "personalPrompt": "Lagu, musik film, atau suara akrab apa yang membangkitkan kenangan? Ceritakan alasannya.",
+    "careNote": "Jaga suara tetap pelan. Awasi penggunaan kertas besar dan singkirkan sobekan kecil."
+  },
+  {
+    "id": "story-bag",
+    "title": "Tiga benda. Satu cerita seru.",
+    "subtitle": "Buat petualangan dari benda yang sudah dimiliki.",
+    "skill": "storytelling",
+    "symbol": "sparkles.rectangle.stack.fill",
+    "takeaway": "Cerita dapat menghubungkan tokoh, masalah, dan penyelesaian.",
+    "parentPrimer": "Cerita tidak perlu sempurna. Mulai dari seseorang yang menginginkan sesuatu, menemui hambatan, lalu mencoba suatu ide. Anak dapat menyumbang gerakan, suara, atau kata.",
+    "materials": [
+      "Tiga mainan besar yang dikenal",
+      "Tas atau sarung bantal"
+    ],
+    "toddler": {
+      "action": "Pilih mainan, buat suaranya, atau tentukan ke mana ia pergi.",
+      "question": "Siapa yang ikut petualangan kita?"
+    },
+    "older": {
+      "action": "Beri tokoh tujuan dan ciptakan dua kemungkinan solusi saat ada masalah.",
+      "question": "Apa lagi yang bisa tokoh kita coba?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Keluarkan mainan besar dari tas dengan sapaan dramatis."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Mulai cerita singkat dan tunjukkan bahwa tokoh bisa menginginkan sesuatu. Bagikan contoh dari imajinasi Anda."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Tambahkan benda lain satu per satu. Bergiliran menentukan kejadian, memperagakannya, lalu mencoba akhir berbeda."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Beri judul cerita dan biarkan setiap anak mengulang atau menunjukkan momen favorit."
+      }
+    ],
+    "personalPrompt": "Cerita apa yang Anda nikmati saat kecil? Pinjam latar atau perasaannya.",
+    "careNote": "Gunakan mainan terlalu besar untuk tertelan. Orang dewasa memegang tas; jangan kenakan di kepala."
+  },
+  {
+    "id": "family-map",
+    "title": "Peta cerita Anda sendiri",
+    "subtitle": "Bagikan tempat yang membentuk diri Anda.",
+    "skill": "storytelling",
+    "symbol": "map.fill",
+    "takeaway": "Peta membantu kita menceritakan perjalanan secara berurutan.",
+    "parentPrimer": "Peta sederhana mewakili tempat dan hubungannya, tanpa harus tepat secara geografis. Pertama, berikutnya, dan terakhir menghubungkan rute gambar dengan cerita pribadi.",
+    "materials": [
+      "Kertas besar",
+      "Krayon besar",
+      "Mainan besar untuk digerakkan"
+    ],
+    "toddler": {
+      "action": "Tambahkan coretan untuk tempat dan gerakkan mainan menyusuri rute bersama saya.",
+      "question": "Selanjutnya kita ke mana?"
+    },
+    "older": {
+      "action": "Gambar tiga tempat dalam cerita, hubungkan, lalu ceritakan ulang perjalanan secara berurutan.",
+      "question": "Detail apa yang membantu orang mengikuti perjalanan ini?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Katakan bahwa kalian akan mengunjungi tempat dalam kenangan Anda."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Gambar tempat yang dikenal dan ceritakan satu kenangan khusus di sana."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Buat peta cerita bersama: rumah, persinggahan, dan tujuan. Gerakkan mainan sambil bertanya, lalu masing-masing anak menambah tempat khayalan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Tanyakan tempat yang ingin dikunjungi dan simpan satu pertanyaan untuk dibahas lagi."
+      }
+    ],
+    "personalPrompt": "Pilih perjalanan, rumah masa kecil, atau tempat yang terkait orang penting bagi Anda.",
+    "careNote": "Gambar di permukaan rendah yang stabil dengan krayon sesuai usia. Jauhkan tutup dan bagian kecil."
+  },
+  {
+    "id": "toy-shop",
+    "title": "Buka toko mungil",
+    "subtitle": "Berlatih memilih, menghitung, dan bergiliran.",
+    "skill": "numbers",
+    "symbol": "storefront.fill",
+    "takeaway": "Berbelanja melibatkan pilihan, jumlah, dan pertukaran.",
+    "parentPrimer": "Gunakan uang kertas pura-pura dan bilangan bulat. Toko mengajak anak menghitung, membandingkan, dan menjelaskan pilihan. Bagi adik, memilih dan menyerahkan benda sudah cukup.",
+    "materials": [
+      "Tiga mainan besar",
+      "Uang kertas mainan berukuran besar",
+      "Label harga dari kertas"
+    ],
+    "toddler": {
+      "action": "Pilih barang dan berlatih menyerahkan atau menaruhnya di toko.",
+      "question": "Mana yang kamu pilih?"
+    },
+    "older": {
+      "action": "Beri harga satu sampai lima, hitung uang mainan, dan cari apa yang dapat dibeli dengan anggaran kecil.",
+      "question": "Apa yang bisa dipilih dengan tiga lembar uang?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Umumkan toko mainan sudah buka."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Ceritakan cara Anda memutuskan pembelian. Peragakan pertukaran pura-pura perlahan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Berganti peran penjual dan pembeli. Adik memilih barang sementara kakak memberi harga dan membantu menghitung uang. Ciptakan pengantaran atau etalase baru."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Bagikan satu pilihan masing-masing dan alasannya."
+      }
+    ],
+    "personalPrompt": "Pernahkah Anda menabung atau memilih sesuatu dengan saksama? Ceritakan cara memutuskannya.",
+    "careNote": "Gunakan uang kertas mainan besar, bukan koin asli atau kepingan kecil. Jangan beri tekanan untuk membeli barang sungguhan."
+  },
+  {
+    "id": "pattern-path",
+    "title": "Apa berikutnya?",
+    "subtitle": "Buat jejak pola di ruangan.",
+    "skill": "numbers",
+    "symbol": "square.grid.2x2.fill",
+    "takeaway": "Pola berulang memiliki bagian yang muncul lagi.",
+    "parentPrimer": "Mulai dengan pola AB seperti tepuk tangan, tepuk paha, lalu ulangi. Bagian berulangnya adalah kedua tepukan itu. Pola dapat terlihat dalam gerakan, warna, suara, dan susunan.",
+    "materials": [
+      "Bantal besar atau boneka empuk",
+      "Ruang di lantai"
+    ],
+    "toddler": {
+      "action": "Tirukan dua tepukan atau pilih antara dua mainan besar saat kita membuat pola.",
+      "question": "Tepuk tangan, tepuk paha… lalu apa?"
+    },
+    "older": {
+      "action": "Lanjutkan pola AB, ciptakan pola AAB, dan jelaskan bagian berulangnya.",
+      "question": "Bagian mana yang terus berulang?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Buat sapaan lucu dengan dua tepukan lalu ulangi."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Bagikan pola yang Anda gunakan dalam musik, angka, olahraga, atau rutinitas."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Susun mainan besar dalam barisan berpola. Ubah menjadi gerak atau suara. Setiap anak memimpin pola, lalu sembunyikan satu bagian dan cari yang seharusnya ada."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Ulangi pola keluarga bersama sekali lagi."
+      }
+    ],
+    "personalPrompt": "Di mana pola membantu pekerjaan atau hobi Anda? Tunjukkan contoh sederhana.",
+    "careNote": "Jaga lantai tetap kosong. Taruh mainan di samping jalur, bukan di tempat yang akan diinjak."
+  },
+  {
+    "id": "animal-moves",
+    "title": "Bagaimana hewan bergerak?",
+    "subtitle": "Meregang, menyeimbangkan tubuh, dan bertingkah lucu.",
+    "skill": "movement",
+    "symbol": "pawprint.fill",
+    "takeaway": "Gerakan berbeda menggunakan tubuh dengan cara berbeda.",
+    "parentPrimer": "Permainan gerak mengeksplorasi cepat-lambat, besar-kecil, dan keseimbangan dengan bantuan. Biarkan setiap anak memilih versi nyaman. Tujuannya menikmati dan memperhatikan gerak, bukan melakukannya sempurna.",
+    "materials": [
+      "Ruang dalam rumah yang lapang",
+      "Matras empuk (opsional)"
+    ],
+    "toddler": {
+      "action": "Pilih hewan favorit dan tirukan satu gerakan nyaman sambil duduk atau berdiri.",
+      "question": "Mau menjangkau tinggi seperti jerapah?"
+    },
+    "older": {
+      "action": "Ciptakan urutan gerak hewan dan jelaskan gerakan yang terasa stabil atau goyah.",
+      "question": "Apa yang membantumu tetap seimbang?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Jadilah hewan mengantuk yang bangun sambil meregang."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Bagikan pemanasan lembut atau gerakan olahraga yang Anda sukai. Tawarkan juga versi duduk."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Bergiliran memilih hewan. Bergerak perlahan, membeku, lalu berganti arah. Buat petualangan hewan pendek dengan istirahat dan minum sesuai keinginan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih gerakan favorit dan perhatikan perasaan tubuh."
+      }
+    ],
+    "personalPrompt": "Olahraga, tarian, atau permainan luar ruang apa yang Anda nikmati? Bagikan sedikit gerakannya.",
+    "careNote": "Singkirkan rintangan; hindari memanjat dan melompat dari perabot. Pilih gerakan nyaman. Berhenti jika ada yang ingin beristirahat."
+  },
+  {
+    "id": "sock-target",
+    "title": "Bidik kemajuan kecil",
+    "subtitle": "Kaus kaki gulung menjadi percobaan yang ramah.",
+    "skill": "movement",
+    "symbol": "target",
+    "takeaway": "Latihan dan penyesuaian kecil membantu meningkatkan keterampilan.",
+    "parentPrimer": "Membidik berarti memilih sasaran lalu memperhatikan hasil. Ubah satu hal, misalnya jarak, dan bandingkan. Hitung percobaan jika menyenangkan; jangan bandingkan kedua anak.",
+    "materials": [
+      "Kaus kaki besar yang digulung",
+      "Keranjang besar terbuka",
+      "Lantai kosong"
+    ],
+    "toddler": {
+      "action": "Jatuhkan atau gulirkan kaus kaki besar ke keranjang dekat dengan bantuan.",
+      "question": "Di mana kaus kakimu mendarat?"
+    },
+    "older": {
+      "action": "Coba lemparan bawah dari dekat, amati hasil, lalu pilih satu penyesuaian.",
+      "question": "Apa yang akan kamu ubah pada percobaan berikutnya?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Jadikan keranjang rumah pura-pura bagi kaus kaki mengantuk."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Peragakan lemparan bawah yang lembut dan ceritakan cara Anda melatih keterampilan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Coba menjatuhkan, menggulirkan, dan melempar. Geser keranjang mendekat atau menjauh. Setiap anak memilih tantangannya; rayakan percobaan atau sikap bergiliran yang baik."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Sebutkan satu hal yang dicoba dan satu hal untuk kesempatan berikutnya."
+      }
+    ],
+    "personalPrompt": "Ceritakan pengalaman belajar perlahan. Apa yang membuat Anda terus mencoba?",
+    "careNote": "Gunakan gulungan kaus kaki besar dan empuk. Bidik keranjang di lantai, jauh dari wajah dan benda pecah belah. Jaga jalur kosong."
+  },
+  {
+    "id": "same-number-new-shape",
+    "title": "Jumlah sama, bentuk baru",
+    "subtitle": "Barisan, lingkaran, dan kejutan berhitung.",
+    "skill": "numbers",
+    "symbol": "circle.grid.2x2.fill",
+    "takeaway": "Merenggangkan kelompok benda tidak menambah jumlahnya.",
+    "parentPrimer": "Menghitung setiap benda sekali menghubungkan angka dengan jumlah. Menyusun ulang mengubah letak, bukan total. Biarkan anak memeriksa dengan memindahkan atau memasangkan benda, tanpa memaksa jawaban.",
+    "materials": [
+      "Enam mainan empuk atau balok besar",
+      "Lantai kosong"
+    ],
+    "toddler": {
+      "action": "Berikan satu mainan besar setiap kali, pilih tempatnya, dan dengarkan saya menghitung perlahan.",
+      "question": "Bisa beri mainan ini seorang teman?"
+    },
+    "older": {
+      "action": "Hitung kelompok, susun ulang tanpa menambah atau mengurangi, lalu jelaskan apakah jumlahnya berubah. Periksa dengan memasangkan benda.",
+      "question": "Jumlahnya berubah, atau hanya bentuknya?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Susun beberapa mainan dalam barisan pendek, lalu renggangkan menjadi lingkaran lebar."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tunjukkan cara menyentuh atau memindahkan setiap benda sekali saat menghitung. Bagikan trik hitungan sehari-hari."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Buat barisan, lingkaran, dan pasangan dengan mainan yang sama. Adik memindahkan, kakak menebak dan memeriksa jumlah. Gunakan kelompok lebih kecil bila lebih mudah."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing memilih susunan dan menunjukkan cara mengetahui jumlah mainan."
+      }
+    ],
+    "personalPrompt": "Kapan Anda memakai hitungan, pengelompokan, atau trik berhitung cepat? Tunjukkan contoh kecil.",
+    "careNote": "Gunakan benda terlalu besar untuk tertelan. Jaga tempat bermain kosong dan ajak berhitung tanpa menguji."
+  },
+  {
+    "id": "picture-detectives",
+    "title": "Baca sedikit, amati banyak",
+    "subtitle": "Buku bergambar favorit membuka percakapan.",
+    "skill": "reading",
+    "symbol": "book.fill",
+    "takeaway": "Gambar dan kata membantu kita memahami cerita.",
+    "parentPrimer": "Bacakan dalam bahasa yang nyaman Anda bagikan. Berhenti saat anak tertarik. Menunjuk, menyebut, bersuara, menebak, dan mendengar semuanya bentuk partisipasi; anak tidak harus membaca kata dengan lantang.",
+    "materials": [
+      "Buku bergambar yang dikenal",
+      "Tempat nyaman untuk bersama"
+    ],
+    "toddler": {
+      "action": "Pilih halaman, tunjuk gambar, tirukan suara hewan, atau balik halaman tebal dengan bantuan.",
+      "question": "Apa yang menarik perhatianmu?"
+    },
+    "older": {
+      "action": "Buat dugaan, tunjuk gambar atau kata petunjuknya, lalu lanjutkan membaca dan tinjau kembali dugaan itu.",
+      "question": "Apa di halaman ini yang memberimu ide itu?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Setiap anak memilih hal untuk diperhatikan pada sampul."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Baca sedikit dengan ekspresi. Ceritakan mengapa Anda menyukai buku ini atau cara memilih buku."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Baca mengikuti ritme mereka. Berhenti pada gambar favorit, peragakan momen, dan ajak kakak memeriksa dugaan. Baca ulang atau istirahat jika diinginkan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing memilih halaman atau detail favorit. Simpan satu pertanyaan untuk lain kali."
+      }
+    ],
+    "personalPrompt": "Apa yang membuat Anda menikmati membaca: tokoh, ide, kalimat, atau perasaan? Bagikan kesenangan itu.",
+    "careNote": "Pilih buku kokoh sesuai usia dan tempat nyaman. Anak tidak harus duduk diam sepanjang sesi."
+  },
+  {
+    "id": "story-in-three-pictures",
+    "title": "Cerita dalam tiga gambar",
+    "subtitle": "Baca, gambar, lalu ceritakan dengan caramu.",
+    "skill": "reading",
+    "symbol": "rectangle.stack.fill",
+    "takeaway": "Kita dapat menceritakan kejadian berurutan melalui gambar dan kata.",
+    "parentPrimer": "Pilih cerita pendek yang dikenal atau baca satu bagian pendek. Gambar kejadian bersama tanpa menuntut anak mengingat semua detail. Penceritaan ulang boleh menyoroti bagian berbeda.",
+    "materials": [
+      "Buku bergambar yang dikenal",
+      "Tiga lembar kertas besar",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Pilih tokoh favorit, buat coretan untuknya, atau tunjuk gambar yang saya ceritakan.",
+      "question": "Di mana tokoh favoritmu?"
+    },
+    "older": {
+      "action": "Gambar atau diktekan awal, tengah, dan akhir, lalu gunakan gambar untuk bercerita kembali.",
+      "question": "Apa yang terjadi sebelum bagian ini?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Buka buku yang dikenal dan tanyakan apa yang mereka ingat."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Baca bagian pendek. Sketsakan satu kejadian dan jelaskan bagaimana gambar membantu mengingatnya."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Buat tiga gambar besar bersama. Adik mencoret atau memilih tokoh sementara kakak mengurutkan kejadian. Ceritakan ulang, lalu coba akhir lucu yang berbeda."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing menunjukkan gambar dan menceritakan, menunjuk, atau memperagakan kejadian."
+      }
+    ],
+    "personalPrompt": "Cerita masa kecil apa yang masih Anda ingat? Ceritakan bagian yang membekas.",
+    "careNote": "Orang dewasa menangani buku dan bahan. Gunakan krayon sesuai usia, buang pecahan kecil, dan terima gambar atau dikte sebagai pengganti tulisan."
+  },
+  {
+    "id": "words-around-us",
+    "title": "Kata-kata bersembunyi di mana-mana",
+    "subtitle": "Temukan tulisan di rumah sendiri.",
+    "skill": "reading",
+    "symbol": "text.magnifyingglass",
+    "takeaway": "Kata tertulis dapat membawa pesan berguna.",
+    "parentPrimer": "Nama, judul buku, dan label sehari-hari memberi tujuan pada tulisan. Tunjuk kata saat membacanya. Ajak kakak memperhatikan huruf atau bunyi yang dikenal tanpa menganggap semua ejaan mengikuti aturan sederhana.",
+    "materials": [
+      "Buku favorit",
+      "Kartu nama dari kertas besar",
+      "Label aman pilihan orang dewasa"
+    ],
+    "toddler": {
+      "action": "Cari gambar yang dikenal atau kartu namamu, tunjuk, dan dengarkan kata yang dibacakan.",
+      "question": "Mau mencari namamu bersama?"
+    },
+    "older": {
+      "action": "Cari kata atau huruf dikenal pada label aman. Jelaskan informasi dari tanda atau label.",
+      "question": "Kata ini membantu kita melakukan apa?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Tulis nama setiap anak pada kartu besar dan bacakan."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tunjukkan judul atau label yang Anda gunakan. Tunjuk kata dan jelaskan informasinya."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Berburu tulisan sebentar di bagian rumah yang aman. Adik mencari gambar, kakak menemukan huruf atau kata dikenal. Buat tanda selamat datang besar dan bacakan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih kata atau tanda berguna dan sebutkan informasi yang diberikannya."
+      }
+    ],
+    "personalPrompt": "Apa yang Anda baca setiap hari, dan bagaimana manfaatnya? Tunjukkan contoh akrab.",
+    "careNote": "Orang dewasa memilih semua label. Hindari obat, pembersih, kemasan dengan bagian kecil, dan memanjat untuk meraih tulisan."
+  },
+  {
+    "id": "our-page-of-today",
+    "title": "Satu halaman tentang hari kita",
+    "subtitle": "Gambar, ucapkan, atau tulis sedikit bersama.",
+    "skill": "journaling",
+    "symbol": "square.and.pencil",
+    "takeaway": "Catatan harian menyimpan kenangan dalam gambar, coretan, atau kata.",
+    "parentPrimer": "Contohkan catatan singkat: tanggal dan satu momen yang diamati. Adik bisa mencoret atau mendikte; kakak menggambar, mendikte, atau menulis. Ejaan dan kerapian bukan tujuan halaman bersama ini.",
+    "materials": [
+      "Kertas atau buku catatan",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Pilih warna, buat coretan, atau tunjuk saat saya menuliskan kata darimu.",
+      "question": "Apa yang ingin kamu taruh di halaman kita?"
+    },
+    "older": {
+      "action": "Pilih satu momen tertentu, tambah gambar, lalu diktekan atau tulis kalimatnya.",
+      "question": "Detail kecil apa yang membantumu mengingat hari ini?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Katakan bahwa Anda ingin mengingat satu bagian kecil hari ini."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Buat catatan pendek di depan mereka. Bacakan dan jelaskan alasan Anda menulis catatan harian."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Masing-masing mengisi halaman bersama. Tawarkan menulis kata anak persis ucapannya. Tambahkan tanggal, ceritakan gambar, dan biarkan mereka menentukan kapan selesai."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Baca atau ceritakan halaman bersama dan pilih tempat menyimpannya."
+      }
+    ],
+    "personalPrompt": "Apa yang terbantu Anda perhatikan atau ingat lewat catatan harian? Bagikan catatan keseharian yang nyaman dibacakan.",
+    "careNote": "Gunakan alat gambar sesuai usia dan buang pecahan kecil. Bagikan hanya catatan yang Anda inginkan; anak juga boleh menyimpan pikirannya sendiri."
+  },
+  {
+    "id": "a-moment-and-a-feeling",
+    "title": "Satu momen, perasaan apa saja",
+    "subtitle": "Beri ruang bagi yang indah, sulit, dan biasa.",
+    "skill": "journaling",
+    "symbol": "heart.text.square",
+    "takeaway": "Catatan harian dapat mencatat kejadian dan perasaan kita.",
+    "parentPrimer": "Mulai dari contoh Anda: sesuatu terjadi dan Anda merasakan sesuatu. Anak boleh menyebut perasaan, memilih warna, menggambar, atau tidak berbagi. Catatannya tidak harus ceria atau sama dengan Anda.",
+    "materials": [
+      "Kertas",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Pilih warna atau gambar bebas saat saya bercerita. Gerakan, satu kata, atau tanpa jawaban pun boleh.",
+      "question": "Mau menunjukkan sesuatu, atau terus menggambar?"
+    },
+    "older": {
+      "action": "Ceritakan kejadian dan perasaan, lalu pilih detail untuk digambar atau ditulis. Orang bisa merasakan hal berbeda tentang kejadian yang sama.",
+      "question": "Bagaimana rasanya momen itu bagimu?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Pilih momen biasa dari hari Anda dan ceritakan tanpa menghakimi."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tulis catatan singkat tentang kejadian dan perasaan Anda. Jelaskan bahwa berbagai macam hari boleh masuk catatan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Ajak tiap anak membuat halaman pilihannya. Tawarkan kata perasaan tanpa menentukan perasaan mereka. Gambar bersama dan minta izin sebelum membacakan kata mereka."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing memilih berbagi coretan, kalimat, atau tidak sama sekali."
+      }
+    ],
+    "personalPrompt": "Bagaimana Anda mencatat hari yang biasa atau campur aduk? Tunjukkan contoh yang nyaman dibagikan.",
+    "careNote": "Pastikan sukarela. Gunakan krayon sesuai usia dan biarkan anak memilih apa yang dibagikan."
+  },
+  {
+    "id": "a-note-to-tomorrow",
+    "title": "Pesan kecil untuk esok",
+    "subtitle": "Kirim pengingat kepada diri kalian di masa depan.",
+    "skill": "journaling",
+    "symbol": "envelope.open.fill",
+    "takeaway": "Tulisan atau gambar dapat membawa pesan untuk nanti, termasuk bagi diri sendiri.",
+    "parentPrimer": "Pesan masa depan bisa berisi pertanyaan, kenangan, atau hal untuk dicoba. Contohkan satu ide realistis. Ini membuat pesan, bukan janji yang wajib dipenuhi anak besok.",
+    "materials": [
+      "Kertas besar",
+      "Krayon besar",
+      "Tempat aman untuk surat terlipat"
+    ],
+    "toddler": {
+      "action": "Buat coretan atau pilih mainan favorit untuk disebutkan. Saya bisa menulis kata-katamu.",
+      "question": "Apa pesan untuk kita yang besok?"
+    },
+    "older": {
+      "action": "Pilih kenangan atau pertanyaan untuk diri masa depan, gambar atau tulis, dan tentukan kapan dibuka.",
+      "question": "Apa yang ingin kamu ingat saat membukanya?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Pura-pura menerima surat dari esok dan bayangkan isinya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tulis pesan kecil untuk diri masa depan dan jelaskan bagaimana catatan membantu mengingat."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Buat pesan keluarga dengan sumbangan setiap orang. Bacakan, lipat, lalu sepakati tempat dan waktu membukanya. Hias bagian luar dengan gambar."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing menunjuk atau menyebut satu isi pesan. Bagian pribadi tidak perlu dibacakan."
+      }
+    ],
+    "personalPrompt": "Apakah Anda memakai catatan harian untuk mengingat ide atau rencana? Bagikan kebiasaan kecil untuk dicoba bersama.",
+    "careNote": "Gunakan kertas tanpa staples atau klip dan krayon sesuai usia. Simpan pesan di tempat yang dapat diambil orang dewasa tanpa memanjat."
+  },
+  {
+    "id": "friendly-robot",
+    "title": "Jadilah robot ramahku",
+    "subtitle": "Ubah instruksi sederhana menjadi program seru.",
+    "skill": "coding",
+    "symbol": "chevron.left.forwardslash.chevron.right",
+    "takeaway": "Urutan adalah sekumpulan instruksi yang diikuti secara berurutan.",
+    "parentPrimer": "Sepakati perintah tepat seperti tunjuk ke atas, tepuk sekali, atau balikkan telapak. Peragakan secara harfiah dan lembut. Hubungannya dengan ilmu komputer adalah menentukan urutan; tanpa perangkat atau membaca.",
+    "materials": [
+      "Tiga kartu perintah bergambar besar",
+      "Krayon besar",
+      "Tempat lapang dan nyaman"
+    ],
+    "toddler": {
+      "action": "Pilih satu perintah gambar dan lihat saya melakukannya. Tirukan tepukan atau tunjuk jika ingin.",
+      "question": "Gerakan apa yang harus robot kita lakukan?"
+    },
+    "older": {
+      "action": "Susun tiga kartu, jalankan program, lalu ubah urutan untuk melihat hasilnya.",
+      "question": "Instruksi mana yang diikuti robot pertama kali?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Jadilah robot ramah yang duduk menunggu satu perintah."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Gambar perintah sederhana dan ikuti. Jelaskan pemrograman sebagai memberi instruksi yang dapat dijalankan komputer."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Buat program tiga kartu dengan gerakan duduk lembut. Adik memilih gerakan, kakak mengurutkan kartu. Bertukar peran robot dan pemrogram, lalu coba urutan lain."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Jalankan program favorit sekali lagi dan sebutkan satu perubahan akibat urutannya berubah."
+      }
+    ],
+    "personalPrompt": "Apa hal kecil yang pernah Anda program atau otomatisasi? Jelaskan masukan dan tindakannya dengan bahasa sehari-hari.",
+    "careNote": "Gunakan gerakan nyaman sambil duduk atau berdiri di tempat lapang. Mata tetap terbuka, hindari berputar atau memanjat, dan izinkan siapa pun berhenti atau tidak ikut."
+  },
+  {
+    "id": "debug-the-toy-route",
+    "title": "Temukan instruksi yang tertukar",
+    "subtitle": "Petualangan awal mencari kesalahan program.",
+    "skill": "coding",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "Debugging berarti memeriksa rencana dan mengubah bagian yang belum sesuai tujuan.",
+    "parentPrimer": "Mulai dengan tujuan sederhana dan tiga instruksi gambar untuk menggerakkan mainan antar-tempat kertas. Ikuti satu per satu. Jika hasil berbeda dari tujuan, ubah satu kartu dan uji lagi. Katakan rencananya perlu diubah, bukan anaknya salah.",
+    "materials": [
+      "Mainan besar",
+      "Tiga gambar tempat dari kertas besar",
+      "Tiga kartu instruksi bergambar besar"
+    ],
+    "toddler": {
+      "action": "Gerakkan mainan bersama saya atau tunjuk tujuannya. Pilih gambar besar yang dikunjungi berikutnya.",
+      "question": "Di mana mainan kita harus berakhir?"
+    },
+    "older": {
+      "action": "Tebak tujuan urutan pendek, cari instruksi tidak cocok, ubah, lalu jalankan ulang.",
+      "question": "Pada langkah mana rencana kita menuju tempat berbeda?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Mainan ingin pulang, tetapi kartu instruksi membawanya ke taman."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Jalankan rencana dua langkah perlahan. Bagikan contoh memeriksa kode ketika hasilnya tak terduga."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Buat rute tiga pemberhentian di meja rendah atau lantai kosong. Sengaja tukar satu instruksi. Adik menggerakkan mainan bersama Anda, kakak memeriksa dan memperbaiki. Berganti peran."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Ceritakan perubahan yang membantu mainan sampai. Rayakan memeriksa dan mencoba lagi."
+      }
+    ],
+    "personalPrompt": "Ingatkah Anda kesalahan kode kecil dan petunjuk penemunya? Ceritakan tanpa istilah teknis.",
+    "careNote": "Gunakan mainan besar dan kartu tanpa klip. Letakkan rute di permukaan rendah stabil; jangan masukkan anak ke kotak atau rintangan fisik."
+  },
+  {
+    "id": "a-loop-of-silly-moves",
+    "title": "Perulangan gerakan lucu",
+    "subtitle": "Tulis sekali, lalu lakukan lagi.",
+    "skill": "coding",
+    "symbol": "repeat",
+    "takeaway": "Perulangan mengulangi urutan instruksi.",
+    "parentPrimer": "Pilih pola dua tindakan seperti tepuk tangan dan tepuk lutut. Menjalankannya tiga kali adalah perulangan kecil. Bedakan tindakan di dalamnya dari jumlah pengulangan. Ini perumpamaan perulangan pemrograman.",
+    "materials": [
+      "Dua kartu perintah bergambar besar",
+      "Kartu pengulangan dari kertas besar"
+    ],
+    "toddler": {
+      "action": "Tirukan satu tindakan nyaman atau pilih suara yang diulang semua orang.",
+      "question": "Mau melakukannya sekali lagi?"
+    },
+    "older": {
+      "action": "Buat program dua tindakan, pilih satu sampai tiga pengulangan, lalu hitung pengulangannya.",
+      "question": "Tindakan mana yang berada dalam perulangan?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Buat pola pendek tepuk tangan dan lutut, lalu ajak menirukan."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tunjukkan dua kartu ditambah kartu pengulangan dapat mengganti deretan instruksi berulang. Ceritakan penggunaan perulangan dalam kode."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Coba bersama sambil duduk atau berdiri. Adik memilih gerakan, kakak mengatur jumlah ulang. Bandingkan mengulang kedua tindakan dengan satu tindakan saja. Jeda kapan pun diinginkan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Ucapkan atau peragakan bagian yang berulang, lalu simpan pola favorit di kertas."
+      }
+    ],
+    "personalPrompt": "Pekerjaan berulang apa yang pernah Anda lakukan dengan kode? Bandingkan dengan mengulang gerakan kecil ini.",
+    "careNote": "Pilih gerakan lembut dan pengulangan sedikit. Hindari melompat dari perabot, berputar cepat, atau memaksa terus bergerak."
+  },
+  {
+    "id": "clue-or-guess",
+    "title": "Petunjuk atau dugaan?",
+    "subtitle": "Amati sesuatu, lalu jelaskan alasanmu.",
+    "skill": "criticalThinking",
+    "symbol": "lightbulb.fill",
+    "takeaway": "Hal yang diamati berbeda dari penjelasan yang kita duga.",
+    "parentPrimer": "Contoh dengan benda biasa: “Aku melihat roda” adalah pengamatan; “Kurasa akan cepat” adalah ide untuk diperiksa. Dugaan boleh saja. Kebiasaan berguna ialah menyebut petunjuk dan bersedia memperbarui ide.",
+    "materials": [
+      "Mainan besar yang dikenal",
+      "Kertas",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Tunjuk ciri atau pilih antara dua hal yang saya sebutkan. Ikuti yang menarik perhatianmu.",
+      "question": "Apa yang bisa kamu tunjukkan pada mainan ini?"
+    },
+    "older": {
+      "action": "Sebutkan pengamatan dan sesuatu yang mungkin benar. Beri petunjuk untuk idemu serta cara memeriksanya.",
+      "question": "Apa yang membuatmu berpikir begitu?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Amati mainan yang dikenal tanpa langsung menyebut namanya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Contohkan pengamatan dan dugaan. Jelaskan cara Anda memeriksa ide sehari-hari."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Bergiliran mengamati detail, membuat penjelasan, dan memilih pemeriksaan sederhana yang aman. Gambar ciri terlihat di satu sisi kertas dan pertanyaan di sisi lain. Adik boleh menunjuk atau bersuara."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih satu hal yang diamati dan satu pertanyaan yang masih ada."
+      }
+    ],
+    "personalPrompt": "Kapan melihat lebih saksama mengubah kesan pertama Anda? Bagikan contoh sehari-hari.",
+    "careNote": "Gunakan mainan dikenal yang terlalu besar untuk tertelan. Pemeriksaan tetap sederhana dan aman; cukup melihat, menggambar, dan membayangkan."
+  },
+  {
+    "id": "mystery-pillowcase",
+    "title": "Misteri dalam sarung bantal",
+    "subtitle": "Kumpulkan petunjuk dan biarkan ide berubah.",
+    "skill": "criticalThinking",
+    "symbol": "questionmark.circle.fill",
+    "takeaway": "Petunjuk baru dapat membuat penjelasan lain lebih mungkin.",
+    "parentPrimer": "Pilih boneka empuk besar yang dikenal. Beri petunjuk benar satu per satu, atau perlihatkan bagian kecil sambil memegang sarung terbuka. Contohkan mengubah tebakan saat detail baru muncul. Ini menebak bersama, bukan tes kecepatan.",
+    "materials": [
+      "Boneka empuk besar yang dikenal",
+      "Sarung bantal dipegang orang dewasa"
+    ],
+    "toddler": {
+      "action": "Lihat atau raba bagian terlihat dengan bantuan, sebut cirinya, atau pilih membuka mainannya.",
+      "question": "Apakah bagian ini terasa lembut?"
+    },
+    "older": {
+      "action": "Ajukan kemungkinan, minta petunjuk berguna, dan ubah dugaan ketika petunjuk baru mengarah ke hal lain.",
+      "question": "Petunjuk mana yang membantu memilih antara ide itu?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Taruh boneka besar dikenal dalam sarung dan pegang bagian atasnya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Beri satu petunjuk benar dan contohkan tebakan awal Anda. Jelaskan manfaat mengubah ide saat ada petunjuk baru."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Berikan petunjuk satu per satu. Kakak bertanya, adik menunjuk, meraba dengan bantuan, atau membuka mainan. Berganti peran dengan mainan besar lain jika ingin lanjut."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Bahas petunjuk paling membantu dan apakah ada yang mengubah ide."
+      }
+    ],
+    "personalPrompt": "Kapan informasi tambahan membuat Anda berubah pikiran? Beri contoh sederhana tanpa menekankan siapa yang benar.",
+    "careNote": "Orang dewasa selalu memegang sarung. Gunakan boneka besar tanpa bagian lepas, jauhkan dari wajah, dan jangan pernah memasang sarung di kepala."
+  },
+  {
+    "id": "more-than-one-answer",
+    "title": "Lebih dari satu jawaban baik",
+    "subtitle": "Coba dua ide untuk satu masalah kecil.",
+    "skill": "criticalThinking",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "Masalah bisa memiliki beberapa solusi yang berhasil, dengan kelebihan berbeda.",
+    "parentPrimer": "Beri mainan tujuan: berpindah antarkertas. Mengangkatnya, menggesernya di atas kertas, atau membuat rute pura-pura bisa berhasil. Tanyakan hal penting bagi tujuan sebelum memilih. Tak perlu ada jawaban terpintar.",
+    "materials": [
+      "Mainan besar",
+      "Dua kertas besar",
+      "Kotak kardus besar bersih"
+    ],
+    "toddler": {
+      "action": "Pilih tujuan dan gerakkan mainan dengan nyaman bersama saya.",
+      "question": "Bagaimana kita membantu mainan sampai?"
+    },
+    "older": {
+      "action": "Usulkan dua solusi, coba, lalu jelaskan mana lebih cocok untuk syarat tertentu seperti menjaga mainan tegak.",
+      "question": "Apakah pilihannya sama jika mainan harus tetap tegak?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Letakkan mainan pada satu kertas dan bayangkan ia perlu mengunjungi kertas lain."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tawarkan dua cara memindahkannya. Bagikan cara Anda membandingkan pilihan saat memecahkan masalah."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Coba perjalanan di lantai atau permukaan rendah stabil. Adik menggerakkan mainan, kakak mengusulkan dan menguji pilihan. Ubah satu syarat pura-pura dan lihat apakah solusi pilihan berubah."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing menunjukkan ide yang berhasil. Perhatikan saran membantu atau giliran yang ramah."
+      }
+    ],
+    "personalPrompt": "Masalah sehari-hari apa yang pernah Anda pecahkan dengan beberapa cara? Jelaskan cara memilihnya.",
+    "careNote": "Gunakan mainan besar ringan. Hanya mainan yang bepergian: jangan mengangkat anak, memanjat kotak, atau membuat struktur untuk diinjak. Lepas staples kardus."
+  },
+  {
+    "id": "little-ramp-lab",
+    "title": "Laboratorium bidang miring kecil",
+    "subtitle": "Amati mainan meluncur, lalu ubah satu hal.",
+    "skill": "science",
+    "symbol": "car.fill",
+    "takeaway": "Kemiringan dapat mengubah gerakan mainan beroda.",
+    "parentPrimer": "Gravitasi menarik benda ke Bumi dan membantu mainan beroda menggelinding turun. Roda dan permukaan juga memengaruhi gerak, jadi gunakan mainan serta bidang yang sama dan ubah hanya kemiringannya yang landai. Mainan lebih berat tidak selalu lebih cepat.",
+    "materials": [
+      "Mainan beroda besar",
+      "Kardus lebar dan halus",
+      "Penopang rendah stabil seperti bantal",
+      "Area pendaratan kosong"
+    ],
+    "toddler": {
+      "action": "Lepaskan mainan dengan bantuan, amati jalannya, dan gunakan kata jalan, berhenti, serta turun.",
+      "question": "Di mana mainan kita berhenti?"
+    },
+    "older": {
+      "action": "Tebak akibat sedikit perubahan kemiringan, lepaskan mainan sama tanpa mendorong, lalu bandingkan.",
+      "question": "Apa yang kita ubah, dan apa yang tetap sama?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Gulirkan mainan di permukaan datar, lalu tunjukkan kemiringan sangat landai."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Peragakan melepas mainan tanpa mendorong. Bagikan pengetahuan tentang bidang miring, gravitasi, atau roda."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Buat bidang sangat rendah dan lebar, dipegang stabil orang dewasa. Bergiliran melepas mainan dari tempat sama. Ubah penopang sedikit dan bandingkan. Adik melihat atau mengambil mainan, kakak menjelaskan pengujian."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing menyebut atau menunjukkan pengamatan. Hasil tak terduga boleh diteliti lain kali."
+      }
+    ],
+    "personalPrompt": "Kapan Anda memakai bidang miring atau roda sehari-hari? Hubungkan dengan hasil pengamatan.",
+    "careNote": "Orang dewasa memegang bidang stabil di lantai. Gunakan mainan besar ringan, kemiringan sangat rendah, dan area akhir kosong jauh dari wajah. Anak tidak boleh berdiri atau meluncur di bidang ini."
+  },
+  {
+    "id": "move-freeze-notice",
+    "title": "Bergerak, diam, amati",
+    "subtitle": "Coba gerakan kecil dan dengarkan tubuh.",
+    "skill": "movement",
+    "symbol": "figure.walk",
+    "takeaway": "Kita dapat memilih beragam cara bergerak dan beristirahat.",
+    "parentPrimer": "Tawarkan gerakan nyaman: berjalan di tempat perlahan, menjangkau, atau menepuk lutut sambil duduk. Perhatikan rasa hangat, detak jantung, atau keinginan istirahat tanpa mengukur atau menilai. Jeda bagian dari kegiatan.",
+    "materials": [
+      "Tempat lapang dan nyaman",
+      "Kursi untuk pilihan duduk"
+    ],
+    "toddler": {
+      "action": "Pilih gerakan lembut, tirukan, atau amati di samping saya. Gerakan kecil yang nyaman pun berarti.",
+      "question": "Mau menjangkau atau menepuk lutut?"
+    },
+    "older": {
+      "action": "Rencanakan urutan pendek dengan jeda dan ceritakan perasaan sebelum serta sesudah. Ubah urutan jika ingin.",
+      "question": "Apa yang membuat gerakan ini nyaman untukmu?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Pilih gerakan lucu tetapi lembut dan ajak semua mencoba versinya sendiri."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Bagikan gerakan atau pemanasan sederhana yang disukai. Tunjukkan pilihan duduk dan jeda."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Bergiliran memimpin gerak-diam singkat. Mata terbuka, kaki di lantai kosong. Coba versi lambat dan kecil, sertakan istirahat, dan izinkan anak memilih kapan ikut atau berhenti."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Perhatikan perasaan tanpa membandingkan tubuh atau kemampuan. Pilih peregangan nyaman atau istirahat tenang."
+      }
+    ],
+    "personalPrompt": "Apa yang membantu Anda menikmati olahraga ringan atau menjaga kebiasaan bergerak? Bagikan hal sederhana.",
+    "careNote": "Pilih gerakan lembut nyaman, tawarkan versi duduk, dan berhenti jika ada yang ingin. Hindari memanjat, peregangan paksa, menahan napas, dan berputar cepat."
+  },
+  {
+    "id": "a-fair-share-picnic",
+    "title": "Piknik berbagi adil",
+    "subtitle": "Beri setiap mainan tempat dan bagian.",
+    "skill": "numbers",
+    "symbol": "number",
+    "takeaway": "Membagikan satu benda kepada tiap tamu bergiliran membantu membuat kelompok sama banyak.",
+    "parentPrimer": "Gunakan dua tamu mainan dan empat balok sebagai makanan pura-pura. Bagikan satu balok tiap tamu lalu ulangi. Pasangkan atau hitung untuk memeriksa kesamaan. Balok sisa menjadi kesempatan membahas pilihan; tidak semua kumpulan terbagi rata.",
+    "materials": [
+      "Dua boneka empuk besar",
+      "Lima balok besar aman untuk balita",
+      "Dua alas makan kertas"
+    ],
+    "toddler": {
+      "action": "Berikan balok tiap mainan dengan bantuan, atau tunjuk tamu yang menunggu.",
+      "question": "Siapa yang perlu diberi berikutnya?"
+    },
+    "older": {
+      "action": "Bagi empat balok sama rata, periksa, lalu tentukan apa yang dilakukan jika ada balok kelima.",
+      "question": "Bagaimana memeriksa jumlah kedua tamu sama?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Dudukkan dua tamu mainan dekat alas kertas dan umumkan piknik pura-pura."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Beri tiap tamu satu balok besar bergiliran. Tunjukkan pasangan barisan untuk membandingkan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Bergiliran menyajikan dan mengambil empat balok. Adik mengantar, kakak memeriksa bagian. Tambahkan balok kelima: simpan nanti atau cari solusi pura-pura lain. Bertukar tugas."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Gambar kedua tempat piknik dan ingat cara memeriksa bagiannya."
+      }
+    ],
+    "personalPrompt": "Kapan Anda berbagi perlengkapan atau bergiliran di rumah? Ceritakan cara menentukan yang adil.",
+    "careNote": "Gunakan balok terlalu besar untuk tertelan dan jelaskan itu makanan pura-pura. Jangan mencicipi atau memasukkan benda ke mulut."
+  },
+  {
+    "id": "how-many-blocks-long",
+    "title": "Berapa balok panjangnya?",
+    "subtitle": "Buat alat ukur dari barisan balok.",
+    "skill": "numbers",
+    "symbol": "ruler",
+    "takeaway": "Perbandingan panjang lebih baik dengan satuan sama dan tanpa celah.",
+    "parentPrimer": "Susun balok sama besar ujung ke ujung di sisi buku dari tepi sama. Balok menjadi satuan berulang. Buku boleh berukuran sedikit lebih dari tiga balok. Bandingkan dengan balok besar untuk melihat pentingnya ukuran satuan.",
+    "materials": [
+      "Beberapa balok besar sama ukuran",
+      "Dua buku kokoh",
+      "Satu balok lebih besar yang aman bagi balita"
+    ],
+    "toddler": {
+      "action": "Bantu sejajarkan balok di samping buku atau pilih buku berikutnya.",
+      "question": "Mau taruh balok ini di samping yang itu?"
+    },
+    "older": {
+      "action": "Ukur kedua buku dengan balok sama, periksa tepi awal dan celah.",
+      "question": "Apakah balok lebih besar memberi hitungan sama?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Bertanya-tanyalah apakah buku panjangnya tiga balok atau lebih."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Susun barisan pendek di samping buku. Sengaja sisakan celah, lalu tunjukkan mengapa merapatkannya memperjelas perbandingan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Ukur dua buku di meja rendah. Adik menyuplai balok, kakak menyejajarkan dan menghitung. Bandingkan panjang, lalu dengan bantuan dewasa gunakan balok besar berulang untuk mencoba satuan lain."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih buku dan gambar barisan pengukurnya, termasuk ruang yang hanya terisi sebagian."
+      }
+    ],
+    "personalPrompt": "Apa yang pernah Anda ukur saat membuat, membeli, atau menata sesuatu? Ceritakan manfaat satuan yang tepat.",
+    "careNote": "Gunakan balok besar tanpa bagian lepas dan buku ringan pada permukaan rendah stabil. Jangan menumpuk balok tinggi."
+  },
+  {
+    "id": "shapes-in-a-picture",
+    "title": "Bentuk tersembunyi dalam gambar",
+    "subtitle": "Ubah lingkaran, segitiga, dan persegi panjang menjadi adegan.",
+    "skill": "numbers",
+    "symbol": "square.on.circle",
+    "takeaway": "Kita mengenali bentuk datar dari cirinya meskipun diputar.",
+    "parentPrimer": "Tawarkan bentuk kertas besar dan bahas sisi lurus, sudut, serta tepi lengkung. Segitiga yang diputar tetap segitiga. Atap dapat tampak segitiga, tetapi rumah nyata benda ruang; di sini kita mengeksplorasi bentuk datar.",
+    "materials": [
+      "Lingkaran, segitiga, persegi, dan persegi panjang kertas besar disiapkan orang dewasa",
+      "Kertas besar",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Pilih dan letakkan bentuk besar atau telusuri tepinya dengan jari di samping saya.",
+      "question": "Bentuk mana yang ingin kamu pilih?"
+    },
+    "older": {
+      "action": "Buat gambar dari bentuk, ceritakan cirinya, lalu putar bagian dan amati yang tetap sama.",
+      "question": "Masih segitigakah saat ujungnya menghadap samping?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Putar segitiga kertas besar dan bayangkan ia menjadi apa."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Telusuri tiga sisinya bersama. Bandingkan dengan lingkaran tanpa menyuruh menghafal nama."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Susun gambar rumah, kendaraan, atau makhluk khayalan. Adik menaruh bentuk, kakak menjelaskan pilihan dan mencoba memutar. Tambah detail dan buat adegan lain dengan bentuk sama."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Masing-masing menunjuk bentuk favorit dan satu ciri yang tetap saat dipindahkan."
+      }
+    ],
+    "personalPrompt": "Kapan bentuk membantu Anda merencanakan atau mengenali sesuatu? Bagikan contoh tanda, desain, atau benda akrab.",
+    "careNote": "Orang dewasa menyiapkan potongan besar dan menjauhkan gunting. Hindari serpihan kecil, klip, serta hiasan lepas; bersihkan sobekan."
+  },
+  {
+    "id": "rhyme-time-in-a-book",
+    "title": "Saatnya rima dalam buku",
+    "subtitle": "Dengarkan akhiran yang terdengar serupa.",
+    "skill": "reading",
+    "symbol": "book",
+    "takeaway": "Kata berima memiliki bunyi akhir sama meski awalnya berbeda.",
+    "parentPrimer": "Pilih buku bergambar dengan beberapa rima jelas. Baca alami lalu ulangi pasangan seperti buku dan kuku. Ini permainan mendengar, bukan tes ejaan. Terima kata rekaan yang berima dan contohkan tanpa menuntut adik membuatnya.",
+    "materials": [
+      "Buku bergambar berima yang dikenal",
+      "Kertas",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Ikuti suara berulang, tunjuk gambar, atau pilih halaman untuk didengar lagi.",
+      "question": "Mau ulangi bunyi lucu itu?"
+    },
+    "older": {
+      "action": "Dengarkan pasangan rima, usulkan kata lain, lalu buat kalimat pendek bersama saya.",
+      "question": "Apa yang berima dengan kata tadi?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Baca halaman berima favorit dengan suara ceria."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Ulangi dua kata berima cukup lambat untuk mendengar akhirannya. Beri kata tidak berima untuk dibandingkan santai."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Baca beberapa halaman, jeda hanya saat anak senang ikut. Adik menirukan suara, kakak mengusulkan rima. Gambar pasangan lucu rekaan dan buat kalimat bersama."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Baca halaman favorit sekali lagi dan ingat satu pasangan kata yang disukai."
+      }
+    ],
+    "personalPrompt": "Rima atau puisi apa yang Anda ingat saat kecil? Bagikan bagian favorit dari ingatan.",
+    "careNote": "Gunakan buku kokoh sesuai usia dan krayon besar. Jangan jadikan permainan tes kecepatan atau mewajibkan siapa pun membuat rima."
+  },
+  {
+    "id": "read-it-with-feeling",
+    "title": "Bacakan dengan perasaan",
+    "subtitle": "Coba suara berbeda untuk satu kalimat pendek.",
+    "skill": "reading",
+    "symbol": "text.bubble",
+    "takeaway": "Suara membantu pendengar memahami ucapan dan perasaan tokoh.",
+    "parentPrimer": "Pilih kalimat pendek dari buku dikenal. Bacakan dengan dua suara lembut dan bahas yang cocok. Gambar, kata, dan tanda baca memberi petunjuk, tetapi tidak selalu menjelaskan tepat perasaan tokoh. Orang dewasa boleh membaca semuanya.",
+    "materials": [
+      "Buku bergambar dikenal dengan dialog",
+      "Boneka empuk besar"
+    ],
+    "toddler": {
+      "action": "Beri mainan suara, tirukan ekspresi, atau tunjuk tokoh di gambar.",
+      "question": "Suara apa yang dipakai mainan kita?"
+    },
+    "older": {
+      "action": "Pilih suara tokoh dan jelaskan kata atau detail gambar yang membantu memilih.",
+      "question": "Petunjuk apa yang membuat suara itu cocok?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Biarkan mainan menyapa dengan dua suara lembut berbeda."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Baca satu kalimat pendek dan tunjukkan gambar. Coba versi penasaran dan mengantuk, lalu bahas perubahan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Baca adegan singkat bersama. Adik memberi suara mainan, kakak mengarahkan suara Anda atau membaca bila ingin. Perhatikan tanda tanya atau seru dan coba versi lain."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih pembacaan favorit satu kalimat dan ceritakan yang membantu membayangkan tokoh."
+      }
+    ],
+    "personalPrompt": "Siapa yang membacakan cerita untuk Anda, dan apa yang diingat dari suaranya? Coba kebiasaan bercerita ramah Anda sendiri.",
+    "careNote": "Jaga volume nyaman tanpa suara mengejutkan, dan izinkan anak mendengar diam-diam. Gunakan boneka tanpa bagian lepas."
+  },
+  {
+    "id": "a-book-for-our-question",
+    "title": "Buku untuk pertanyaan kita",
+    "subtitle": "Cari informasi tentang sesuatu yang membuat penasaran.",
+    "skill": "reading",
+    "symbol": "book.closed",
+    "takeaway": "Kita dapat memilih buku dan memakai bagiannya untuk mencari informasi.",
+    "parentPrimer": "Tawarkan dua buku sesuai usia, termasuk buku fakta sederhana. Pilih pertanyaan kecil yang mungkin terjawab. Sampul, daftar isi, judul, atau gambar berlabel membantu mencari. Jika tidak ada jawabannya, katakan; buku tidak harus menjawab semua.",
+    "materials": [
+      "Dua buku sesuai usia, termasuk buku fakta sederhana",
+      "Kertas",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Pilih gambar, tunjuk benda dikenal, atau balik halaman kokoh dengan bantuan.",
+      "question": "Gambar mana yang kita lihat?"
+    },
+    "older": {
+      "action": "Ajukan pertanyaan, pilih buku paling menjanjikan, dan bantu cari halaman atau keterangan yang cocok.",
+      "question": "Bagian buku mana bisa membantu mencari tahu?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Letakkan buku dan bertanya-tanyalah tentang satu topik pada sampul."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Pikirkan dengan lantang saat memilih buku. Tunjukkan satu bagian berguna seperti daftar isi atau judul."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik memilih gambar menarik dan kakak bertanya. Bacakan teks terkait lalu bandingkan dengan ilustrasi. Gambar penemuan, atau catat pertanyaan jika jawabannya tidak ada."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Sebutkan petunjuk yang membantu menemukan halaman dan pilih satu pertanyaan untuk dilanjutkan."
+      }
+    ],
+    "personalPrompt": "Kapan Anda mencari sesuatu dalam buku atau panduan? Bagikan cara menemukan bagian yang dibutuhkan.",
+    "careNote": "Gunakan buku anak yang dikenal tanpa sisipan lepas. Pencarian tetap santai; melihat gambar juga termasuk ikut serta."
+  },
+  {
+    "id": "follow-my-mirror",
+    "title": "Ikuti cerminku",
+    "subtitle": "Pimpin gerakan lembut, lalu ikuti orang lain.",
+    "skill": "movement",
+    "symbol": "figure.stand",
+    "takeaway": "Mengamati dan menyesuaikan membantu menyelaraskan gerak bersama pasangan.",
+    "parentPrimer": "Saling berhadapan dan tirukan gerakan lambat nyaman seperti membuka tangan atau mengangkat lengan. Tujuannya memperhatikan dan merespons, bukan sama persis. Duduk, gerakan lebih kecil, atau sekadar melihat boleh.",
+    "materials": [
+      "Tempat lapang nyaman",
+      "Kursi stabil untuk pilihan duduk"
+    ],
+    "toddler": {
+      "action": "Pimpin satu gerakan tangan kecil atau tirukan saya sesuai ritmemu.",
+      "question": "Boleh saya menirukan tanganmu?"
+    },
+    "older": {
+      "action": "Pimpin urutan lambat yang mudah diikuti, lalu sesuaikan kecepatan atau ukurannya bagi pasangan.",
+      "question": "Apa yang membantu pasanganmu mengikuti gerakan itu?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Buka dan tutup tangan perlahan lalu ajak cermin pura-pura mengikuti."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Peragakan memimpin dan mengikuti. Tunjukkan gerakan lambat memberi pasangan waktu merespons."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Berganti pemimpin dalam ronde singkat dengan istirahat. Adik memilih bentuk tangan, kakak menghubungkan dua gerakan lembut. Coba ronde duduk, lalu buat salam ramah yang bisa disesuaikan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Ulangi salam bersama dan perhatikan satu cara saling membantu ikut."
+      }
+    ],
+    "personalPrompt": "Kapan Anda mengamati orang untuk mempelajari gerakan atau keterampilan? Ceritakan yang membuat peragaan mudah diikuti.",
+    "careNote": "Mata terbuka, gerakan nyaman. Beri jarak, gunakan kursi stabil, hindari peregangan paksa, menyeimbangkan di perabot, atau menyentuh untuk mengatur posisi orang."
+  },
+  {
+    "id": "roll-it-to-a-friend",
+    "title": "Gulirkan ke teman",
+    "subtitle": "Kirim bola empuk dalam perjalanan lembut di lantai.",
+    "skill": "movement",
+    "symbol": "circle.fill",
+    "takeaway": "Kita dapat menyesuaikan gerakan menggulir agar bola mencapai teman.",
+    "parentPrimer": "Duduk berdekatan dan gulirkan bola besar empuk di lantai. Jelajahi arah dan dorongan lembut tanpa lomba. Mendekat atau menggunakan dua tangan memudahkan ikut. Pasangan boleh menghentikan bola sebelum mengembalikan.",
+    "materials": [
+      "Bola besar empuk sesuai usia",
+      "Lantai rata dan kosong"
+    ],
+    "toddler": {
+      "action": "Hentikan atau dorong bola dengan bantuan, atau tunjuk arah berikutnya.",
+      "question": "Bola kita gulirkan ke siapa?"
+    },
+    "older": {
+      "action": "Sesuaikan arah dan kekuatan guliran, lalu usulkan jarak yang cocok bagi semua.",
+      "question": "Apa yang bisa diubah agar bola lebih mudah dijangkau?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Duduk dekat dan biarkan bola datang dengan sapaan pelan."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tunjukkan guliran lembut dua tangan dan menunggu pasangan siap."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Bergiliran mengirim bola dalam kelompok kecil duduk. Adik memilih penerima, kakak menyesuaikan guliran. Geser sedikit mendekat atau menjauh jika nyaman, dengan jeda sering."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Akhiri dengan guliran mudah bersama dan sebutkan penyesuaian yang membantu menerima bola."
+      }
+    ],
+    "personalPrompt": "Permainan apa mengajarkan kerja sama atau menyesuaikan diri dengan pasangan? Bagikan contoh sambil bermain.",
+    "careNote": "Gunakan bola besar empuk, tetap di lantai, dan bersihkan bahaya tersandung. Pilih posisi duduk nyaman dan jauhi tangga."
+  },
+  {
+    "id": "a-path-at-our-pace",
+    "title": "Jalur sesuai ritme kita",
+    "subtitle": "Pilih rute santai dengan ruang untuk berhenti.",
+    "skill": "movement",
+    "symbol": "figure.walk",
+    "takeaway": "Kita dapat merencanakan rute dan menyesuaikan kecepatan serta arah agar nyaman.",
+    "parentPrimer": "Pilih dua penanda terlihat di ruangan kosong dan berjalan perlahan di antaranya, dengan belokan nyaman dan jeda. Peserta duduk dapat menelusuri di udara atau mengarahkan pasangan. Fokus pada ruang, bukan cepat selesai.",
+    "materials": [
+      "Tempat rata kosong dengan dua penanda terlihat",
+      "Kursi stabil untuk pilihan duduk"
+    ],
+    "toddler": {
+      "action": "Berjalan di samping saya, pilih tempat berhenti, atau tunjuk rute sambil duduk.",
+      "question": "Di mana kita berhenti sejenak?"
+    },
+    "older": {
+      "action": "Rencanakan rute pendek dengan jeda dan belokan lembut, lalu ubah agar semua mendapat ruang.",
+      "question": "Di mana perlu ruang tambahan untuk berbelok?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Bayangkan perjalanan kecil dari satu sisi ruangan ke sisi lain."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Contohkan berjalan lambat, melihat depan, dan berhenti dengan ruang cukup. Tunjukkan pilihan duduk menelusuri dengan tangan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik memilih tujuan, kakak menjelaskan rute kosong. Ikuti bergiliran atau berdampingan dengan jarak. Coba langkah kecil atau tempat berhenti lain, lalu istirahat dan tukar perencana."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Telusuri rute favorit dengan jari dan ingat tempat berhenti."
+      }
+    ],
+    "personalPrompt": "Apa yang membantu Anda menemukan kecepatan nyaman saat berjalan atau belajar gerak baru? Bagikan cara beristirahat.",
+    "careNote": "Gunakan lantai rata jauh dari tangga dan sudut tajam. Singkirkan karpet lepas serta rintangan; jangan taruh kertas pijakan. Mata terbuka dan tawarkan pilihan duduk."
+  },
+  {
+    "id": "slide-and-compare",
+    "title": "Geser dan bandingkan",
+    "subtitle": "Coba geseran lembut yang sama pada dua permukaan.",
+    "skill": "science",
+    "symbol": "arrow.right",
+    "takeaway": "Permukaan yang menyentuh benda dapat memengaruhi gerak gesernya.",
+    "parentPrimer": "Gesekan menahan pergeseran antarpermukaan. Bandingkan balok besar halus pada meja rendah polos dan handuk rata. Dorongan tangan akan berbeda; ini untuk mengamati dan bertanya, bukan pengukuran tepat atau jaminan satu permukaan selalu menang.",
+    "materials": [
+      "Balok besar halus aman untuk balita",
+      "Handuk kecil",
+      "Meja rendah stabil dengan ruang berhenti"
+    ],
+    "toddler": {
+      "action": "Bantu dorong balok perlahan atau rasakan handuk dan meja bersama saya.",
+      "question": "Apakah permukaannya terasa berbeda?"
+    },
+    "older": {
+      "action": "Bandingkan beberapa geseran lembut balok sama dan bahas mengapa dorongannya bisa berbeda.",
+      "question": "Apa yang diubah, dan apa yang sulit dibuat sama?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Geser balok besar sebentar di meja dan dengarkan bunyinya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Letakkan handuk rata di sebagian meja. Jelaskan permukaan bersentuhan dapat menahan gerakan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Bergiliran menggeser balok sama perlahan di kedua permukaan sementara orang dewasa menjauhkannya dari tepi. Adik memilih permukaan, kakak menceritakan hasil. Ulangi dan amati apakah hasil serupa."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Gambar kedua permukaan, simpan satu pengamatan dan satu pertanyaan."
+      }
+    ],
+    "personalPrompt": "Di mana Anda ingin benda mudah bergeser, dan di mana cengkeraman berguna? Beri contoh keseharian.",
+    "careNote": "Gunakan balok ringan terlalu besar untuk tertelan. Dorong perlahan jauh dari wajah dan tepi meja; orang dewasa menahan handuk dan menangkap balok."
+  },
+  {
+    "id": "a-little-floating-lab",
+    "title": "Laboratorium terapung kecil",
+    "subtitle": "Letakkan, tebak, dan amati permukaan air.",
+    "skill": "science",
+    "symbol": "drop.fill",
+    "takeaway": "Sebagian benda tetap di permukaan, sebagian tenggelam; ukuran saja tidak menentukannya.",
+    "parentPrimer": "Air mendorong benda tercelup ke atas. Mengapung bergantung pada berat dan banyak air yang dipindahkan. Amati tanpa meminta anak menjelaskan gaya apung. Bandingkan beberapa benda besar utuh yang dapat dicuci; berat tidak otomatis tenggelam.",
+    "materials": [
+      "Mangkuk dangkal berisi sedikit air",
+      "Cangkir plastik besar dan mainan padat besar yang dapat dicuci, tanpa lubang atau baterai",
+      "Handuk"
+    ],
+    "toddler": {
+      "action": "Letakkan satu benda besar dengan tangan saya di samping tanganmu, atau tunjuk tempatnya.",
+      "question": "Ada di atas atau di bawah?"
+    },
+    "older": {
+      "action": "Tebak, letakkan perlahan, dan gambar hasil di samping dugaanmu.",
+      "question": "Apa yang mengejutkan, dan apa yang bisa dicoba ulang?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Taruh mangkuk dangkal di handuk dalam jangkauan pengawas dewasa dan pilih benda."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Buat dugaan, turunkan benda perlahan, lalu ceritakan posisinya tanpa menilai tebakan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Uji beberapa benda besar satu per satu. Adik membantu menaruh dan mengambil, kakak mencatat pengamatan. Coba cangkir kosong tegak, biarkan terisi air, lalu amati perubahan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih pengamatan mengejutkan untuk digambar. Orang dewasa segera mengosongkan mangkuk saat selesai."
+      }
+    ],
+    "personalPrompt": "Kapan Anda melihat benda terapung di bak, genangan, atau kolam? Hubungkan dengan pengamatan ini.",
+    "careNote": "Orang dewasa mengawasi terus dalam jangkauan lengan, meski air dangkal. Segera kosongkan mangkuk dan lap tumpahan. Jangan gunakan bagian kecil, kaca, mainan listrik, atau benda untuk dicicipi."
+  },
+  {
+    "id": "air-moves-a-sail",
+    "title": "Udara menggerakkan layar",
+    "subtitle": "Buat angin kecil dengan karton.",
+    "skill": "science",
+    "symbol": "wind",
+    "takeaway": "Udara bergerak dapat mendorong benda meskipun tidak terlihat.",
+    "parentPrimer": "Lipat kertas besar menjadi tenda rendah sebagai layar. Orang dewasa mengipas lembut dengan karton besar. Gerak kertas menjadi bukti dorongan udara. Ubah satu hal, misalnya jarak kipas, dan terima hasil tidak seragam.",
+    "materials": [
+      "Kertas besar",
+      "Karton kaku besar dengan tepi halus",
+      "Meja rendah kosong"
+    ],
+    "toddler": {
+      "action": "Pilih letak kertas terlipat dan lihat atau tunjuk ketika bergerak.",
+      "question": "Apakah layar kecil kita bergerak?"
+    },
+    "older": {
+      "action": "Tebak akibat perubahan jarak kipas, lalu bandingkan percobaan lembut.",
+      "question": "Bagaimana menggerakkannya tanpa menyentuh?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Taruh kertas terlipat dan pikirkan cara menggerakkannya tanpa sentuhan tangan."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Buat angin kecil dengan karton. Jelaskan udara dapat mendorong kertas."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik menata ulang layar, kakak mengusulkan satu perubahan. Orang dewasa mengipas lembut dari dekat dan agak jauh. Bandingkan, lalu coba lipatan lain dengan posisi kipas serupa."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Gambar layar dan panah angin. Ingat satu cara menggerakkan kertas."
+      }
+    ],
+    "personalPrompt": "Kapan Anda merasakan angin mendorong benda seperti jaket atau layangan? Bagikan pengamatannya.",
+    "careNote": "Orang dewasa memegang karton dan mengipas menjauhi wajah. Gunakan kertas besar tanpa klip atau batang, hindari tepi tajam, dan segera buang sobekan."
+  },
+  {
+    "id": "a-page-of-questions",
+    "title": "Halaman pertanyaan",
+    "subtitle": "Simpan hal yang membuat penasaran.",
+    "skill": "journaling",
+    "symbol": "questionmark.circle",
+    "takeaway": "Catatan harian menampung pertanyaan serta hal yang sudah diketahui.",
+    "parentPrimer": "Ajak setiap orang mengamati sesuatu di ruangan dan bertanya-tanya. Catat kata, coretan, atau gambar anak sendiri. Jawaban tidak harus segera ada. Sisakan ruang untuk kembali agar catatan menjadi tempat berpikir seiring waktu.",
+    "materials": [
+      "Kertas besar atau buku catatan",
+      "Krayon besar",
+      "Mainan besar atau buku bergambar yang dikenal"
+    ],
+    "toddler": {
+      "action": "Tunjuk hal menarik, buat coretan, atau ucapkan kata untuk saya catat.",
+      "question": "Apa yang menarik perhatianmu?"
+    },
+    "older": {
+      "action": "Gambar, diktekan, atau tulis pertanyaan, lalu usulkan cara menjelajahinya lain hari.",
+      "question": "Pertanyaan mana ingin kamu simpan?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Amati mainan dikenal dan sebutkan satu hal yang membuat Anda penasaran."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tulis pertanyaan dekat sketsa sederhana, sisakan ruang untuk penemuan nanti."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Jelajahi mainan atau buku dan kumpulkan pertanyaan. Adik menunjuk atau menggambar, kakak mendikte atau menulis. Pilih satu untuk diamati lebih dekat, lalu catat petunjuk yang ditemukan atau rasa penasaran yang tersisa."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Beri tanggal dan pilih membagikan pertanyaan atau menyimpannya di kertas saja."
+      }
+    ],
+    "personalPrompt": "Pertanyaan apa yang masih membuat Anda penasaran? Bagikan kesenangan mencatat hal yang belum diketahui.",
+    "careNote": "Gunakan krayon sesuai usia dan kertas tanpa staples. Biarkan anak memilih yang dibagikan dan jangan menjanjikan jawaban yang belum ada."
+  },
+  {
+    "id": "draw-the-sounds-of-today",
+    "title": "Gambar suara hari ini",
+    "subtitle": "Simpan kenangan melalui garis, coretan, dan mendengar.",
+    "skill": "journaling",
+    "symbol": "ear",
+    "takeaway": "Coretan dan kata membantu mengingat suara dari suatu momen.",
+    "parentPrimer": "Berhenti di tempat tenang yang dikenal dan perhatikan suara biasa. Titik bisa mewakili langkah atau garis panjang untuk dengungan. Tak ada sistem simbol benar. Jika suara tak terdengar atau tidak nyaman, catat gerakan terlihat atau suara favorit khayalan.",
+    "materials": [
+      "Kertas atau buku catatan",
+      "Krayon besar",
+      "Tempat akrab yang nyaman"
+    ],
+    "toddler": {
+      "action": "Buat coretan untuk suara atau gerakan yang diperhatikan, atau tirukan suara pelan bersama saya.",
+      "question": "Apa yang ditaruh di halaman suara kita?"
+    },
+    "older": {
+      "action": "Pilih dua suara, ciptakan coretannya, dan diktekan atau tulis tempat serta waktunya.",
+      "question": "Bagaimana coretanmu membantu mengingat suara itu?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Jeda bersama dan perhatikan satu suara biasa seperti langkah pelan."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Gambar tanda Anda dan jelaskan bagaimana membantu mengingat."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Dengarkan dalam jeda pendek nyaman, lalu gambar atau diktekan. Adik memilih krayon, kakak membuat petunjuk simbol suara. Tambah tempat dan tanggal, atau gambar gerak terlihat jika mendengar tidak nyaman."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Lihat halaman bersama dan izinkan tiap orang berbagi tanda atau tidak menjelaskannya."
+      }
+    ],
+    "personalPrompt": "Suara sehari-hari apa mengingatkan Anda pada tempat atau waktu tertentu? Ceritakan singkat.",
+    "careNote": "Suara tetap lembut dan dapat diprediksi; jangan buat bunyi keras untuk dicatat. Tawarkan pilihan tenang atau visual di tempat dikenal dengan pengawasan dewasa."
+  },
+  {
+    "id": "before-and-after-a-little-change",
+    "title": "Sebelum dan sesudah perubahan kecil",
+    "subtitle": "Gambar dua momen di satu halaman.",
+    "skill": "journaling",
+    "symbol": "square.and.pencil",
+    "takeaway": "Dua gambar bertanggal membantu mengingat yang berubah dan tetap sama.",
+    "parentPrimer": "Pilih perubahan kecil bersama, seperti menyusun balok besar menjadi rumah. Gambar sebelum dan sesudah. Keduanya catatan pengamatan, bukan perbandingan seni. Tambahkan kata anak tanpa mengubah ceritanya menjadi versi Anda.",
+    "materials": [
+      "Beberapa balok besar aman untuk balita",
+      "Kertas dilipat menjadi dua bagian",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Pilih balok, buat coretannya, dan bantu menyusun menjadi sesuatu baru.",
+      "question": "Potongan ini sekarang ditaruh di mana?"
+    },
+    "older": {
+      "action": "Catat adegan sebelum dan sesudah, lalu ceritakan satu perubahan dan satu hal tetap.",
+      "question": "Apa yang dibantu diingat oleh dua gambar ini?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Taruh beberapa balok di lantai dan bayangkan jadi apa."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Beri label sebelum dan sesudah. Sketsa susunan awal pada bagian pertama."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik menyusun bagian besar, kakak membantu merancang struktur kecil. Gambar hasil di bagian kedua dan tambah kata dikte atau tulisan. Tinjau gambar awal dan bahas perubahan tanpa menilai kemampuan menggambar."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Tambah tanggal dan judul pilihan bersama, lalu simpan untuk dilihat lagi."
+      }
+    ],
+    "personalPrompt": "Pernah menyimpan catatan atau foto proyek saat berubah? Bagikan detail yang Anda syukuri sudah dicatat.",
+    "careNote": "Bangun hanya struktur rendah dari balok besar ringan. Gunakan krayon besar dan hindari staples, klip, serta hiasan kecil pada halaman."
+  },
+  {
+    "id": "if-the-card-says-so",
+    "title": "Jika kartunya berkata begitu",
+    "subtitle": "Pilih tindakan dengan memeriksa gambar.",
+    "skill": "coding",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "Instruksi bersyarat memilih tindakan ketika syarat terpenuhi.",
+    "parentPrimer": "Sepakati aturan: jika kartu bergambar matahari, melambai; jika tidak, istirahatkan tangan. Periksa satu kartu tiap kali. Gambar adalah masukan dan tindakan mengikuti aturan. Gunakan simbol selain warna; pilih gerakan nyaman atau lakukan lewat mainan.",
+    "materials": [
+      "Dua kartu kertas besar bergambar matahari dan awan",
+      "Krayon besar",
+      "Boneka empuk besar"
+    ],
+    "toddler": {
+      "action": "Pilih kartu dan lihat tindakannya, atau bantu mainan melambai saat matahari muncul.",
+      "question": "Gambar mana yang dilihat mainan kita?"
+    },
+    "older": {
+      "action": "Ucapkan aturan, periksa kartu, dan tebak tindakan sebelum dijalankan.",
+      "question": "Apa yang dilakukan aturan jika kartu ini bukan matahari?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Tunjukkan dua kartu pada mainan dan pikirkan bagaimana ia tahu kapan melambai."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Ucapkan aturan jika-dan-jika-tidak, lalu peragakan kedua kasus perlahan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik menunjukkan kartu, kakak memeriksa aturan. Berganti peran dan pilih gerakan nyaman lain. Sengaja buat satu respons mainan tidak cocok, lalu periksa kartu atau respons yang perlu ditinjau."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Gambar aturan favorit dengan dua gambar dan jalankan contoh kedua kasus."
+      }
+    ],
+    "personalPrompt": "Benda apa yang memberi respons berbeda terhadap masukan? Berikan contoh sederhana seperti sakelar lampu.",
+    "careNote": "Gunakan kartu besar tanpa klip dan mainan tanpa bagian lepas. Gerakan lembut, hindari kilatan cepat atau sinyal keras; boleh menonton saja."
+  },
+  {
+    "id": "name-a-little-program",
+    "title": "Beri nama program kecil",
+    "subtitle": "Beri urutan pendek nama untuk digunakan lagi.",
+    "skill": "coding",
+    "symbol": "rectangle.stack",
+    "takeaway": "Sekumpulan instruksi bernama dapat digunakan kembali saat urutan sama diperlukan.",
+    "parentPrimer": "Gambar dua perintah seperti melambai dan tepuk lutut. Namai rutinitas salam dan buat kartu nama terpisah. Saat kartu bernama muncul, jalankan kedua perintah berurutan. Ini model prosedur pakai ulang: nama mewakili seluruh urutan, bukan langkah pertama saja.",
+    "materials": [
+      "Tiga kartu kertas besar",
+      "Krayon besar",
+      "Tempat duduk nyaman"
+    ],
+    "toddler": {
+      "action": "Pilih satu tindakan lembut dan ikut atau amati saat namanya muncul.",
+      "question": "Apa yang dilakukan rutinitas salam kita?"
+    },
+    "older": {
+      "action": "Buat dan namai rutinitas dua langkah, lalu gunakan dua kali dalam hari pura-pura.",
+      "question": "Langkah mana yang diwakili satu kartu bernama ini?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Ciptakan salam kecil dua bagian dan coba bersama."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Gambar kedua perintah dan kartu nama terpisah. Tunjukkan kartu bernama meminta kedua langkah."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik memilih gerakan salam, kakak mengurutkan perintah. Gunakan saat mainan tiba dan pergi. Ubah satu perintah dan coba rutinitas baru pada kedua tempat."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Simpan tiga kartu bersama dan sebut instruksi yang dibantu diingat namanya."
+      }
+    ],
+    "personalPrompt": "Rutinitas atau kode kecil apa yang Anda pakai ulang? Jelaskan hal yang tetap sama setiap kali dipanggil.",
+    "careNote": "Pilih tindakan duduk lembut, kartu besar, dan sedikit langkah. Hindari gerakan paksa atau pengulangan yang melelahkan."
+  },
+  {
+    "id": "a-value-that-can-change",
+    "title": "Nilai yang bisa berubah",
+    "subtitle": "Catat penumpang bus mainan.",
+    "skill": "coding",
+    "symbol": "number.square",
+    "takeaway": "Nilai bernama dapat diperbarui sementara namanya tetap.",
+    "parentPrimer": "Gambar bus dan kotak berlabel penumpang. Letakkan hingga tiga mainan penumpang dan perbarui angka saat naik atau turun. Ini perumpamaan konkret variabel: label penumpang tetap, nilainya berubah. Tak perlu menghafal notasi.",
+    "materials": [
+      "Kertas besar bergambar bus dan kotak berlabel penumpang",
+      "Tiga figur mainan besar aman bagi balita",
+      "Krayon besar",
+      "Kartu angka besar nol sampai tiga"
+    ],
+    "toddler": {
+      "action": "Pindahkan penumpang dengan bantuan atau pilih siapa yang naik bus pura-pura.",
+      "question": "Siapa yang akan naik?"
+    },
+    "older": {
+      "action": "Perbarui kartu angka tiap penumpang naik atau turun, lalu cocokkan dengan mainan.",
+      "question": "Bagian mana yang tetap saat angka berubah?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Gambar bus pura-pura dan mulai tanpa penumpang."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tunjukkan label penumpang dan kartu nol. Tambah satu mainan, ganti kartu menjadi satu."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik memindah penumpang, kakak memperbarui angka tersimpan. Gunakan jumlah nol sampai tiga. Cocokkan kartu dan mainan, lalu sengaja tinggalkan kartu lama dan betulkan bersama."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Tunjukkan jumlah akhir dan jelaskan bagaimana label memberi arti angka."
+      }
+    ],
+    "personalPrompt": "Di mana Anda menyimpan angka yang berubah, seperti jumlah tugas tersisa? Jelaskan pentingnya label.",
+    "careNote": "Gunakan figur besar aman bagi balita dan kartu angka besar tanpa klip. Bus tetap berupa gambar; jangan gunakan kotak untuk dimasuki atau dinaiki anak."
+  },
+  {
+    "id": "sort-it-another-way",
+    "title": "Kelompokkan dengan cara lain",
+    "subtitle": "Temukan beberapa cara masuk akal membuat kelompok.",
+    "skill": "criticalThinking",
+    "symbol": "square.grid.2x2",
+    "takeaway": "Kumpulan sama dapat dikelompokkan berbeda sesuai aturan pilihan.",
+    "parentPrimer": "Pilih benda besar dikenal dengan ciri tumpang tindih, seperti boneka empuk dan buku berbagai warna. Kelompokkan berdasarkan satu ciri terlihat lalu ciri lain. Benda dapat masuk kelompok berbeda dengan aturan berbeda. Jelaskan alasan dan terima aturan alternatif anak yang bisa ditunjukkan.",
+    "materials": [
+      "Sedikit mainan besar aman bagi balita dan buku kokoh",
+      "Dua label kelompok dari kertas besar",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Pilih antara dua benda atau taruh satu di samping benda yang terasa serupa.",
+      "question": "Mana yang bisa bersama benda ini?"
+    },
+    "older": {
+      "action": "Pilih aturan, jelaskan letak benda, lalu kelompokkan ulang berdasarkan ciri lain.",
+      "question": "Bisakah benda ini berada di kelompok lain jika aturan berubah?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Taruh boneka empuk dekat buku kokoh dan amati satu perbedaan."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Kelompokkan beberapa benda menurut empuk atau tidak, lalu ucapkan aturannya."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik memilih benda, kakak menggambar label dua kelompok. Coba aturan lain seperti beroda dan tidak. Bahas contoh sulit tanpa memaksakan masuk kelompok, lalu buat aturan bersama."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih benda yang berpindah kelompok dan ingat alasannya."
+      }
+    ],
+    "personalPrompt": "Kapan Anda menata benda sama dengan cara berbeda? Contohkan buku, alat, atau berkas.",
+    "careNote": "Gunakan benda besar utuh dikenal tanpa baterai terjangkau atau bagian lepas. Batasi jumlah dan letakkan pada permukaan rendah stabil."
+  },
+  {
+    "id": "which-question-helps",
+    "title": "Pertanyaan mana membantu?",
+    "subtitle": "Pilih pertanyaan yang membedakan dua kemungkinan.",
+    "skill": "criticalThinking",
+    "symbol": "questionmark.bubble",
+    "takeaway": "Pertanyaan berguna membantu membedakan penjelasan yang mungkin.",
+    "parentPrimer": "Pilih tiga mainan besar terlihat dan tentukan satu dalam pikiran. Anak bertanya ya-tidak tentang ciri terlihat. “Apakah beroda?” bisa mempersempit pilihan; ciri yang dimiliki semua mungkin tidak. Jawaban tetap konsisten; boleh menunjuk atau langsung menebak.",
+    "materials": [
+      "Tiga mainan besar dikenal dengan ciri terlihat berbeda"
+    ],
+    "toddler": {
+      "action": "Tunjuk mainan yang mungkin atau tunjukkan ciri yang disebut bersama.",
+      "question": "Mainan mana yang beroda?"
+    },
+    "older": {
+      "action": "Ajukan pertanyaan, singkirkan pilihan yang tidak cocok, dan jelaskan pertanyaan yang membantu.",
+      "question": "Apakah pertanyaan itu membedakan dua mainan ini?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Jajarkan tiga mainan dan katakan Anda sedang memikirkan salah satunya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Contohkan pertanyaan tentang ciri terlihat dan bagaimana jawaban mengubah kemungkinan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik menunjuk calon, kakak bertanya. Bahas mainan yang masih cocok setelah tiap jawaban. Ungkap mainan kapan pun diinginkan, lalu berganti pemilih dan coba pertanyaan baru."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Ingat satu pertanyaan membantu dan satu yang menyisakan beberapa kemungkinan."
+      }
+    ],
+    "personalPrompt": "Kapan pertanyaan lebih spesifik membantu memahami masalah? Bagikan contoh sederhana.",
+    "careNote": "Gunakan mainan besar aman untuk balita dan tetap terlihat. Tanpa penutup mata atau menyembunyikan benda di mulut, pakaian, atau tempat yang harus dipanjat."
+  },
+  {
+    "id": "a-plan-for-a-toy-visitor",
+    "title": "Rencana untuk tamu mainan",
+    "subtitle": "Pilih, lalu lihat pengaruh detail baru.",
+    "skill": "criticalThinking",
+    "symbol": "lightbulb",
+    "takeaway": "Kebutuhan baru dapat mengubah pilihan terbaik untuk suatu tujuan.",
+    "parentPrimer": "Bayangkan tamu mainan perlu istirahat. Bandingkan bantal lebar dan handuk kecil terlipat menurut tujuan, misalnya muat dua mainan. Tambah detail pura-pura dan tinjau lagi. “Aku suka biru” berbeda dari “keduanya muat”: kesukaan dan pengamatan.",
+    "materials": [
+      "Dua boneka empuk besar",
+      "Bantal",
+      "Handuk kecil terlipat"
+    ],
+    "toddler": {
+      "action": "Pilih tempat istirahat mainan dan bantu memeriksa apakah mainan lain muat di samping.",
+      "question": "Di mana tamu kita bisa beristirahat?"
+    },
+    "older": {
+      "action": "Bandingkan dua pilihan dengan tujuan, lalu revisi saat tamu kedua datang.",
+      "question": "Apakah pilihan pertama masih cocok dengan detail baru?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Perkenalkan tamu pura-pura yang mencari tempat istirahat."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Bandingkan bantal dan handuk. Sebutkan kesukaan serta alasan terlihat untuk memilih masing-masing."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik menidurkan mainan, kakak menjelaskan pilihan. Datangkan tamu kedua dan periksa lagi. Coba kebutuhan baru seperti keduanya berdampingan, lalu bahas apakah pilihan berubah."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Saling berterima kasih atas ide membantu dan sebut detail terpenting pada rencana akhir."
+      }
+    ],
+    "personalPrompt": "Kapan perubahan rencana membantu memenuhi kebutuhan orang lain? Bagikan contoh biasa.",
+    "careNote": "Gunakan bantal dan handuk sebagai tempat istirahat mainan di lantai. Wajah anak tetap bebas; jangan membungkus siapa pun atau menumpuk bantal tinggi."
+  },
+  {
+    "id": "a-roof-for-a-toy",
+    "title": "Atap untuk mainan",
+    "subtitle": "Rancang tempat berteduh kecil dengan ruang di bawah.",
+    "skill": "making",
+    "symbol": "house",
+    "takeaway": "Rancangan dapat diperiksa menurut kebutuhannya lalu diperbaiki.",
+    "parentPrimer": "Beri mainan tujuan: atap tetap berdiri dan mainan muat di bawah. Gunakan tumpukan balok besar rendah dan karton. Uji dengan menaruh mainan perlahan, bukan beban berat. Atap runtuh memberi informasi tentang rancangan.",
+    "materials": [
+      "Mainan besar ringan",
+      "Balok besar aman untuk balita",
+      "Karton besar dengan tepi halus"
+    ],
+    "toddler": {
+      "action": "Pilih mainan dan bantu letakkan balok penyangga bersama saya.",
+      "question": "Apakah mainan muat di bawah?"
+    },
+    "older": {
+      "action": "Rencanakan penyangga, periksa ruang bawah, dan ubah satu bagian setelah pengujian.",
+      "question": "Bagaimana atap lebih stabil tanpa menutup pintu?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Mainan perlu tempat berteduh pura-pura. Tanyakan fungsi atapnya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Buat atap sangat rendah dengan dua penyangga dan periksa mainan muat."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik menggerakkan mainan masuk-keluar, kakak mengatur penyangga. Coba jarak lebar dan sempit dengan struktur tetap rendah. Bandingkan dengan tujuan sama: berdiri dan menyisakan ruang."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Gambar rancangan yang berhasil dan sebut satu perbaikan."
+      }
+    ],
+    "personalPrompt": "Kapan Anda membuat atau memperbaiki sesuatu untuk kebutuhan tertentu? Bagikan pemeriksaan sebelum menyebutnya selesai.",
+    "careNote": "Bangun di lantai memakai bagian besar ringan dan atap rendah. Hanya untuk mainan; tanpa memanjat, berdiri di struktur, staples, atau tepi kardus tajam."
+  },
+  {
+    "id": "fold-a-standing-picture",
+    "title": "Lipat gambar agar berdiri",
+    "subtitle": "Bantu tokoh kertas berdiri sendiri.",
+    "skill": "making",
+    "symbol": "rectangle.portrait",
+    "takeaway": "Lipatan dan alas lebar membantu model kertas ringan berdiri.",
+    "parentPrimer": "Kertas datar biasanya perlu penopang agar tegak. Coba alas terlipat atau lipatan tenda dan bandingkan di permukaan rata. Ada beberapa rancangan berhasil. Tujuannya kecil: gambar berdiri sebentar tanpa dipegang.",
+    "materials": [
+      "Beberapa kertas besar atau karton tipis",
+      "Krayon besar",
+      "Meja rendah stabil"
+    ],
+    "toddler": {
+      "action": "Hias kertas besar, bantu tekan lipatan yang dimulai dewasa, atau pilih tempat gambar berdiri.",
+      "question": "Mau gambar kita berdiri di sini?"
+    },
+    "older": {
+      "action": "Coba dua lipatan, bandingkan alasnya, lalu ubah agar lebih stabil.",
+      "question": "Bagian mana menyentuh meja dan menyangga gambar?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Gambar wajah sederhana dan pikirkan cara ia berdiri menyapa."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Coba kertas datar, lalu tambahkan lipatan lebar di bawah. Amati bagian yang kini menyentuh meja."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik menghias, kakak mencoba lipatan alas dan tenda dengan bantuan. Dirikan di meja rata, sesuaikan jika goyah. Buat galeri kecil dan beri tiap tokoh nama."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih gambar berdiri favorit dan ingat lipatan penyeimbangnya."
+      }
+    ],
+    "personalPrompt": "Kapan Anda memakai lipatan atau penopang untuk masalah praktis? Peragakan dengan kertas.",
+    "careNote": "Gunakan kertas besar bertepi halus. Orang dewasa memulai lipatan kuat; jauhkan lipatan tajam dari wajah dan buang sobekan. Tidak perlu gunting, staples, atau klip."
+  },
+  {
+    "id": "a-sign-for-our-space",
+    "title": "Tanda untuk ruang kita",
+    "subtitle": "Buat pesan berguna dengan gambar dan sedikit kata.",
+    "skill": "making",
+    "symbol": "pencil",
+    "takeaway": "Kita dapat merancang tanda sesuai orang yang perlu memahaminya.",
+    "parentPrimer": "Pilih tujuan kecil nyata seperti menunjukkan tempat buku. Buat gambar jelas dan label pendek. Tanyakan artinya kepada orang yang tidak membuat, lalu perbaiki. Tanda berguna bila dipahami penggunanya, meskipun belum dapat membaca.",
+    "materials": [
+      "Kertas atau karton besar",
+      "Krayon besar",
+      "Rak atau meja rendah untuk menaruh tanda"
+    ],
+    "toddler": {
+      "action": "Pilih gambar atau warna dan tunjuk tempat untuk tanda itu.",
+      "question": "Gambar apa yang membantu menemukan buku?"
+    },
+    "older": {
+      "action": "Rencanakan gambar dan label pendek, uji pada anggota keluarga, lalu perbaiki satu detail.",
+      "question": "Apakah orang yang belum membaca bisa memahami artinya?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Cari tempat akrab yang membutuhkan tanda ramah."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Sketsa dua kemungkinan gambar dan bahas yang lebih jelas menyampaikan pesan."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik memilih atau menggambar ciri, kakak menambah label dengan bantuan. Tanyakan maknanya kepada keluarga tanpa memberi jawaban dahulu. Ubah detail membingungkan lalu letakkan di permukaan rendah."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Gunakan tanda bersama dan ingat pilihan yang memperjelasnya."
+      }
+    ],
+    "personalPrompt": "Tanda, label, atau diagram apa membantu Anda melakukan sesuatu? Bagikan yang membuatnya jelas.",
+    "careNote": "Gunakan krayon besar dan karton tanpa klip atau pin. Letakkan aman di permukaan rendah; jangan menutupi tanda keselamatan, kendali, pintu, atau tempat memanjat."
+  },
+  {
+    "id": "one-small-patch-of-nature",
+    "title": "Sepetak kecil alam",
+    "subtitle": "Amati tempat yang biasa terlewati.",
+    "skill": "nature",
+    "symbol": "leaf",
+    "takeaway": "Melihat tempat kecil perlahan dapat mengungkap detail yang semula terlewat.",
+    "parentPrimer": "Pilih area aman terlihat dari jalan setapak atau jendela, seperti pangkal pohon. Amati tanpa mengambil atau mengganggu. Perhatikan bentuk, warna, gerak tanpa harus menamai semua spesies. Gambar mencatat yang nyata dan menyisakan yang belum diketahui sebagai pertanyaan.",
+    "materials": [
+      "Pemandangan aman sepetak area luar ruang",
+      "Kertas",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Tunjuk warna, bentuk, atau gerak dan buat coretannya di samping saya.",
+      "question": "Apa yang kamu tunjukkan di petak kecil kita?"
+    },
+    "older": {
+      "action": "Lihat lagi untuk detail terlewat dan tambahkan ke gambar bersama pertanyaan.",
+      "question": "Apa yang terlihat setelah kita melambat?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Pilih area kecil luar ruang untuk dijelajahi dengan mata dari tempat aman."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Sebutkan detail terlihat dan contohkan mengakui ketidakpastian tentang hal lain."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Amati sebentar-sebentar lalu gambar. Adik menunjuk atau memilih warna, kakak mencatat bentuk dan gerak. Lihat area sama lagi dan tambah detail baru tanpa mengambil apa pun."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Beri tanggal gambar bersama dan pilih yang dicari saat kunjungan berikutnya."
+      }
+    ],
+    "personalPrompt": "Tempat luar ruang biasa mana yang Anda kenal baik? Bagikan detail kecil yang senang Anda amati.",
+    "careNote": "Orang dewasa memilih dan mengawasi tempat aman jauh dari jalan, air, tumbuhan tak dikenal, dan kotoran hewan. Tetap di jalur, jangan ganggu satwa, dan pastikan jendela terkunci aman."
+  },
+  {
+    "id": "what-the-wind-moves",
+    "title": "Yang digerakkan angin",
+    "subtitle": "Cari petunjuk semilir tanpa mengejarnya.",
+    "skill": "nature",
+    "symbol": "wind",
+    "takeaway": "Daun dan dahan bergerak memberi petunjuk tentang angin.",
+    "parentPrimer": "Amati pohon atau semak dikenal dari tempat terlindung aman atau jendela. Cari gerak, bukan mengukur angin tepat. Tidak bergerak juga pengamatan. Bandingkan momen singkat dan bedakan yang dilihat dari dugaan tentang rasa udara di luar.",
+    "materials": [
+      "Pemandangan aman pohon atau semak",
+      "Kertas",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Tunjuk daun bergerak atau tirukan goyangan lembut dengan tangan.",
+      "question": "Bisakah kamu melihat sesuatu bergerak?"
+    },
+    "older": {
+      "action": "Gambar panah atau tanda gerak dan bandingkan dua pengamatan singkat pemandangan sama.",
+      "question": "Petunjuk apa membuatmu mengira ada angin?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Lihat dahan sama bersama dan tunggu sebentar apakah bergerak."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Ceritakan hanya yang terlihat, lalu jelaskan mengapa daun bergerak memberi petunjuk angin."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Amati dalam jeda singkat nyaman. Adik menunjuk atau menggerakkan tangan, kakak menggambar gerak. Bandingkan pengamatan kedua setelah menggambar dan catat momen tenang maupun bergerak."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Simpan satu pengamatan angin dan satu pertanyaan tentang pemandangan luar."
+      }
+    ],
+    "personalPrompt": "Kapan angin mengubah rencana atau menarik perhatian Anda? Bagikan kenangan kecil.",
+    "careNote": "Amati dari jendela aman atau tempat terlindung saat cuaca ringan. Hindari badai, dahan rusak, jalan raya, atau memanjat; jangan ikat tali atau pita pada anak."
+  },
+  {
+    "id": "colours-through-the-window",
+    "title": "Warna melalui jendela",
+    "subtitle": "Buat palet pemandangan luar yang akrab.",
+    "skill": "nature",
+    "symbol": "paintpalette",
+    "takeaway": "Tempat luar ruang yang dikenal memuat banyak warna dan berubah seiring waktu.",
+    "parentPrimer": "Pilih pemandangan dan cocokkan warna terlihat dengan krayon. Ceritakan letaknya tanpa menyimpulkan musim. Daun bisa memiliki beberapa warna dan cahaya mengubah tampilannya. Beri tanggal untuk perbandingan nanti.",
+    "materials": [
+      "Pemandangan aman dari jendela terkunci atau jalur",
+      "Kertas",
+      "Krayon besar berbagai warna"
+    ],
+    "toddler": {
+      "action": "Pilih krayon untuk hal yang diamati dan buat bidang warna.",
+      "question": "Warna apa yang ingin kamu gunakan?"
+    },
+    "older": {
+      "action": "Buat petunjuk warna kecil dengan label atau gambar tempat tiap warna terlihat.",
+      "question": "Bisakah menemukan dua warna pada tanaman sama?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Pilih satu warna dan ajak semua mencari tempat munculnya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Buat bidang warna di kertas dan tambah gambar kecil sumbernya."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik memilih warna, kakak membuat petunjuk. Cari beberapa warna dalam satu benda dan warna mirip di tempat berbeda. Gambar pemandangan bersama tanpa menuntut kecocokan tepat."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Beri tanggal dan pilih tempat untuk dibandingkan hari lain."
+      }
+    ],
+    "personalPrompt": "Warna apa mengingatkan pada tempat luar ruang favorit atau waktu tertentu? Bagikan tanpa berharap pemandangan hari ini sama.",
+    "careNote": "Jendela tetap aman dan anak tidak naik ambangnya. Di luar, tetap bersama dewasa di jalur aman dan amati tumbuhan tak dikenal tanpa menyentuh atau mencicipi."
+  },
+  {
+    "id": "a-place-for-everyone",
+    "title": "Tempat bagi semua",
+    "subtitle": "Rencanakan meja yang nyaman digunakan.",
+    "skill": "cooking",
+    "symbol": "fork.knife",
+    "takeaway": "Menyiapkan makan bersama berarti memikirkan kebutuhan setiap orang.",
+    "parentPrimer": "Gunakan cangkir kosong, piring, dan sendok ringan untuk menata meja. Periksa jumlah tempat dan kemudahan menjangkau. Berbagai susunan bisa berhasil. Ini latihan persiapan dan kepedulian tanpa makanan panas atau alat tajam.",
+    "materials": [
+      "Piring ringan tak mudah pecah dan cangkir kosong",
+      "Sendok besar",
+      "Serbet kain",
+      "Meja rendah stabil"
+    ],
+    "toddler": {
+      "action": "Bawa satu benda ringan bersama saya dan pilih tempat serbet.",
+      "question": "Siapa yang perlu cangkir di sini?"
+    },
+    "older": {
+      "action": "Rencanakan tempat tiap orang, periksa benda, dan sesuaikan yang sulit dijangkau.",
+      "question": "Bagaimana tahu semua mendapat yang dibutuhkan?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Bayangkan makan keluarga kecil dan hitung pesertanya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Atur satu tempat dan jelaskan mengapa cangkir serta sendok mudah dijangkau."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik mengantar serbet, kakak memeriksa tiap tempat. Coba susunan sambil duduk atau berdiri nyaman, pindahkan benda sulit, lalu bereskan bersama. Ulangi dengan tamu tambahan pura-pura jika ingin."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Pilih satu tugas persiapan membantu untuk diingat pada makan berikutnya."
+      }
+    ],
+    "personalPrompt": "Persiapan kecil apa membuat waktu makan lebih tenang? Bagikan rutinitas yang bisa dibantu anak.",
+    "careNote": "Gunakan peralatan kosong tak mudah pecah dan sendok besar pada permukaan rendah stabil. Jauhkan pisau, makanan panas, kaca, dan taplak menjuntai."
+  },
+  {
+    "id": "spread-smooth-and-swirl",
+    "title": "Oles, ratakan, dan buat pusaran",
+    "subtitle": "Latih keterampilan dapur kecil dengan camilan akrab.",
+    "skill": "cooking",
+    "symbol": "fork.knife",
+    "takeaway": "Gerakan alat yang lembut dapat mengoles bahan lunak di permukaan.",
+    "parentPrimer": "Pilih alas makanan lunak dan olesan dikenal yang sudah biasa disiapkan aman untuk keduanya. Contohkan sedikit bahan dan gerakan lambat dengan punggung sendok. Coba sapuan lebar serta pusaran kecil. Tujuannya ikut menyiapkan, bukan hasil rapi atau makan sejumlah tertentu.",
+    "materials": [
+      "Alas camilan lunak yang dikenal, disiapkan sesuai kebutuhan oleh dewasa",
+      "Olesan halus dikenal yang sesuai untuk kedua anak",
+      "Sendok besar",
+      "Piring tak mudah pecah",
+      "Kain pembersih"
+    ],
+    "toddler": {
+      "action": "Arahkan sendok dengan bantuan, pilih tempat mulai, atau lihat dan ceritakan gerakannya.",
+      "question": "Mau buat pusaran kecil di sini?"
+    },
+    "older": {
+      "action": "Coba dua gerakan mengoles lembut dan pilih yang lebih mudah meratakan.",
+      "question": "Apa berubah jika olesan lebih sedikit atau sentuhan lebih ringan?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Cuci tangan bersama dan amati bahan lunak di sendok."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Tunjukkan sedikit bahan dioles perlahan dengan punggung sendok. Pisahkan porsi setiap orang."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik mengarahkan sendok bersama Anda, kakak mencoba sapuan lebar dan pusaran. Bandingkan gerakan, siapkan camilan kecil jika ingin, lalu lap tempat kerja bersama. Sertakan jeda dan mengamati."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Ingat gerakan membantu dan ucapkan terima kasih atas tugas persiapan atau bersih-bersih."
+      }
+    ],
+    "personalPrompt": "Siapa mengajarkan teknik dapur berguna kepada Anda? Bagikan kiat kecil yang memudahkan.",
+    "careNote": "Orang dewasa memilih makanan akrab sesuai alergi dan kebutuhan makan tiap anak serta menyiapkan semua porsi. Tanpa pisau atau bahan panas. Awasi terus, anak duduk saat makan, dan jangan wajibkan mencicipi."
+  },
+  {
+    "id": "a-recipe-in-pictures",
+    "title": "Simpan resep dalam gambar",
+    "subtitle": "Ubah camilan dingin akrab menjadi panduan lain kali.",
+    "skill": "cooking",
+    "symbol": "list.bullet.rectangle",
+    "takeaway": "Resep mencatat bahan dan urutan agar kita dapat membuatnya lagi.",
+    "parentPrimer": "Pilih camilan dingin sederhana yang sudah aman biasa disiapkan, misalnya yoghurt tawar dengan tambahan akrab yang sesuai. Gambar bahan dan dua atau tiga langkah sebelum membuat bersama. Setelah mencoba panduan, tambah detail terlewat. Ini mencatat rutinitas sendiri, bukan mengikuti resep diet baru.",
+    "materials": [
+      "Bahan akrab pilihan orang tua untuk camilan dingin sederhana",
+      "Mangkuk tak mudah pecah dan sendok besar",
+      "Kertas",
+      "Krayon besar",
+      "Kain pembersih"
+    ],
+    "toddler": {
+      "action": "Tunjuk gambar bahan, bantu memakai sendok, atau tandai langkah selesai.",
+      "question": "Gambar mana menunjukkan langkah berikutnya?"
+    },
+    "older": {
+      "action": "Gambar daftar bahan dan langkah, ikuti bersama saya, lalu tambah detail berguna lain kali.",
+      "question": "Apa yang perlu diketahui orang tetapi belum ditampilkan gambar kita?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Pilih camilan dingin akrab dan cuci tangan sebelum memegang bahannya."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Sketsa bahan dan langkah pertama. Jelaskan gambar membantu mengingat."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik menunjuk gambar, kakak menambah langkah lain. Orang dewasa menangani persiapan semua bahan lalu membantu menyendok atau mengaduk. Ikuti panduan, temukan detail terlewat, dan tambahkan sebelum bersih-bersih bersama."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Beri resep judul keluarga dan simpan panduan untuk hari lain. Makan boleh tidak."
+      }
+    ],
+    "personalPrompt": "Adakah camilan atau resep keluarga yang Anda hafal? Bagikan cara mempelajari dan yang akan dicatat untuk orang lain.",
+    "careNote": "Orang dewasa memeriksa alergi dan kebutuhan makan individu, menyiapkan porsi sesuai, dan mengawasi terus. Tanpa produk hewani mentah, panas, alat tajam, atau tambahan kecil keras. Makan sambil duduk tanpa tekanan mencicipi."
+  },
+  {
+    "id": "fast-slow-same-pattern",
+    "title": "Cepat, lambat, pola sama",
+    "subtitle": "Ubah kecepatan pola ketukan lembut.",
+    "skill": "music",
+    "symbol": "metronome",
+    "takeaway": "Kita dapat memainkan irama sama dengan kecepatan berbeda.",
+    "parentPrimer": "Pilih pola singkat seperti ketuk, ketuk, jeda. Pertahankan urutan dan perbandingan jarak saat mengubah kecepatan keseluruhan. Tempo adalah kecepatan; irama susunan suara dan hening. Mulai cukup lambat, dengan ketukan pelan atau gerak tangan terlihat.",
+    "materials": [
+      "Tangan kalian",
+      "Bantal atau lutut untuk ketukan lembut",
+      "Kertas dan krayon besar"
+    ],
+    "toddler": {
+      "action": "Ikut dengan satu ketukan pelan, amati tangan, atau pilih ronde berikutnya lebih lambat.",
+      "question": "Mau ketukan kita pelan?"
+    },
+    "older": {
+      "action": "Pertahankan pola dikenali saat mengubah tempo, lalu jelaskan yang tetap sama.",
+      "question": "Polanya berubah, atau hanya kecepatan memainkannya?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Mainkan ketuk-ketuk-jeda pelan dan ajak siapa pun ikut."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Ulangi lebih lambat, rentangkan jedanya juga. Bedakan pola dari kecepatannya."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik memilih tempo nyaman, kakak memimpin pola. Gambar dua titik dan ruang kosong sebagai pengingat. Berganti ronde pendek dan istirahat, lalu coba gerakan tangan sunyi."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Mainkan versi nyaman favorit dan ingat bagian yang tetap sama."
+      }
+    ],
+    "personalPrompt": "Kapan tempo musik mengubah perasaan suatu kegiatan bagi Anda? Bagikan sambil tetap mengetuk lembut.",
+    "careNote": "Ketukan pelan nyaman, hindari permukaan keras atau memukul benda dekat telinga. Anak boleh melihat atau bergerak sunyi. Tidak wajib tempo cepat."
+  },
+  {
+    "id": "the-quiet-conductor",
+    "title": "Dirigen yang tenang",
+    "subtitle": "Gunakan gerakan untuk memulai suara dan mengistirahatkannya.",
+    "skill": "music",
+    "symbol": "hand.raised",
+    "takeaway": "Isyarat bersama membantu kelompok mulai, berhenti, dan bermusik bersama.",
+    "parentPrimer": "Sepakati dua isyarat seperti tangan terbuka untuk suara lembut dan tangan beristirahat untuk hening. Dirigen membantu koordinasi; ini kerja sama, bukan kepatuhan. Jaga suara pelan dan tunggu semua siap. Gerakan sunyi dapat mengganti suara sepanjang permainan.",
+    "materials": [
+      "Tangan dan suara kalian",
+      "Tempat duduk nyaman"
+    ],
+    "toddler": {
+      "action": "Pilih suara lembut atau beri isyarat mulai sementara dewasa membantu kelompok.",
+      "question": "Kelompok musik kita bermain atau istirahat?"
+    },
+    "older": {
+      "action": "Pimpin urutan singkat suara-hening dengan isyarat jelas dan perhatikan kesiapan kelompok.",
+      "question": "Bagaimana tanganmu memperjelas perubahan berikutnya?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Buat satu suara pelan bersama lalu biarkan berhenti."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Sepakati gerakan mulai dan istirahat, lalu contohkan ronde sangat pendek dengan jeda panjang."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Bergiliran menjadi dirigen. Adik memberi satu isyarat, kakak merencanakan urutan dengan hening. Coba ketukan, senandung, atau membuka tangan sunyi; boleh mengubah pilihan atau tidak ikut."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Akhiri dengan jeda tenang bersama dan sebut gerakan yang membantu bermain bersama."
+      }
+    ],
+    "personalPrompt": "Kapan Anda mengikuti atau memberi isyarat membantu dalam kelompok? Bagikan cara orang tahu yang akan terjadi.",
+    "careNote": "Semua suara bervolume nyaman, tanpa awalan mengejutkan. Jangan gunakan peluit, tongkat, atau alat musik keras; menonton tenang juga boleh."
+  },
+  {
+    "id": "draw-a-little-score",
+    "title": "Gambar partitur kecil",
+    "subtitle": "Buat instruksi gambar untuk musik mungil.",
+    "skill": "music",
+    "symbol": "music.note.list",
+    "takeaway": "Tanda di kertas mengingatkan suara dan keheningan yang perlu dibuat.",
+    "parentPrimer": "Ciptakan tanda bersama: titik untuk ketukan pelan, garis bergelombang untuk senandung, kotak kosong untuk hening. Sepakati arti dan baca tiga kotak dari kiri ke kanan. Ini partitur gambar rekaan, tak harus mengikuti notasi musik baku.",
+    "materials": [
+      "Kertas besar dibagi menjadi tiga kotak",
+      "Krayon besar",
+      "Tangan dan suara kalian"
+    ],
+    "toddler": {
+      "action": "Pilih tanda atau buat suara pelan untuk satu kotak, dengan dewasa mengikuti.",
+      "question": "Suara apa yang diminta gambar ini?"
+    },
+    "older": {
+      "action": "Buat petunjuk sederhana, susun tiga kotak, lalu uji apakah orang dapat memainkannya.",
+      "question": "Bagaimana orang lain tahu arti tanda ini?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Gambar titik dan beri bunyi ketukan pelan."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Pilih tanda lain dan kotak hening. Tunjukkan petunjuk yang menjelaskan artinya."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik memilih satu kotak, kakak menata seluruh partitur. Tunjuk kotak saat memainkan. Tukar satu tanda, mainkan versi baru, lalu pemimpin baru mengikuti petunjuk."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Namai karya kecil dan simpan partitur beserta petunjuknya."
+      }
+    ],
+    "personalPrompt": "Pengingat apa membantu mengikuti atau mengingat musik? Bagikan cara merekam ide sebelum hilang.",
+    "careNote": "Gunakan krayon besar dan suara pelan, dengan pilihan gerakan sunyi. Kertas tanpa klip; jangan mengetuk benda keras atau permukaan dekat telinga."
+  },
+  {
+    "id": "the-other-characters-story",
+    "title": "Cerita tokoh yang lain",
+    "subtitle": "Ceritakan satu kejadian dari dua sudut pandang.",
+    "skill": "storytelling",
+    "symbol": "person.2",
+    "takeaway": "Tokoh berbeda dapat memperhatikan bagian berbeda dari kejadian sama.",
+    "parentPrimer": "Ciptakan kejadian kecil dengan dua mainan besar, seperti tiba di piknik. Ceritakan dari satu tokoh lalu lainnya. Kejadian utama tetap, yang diperhatikan atau diinginkan berubah. Ini kemungkinan khayalan, bukan klaim tentang perasaan orang nyata.",
+    "materials": [
+      "Dua boneka empuk besar",
+      "Tempat piknik dari kertas",
+      "Kertas dan krayon besar"
+    ],
+    "toddler": {
+      "action": "Pilih mainan, beri suara, atau tunjuk ke mana ia pergi dalam cerita.",
+      "question": "Apa yang diperhatikan mainanmu?"
+    },
+    "older": {
+      "action": "Ceritakan sebagai tiap mainan dan jelaskan detail atau keinginan yang berubah menurut sudut pandang.",
+      "question": "Apa yang tokoh ini perhatikan tetapi terlewat tokoh lain?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Biarkan dua mainan tiba di piknik pura-pura sama."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Ceritakan versi singkat sebagai mainan pertama, lalu sebagai temannya."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik menggerakkan tokoh, kakak memberi masing-masing sudut pandang. Latar dan kejadian utama tetap, tetapi hal yang diperhatikan berbeda. Gambar dua versi momen dan diktekan kata tokoh."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Ingat satu detail yang sama dan satu yang diceritakan berbeda."
+      }
+    ],
+    "personalPrompt": "Pernah dua orang mengingat detail berbeda dari hari yang sama? Beri contoh ramah tanpa menganggap perasaan seseorang salah.",
+    "careNote": "Gunakan boneka besar tanpa bagian lepas. Kejadian rekaan tetap menenangkan dan anak boleh berbicara sebagai tokoh atau hanya menggerakkannya."
+  },
+  {
+    "id": "choose-another-ending",
+    "title": "Pilih akhir berbeda",
+    "subtitle": "Beri satu cerita dua jalan ke depan.",
+    "skill": "storytelling",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "Pilihan tokoh dapat membawa cerita menuju akhir berbeda.",
+    "parentPrimer": "Ciptakan masalah kecil seperti toko pura-pura tutup. Tawarkan dua pilihan cocok dengan awal: kembali nanti atau membuat toko di rumah. Jelajahi keduanya tanpa menyatakan satu benar. Bedakan kejadian milik tiap versi.",
+    "materials": [
+      "Mainan besar",
+      "Kertas dilipat menjadi tiga bagian",
+      "Krayon besar"
+    ],
+    "toddler": {
+      "action": "Pilih gambar kejadian selanjutnya atau peragakan gerakan sederhana dengan mainan.",
+      "question": "Mainan kita pulang atau menunggu bersama teman?"
+    },
+    "older": {
+      "action": "Ciptakan dua pilihan dan tunjukkan akhir berbeda dengan awal sama.",
+      "question": "Apa yang berubah pada akhir karena pilihan itu?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Mulai cerita mainan yang toko pura-puranya tutup."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Gambar awal bersama di satu bagian dan usulkan dua langkah berikutnya."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik memilih jalur pertama untuk diperagakan, kakak membuat akhirnya. Kembali ke awal sama dan coba pilihan lain. Gambar kedua akhir di bagian tersisa lalu bandingkan pengaruh pilihan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Beri kedua versi judul dan pilih akhir untuk diceritakan tanpa perlu memberi peringkat."
+      }
+    ],
+    "personalPrompt": "Kapan perubahan rencana kecil membawa pengalaman tak terduga? Bagikan contoh ramah keluarga untuk inspirasi cerita.",
+    "careNote": "Gunakan mainan besar dan krayon besar. Masalah khayalan tetap kecil menenangkan; ubah cerita jika ada anak merasa sedih atau takut."
+  },
+  {
+    "id": "a-postcard-from-an-imaginary-place",
+    "title": "Kartu pos dari tempat khayalan",
+    "subtitle": "Ciptakan tempat dan kirim pesan pura-pura ke rumah.",
+    "skill": "storytelling",
+    "symbol": "envelope",
+    "takeaway": "Detail khusus membantu orang membayangkan tempat yang belum dikunjungi.",
+    "parentPrimer": "Ciptakan tempat khayalan ramah seperti kota bantal raksasa. Pilih detail yang dilihat, didengar, dan dilakukan pengunjung. Gambar kartu pos dan diktekan pesan pendek. Bedakan kenangan nyata dan detail rekaan, keduanya boleh menginspirasi.",
+    "materials": [
+      "Kertas besar dilipat seperti kartu pos",
+      "Krayon besar",
+      "Mainan pengunjung besar"
+    ],
+    "toddler": {
+      "action": "Pilih warna atau ciri tempat dan gerakkan mainan dalam adegan khayalan.",
+      "question": "Apa yang bisa pengunjung lihat di sini?"
+    },
+    "older": {
+      "action": "Ciptakan tempat dengan dua atau tiga detail terkait, lalu diktekan atau tulis pesan tentang kejadian di sana.",
+      "question": "Detail mana membantu orang membayangkan tempat kita?"
+    },
+    "steps": [
+      {
+        "title": "Bangkitkan sedikit rasa ingin tahu",
+        "minutes": 3,
+        "instruction": "Biarkan mainan mengumumkan kunjungan ke tempat yang belum ada."
+      },
+      {
+        "title": "Bagikan yang Anda ketahui",
+        "minutes": 5,
+        "instruction": "Ciptakan nama dan detail konkret, lalu tunjukkan cara menggambarnya pada kartu pos."
+      },
+      {
+        "title": "Temukan bersama",
+        "minutes": 17,
+        "instruction": "Adik menambah ciri, kakak menghubungkan dengan kejadian kecil. Bawa mainan menjelajah, gambar kartu pos, dan catat pesan singkat untuk penerima pura-pura. Tambahkan detail setelah mendengar pesan dibacakan."
+      },
+      {
+        "title": "Simpan kenangan kecil",
+        "minutes": 5,
+        "instruction": "Baca atau tunjukkan kartu pos bersama dan ingat bagian yang diciptakan."
+      }
+    ],
+    "personalPrompt": "Detail apa paling jelas Anda ingat dari tempat yang dikunjungi? Gunakan untuk memulai tempat rekaan.",
+    "careNote": "Gunakan kertas dan krayon besar tanpa perangko, stiker, atau klip yang bisa menjadi bagian kecil lepas. Perjalanan khayalan tetap nyaman dan anak boleh mengubah detail mana pun."
+  }
+]

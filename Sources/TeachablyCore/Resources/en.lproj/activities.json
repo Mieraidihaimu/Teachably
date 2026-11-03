@@ -1,0 +1,3071 @@
+[
+  {
+    "id": "shadow-stories",
+    "title": "Where do shadows go?",
+    "subtitle": "A torch, a wall, and a little wonder.",
+    "skill": "science",
+    "symbol": "flashlight.on.fill",
+    "takeaway": "A shadow appears when something blocks light.",
+    "parentPrimer": "Light travels from a source. When an opaque object gets in its way, less light reaches the surface behind it. Moving your hand nearer a torch usually makes its shadow bigger on a fixed wall.",
+    "materials": [
+      "A torch",
+      "A clear wall",
+      "Your hands"
+    ],
+    "toddler": {
+      "action": "Wave at a hand shadow, copy a shape, and try moving closer. Let looking or pointing count as joining in.",
+      "question": "Can you make it wave?"
+    },
+    "older": {
+      "action": "Predict what will happen when a hand moves towards the torch, then test it. Make a two-character shadow story.",
+      "question": "How could we make the shadow bigger?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Make a shadow wave hello. Ask where it came from."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Block the torch with your hand. Say: “My hand stops some of the light.” Invite each son to try."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Take turns making shapes. Let your younger son move freely while your older son changes one thing at a time. Finish with a tiny shadow story."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Each choose a favourite shadow. Ask your older son to explain one discovery and your younger son to show it."
+      }
+    ],
+    "personalPrompt": "When have you used a torch or noticed a surprising shadow? Share that moment.",
+    "careNote": "Keep the room easy to move around in. An adult handles the torch; never shine it into eyes. Secure any battery compartment."
+  },
+  {
+    "id": "sound-lab",
+    "title": "Can you see a sound?",
+    "subtitle": "Feel a hum and discover tiny vibrations.",
+    "skill": "science",
+    "symbol": "waveform",
+    "takeaway": "Sounds begin with vibrations.",
+    "parentPrimer": "A vibration is a back-and-forth movement. Humming makes parts of your throat vibrate, and a gentle tap can make a cardboard box vibrate. Use quiet sounds and simple comparisons.",
+    "materials": [
+      "A large empty cardboard box",
+      "Your voice"
+    ],
+    "toddler": {
+      "action": "Copy a gentle hum or pat the box with an open hand.",
+      "question": "Shall we make a quiet hum?"
+    },
+    "older": {
+      "action": "Rest fingertips gently on your own throat while humming. Compare the sounds of a light tap on different parts of the box.",
+      "question": "What can you feel when you hum?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Hum a greeting instead of saying it. Invite an echo."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Hum and feel your own throat. Explain that tiny movements help make sounds."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Make a quiet sound band using voices and box taps. Take turns leading. Compare tapping and humming, then invent a short sound pattern."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Repeat the favourite sound and name something that moved."
+      }
+    ],
+    "personalPrompt": "What instrument, machine, or everyday sound do you understand well? Tell them how you first noticed it.",
+    "careNote": "Keep sounds gentle and comfortable. Touch only your own throat. Use a clean box without staples or loose parts."
+  },
+  {
+    "id": "leaf-detectives",
+    "title": "Every leaf has a story",
+    "subtitle": "Turn a familiar walk into a tiny expedition.",
+    "skill": "nature",
+    "symbol": "leaf.fill",
+    "takeaway": "Leaves have different shapes, edges, and textures.",
+    "parentPrimer": "Looking closely is a useful skill. You can describe a leaf without knowing the plant name: rounded or pointed, smooth or rough, wide or narrow. A tree may have many leaves with a similar shape.",
+    "materials": [
+      "A familiar outdoor space",
+      "A few large fallen leaves"
+    ],
+    "toddler": {
+      "action": "Point to colours, feel a leaf with you, and use words such as big, small, smooth, or crinkly.",
+      "question": "Which leaf would you like to show me?"
+    },
+    "older": {
+      "action": "Group fallen leaves by a feature they choose. Explain their sorting rule and try a different one.",
+      "question": "How could you sort these another way?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Find two fallen leaves that look very different."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Show how you look at shape, edge, and colour. Share the name of a tree you know, if you know one."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Explore a short familiar route. Collect only a few fallen leaves, describe them, and build a leaf picture on the ground."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose one leaf each and say or show what makes it special."
+      }
+    ],
+    "personalPrompt": "Do you know a tree, garden, or outdoor place from your childhood? Bring that story along.",
+    "careNote": "Stay together away from roads and water. Handle only familiar fallen leaves; keep plants out of mouths and wash hands afterwards."
+  },
+  {
+    "id": "sky-watchers",
+    "title": "A story in the sky",
+    "subtitle": "Find shapes in clouds and notice what changes.",
+    "skill": "nature",
+    "symbol": "cloud.fill",
+    "takeaway": "Cloud shapes can change as clouds move and develop.",
+    "parentPrimer": "Clouds contain tiny water droplets or ice crystals. Wind can move them across the sky. Seeing animals in their shapes is imagination; noticing direction and change is observation.",
+    "materials": [
+      "A safe view of the sky",
+      "Paper and chunky crayons (optional)"
+    ],
+    "toddler": {
+      "action": "Point to a cloud, copy a shape with arms, or simply watch beside you.",
+      "question": "Does that one look fluffy?"
+    },
+    "older": {
+      "action": "Choose a cloud, describe it, and look again a few minutes later. Separate what they saw from the story they imagined.",
+      "question": "What changed while we watched?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Find a cloud that could be an animal. An overcast sky can be a giant blanket instead."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Share what you know about clouds or weather. Say which part is something you can see and which part is a guess."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Watch from a safe spot. Tell a cloud story and make cloud shapes with arms. If there are no clouds, sketch an imaginary sky together."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Describe one real thing you noticed and one thing you imagined."
+      }
+    ],
+    "personalPrompt": "Tell them about a memorable journey or day when the weather changed your plans.",
+    "careNote": "Never look directly at the sun. Use shade and a safe spot away from traffic, balconies, or water."
+  },
+  {
+    "id": "paper-bridges",
+    "title": "Build a bridge to somewhere",
+    "subtitle": "A small engineering challenge with a big imagination.",
+    "skill": "making",
+    "symbol": "building.2.fill",
+    "takeaway": "Changing a shape can change how a structure holds a load.",
+    "parentPrimer": "A flat sheet of paper can bend easily. Folds can give the same sheet a stiffer shape. This lets children compare designs without needing a technical explanation of forces.",
+    "materials": [
+      "Paper",
+      "Two large stable boxes",
+      "A large lightweight toy"
+    ],
+    "toddler": {
+      "action": "Place a toy beside a bridge and help hold or fold a large sheet.",
+      "question": "Where will your toy go?"
+    },
+    "older": {
+      "action": "Compare a flat sheet with a folded sheet across the same small gap. Test with the same lightweight toy.",
+      "question": "Which shape bends less?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Make a gap between two low boxes. A toy needs to cross."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Show one fold and tell a story about something you have built or repaired."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Try a flat bridge, then a folded one. Keep the gap small. Let your younger son play with the toy while your older son redesigns the bridge."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose a favourite design. Ask what you would try differently tomorrow."
+      }
+    ],
+    "personalPrompt": "What have you made or fixed? Share one time a first attempt did not work.",
+    "careNote": "Build on the floor. Use lightweight toys too large to swallow. These are toy bridges, never for standing or climbing."
+  },
+  {
+    "id": "cardboard-town",
+    "title": "A town of our own",
+    "subtitle": "Make a place where everyone belongs.",
+    "skill": "making",
+    "symbol": "house.fill",
+    "takeaway": "We can design places around what people need.",
+    "parentPrimer": "Design starts with a need: a place to rest, play, travel, or meet. A cardboard model lets us try ideas quickly, move parts, and talk about who will use them.",
+    "materials": [
+      "Large clean cardboard boxes",
+      "Paper",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Choose a box house and move a large toy between places.",
+      "question": "Where should your toy sleep?"
+    },
+    "older": {
+      "action": "Plan three places a town needs and explain who each place helps. Change the layout after a pretend journey.",
+      "question": "What would make this town easier to visit?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Ask where a toy would go if it needed a home."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Share something you know about building, fixing, or arranging a space. Draw a very simple plan."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Arrange boxes as buildings on the floor. Add paper paths. Let each son choose a place, then take a toy on a journey through the town."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Give the town a name and show each other one thoughtful design choice."
+      }
+    ],
+    "personalPrompt": "What do you like about a place you have lived or visited? Add that idea to the town.",
+    "careNote": "An adult removes staples and does any cutting beforehand. Keep walkways clear and do not let children climb into unstable boxes."
+  },
+  {
+    "id": "kitchen-measures",
+    "title": "How much fits inside?",
+    "subtitle": "Everyday kitchen tools become a discovery lab.",
+    "skill": "cooking",
+    "symbol": "cup.and.saucer.fill",
+    "takeaway": "Containers can hold different amounts, even when shapes are misleading.",
+    "parentPrimer": "Capacity is how much a container can hold. Comparing with the same small cup gives a useful informal unit. Encourage estimates before counting; spills are part of the exploration.",
+    "materials": [
+      "A shallow tray",
+      "Large unbreakable cups",
+      "A small amount of water",
+      "A towel"
+    ],
+    "toddler": {
+      "action": "Help pour a little water between large cups with your hand close by. Use full and empty in conversation.",
+      "question": "Is this cup full or empty?"
+    },
+    "older": {
+      "action": "Estimate how many small cupfuls fill a larger container, then count while pouring.",
+      "question": "How could we make this a fair comparison?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Show two different containers. Ask which might hold more."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Tell them how you use cups or measurements when cooking. Demonstrate one slow pour."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Compare containers using the same small cup. Let your younger son pour with help and your older son keep count. Finish by drying up together."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose a container and remember how you compared it."
+      }
+    ],
+    "personalPrompt": "What do you like to cook? Explain a moment when the amount of an ingredient matters.",
+    "careNote": "An adult stays within reach throughout. Use only a little water in a shallow tray; empty it immediately afterwards and wipe spills."
+  },
+  {
+    "id": "recipe-moves",
+    "title": "A recipe without a cooker",
+    "subtitle": "Discover how order turns steps into something useful.",
+    "skill": "cooking",
+    "symbol": "list.number",
+    "takeaway": "A recipe is a sequence of instructions.",
+    "parentPrimer": "Sequences help us repeat a process. A pretend recipe can show why order and clear instructions matter without needing hot equipment or food preparation.",
+    "materials": [
+      "Paper",
+      "Chunky crayons",
+      "Large unbreakable bowl and spoon"
+    ],
+    "toddler": {
+      "action": "Stir a pretend mixture and copy one simple action at a time.",
+      "question": "Shall we stir, stir, stir?"
+    },
+    "older": {
+      "action": "Draw four recipe steps, explain the order, and test whether someone else can follow them.",
+      "question": "What would happen if we swapped these steps?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Announce a pretend kitchen that makes imaginary soup."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Describe a real recipe you know. Act out collecting, mixing, and serving."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Invent an imaginary recipe together. Draw its steps, swap chef and helper roles, then deliberately mix up the order and put it right."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Each choose a favourite step. Let your older son explain the sequence and your younger son act one out."
+      }
+    ],
+    "personalPrompt": "Share a dish someone taught you to make, and the person or place it reminds you of.",
+    "careNote": "Keep this a pretend activity with unbreakable utensils. Put hot equipment, blades, and real ingredients away."
+  },
+  {
+    "id": "rhythm-echo",
+    "title": "You make it. I echo it.",
+    "subtitle": "A little rhythm, a lot of listening.",
+    "skill": "music",
+    "symbol": "hands.clap.fill",
+    "takeaway": "A rhythm is a pattern of sounds and silences.",
+    "parentPrimer": "You can separate a steady beat from the rhythm played over it. Start with a slow, comfortable pulse, then introduce short patterns with pauses. Listening is as useful as playing.",
+    "materials": [
+      "Your hands",
+      "A cushion to tap"
+    ],
+    "toddler": {
+      "action": "Copy one clap or pat and choose a movement for everyone to echo.",
+      "question": "Can we pat together?"
+    },
+    "older": {
+      "action": "Create a short pattern with a pause. Teach it to the family, then change just one part.",
+      "question": "How will we remember the quiet bit?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Clap a gentle hello and leave space for a reply."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Share a rhythm or song you know. Tap a slow beat on your knees."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Take turns making short patterns. Keep a steady beat together, add a silence, then let each son conduct a tiny family band."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Play your favourite pattern once more and thank each other for listening."
+      }
+    ],
+    "personalPrompt": "What music do you love, and who introduced you to it? Hum a little and tell the story.",
+    "careNote": "Keep volume comfortable. Use hands and soft surfaces; avoid loose instruments with small parts."
+  },
+  {
+    "id": "soundtrack-story",
+    "title": "Give a story its own soundtrack",
+    "subtitle": "Turn footsteps, rain, and a giant into music.",
+    "skill": "music",
+    "symbol": "pianokeys",
+    "takeaway": "Music and sounds can help tell a story.",
+    "parentPrimer": "Tempo describes how fast music moves. Quiet and louder sounds, quick and slow patterns, and pauses can suggest different actions or moods. There is no single right soundtrack.",
+    "materials": [
+      "A cushion",
+      "Paper",
+      "Your voices"
+    ],
+    "toddler": {
+      "action": "Choose a soft sound for rain and copy a slow giant step while sitting or standing.",
+      "question": "How does our giant sound?"
+    },
+    "older": {
+      "action": "Create separate sound cues for three story events and explain their choices.",
+      "question": "What could a pause tell us?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Whisper that a tiny creature is about to go on an adventure."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Show how a slow tap can be a footstep and a soft rustle can be rain. Share a piece of music that tells you a story."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Tell a simple journey story. Pause for each son to add a sound. Change the weather or character and invent a new soundtrack."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Retell a favourite moment using just its sounds."
+      }
+    ],
+    "personalPrompt": "What song, film score, or familiar sound brings back a memory for you? Tell them why.",
+    "careNote": "Keep sounds gentle. Use large sheets of paper with supervision and remove torn scraps."
+  },
+  {
+    "id": "story-bag",
+    "title": "Three things. One wild story.",
+    "subtitle": "Make an adventure from things you already own.",
+    "skill": "storytelling",
+    "symbol": "sparkles.rectangle.stack.fill",
+    "takeaway": "A story can connect a character, a problem, and a solution.",
+    "parentPrimer": "Stories need not be polished. A useful starting structure is somebody wanted something, something got in the way, and they tried an idea. Children can contribute through gestures, sounds, or words.",
+    "materials": [
+      "Three large familiar toys",
+      "A bag or pillowcase"
+    ],
+    "toddler": {
+      "action": "Choose a toy, make its sound, or decide where it goes.",
+      "question": "Who is coming on our adventure?"
+    },
+    "older": {
+      "action": "Give the character a goal and invent two possible solutions when a problem appears.",
+      "question": "What else could our character try?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Pull one large toy from the bag with a dramatic hello."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Start a tiny story and show how a character can want something. Tell a short example from your own imagination."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Add the other objects one at a time. Take turns choosing what happens. Act it out and try a different ending."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Give the story a title and let each son repeat or show a favourite moment."
+      }
+    ],
+    "personalPrompt": "What stories did you enjoy when you were little? Borrow a setting or feeling from one.",
+    "careNote": "Use toys too large to swallow. An adult holds the bag; do not place it over heads."
+  },
+  {
+    "id": "family-map",
+    "title": "A map of your own story",
+    "subtitle": "Share a place that made you who you are.",
+    "skill": "storytelling",
+    "symbol": "map.fill",
+    "takeaway": "A map can help us tell a journey in order.",
+    "parentPrimer": "A simple map represents places and connections. It does not have to be geographically exact. First, next, and finally can connect a drawn route to a personal story.",
+    "materials": [
+      "A large sheet of paper",
+      "Chunky crayons",
+      "A large toy to move"
+    ],
+    "toddler": {
+      "action": "Add marks for a place and move a toy along the route with you.",
+      "question": "Where shall we go next?"
+    },
+    "older": {
+      "action": "Draw three places from your story, connect them, and retell the journey in order.",
+      "question": "Which detail would help someone follow this journey?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Tell them you are going to visit a place from your memory."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Draw a simple place you know well and share one specific memory of being there."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Build a story map together. Add a home, a stop, and a destination. Move a toy along it and invite questions, then let each son add an imaginary place."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Ask what they would like to visit and save one question to talk about again."
+      }
+    ],
+    "personalPrompt": "Choose a journey, a childhood home, or a place connected to someone important to you.",
+    "careNote": "Draw on a stable low surface with age-appropriate crayons. Keep caps and small pieces out of reach."
+  },
+  {
+    "id": "toy-shop",
+    "title": "Open a very tiny shop",
+    "subtitle": "Practice choices, counting, and taking turns.",
+    "skill": "numbers",
+    "symbol": "storefront.fill",
+    "takeaway": "Shopping involves choices, quantities, and exchanging something.",
+    "parentPrimer": "Use pretend paper notes and whole numbers. A shop can invite counting, comparing, and explaining a choice. For a toddler, choosing and handing over an item is enough.",
+    "materials": [
+      "Three large toys",
+      "Large paper pretend notes",
+      "Paper price labels"
+    ],
+    "toddler": {
+      "action": "Choose an item and practice handing it over or putting it in the shop.",
+      "question": "Which one would you choose?"
+    },
+    "older": {
+      "action": "Set prices from one to five, count pretend notes, and work out what a small budget can buy.",
+      "question": "What could you choose with three notes?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Announce that your toy shop is open for business."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Share how you decide what to buy. Show one slow pretend exchange."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Swap shopkeeper and customer roles. Let your younger son choose items while your older son makes prices and helps count notes. Invent a delivery or a new shop window."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Share a choice each person made and why."
+      }
+    ],
+    "personalPrompt": "What is something you saved for or chose carefully? Tell them how you decided.",
+    "careNote": "Use large paper notes, never real coins or small tokens. Keep the pretend play free of pressure to buy real things."
+  },
+  {
+    "id": "pattern-path",
+    "title": "What comes next?",
+    "subtitle": "Build a trail of patterns around the room.",
+    "skill": "numbers",
+    "symbol": "square.grid.2x2.fill",
+    "takeaway": "A repeating pattern has a unit that comes around again.",
+    "parentPrimer": "Start with an AB pattern such as clap, pat, clap, pat. The repeating unit is clap-pat. Children can notice patterns in movements, colours, sounds, and arrangements.",
+    "materials": [
+      "Large cushions or soft toys",
+      "Space on the floor"
+    ],
+    "toddler": {
+      "action": "Copy clap-pat or choose between two large toys as you make a pattern.",
+      "question": "Clap, pat… what shall we do now?"
+    },
+    "older": {
+      "action": "Continue an AB pattern, invent an AAB pattern, and explain the repeating part.",
+      "question": "Which bit keeps repeating?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Make a silly clap-pat greeting and repeat it."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Share a pattern you use in music, numbers, sport, or a daily routine."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Arrange large toys in a repeating line. Translate it into movements or sounds. Let each son lead a pattern, then hide one part and work out what belongs there."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Repeat the family pattern together one last time."
+      }
+    ],
+    "personalPrompt": "Where do patterns help you in your own work or hobbies? Show a simple example.",
+    "careNote": "Keep the floor clear. Put toys beside the path rather than where someone will step on them."
+  },
+  {
+    "id": "animal-moves",
+    "title": "How does an animal move?",
+    "subtitle": "Stretch, balance, and be a little ridiculous.",
+    "skill": "movement",
+    "symbol": "pawprint.fill",
+    "takeaway": "Different movements use our bodies in different ways.",
+    "parentPrimer": "Movement play can explore slow and fast, large and small, and balancing with support. Let each child choose a comfortable version. The aim is noticing and enjoying movement, not performing it perfectly.",
+    "materials": [
+      "A clear indoor space",
+      "A soft mat (optional)"
+    ],
+    "toddler": {
+      "action": "Choose a favourite animal and copy one comfortable action, seated or standing.",
+      "question": "Shall we reach like a giraffe?"
+    },
+    "older": {
+      "action": "Invent an animal sequence and explain which moves feel steady or wobbly.",
+      "question": "What helps you stay balanced?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Become a sleepy animal waking up with a big stretch."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Share a gentle warm-up or movement from a sport you enjoy. Offer a seated version too."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Take turns choosing animals. Move slowly, freeze, and change direction. Build a short animal adventure with rests and drinking breaks as wanted."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose a favourite move and notice how your bodies feel."
+      }
+    ],
+    "personalPrompt": "Which sport, dance, or outdoor game have you enjoyed? Share a small part of it.",
+    "careNote": "Clear obstacles, avoid climbing and jumping from furniture, and choose comfortable movements. Stop when anyone wants a break."
+  },
+  {
+    "id": "sock-target",
+    "title": "Aim for a little progress",
+    "subtitle": "Turn rolled socks into a friendly experiment.",
+    "skill": "movement",
+    "symbol": "target",
+    "takeaway": "Practice and small adjustments can help us improve a skill.",
+    "parentPrimer": "Aiming involves choosing a target and noticing the result. Change one thing, such as distance, and compare. Count attempts if that adds fun; avoid comparing the children with each other.",
+    "materials": [
+      "Large rolled socks",
+      "A large open basket",
+      "A clear floor"
+    ],
+    "toddler": {
+      "action": "Drop or roll a large sock into a nearby basket with help.",
+      "question": "Where did your sock land?"
+    },
+    "older": {
+      "action": "Try an underarm throw from a short distance, notice the result, and choose one adjustment.",
+      "question": "What will you change for your next try?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Make the basket a pretend home for sleepy socks."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Show one gentle underarm throw and share how you practice a skill."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Try dropping, rolling, and throwing. Move the basket closer or farther away. Let each son pick his own challenge and celebrate an experiment or a kind turn."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Name one thing you tried and something you would try next time."
+      }
+    ],
+    "personalPrompt": "Tell a story about learning a skill slowly. What helped you keep going?",
+    "careNote": "Use large soft rolled socks. Aim at the basket on the floor, away from faces and breakables. Keep the path clear."
+  },
+  {
+    "id": "same-number-new-shape",
+    "title": "Same number, new shape",
+    "subtitle": "A line, a circle, and a counting surprise.",
+    "skill": "numbers",
+    "symbol": "circle.grid.2x2.fill",
+    "takeaway": "Spreading a group out does not add more objects.",
+    "parentPrimer": "Counting one object once connects a spoken number to a quantity. Rearranging the same objects changes their layout, not their total. Let children check by moving or pairing objects rather than insisting on an answer.",
+    "materials": [
+      "Six large soft toys or blocks",
+      "A clear floor"
+    ],
+    "toddler": {
+      "action": "Hand you one large toy at a time, choose where it goes, and hear you count slowly.",
+      "question": "Can you give this toy a friend?"
+    },
+    "older": {
+      "action": "Count a group, rearrange it without adding or removing anything, and explain whether the total changed. Check by pairing the objects.",
+      "question": "Did the number change, or just the shape?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Arrange a few large toys in a short line, then spread them into a wide circle."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Show how you touch or move each object once as you count. Share a counting trick you use in everyday life."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Make lines, circles, and pairs with the same toys. Let your younger son move them while your older son predicts and checks the total. Try a smaller group if that feels easier."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose one arrangement each and show how you know how many toys there are."
+      }
+    ],
+    "personalPrompt": "When do you use counting, grouping, or a quick mental-maths trick? Show one small example.",
+    "careNote": "Use objects too large to swallow. Keep the play area clear and let counting remain an invitation rather than a quiz."
+  },
+  {
+    "id": "picture-detectives",
+    "title": "Read a little, notice a lot",
+    "subtitle": "Let a favourite picture book start a conversation.",
+    "skill": "reading",
+    "symbol": "book.fill",
+    "takeaway": "Pictures and words can help us make sense of a story.",
+    "parentPrimer": "Read aloud in the language you are comfortable sharing. Pause where the children show interest. Pointing, naming, making a sound, predicting, and listening are all ways to join in; neither child has to read words aloud.",
+    "materials": [
+      "A familiar picture book",
+      "A comfortable place together"
+    ],
+    "toddler": {
+      "action": "Choose a page, point to a picture, make an animal sound, or turn a sturdy page with help.",
+      "question": "What caught your eye?"
+    },
+    "older": {
+      "action": "Make a prediction, point to a picture or word that gave a clue, then read on and revisit the prediction.",
+      "question": "What on this page gave you that idea?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Let each son choose something on the cover to notice."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Read a small part with expression. Share why you enjoy this book or what you look for when choosing a book."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Read at their pace. Stop for pictures they enjoy, act out a favourite moment, and invite your older son to check a prediction. Reread a page or take a break when wanted."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Each choose a favourite page or detail. Save one question you would like to ask next time."
+      }
+    ],
+    "personalPrompt": "What makes you enjoy reading: a character, an idea, a phrase, or a feeling? Share that pleasure with them.",
+    "careNote": "Choose a sturdy age-appropriate book and a comfortable reading spot. Do not require either child to sit still for the whole session."
+  },
+  {
+    "id": "story-in-three-pictures",
+    "title": "A story in three pictures",
+    "subtitle": "Read, draw, and retell it your own way.",
+    "skill": "reading",
+    "symbol": "rectangle.stack.fill",
+    "takeaway": "We can retell events in order using pictures and words.",
+    "parentPrimer": "Choose a short familiar story, or read just a short section. Draw the events together rather than expecting the children to remember every detail. Different retellings can focus on different parts.",
+    "materials": [
+      "A familiar picture book",
+      "Three large sheets of paper",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Choose a favourite character, make a mark for it, or point to the picture you describe.",
+      "question": "Where is your favourite character?"
+    },
+    "older": {
+      "action": "Draw or dictate something from the beginning, middle, and end, then use the pictures to retell the story.",
+      "question": "What happened before this part?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Open a familiar book and ask what they remember about it."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Read a short part. Sketch one event and explain how a picture can help you remember what happened."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Create three large pictures together. Let your younger son add marks or choose a character while your older son arranges the events. Retell the story, then try a silly alternative ending."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Each show one picture and say, point, or act out what happened."
+      }
+    ],
+    "personalPrompt": "What story can you still remember from childhood? Tell them which part stayed with you.",
+    "careNote": "An adult manages the book and materials. Use age-appropriate crayons, remove small broken pieces, and accept drawing or dictation instead of writing."
+  },
+  {
+    "id": "words-around-us",
+    "title": "Words are hiding everywhere",
+    "subtitle": "Discover the print in your own home.",
+    "skill": "reading",
+    "symbol": "text.magnifyingglass",
+    "takeaway": "Written words can carry useful messages.",
+    "parentPrimer": "Names, book titles, and everyday labels give print a purpose. Read a word aloud as you point to it. For the older child, notice familiar letters or sounds without assuming every spelling follows a simple rule.",
+    "materials": [
+      "A favourite book",
+      "A large paper name card",
+      "Familiar safe labels chosen by an adult"
+    ],
+    "toddler": {
+      "action": "Find a familiar picture or your name card, point, and hear you read the words.",
+      "question": "Can you find your name with me?"
+    },
+    "older": {
+      "action": "Look for a known word or letter on safe labels. Explain what a sign or label helps someone know.",
+      "question": "What is this word helping us do?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Write each son's name on a large card and read it aloud."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Show a title or label you use. Point to the words and explain what information they give you."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Go on a short print hunt in a safe part of home. Let your younger son find pictures while your older son spots familiar letters or words. Make a large welcome sign together and read it aloud."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose a useful word or sign you noticed and say what it helps people know."
+      }
+    ],
+    "personalPrompt": "What do you read in a normal day, and how does it help you? Show one familiar example.",
+    "careNote": "An adult selects all labels. Avoid medicines, cleaning products, packaging with small parts, and climbing to reach print."
+  },
+  {
+    "id": "our-page-of-today",
+    "title": "A page of our day",
+    "subtitle": "Draw it, say it, or write a little together.",
+    "skill": "journaling",
+    "symbol": "square.and.pencil",
+    "takeaway": "A diary can keep a memory in pictures, marks, or words.",
+    "parentPrimer": "Model a brief, ordinary entry: a date and one moment you noticed. A toddler can make marks or dictate a word; an older child can draw, dictate, or write. Spelling and neatness are not the purpose of this shared page.",
+    "materials": [
+      "Paper or a notebook",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Choose a colour, make marks, or point while you write down a word they offer.",
+      "question": "What would you like on our page?"
+    },
+    "older": {
+      "action": "Choose one specific moment, add a picture, and dictate or write a sentence about it.",
+      "question": "What tiny detail would help you remember this day?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Tell them you want to remember one small part of today."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Make your own short entry in front of them. Read back what you wrote and explain why you keep a diary."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Each make part of a shared page. Offer to write the children's own words exactly as they say them. Add the date, describe the pictures, and let each child decide when their part is finished."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Read or describe the page together and choose a place to keep it."
+      }
+    ],
+    "personalPrompt": "What does diary writing help you notice or remember? Share an everyday entry you are comfortable reading aloud.",
+    "careNote": "Use age-appropriate drawing tools and remove small broken pieces. Share only diary entries you want others to hear; the children can keep a thought private too."
+  },
+  {
+    "id": "a-moment-and-a-feeling",
+    "title": "One moment, any feeling",
+    "subtitle": "Make room for the lovely, the tricky, and the ordinary.",
+    "skill": "journaling",
+    "symbol": "heart.text.square",
+    "takeaway": "A diary can record both what happened and how it felt to us.",
+    "parentPrimer": "Start with your own simple example: something happened, and you felt a certain way. Children may name a feeling, choose a colour, draw, or decide not to share. Their entry does not need to sound cheerful or match yours.",
+    "materials": [
+      "Paper",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Choose a colour or draw freely while you describe your own moment. Accept gestures, a word, or no answer.",
+      "question": "Would you like to show me, or keep drawing?"
+    },
+    "older": {
+      "action": "Describe an event and a feeling, then choose a detail to draw or write. Notice that people can feel differently about the same event.",
+      "question": "How did that moment feel for you?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Choose an ordinary moment from your day and describe it without judging it."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Write a short entry with an event and your own feeling. Explain that a diary can hold different kinds of days."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Invite each child to make a page about something they choose. Offer feeling words without assigning one to them. Draw alongside them and ask before reading their words aloud."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Let each person choose whether to share a mark, a sentence, or nothing at all."
+      }
+    ],
+    "personalPrompt": "How do you write about a day that was mixed or ordinary? Show a simple example you are comfortable sharing.",
+    "careNote": "Keep the activity voluntary. Use age-appropriate crayons and let children choose what they share."
+  },
+  {
+    "id": "a-note-to-tomorrow",
+    "title": "A little note to tomorrow",
+    "subtitle": "Send your future selves something to remember.",
+    "skill": "journaling",
+    "symbol": "envelope.open.fill",
+    "takeaway": "Writing or drawing can carry a message to someone later, including ourselves.",
+    "parentPrimer": "A future note can hold a question, a memory, or something to try. Model one small realistic idea. The activity is making a message, not a promise that children must fulfil tomorrow.",
+    "materials": [
+      "A large sheet of paper",
+      "Chunky crayons",
+      "A safe place for the folded note"
+    ],
+    "toddler": {
+      "action": "Make a mark for the note or choose a favourite toy to mention. You can write down their words.",
+      "question": "What shall we tell tomorrow-us?"
+    },
+    "older": {
+      "action": "Choose a memory or question to send to their future self, draw or write it, and decide when to open it.",
+      "question": "What might you want to remember when we open this?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Pretend to receive a letter from tomorrow and wonder what it might say."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Write a small message to your future self and explain how notes help you remember."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Make a family note with a contribution from each person. Read it back, fold it, and agree on a place and a time to revisit it. Decorate the outside with a drawing."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Each point to or name one thing in the message. There is no need to read private contributions aloud."
+      }
+    ],
+    "personalPrompt": "Do you use a diary to remember ideas or plans? Share one small habit they could try with you.",
+    "careNote": "Use paper without staples or clips. Keep the note somewhere an adult can retrieve it without climbing, and use age-appropriate crayons."
+  },
+  {
+    "id": "friendly-robot",
+    "title": "Be my friendly robot",
+    "subtitle": "Turn simple instructions into a playful program.",
+    "skill": "coding",
+    "symbol": "chevron.left.forwardslash.chevron.right",
+    "takeaway": "A sequence is a set of instructions followed in order.",
+    "parentPrimer": "For this game, agree on a few precise commands such as point up, clap once, and turn your hands over. Act them out literally and gently. The computer-science connection is specifying an order; no device or reading is needed.",
+    "materials": [
+      "Three large paper command cards",
+      "Chunky crayons",
+      "A comfortable clear space"
+    ],
+    "toddler": {
+      "action": "Choose one picture command and watch you act it out. Copy a clap or point if they want.",
+      "question": "Which move should our robot do?"
+    },
+    "older": {
+      "action": "Arrange three picture commands, run the program, and change the order to see what happens.",
+      "question": "Which instruction will the robot follow first?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Become a friendly seated robot waiting for one command."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Draw a simple command and follow it. Share how coding means giving a computer instructions it can carry out."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Make a three-card program using gentle seated actions. Let your younger son choose a move and your older son order the cards. Swap robot and programmer roles, then try a different order."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Run your favourite short program once more and name one thing that changed when you changed the order."
+      }
+    ],
+    "personalPrompt": "What is one small thing you have coded or automated? Explain its input and action in ordinary words.",
+    "careNote": "Use comfortable seated or standing actions in a clear space. Keep eyes open, avoid spinning or climbing, and let anyone stop or opt out."
+  },
+  {
+    "id": "debug-the-toy-route",
+    "title": "Find the muddled instruction",
+    "subtitle": "A friendly first adventure in debugging.",
+    "skill": "coding",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "Debugging means checking a plan and changing a part that is not doing what we intended.",
+    "parentPrimer": "Start with a simple goal and three picture instructions for moving a large toy between large paper places. Follow the cards one at a time. If the result differs from the goal, change one card and test again. Describe the plan as needing a change, not the child as being wrong.",
+    "materials": [
+      "A large toy",
+      "Three large paper place pictures",
+      "Three large picture instruction cards"
+    ],
+    "toddler": {
+      "action": "Move the toy with you or point to its destination. Choose which large picture to visit next.",
+      "question": "Where should our toy finish?"
+    },
+    "older": {
+      "action": "Predict the destination from a short sequence, find a mismatched instruction, change it, and rerun the sequence.",
+      "question": "At which step did our plan go somewhere different?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "A toy wants to reach its home, but the picture instructions send it to the park."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Run a two-step plan slowly with the toy. Share a simple example of checking code when it does something unexpected."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Create a three-stop paper route on a low table or clear floor. Deliberately muddle one instruction. Let your younger son move the toy with you while your older son checks and repairs the plan. Swap roles."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Describe the change that helped the toy reach its goal. Celebrate checking and trying again."
+      }
+    ],
+    "personalPrompt": "Can you remember a small coding bug and the clue that helped you find it? Tell that story without technical jargon.",
+    "careNote": "Use large toys and paper cards without clips. Keep the route on a stable low surface and never put the children inside boxes or physical obstacles."
+  },
+  {
+    "id": "a-loop-of-silly-moves",
+    "title": "A loop of silly moves",
+    "subtitle": "Write it once, then do it again.",
+    "skill": "coding",
+    "symbol": "repeat",
+    "takeaway": "A loop repeats a sequence of instructions.",
+    "parentPrimer": "Choose a two-action pattern such as clap, tap knees. Running it three times is a small repeat loop. Distinguish the actions inside the loop from how many times to repeat them. This is an analogy for a programming loop.",
+    "materials": [
+      "Two large picture command cards",
+      "A large paper repeat card"
+    ],
+    "toddler": {
+      "action": "Copy one comfortable action or choose the sound everyone will repeat.",
+      "question": "Shall we do that once more?"
+    },
+    "older": {
+      "action": "Build a two-action program, choose a repeat count from one to three, and track the repetitions.",
+      "question": "Which actions are inside our loop?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Make a short clap-and-tap pattern and invite an echo."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Show how two cards can replace a long row of repeated instructions when you add a repeat card. Tell them where you use repetition in code."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Try the two-action loop together, seated or standing. Let your younger son pick a move and your older son control the repeat count. Compare repeating both actions with repeating just one. Pause whenever anyone wants."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Say or show which part repeated, then choose a favourite loop to keep on paper."
+      }
+    ],
+    "personalPrompt": "What repetitive job have you used code to do? Compare it with repeating one small action here.",
+    "careNote": "Choose gentle actions and a small repeat count. Avoid jumping from furniture, fast spinning, or insisting on continued exercise."
+  },
+  {
+    "id": "clue-or-guess",
+    "title": "A clue or a guess?",
+    "subtitle": "Notice something, then say what makes you think so.",
+    "skill": "criticalThinking",
+    "symbol": "lightbulb.fill",
+    "takeaway": "Something we notice and an explanation we guess are different kinds of statements.",
+    "parentPrimer": "Use an ordinary object to model the difference: I can see wheels is an observation; I think it would go fast is an idea to investigate. Guesses are welcome. The useful habit is naming a clue and being willing to revise an idea.",
+    "materials": [
+      "A large familiar toy",
+      "Paper",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Point to a feature or choose between two things you name. Respond to what catches their attention.",
+      "question": "What can you show me on this toy?"
+    },
+    "older": {
+      "action": "Say something they can observe and something they think might be true. Offer a clue for the idea and a way to check it.",
+      "question": "What makes you think that?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Look closely at a familiar toy without naming it immediately."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Model an observation and a guess about the toy. Explain how you check ideas in your own life."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Take turns noticing details, inventing explanations, and choosing a simple safe check. Draw a visible feature on one side of a page and a question on the other. Let your younger son point or make sounds as part of the conversation."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose one thing you noticed and one question you still have."
+      }
+    ],
+    "personalPrompt": "When did looking more closely change your first impression? Share a small everyday example.",
+    "careNote": "Use familiar toys too large to swallow. Keep any check simple and safe; the conversation can stay with looking, drawing, and imagining."
+  },
+  {
+    "id": "mystery-pillowcase",
+    "title": "The mystery in the pillowcase",
+    "subtitle": "Collect clues and let your ideas change.",
+    "skill": "criticalThinking",
+    "symbol": "questionmark.circle.fill",
+    "takeaway": "New clues can make a different explanation more likely.",
+    "parentPrimer": "Choose one familiar large soft toy. Give a true clue at a time, or let the children see a small part while you hold the case open. Model changing your guess when a new detail appears. This is shared guessing, not a test of getting the answer quickly.",
+    "materials": [
+      "A familiar large soft toy",
+      "A pillowcase held by an adult"
+    ],
+    "toddler": {
+      "action": "Look at or feel a visible part with your help, name a feature, or choose to reveal the toy.",
+      "question": "Does this part feel soft?"
+    },
+    "older": {
+      "action": "Suggest a possibility, ask for a useful clue, and change the suggestion when a new clue points elsewhere.",
+      "question": "Which clue would help us choose between those ideas?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Place a familiar large soft toy in the pillowcase and leave the top in your hands."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Give one true clue and share an initial guess yourself. Explain that changing an idea after a new clue is useful."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Offer clues one by one. Invite your older son to ask a question while your younger son can point, feel with help, or reveal the toy. Swap roles using another familiar large toy if the children want to continue."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Talk about which clue helped most and whether anyone changed their idea."
+      }
+    ],
+    "personalPrompt": "When have you changed your mind after getting more information? Share a simple example without making it a lesson about being right.",
+    "careNote": "An adult holds the pillowcase throughout. Use large soft toys without detachable parts, keep faces clear, and never place the case over a head."
+  },
+  {
+    "id": "more-than-one-answer",
+    "title": "More than one good answer",
+    "subtitle": "Try two ideas for one tiny problem.",
+    "skill": "criticalThinking",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "A problem can have several workable solutions with different advantages.",
+    "parentPrimer": "Give a toy a simple goal: move from one paper place to another. Carrying it, sliding it on a sheet, or making a pretend route may all work. Ask what matters for the goal before choosing a solution. No answer needs to be the cleverest.",
+    "materials": [
+      "A large toy",
+      "Two large sheets of paper",
+      "A large clean cardboard box"
+    ],
+    "toddler": {
+      "action": "Choose a destination and move the toy in a comfortable way with you.",
+      "question": "How shall we help our toy get there?"
+    },
+    "older": {
+      "action": "Suggest two different solutions, try them, and explain which works better for a chosen condition such as keeping the toy upright.",
+      "question": "Would we choose the same idea if the toy had to stay upright?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Put a toy on one paper place and imagine it needs to visit the other."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Offer two possible ways to move it. Share how you compare options when solving a real problem."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Try different toy journeys on the floor or a low stable surface. Let your younger son move the toy while your older son suggests and tests options. Change one pretend condition and see whether your preferred solution changes."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Each show an idea that worked. Notice a helpful suggestion or a kind turn."
+      }
+    ],
+    "personalPrompt": "What everyday problem have you solved in more than one way? Explain what helped you choose.",
+    "careNote": "Use large lightweight toys. This is a toy journey only: no lifting children, climbing on boxes, or building structures to stand on. Remove staples from cardboard."
+  },
+  {
+    "id": "little-ramp-lab",
+    "title": "A little ramp lab",
+    "subtitle": "Watch a toy roll, then change one thing.",
+    "skill": "science",
+    "symbol": "car.fill",
+    "takeaway": "A slope can change how a wheeled toy moves.",
+    "parentPrimer": "Gravity pulls objects towards Earth. On a slope, it can help a freely rolling wheeled toy move downhill. Wheels and surfaces also affect motion, so compare the same toy on the same ramp and change just its gentle slope. Do not assume that the heavier toy will always be faster.",
+    "materials": [
+      "A large wheeled toy",
+      "A wide smooth piece of cardboard",
+      "A stable low support such as a cushion",
+      "A clear landing area"
+    ],
+    "toddler": {
+      "action": "Release the large toy with your help, watch where it goes, and use words such as go, stop, and down.",
+      "question": "Where did our toy stop?"
+    },
+    "older": {
+      "action": "Predict what a small change in ramp slope might do, release the same toy without pushing, and compare what happens.",
+      "question": "What did we change, and what did we keep the same?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Roll a large toy on a flat surface, then show a very gentle slope."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Demonstrate releasing the toy without a push. Share something you know about slopes, gravity, or wheels."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Set up a very low wide ramp with an adult steadying it. Take turns releasing the toy from the same place. Adjust the support slightly and compare. Let your younger son watch or help retrieve the toy while your older son describes the test."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Each say or show one observation. Leave any unexpected result as something to investigate again."
+      }
+    ],
+    "personalPrompt": "Where have you used a ramp, wheels, or a gentle slope in everyday life? Connect that experience to what you saw.",
+    "careNote": "An adult holds the ramp stable on the floor. Use a large lightweight toy, a very low slope, and a clear landing area away from faces. Never use the ramp for a child to stand or slide on."
+  },
+  {
+    "id": "move-freeze-notice",
+    "title": "Move, freeze, notice",
+    "subtitle": "Try a small movement and listen to your body.",
+    "skill": "movement",
+    "symbol": "figure.walk",
+    "takeaway": "We can choose different ways to move and pause.",
+    "parentPrimer": "Offer comfortable movement choices such as marching gently, reaching, or tapping knees while seated. You can notice feeling warm, a heartbeat, or wanting a rest without measuring or judging anyone. A pause is part of the activity.",
+    "materials": [
+      "A clear comfortable space",
+      "A chair for a seated option"
+    ],
+    "toddler": {
+      "action": "Choose a gentle action, imitate it, or watch beside you. Any comfortable small movement counts.",
+      "question": "Shall we reach or tap our knees?"
+    },
+    "older": {
+      "action": "Plan a short sequence, add a pause, and describe how they feel before and after. Adapt the sequence when wanted.",
+      "question": "What would make this movement comfortable for you?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Choose a silly but gentle movement and invite everyone to try their own version."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Share a simple movement or warm-up you enjoy. Demonstrate a seated option and a pause."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Take turns leading a short move-and-freeze sequence. Keep eyes open and feet on a clear floor. Try slow and smaller versions, include rests, and let each son choose when to join or stop."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Notice how you feel without comparing bodies or performance. Choose a comfortable final stretch or quiet rest."
+      }
+    ],
+    "personalPrompt": "What helps you enjoy basic exercise or keep a movement habit? Share one simple thing you do.",
+    "careNote": "Use gentle comfortable movements, allow a seated version, and stop when anyone wants to. Avoid climbing, forced stretches, breath-holding, and fast spinning."
+  },
+  {
+    "id": "a-fair-share-picnic",
+    "title": "A fair-share picnic",
+    "subtitle": "Give every toy a place and something to share.",
+    "skill": "numbers",
+    "symbol": "number",
+    "takeaway": "Giving one item to each guest in turn can help us make equal groups.",
+    "parentPrimer": "Use two toy guests and four large blocks as pretend food. Deal one block to each guest, then repeat. Matching and counting can both check whether the groups are equal. If an extra block remains, it is a chance to discuss choices rather than insist that every collection divides evenly.",
+    "materials": [
+      "Two large soft toys",
+      "Five large toddler-safe blocks",
+      "Two paper placemats"
+    ],
+    "toddler": {
+      "action": "Offer a block to each toy with your help, or point to the guest waiting for a turn.",
+      "question": "Who needs one next?"
+    },
+    "older": {
+      "action": "Share four blocks equally, check the groups, then work out what to do when a fifth block joins.",
+      "question": "How can we check that both guests have the same number?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Sit two toy guests beside their paper placemats and announce a pretend picnic."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Give each guest one large block at a time. Show how lining the groups up in pairs helps you compare them."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Take turns serving and clearing four blocks. Let your younger son deliver them and your older son check each share. Add a fifth block and discuss leaving it for later or finding another pretend solution. Swap jobs and try again."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Draw the two picnic places and remember how you checked the shares."
+      }
+    ],
+    "personalPrompt": "When do you share supplies or take turns at home? Tell them how you decide what is fair.",
+    "careNote": "Use blocks too large to swallow and explain that they are pretend food. Keep this a toy picnic without tasting or putting objects in mouths."
+  },
+  {
+    "id": "how-many-blocks-long",
+    "title": "How many blocks long?",
+    "subtitle": "Make a measuring tool from a row of blocks.",
+    "skill": "numbers",
+    "symbol": "ruler",
+    "takeaway": "A length comparison works best when we use the same unit and leave no gaps.",
+    "parentPrimer": "Place equal-sized blocks end to end beside a book, starting at the same edge. The blocks act as repeated units. A book need not measure a whole number of blocks; saying a little more than three is useful. Compare with bigger blocks to see why the size of a measuring unit matters.",
+    "materials": [
+      "Several large equal-sized blocks",
+      "Two sturdy books",
+      "One larger toddler-safe block"
+    ],
+    "toddler": {
+      "action": "Help line up blocks beside a book, or choose the next book to measure.",
+      "question": "Shall we put this block beside that one?"
+    },
+    "older": {
+      "action": "Measure both books using the same blocks, checking the starting edge and any gaps.",
+      "question": "Would bigger blocks give us the same count?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Wonder aloud whether a book is three blocks long or more."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Lay a short row beside the book. Deliberately leave a gap, then show why closing it makes the comparison clearer."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Measure two books on a low table. Your younger son can supply blocks while your older son aligns and counts them. Compare the lengths, then use the larger block repeatedly with adult help to explore a different unit."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose one book and draw its row of measuring blocks. Keep any partly filled space in the picture."
+      }
+    ],
+    "personalPrompt": "What have you measured when making, buying, or arranging something? Share why using the right unit helped.",
+    "careNote": "Use large blocks without detachable pieces and light books on a stable low surface. Keep blocks on the table or floor rather than stacking them high."
+  },
+  {
+    "id": "shapes-in-a-picture",
+    "title": "Shapes hiding in a picture",
+    "subtitle": "Turn circles, triangles, and rectangles into a little scene.",
+    "skill": "numbers",
+    "symbol": "square.on.circle",
+    "takeaway": "We can recognise flat shapes by their features even when we turn them around.",
+    "parentPrimer": "Offer large paper shapes and talk about straight sides, corners, and curved edges. Rotate a triangle to show that it remains a triangle. A roof can look triangular, but a real house is a solid object; here you are exploring flat shapes in a picture.",
+    "materials": [
+      "Large paper circles, triangles, squares, and rectangles prepared by an adult",
+      "A large sheet of paper",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Choose and place a large shape or trace its edge with a finger beside you.",
+      "question": "Which shape would you like for our picture?"
+    },
+    "older": {
+      "action": "Build a picture from shapes, describe their features, and rotate a piece to see what stays the same.",
+      "question": "Is it still a triangle when its point faces sideways?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Turn a large paper triangle around and imagine what it could become."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Trace its three sides together. Compare it with a circle without asking anyone to memorise names."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Arrange a shared picture of a house, vehicle, or invented creature. Let your younger son place pieces while your older son explains choices and tries rotated shapes. Draw extra details and invent another scene with the same pieces."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Each point to a favourite shape and notice one feature that stayed the same when it moved."
+      }
+    ],
+    "personalPrompt": "Where do shapes help you plan or recognise something? Share an example from a sign, design, or familiar object.",
+    "careNote": "An adult prepares large paper pieces and keeps scissors out of reach. Avoid small scraps, clips, or loose decorations, and clear away torn pieces."
+  },
+  {
+    "id": "rhyme-time-in-a-book",
+    "title": "Rhyme time in a book",
+    "subtitle": "Listen for endings that sound alike.",
+    "skill": "reading",
+    "symbol": "book",
+    "takeaway": "Rhyming words have matching ending sounds, even when they begin differently.",
+    "parentPrimer": "Choose a familiar picture book with a few clear rhymes. Read naturally, then repeat a pair such as cat and hat. This is listening play, not a spelling test. Accept invented words that rhyme and model examples without requiring your younger child to supply one.",
+    "materials": [
+      "A familiar rhyming picture book",
+      "Paper",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Join in a repeated sound, point to a picture, or choose a page to hear again.",
+      "question": "Shall we say that funny sound again?"
+    },
+    "older": {
+      "action": "Listen for a rhyming pair, suggest another word, and invent a short spoken line with you.",
+      "question": "What could rhyme with the word we just heard?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Read a favourite rhyming page with a playful voice."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Repeat two rhyming words slowly enough to hear their endings. Offer a word that does not rhyme for a gentle comparison."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Read a few pages, pausing only where the children enjoy joining in. Your younger son can echo a sound while your older son suggests a rhyme. Draw an invented silly pair and make up a line about it together."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Read the favourite page once more and remember one pair of words you enjoyed."
+      }
+    ],
+    "personalPrompt": "Which rhyme or poem do you remember hearing as a child? Share a short favourite from memory.",
+    "careNote": "Use a sturdy age-appropriate book and chunky crayons. Avoid turning the game into a speed test or requiring anyone to perform a rhyme."
+  },
+  {
+    "id": "read-it-with-feeling",
+    "title": "Read it with feeling",
+    "subtitle": "Try different voices for the same little line.",
+    "skill": "reading",
+    "symbol": "text.bubble",
+    "takeaway": "Our voice can help a listener understand a character's words and feelings.",
+    "parentPrimer": "Choose a short line from a familiar picture book. Read it in two gentle voices and discuss which fits the scene. Pictures, words, and punctuation can offer clues; they do not always tell us exactly how a character feels. The adult can do all the reading.",
+    "materials": [
+      "A familiar picture book with dialogue",
+      "A large soft toy"
+    ],
+    "toddler": {
+      "action": "Give the toy a sound, copy an expression, or point to a character in the picture.",
+      "question": "What voice shall our toy use?"
+    },
+    "older": {
+      "action": "Choose a voice for a character and explain which word or picture detail helped them choose.",
+      "question": "What clue makes that voice fit this part?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Let a toy say hello in two different gentle voices."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Read one short line from the book and show the picture. Try curious and sleepy versions, then talk about what changes."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Read a short scene together. Your younger son can make a sound for the toy while your older son directs your voice or reads a line if wanted. Notice a question mark or exclamation mark and try another version of the scene."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose a favourite reading of one line and say what helped you imagine the character."
+      }
+    ],
+    "personalPrompt": "Who read stories to you, and what do you remember about their voice? Try one welcoming storytelling habit of your own.",
+    "careNote": "Keep voices at a comfortable volume, avoid startling sounds, and let either child listen quietly. Use a soft toy without loose parts."
+  },
+  {
+    "id": "a-book-for-our-question",
+    "title": "A book for our question",
+    "subtitle": "Look for information about something you wonder.",
+    "skill": "reading",
+    "symbol": "book.closed",
+    "takeaway": "We can choose a book and use its features to look for information.",
+    "parentPrimer": "Offer two suitable books, including a simple factual book. Choose a small question that one might help answer. Show how a cover, contents page, heading, or labelled picture gives clues about where to look. If the answer is absent, say so; a book does not need to answer every question.",
+    "materials": [
+      "Two age-appropriate books, including a simple factual book",
+      "Paper",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Choose a picture to explore, point to a familiar object, or turn a sturdy page with help.",
+      "question": "Which picture shall we look at?"
+    },
+    "older": {
+      "action": "Ask a question, choose the more promising book, and help look for a relevant page or caption.",
+      "question": "Which part of this book could help us find out?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Set out the books and wonder about one topic shown on a cover."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Think aloud as you choose a book. Show one useful feature, such as a contents page or a heading."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son choose an interesting picture and your older son ask a question about it. Read relevant text aloud and compare it with the illustration. Draw something you found out, or record the question if the answer is not there."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Name the clue that helped you find a page and choose one question to keep exploring."
+      }
+    ],
+    "personalPrompt": "When have you looked something up in a book or manual? Share how you found the part you needed.",
+    "careNote": "Use familiar child-appropriate books without loose inserts. Keep the search relaxed and let looking at pictures count as taking part."
+  },
+  {
+    "id": "follow-my-mirror",
+    "title": "Follow my mirror",
+    "subtitle": "Lead a gentle move, then follow someone else's.",
+    "skill": "movement",
+    "symbol": "figure.stand",
+    "takeaway": "Watching and adjusting can help us coordinate a movement with a partner.",
+    "parentPrimer": "Face each other and copy slow, comfortable movements, like opening hands or lifting one arm. The aim is noticing and responding, not matching perfectly. Seated movements work well, and each person can choose a smaller version or simply watch.",
+    "materials": [
+      "A clear comfortable space",
+      "Stable chairs for a seated option"
+    ],
+    "toddler": {
+      "action": "Lead one small hand movement or copy yours at their own pace.",
+      "question": "Can I copy your hands?"
+    },
+    "older": {
+      "action": "Lead a slow sequence that someone else can follow, then adapt its speed or size for their partner.",
+      "question": "What would help your partner follow that move?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Open and close your hands slowly and invite a pretend mirror to follow."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Demonstrate leading and following. Show how slowing down gives your partner time to respond."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Swap leaders for short rounds with rests. Your younger son can choose a hand shape while your older son links two gentle moves. Try a seated round, then invent a friendly greeting that everyone can adapt."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Repeat your shared greeting and notice one way you helped each other join in."
+      }
+    ],
+    "personalPrompt": "When do you watch someone to learn a movement or practical skill? Share what makes a demonstration easy to follow.",
+    "careNote": "Keep eyes open and movements comfortable. Leave space between people, use stable chairs, and avoid forced stretches, balancing on furniture, or touching someone to reposition them."
+  },
+  {
+    "id": "roll-it-to-a-friend",
+    "title": "Roll it to a friend",
+    "subtitle": "Send a soft ball on a gentle floor journey.",
+    "skill": "movement",
+    "symbol": "circle.fill",
+    "takeaway": "We can adjust a rolling movement to help a ball reach someone else.",
+    "parentPrimer": "Sit a short distance apart and roll a large soft ball along the floor. Explore direction and a gentle push without turning it into a contest. Moving closer or using both hands can make joining in easier. A partner can stop the ball before returning it.",
+    "materials": [
+      "A large soft age-appropriate ball",
+      "A clear level floor"
+    ],
+    "toddler": {
+      "action": "Stop or push the ball with your help, or show where it should go next.",
+      "question": "Who shall we roll it to?"
+    },
+    "older": {
+      "action": "Adjust the direction and strength of a roll, then suggest a distance that works for everyone.",
+      "question": "What could you change to make the ball easier to reach?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Sit close together and let the ball arrive with a quiet hello."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Show a gentle two-handed roll and how to wait until a partner is ready."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Take turns sending the ball around a small seated group. Let your younger son choose the next recipient and your older son adjust the roll. Move a little closer or farther apart if comfortable, with frequent pauses."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Finish with a shared easy roll and name one adjustment that helped someone receive it."
+      }
+    ],
+    "personalPrompt": "What game taught you to cooperate or adjust to a partner? Share a small example while you play.",
+    "careNote": "Use a large soft ball, keep it on the floor, and clear the area of trip hazards. Choose comfortable seated positions and keep the game away from stairs."
+  },
+  {
+    "id": "a-path-at-our-pace",
+    "title": "A path at our pace",
+    "subtitle": "Choose a gentle route with room to stop.",
+    "skill": "movement",
+    "symbol": "figure.walk",
+    "takeaway": "We can plan a route and adjust our pace and direction to move comfortably.",
+    "parentPrimer": "Choose two visible landmarks in a clear room and walk between them slowly. A route can include a comfortable turn and a pause. Seated participants can trace the route in the air or direct a partner. Keep the focus on noticing space rather than finishing quickly.",
+    "materials": [
+      "A clear level space with two visible landmarks",
+      "A stable chair for a seated option"
+    ],
+    "toddler": {
+      "action": "Walk beside you, choose a stopping place, or point out the route while seated.",
+      "question": "Where shall we pause?"
+    },
+    "older": {
+      "action": "Plan a short route with a pause and a gentle turn, then change it to make room for everyone.",
+      "question": "Where do we need extra space to turn?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Imagine a little journey from one side of the room to another."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Model walking slowly, looking ahead, and stopping with space around you. Show a seated hand-tracing option."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son pick a destination and your older son describe a clear route. Follow it one at a time or side by side with space. Try smaller steps or a different stopping place, then rest and swap the planning role."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Trace your favourite route with a finger and remember where you chose to pause."
+      }
+    ],
+    "personalPrompt": "What helps you find a comfortable pace when walking or learning a new movement? Share your own way of taking a break.",
+    "careNote": "Use a level floor away from stairs and sharp corners. Remove loose rugs and obstacles; do not lay paper stepping stones on the floor. Keep eyes open and offer seated participation."
+  },
+  {
+    "id": "slide-and-compare",
+    "title": "Slide and compare",
+    "subtitle": "Try the same gentle slide on two surfaces.",
+    "skill": "science",
+    "symbol": "arrow.right",
+    "takeaway": "The surfaces touching a sliding object can affect how it moves.",
+    "parentPrimer": "Friction is a force that resists sliding between surfaces. Compare a large smooth block on a bare low table and on a flat towel. Hand pushes will vary, so treat this as a way to notice and ask questions, not a precise measurement or a guarantee that one surface always wins.",
+    "materials": [
+      "A large smooth toddler-safe block",
+      "A small towel",
+      "A stable low table with room to stop"
+    ],
+    "toddler": {
+      "action": "Help push the block gently or feel the towel and the table with you.",
+      "question": "Does this surface feel different?"
+    },
+    "older": {
+      "action": "Compare several gentle slides using the same block and discuss why the pushes might differ.",
+      "question": "What are we changing, and what is hard to keep the same?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Move a large block a short distance across the table and listen to it slide."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Place a flat towel on part of the table. Explain that touching surfaces can resist movement."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Take turns gently sliding the same block on the two surfaces while an adult keeps it away from edges. Your younger son can choose a surface; your older son can describe each result. Repeat a few times and notice whether your observations agree."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Draw the two surfaces and keep one observation and one question about the slides."
+      }
+    ],
+    "personalPrompt": "Where do you want something to slide easily, and where is grip useful? Share an everyday example.",
+    "careNote": "Use a lightweight block too large to swallow. Keep pushes gentle and away from faces and table edges; an adult steadies the towel and catches the block."
+  },
+  {
+    "id": "a-little-floating-lab",
+    "title": "A little floating lab",
+    "subtitle": "Place, predict, and watch at the water's surface.",
+    "skill": "science",
+    "symbol": "drop.fill",
+    "takeaway": "Some objects stay at the water's surface while others sink, and size alone does not tell us which.",
+    "parentPrimer": "Water pushes upward on an immersed object. Whether it floats depends on its weight and how much water it displaces. For this small exploration, notice results without expecting children to explain buoyancy. Compare a few intact large washable objects; heavy does not automatically mean sink.",
+    "materials": [
+      "A shallow bowl with a small amount of water",
+      "A large plastic cup and large solid washable toys without holes or batteries",
+      "A towel"
+    ],
+    "toddler": {
+      "action": "Place one large object with your hand beside theirs, or point to where it rests.",
+      "question": "Is it at the top or down below?"
+    },
+    "older": {
+      "action": "Predict, place objects gently, and draw the observed result beside each prediction.",
+      "question": "Did anything surprise you, and what could we try again?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Set the shallow bowl on a towel within the supervising adult's reach and choose one object."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Make a prediction, lower the object gently, and describe where it rests without judging the guess."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Test a few large objects one at a time. Your younger son can help place and retrieve them while your older son records observations. Try the empty cup upright, then let it fill with water and notice what changes."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose one surprising observation to draw. The adult empties the bowl immediately when play ends."
+      }
+    ],
+    "personalPrompt": "When have you noticed something floating in a bath, puddle, or pond? Connect that memory to what you saw here.",
+    "careNote": "An adult stays within arm's reach and supervises continuously, even with shallow water. Empty the bowl immediately afterwards, wipe spills, and use no small parts, glass, electrical toys, or objects for tasting."
+  },
+  {
+    "id": "air-moves-a-sail",
+    "title": "Air can move a sail",
+    "subtitle": "Make a little breeze with a piece of card.",
+    "skill": "science",
+    "symbol": "wind",
+    "takeaway": "Moving air can push on an object even though we cannot see the air itself.",
+    "parentPrimer": "Fold a large piece of paper into a low tent that can act like a sail. Fan it gently with a large card held by the adult. The paper's movement is evidence of a push from the air. Change one thing at a time, such as the card's distance, and accept uneven results.",
+    "materials": [
+      "A large sheet of paper",
+      "A large piece of stiff card with smooth edges",
+      "A clear low table"
+    ],
+    "toddler": {
+      "action": "Choose where to place the folded paper and watch or point when it moves.",
+      "question": "Did our little sail move?"
+    },
+    "older": {
+      "action": "Predict what changing the fan's distance might do, then compare gentle attempts.",
+      "question": "How can we move it without touching it?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Place the folded paper on the table and wonder how to move it without a hand touching it."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Make a small breeze with the card. Explain that air can push against the paper."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son reset the sail while your older son suggests one change. The adult fans gently from near and a little farther away. Compare observations, then try a different fold while keeping the fan position similar."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Draw the sail and an arrow for the breeze. Remember one way you made the paper move."
+      }
+    ],
+    "personalPrompt": "When have you felt wind pushing something, such as a coat or a kite? Share what you noticed.",
+    "careNote": "An adult holds the card and fans away from faces. Use large sheets without clips or sticks, avoid sharp card edges, and collect any torn paper promptly."
+  },
+  {
+    "id": "a-page-of-questions",
+    "title": "A page of questions",
+    "subtitle": "Keep the things you wonder about.",
+    "skill": "journaling",
+    "symbol": "questionmark.circle",
+    "takeaway": "A diary can hold questions as well as things we already know.",
+    "parentPrimer": "Invite each person to notice something in the room and wonder about it. Record the child's own words, marks, or drawing. You do not need an immediate answer. Leaving space to revisit a question shows that a diary can be a place for thinking over time.",
+    "materials": [
+      "A large sheet of paper or a notebook",
+      "Chunky crayons",
+      "A familiar large toy or picture book"
+    ],
+    "toddler": {
+      "action": "Point to something interesting, make a mark, or offer a word for you to record.",
+      "question": "What caught your eye?"
+    },
+    "older": {
+      "action": "Draw, dictate, or write a question and suggest one way you might explore it another day.",
+      "question": "Which question would you like to keep?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Look at a familiar toy and say one thing you wonder about it."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Write your question beside a simple sketch and leave a blank space for a future discovery."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Explore a toy or book together and collect a few questions. Your younger son can point or draw while your older son dictates or writes. Choose one question to investigate by looking more closely, and record whether you found a clue or still wonder."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Date the page and choose whether to share a question aloud or keep it just on paper."
+      }
+    ],
+    "personalPrompt": "What question are you still curious about? Share why you enjoy keeping track of things you do not yet know.",
+    "careNote": "Use age-appropriate crayons and paper without staples. Let children choose what to share, and avoid promising an answer you do not have."
+  },
+  {
+    "id": "draw-the-sounds-of-today",
+    "title": "Draw the sounds of today",
+    "subtitle": "Keep a memory with lines, marks, and listening.",
+    "skill": "journaling",
+    "symbol": "ear",
+    "takeaway": "Marks and words can help us remember sounds from a moment in our day.",
+    "parentPrimer": "Pause in a familiar quiet space and notice ordinary sounds. A child might draw dots for footsteps or a long line for a hum. There is no correct symbol system. If a sound is not heard or is uncomfortable, a visible movement or an imagined favourite sound can become the diary entry instead.",
+    "materials": [
+      "Paper or a notebook",
+      "Chunky crayons",
+      "A comfortable familiar place"
+    ],
+    "toddler": {
+      "action": "Make a mark for a sound or movement they notice, or copy a quiet sound with you.",
+      "question": "What shall we put on our sound page?"
+    },
+    "older": {
+      "action": "Choose two sounds, invent marks for them, and dictate or write where and when they happened.",
+      "question": "How could your marks remind you of that sound later?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Pause together and notice one ordinary sound, such as a quiet footstep."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Draw your own mark for it and explain why that mark helps you remember."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Listen in short comfortable pauses, then draw or dictate. Your younger son can choose a crayon while your older son makes a small sound key. Add a place and date, or draw a visible movement if listening is not comfortable."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Look at the page together and let each person share a mark or leave it unexplained."
+      }
+    ],
+    "personalPrompt": "Which everyday sound reminds you of a place or time in your life? Tell a short story about it.",
+    "careNote": "Keep sounds gentle and predictable; do not create loud noises to record. Offer a quiet or visual option and stay in a familiar space under adult supervision."
+  },
+  {
+    "id": "before-and-after-a-little-change",
+    "title": "Before and after a little change",
+    "subtitle": "Draw two moments on the same page.",
+    "skill": "journaling",
+    "symbol": "square.and.pencil",
+    "takeaway": "Two dated pictures can help us remember what changed and what stayed the same.",
+    "parentPrimer": "Choose a small change you can make together, such as arranging a few large blocks into a house. Draw the pieces before and the arrangement afterwards. Both drawings are records of what you noticed, not an art comparison. Add the children's words without correcting their account into yours.",
+    "materials": [
+      "A few large toddler-safe blocks",
+      "Paper folded into two panels",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Choose a block, make marks for it, and help arrange it into something new.",
+      "question": "Where shall this piece go now?"
+    },
+    "older": {
+      "action": "Record the before and after scenes and describe one change and one thing that remained.",
+      "question": "What would these two pictures help us remember?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Place a few blocks on the floor and imagine what they could become."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Label the paper before and after. Sketch the starting arrangement in the first panel."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son arrange large pieces while your older son helps design a small structure. Draw the result in the second panel and add dictated or written words. Look back at the first drawing and discuss changes without judging drawing skill."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Add the date and a title chosen together, then keep the page for a later look."
+      }
+    ],
+    "personalPrompt": "Have you kept a note or picture of a project as it changed? Share a detail you were glad you recorded.",
+    "careNote": "Build only low structures with large lightweight blocks. Use chunky crayons and keep the page free of staples, clips, and small decorations."
+  },
+  {
+    "id": "if-the-card-says-so",
+    "title": "If the card says so",
+    "subtitle": "Choose an action by checking a picture.",
+    "skill": "coding",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "A conditional instruction chooses what to do when a condition is met.",
+    "parentPrimer": "Agree on a simple rule: if the card shows a sun, wave; otherwise, rest your hands. Check one card at a time. The picture is the input and the action follows the rule. Use symbols as well as colour, and let children choose comfortable actions or act through a toy.",
+    "materials": [
+      "Two large paper cards showing a sun and a cloud",
+      "Chunky crayons",
+      "A large soft toy"
+    ],
+    "toddler": {
+      "action": "Choose a card and watch the action, or help a toy wave when the sun appears.",
+      "question": "Which picture shall our toy see?"
+    },
+    "older": {
+      "action": "State the rule, check each card, and predict which action should happen before running it.",
+      "question": "What will our rule do when this card is not a sun?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Show a toy two picture cards and wonder how it could know when to wave."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Say the if-and-otherwise rule aloud and demonstrate both cases slowly."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son show cards while your older son checks the rule. Swap roles and use a different comfortable action. Deliberately give the toy one mismatched action and work out whether the card or the response needs checking."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Draw the favourite rule with two pictures and run one example of each case."
+      }
+    ],
+    "personalPrompt": "Where does something you use respond differently to an input? Share a simple example, such as a light switch.",
+    "careNote": "Use large cards without clips and a toy without loose parts. Keep actions gentle, avoid rapid flashing or loud signals, and allow watching instead of moving."
+  },
+  {
+    "id": "name-a-little-program",
+    "title": "Name a little program",
+    "subtitle": "Give a short sequence a name you can use again.",
+    "skill": "coding",
+    "symbol": "rectangle.stack",
+    "takeaway": "A named set of instructions can be reused wherever we need the same sequence.",
+    "parentPrimer": "Draw two commands, such as wave and tap knees. Give that sequence a name like hello routine and draw a separate card for the name. When the named card appears, run its two commands in order. This models a reusable procedure; the name refers to the whole sequence, not just its first action.",
+    "materials": [
+      "Three large paper cards",
+      "Chunky crayons",
+      "A comfortable seated space"
+    ],
+    "toddler": {
+      "action": "Choose one gentle action for the routine and join in or watch when its name appears.",
+      "question": "What shall our hello routine do?"
+    },
+    "older": {
+      "action": "Build and name a two-step routine, then use the name at two different points in a pretend day.",
+      "question": "Which steps does this one named card stand for?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Invent a tiny two-part greeting and try it together."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Draw its two commands and a separate named card. Show how the named card asks for both steps."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can choose a greeting action while your older son orders the commands. Use the named routine when a toy arrives and again when it leaves. Change one command and try the updated routine in both places."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Keep the three cards together and say which instructions the name helps you remember."
+      }
+    ],
+    "personalPrompt": "What small routine or piece of code do you reuse? Explain what stays the same each time you call on it.",
+    "careNote": "Choose gentle seated actions, large cards, and a small number of steps. Avoid forced movements or repeated actions that become tiring."
+  },
+  {
+    "id": "a-value-that-can-change",
+    "title": "A value that can change",
+    "subtitle": "Keep track of a toy bus's passengers.",
+    "skill": "coding",
+    "symbol": "number.square",
+    "takeaway": "A named value can be updated while its name stays the same.",
+    "parentPrimer": "Draw a bus and a box labelled passengers. Place up to three large toy passengers beside the bus and update the number in the box as they arrive or leave. This is a concrete analogy for a variable: the label stays passengers while the value changes. No notation needs to be memorised.",
+    "materials": [
+      "A large sheet of paper with a bus and a labelled passengers box",
+      "Three large toy figures suitable for toddlers",
+      "Chunky crayons",
+      "Large paper number cards from zero to three"
+    ],
+    "toddler": {
+      "action": "Move one large passenger with your help or choose who gets on the pretend bus.",
+      "question": "Who is coming on board?"
+    },
+    "older": {
+      "action": "Update the number card after each arrival or departure and check it against the toys.",
+      "question": "Which part stayed the same when our number changed?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Draw a pretend bus and begin with no passengers."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Show the passengers label and zero card. Add one toy and replace the card with one."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son move a passenger while your older son updates the stored number. Use totals from zero to three. Pause to compare the card with the toys, then deliberately leave an old card in place and repair the mismatch together."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Show the final passenger count and explain how the label helped you know what the number meant."
+      }
+    ],
+    "personalPrompt": "Where do you keep a changing number, such as a count of jobs left? Explain why its label matters.",
+    "careNote": "Use large toddler-safe figures and large number cards without clips. Keep the bus a drawing; do not use a box for children to climb into or ride."
+  },
+  {
+    "id": "sort-it-another-way",
+    "title": "Sort it another way",
+    "subtitle": "Find more than one sensible way to make groups.",
+    "skill": "criticalThinking",
+    "symbol": "square.grid.2x2",
+    "takeaway": "The same collection can be grouped differently depending on the rule we choose.",
+    "parentPrimer": "Choose a few large familiar objects with overlapping features, such as soft toys and sturdy books in different colours. Sort by one visible feature, then another. An object can belong in different groups under different rules. Explain your reasoning and accept a child's alternative rule when they can show it.",
+    "materials": [
+      "A small collection of large toddler-safe toys and sturdy books",
+      "Two large paper group labels",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Choose between two objects or place one beside another that feels similar.",
+      "question": "Which one could go with this?"
+    },
+    "older": {
+      "action": "Choose a sorting rule, explain a placement, then regroup the collection using a different feature.",
+      "question": "Could this object belong somewhere else if our rule changed?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Put a soft toy next to a sturdy book and notice one difference."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Sort a few objects by whether they are soft, and explain the rule aloud."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son choose objects while your older son labels two groups with pictures. Try another rule, such as objects with wheels and objects without. Discuss an awkward example rather than forcing it into a group, and invent a rule together."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose one object that moved groups and remember why its place changed."
+      }
+    ],
+    "personalPrompt": "When do you organise the same things in different ways? Share an example from books, tools, or files.",
+    "careNote": "Use only large intact familiar objects without batteries accessible to children or detachable pieces. Keep the collection small and place it on a stable low surface."
+  },
+  {
+    "id": "which-question-helps",
+    "title": "Which question helps?",
+    "subtitle": "Choose a question that separates two possibilities.",
+    "skill": "criticalThinking",
+    "symbol": "questionmark.bubble",
+    "takeaway": "A useful question can help us tell possible explanations apart.",
+    "parentPrimer": "Choose three visible large toys and privately select one in your mind. Children ask yes-or-no questions about observable features. A question like does it have wheels can narrow the choices; a feature all three share may not. Keep the answer consistent and allow pointing or direct guesses.",
+    "materials": [
+      "Three large familiar toys with different visible features"
+    ],
+    "toddler": {
+      "action": "Point to a possible toy or show a feature you name together.",
+      "question": "Which toy has wheels?"
+    },
+    "older": {
+      "action": "Ask a question, remove choices that do not fit the answer, and explain which question helped.",
+      "question": "Would that question tell these two toys apart?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Line up three toys and say that you are thinking of one of them."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Model a question about a visible feature and show how its answer changes the possibilities."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son point to candidates while your older son asks questions. Discuss which toys still fit after each answer. Reveal the toy whenever wanted, then swap who chooses and try a new question."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Remember one question that helped and another that left several possibilities open."
+      }
+    ],
+    "personalPrompt": "When did asking a more specific question help you understand a problem? Share a simple example.",
+    "careNote": "Use large toddler-safe toys and keep them visible. No blindfolds or hiding objects in mouths, clothes, or places children would need to climb to reach."
+  },
+  {
+    "id": "a-plan-for-a-toy-visitor",
+    "title": "A plan for a toy visitor",
+    "subtitle": "Make a choice, then see what a new detail changes.",
+    "skill": "criticalThinking",
+    "symbol": "lightbulb",
+    "takeaway": "A new requirement can change which option works best for a goal.",
+    "parentPrimer": "Imagine a toy visitor needs a place to rest. Compare a broad cushion and a small folded towel using a chosen goal, such as room for two toys. Add a new pretend detail and reconsider. Separate a preference from an observation: I like blue and both toys fit are different reasons.",
+    "materials": [
+      "Two large soft toys",
+      "A cushion",
+      "A small folded towel"
+    ],
+    "toddler": {
+      "action": "Choose a resting place for a toy and help check whether another toy fits beside it.",
+      "question": "Where could our visitor rest?"
+    },
+    "older": {
+      "action": "Compare two choices against a goal, then revise the plan when a second visitor arrives.",
+      "question": "Does our first choice still work with this new detail?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Introduce a pretend visitor looking for a resting place."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Compare the cushion and towel. Name a preference and an observable reason for choosing each."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son settle the toy while your older son explains a choice. Bring a second toy visitor and check the plan again. Try a new pretend need, such as keeping both toys side by side, and discuss whether the choice changes."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Thank each other for a helpful idea and name the detail that mattered most to the final plan."
+      }
+    ],
+    "personalPrompt": "When have changed plans helped you respond to someone else's needs? Share an ordinary example.",
+    "careNote": "Use cushions and towels as toy resting places on the floor. Keep children's faces clear and avoid wrapping anyone in fabric or piling cushions high."
+  },
+  {
+    "id": "a-roof-for-a-toy",
+    "title": "A roof for a toy",
+    "subtitle": "Design a tiny shelter with room underneath.",
+    "skill": "making",
+    "symbol": "house",
+    "takeaway": "A design can be checked against what it needs to do, then improved.",
+    "parentPrimer": "Give a large toy a simple design brief: a roof that stays up and leaves room for the toy underneath. Use low stacks of large blocks and a sheet of card. Test by gently placing the toy, not by adding heavy loads. A collapsed roof is information about the design.",
+    "materials": [
+      "A large lightweight toy",
+      "Large toddler-safe blocks",
+      "A large sheet of card with smooth edges"
+    ],
+    "toddler": {
+      "action": "Choose the toy and help place a large support block with you.",
+      "question": "Can our toy fit underneath?"
+    },
+    "older": {
+      "action": "Plan the roof's supports, check the space underneath, and change one part after a test.",
+      "question": "What could make the roof steadier without blocking the doorway?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "A toy needs a little pretend shelter. Ask what its roof should do."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Make a very low roof with two supports and check whether the toy fits."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can move the toy in and out while your older son adjusts the supports. Try wider and narrower spacing, keeping the structure low. Compare designs against the same two goals: staying up and leaving room."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Draw the design that worked for your toy and name one improvement you made."
+      }
+    ],
+    "personalPrompt": "When have you made or fixed something to fit a particular need? Share what you checked before calling it finished.",
+    "careNote": "Build on the floor with large lightweight parts and a low roof. This shelter is only for a toy; no climbing, standing on structures, staples, or sharp cardboard edges."
+  },
+  {
+    "id": "fold-a-standing-picture",
+    "title": "Fold a standing picture",
+    "subtitle": "Help a paper character stand on its own.",
+    "skill": "making",
+    "symbol": "rectangle.portrait",
+    "takeaway": "Folds and a wider base can help a lightweight paper model stand.",
+    "parentPrimer": "A flat sheet often needs support to stay upright. Try a folded base or a tent fold and compare how the paper stands on a level surface. There are several workable designs. Keep the goal small: a picture that stands for a moment without a hand holding it.",
+    "materials": [
+      "Several large sheets of paper or thin card",
+      "Chunky crayons",
+      "A stable low table"
+    ],
+    "toddler": {
+      "action": "Decorate a large sheet, help press an adult-started fold, or choose where the picture stands.",
+      "question": "Shall our picture stand here?"
+    },
+    "older": {
+      "action": "Try two folds, compare their bases, and adapt one so the picture stands more steadily.",
+      "question": "What part touches the table and holds our picture up?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Draw a simple face on paper and wonder how it could stand to greet you."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Try the flat sheet, then add a broad fold at its bottom. Notice what now touches the table."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son decorate while your older son tries a base fold and a tent fold with help. Stand the pictures on a level table and adjust them after a wobble. Arrange a small gallery and give each character a name."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose a favourite standing picture and remember the fold that helped it balance."
+      }
+    ],
+    "personalPrompt": "Where have you used a fold, brace, or support to solve a practical problem? Show it with the paper.",
+    "careNote": "Use large sheets with smooth edges. An adult starts firm folds; avoid sharp creases near faces and collect torn scraps. No scissors, staples, or clips are needed."
+  },
+  {
+    "id": "a-sign-for-our-space",
+    "title": "A sign for our space",
+    "subtitle": "Make a useful message with a picture and a few words.",
+    "skill": "making",
+    "symbol": "pencil",
+    "takeaway": "We can design a sign around the person who needs to understand it.",
+    "parentPrimer": "Choose a real small purpose, such as showing where books belong. Draw a clear picture and add a short label. Ask someone who did not design it what they think it means, then improve it if needed. A sign is useful when its audience can understand it, even if they cannot read the words.",
+    "materials": [
+      "A large sheet of paper or card",
+      "Chunky crayons",
+      "A shelf or low table where the sign can rest"
+    ],
+    "toddler": {
+      "action": "Choose a picture or colour and point to the place the sign is for.",
+      "question": "What picture could help us find the books?"
+    },
+    "older": {
+      "action": "Plan a picture and short label, test the message with a family member, and revise one detail.",
+      "question": "Would someone who cannot read the words know what this means?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Look for a familiar place that could use a friendly sign."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Sketch two possible pictures and talk about which tells the message more clearly."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can choose or draw a feature while your older son adds a label with your help. Ask a family member what the sign suggests, without giving the answer first. Change a confusing detail and place the sign on a low surface."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Use the sign together and remember a choice that made it easier to understand."
+      }
+    ],
+    "personalPrompt": "What sign, label, or diagram has helped you do something? Share what made it clear.",
+    "careNote": "Use chunky crayons and large card without clips or pins. Rest the sign securely on a low surface; do not place it on safety signs, controls, doorways, or climbing spots."
+  },
+  {
+    "id": "one-small-patch-of-nature",
+    "title": "One small patch of nature",
+    "subtitle": "Look closely at a place you usually pass.",
+    "skill": "nature",
+    "symbol": "leaf",
+    "takeaway": "Looking slowly at a small place can reveal details we missed at first.",
+    "parentPrimer": "Choose a safe patch visible from a path or window, such as the base of a tree. Observe without collecting or disturbing anything. Notice shapes, colours, and movement rather than trying to identify every species. A drawing can record what was actually there and leave unknown details as questions.",
+    "materials": [
+      "A safe view of a small outdoor patch",
+      "Paper",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Point to a colour, shape, or movement and make a mark for it beside you.",
+      "question": "What can you show me in our little patch?"
+    },
+    "older": {
+      "action": "Look again for a detail missed the first time and add it to a drawing with a question.",
+      "question": "What did you notice after we slowed down?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Choose a small outdoor patch to explore with your eyes from a safe place."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Name one visible detail and model saying you are unsure about something else."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Take short looking breaks, then draw. Your younger son can point or choose a colour while your older son records shapes and movement. Look at the same patch again and add a newly noticed detail without collecting anything."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Date the shared picture and choose something to look for on a future visit."
+      }
+    ],
+    "personalPrompt": "Which ordinary outdoor place have you come to know well? Tell them a small detail you enjoy noticing there.",
+    "careNote": "An adult chooses and supervises a safe viewing place away from roads, water, and unknown plants or animal waste. Stay on paths, leave wildlife undisturbed, and keep windows safely secured."
+  },
+  {
+    "id": "what-the-wind-moves",
+    "title": "What the wind moves",
+    "subtitle": "Find clues to a breeze without chasing it.",
+    "skill": "nature",
+    "symbol": "wind",
+    "takeaway": "Moving leaves and branches can give us clues about the wind.",
+    "parentPrimer": "Observe a familiar tree or shrub from a safe sheltered position or window. Look for movement rather than making an exact wind measurement. If nothing moves, that is an observation too. Compare brief moments and distinguish what you see from a guess about how the air feels outside.",
+    "materials": [
+      "A safe view of a tree or shrub",
+      "Paper",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Point to moving leaves or copy a gentle swaying motion with a hand.",
+      "question": "Can you see anything moving?"
+    },
+    "older": {
+      "action": "Draw arrows or marks for movement and compare two short observations of the same view.",
+      "question": "What clue makes you think there is a breeze?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Look at the same branch together and wait briefly to see whether it moves."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Describe only what you can see, then explain why moving leaves might be a clue about wind."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Watch in short comfortable pauses. Your younger son can point or move a hand while your older son draws movement marks. Compare a second observation after drawing, and record calm moments as well as moving ones."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Keep one observation about the wind and one question about the outdoor view."
+      }
+    ],
+    "personalPrompt": "When has the wind changed your plans or caught your attention? Share a small everyday memory.",
+    "careNote": "Observe from a secure window or a safe sheltered place in mild weather. Avoid storms, damaged branches, roads, and climbing to see better; do not attach strings or ribbons to children."
+  },
+  {
+    "id": "colours-through-the-window",
+    "title": "Colours through the window",
+    "subtitle": "Make a palette of a familiar outdoor view.",
+    "skill": "nature",
+    "symbol": "paintpalette",
+    "takeaway": "A familiar outdoor place can contain many colours and change over time.",
+    "parentPrimer": "Choose a view and match a few visible colours with crayons. Describe where each appears rather than making assumptions about the season. A leaf may show several colours, and lighting can change how something looks. Date the page so it can become a record for a later comparison.",
+    "materials": [
+      "A safe outdoor view from a secure window or path",
+      "Paper",
+      "Chunky crayons in several colours"
+    ],
+    "toddler": {
+      "action": "Choose a crayon for something they notice and make a patch of colour.",
+      "question": "Which colour would you like to use for that?"
+    },
+    "older": {
+      "action": "Make a small colour key with labels or drawings showing where each colour appeared.",
+      "question": "Can you find two different colours on the same plant?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Pick one colour in the view and invite everyone to find where it appears."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Make a colour patch on paper and add a small drawing showing its source."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can choose colours while your older son builds a key. Look for several colours in one object and similar colours in different places. Draw a shared view without requiring an exact colour match."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Date the page and choose a place in the view you might compare on another day."
+      }
+    ],
+    "personalPrompt": "What colours remind you of a favourite outdoor place or time of year? Share that memory without expecting today's view to match.",
+    "careNote": "Keep windows secured and children off windowsills. Outdoors, stay with an adult on a safe path and observe unknown plants without touching or tasting them."
+  },
+  {
+    "id": "a-place-for-everyone",
+    "title": "A place for everyone",
+    "subtitle": "Plan a table that people can use comfortably.",
+    "skill": "cooking",
+    "symbol": "fork.knife",
+    "takeaway": "Preparing a shared meal includes thinking about what each person needs.",
+    "parentPrimer": "Use empty lightweight cups, plates, and spoons to plan a simple table. Check how many places you need and whether each item is easy to reach. Different arrangements may work. This is a chance to practise preparation and consideration without handling hot food or sharp utensils.",
+    "materials": [
+      "Lightweight unbreakable plates and empty cups",
+      "Large spoons",
+      "Cloth napkins",
+      "A stable low table"
+    ],
+    "toddler": {
+      "action": "Carry one lightweight item with you and choose where a napkin belongs.",
+      "question": "Who needs a cup here?"
+    },
+    "older": {
+      "action": "Plan a place for each person, check the items, and adjust anything difficult to reach.",
+      "question": "How can we tell that everyone has what they need?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Imagine a small family meal and count who will join it."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Arrange one place and explain why a cup and spoon should be easy to reach."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Let your younger son deliver napkins while your older son checks each place. Sit or stand comfortably to try the arrangement, move an awkward item, and practise clearing it together. Repeat with a pretend extra guest if wanted."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Choose one helpful preparation job to remember for a future meal."
+      }
+    ],
+    "personalPrompt": "What small preparation makes meals calmer in your home? Share a routine the children can help with.",
+    "careNote": "Use empty unbreakable dishes and large spoons on a stable low surface. Keep knives, hot food, glass, and trailing tablecloths out of the activity."
+  },
+  {
+    "id": "spread-smooth-and-swirl",
+    "title": "Spread, smooth, and swirl",
+    "subtitle": "Practise a small kitchen skill with a familiar snack.",
+    "skill": "cooking",
+    "symbol": "fork.knife",
+    "takeaway": "A gentle tool movement can spread a soft ingredient across a surface.",
+    "parentPrimer": "Choose a familiar soft food and spread that the parent already prepares safely for both children. Demonstrate a small amount and a slow movement with the back of a spoon. Explore broad strokes and little swirls. The goal is participating in preparation, not producing a tidy result or eating a set amount.",
+    "materials": [
+      "A familiar soft snack base prepared appropriately by an adult",
+      "A familiar smooth spread suitable for both children",
+      "Large spoons",
+      "Unbreakable plates",
+      "A cloth for cleanup"
+    ],
+    "toddler": {
+      "action": "Guide a spoon with your help, choose where to start, or watch and describe the movement.",
+      "question": "Shall we make a little swirl here?"
+    },
+    "older": {
+      "action": "Try two gentle spreading movements and decide which covers the surface more easily.",
+      "question": "What changes when you use less spread or a lighter touch?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Wash hands together and look at the soft ingredient on a spoon."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Show a small amount spreading slowly with the back of the spoon. Keep each person's portion separate."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can guide a spoon with you while your older son experiments with broad strokes and small swirls. Compare the movements, prepare a small snack if wanted, and help wipe the work area. Include pauses and watching."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Remember a movement that helped and thank each person for a preparation or cleanup job."
+      }
+    ],
+    "personalPrompt": "Who showed you a useful kitchen technique? Share a small tip that makes this task easier.",
+    "careNote": "The adult chooses familiar foods suitable for each child's allergies and eating needs and prepares all portions. Use no knives or hot ingredients. Supervise continuously, keep children seated for any eating, and never require tasting."
+  },
+  {
+    "id": "a-recipe-in-pictures",
+    "title": "Keep a recipe in pictures",
+    "subtitle": "Turn a familiar cold snack into a guide for next time.",
+    "skill": "cooking",
+    "symbol": "list.bullet.rectangle",
+    "takeaway": "A recipe can record ingredients and an order so we can make something again.",
+    "parentPrimer": "Choose a familiar simple cold snack the parent already prepares safely, such as plain yoghurt with a suitable familiar topping. Draw the ingredients and two or three steps before preparing it together. After trying the guide, add a missing detail. This is documenting your own routine rather than following a new dietary recipe.",
+    "materials": [
+      "Parent-selected familiar ingredients for a simple cold snack",
+      "Unbreakable bowls and large spoons",
+      "Paper",
+      "Chunky crayons",
+      "A cloth for cleanup"
+    ],
+    "toddler": {
+      "action": "Point to an ingredient picture, help with a spoon, or mark a step as finished.",
+      "question": "Which picture shows what comes next?"
+    },
+    "older": {
+      "action": "Draw the ingredient list and steps, follow the guide with you, and add a detail that would help next time.",
+      "question": "What might someone need to know that our picture has not shown yet?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Choose a familiar cold snack and wash hands before handling its ingredients."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Sketch the ingredients and the first preparation step. Explain how the pictures can help you remember."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can point to pictures while your older son adds the remaining steps. The adult handles all ingredient preparation, then supports spooning or mixing. Follow the guide, notice a missing detail, and add it before cleaning up together."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Give the recipe a family title and keep the picture guide for another day. Eating is optional."
+      }
+    ],
+    "personalPrompt": "Is there a family snack or recipe you know by heart? Share how you learned it and what you would write down for someone else.",
+    "careNote": "The adult checks allergies and individual eating needs, prepares suitable portions, and supervises continuously. Use no raw animal products, heat, sharp tools, or small hard toppings. Any eating happens seated without pressure to taste."
+  },
+  {
+    "id": "fast-slow-same-pattern",
+    "title": "Fast, slow, same pattern",
+    "subtitle": "Change the pace of a gentle tapping pattern.",
+    "skill": "music",
+    "symbol": "metronome",
+    "takeaway": "We can perform the same rhythm at different speeds.",
+    "parentPrimer": "Choose a short pattern such as tap, tap, pause. Keep its order and relative spacing while changing the overall pace. Tempo is the speed; rhythm is the arrangement of sounds and silences. Start slowly enough for everyone to join and use quiet taps or visible hand movements.",
+    "materials": [
+      "Your hands",
+      "A cushion or your knees for gentle tapping",
+      "Paper and chunky crayons"
+    ],
+    "toddler": {
+      "action": "Join with one quiet tap, watch your hands, or choose whether the next round is slower.",
+      "question": "Shall our taps go slowly?"
+    },
+    "older": {
+      "action": "Keep a short pattern recognisable while changing its pace, then explain what stayed the same.",
+      "question": "Did our pattern change, or just how quickly we played it?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Play a quiet tap-tap-pause pattern and invite anyone to join."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Repeat it more slowly, stretching the spaces too. Name the difference between the pattern and its pace."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can choose a comfortable pace while your older son leads the pattern. Draw two dots and a space as a reminder. Alternate short rounds with rests, and try silent hand movements as another way to join."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Perform a favourite comfortable version and remember which part stayed the same."
+      }
+    ],
+    "personalPrompt": "When does the pace of music change how an activity feels for you? Share an example while keeping the tapping gentle.",
+    "careNote": "Keep taps quiet and comfortable, avoid hard surfaces or striking objects near ears, and let children watch or use silent movements. No fast pace is required."
+  },
+  {
+    "id": "the-quiet-conductor",
+    "title": "The quiet conductor",
+    "subtitle": "Use a gesture to bring sounds in and let them rest.",
+    "skill": "music",
+    "symbol": "hand.raised",
+    "takeaway": "Shared signals can help a group start, stop, and make music together.",
+    "parentPrimer": "Agree on two signals, such as open hands for a gentle sound and resting hands for silence. A conductor helps people coordinate; the game is cooperation rather than obedience. Keep sounds quiet and let the leader wait until everyone is ready. Silent motions can replace sound throughout.",
+    "materials": [
+      "Your hands and voices",
+      "A comfortable seated space"
+    ],
+    "toddler": {
+      "action": "Choose a gentle sound or show a start signal while an adult helps the group follow.",
+      "question": "Shall our little band play or rest?"
+    },
+    "older": {
+      "action": "Lead a short sequence of sound and silence, using clear signals and watching the group's readiness.",
+      "question": "How can your hands make the next change clear?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Make one quiet sound together and let it come to a rest."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Agree on start and rest gestures, then model a very short round with a generous pause."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Take turns conducting. Your younger son can give one signal while your older son plans a short sequence with silence. Try taps, hums, or silent hand openings, letting anyone change their choice or sit out."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Finish with a shared quiet pause and name one gesture that helped you play together."
+      }
+    ],
+    "personalPrompt": "When have you followed or given a helpful cue in a group? Share how people knew what was coming next.",
+    "careNote": "Keep all sounds at a comfortable volume and avoid startling starts. Do not use whistles, sticks, or loud instruments; watching quietly is welcome."
+  },
+  {
+    "id": "draw-a-little-score",
+    "title": "Draw a little score",
+    "subtitle": "Make picture instructions for a tiny piece of music.",
+    "skill": "music",
+    "symbol": "music.note.list",
+    "takeaway": "Marks on a page can remind us which sounds and silences to make.",
+    "parentPrimer": "Invent a few shared marks: a dot for a quiet tap, a wavy line for a hum, and a blank box for silence. Agree on their meanings and read three boxes from left to right. This is an invented graphic score, so it does not need to match conventional music notation.",
+    "materials": [
+      "A large sheet of paper divided into three boxes",
+      "Chunky crayons",
+      "Your hands and voices"
+    ],
+    "toddler": {
+      "action": "Choose a mark or make a quiet sound for one box, with an adult following their lead.",
+      "question": "What sound shall this picture ask for?"
+    },
+    "older": {
+      "action": "Make a simple key, compose three boxes, and check whether someone can perform the score using it.",
+      "question": "How will another person know what this mark means?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Draw a dot and give it a quiet tap as its sound."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Choose another mark and a silent box. Show how the key explains what each means."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can choose one box while your older son arranges the whole score. Point along the boxes as you perform it. Swap one mark, play the revised version, and let a new leader follow the key."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Name the little piece and keep its score with the key beside it."
+      }
+    ],
+    "personalPrompt": "What reminders help you follow or remember a piece of music? Share a way of recording an idea before it disappears.",
+    "careNote": "Use chunky crayons and quiet sounds, with silent gestures as an option. Keep paper free of clips and do not tap hard objects or surfaces near anyone's ears."
+  },
+  {
+    "id": "the-other-characters-story",
+    "title": "The other character's story",
+    "subtitle": "Tell the same small event from two viewpoints.",
+    "skill": "storytelling",
+    "symbol": "person.2",
+    "takeaway": "Different characters can notice different parts of the same event.",
+    "parentPrimer": "Invent a small event with two large toys, such as arriving at a pretend picnic. Tell it first from one toy's viewpoint, then the other's. Keep the main event consistent while changing what each notices or wants. These are imagined possibilities, not claims about how real people must feel.",
+    "materials": [
+      "Two large soft toys",
+      "A paper picnic place",
+      "Paper and chunky crayons"
+    ],
+    "toddler": {
+      "action": "Choose a toy, give it a sound, or show where it goes in the story.",
+      "question": "What does your toy notice?"
+    },
+    "older": {
+      "action": "Retell the event as each toy and explain which details or wishes changed with the viewpoint.",
+      "question": "What might this character notice that the other one missed?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Let two toys arrive at the same pretend picnic."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Tell one short version as the first toy, then another as its companion."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can move a character while your older son gives each a viewpoint. Keep the setting and main event the same, but try different things each toy notices. Draw two pictures of the shared moment and dictate their words."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Remember one detail the characters shared and one they described differently."
+      }
+    ],
+    "personalPrompt": "Have two people remembered different details of a shared day? Tell a gentle example without deciding that one person's feelings were wrong.",
+    "careNote": "Use large soft toys without detachable parts. Keep the invented event reassuring and let children choose whether to speak for a character or simply move it."
+  },
+  {
+    "id": "choose-another-ending",
+    "title": "Choose another ending",
+    "subtitle": "Give one story two possible ways forward.",
+    "skill": "storytelling",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "A character's choice can send a story towards a different ending.",
+    "parentPrimer": "Invent a small problem, such as a toy finding a closed pretend shop. Offer two choices that both fit the beginning: return later or make a pretend shop at home. Explore each without declaring one the correct ending. Keep track of which events belong to which version.",
+    "materials": [
+      "A large toy",
+      "Paper folded into three panels",
+      "Chunky crayons"
+    ],
+    "toddler": {
+      "action": "Choose a picture for what happens next or act out a simple move with the toy.",
+      "question": "Shall our toy go home or wait with a friend?"
+    },
+    "older": {
+      "action": "Invent two choices and show how each leads to a different ending while keeping the beginning the same.",
+      "question": "What changed in our ending because of that choice?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Start a story about a toy whose pretend shop is closed."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Draw the shared beginning in one panel and suggest two possible next steps."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can choose which path to act out first while your older son builds its ending. Return to the same beginning and try the other choice. Draw the endings in the remaining panels and compare how each followed from a choice."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Give both versions a title and choose an ending to retell, without needing to rank them."
+      }
+    ],
+    "personalPrompt": "When has a small change of plan led to an unexpected experience? Share a family-friendly example that could inspire a story.",
+    "careNote": "Use large toys and chunky crayons. Keep the imaginary problem small and reassuring, and change the story if either child finds it upsetting."
+  },
+  {
+    "id": "a-postcard-from-an-imaginary-place",
+    "title": "A postcard from somewhere imaginary",
+    "subtitle": "Invent a place and send a pretend message home.",
+    "skill": "storytelling",
+    "symbol": "envelope",
+    "takeaway": "Specific details help someone imagine a place they have never visited.",
+    "parentPrimer": "Invent a gentle imaginary place, such as a town of enormous cushions. Choose a few details about what a visitor sees, hears, and does. Draw a postcard and dictate a short message. Keep a distinction between real memories and invented details while welcoming either as inspiration.",
+    "materials": [
+      "A large sheet of paper folded like a postcard",
+      "Chunky crayons",
+      "A large toy visitor"
+    ],
+    "toddler": {
+      "action": "Choose a colour or feature for the place and move the toy through the imagined scene.",
+      "question": "What can our visitor see here?"
+    },
+    "older": {
+      "action": "Invent a place with two or three connected details, then dictate or write a message about one event there.",
+      "question": "Which detail would help someone picture our place?"
+    },
+    "steps": [
+      {
+        "title": "Spark a little curiosity",
+        "minutes": 3,
+        "instruction": "Let a toy announce a visit to a place that does not exist yet."
+      },
+      {
+        "title": "Share what you know",
+        "minutes": 5,
+        "instruction": "Invent a name and one concrete detail, then show how you might draw it on a postcard."
+      },
+      {
+        "title": "Make a discovery together",
+        "minutes": 17,
+        "instruction": "Your younger son can add a feature while your older son connects it to a little event. Guide the toy through the scene, draw the postcard, and record a short message for a pretend recipient. Add a detail after hearing the message aloud."
+      },
+      {
+        "title": "Keep a little memory",
+        "minutes": 5,
+        "instruction": "Read or show the postcard together and remember which parts you invented."
+      }
+    ],
+    "personalPrompt": "What detail do you remember most clearly from somewhere you visited? Use it as a starting point for an invented place.",
+    "careNote": "Use large paper and chunky crayons without stamps, stickers, or clips that could become small loose parts. Keep the imaginary journey comfortable and let children change any detail."
+  }
+]

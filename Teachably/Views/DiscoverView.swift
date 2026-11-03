@@ -17,15 +17,15 @@ struct DiscoverView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 22) {
                 VStack(alignment: .leading, spacing: 9) {
-                    Eyebrow(text: "Follow a little curiosity")
-                    Text("What could you\nshare today?")
+                    Eyebrow(text: L10n.string("Follow a little curiosity"))
+                    Text(L10n.string("What could you\nshare today?"))
                         .font(.system(.largeTitle, design: .serif, weight: .medium)).tracking(-1)
-                    Text("Every idea has a little something for both of them.")
+                    Text(L10n.string("Every idea has a little something for both of them."))
                         .font(.subheadline).foregroundStyle(Palette.muted)
                 }
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 8) {
-                        filterButton("All ideas", skill: nil)
+                        filterButton(L10n.string("All ideas"), skill: nil)
                         ForEach(Skill.allCases) { skill in filterButton(skill.title, skill: skill) }
                     }.padding(.vertical, 2)
                 }
@@ -45,7 +45,7 @@ struct DiscoverView: View {
                                     Text(activity.title).font(.system(.headline, design: .serif))
                                         .foregroundStyle(Palette.ink)
                                     Text(activity.skill.title).font(.caption).foregroundStyle(Palette.muted)
-                                    Text("30 min · Ages 2 & 6").font(.caption2).foregroundStyle(Palette.muted)
+                                    Text(L10n.string("30 min · Ages 2 & 6")).font(.caption2).foregroundStyle(Palette.muted)
                                 }
                                 Spacer(minLength: 0)
                                 Image(systemName: "chevron.right").font(.caption).foregroundStyle(Palette.muted)
@@ -57,8 +57,8 @@ struct DiscoverView: View {
             }.padding(22)
         }
         .background(Palette.background)
-        .navigationTitle("Discover").navigationBarTitleDisplayMode(.inline)
-        .searchable(text: $search, prompt: "Find a little adventure")
+        .navigationTitle(L10n.string("Discover")).navigationBarTitleDisplayMode(.inline)
+        .searchable(text: $search, prompt: L10n.string("Find a little adventure"))
     }
 
     private func filterButton(_ title: String, skill: Skill?) -> some View {

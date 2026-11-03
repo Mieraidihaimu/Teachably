@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "TeachablyCore",
+    defaultLocalization: "en",
     platforms: [.iOS(.v17), .macOS(.v14)],
     products: [.library(name: "TeachablyCore", targets: ["TeachablyCore"])],
     targets: [

@@ -16,18 +16,19 @@ struct SkillsView: View {
                         .font(.system(.title2, design: .rounded, weight: .semibold)).foregroundStyle(Palette.green)
                 }
                 VStack(alignment: .leading, spacing: 12) {
-                    Eyebrow(text: "Your everyday superpowers")
-                    Text("You already have\nso much to share.")
+                    Eyebrow(text: L10n.string("Your everyday superpowers"))
+                    Text(L10n.string("You already have\nso much to share."))
                         .font(.system(.largeTitle, design: .serif, weight: .medium)).tracking(-1)
-                    Text("What do you know or enjoy? Choose a few things, and we'll find little ways to share them with your sons.")
+                        .accessibilityIdentifier("skills.heading")
+                    Text(L10n.string("What do you know or enjoy? Choose a few things, and we'll find little ways to share them with your sons."))
                         .foregroundStyle(Palette.muted)
                 }
                 HStack(alignment: .firstTextBaseline) {
-                    Text("\(selected.count) interests · \(store.activities.filter { selected.contains($0.skill) }.count) adventures")
+                    Text(L10n.format("Interests: %lld · Adventures: %lld", selected.count, store.activities.filter { selected.contains($0.skill) }.count))
                         .font(.caption.weight(.semibold)).foregroundStyle(Palette.green)
                     Spacer()
                     if selected != Skill.familyInterests {
-                        Button("Use my seven interests") {
+                        Button(L10n.string("Use my seven interests")) {
                             selected = Skill.familyInterests
                             saved = false
                         }.font(.caption.weight(.semibold))
@@ -64,21 +65,21 @@ struct SkillsView: View {
                 }
                 PaperCard {
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("You don't have to be an expert.")
+                        Text(L10n.string("You don't have to be an expert."))
                             .font(.system(.title3, design: .serif, weight: .medium))
-                        Text("A way you solve a maths problem, a favourite book, a line from your diary. Each activity leaves space for your own experience.")
+                        Text(L10n.string("A way you solve a maths problem, a favourite book, a line from your diary. Each activity leaves space for your own experience."))
                             .font(.subheadline).foregroundStyle(Palette.muted)
                     }
                 }
                 if !isOnboarding {
-                    Text("New suggestions use your saved interests. Today's idea stays put until you choose another.")
+                    Text(L10n.string("New suggestions use your saved interests. Today's idea stays put until you choose another."))
                         .font(.caption).foregroundStyle(Palette.muted)
                 }
             }
             .padding(22).padding(.bottom, 20)
         }
         .background(Palette.background).foregroundStyle(Palette.ink)
-        .navigationTitle(isOnboarding ? "" : "My skills")
+        .navigationTitle(isOnboarding ? "" : L10n.string("My skills"))
         .navigationBarTitleDisplayMode(.inline)
         .safeAreaInset(edge: .bottom) {
             Button {
@@ -89,9 +90,10 @@ struct SkillsView: View {
                 saved = true
                 if isOnboarding { dismiss() }
             } label: {
-                Text(isOnboarding ? "Find our first adventure" : (saved ? "Toolkit saved ✓" : "Save my toolkit"))
+                Text(isOnboarding ? L10n.string("Find our first adventure") : (saved ? L10n.string("Toolkit saved ✓") : L10n.string("Save my toolkit")))
             }
             .buttonStyle(PrimaryButtonStyle()).disabled(selected.isEmpty)
+            .accessibilityIdentifier("skills.save")
             .opacity(selected.isEmpty ? 0.5 : 1)
             .padding(.horizontal, 22).padding(.vertical, 12).background(Palette.background)
         }

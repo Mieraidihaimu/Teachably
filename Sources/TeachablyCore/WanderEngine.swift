@@ -2,9 +2,10 @@ import Foundation
 import CryptoKit
 
 /// A local, value-based port of Wander's saved-layer, exact-reuse, trail,
-/// recall, and immutable-pin mechanics. No model or network call is made.
+/// recall, and immutable-pin mechanics. Model generation is prepared and
+/// validated here; the app supplies an on-device provider asynchronously.
 public struct WanderEngine: Sendable {
-    public private(set) var state: WanderState
+    public internal(set) var state: WanderState
     public let catalog: WanderCatalog
     public init(catalog: WanderCatalog, state: WanderState = WanderState()) {
         self.catalog = catalog; self.state = state
@@ -21,11 +22,12 @@ public struct WanderEngine: Sendable {
         let bubbleID: String?
         let query: String
         let refreshLayerID: String?
+        let providerID: String?
     }
-    private func digest(_ request: WanderRequest, includeRefresh: Bool = true) throws -> String {
+    func digest(_ request: WanderRequest, includeRefresh: Bool = true, providerID: String? = nil) throws -> String {
         let identity = Identity(catalog: catalog.identity, action: request.action, parentID: request.parentID,
             bubbleID: request.bubbleID, query: request.query.trimmingCharacters(in: .whitespacesAndNewlines),
-            refreshLayerID: includeRefresh ? request.refreshLayerID : nil)
+            refreshLayerID: includeRefresh ? request.refreshLayerID : nil, providerID: providerID)
         let encoder = JSONEncoder(); encoder.outputFormatting = [.sortedKeys]
         return SHA256.hash(data: try encoder.encode(identity)).map { String(format: "%02x", $0) }.joined()
     }
@@ -86,7 +88,7 @@ public struct WanderEngine: Sendable {
             branchID: parent.map { $0.depth == 0 ? id : $0.branchID } ?? id,
             depth: (parent?.depth ?? -1) + 1, path: (parent?.path ?? []) + [content.title],
             nodeID: nodeID, title: content.title, summary: content.summary, bubbles: content.bubbles,
-            lesson: content.lesson, createdAt: Date(), cacheKey: cacheKey, revisionOf: revision?.id, request: request)
+            lesson: content.lesson, createdAt: Date(), cacheKey: cacheKey, revisionOf: revision?.id, request: request, provenance: nil)
         // Nothing is changed until the complete layer has been prepared.
         state.layers.append(layer)
         state.currentLayerID = id
@@ -151,7 +153,7 @@ public struct WanderEngine: Sendable {
         for layer in scoped.reversed() where (minDepth...maxDepth).contains(layer.depth) {
             let records: [(String?, String, String)] = layer.isMap
                 ? layer.bubbles.map { ($0.id, $0.label, $0.summary) }
-                : [(nil, layer.summary, [layer.lesson?.definition, layer.lesson?.example].compactMap { $0 }.joined(separator: " "))]
+                : [(nil, layer.displayTitle, [layer.summary, layer.lesson?.definition, layer.lesson?.example].compactMap { $0 }.joined(separator: " "))]
             for (bubbleID, label, summary) in records {
                 let labelWords = WanderCatalog.words(label)
                 let summaryWords = WanderCatalog.words(summary)
@@ -168,6 +170,7 @@ public struct WanderEngine: Sendable {
     }
 
     public static func requestsExplanation(_ query: String) -> Bool {
+        if WanderQuery.requestsLocalizedExplanation(query) { return true }
         let text = query.trimmingCharacters(in: .whitespacesAndNewlines)
             .replacingOccurrences(of: #"^(?:(?:please\s+)?(?:can|could|would|will)\s+you\s+(?:please\s+)?)"#,
                                   with: "", options: [.regularExpression, .caseInsensitive])

@@ -7,7 +7,7 @@ public enum WanderAction: String, Codable, Sendable {
 public enum WanderLayout: String, Codable, CaseIterable, Sendable {
     case automatic, map, list
     public var title: String {
-        switch self { case .automatic: "Auto"; case .map: "Map"; case .list: "List" }
+        switch self { case .automatic: L10n.string("Auto"); case .map: L10n.string("Map"); case .list: L10n.string("List") }
     }
 }
 
@@ -56,7 +56,7 @@ public struct WanderLesson: Codable, Equatable, Sendable {
     public let toddler: AgePrompt
     public let older: AgePrompt
     public let personalPrompt: String
-    public let activityID: String
+    public let activityID: String?
 }
 
 public struct WanderLayer: Codable, Equatable, Identifiable, Sendable {
@@ -76,8 +76,9 @@ public struct WanderLayer: Codable, Equatable, Identifiable, Sendable {
     public let cacheKey: String
     public let revisionOf: String?
     public let request: WanderRequest
+    public let provenance: WanderProvenance?
     public var isMap: Bool { lesson == nil }
-    public var displayTitle: String { isMap ? title : summary }
+    public var displayTitle: String { isMap || provenance != nil ? title : summary }
 }
 
 public struct WanderSnapshot: Codable, Equatable, Sendable {
@@ -98,19 +99,19 @@ public struct WanderPin: Codable, Equatable, Identifiable, Sendable {
             value.replacingOccurrences(of: #"([\\`*_{}\[\]<>#+!|])"#, with: #"\\$1"#, options: .regularExpression)
         }
         var sections = ["# \(escaped(layer.displayTitle))",
-            "**Trail:** \(layer.path.map(escaped).joined(separator: " → "))",
-            "## Why I saved this", note.isEmpty ? "No personal note yet." : escaped(note),
-            "## The idea", escaped(layer.summary)]
+            "**\(L10n.string("Trail")):** \(layer.path.map(escaped).joined(separator: " → "))",
+            "## " + L10n.string("Why I saved this"), note.isEmpty ? L10n.string("No personal note yet.") : escaped(note),
+            "## " + L10n.string("The idea"), escaped(layer.summary)]
         if let lesson = layer.lesson {
-            sections += [escaped(lesson.definition), "## Try it together: \(escaped(lesson.exampleTitle))",
-                escaped(lesson.example), "## At age 2", escaped(lesson.toddler.action),
-                escaped(lesson.toddler.question), "## At age 6", escaped(lesson.older.action),
-                escaped(lesson.older.question), "## Bring a little of you", escaped(lesson.personalPrompt),
-                "## Keep in mind", escaped(lesson.consideration)]
+            sections += [escaped(lesson.definition), "## " + L10n.format("Try it together: %@", escaped(lesson.exampleTitle)),
+                escaped(lesson.example), "## " + L10n.string("At age 2"), escaped(lesson.toddler.action),
+                escaped(lesson.toddler.question), "## " + L10n.string("At age 6"), escaped(lesson.older.action),
+                escaped(lesson.older.question), "## " + L10n.string("Bring a little of you"), escaped(lesson.personalPrompt),
+                "## " + L10n.string("Keep in mind"), escaped(lesson.consideration)]
         } else {
-            sections += ["## Ideas to explore", layer.bubbles.map { "- **\(escaped($0.label)):** \(escaped($0.summary))" }.joined(separator: "\n")]
+            sections += ["## " + L10n.string("Ideas to explore"), layer.bubbles.map { "- **\(escaped($0.label)):** \(escaped($0.summary))" }.joined(separator: "\n")]
         }
-        sections += ["---", "Saved with Teachably · from the activity library."]
+        sections += ["---", layer.provenance == nil ? L10n.string("Saved with Teachably · from the activity library.") : L10n.string("Saved with Teachably · generated on device with Apple Intelligence. Review before sharing with children.")]
         return sections.joined(separator: "\n\n") + "\n"
     }
 }
@@ -152,14 +153,14 @@ public enum WanderError: LocalizedError, Equatable {
     case missingLayer, invalidBubble, invalidRequest, requestConflict, unknownTopic, depthLimit, invalidScope, noteTooLong
     public var errorDescription: String? {
         switch self {
-        case .missingLayer: "That saved idea couldn't be found. Your other trails are still here."
-        case .invalidBubble: "That topic doesn't belong to this map. Choose an idea on the current map."
-        case .invalidRequest: "Choose a topic or enter a question of up to 240 characters."
-        case .requestConflict: "That request was already used for a different exploration. Try again."
-        case .unknownTopic: "There isn't a matching idea in this library yet. Try a displayed topic or a word such as shadows, reading, or loops."
-        case .depthLimit: "Return to an earlier part of your trail to explore another direction."
-        case .invalidScope: "Choose a depth range from 0 to 12, with the smaller number first."
-        case .noteTooLong: "Keep your note within 600 characters."
+        case .missingLayer: L10n.string("That saved idea couldn't be found. Your other trails are still here.")
+        case .invalidBubble: L10n.string("That topic doesn't belong to this map. Choose an idea on the current map.")
+        case .invalidRequest: L10n.string("Choose a topic or enter a question of up to 240 characters.")
+        case .requestConflict: L10n.string("That request was already used for a different exploration. Try again.")
+        case .unknownTopic: L10n.string("There isn't a matching idea in this library yet. Try a displayed topic or a word such as shadows, reading, or loops.")
+        case .depthLimit: L10n.string("Return to an earlier part of your trail to explore another direction.")
+        case .invalidScope: L10n.string("Choose a depth range from 0 to 12, with the smaller number first.")
+        case .noteTooLong: L10n.string("Keep your note within 600 characters.")
         }
     }
 }

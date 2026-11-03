@@ -1,4 +1,5 @@
 import SwiftUI
+import TeachablyCore
 
 @main
 struct TeachablyApp: App {
@@ -21,15 +22,15 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationStack { TodayView() }
-                .tabItem { Label("Today", systemImage: "sun.max") }
+                .tabItem { Label(L10n.string("Today"), systemImage: "sun.max") }
             NavigationStack { WanderView() }
-                .tabItem { Label("Wander", systemImage: "safari") }
+                .tabItem { Label(L10n.string("Wander"), systemImage: "safari") }
             NavigationStack { DiscoverView() }
-                .tabItem { Label("Discover", systemImage: "square.grid.2x2") }
+                .tabItem { Label(L10n.string("Discover"), systemImage: "square.grid.2x2") }
             NavigationStack { SkillsView() }
-                .tabItem { Label("My skills", systemImage: "hand.raised.fingers.spread") }
+                .tabItem { Label(L10n.string("My skills"), systemImage: "hand.raised.fingers.spread") }
             NavigationStack { MemoriesView() }
-                .tabItem { Label("Memories", systemImage: "heart") }
+                .tabItem { Label(L10n.string("Memories"), systemImage: "heart") }
         }
         .task {
             store.refreshToday()
@@ -44,8 +45,8 @@ struct ContentView: View {
                 .interactiveDismissDisabled()
         }
         .onChange(of: store.errorMessage) { _, value in showError = value != nil }
-        .alert("Something needs attention", isPresented: $showError) {
-            Button("OK", role: .cancel) { }
+        .alert(L10n.string("Something needs attention"), isPresented: $showError) {
+            Button(L10n.string("OK"), role: .cancel) { }
         } message: { Text(store.errorMessage ?? "") }
     }
 }

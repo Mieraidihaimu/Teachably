@@ -81,7 +81,8 @@ struct ActivityArtwork: View {
                     .offset(x: -91, y: -51)
                 Image(systemName: "sparkle").font(.system(size: 16)).foregroundStyle(Palette.green)
                     .offset(x: 111, y: 50)
-                Text("a little wonder").font(.system(.caption, design: .serif).italic())
+                Text(L10n.string("a little wonder")).font(.system(.caption, design: .serif).italic())
+                    .fixedSize(horizontal: true, vertical: false)
                     .foregroundStyle(Palette.green).rotationEffect(.degrees(-8)).offset(x: -77, y: 64)
             }
             .frame(width: proxy.size.width, height: proxy.size.height)
@@ -102,7 +103,7 @@ struct AgeCard: View {
                 Image(systemName: age == 2 ? "hand.wave" : "lightbulb")
                 Text(name).fontWeight(.semibold)
                 Spacer()
-                Text("AGE \(age)").font(.caption2.bold()).tracking(1)
+                Text(L10n.format("AGE %lld", age)).font(.caption2.bold()).tracking(1)
             }
             .foregroundStyle(Palette.green)
             Text(prompt.action).font(.subheadline).fixedSize(horizontal: false, vertical: true)

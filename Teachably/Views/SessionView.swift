@@ -35,7 +35,7 @@ struct SessionView: View {
                             Button {
                                 store.remember(activity: activity, note: memoryNote, favourite: favourite)
                                 dismiss()
-                            } label: { Text("Save our little memory") }
+                            } label: { Text(L10n.string("Save our little memory")) }
                                 .buttonStyle(PrimaryButtonStyle())
                         } else {
                             Button {
@@ -43,27 +43,27 @@ struct SessionView: View {
                                 else { stepIndex += 1; resetTimer() }
                             } label: {
                                 HStack {
-                                    Text(isLast ? "Keep a little memory" : "Next little step")
+                                    Text(isLast ? L10n.string("Keep a little memory") : L10n.string("Next little step"))
                                     Image(systemName: "arrow.right")
                                 }
                             }.buttonStyle(PrimaryButtonStyle())
-                            Button("Finish for today") { finish() }
+                            Button(L10n.string("Finish for today")) { finish() }
                                 .font(.subheadline).frame(minHeight: 38)
                         }
                     }.padding(.horizontal, 24).padding(.vertical, 12).background(Palette.background)
                 }
             }
             .foregroundStyle(Palette.ink)
-            .navigationTitle(reflecting ? "A moment to keep" : "Together time")
+            .navigationTitle(reflecting ? L10n.string("A moment to keep") : L10n.string("Together time"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button { dismiss() } label: { Image(systemName: "xmark") }
-                        .accessibilityLabel("Close session")
+                        .accessibilityLabel(L10n.string("Close session"))
                 }
                 if stepIndex > 0 && !reflecting {
                     ToolbarItem(placement: .topBarLeading) {
-                        Button("Back") { stepIndex -= 1; resetTimer() }
+                        Button(L10n.string("Back")) { stepIndex -= 1; resetTimer() }
                     }
                 }
             }
@@ -77,8 +77,8 @@ struct SessionView: View {
                 ForEach(activity.steps.indices, id: \.self) { index in
                     Capsule().fill(index <= stepIndex ? Palette.green : Palette.line).frame(height: 5)
                 }
-            }.accessibilityLabel("Step \(stepIndex + 1) of \(activity.steps.count)")
-            Eyebrow(text: "\(activity.title) · Step \(stepIndex + 1) of \(activity.steps.count)")
+            }.accessibilityLabel(L10n.format("Step %lld of %lld", stepIndex + 1, activity.steps.count))
+            Eyebrow(text: L10n.format("%@ · Step %lld of %lld", activity.title, stepIndex + 1, activity.steps.count))
             Text(step.title).font(.system(.largeTitle, design: .serif, weight: .medium)).tracking(-1)
             Text(step.instruction).font(.title3).lineSpacing(5)
             HStack(alignment: .center) {
@@ -87,9 +87,9 @@ struct SessionView: View {
                         let remaining = max(0, Int(ceil(running ? deadline.timeIntervalSince(context.date) : pausedRemaining)))
                         Text(String(format: "%02d:%02d", remaining / 60, remaining % 60))
                             .font(.system(.largeTitle, design: .rounded, weight: .medium)).monospacedDigit()
-                            .accessibilityLabel("\(remaining / 60) minutes, \(remaining % 60) seconds remaining")
+                            .accessibilityLabel(L10n.format("%lld minutes, %lld seconds remaining", remaining / 60, remaining % 60))
                     }
-                    Text("A gentle guide. Go at your own pace.").font(.caption).foregroundStyle(Palette.muted)
+                    Text(L10n.string("A gentle guide. Go at your own pace.")).font(.caption).foregroundStyle(Palette.muted)
                 }
                 Spacer()
                 Button {
@@ -103,15 +103,15 @@ struct SessionView: View {
                 } label: {
                     Image(systemName: running ? "pause.fill" : "play.fill")
                         .frame(width: 48, height: 48).background(.white, in: Circle())
-                }.accessibilityLabel(running ? "Pause timer" : "Resume timer")
+                }.accessibilityLabel(running ? L10n.string("Pause timer") : L10n.string("Resume timer"))
             }
             .padding(18).background(Palette.sage.opacity(0.5), in: RoundedRectangle(cornerRadius: 22))
-            AgeCard(name: store.profile.youngerName, age: 2, prompt: activity.toddler)
-            AgeCard(name: store.profile.olderName, age: 6, prompt: activity.older)
+            AgeCard(name: store.profile.youngerDisplayName, age: 2, prompt: activity.toddler)
+            AgeCard(name: store.profile.olderDisplayName, age: 6, prompt: activity.older)
             if let note = store.state.teachingNotes[activity.id], !note.isEmpty {
                 PaperCard {
                     VStack(alignment: .leading, spacing: 9) {
-                        Eyebrow(text: "Your own experience")
+                        Eyebrow(text: L10n.string("Your own experience"))
                         Text(note).font(.body)
                     }
                 }
@@ -125,19 +125,19 @@ struct SessionView: View {
     private var reflectionContent: some View {
         VStack(alignment: .leading, spacing: 22) {
             Image(systemName: "heart.circle.fill").font(.system(size: 62)).foregroundStyle(Palette.green)
-            Eyebrow(text: "It all counts")
-            Text("A little time,\na lovely memory.")
+            Eyebrow(text: L10n.string("It all counts"))
+            Text(L10n.string("A little time,\na lovely memory."))
                 .font(.system(.largeTitle, design: .serif, weight: .medium)).tracking(-1)
-            Text("\(activity.title) — what made you smile, surprised you, or would you like to try again?")
+            Text(L10n.format("%@ — what made you smile, surprised you, or would you like to try again?", activity.title))
                 .foregroundStyle(Palette.muted)
-            TextField("Something they said. A tiny discovery…", text: $memoryNote, axis: .vertical)
+            TextField(L10n.string("Something they said. A tiny discovery…"), text: $memoryNote, axis: .vertical)
                 .lineLimit(5...10).padding(18).background(.white, in: RoundedRectangle(cornerRadius: 20))
-                .accessibilityLabel("Memory note")
+                .accessibilityLabel(L10n.string("Memory note"))
             Toggle(isOn: $favourite) {
-                Label("We'd love to do this again", systemImage: "heart")
+                Label(L10n.string("We'd love to do this again"), systemImage: "heart")
                     .font(.subheadline)
             }.tint(Palette.green)
-            Text("A note is optional. Spending a little time together is enough.")
+            Text(L10n.string("A note is optional. Spending a little time together is enough."))
                 .font(.caption).foregroundStyle(Palette.muted)
         }
     }

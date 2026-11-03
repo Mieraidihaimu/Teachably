@@ -10,20 +10,21 @@ public enum Skill: String, Codable, CaseIterable, Identifiable, Sendable {
     ]
 
     public var id: String { rawValue }
-    public var title: String {
+    public var title: String { title(language: L10n.language) }
+    public func title(language: AppLanguage) -> String {
         switch self {
-        case .making: "Making & fixing"
-        case .nature: "Nature & outdoors"
-        case .cooking: "Around the kitchen"
-        case .music: "Music & rhythm"
-        case .storytelling: "Stories & imagination"
-        case .numbers: "Maths & numbers"
-        case .reading: "Reading together"
-        case .science: "Everyday physics"
-        case .movement: "Movement & exercise"
-        case .journaling: "Diary writing"
-        case .coding: "Coding & logic"
-        case .criticalThinking: "Critical thinking"
+        case .making: L10n.string("Making & fixing", language: language)
+        case .nature: L10n.string("Nature & outdoors", language: language)
+        case .cooking: L10n.string("Around the kitchen", language: language)
+        case .music: L10n.string("Music & rhythm", language: language)
+        case .storytelling: L10n.string("Stories & imagination", language: language)
+        case .numbers: L10n.string("Maths & numbers", language: language)
+        case .reading: L10n.string("Reading together", language: language)
+        case .science: L10n.string("Everyday physics", language: language)
+        case .movement: L10n.string("Movement & exercise", language: language)
+        case .journaling: L10n.string("Diary writing", language: language)
+        case .coding: L10n.string("Coding & logic", language: language)
+        case .criticalThinking: L10n.string("Critical thinking", language: language)
         }
     }
     public var symbol: String {
@@ -76,6 +77,12 @@ public struct FamilyProfile: Codable, Equatable, Sendable {
     public var youngerName = "Little explorer"
     public var olderName = "Big explorer"
     public var skills: Set<Skill> = Skill.familyInterests
+    public var youngerDisplayName: String {
+        youngerName.isEmpty || youngerName == "Little explorer" ? L10n.string("Little explorer") : youngerName
+    }
+    public var olderDisplayName: String {
+        olderName.isEmpty || olderName == "Big explorer" ? L10n.string("Big explorer") : olderName
+    }
     public var hasChosenSkills = false
     public init() {}
 }
@@ -119,8 +126,9 @@ public struct FamilyState: Codable, Equatable, Sendable {
 }
 
 public enum ActivityCatalog {
-    public static func load() throws -> [Activity] {
-        guard let url = Bundle.module.url(forResource: "activities", withExtension: "json") else {
+    public static func load(language: AppLanguage = L10n.language) throws -> [Activity] {
+        guard let url = L10n.resourceURL("activities", extension: "json", language: language)
+            ?? L10n.resourceURL("activities", extension: "json", language: .english) else {
             throw CocoaError(.fileNoSuchFile)
         }
         return try JSONDecoder().decode([Activity].self, from: Data(contentsOf: url))

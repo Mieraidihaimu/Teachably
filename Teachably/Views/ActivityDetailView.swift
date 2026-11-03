@@ -18,21 +18,21 @@ struct ActivityDetailView: View {
                     Eyebrow(text: activity.skill.title)
                     Text(activity.title).font(.system(.largeTitle, design: .serif, weight: .medium)).tracking(-1)
                     Text(activity.subtitle).foregroundStyle(Palette.muted)
-                    Label("30 relaxed minutes · Together, ages 2 & 6", systemImage: "clock")
+                    Label(L10n.string("30 relaxed minutes · Together, ages 2 & 6"), systemImage: "clock")
                         .font(.caption).foregroundStyle(Palette.green)
                 }
                 PaperCard {
                     VStack(alignment: .leading, spacing: 12) {
-                        Eyebrow(text: "The little discovery")
+                        Eyebrow(text: L10n.string("The little discovery"))
                         Text(activity.takeaway).font(.system(.title3, design: .serif, weight: .medium))
-                        DisclosureGroup("A quick refresher for you") {
+                        DisclosureGroup(L10n.string("A quick refresher for you")) {
                             Text(activity.parentPrimer).font(.subheadline).foregroundStyle(Palette.muted)
                                 .padding(.top, 8)
                         }.font(.subheadline.weight(.medium))
                     }
                 }
                 VStack(alignment: .leading, spacing: 13) {
-                    SectionTitle(title: "Gather a few things")
+                    SectionTitle(title: L10n.string("Gather a few things"))
                     ForEach(activity.materials, id: \.self) { item in
                         Button {
                             if packed.contains(item) { packed.remove(item) } else { packed.insert(item) }
@@ -44,19 +44,19 @@ struct ActivityDetailView: View {
                                 Spacer()
                             }.frame(minHeight: 38)
                         }
-                        .accessibilityLabel("\(item), \(packed.contains(item) ? "ready" : "not checked")")
+                        .accessibilityLabel(L10n.format(packed.contains(item) ? "%@, ready" : "%@, not checked", item))
                     }
                     Text(activity.careNote).font(.caption).foregroundStyle(Palette.muted)
                         .padding(14).frame(maxWidth: .infinity, alignment: .leading)
                         .background(Palette.sage.opacity(0.35), in: RoundedRectangle(cornerRadius: 16))
                 }
                 VStack(alignment: .leading, spacing: 12) {
-                    SectionTitle(title: "Same adventure, their own way")
-                    AgeCard(name: store.profile.youngerName, age: 2, prompt: activity.toddler)
-                    AgeCard(name: store.profile.olderName, age: 6, prompt: activity.older)
+                    SectionTitle(title: L10n.string("Same adventure, their own way"))
+                    AgeCard(name: store.profile.youngerDisplayName, age: 2, prompt: activity.toddler)
+                    AgeCard(name: store.profile.olderDisplayName, age: 6, prompt: activity.older)
                 }
                 VStack(alignment: .leading, spacing: 16) {
-                    SectionTitle(title: "Your half hour, loosely planned")
+                    SectionTitle(title: L10n.string("Your half hour, loosely planned"))
                     ForEach(Array(activity.steps.enumerated()), id: \.offset) { index, step in
                         HStack(alignment: .top, spacing: 13) {
                             Text("\(index + 1)").font(.caption.bold()).foregroundStyle(Palette.green)
@@ -65,25 +65,25 @@ struct ActivityDetailView: View {
                                 HStack(alignment: .firstTextBaseline) {
                                     Text(step.title).font(.subheadline.weight(.semibold))
                                     Spacer()
-                                    Text("\(step.minutes) min").font(.caption).foregroundStyle(Palette.muted)
+                                    Text(L10n.format("%lld min", step.minutes)).font(.caption).foregroundStyle(Palette.muted)
                                 }
                                 Text(step.instruction).font(.subheadline).foregroundStyle(Palette.muted)
                             }
                         }
                     }
-                    Text("Shorter is lovely too. Follow their energy and pause whenever you need.")
+                    Text(L10n.string("Shorter is lovely too. Follow their energy and pause whenever you need."))
                         .font(.caption).foregroundStyle(Palette.green)
                 }
                 PaperCard {
                     VStack(alignment: .leading, spacing: 13) {
-                        Label("Bring a little of you", systemImage: "heart.text.square")
+                        Label(L10n.string("Bring a little of you"), systemImage: "heart.text.square")
                             .font(.system(.title3, design: .serif, weight: .medium))
                         Text(activity.personalPrompt).font(.subheadline).foregroundStyle(Palette.muted)
-                        TextField("A story, skill, or memory to share…", text: $note, axis: .vertical)
+                        TextField(L10n.string("A story, skill, or memory to share…"), text: $note, axis: .vertical)
                             .lineLimit(3...6).font(.subheadline).padding(13)
                             .background(Palette.background, in: RoundedRectangle(cornerRadius: 13))
-                            .accessibilityLabel("Your teaching note")
-                        Button(noteSaved ? "Note saved ✓" : "Save my note") {
+                            .accessibilityLabel(L10n.string("Your teaching note"))
+                        Button(noteSaved ? L10n.string("Note saved ✓") : L10n.string("Save my note")) {
                             store.setTeachingNote(note, for: activity)
                             noteSaved = true
                         }.font(.subheadline.weight(.semibold))
@@ -99,7 +99,7 @@ struct ActivityDetailView: View {
                 store.setTeachingNote(note, for: activity)
                 showSession = true
             } label: {
-                Label("Start our little adventure", systemImage: "play.fill")
+                Label(L10n.string("Start our little adventure"), systemImage: "play.fill")
             }
             .buttonStyle(PrimaryButtonStyle()).padding(.horizontal, 22).padding(.vertical, 12)
             .background(Palette.background)

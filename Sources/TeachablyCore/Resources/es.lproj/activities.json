@@ -1,0 +1,3071 @@
+[
+  {
+    "id": "shadow-stories",
+    "title": "¿Adónde van las sombras?",
+    "subtitle": "Una linterna, una pared y un poco de asombro.",
+    "skill": "science",
+    "symbol": "flashlight.on.fill",
+    "takeaway": "Una sombra aparece cuando algo bloquea la luz.",
+    "parentPrimer": "La luz parte de una fuente. Un objeto opaco bloquea parte de ella y llega menos luz a la superficie que queda detrás. Al acercar la mano a la linterna, su sombra suele aumentar sobre una pared fija.",
+    "materials": [
+      "Una linterna",
+      "Una pared despejada",
+      "Sus manos"
+    ],
+    "toddler": {
+      "action": "Saluda a una sombra, imita una forma y acércate. Mirar o señalar también es participar.",
+      "question": "¿Puedes hacer que salude?"
+    },
+    "older": {
+      "action": "Predice qué pasará al acercar la mano a la linterna y compruébalo. Crea una historia de sombras con dos personajes.",
+      "question": "¿Cómo podríamos hacer la sombra más grande?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Haz que una sombra salude y pregunta de dónde salió."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Bloquea la linterna con la mano: «Mi mano detiene parte de la luz». Invita a cada hijo a probar."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Túrnense para crear figuras. Deja que el pequeño se mueva libremente y que el mayor cambie una cosa a la vez. Terminen con una breve historia de sombras."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Cada uno elige su sombra favorita. Pide al mayor que explique un descubrimiento y al pequeño que lo muestre."
+      }
+    ],
+    "personalPrompt": "¿Cuándo usaste una linterna o viste una sombra sorprendente? Comparte ese momento.",
+    "careNote": "Deja espacio para moverse. Un adulto maneja la linterna; nunca apunten a los ojos. Asegura el compartimento de las pilas."
+  },
+  {
+    "id": "sound-lab",
+    "title": "¿Puedes ver un sonido?",
+    "subtitle": "Siente un zumbido y descubre pequeñas vibraciones.",
+    "skill": "science",
+    "symbol": "waveform",
+    "takeaway": "Los sonidos empiezan con vibraciones.",
+    "parentPrimer": "Una vibración es un movimiento de ida y vuelta. Al tararear, partes de la garganta vibran; un toque suave puede hacer vibrar una caja de cartón. Usen sonidos suaves y comparaciones sencillas.",
+    "materials": [
+      "Una caja grande de cartón vacía",
+      "Su voz"
+    ],
+    "toddler": {
+      "action": "Imita un suave tarareo o da palmaditas a la caja con la mano abierta.",
+      "question": "¿Tarareamos bajito?"
+    },
+    "older": {
+      "action": "Apoya suavemente los dedos en tu propia garganta mientras tarareas. Compara el sonido de toques suaves en distintas partes de la caja.",
+      "question": "¿Qué sientes al tararear?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Saluda tarareando e invita a hacer eco."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Tararea y toca tu propia garganta. Explica que pequeños movimientos ayudan a producir sonidos."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Formen una banda suave con voces y toques a la caja. Túrnense para dirigir. Comparen los golpes y el tarareo e inventen un patrón breve."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Repitan el sonido favorito y nombren algo que se movió."
+      }
+    ],
+    "personalPrompt": "¿Qué instrumento, máquina o sonido cotidiano conoces bien? Cuenta cómo empezaste a notarlo.",
+    "careNote": "Mantengan un volumen suave y cómodo. Cada uno toca solo su propia garganta. Usen una caja limpia, sin grapas ni piezas sueltas."
+  },
+  {
+    "id": "leaf-detectives",
+    "title": "Cada hoja tiene una historia",
+    "subtitle": "Un paseo conocido se vuelve una pequeña expedición.",
+    "skill": "nature",
+    "symbol": "leaf.fill",
+    "takeaway": "Las hojas tienen formas, bordes y texturas diferentes.",
+    "parentPrimer": "Observar de cerca es una habilidad útil. Puedes describir una hoja sin saber su nombre: redonda o puntiaguda, suave o áspera, ancha o estrecha. Un árbol puede tener muchas hojas de formas parecidas.",
+    "materials": [
+      "Un lugar conocido al aire libre",
+      "Unas pocas hojas grandes caídas"
+    ],
+    "toddler": {
+      "action": "Señala colores, toca una hoja conmigo y usa palabras como grande, pequeña, lisa o arrugada.",
+      "question": "¿Qué hoja quieres enseñarme?"
+    },
+    "older": {
+      "action": "Agrupa hojas caídas según un rasgo que elijas. Explica tu regla y prueba otra.",
+      "question": "¿Cómo podrías ordenarlas de otra manera?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Encuentren dos hojas caídas que se vean muy distintas."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra cómo observas la forma, el borde y el color. Si conoces un árbol, comparte su nombre."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Recorran una ruta corta y conocida. Recojan pocas hojas caídas, descríbanlas y creen un dibujo de hojas en el suelo."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Elijan una hoja cada uno y digan o muestren qué la hace especial."
+      }
+    ],
+    "personalPrompt": "¿Recuerdas un árbol, jardín o lugar al aire libre de tu infancia? Comparte esa historia.",
+    "careNote": "Permanezcan juntos, lejos de carreteras y agua. Toquen solo hojas caídas conocidas; no lleven plantas a la boca y lávense las manos después."
+  },
+  {
+    "id": "sky-watchers",
+    "title": "Una historia en el cielo",
+    "subtitle": "Busca figuras en las nubes y observa los cambios.",
+    "skill": "nature",
+    "symbol": "cloud.fill",
+    "takeaway": "Las nubes pueden cambiar de forma mientras se mueven y se desarrollan.",
+    "parentPrimer": "Las nubes contienen gotitas de agua o cristales de hielo. El viento puede moverlas. Ver animales en ellas es imaginar; fijarse en su dirección y sus cambios es observar.",
+    "materials": [
+      "Una vista segura del cielo",
+      "Papel y crayones gruesos (opcional)"
+    ],
+    "toddler": {
+      "action": "Señala una nube, imita su forma con los brazos o simplemente mira a mi lado.",
+      "question": "¿Esa parece esponjosa?"
+    },
+    "older": {
+      "action": "Elige una nube, descríbela y vuelve a mirarla unos minutos después. Distingue lo que viste de la historia que imaginaste.",
+      "question": "¿Qué cambió mientras mirábamos?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Busquen una nube que parezca un animal. Si está nublado, el cielo puede ser una manta gigante."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Comparte algo que sepas sobre las nubes o el tiempo. Distingue lo que puedes ver de lo que estás suponiendo."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Observen desde un lugar seguro. Cuenten una historia de nubes e imiten sus formas con los brazos. Si no hay nubes, dibujen un cielo imaginario."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Describan algo real que observaron y algo que imaginaron."
+      }
+    ],
+    "personalPrompt": "Cuenta un viaje o un día memorable en que el tiempo cambió tus planes.",
+    "careNote": "Nunca miren directamente al sol. Busquen sombra y un lugar seguro, lejos del tráfico, balcones y agua."
+  },
+  {
+    "id": "paper-bridges",
+    "title": "Un puente hacia algún lugar",
+    "subtitle": "Un pequeño reto de ingeniería con gran imaginación.",
+    "skill": "making",
+    "symbol": "building.2.fill",
+    "takeaway": "Cambiar la forma puede cambiar cómo una estructura soporta un peso.",
+    "parentPrimer": "Una hoja plana se dobla fácilmente. Los pliegues pueden darle mayor rigidez. Así pueden comparar diseños sin necesitar una explicación técnica de fuerzas.",
+    "materials": [
+      "Papel",
+      "Dos cajas grandes y estables",
+      "Un juguete grande y ligero"
+    ],
+    "toddler": {
+      "action": "Coloca un juguete junto al puente y ayuda a sujetar o doblar una hoja grande.",
+      "question": "¿Adónde irá tu juguete?"
+    },
+    "older": {
+      "action": "Compara una hoja plana con otra doblada sobre el mismo hueco pequeño. Pruébalas con el mismo juguete ligero.",
+      "question": "¿Qué forma se dobla menos?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Deja un hueco entre dos cajas bajas. Un juguete necesita cruzarlo."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra un pliegue y cuenta algo que hayas construido o reparado."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Prueben un puente plano y luego uno plegado, sobre un hueco pequeño. El pequeño puede jugar mientras el mayor rediseña el puente."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Elijan su diseño favorito. Pregunta qué cambiarían mañana."
+      }
+    ],
+    "personalPrompt": "¿Qué has hecho o reparado? Cuenta una ocasión en que el primer intento no funcionó.",
+    "careNote": "Construyan en el suelo. Usen juguetes ligeros y demasiado grandes para tragarlos. Son puentes para juguetes, nunca para subirse ni trepar."
+  },
+  {
+    "id": "cardboard-town",
+    "title": "Nuestra propia ciudad",
+    "subtitle": "Crea un lugar donde todos tengan sitio.",
+    "skill": "making",
+    "symbol": "house.fill",
+    "takeaway": "Podemos diseñar lugares pensando en lo que las personas necesitan.",
+    "parentPrimer": "El diseño parte de una necesidad: descansar, jugar, viajar o reunirse. Un modelo de cartón permite probar ideas, mover piezas y conversar sobre quién lo usará.",
+    "materials": [
+      "Cajas grandes de cartón limpias",
+      "Papel",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Elige una casa de cartón y mueve un juguete grande entre lugares.",
+      "question": "¿Dónde debería dormir tu juguete?"
+    },
+    "older": {
+      "action": "Planea tres lugares que necesita una ciudad y explica a quién ayudan. Cambia la distribución después de un viaje imaginario.",
+      "question": "¿Qué facilitaría visitar esta ciudad?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Pregunta adónde iría un juguete si necesitara una casa."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Comparte algo que sepas sobre construir, reparar u organizar espacios. Dibuja un plano sencillo."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Coloquen cajas como edificios en el suelo y añadan caminos de papel. Cada hijo elige un lugar y lleva un juguete de viaje por la ciudad."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Pongan nombre a la ciudad y muestren una decisión de diseño considerada."
+      }
+    ],
+    "personalPrompt": "¿Qué te gusta de algún lugar donde viviste o que visitaste? Añade esa idea a la ciudad.",
+    "careNote": "Un adulto quita las grapas y corta antes de empezar. Dejen libres los pasos y no permitan trepar dentro de cajas inestables."
+  },
+  {
+    "id": "kitchen-measures",
+    "title": "¿Cuánto cabe dentro?",
+    "subtitle": "Los utensilios de cocina se vuelven un laboratorio.",
+    "skill": "cooking",
+    "symbol": "cup.and.saucer.fill",
+    "takeaway": "Los recipientes tienen distintas capacidades, aunque su forma pueda engañarnos.",
+    "parentPrimer": "La capacidad es cuánto cabe en un recipiente. Comparar usando siempre la misma taza pequeña da una unidad informal. Invita a estimar antes de contar; los derrames forman parte de explorar.",
+    "materials": [
+      "Una bandeja poco profunda",
+      "Tazas grandes irrompibles",
+      "Un poco de agua",
+      "Una toalla"
+    ],
+    "toddler": {
+      "action": "Ayuda a verter un poco de agua entre tazas grandes, con mi mano cerca. Hablemos de lleno y vacío.",
+      "question": "¿La taza está llena o vacía?"
+    },
+    "older": {
+      "action": "Estima cuántas tazas pequeñas llenarán un recipiente mayor y cuenta mientras viertes.",
+      "question": "¿Cómo hacemos una comparación justa?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Muestra dos recipientes diferentes. Pregunta cuál podría contener más."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Cuenta cómo usas tazas o medidas al cocinar y demuestra cómo verter despacio."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Comparen recipientes con la misma taza pequeña. El pequeño vierte con ayuda y el mayor cuenta. Terminen secando juntos."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Elijan un recipiente y recuerden cómo lo compararon."
+      }
+    ],
+    "personalPrompt": "¿Qué te gusta cocinar? Cuenta cuándo importa la cantidad de un ingrediente.",
+    "careNote": "Un adulto permanece al alcance durante toda la actividad. Usen poca agua en una bandeja poco profunda; vacíenla inmediatamente y sequen los derrames."
+  },
+  {
+    "id": "recipe-moves",
+    "title": "Una receta sin cocinar",
+    "subtitle": "Descubre cómo el orden convierte pasos en algo útil.",
+    "skill": "cooking",
+    "symbol": "list.number",
+    "takeaway": "Una receta es una secuencia de instrucciones.",
+    "parentPrimer": "Las secuencias ayudan a repetir un proceso. Una receta imaginaria muestra por qué importan el orden y la claridad, sin aparatos calientes ni preparación de alimentos.",
+    "materials": [
+      "Papel",
+      "Crayones gruesos",
+      "Un cuenco grande irrompible y una cuchara"
+    ],
+    "toddler": {
+      "action": "Remueve una mezcla imaginaria e imita una acción sencilla cada vez.",
+      "question": "¿Removemos un poco?"
+    },
+    "older": {
+      "action": "Dibuja cuatro pasos de una receta, explica su orden y comprueba si alguien puede seguirlos.",
+      "question": "¿Qué pasaría si intercambiamos estos pasos?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Anuncia una cocina de juego que prepara sopa imaginaria."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Describe una receta real que conozcas. Representa reunir, mezclar y servir."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Inventen una receta imaginaria. Dibujen los pasos y alternen los papeles de cocinero y ayudante. Luego desordénenlos a propósito y corríjanlos."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Cada uno elige su paso favorito. El mayor explica la secuencia y el pequeño representa un paso."
+      }
+    ],
+    "personalPrompt": "Comparte un plato que alguien te enseñó a preparar y a qué persona o lugar te recuerda.",
+    "careNote": "Mantengan el juego imaginario, con utensilios irrompibles. Guarden aparatos calientes, cuchillas e ingredientes reales."
+  },
+  {
+    "id": "rhythm-echo",
+    "title": "Tú lo haces. Yo lo repito.",
+    "subtitle": "Un poco de ritmo, mucha escucha.",
+    "skill": "music",
+    "symbol": "hands.clap.fill",
+    "takeaway": "Un ritmo es un patrón de sonidos y silencios.",
+    "parentPrimer": "El pulso constante puede distinguirse del ritmo que lo acompaña. Empieza con un pulso lento y cómodo, luego añade patrones breves con pausas. Escuchar es tan útil como tocar.",
+    "materials": [
+      "Sus manos",
+      "Un cojín para golpear suavemente"
+    ],
+    "toddler": {
+      "action": "Imita una palmada o toque y elige un movimiento para que todos lo repitan.",
+      "question": "¿Damos palmaditas juntos?"
+    },
+    "older": {
+      "action": "Crea un patrón breve con una pausa, enséñalo a la familia y cambia solo una parte.",
+      "question": "¿Cómo recordaremos el silencio?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Saluda con una palmada suave y deja tiempo para responder."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Comparte un ritmo o una canción que conozcas. Marca un pulso lento sobre las rodillas."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Túrnense para crear patrones cortos. Mantengan un pulso juntos, añadan un silencio y dejen que cada hijo dirija una pequeña banda familiar."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Repitan su patrón favorito y agradezcan a los demás haber escuchado."
+      }
+    ],
+    "personalPrompt": "¿Qué música te encanta y quién te la presentó? Tararea un poco y cuenta su historia.",
+    "careNote": "Mantengan un volumen cómodo. Usen manos y superficies blandas; eviten instrumentos sueltos con piezas pequeñas."
+  },
+  {
+    "id": "soundtrack-story",
+    "title": "Una banda sonora para tu historia",
+    "subtitle": "Convierte pasos, lluvia y un gigante en música.",
+    "skill": "music",
+    "symbol": "pianokeys",
+    "takeaway": "La música y los sonidos ayudan a contar historias.",
+    "parentPrimer": "El tempo indica la velocidad de la música. Los sonidos suaves o más fuertes, los patrones rápidos o lentos y las pausas pueden sugerir acciones o emociones. No hay una única banda sonora correcta.",
+    "materials": [
+      "Un cojín",
+      "Papel",
+      "Sus voces"
+    ],
+    "toddler": {
+      "action": "Elige un sonido suave para la lluvia e imita el paso lento de un gigante, de pie o sentado.",
+      "question": "¿Cómo suena nuestro gigante?"
+    },
+    "older": {
+      "action": "Crea sonidos distintos para tres sucesos del cuento y explica tus elecciones.",
+      "question": "¿Qué puede contarnos una pausa?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Susurra que una pequeña criatura está a punto de vivir una aventura."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra cómo un toque lento puede ser un paso y un roce suave puede ser lluvia. Comparte una música que te cuente una historia."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Cuenten un viaje sencillo y hagan pausas para que cada hijo añada un sonido. Cambien el tiempo o el personaje e inventen otra banda sonora."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Vuelvan a contar un momento favorito usando solo sus sonidos."
+      }
+    ],
+    "personalPrompt": "¿Qué canción, música de película o sonido conocido te trae recuerdos? Cuéntales por qué.",
+    "careNote": "Mantengan los sonidos suaves. Usen hojas grandes bajo supervisión y retiren los trocitos rotos."
+  },
+  {
+    "id": "story-bag",
+    "title": "Tres cosas. Una historia increíble.",
+    "subtitle": "Crea una aventura con lo que ya tienes.",
+    "skill": "storytelling",
+    "symbol": "sparkles.rectangle.stack.fill",
+    "takeaway": "Una historia puede unir un personaje, un problema y una solución.",
+    "parentPrimer": "No hace falta una historia perfecta. Basta con alguien que quiere algo, un obstáculo y una idea para intentarlo. Los niños pueden aportar gestos, sonidos o palabras.",
+    "materials": [
+      "Tres juguetes grandes conocidos",
+      "Una bolsa o funda de almohada"
+    ],
+    "toddler": {
+      "action": "Elige un juguete, haz su sonido o decide adónde va.",
+      "question": "¿Quién viene a nuestra aventura?"
+    },
+    "older": {
+      "action": "Dale un objetivo al personaje e inventa dos posibles soluciones al surgir un problema.",
+      "question": "¿Qué otra cosa podría intentar?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Saca un juguete grande de la bolsa con un saludo teatral."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Empieza una historia breve: el personaje quiere algo. Cuenta un pequeño ejemplo inventado por ti."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Añadan los demás objetos de uno en uno. Túrnense para decidir qué ocurre, representarlo y probar otro final."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Pongan título a la historia y dejen que cada hijo repita o muestre su momento favorito."
+      }
+    ],
+    "personalPrompt": "¿Qué historias disfrutabas de pequeño? Toma prestado un lugar o una emoción de ellas.",
+    "careNote": "Usen juguetes demasiado grandes para tragarlos. Un adulto sujeta la bolsa; nunca la pongan sobre la cabeza."
+  },
+  {
+    "id": "family-map",
+    "title": "Un mapa de tu propia historia",
+    "subtitle": "Comparte un lugar que forma parte de ti.",
+    "skill": "storytelling",
+    "symbol": "map.fill",
+    "takeaway": "Un mapa ayuda a contar un viaje en orden.",
+    "parentPrimer": "Un mapa sencillo representa lugares y conexiones; no necesita precisión geográfica. Primero, después y al final unen el camino dibujado con una historia personal.",
+    "materials": [
+      "Una hoja grande",
+      "Crayones gruesos",
+      "Un juguete grande para mover"
+    ],
+    "toddler": {
+      "action": "Haz marcas para representar un lugar y mueve un juguete por la ruta conmigo.",
+      "question": "¿Adónde vamos ahora?"
+    },
+    "older": {
+      "action": "Dibuja tres lugares de la historia, conéctalos y vuelve a contar el viaje en orden.",
+      "question": "¿Qué detalle ayudaría a seguir este viaje?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Diles que visitarán un lugar de tus recuerdos."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Dibuja un lugar conocido y comparte un recuerdo concreto de allí."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Creen un mapa con una casa, una parada y un destino. Muevan un juguete, hagan preguntas y dejen que cada hijo añada un lugar imaginario."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Pregúntales qué querrían visitar y guarden una pregunta para otro día."
+      }
+    ],
+    "personalPrompt": "Elige un viaje, una casa de tu infancia o un lugar vinculado a alguien importante para ti.",
+    "careNote": "Dibujen en una superficie baja y estable, con crayones adecuados para su edad. Alejen tapas y piezas pequeñas."
+  },
+  {
+    "id": "toy-shop",
+    "title": "Abramos una tiendita",
+    "subtitle": "Practiquen elegir, contar y turnarse.",
+    "skill": "numbers",
+    "symbol": "storefront.fill",
+    "takeaway": "Comprar implica elegir, contar e intercambiar algo.",
+    "parentPrimer": "Usen billetes de papel imaginarios y números enteros. La tienda invita a contar, comparar y explicar elecciones. Para el pequeño basta elegir y entregar un objeto.",
+    "materials": [
+      "Tres juguetes grandes",
+      "Billetes grandes de papel de juguete",
+      "Etiquetas de precios de papel"
+    ],
+    "toddler": {
+      "action": "Elige un objeto y practica entregarlo o ponerlo en la tienda.",
+      "question": "¿Cuál elegirías?"
+    },
+    "older": {
+      "action": "Pon precios de uno a cinco, cuenta billetes de juguete y calcula qué puedes comprar con un presupuesto pequeño.",
+      "question": "¿Qué elegirías con tres billetes?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Anuncia que la tienda de juguetes está abierta."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Comparte cómo decides qué comprar y representa despacio un intercambio."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Alternen entre vendedor y cliente. El pequeño elige artículos y el mayor pone precios y cuenta billetes. Inventen un reparto o un escaparate nuevo."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Compartan una elección de cada persona y su motivo."
+      }
+    ],
+    "personalPrompt": "¿Para qué ahorraste o qué elegiste con cuidado? Cuenta cómo decidiste.",
+    "careNote": "Usen billetes grandes de papel, nunca monedas reales ni fichas pequeñas. No presionen para comprar cosas de verdad."
+  },
+  {
+    "id": "pattern-path",
+    "title": "¿Qué viene después?",
+    "subtitle": "Crea un camino de patrones por la habitación.",
+    "skill": "numbers",
+    "symbol": "square.grid.2x2.fill",
+    "takeaway": "Un patrón repetitivo tiene una unidad que vuelve a aparecer.",
+    "parentPrimer": "Empieza con un patrón AB: palmada, toque, palmada, toque. La unidad que se repite es palmada-toque. Se pueden descubrir patrones en movimientos, colores, sonidos y disposiciones.",
+    "materials": [
+      "Cojines grandes o peluches",
+      "Espacio en el suelo"
+    ],
+    "toddler": {
+      "action": "Imita palmada-toque o elige entre dos juguetes grandes mientras hacemos un patrón.",
+      "question": "Palmada, toque… ¿qué hacemos ahora?"
+    },
+    "older": {
+      "action": "Continúa un patrón AB, inventa uno AAB y explica la parte que se repite.",
+      "question": "¿Qué parte se repite?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Inventa un saludo gracioso de palmada-toque y repítelo."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Comparte un patrón de música, números, deporte o una rutina diaria."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Coloquen juguetes grandes en una fila repetitiva y conviértanla en movimientos o sonidos. Cada hijo dirige un patrón; luego oculten una parte y descubran cuál falta."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Repitan juntos el patrón familiar una última vez."
+      }
+    ],
+    "personalPrompt": "¿Cómo te ayudan los patrones en tu trabajo o aficiones? Muestra un ejemplo sencillo.",
+    "careNote": "Dejen el suelo despejado. Coloquen los juguetes al lado del camino, donde nadie los pise."
+  },
+  {
+    "id": "animal-moves",
+    "title": "¿Cómo se mueve un animal?",
+    "subtitle": "Estírense, equilibren y hagan un poco el payaso.",
+    "skill": "movement",
+    "symbol": "pawprint.fill",
+    "takeaway": "Distintos movimientos usan el cuerpo de maneras diferentes.",
+    "parentPrimer": "El juego permite explorar movimientos lentos o rápidos, grandes o pequeños y equilibrio con apoyo. Cada niño elige una versión cómoda. Buscamos disfrutar y observar, no la perfección.",
+    "materials": [
+      "Un espacio interior despejado",
+      "Una colchoneta blanda (opcional)"
+    ],
+    "toddler": {
+      "action": "Elige un animal y copia un movimiento cómodo, sentado o de pie.",
+      "question": "¿Nos estiramos como jirafas?"
+    },
+    "older": {
+      "action": "Inventa una secuencia de animales y explica qué movimientos se sienten estables o inestables.",
+      "question": "¿Qué te ayuda a mantener el equilibrio?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Sean animales dormidos que despiertan estirándose."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Comparte un calentamiento suave o movimiento de un deporte que disfrutes. Ofrece también una versión sentada."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Elijan animales por turnos. Muévanse lentamente, quédense quietos y cambien de dirección. Creen una aventura corta con descansos y agua cuando quieran."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Elijan un movimiento favorito y noten cómo se siente el cuerpo."
+      }
+    ],
+    "personalPrompt": "¿Qué deporte, baile o juego al aire libre disfrutaste? Comparte una pequeña parte.",
+    "careNote": "Retiren obstáculos; no trepen ni salten desde muebles. Elijan movimientos cómodos y paren cuando alguien quiera descansar."
+  },
+  {
+    "id": "sock-target",
+    "title": "Apunta a un pequeño progreso",
+    "subtitle": "Calcetines enrollados para un experimento amistoso.",
+    "skill": "movement",
+    "symbol": "target",
+    "takeaway": "La práctica y los pequeños ajustes ayudan a mejorar una habilidad.",
+    "parentPrimer": "Apuntar implica elegir un objetivo y observar el resultado. Cambien una cosa, como la distancia, y comparen. Cuenten intentos si es divertido, sin comparar a los niños entre sí.",
+    "materials": [
+      "Calcetines grandes enrollados",
+      "Una cesta grande abierta",
+      "Un suelo despejado"
+    ],
+    "toddler": {
+      "action": "Deja caer o rueda un calcetín grande hacia una cesta cercana, con ayuda.",
+      "question": "¿Dónde cayó tu calcetín?"
+    },
+    "older": {
+      "action": "Lanza suavemente por debajo del hombro desde cerca, observa el resultado y elige un ajuste.",
+      "question": "¿Qué cambiarás en el próximo intento?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "La cesta es una casa imaginaria para calcetines dormidos."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra un lanzamiento suave desde abajo y cuenta cómo practicas una habilidad."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Prueben dejar caer, rodar y lanzar. Acerquen o alejen la cesta. Cada hijo elige su reto; celebren probar algo o ceder el turno."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Nombren algo que probaron y otra cosa para la próxima vez."
+      }
+    ],
+    "personalPrompt": "Cuenta cómo aprendiste una habilidad poco a poco. ¿Qué te ayudó a continuar?",
+    "careNote": "Usen calcetines grandes, blandos y enrollados. Apunten a la cesta en el suelo, lejos de caras y objetos frágiles. Despejen el paso."
+  },
+  {
+    "id": "same-number-new-shape",
+    "title": "Misma cantidad, otra forma",
+    "subtitle": "Una fila, un círculo y una sorpresa al contar.",
+    "skill": "numbers",
+    "symbol": "circle.grid.2x2.fill",
+    "takeaway": "Separar los objetos de un grupo no añade más objetos.",
+    "parentPrimer": "Contar cada objeto una vez vincula el número con la cantidad. Reordenarlos cambia la disposición, no el total. Deja que comprueben moviendo o emparejando, sin exigir una respuesta.",
+    "materials": [
+      "Seis juguetes blandos o bloques grandes",
+      "Un suelo despejado"
+    ],
+    "toddler": {
+      "action": "Pásame un juguete grande cada vez, elige su lugar y escucha cómo cuento despacio.",
+      "question": "¿Le das un amigo a este juguete?"
+    },
+    "older": {
+      "action": "Cuenta un grupo y reordénalo sin añadir ni quitar objetos. Explica si cambió el total y compruébalo emparejándolos.",
+      "question": "¿Cambió la cantidad o solo la forma?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Coloca unos juguetes en una fila corta y después en un círculo amplio."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Toca o mueve cada objeto una vez al contar. Comparte un truco cotidiano."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Hagan filas, círculos y parejas con los mismos juguetes. El pequeño los mueve y el mayor predice y comprueba el total. Usen menos objetos si resulta más fácil."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Cada uno elige una disposición y muestra cómo sabe cuántos juguetes hay."
+      }
+    ],
+    "personalPrompt": "¿Cuándo cuentas, agrupas o haces cálculo mental? Muestra un ejemplo pequeño.",
+    "careNote": "Usen objetos demasiado grandes para tragarlos. Despejen la zona y hagan del conteo una invitación, no un examen."
+  },
+  {
+    "id": "picture-detectives",
+    "title": "Lee un poco, descubre mucho",
+    "subtitle": "Un libro ilustrado favorito abre una conversación.",
+    "skill": "reading",
+    "symbol": "book.fill",
+    "takeaway": "Las imágenes y las palabras nos ayudan a entender una historia.",
+    "parentPrimer": "Lee en voz alta en el idioma que disfrutes compartir. Haz pausas donde muestren interés. Señalar, nombrar, hacer sonidos, predecir y escuchar son formas de participar; no necesitan leer palabras en voz alta.",
+    "materials": [
+      "Un libro ilustrado conocido",
+      "Un lugar cómodo para estar juntos"
+    ],
+    "toddler": {
+      "action": "Elige una página, señala una imagen, imita un animal o pasa una página resistente con ayuda.",
+      "question": "¿Qué te llamó la atención?"
+    },
+    "older": {
+      "action": "Haz una predicción, señala la imagen o palabra que te dio una pista y sigue leyendo para revisarla.",
+      "question": "¿Qué viste en esta página que te dio esa idea?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Cada hijo elige algo que observar en la portada."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Lee un fragmento con expresión. Cuenta por qué disfrutas el libro o cómo eliges lecturas."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Lean a su ritmo. Deténganse en imágenes que disfruten, representen un momento y comprueben una predicción del mayor. Relean o descansen cuando quieran."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Cada uno elige su página o detalle favorito. Guarden una pregunta para la próxima vez."
+      }
+    ],
+    "personalPrompt": "¿Qué te hace disfrutar la lectura: un personaje, una idea, una frase, una emoción? Comparte ese placer.",
+    "careNote": "Elige un libro resistente y apropiado, y un lugar cómodo. No exijas que permanezcan sentados toda la sesión."
+  },
+  {
+    "id": "story-in-three-pictures",
+    "title": "Una historia en tres dibujos",
+    "subtitle": "Lee, dibuja y vuelve a contarla a tu manera.",
+    "skill": "reading",
+    "symbol": "rectangle.stack.fill",
+    "takeaway": "Podemos contar sucesos en orden con imágenes y palabras.",
+    "parentPrimer": "Elige una historia breve conocida o solo un fragmento. Dibujen juntos sin exigir recordar cada detalle. Cada relato puede destacar partes diferentes.",
+    "materials": [
+      "Un libro ilustrado conocido",
+      "Tres hojas grandes de papel",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Elige un personaje favorito, dibuja una marca o señala la imagen que describo.",
+      "question": "¿Dónde está tu personaje favorito?"
+    },
+    "older": {
+      "action": "Dibuja o dicta algo del principio, el medio y el final; usa los dibujos para volver a contar la historia.",
+      "question": "¿Qué pasó antes de esta parte?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Abran un libro conocido y pregunta qué recuerdan."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Lee un fragmento y dibuja un suceso. Explica cómo una imagen ayuda a recordar."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Creen tres dibujos grandes. El pequeño hace marcas o elige un personaje y el mayor ordena los sucesos. Cuenten la historia y prueben un final divertido distinto."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Cada uno muestra un dibujo y dice, señala o representa lo que pasó."
+      }
+    ],
+    "personalPrompt": "¿Qué historia recuerdas de tu infancia? Cuenta qué parte se quedó contigo.",
+    "careNote": "Un adulto maneja el libro y los materiales. Usen crayones apropiados, retiren fragmentos pequeños y acepten dibujos o dictado en vez de escribir."
+  },
+  {
+    "id": "words-around-us",
+    "title": "Hay palabras por todas partes",
+    "subtitle": "Descubran los textos de su hogar.",
+    "skill": "reading",
+    "symbol": "text.magnifyingglass",
+    "takeaway": "Las palabras escritas transmiten mensajes útiles.",
+    "parentPrimer": "Nombres, títulos y etiquetas dan una función a la escritura. Señala una palabra al leerla. Con el mayor, observa letras o sonidos conocidos sin suponer que toda escritura sigue reglas simples.",
+    "materials": [
+      "Un libro favorito",
+      "Una tarjeta grande con un nombre",
+      "Etiquetas seguras elegidas por un adulto"
+    ],
+    "toddler": {
+      "action": "Busca una imagen conocida o tu tarjeta, señala y escucha las palabras.",
+      "question": "¿Buscamos tu nombre juntos?"
+    },
+    "older": {
+      "action": "Busca palabras o letras conocidas en etiquetas seguras. Explica qué informa un cartel o una etiqueta.",
+      "question": "¿Para qué nos sirve esta palabra?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Escribe sus nombres en tarjetas grandes y léelos."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra un título o etiqueta que uses. Señala las palabras y explica qué te indican."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Busquen textos en una zona segura de casa. El pequeño encuentra imágenes y el mayor letras o palabras conocidas. Creen un gran cartel de bienvenida y léanlo."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Elijan una palabra o cartel útil y expliquen qué informa."
+      }
+    ],
+    "personalPrompt": "¿Qué lees en un día normal y cómo te ayuda? Muestra un ejemplo conocido.",
+    "careNote": "Un adulto elige todas las etiquetas. Eviten medicinas, limpiadores, envases con piezas pequeñas y trepar para alcanzar textos."
+  },
+  {
+    "id": "our-page-of-today",
+    "title": "Una página de nuestro día",
+    "subtitle": "Dibuja, cuenta o escribe un poco en compañía.",
+    "skill": "journaling",
+    "symbol": "square.and.pencil",
+    "takeaway": "Un diario guarda recuerdos con dibujos, trazos o palabras.",
+    "parentPrimer": "Muestra una entrada cotidiana breve: la fecha y un momento observado. El pequeño puede hacer marcas o dictar; el mayor dibujar, dictar o escribir. La ortografía y la limpieza no son el objetivo.",
+    "materials": [
+      "Papel o un cuaderno",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Elige un color, haz marcas o señala mientras escribo una palabra que digas.",
+      "question": "¿Qué quieres poner en nuestra página?"
+    },
+    "older": {
+      "action": "Elige un momento concreto, dibújalo y dicta o escribe una frase.",
+      "question": "¿Qué pequeño detalle te ayudará a recordar este día?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Di que quieres recordar una pequeña parte de hoy."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Escribe una entrada breve delante de ellos. Léela y explica por qué llevas un diario."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Cada uno aporta a una página compartida. Ofrece escribir las palabras de los niños exactamente como las dicen. Añadan la fecha, describan los dibujos y dejen que decidan cuándo terminar."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Lean o describan juntos la página y elijan dónde guardarla."
+      }
+    ],
+    "personalPrompt": "¿Qué te ayuda a notar o recordar escribir un diario? Comparte una entrada cotidiana que quieras leer.",
+    "careNote": "Usen materiales adecuados y retiren trozos pequeños rotos. Comparte solo entradas que quieras mostrar; los niños también pueden reservarse un pensamiento."
+  },
+  {
+    "id": "a-moment-and-a-feeling",
+    "title": "Un momento, cualquier emoción",
+    "subtitle": "Hay sitio para lo bonito, lo difícil y lo cotidiano.",
+    "skill": "journaling",
+    "symbol": "heart.text.square",
+    "takeaway": "Un diario puede guardar lo que ocurrió y cómo nos sentimos.",
+    "parentPrimer": "Empieza con algo que te pasó y cómo te sentiste. Los niños pueden nombrar una emoción, elegir un color, dibujar o no compartir. Su entrada no tiene que ser alegre ni coincidir contigo.",
+    "materials": [
+      "Papel",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Elige un color o dibuja libremente mientras cuento mi momento. Un gesto, una palabra o no responder está bien.",
+      "question": "¿Quieres enseñarme algo o seguir dibujando?"
+    },
+    "older": {
+      "action": "Describe un suceso y una emoción, y elige un detalle para dibujar o escribir. Podemos sentir distinto ante lo mismo.",
+      "question": "¿Cómo te sentiste en ese momento?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Describe un momento cotidiano sin juzgarlo."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Escribe brevemente qué ocurrió y cómo te sentiste. Explica que un diario admite todo tipo de días."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Invita a crear una página de su elección. Ofrece palabras para emociones sin asignarles ninguna. Dibuja a su lado y pide permiso antes de leer sus palabras."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Cada persona decide si comparte un trazo, una frase o nada."
+      }
+    ],
+    "personalPrompt": "¿Cómo escribes sobre un día variado o normal? Muestra un ejemplo que quieras compartir.",
+    "careNote": "La actividad es voluntaria. Usen crayones apropiados y dejen que los niños elijan qué compartir."
+  },
+  {
+    "id": "a-note-to-tomorrow",
+    "title": "Una notita para mañana",
+    "subtitle": "Envía a tu yo futuro algo para recordar.",
+    "skill": "journaling",
+    "symbol": "envelope.open.fill",
+    "takeaway": "Escribir o dibujar puede llevar un mensaje al futuro, incluso para nosotros mismos.",
+    "parentPrimer": "Una nota futura puede guardar una pregunta, un recuerdo o una idea. Muestra algo pequeño y realista. Es un mensaje, no una promesa que los niños deban cumplir mañana.",
+    "materials": [
+      "Una hoja grande",
+      "Crayones gruesos",
+      "Un lugar seguro para la nota doblada"
+    ],
+    "toddler": {
+      "action": "Haz una marca o elige un juguete favorito para mencionarlo. Puedo escribir tus palabras.",
+      "question": "¿Qué le contamos a nuestro yo de mañana?"
+    },
+    "older": {
+      "action": "Elige un recuerdo o pregunta para tu yo futuro, dibújalo o escríbelo y decide cuándo abrirlo.",
+      "question": "¿Qué querrás recordar al abrir esta nota?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Finge recibir una carta de mañana e imaginen qué dice."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Escribe un mensaje a tu yo futuro y explica cómo te ayudan las notas."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Hagan una nota familiar con aportes de todos. Léanla, dóblenla y acuerden dónde guardarla y cuándo verla otra vez. Decoren por fuera con un dibujo."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Cada uno señala o nombra algo del mensaje. No hace falta leer aportes privados."
+      }
+    ],
+    "personalPrompt": "¿Usas un diario para recordar ideas o planes? Comparte un pequeño hábito que puedan probar contigo.",
+    "careNote": "Usen papel sin grapas ni clips y crayones apropiados. Guarden la nota donde un adulto pueda alcanzarla sin trepar."
+  },
+  {
+    "id": "friendly-robot",
+    "title": "Sé mi robot amistoso",
+    "subtitle": "Convierte instrucciones sencillas en un programa divertido.",
+    "skill": "coding",
+    "symbol": "chevron.left.forwardslash.chevron.right",
+    "takeaway": "Una secuencia es un conjunto de instrucciones que se siguen en orden.",
+    "parentPrimer": "Acuerden órdenes precisas: señala arriba, aplaude una vez o gira las manos. Cúmplanlas literalmente y con suavidad. La conexión con la informática es indicar un orden; no hace falta pantalla ni leer.",
+    "materials": [
+      "Tres tarjetas grandes con órdenes dibujadas",
+      "Crayones gruesos",
+      "Un espacio despejado y cómodo"
+    ],
+    "toddler": {
+      "action": "Elige una orden dibujada y mira cómo la sigo. Imita una palmada o un gesto si quieres.",
+      "question": "¿Qué movimiento hará nuestro robot?"
+    },
+    "older": {
+      "action": "Ordena tres tarjetas, ejecuta el programa y cambia el orden para ver qué ocurre.",
+      "question": "¿Qué instrucción seguirá primero el robot?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Conviértete en un robot amistoso sentado, esperando una orden."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Dibuja una orden y síguela. Explica que programar es dar instrucciones que una computadora puede realizar."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Creen un programa de tres tarjetas con movimientos suaves sentados. El pequeño elige uno y el mayor ordena las tarjetas. Alternen robot y programador y prueben otro orden."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Ejecuten su programa favorito y nombren algo que cambió al variar el orden."
+      }
+    ],
+    "personalPrompt": "¿Qué has programado o automatizado? Explica qué recibe y qué hace con palabras sencillas.",
+    "careNote": "Elijan movimientos cómodos, sentados o de pie, en un espacio libre. Mantengan los ojos abiertos; eviten giros y trepar. Cualquiera puede parar o no participar."
+  },
+  {
+    "id": "debug-the-toy-route",
+    "title": "Encuentra la instrucción enredada",
+    "subtitle": "Una primera aventura amable para depurar programas.",
+    "skill": "coding",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "Depurar es revisar un plan y cambiar lo que no hace lo previsto.",
+    "parentPrimer": "Empieza con una meta sencilla y tres instrucciones dibujadas para mover un juguete entre lugares de papel. Sigue cada tarjeta. Si no llega a la meta, cambia una y prueba otra vez. El plan necesita ajustes; el niño no está equivocado.",
+    "materials": [
+      "Un juguete grande",
+      "Tres dibujos grandes de lugares",
+      "Tres tarjetas grandes con instrucciones dibujadas"
+    ],
+    "toddler": {
+      "action": "Mueve el juguete conmigo o señala su destino. Elige qué dibujo visitará después.",
+      "question": "¿Dónde debe terminar el juguete?"
+    },
+    "older": {
+      "action": "Predice el destino de una secuencia, encuentra la instrucción que no encaja, cámbiala y repite.",
+      "question": "¿En qué paso nos llevó el plan a otro lugar?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "El juguete quiere llegar a casa, pero las tarjetas lo llevan al parque."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Sigue despacio un plan de dos pasos. Cuenta cómo revisas código cuando hace algo inesperado."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Creen una ruta de tres paradas sobre una mesa baja o el suelo despejado. Desordena una instrucción. El pequeño mueve contigo el juguete y el mayor revisa y corrige. Alternen papeles."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Describan el cambio que llevó el juguete a su meta. Celebren revisar y reintentar."
+      }
+    ],
+    "personalPrompt": "¿Recuerdas un pequeño error de programación y la pista para encontrarlo? Cuéntalo sin tecnicismos.",
+    "careNote": "Usen juguetes grandes y tarjetas sin clips, sobre una superficie baja estable. No pongan a los niños dentro de cajas ni obstáculos."
+  },
+  {
+    "id": "a-loop-of-silly-moves",
+    "title": "Un bucle de movimientos graciosos",
+    "subtitle": "Escríbelo una vez y vuelve a hacerlo.",
+    "skill": "coding",
+    "symbol": "repeat",
+    "takeaway": "Un bucle repite una secuencia de instrucciones.",
+    "parentPrimer": "Elige dos acciones: palmada y toque en las rodillas. Hacerlas tres veces es un pequeño bucle. Distingue las acciones incluidas del número de repeticiones. Es una analogía de los bucles de programación.",
+    "materials": [
+      "Dos tarjetas grandes con movimientos",
+      "Una tarjeta grande de repetición"
+    ],
+    "toddler": {
+      "action": "Imita una acción cómoda o elige el sonido que repetimos.",
+      "question": "¿Lo hacemos una vez más?"
+    },
+    "older": {
+      "action": "Crea un programa de dos acciones, elige entre una y tres repeticiones y lleva la cuenta.",
+      "question": "¿Qué acciones están dentro del bucle?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Haz un patrón corto de palmada y toque e invita a repetirlo."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra cómo dos tarjetas y una de repetición sustituyen una fila larga de órdenes. Cuenta dónde usas repeticiones al programar."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Prueben el bucle sentados o de pie. El pequeño elige un movimiento y el mayor decide cuántas veces repetir. Comparen repetir ambas acciones con repetir solo una. Descansen cuando quieran."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Digan o muestren qué se repitió y guarden un bucle favorito en papel."
+      }
+    ],
+    "personalPrompt": "¿Qué tarea repetitiva hiciste con código? Compárala con repetir aquí una acción pequeña.",
+    "careNote": "Elijan acciones suaves y pocas repeticiones. Eviten saltar desde muebles, girar rápido o insistir en continuar."
+  },
+  {
+    "id": "clue-or-guess",
+    "title": "¿Una pista o una suposición?",
+    "subtitle": "Observa algo y cuenta por qué lo piensas.",
+    "skill": "criticalThinking",
+    "symbol": "lightbulb.fill",
+    "takeaway": "Lo que observamos y las explicaciones que suponemos son cosas diferentes.",
+    "parentPrimer": "Con un objeto cotidiano, «Veo ruedas» es una observación; «Creo que irá rápido» es una idea por comprobar. Las suposiciones son bienvenidas: el hábito útil es señalar pistas y aceptar revisar ideas.",
+    "materials": [
+      "Un juguete grande conocido",
+      "Papel",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Señala un rasgo o elige entre dos cosas que nombro. Seguimos lo que te interese.",
+      "question": "¿Qué puedes mostrarme de este juguete?"
+    },
+    "older": {
+      "action": "Di algo observable y algo que crees posible. Da una pista para tu idea y una forma de comprobarla.",
+      "question": "¿Qué te hace pensar eso?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Observen un juguete conocido sin nombrarlo enseguida."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra una observación y una suposición. Cuenta cómo compruebas ideas en tu vida."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Túrnense para notar detalles, inventar explicaciones y hacer una comprobación sencilla segura. Dibujen un rasgo visible en un lado y una pregunta en el otro. El pequeño aporta gestos o sonidos."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Elijan algo que notaron y una pregunta pendiente."
+      }
+    ],
+    "personalPrompt": "¿Cuándo observar mejor cambió tu primera impresión? Comparte un ejemplo cotidiano.",
+    "careNote": "Usen juguetes conocidos demasiado grandes para tragarlos. Las comprobaciones deben ser sencillas y seguras; basta mirar, dibujar e imaginar."
+  },
+  {
+    "id": "mystery-pillowcase",
+    "title": "El misterio de la funda",
+    "subtitle": "Reúne pistas y permite que cambien tus ideas.",
+    "skill": "criticalThinking",
+    "symbol": "questionmark.circle.fill",
+    "takeaway": "Las pistas nuevas pueden hacer más probable otra explicación.",
+    "parentPrimer": "Usa un peluche grande conocido. Da pistas verdaderas de una en una o muestra una parte sujetando la funda abierta. Cambia tu suposición al ver detalles nuevos. Es un juego compartido, no una carrera por acertar.",
+    "materials": [
+      "Un peluche grande conocido",
+      "Una funda de almohada que sujeta un adulto"
+    ],
+    "toddler": {
+      "action": "Mira o toca una parte visible con ayuda, nombra un rasgo o decide descubrir el juguete.",
+      "question": "¿Esta parte es suave?"
+    },
+    "older": {
+      "action": "Propón una posibilidad, pide una pista útil y cambia tu propuesta si la nueva información lo sugiere.",
+      "question": "¿Qué pista ayudaría a elegir entre esas ideas?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Pon un peluche grande conocido en la funda y mantén la abertura en tus manos."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Da una pista verdadera y haz tu propia suposición inicial. Explica que cambiar de idea ante pistas nuevas ayuda."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Ofrece pistas de una en una. El mayor hace preguntas; el pequeño señala, toca con ayuda o descubre el juguete. Cambien papeles con otro juguete grande si quieren."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Hablen de la pista más útil y de si alguien cambió de idea."
+      }
+    ],
+    "personalPrompt": "¿Cuándo cambiaste de opinión con más información? Comparte un ejemplo sin convertirlo en una lección sobre acertar.",
+    "careNote": "Un adulto sujeta la funda siempre. Usen peluches grandes sin partes desmontables, despejen las caras y nunca cubran una cabeza con la funda."
+  },
+  {
+    "id": "more-than-one-answer",
+    "title": "Más de una buena respuesta",
+    "subtitle": "Prueba dos ideas para un pequeño problema.",
+    "skill": "criticalThinking",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "Un problema puede tener varias soluciones útiles con ventajas distintas.",
+    "parentPrimer": "Dale al juguete una meta: ir de una hoja a otra. Llevarlo, deslizarlo en papel o crear una ruta imaginaria pueden servir. Pregunta qué importa antes de elegir. No hay que buscar la respuesta más ingeniosa.",
+    "materials": [
+      "Un juguete grande",
+      "Dos hojas grandes",
+      "Una caja grande de cartón limpia"
+    ],
+    "toddler": {
+      "action": "Elige un destino y mueve el juguete de una forma cómoda conmigo.",
+      "question": "¿Cómo ayudamos a nuestro juguete a llegar?"
+    },
+    "older": {
+      "action": "Propón dos soluciones, pruébalas y explica cuál sirve mejor para una condición, como mantenerlo de pie.",
+      "question": "¿Elegiríamos lo mismo si el juguete debiera seguir de pie?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Pon el juguete en una hoja e imaginen que visita la otra."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Ofrece dos maneras de moverlo. Comparte cómo comparas opciones ante un problema real."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Prueben viajes sobre el suelo o una superficie baja estable. El pequeño mueve el juguete y el mayor propone y prueba opciones. Cambien una condición imaginaria y vean si cambia su solución favorita."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Cada uno muestra una idea útil. Reconozcan una sugerencia o un turno amable."
+      }
+    ],
+    "personalPrompt": "¿Qué problema cotidiano resolviste de varias maneras? Explica qué te ayudó a elegir.",
+    "careNote": "Usen juguetes grandes y ligeros. Solo viaja el juguete: no levanten niños, trepen a cajas ni creen estructuras para subirse. Retiren las grapas."
+  },
+  {
+    "id": "little-ramp-lab",
+    "title": "Un pequeño laboratorio de rampas",
+    "subtitle": "Observa rodar un juguete y cambia una cosa.",
+    "skill": "science",
+    "symbol": "car.fill",
+    "takeaway": "La pendiente puede cambiar el movimiento de un juguete con ruedas.",
+    "parentPrimer": "La gravedad atrae los objetos hacia la Tierra y puede hacer rodar un juguete cuesta abajo. Ruedas y superficies también influyen: usen el mismo juguete y rampa, variando solo la inclinación suave. No supongan que el más pesado siempre será más rápido.",
+    "materials": [
+      "Un juguete grande con ruedas",
+      "Un cartón ancho y liso",
+      "Un apoyo bajo estable, como un cojín",
+      "Una zona de llegada despejada"
+    ],
+    "toddler": {
+      "action": "Suelta el juguete con ayuda y mira dónde llega. Hablemos de avanzar, parar y bajar.",
+      "question": "¿Dónde se paró nuestro juguete?"
+    },
+    "older": {
+      "action": "Predice qué hará un pequeño cambio de inclinación, suelta el mismo juguete sin empujar y compara.",
+      "question": "¿Qué cambiamos y qué mantuvimos igual?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Haz rodar un juguete en plano y muestra una pendiente muy suave."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Demuestra cómo soltar sin empujar. Comparte algo sobre pendientes, gravedad o ruedas."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Un adulto estabiliza una rampa muy baja y ancha. Túrnense soltando desde el mismo lugar. Ajusten ligeramente el apoyo y comparen. El pequeño mira o recoge el juguete; el mayor describe la prueba."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Cada uno dice o muestra una observación. Los resultados inesperados pueden investigarse otro día."
+      }
+    ],
+    "personalPrompt": "¿Dónde has usado una rampa, ruedas o una pendiente suave? Relaciónalo con lo observado.",
+    "careNote": "Un adulto sujeta la rampa en el suelo. Usen un juguete grande ligero, pendiente muy baja y llegada despejada lejos de caras. Nunca se suban ni deslicen niños por ella."
+  },
+  {
+    "id": "move-freeze-notice",
+    "title": "Muévete, para, observa",
+    "subtitle": "Prueba un pequeño movimiento y escucha tu cuerpo.",
+    "skill": "movement",
+    "symbol": "figure.walk",
+    "takeaway": "Podemos elegir distintas formas de movernos y descansar.",
+    "parentPrimer": "Ofrece opciones cómodas: marchar suavemente, estirarse o tocar las rodillas sentado. Pueden notar calor, el latido o ganas de descansar sin medir ni juzgar. La pausa forma parte del juego.",
+    "materials": [
+      "Un espacio despejado y cómodo",
+      "Una silla para participar sentado"
+    ],
+    "toddler": {
+      "action": "Elige una acción suave, imítala o mira a mi lado. Cualquier movimiento cómodo cuenta.",
+      "question": "¿Nos estiramos o tocamos las rodillas?"
+    },
+    "older": {
+      "action": "Planea una secuencia breve con pausa. Describe cómo te sientes antes y después y adáptala cuando quieras.",
+      "question": "¿Qué haría este movimiento cómodo para ti?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Elige un movimiento gracioso y suave e invita a probar versiones propias."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Comparte un movimiento o calentamiento sencillo que disfrutes. Muestra una opción sentada y una pausa."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Dirijan por turnos secuencias breves de movimiento y quietud, con ojos abiertos y suelo libre. Prueben versiones lentas o pequeñas, descansen y dejen elegir cuándo participar o parar."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Observen cómo se sienten sin comparar cuerpos ni resultados. Elijan un estiramiento cómodo o reposo final."
+      }
+    ],
+    "personalPrompt": "¿Qué te ayuda a disfrutar el ejercicio o mantener un hábito de movimiento? Comparte algo sencillo.",
+    "careNote": "Usen movimientos suaves y cómodos, con opción sentada, y paren cuando alguien quiera. Eviten trepar, forzar estiramientos, aguantar la respiración o girar rápido."
+  },
+  {
+    "id": "a-fair-share-picnic",
+    "title": "Un pícnic con reparto justo",
+    "subtitle": "Un lugar y algo que compartir para cada juguete.",
+    "skill": "numbers",
+    "symbol": "number",
+    "takeaway": "Dar un objeto a cada invitado por turnos ayuda a formar grupos iguales.",
+    "parentPrimer": "Usa dos invitados de juguete y cuatro bloques como comida imaginaria. Reparte uno a cada invitado y repite. Emparejar y contar comprueba la igualdad. Si sobra un bloque, conversen sobre opciones: no todo se divide por igual.",
+    "materials": [
+      "Dos peluches grandes",
+      "Cinco bloques grandes seguros para pequeños",
+      "Dos manteles individuales de papel"
+    ],
+    "toddler": {
+      "action": "Da un bloque a cada juguete con ayuda o señala quién espera su turno.",
+      "question": "¿A quién le toca ahora?"
+    },
+    "older": {
+      "action": "Reparte cuatro bloques por igual, comprueba los grupos y decide qué hacer al añadir el quinto.",
+      "question": "¿Cómo comprobamos que tienen la misma cantidad?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Sienta a dos invitados junto a sus manteles y anuncia un pícnic imaginario."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Da un bloque grande a cada invitado por turno. Alinea los grupos en parejas para compararlos."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Túrnense para servir y recoger cuatro bloques. El pequeño los lleva y el mayor comprueba el reparto. Añade el quinto: pueden guardarlo o inventar otra solución. Cambien tareas."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Dibujen los dos lugares y recuerden cómo comprobaron el reparto."
+      }
+    ],
+    "personalPrompt": "¿Cuándo reparten cosas o se turnan en casa? Cuenta cómo deciden lo justo.",
+    "careNote": "Usen bloques demasiado grandes para tragarlos y expliquen que son comida imaginaria. No prueben ni metan objetos en la boca."
+  },
+  {
+    "id": "how-many-blocks-long",
+    "title": "¿Cuántos bloques mide?",
+    "subtitle": "Una fila de bloques se convierte en herramienta de medir.",
+    "skill": "numbers",
+    "symbol": "ruler",
+    "takeaway": "Comparar longitudes funciona mejor con la misma unidad y sin huecos.",
+    "parentPrimer": "Coloca bloques iguales junto a un libro, unidos y desde el mismo borde. Son unidades repetidas. El libro puede medir algo más de tres bloques, sin ser un número entero. Prueba bloques mayores para mostrar por qué importa la unidad.",
+    "materials": [
+      "Varios bloques grandes iguales",
+      "Dos libros resistentes",
+      "Un bloque mayor seguro para pequeños"
+    ],
+    "toddler": {
+      "action": "Ayuda a alinear bloques junto al libro o elige el siguiente libro.",
+      "question": "¿Ponemos este bloque junto a ese?"
+    },
+    "older": {
+      "action": "Mide ambos libros con los mismos bloques, comprobando el inicio y los huecos.",
+      "question": "¿Con bloques más grandes saldría la misma cantidad?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Pregunta si un libro mide tres bloques o más."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Pon una fila corta junto al libro dejando un hueco. Muéstrales cómo cerrarlo aclara la comparación."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Midan dos libros en una mesa baja. El pequeño entrega bloques y el mayor los alinea y cuenta. Comparen longitudes y, con ayuda adulta, repitan la medida usando el bloque mayor como otra unidad."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Dibujen un libro y su fila de bloques, incluyendo el espacio ocupado solo en parte."
+      }
+    ],
+    "personalPrompt": "¿Qué mediste al fabricar, comprar u organizar algo? Cuenta por qué ayudó elegir la unidad adecuada.",
+    "careNote": "Usen bloques grandes sin piezas desmontables y libros ligeros en una superficie baja estable. No apilen alto."
+  },
+  {
+    "id": "shapes-in-a-picture",
+    "title": "Figuras escondidas en un dibujo",
+    "subtitle": "Círculos, triángulos y rectángulos forman una escena.",
+    "skill": "numbers",
+    "symbol": "square.on.circle",
+    "takeaway": "Reconocemos figuras planas por sus rasgos aunque las giremos.",
+    "parentPrimer": "Con figuras grandes de papel, habla de lados rectos, esquinas y bordes curvos. Un triángulo girado sigue siendo triángulo. Un tejado puede parecer triangular, pero una casa real tiene volumen; aquí exploramos figuras planas.",
+    "materials": [
+      "Círculos, triángulos, cuadrados y rectángulos grandes de papel preparados por un adulto",
+      "Una hoja grande",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Elige y coloca una figura grande o recorre su borde con el dedo junto a mí.",
+      "question": "¿Qué figura quieres para nuestro dibujo?"
+    },
+    "older": {
+      "action": "Crea un dibujo con figuras, describe sus rasgos y gira una para ver qué permanece igual.",
+      "question": "¿Sigue siendo un triángulo si la punta mira de lado?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Gira un triángulo grande de papel e imagina en qué podría convertirse."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Recorran sus tres lados. Compáralo con un círculo sin exigir memorizar nombres."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Creen una casa, vehículo o criatura. El pequeño coloca piezas y el mayor explica y prueba giros. Añadan detalles y otra escena con las mismas figuras."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Cada uno señala una figura favorita y un rasgo que no cambió al moverla."
+      }
+    ],
+    "personalPrompt": "¿Dónde te ayudan las formas a planear o reconocer algo? Usa un cartel, diseño u objeto familiar.",
+    "careNote": "Un adulto prepara figuras grandes y aparta las tijeras. Eviten recortes pequeños, clips y adornos sueltos; retiren trozos rotos."
+  },
+  {
+    "id": "rhyme-time-in-a-book",
+    "title": "Rimas entre las páginas",
+    "subtitle": "Escucha palabras que terminan parecido.",
+    "skill": "reading",
+    "symbol": "book",
+    "takeaway": "Las palabras que riman comparten sonidos finales aunque empiecen distinto.",
+    "parentPrimer": "Elige un libro ilustrado con rimas claras. Lee naturalmente y repite pares como gato y pato. Es un juego de escucha, no de ortografía. Acepta palabras inventadas que rimen y da ejemplos sin exigirlos al pequeño.",
+    "materials": [
+      "Un libro ilustrado con rimas conocido",
+      "Papel",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Repite un sonido, señala una imagen o elige una página para oír de nuevo.",
+      "question": "¿Repetimos ese sonido gracioso?"
+    },
+    "older": {
+      "action": "Escucha dos palabras que rimen, propone otra e inventa una frase oral conmigo.",
+      "question": "¿Qué rima con la palabra que oímos?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Lee una página de rimas favorita con voz divertida."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Repite despacio dos palabras que riman para escuchar sus finales. Ofrece otra que no rime y comparen."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Lean pocas páginas y paren solo donde disfruten participar. El pequeño repite un sonido y el mayor propone una rima. Dibujen una pareja disparatada e inventen juntos una frase."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Lean de nuevo la página favorita y recuerden dos palabras que disfrutaron."
+      }
+    ],
+    "personalPrompt": "¿Qué rima o poema recuerdas de tu infancia? Comparte de memoria un fragmento favorito.",
+    "careNote": "Usen un libro resistente apropiado y crayones gruesos. Eviten convertirlo en una prueba rápida o exigir recitar rimas."
+  },
+  {
+    "id": "read-it-with-feeling",
+    "title": "Lee con emoción",
+    "subtitle": "Prueba voces distintas para una misma frase.",
+    "skill": "reading",
+    "symbol": "text.bubble",
+    "takeaway": "La voz ayuda a entender las palabras y emociones de un personaje.",
+    "parentPrimer": "Elige una frase breve de un libro conocido. Léela con dos voces suaves y hablen de cuál encaja. Imágenes, palabras y puntuación dan pistas, pero no siempre revelan exactamente la emoción. El adulto puede leerlo todo.",
+    "materials": [
+      "Un libro ilustrado conocido con diálogos",
+      "Un peluche grande"
+    ],
+    "toddler": {
+      "action": "Dale un sonido al juguete, imita una expresión o señala un personaje.",
+      "question": "¿Qué voz usará nuestro juguete?"
+    },
+    "older": {
+      "action": "Elige una voz y explica qué palabra o detalle de la imagen te ayudó.",
+      "question": "¿Qué pista hace que esa voz encaje aquí?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Haz que el juguete salude con dos voces suaves distintas."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Lee una frase y muestra el dibujo. Prueba una voz curiosa y otra soñolienta; hablen de los cambios."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Lean una escena corta. El pequeño pone sonido al juguete y el mayor dirige tu voz o lee si quiere. Observen un signo de interrogación o exclamación y prueben otra versión."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Elijan una lectura favorita de una frase y qué les ayudó a imaginar el personaje."
+      }
+    ],
+    "personalPrompt": "¿Quién te leía cuentos y qué recuerdas de su voz? Prueba un gesto narrativo acogedor propio.",
+    "careNote": "Usen volumen cómodo, sin sobresaltos, y permitan escuchar en silencio. El peluche no debe tener piezas sueltas."
+  },
+  {
+    "id": "a-book-for-our-question",
+    "title": "Un libro para nuestra pregunta",
+    "subtitle": "Busquen información sobre algo que les intrigue.",
+    "skill": "reading",
+    "symbol": "book.closed",
+    "takeaway": "Podemos elegir un libro y usar sus partes para buscar información.",
+    "parentPrimer": "Ofrece dos libros apropiados, uno informativo sencillo. Elige una pregunta que pueda responder. Portada, índice, títulos o imágenes rotuladas orientan la búsqueda. Si no está la respuesta, dilo: ningún libro responde todo.",
+    "materials": [
+      "Dos libros apropiados, uno informativo sencillo",
+      "Papel",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Elige una imagen, señala algo conocido o pasa una página resistente con ayuda.",
+      "question": "¿Qué imagen miramos?"
+    },
+    "older": {
+      "action": "Haz una pregunta, elige el libro más prometedor y busca una página o pie de foto relevante.",
+      "question": "¿Qué parte del libro nos ayudará a descubrirlo?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Prepara los libros y pregunta sobre un tema de la portada."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Piensa en voz alta al elegir un libro. Muestra una herramienta útil, como índice o título."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño elige una imagen interesante y el mayor pregunta sobre ella. Lee el texto pertinente y compárenlo con el dibujo. Dibujen un hallazgo o guarden la pregunta si no hay respuesta."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Nombren la pista para encontrar la página y elijan una pregunta para seguir explorando."
+      }
+    ],
+    "personalPrompt": "¿Cuándo buscaste algo en un libro o manual? Cuenta cómo encontraste la parte necesaria.",
+    "careNote": "Usen libros infantiles conocidos sin hojas sueltas. Mantengan una búsqueda relajada; mirar imágenes también cuenta."
+  },
+  {
+    "id": "follow-my-mirror",
+    "title": "Sigue mi espejo",
+    "subtitle": "Dirige un movimiento suave y sigue a otra persona.",
+    "skill": "movement",
+    "symbol": "figure.stand",
+    "takeaway": "Observar y ajustarnos ayuda a coordinar movimientos con otra persona.",
+    "parentPrimer": "Frente a frente, imiten movimientos lentos cómodos, como abrir manos o levantar un brazo. Se trata de observar y responder, no de igualar perfectamente. Pueden sentarse, hacer versiones menores o mirar.",
+    "materials": [
+      "Un espacio despejado y cómodo",
+      "Sillas estables para participar sentados"
+    ],
+    "toddler": {
+      "action": "Dirige un pequeño gesto de manos o imita el mío a tu ritmo.",
+      "question": "¿Puedo imitar tus manos?"
+    },
+    "older": {
+      "action": "Dirige una secuencia lenta y adapta su velocidad o tamaño para tu compañero.",
+      "question": "¿Qué ayudaría a tu compañero a seguirte?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Abre y cierra despacio las manos e invita al espejo imaginario a seguirte."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra cómo dirigir y seguir. Ir despacio da tiempo a responder."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Cambien de líder en rondas cortas con descansos. El pequeño elige una forma de manos y el mayor enlaza dos movimientos. Prueben sentados e inventen un saludo adaptable."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Repitan el saludo y observen cómo se ayudaron a participar."
+      }
+    ],
+    "personalPrompt": "¿Cuándo observas a alguien para aprender un movimiento o habilidad? Cuenta qué hace fácil seguir una demostración.",
+    "careNote": "Ojos abiertos y movimientos cómodos. Dejen espacio, usen sillas estables y eviten estiramientos forzados, equilibrio sobre muebles o recolocar a alguien tocándolo."
+  },
+  {
+    "id": "roll-it-to-a-friend",
+    "title": "Ruédala hacia un amigo",
+    "subtitle": "Una pelota blanda en un viaje suave por el suelo.",
+    "skill": "movement",
+    "symbol": "circle.fill",
+    "takeaway": "Podemos ajustar cómo rodamos una pelota para que llegue a otra persona.",
+    "parentPrimer": "Siéntense cerca y rueden una pelota grande blanda por el suelo. Exploren dirección y empuje suave sin competir. Acercarse o usar ambas manos facilita participar. Pueden detenerla antes de devolverla.",
+    "materials": [
+      "Una pelota grande blanda apropiada para su edad",
+      "Un suelo nivelado y despejado"
+    ],
+    "toddler": {
+      "action": "Detén o empuja la pelota con ayuda o muestra adónde va después.",
+      "question": "¿A quién se la rodamos?"
+    },
+    "older": {
+      "action": "Ajusta dirección y fuerza y propone una distancia cómoda para todos.",
+      "question": "¿Qué cambiarías para facilitar alcanzar la pelota?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Siéntense cerca y hagan llegar la pelota con un saludo suave."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra cómo rodarla suavemente con ambas manos y esperar a que el compañero esté listo."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Túrnense en un pequeño círculo sentado. El pequeño elige quién la recibe y el mayor ajusta el envío. Cambien un poco la distancia si resulta cómodo y hagan pausas frecuentes."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Terminen con un envío fácil compartido y nombren un ajuste que ayudó a recibirla."
+      }
+    ],
+    "personalPrompt": "¿Qué juego te enseñó a cooperar o adaptarte a otro? Comparte un ejemplo mientras juegan.",
+    "careNote": "Usen una pelota grande blanda siempre por el suelo, sin obstáculos ni cerca de escaleras. Elijan posturas sentadas cómodas."
+  },
+  {
+    "id": "a-path-at-our-pace",
+    "title": "Un camino a nuestro ritmo",
+    "subtitle": "Elige una ruta suave con espacio para parar.",
+    "skill": "movement",
+    "symbol": "figure.walk",
+    "takeaway": "Podemos planear una ruta y ajustar ritmo y dirección para movernos cómodamente.",
+    "parentPrimer": "Elige dos puntos visibles en una habitación despejada y caminen despacio entre ellos, con un giro suave y una pausa. Sentados pueden dibujar la ruta en el aire o dirigir. Importa observar el espacio, no terminar rápido.",
+    "materials": [
+      "Un espacio nivelado despejado con dos puntos visibles",
+      "Una silla estable para participar sentado"
+    ],
+    "toddler": {
+      "action": "Camina a mi lado, elige dónde parar o señala la ruta sentado.",
+      "question": "¿Dónde descansamos?"
+    },
+    "older": {
+      "action": "Planea una ruta corta con pausa y giro suave y modifícala para que todos quepan.",
+      "question": "¿Dónde hace falta más espacio para girar?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Imaginen un pequeño viaje de un lado de la habitación al otro."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Camina despacio mirando adelante y detente con espacio alrededor. Muestra cómo seguir la ruta con la mano sentado."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño elige un destino y el mayor describe una ruta libre. Síganla uno por uno o al lado con espacio. Prueben pasos menores u otra parada, descansen y cambien de planificador."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Recorran la ruta favorita con un dedo y recuerden dónde pararon."
+      }
+    ],
+    "personalPrompt": "¿Qué te ayuda a encontrar un ritmo cómodo al caminar o aprender movimientos? Comparte cómo descansas.",
+    "careNote": "Usen suelo plano lejos de escaleras y esquinas. Retiren alfombras sueltas y obstáculos; no pongan hojas como pasos en el suelo. Ojos abiertos y opción sentada."
+  },
+  {
+    "id": "slide-and-compare",
+    "title": "Desliza y compara",
+    "subtitle": "Prueba el mismo deslizamiento suave en dos superficies.",
+    "skill": "science",
+    "symbol": "arrow.right",
+    "takeaway": "Las superficies en contacto con un objeto pueden cambiar cómo se desliza.",
+    "parentPrimer": "La fricción se opone al deslizamiento entre superficies. Compara un bloque grande liso sobre una mesa baja y una toalla plana. Los empujones variarán: sirve para observar y preguntar, no para medir con precisión ni garantizar que una superficie siempre gane.",
+    "materials": [
+      "Un bloque grande liso seguro para pequeños",
+      "Una toalla pequeña",
+      "Una mesa baja estable con espacio para detenerse"
+    ],
+    "toddler": {
+      "action": "Ayuda a empujar suavemente o toca conmigo la mesa y la toalla.",
+      "question": "¿Se sienten diferentes?"
+    },
+    "older": {
+      "action": "Compara varios deslizamientos suaves del mismo bloque y explica por qué pueden variar los empujones.",
+      "question": "¿Qué cambiamos y qué cuesta mantener igual?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Desliza el bloque un tramo corto y escucha su sonido."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Pon una toalla plana en parte de la mesa. Explica que el contacto entre superficies puede resistir el movimiento."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Túrnense para deslizar suavemente el mismo bloque sobre ambas superficies. Un adulto lo mantiene lejos del borde. El pequeño elige superficie y el mayor describe. Repitan y vean si coinciden sus observaciones."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Dibujen ambas superficies y guarden una observación y una pregunta."
+      }
+    ],
+    "personalPrompt": "¿Dónde te interesa que algo deslice fácilmente y dónde importa el agarre? Comparte un ejemplo.",
+    "careNote": "Usen un bloque ligero demasiado grande para tragarse. Empujen suavemente lejos de caras y bordes; un adulto sujeta la toalla y recoge el bloque."
+  },
+  {
+    "id": "a-little-floating-lab",
+    "title": "Un pequeño laboratorio flotante",
+    "subtitle": "Coloca, predice y observa la superficie del agua.",
+    "skill": "science",
+    "symbol": "drop.fill",
+    "takeaway": "Unos objetos flotan y otros se hunden; el tamaño por sí solo no lo indica.",
+    "parentPrimer": "El agua empuja hacia arriba los objetos sumergidos. Flotar depende del peso y del agua desplazada. Observen sin exigir explicar la flotación. Comparen pocos objetos grandes, enteros y lavables: pesado no siempre significa hundirse.",
+    "materials": [
+      "Un cuenco poco profundo con poca agua",
+      "Un vaso grande de plástico y juguetes grandes macizos lavables sin agujeros ni pilas",
+      "Una toalla"
+    ],
+    "toddler": {
+      "action": "Coloca un objeto grande con mi mano junto a la tuya o señala dónde queda.",
+      "question": "¿Está arriba o abajo?"
+    },
+    "older": {
+      "action": "Predice, coloca suavemente los objetos y dibuja el resultado junto a tu predicción.",
+      "question": "¿Algo te sorprendió? ¿Qué podríamos repetir?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Pon el cuenco sobre una toalla al alcance del adulto y elige un objeto."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Haz una predicción, baja el objeto suavemente y describe dónde queda sin juzgar la suposición."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Prueben objetos grandes de uno en uno. El pequeño ayuda a colocarlos y sacarlos y el mayor registra observaciones. Pongan el vaso vacío derecho, déjenlo llenarse de agua y vean qué cambia."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Dibujen algo sorprendente. El adulto vacía el cuenco inmediatamente al terminar."
+      }
+    ],
+    "personalPrompt": "¿Cuándo viste algo flotar en una bañera, charco o estanque? Relaciónalo con lo observado.",
+    "careNote": "Un adulto supervisa sin interrupción al alcance del brazo, incluso con poca agua. Vacíen inmediatamente y sequen derrames. Nada de piezas pequeñas, vidrio, juguetes eléctricos ni objetos para probar con la boca."
+  },
+  {
+    "id": "air-moves-a-sail",
+    "title": "El aire mueve una vela",
+    "subtitle": "Crea una brisa con un cartón.",
+    "skill": "science",
+    "symbol": "wind",
+    "takeaway": "El aire en movimiento puede empujar objetos aunque no lo veamos.",
+    "parentPrimer": "Dobla una hoja grande como tienda baja para hacer una vela. Un adulto abanica suavemente con cartón grande. Su movimiento evidencia el empuje del aire. Cambia una cosa, como la distancia, y acepta resultados desiguales.",
+    "materials": [
+      "Una hoja grande de papel",
+      "Un cartón grande rígido de bordes suaves",
+      "Una mesa baja despejada"
+    ],
+    "toddler": {
+      "action": "Elige dónde colocar el papel doblado y mira o señala al moverse.",
+      "question": "¿Se movió nuestra velita?"
+    },
+    "older": {
+      "action": "Predice qué hará cambiar la distancia del abanico y compara intentos suaves.",
+      "question": "¿Cómo la movemos sin tocarla?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Coloca el papel doblado y pregunta cómo moverlo sin tocarlo con la mano."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Crea una pequeña brisa con el cartón. Explica que el aire empuja el papel."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño recoloca la vela y el mayor propone un cambio. Un adulto abanica suavemente cerca y algo más lejos. Comparen; después prueben otro pliegue manteniendo la posición del abanico."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Dibujen la vela y una flecha para la brisa. Recuerden cómo movieron el papel."
+      }
+    ],
+    "personalPrompt": "¿Cuándo notaste al viento empujar algo, como un abrigo o una cometa? Comparte lo observado.",
+    "careNote": "Un adulto maneja el cartón lejos de caras. Usen hojas grandes sin clips ni palos, bordes suaves y retiren enseguida papel roto."
+  },
+  {
+    "id": "a-page-of-questions",
+    "title": "Una página de preguntas",
+    "subtitle": "Guarda lo que te da curiosidad.",
+    "skill": "journaling",
+    "symbol": "questionmark.circle",
+    "takeaway": "Un diario guarda preguntas además de lo que ya sabemos.",
+    "parentPrimer": "Invita a observar algo en la habitación y preguntarse sobre ello. Registra sus palabras, trazos o dibujos. No hace falta responder enseguida. Dejar espacio para volver muestra que el diario acompaña el pensamiento con el tiempo.",
+    "materials": [
+      "Una hoja grande o un cuaderno",
+      "Crayones gruesos",
+      "Un juguete grande o libro ilustrado conocido"
+    ],
+    "toddler": {
+      "action": "Señala algo interesante, haz una marca o di una palabra que pueda escribir.",
+      "question": "¿Qué te llamó la atención?"
+    },
+    "older": {
+      "action": "Dibuja, dicta o escribe una pregunta y propone cómo explorarla otro día.",
+      "question": "¿Qué pregunta quieres guardar?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Mira un juguete conocido y comparte algo que te intrigue."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Escribe tu pregunta junto a un dibujo y deja espacio para un futuro descubrimiento."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Exploren un juguete o libro y reúnan preguntas. El pequeño señala o dibuja; el mayor dicta o escribe. Investiguen una mirando de cerca y registren si hallaron una pista o siguen preguntándose."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Pongan fecha y elijan compartir una pregunta o dejarla en el papel."
+      }
+    ],
+    "personalPrompt": "¿Qué pregunta sigue dándote curiosidad? Cuenta por qué disfrutas registrar lo que todavía no sabes.",
+    "careNote": "Usen crayones apropiados y papel sin grapas. Dejen elegir qué compartir y no prometan respuestas que no tengan."
+  },
+  {
+    "id": "draw-the-sounds-of-today",
+    "title": "Dibuja los sonidos de hoy",
+    "subtitle": "Guarda un recuerdo con líneas, trazos y escucha.",
+    "skill": "journaling",
+    "symbol": "ear",
+    "takeaway": "Los trazos y palabras ayudan a recordar sonidos de un momento del día.",
+    "parentPrimer": "En un lugar tranquilo conocido, noten sonidos cotidianos. Pueden dibujar puntos para pasos o una línea para un zumbido. No hay símbolos correctos. Si escuchar incomoda o no oyen, dibujen un movimiento visible o imaginen un sonido favorito.",
+    "materials": [
+      "Papel o un cuaderno",
+      "Crayones gruesos",
+      "Un lugar conocido cómodo"
+    ],
+    "toddler": {
+      "action": "Haz una marca por un sonido o movimiento que notes o imita un sonido suave conmigo.",
+      "question": "¿Qué ponemos en nuestra página de sonidos?"
+    },
+    "older": {
+      "action": "Elige dos sonidos, inventa marcas y dicta o escribe dónde y cuándo ocurrieron.",
+      "question": "¿Cómo te ayudará esa marca a recordar el sonido?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Hagan una pausa y noten un sonido corriente, como un paso suave."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Dibuja tu marca y explica por qué te ayuda a recordar."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Escuchen en pausas cortas cómodas y dibujen o dicten. El pequeño elige un crayón y el mayor crea una clave de sonidos. Añadan lugar y fecha, o dibujen movimientos si escuchar incomoda."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Miren la página y permitan compartir una marca o dejarla sin explicar."
+      }
+    ],
+    "personalPrompt": "¿Qué sonido cotidiano te recuerda un lugar o época? Cuenta una historia breve.",
+    "careNote": "Sonidos suaves y previsibles; no creen ruidos fuertes para registrarlos. Ofrezcan alternativas silenciosas o visuales, en un espacio conocido con supervisión adulta."
+  },
+  {
+    "id": "before-and-after-a-little-change",
+    "title": "Antes y después de un pequeño cambio",
+    "subtitle": "Dibuja dos momentos en una misma página.",
+    "skill": "journaling",
+    "symbol": "square.and.pencil",
+    "takeaway": "Dos dibujos con fecha recuerdan qué cambió y qué siguió igual.",
+    "parentPrimer": "Elijan un cambio pequeño, como construir una casa con bloques grandes. Dibujen antes y después. Son registros de lo observado, no una comparación artística. Añade sus palabras sin corregir su versión para hacerla tuya.",
+    "materials": [
+      "Unos bloques grandes seguros para pequeños",
+      "Papel doblado en dos paneles",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Elige un bloque, haz marcas para representarlo y ayuda a crear algo nuevo.",
+      "question": "¿Dónde ponemos esta pieza ahora?"
+    },
+    "older": {
+      "action": "Registra antes y después y describe un cambio y algo que permaneció.",
+      "question": "¿Qué nos ayudarán a recordar estos dibujos?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Pon bloques en el suelo e imaginen en qué se convertirán."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Escribe antes y después en el papel y dibuja la disposición inicial en el primer panel."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño coloca piezas grandes y el mayor ayuda a diseñar una estructura baja. Dibujen el resultado en el segundo panel y añadan palabras dictadas o escritas. Comparen sin juzgar la habilidad artística."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Añadan fecha y título conjunto y guarden la página para volver a mirarla."
+      }
+    ],
+    "personalPrompt": "¿Guardaste notas o imágenes de un proyecto que cambiaba? Comparte un detalle que agradeciste registrar.",
+    "careNote": "Solo estructuras bajas con bloques grandes ligeros. Usen crayones gruesos y nada de grapas, clips ni adornos pequeños."
+  },
+  {
+    "id": "if-the-card-says-so",
+    "title": "Si la tarjeta lo indica",
+    "subtitle": "Elige una acción mirando un dibujo.",
+    "skill": "coding",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "Una instrucción condicional elige qué hacer cuando se cumple una condición.",
+    "parentPrimer": "Acuerden una regla: si aparece el sol, saluda; si no, descansa las manos. Miren una tarjeta a la vez. La imagen es la entrada y la acción sigue la regla. Usen símbolos además de color y acciones cómodas, también mediante un juguete.",
+    "materials": [
+      "Dos tarjetas grandes con sol y nube",
+      "Crayones gruesos",
+      "Un peluche grande"
+    ],
+    "toddler": {
+      "action": "Elige una tarjeta y mira la acción o ayuda a saludar al juguete cuando aparece el sol.",
+      "question": "¿Qué dibujo verá el juguete?"
+    },
+    "older": {
+      "action": "Explica la regla, mira cada tarjeta y predice la acción antes de ejecutarla.",
+      "question": "¿Qué hará nuestra regla si no aparece el sol?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Muestra dos tarjetas al juguete y pregunta cómo sabrá cuándo saludar."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Di en voz alta la regla de si y si no y demuestra despacio ambos casos."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño muestra tarjetas y el mayor comprueba la regla. Cambien papeles y elijan otra acción cómoda. Haz que el juguete responda mal una vez y revisen la tarjeta o respuesta."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Dibujen la regla favorita con dos imágenes y ejecuten un ejemplo de cada caso."
+      }
+    ],
+    "personalPrompt": "¿Qué objeto responde distinto según lo que recibe? Comparte algo sencillo, como un interruptor.",
+    "careNote": "Tarjetas grandes sin clips y juguete sin piezas sueltas. Acciones suaves, sin destellos rápidos ni señales fuertes; mirar también vale."
+  },
+  {
+    "id": "name-a-little-program",
+    "title": "Pon nombre a un pequeño programa",
+    "subtitle": "Una secuencia con nombre se puede reutilizar.",
+    "skill": "coding",
+    "symbol": "rectangle.stack",
+    "takeaway": "Un conjunto de instrucciones con nombre sirve cada vez que necesitamos la misma secuencia.",
+    "parentPrimer": "Dibuja dos órdenes, como saludar y tocar rodillas. Nómbralas rutina de saludo y crea una tarjeta aparte con ese nombre. Al mostrarla, ejecuten ambas en orden. Es un procedimiento reutilizable: el nombre representa toda la secuencia, no solo el primer paso.",
+    "materials": [
+      "Tres tarjetas grandes de papel",
+      "Crayones gruesos",
+      "Un espacio cómodo para sentarse"
+    ],
+    "toddler": {
+      "action": "Elige una acción suave para la rutina y participa o mira al aparecer su nombre.",
+      "question": "¿Qué hará nuestra rutina de saludo?"
+    },
+    "older": {
+      "action": "Crea y nombra una rutina de dos pasos y úsala en dos momentos de un día imaginario.",
+      "question": "¿Qué pasos representa esta tarjeta con nombre?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Inventen un saludo breve de dos partes y pruébenlo."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Dibuja las dos órdenes y una tarjeta con nombre. Muestra que esta pide ambos pasos."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño elige una acción y el mayor ordena las instrucciones. Usen la rutina al llegar y despedir un juguete. Cambien una orden y prueben la rutina actualizada en ambos momentos."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Guarden juntas las tres tarjetas y digan qué instrucciones recuerda el nombre."
+      }
+    ],
+    "personalPrompt": "¿Qué rutina o código reutilizas? Explica qué permanece igual cada vez que lo usas.",
+    "careNote": "Elijan acciones suaves sentados, tarjetas grandes y pocos pasos. Eviten movimientos forzados o repeticiones que cansen."
+  },
+  {
+    "id": "a-value-that-can-change",
+    "title": "Un valor que puede cambiar",
+    "subtitle": "Cuenta los pasajeros de un autobús de juguete.",
+    "skill": "coding",
+    "symbol": "number.square",
+    "takeaway": "Un valor con nombre puede actualizarse mientras su nombre sigue igual.",
+    "parentPrimer": "Dibuja un autobús y un recuadro llamado pasajeros. Pon hasta tres figuras y actualiza el número al subir o bajar. Es una analogía concreta de variable: la etiqueta pasajeros permanece y el valor cambia. No hace falta memorizar notación.",
+    "materials": [
+      "Una hoja grande con autobús y recuadro etiquetado pasajeros",
+      "Tres figuras grandes aptas para pequeños",
+      "Crayones gruesos",
+      "Tarjetas grandes con números de cero a tres"
+    ],
+    "toddler": {
+      "action": "Mueve un pasajero con ayuda o elige quién sube al autobús imaginario.",
+      "question": "¿Quién sube?"
+    },
+    "older": {
+      "action": "Actualiza la tarjeta al subir o bajar pasajeros y compárala con las figuras.",
+      "question": "¿Qué siguió igual al cambiar el número?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Dibuja el autobús y empieza sin pasajeros."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra pasajeros y la tarjeta cero. Añade una figura y cambia a uno."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño mueve pasajeros y el mayor actualiza el número, de cero a tres. Comparen tarjeta y figuras. Deja una tarjeta antigua a propósito y corrijan juntos la diferencia."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Muestren el total final y expliquen cómo la etiqueta les dijo qué significaba el número."
+      }
+    ],
+    "personalPrompt": "¿Dónde guardas un número que cambia, como tareas pendientes? Explica por qué importa la etiqueta.",
+    "careNote": "Usen figuras grandes seguras y tarjetas sin clips. El autobús es un dibujo; no usen una caja para meterse o montar."
+  },
+  {
+    "id": "sort-it-another-way",
+    "title": "Ordénalo de otra manera",
+    "subtitle": "Encuentra distintas formas razonables de agrupar.",
+    "skill": "criticalThinking",
+    "symbol": "square.grid.2x2",
+    "takeaway": "Una misma colección puede agruparse de maneras distintas según la regla.",
+    "parentPrimer": "Elige objetos grandes conocidos con rasgos que se solapen, como peluches y libros de colores. Ordena por un rasgo visible y luego otro. Un objeto puede cambiar de grupo según la regla. Explica tus razones y acepta reglas alternativas que puedan mostrar.",
+    "materials": [
+      "Una pequeña colección de juguetes grandes seguros y libros resistentes",
+      "Dos etiquetas grandes de papel para grupos",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Elige entre dos objetos o coloca uno junto a otro que se sienta parecido.",
+      "question": "¿Cuál podría ir con este?"
+    },
+    "older": {
+      "action": "Elige una regla, explica dónde pones un objeto y reagrupa según otro rasgo.",
+      "question": "¿Cambiaría de lugar este objeto con otra regla?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Pon un peluche junto a un libro y nota una diferencia."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Agrupa por si son blandos y explica la regla en voz alta."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño elige objetos y el mayor etiqueta dos grupos con dibujos. Prueben otra regla, como con ruedas o sin ellas. Conversen sobre casos difíciles sin forzarlos a encajar e inventen una regla juntos."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Elijan un objeto que cambió de grupo y recuerden por qué."
+      }
+    ],
+    "personalPrompt": "¿Cuándo organizas las mismas cosas de distintas maneras? Usa libros, herramientas o archivos.",
+    "careNote": "Objetos grandes, enteros y conocidos, sin pilas accesibles ni partes desmontables. Una colección pequeña en superficie baja estable."
+  },
+  {
+    "id": "which-question-helps",
+    "title": "¿Qué pregunta ayuda?",
+    "subtitle": "Elige una pregunta que distinga dos posibilidades.",
+    "skill": "criticalThinking",
+    "symbol": "questionmark.bubble",
+    "takeaway": "Una pregunta útil ayuda a distinguir posibles explicaciones.",
+    "parentPrimer": "Pon tres juguetes grandes visibles y elige mentalmente uno. Hagan preguntas de sí o no sobre rasgos observables. «¿Tiene ruedas?» puede reducir opciones; un rasgo común a todos quizá no. Mantén la respuesta y permite señalar o adivinar directamente.",
+    "materials": [
+      "Tres juguetes grandes conocidos con rasgos visibles distintos"
+    ],
+    "toddler": {
+      "action": "Señala un posible juguete o muestra un rasgo que nombremos juntos.",
+      "question": "¿Qué juguete tiene ruedas?"
+    },
+    "older": {
+      "action": "Haz una pregunta, descarta opciones incompatibles y explica cuál ayudó.",
+      "question": "¿Esa pregunta distingue estos dos juguetes?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Alinea tres juguetes y di que estás pensando en uno."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Muestra una pregunta sobre un rasgo visible y cómo su respuesta cambia las opciones."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño señala candidatos y el mayor pregunta. Comenten qué juguetes siguen encajando tras cada respuesta. Revelen el elegido cuando quieran; cambien quién elige y prueben otra pregunta."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Recuerden una pregunta útil y otra que dejó varias opciones."
+      }
+    ],
+    "personalPrompt": "¿Cuándo te ayudó una pregunta más concreta a entender un problema? Comparte un ejemplo.",
+    "careNote": "Juguetes grandes seguros y siempre visibles. Nada de vendas ni esconder objetos en bocas, ropa o lugares a los que haya que trepar."
+  },
+  {
+    "id": "a-plan-for-a-toy-visitor",
+    "title": "Un plan para una visita de juguete",
+    "subtitle": "Elige y descubre qué cambia con un detalle nuevo.",
+    "skill": "criticalThinking",
+    "symbol": "lightbulb",
+    "takeaway": "Un requisito nuevo puede cambiar qué opción cumple mejor una meta.",
+    "parentPrimer": "Un visitante de juguete busca descanso. Compara un cojín ancho y una toalla pequeña doblada según una meta, como espacio para dos. Añade un detalle imaginario y reconsidera. «Me gusta el azul» y «caben los dos» son razones distintas: preferencia y observación.",
+    "materials": [
+      "Dos peluches grandes",
+      "Un cojín",
+      "Una toalla pequeña doblada"
+    ],
+    "toddler": {
+      "action": "Elige dónde descansa un juguete y ayuda a ver si cabe otro al lado.",
+      "question": "¿Dónde puede descansar nuestra visita?"
+    },
+    "older": {
+      "action": "Compara dos opciones según la meta y revisa el plan cuando llegue otro visitante.",
+      "question": "¿Sigue sirviendo la primera opción con este detalle nuevo?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Presenta una visita imaginaria que busca dónde descansar."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Compara cojín y toalla. Nombra una preferencia y una razón observable para elegir cada uno."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño acomoda al juguete y el mayor explica su elección. Añade un segundo visitante y revisen. Prueben otra necesidad, como estar juntos al lado, y conversen si cambia su elección."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Agradezcan una idea útil y nombren el detalle más importante para el plan final."
+      }
+    ],
+    "personalPrompt": "¿Cuándo cambiar de plan te ayudó a atender necesidades ajenas? Comparte un ejemplo cotidiano.",
+    "careNote": "Cojines y toallas son camas para juguetes en el suelo. Mantengan caras despejadas; no envuelvan a nadie ni apilen cojines alto."
+  },
+  {
+    "id": "a-roof-for-a-toy",
+    "title": "Un techo para un juguete",
+    "subtitle": "Diseña un pequeño refugio con espacio debajo.",
+    "skill": "making",
+    "symbol": "house",
+    "takeaway": "Podemos comprobar si un diseño cumple su función y mejorarlo.",
+    "parentPrimer": "La meta del juguete es un techo que se sostenga y deje espacio debajo. Usa apoyos bajos de bloques grandes y cartón. Comprueba colocando suavemente el juguete, sin añadir pesos. Si cae, informa sobre el diseño.",
+    "materials": [
+      "Un juguete grande ligero",
+      "Bloques grandes seguros para pequeños",
+      "Una hoja grande de cartón de bordes suaves"
+    ],
+    "toddler": {
+      "action": "Elige el juguete y ayuda a colocar un bloque de apoyo conmigo.",
+      "question": "¿Cabe el juguete debajo?"
+    },
+    "older": {
+      "action": "Planea los apoyos, comprueba el espacio y cambia una parte después de probar.",
+      "question": "¿Cómo estabilizar el techo sin tapar la entrada?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Un juguete necesita refugio. Pregunta qué debe hacer el techo."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Crea un techo muy bajo con dos apoyos y comprueba si cabe el juguete."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño mete y saca el juguete y el mayor ajusta apoyos. Prueben distancias mayores y menores manteniendo la estructura baja. Comparen con las mismas metas: sostenerse y dejar espacio."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Dibujen el diseño útil y nombren una mejora."
+      }
+    ],
+    "personalPrompt": "¿Cuándo creaste o reparaste algo para una necesidad concreta? Cuenta qué comprobaste antes de darlo por terminado.",
+    "careNote": "Construyan en el suelo con piezas grandes ligeras y techo bajo. Solo para un juguete: no trepar ni subirse; sin grapas ni bordes afilados."
+  },
+  {
+    "id": "fold-a-standing-picture",
+    "title": "Dobla un dibujo que se sostenga",
+    "subtitle": "Ayuda a un personaje de papel a ponerse de pie.",
+    "skill": "making",
+    "symbol": "rectangle.portrait",
+    "takeaway": "Los pliegues y una base ancha ayudan a sostener un modelo ligero de papel.",
+    "parentPrimer": "Una hoja plana suele necesitar apoyo para mantenerse vertical. Prueba doblar una base o formar una tienda y compara sobre una superficie plana. Hay varios diseños útiles. La meta es sostener el dibujo un momento sin mano.",
+    "materials": [
+      "Varias hojas grandes de papel o cartulina fina",
+      "Crayones gruesos",
+      "Una mesa baja estable"
+    ],
+    "toddler": {
+      "action": "Decora una hoja, presiona un pliegue iniciado por un adulto o elige dónde colocarla.",
+      "question": "¿Ponemos aquí nuestro dibujo?"
+    },
+    "older": {
+      "action": "Prueba dos pliegues, compara las bases y modifica uno para estabilizar el dibujo.",
+      "question": "¿Qué parte toca la mesa y sostiene el dibujo?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Dibuja una cara y pregunta cómo podría ponerse de pie para saludar."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Prueba la hoja plana y luego un pliegue ancho abajo. Observen qué toca ahora la mesa."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño decora y el mayor prueba, con ayuda, una base doblada y una forma de tienda. Coloquen en mesa plana, ajusten si se tambalean y monten una galería con nombres."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Elijan un dibujo favorito y recuerden el pliegue que lo sostuvo."
+      }
+    ],
+    "personalPrompt": "¿Dónde usaste un pliegue, refuerzo o apoyo para resolver algo? Muéstralo con papel.",
+    "careNote": "Hojas grandes de bordes suaves. Un adulto inicia pliegues firmes; eviten dobleces duros cerca de caras y retiren recortes. No hacen falta tijeras, grapas ni clips."
+  },
+  {
+    "id": "a-sign-for-our-space",
+    "title": "Un cartel para nuestro espacio",
+    "subtitle": "Un mensaje útil con un dibujo y pocas palabras.",
+    "skill": "making",
+    "symbol": "pencil",
+    "takeaway": "Podemos diseñar un cartel pensando en quien necesita entenderlo.",
+    "parentPrimer": "Elige un propósito pequeño real, como indicar dónde van los libros. Dibuja algo claro y añade una etiqueta breve. Pregunta qué entiende alguien que no lo diseñó y mejóralo. Debe entenderse incluso sin leer.",
+    "materials": [
+      "Una hoja grande o cartulina",
+      "Crayones gruesos",
+      "Un estante o mesa baja para apoyar el cartel"
+    ],
+    "toddler": {
+      "action": "Elige un dibujo o color y señala el lugar al que corresponde el cartel.",
+      "question": "¿Qué dibujo ayudaría a encontrar los libros?"
+    },
+    "older": {
+      "action": "Planea imagen y texto breve, pruébalos con alguien de la familia y revisa un detalle.",
+      "question": "¿Entendería alguien el mensaje sin leer?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Busquen un lugar conocido que necesite un cartel amable."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Dibuja dos opciones y conversen sobre cuál expresa mejor el mensaje."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño elige o dibuja un rasgo y el mayor añade texto con ayuda. Pregunten a otro familiar qué entiende sin adelantar la respuesta. Cambien un detalle confuso y apoyen el cartel abajo."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Usen el cartel y recuerden una elección que facilitó entenderlo."
+      }
+    ],
+    "personalPrompt": "¿Qué cartel, etiqueta o diagrama te ayudó? Cuenta qué lo hacía claro.",
+    "careNote": "Crayones gruesos y cartulina grande sin clips ni chinchetas. Apóyenlo seguro en una superficie baja, sin tapar señales de seguridad, controles, puertas ni zonas para trepar."
+  },
+  {
+    "id": "one-small-patch-of-nature",
+    "title": "Un rinconcito de naturaleza",
+    "subtitle": "Mira de cerca un lugar que sueles pasar de largo.",
+    "skill": "nature",
+    "symbol": "leaf",
+    "takeaway": "Observar despacio un espacio pequeño revela detalles antes inadvertidos.",
+    "parentPrimer": "Elige un rincón visible desde camino o ventana, como la base de un árbol. Mira sin recoger ni alterar nada. Nota formas, colores y movimiento sin identificar todas las especies. Un dibujo registra lo observado y deja lo desconocido como preguntas.",
+    "materials": [
+      "Una vista segura de un pequeño rincón al aire libre",
+      "Papel",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Señala color, forma o movimiento y haz una marca a mi lado.",
+      "question": "¿Qué puedes mostrarme en nuestro rincón?"
+    },
+    "older": {
+      "action": "Vuelve a mirar para encontrar un detalle nuevo y añádelo al dibujo con una pregunta.",
+      "question": "¿Qué notaste al ir más despacio?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Elijan un pequeño rincón para explorar con la mirada desde un sitio seguro."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Nombra un detalle visible y muestra que puedes no estar seguro de otro."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Observen en ratos breves y dibujen. El pequeño señala o elige color y el mayor registra formas y movimientos. Miren otra vez y añadan un nuevo detalle sin recoger nada."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Pongan fecha al dibujo y elijan algo para buscar en otra visita."
+      }
+    ],
+    "personalPrompt": "¿Qué lugar cotidiano al aire libre conoces bien? Cuenta un detalle que disfrutas notar.",
+    "careNote": "Un adulto elige y supervisa un sitio lejos de carreteras, agua, plantas desconocidas y excrementos. Permanezcan en caminos, no molesten animales y aseguren las ventanas."
+  },
+  {
+    "id": "what-the-wind-moves",
+    "title": "Lo que mueve el viento",
+    "subtitle": "Busca pistas de brisa sin perseguirla.",
+    "skill": "nature",
+    "symbol": "wind",
+    "takeaway": "Hojas y ramas que se mueven dan pistas del viento.",
+    "parentPrimer": "Observa un árbol o arbusto desde un lugar seguro resguardado o una ventana. Busca movimiento, no una medición exacta. Que nada se mueva también es una observación. Compara momentos y separa lo visible de suposiciones sobre cómo se siente el aire fuera.",
+    "materials": [
+      "Una vista segura de un árbol o arbusto",
+      "Papel",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Señala hojas que se mueven o imita un balanceo suave con la mano.",
+      "question": "¿Ves algo moverse?"
+    },
+    "older": {
+      "action": "Dibuja flechas o marcas de movimiento y compara dos observaciones cortas de la misma vista.",
+      "question": "¿Qué pista indica que hay brisa?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Miren juntos una rama y esperen un momento para ver si se mueve."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Describe solo lo visible y explica por qué las hojas móviles pueden indicar viento."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Observen en pausas cómodas. El pequeño señala o mueve la mano; el mayor dibuja el movimiento. Vuelvan a observar después y registren tanto calma como movimiento."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Guarden una observación del viento y una pregunta sobre la vista."
+      }
+    ],
+    "personalPrompt": "¿Cuándo el viento cambió tus planes o llamó tu atención? Comparte un recuerdo cotidiano.",
+    "careNote": "Miren desde una ventana segura o lugar resguardado con tiempo suave. Eviten tormentas, ramas dañadas, carreteras y trepar; no aten cuerdas ni cintas a niños."
+  },
+  {
+    "id": "colours-through-the-window",
+    "title": "Colores por la ventana",
+    "subtitle": "Crea una paleta de una vista conocida.",
+    "skill": "nature",
+    "symbol": "paintpalette",
+    "takeaway": "Un lugar conocido al aire libre tiene muchos colores y cambia con el tiempo.",
+    "parentPrimer": "Elige una vista y relaciona colores visibles con crayones. Describe dónde aparecen sin suponer la estación. Una hoja puede tener varios colores y la luz cambia su aspecto. Pon fecha para comparar otro día.",
+    "materials": [
+      "Una vista segura desde ventana asegurada o camino",
+      "Papel",
+      "Crayones gruesos de varios colores"
+    ],
+    "toddler": {
+      "action": "Elige un crayón para algo que notes y pinta una mancha de color.",
+      "question": "¿Qué color quieres usar para eso?"
+    },
+    "older": {
+      "action": "Crea una pequeña clave de colores con etiquetas o dibujos de dónde aparecía cada uno.",
+      "question": "¿Encuentras dos colores en la misma planta?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Elige un color e invita a buscarlo en la vista."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Pinta una mancha y dibuja de dónde viene ese color."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño elige colores y el mayor hace una clave. Busquen varios colores en un objeto y parecidos en distintos sitios. Dibujen juntos sin exigir coincidencia exacta."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Pongan fecha y elijan un lugar para comparar otro día."
+      }
+    ],
+    "personalPrompt": "¿Qué colores te recuerdan un lugar favorito o época del año? Comparte sin esperar que coincida con la vista actual.",
+    "careNote": "Aseguren las ventanas y mantengan a los niños fuera de los alféizares. Fuera, sigan un camino seguro con un adulto; no toquen ni prueben plantas desconocidas."
+  },
+  {
+    "id": "a-place-for-everyone",
+    "title": "Un sitio para todos",
+    "subtitle": "Planea una mesa cómoda para cada persona.",
+    "skill": "cooking",
+    "symbol": "fork.knife",
+    "takeaway": "Preparar una comida compartida incluye pensar en lo que cada persona necesita.",
+    "parentPrimer": "Con vasos, platos y cucharas vacíos ligeros, preparen una mesa sencilla. Comprueben cuántos sitios hacen falta y si todo queda al alcance. Hay varias disposiciones válidas. Practican preparar y cuidar sin comida caliente ni utensilios afilados.",
+    "materials": [
+      "Platos ligeros irrompibles y vasos vacíos",
+      "Cucharas grandes",
+      "Servilletas de tela",
+      "Una mesa baja estable"
+    ],
+    "toddler": {
+      "action": "Lleva un objeto ligero conmigo y elige dónde va una servilleta.",
+      "question": "¿Quién necesita un vaso aquí?"
+    },
+    "older": {
+      "action": "Planea un sitio por persona, comprueba los objetos y ajusta lo difícil de alcanzar.",
+      "question": "¿Cómo sabemos que todos tienen lo necesario?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Imaginen una comida familiar y cuenten quién vendrá."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Prepara un sitio y explica por qué vaso y cuchara deben ser accesibles."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño lleva servilletas y el mayor revisa cada sitio. Prueben cómodamente sentados o de pie, cambien objetos incómodos y recojan juntos. Añadan un invitado imaginario si quieren."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Elijan una tarea útil para recordar en otra comida."
+      }
+    ],
+    "personalPrompt": "¿Qué preparación facilita las comidas en casa? Comparte una rutina en que puedan ayudar.",
+    "careNote": "Vajilla vacía irrompible y cucharas grandes en una superficie baja estable. Sin cuchillos, comida caliente, vidrio ni manteles colgantes."
+  },
+  {
+    "id": "spread-smooth-and-swirl",
+    "title": "Extiende, alisa y dibuja espirales",
+    "subtitle": "Practica una pequeña habilidad con una merienda conocida.",
+    "skill": "cooking",
+    "symbol": "fork.knife",
+    "takeaway": "Un movimiento suave permite extender un ingrediente blando.",
+    "parentPrimer": "Elige una base blanda y una crema conocidas que ya prepares con seguridad para ambos. Muestra poca cantidad y un movimiento lento con el dorso de la cuchara. Prueben trazos amplios y espirales. Importa participar, no la limpieza ni comer una cantidad.",
+    "materials": [
+      "Una base blanda conocida preparada adecuadamente por un adulto",
+      "Una crema suave conocida apta para ambos niños",
+      "Cucharas grandes",
+      "Platos irrompibles",
+      "Un paño para limpiar"
+    ],
+    "toddler": {
+      "action": "Guía la cuchara con ayuda, elige dónde empezar o mira y describe el movimiento.",
+      "question": "¿Hacemos una espiral aquí?"
+    },
+    "older": {
+      "action": "Prueba dos movimientos suaves y decide cuál cubre mejor.",
+      "question": "¿Qué cambia con menos crema o un toque más suave?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Lávense las manos y observen el ingrediente blando en la cuchara."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Extiende despacio una pequeña cantidad con el dorso de la cuchara. Mantén separadas las porciones."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño guía contigo una cuchara y el mayor prueba trazos amplios y espirales. Comparen, preparen una merienda si quieren y limpien juntos. Incluyan pausas y observar."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Recuerden un movimiento útil y agradezcan una tarea de preparación o limpieza."
+      }
+    ],
+    "personalPrompt": "¿Quién te enseñó una técnica de cocina útil? Comparte un consejo sencillo.",
+    "careNote": "El adulto elige alimentos conocidos aptos para las alergias y necesidades alimentarias de cada niño y prepara todas las porciones. Sin cuchillos ni ingredientes calientes. Supervisen siempre, sentados para comer y sin exigir probar."
+  },
+  {
+    "id": "a-recipe-in-pictures",
+    "title": "Guarda una receta en dibujos",
+    "subtitle": "Una merienda fría conocida se vuelve guía para otro día.",
+    "skill": "cooking",
+    "symbol": "list.bullet.rectangle",
+    "takeaway": "Una receta registra ingredientes y orden para repetir una preparación.",
+    "parentPrimer": "Elige una merienda fría sencilla que ya prepares con seguridad, como yogur natural con un acompañamiento conocido adecuado. Dibuja ingredientes y dos o tres pasos antes. Tras probar la guía, añade un detalle faltante. Documentan su rutina, no una receta alimentaria nueva.",
+    "materials": [
+      "Ingredientes conocidos elegidos por el adulto para una merienda fría sencilla",
+      "Cuencos irrompibles y cucharas grandes",
+      "Papel",
+      "Crayones gruesos",
+      "Un paño para limpiar"
+    ],
+    "toddler": {
+      "action": "Señala un ingrediente dibujado, ayuda con la cuchara o marca un paso terminado.",
+      "question": "¿Qué dibujo muestra lo que sigue?"
+    },
+    "older": {
+      "action": "Dibuja ingredientes y pasos, sigue la guía conmigo y añade un detalle útil para otra vez.",
+      "question": "¿Qué necesita saber alguien que aún no muestra nuestro dibujo?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Elijan una merienda fría conocida y lávense las manos antes de tocar ingredientes."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Dibuja ingredientes y primer paso; explica cómo ayudan a recordar."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño señala dibujos y el mayor añade los demás pasos. El adulto prepara los ingredientes y ayuda a servir o mezclar. Sigan la guía, noten un detalle ausente y añádanlo antes de limpiar juntos."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Pongan un título familiar y guarden la guía para otro día. Comer es opcional."
+      }
+    ],
+    "personalPrompt": "¿Qué merienda o receta familiar sabes de memoria? Cuenta cómo la aprendiste y qué anotarías para otra persona.",
+    "careNote": "El adulto revisa alergias y necesidades individuales, prepara porciones adecuadas y supervisa siempre. Sin productos animales crudos, calor, herramientas afiladas ni acompañamientos pequeños duros. Coman sentados y sin presión para probar."
+  },
+  {
+    "id": "fast-slow-same-pattern",
+    "title": "Rápido, lento, mismo patrón",
+    "subtitle": "Cambia la velocidad de unos toques suaves.",
+    "skill": "music",
+    "symbol": "metronome",
+    "takeaway": "Podemos hacer el mismo ritmo a distintas velocidades.",
+    "parentPrimer": "Elige un patrón breve: toque, toque, pausa. Mantén el orden y las proporciones de los espacios al cambiar la velocidad. El tempo es la velocidad; el ritmo, la organización de sonidos y silencios. Empieza despacio con toques suaves o gestos visibles.",
+    "materials": [
+      "Sus manos",
+      "Un cojín o sus rodillas para tocar suavemente",
+      "Papel y crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Participa con un toque suave, mira las manos o elige si la siguiente ronda será más lenta.",
+      "question": "¿Hacemos los toques despacio?"
+    },
+    "older": {
+      "action": "Conserva el patrón reconocible al cambiar la velocidad y explica qué siguió igual.",
+      "question": "¿Cambió el patrón o solo la velocidad?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Haz toque-toque-pausa suavemente e invita a participar."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Repite más lento, alargando también los espacios. Distingue el patrón de su velocidad."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño elige una velocidad cómoda y el mayor dirige. Dibujen dos puntos y un espacio como recordatorio. Alternen rondas breves y descansos y prueben gestos sin sonido."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Hagan su versión cómoda favorita y recuerden qué siguió igual."
+      }
+    ],
+    "personalPrompt": "¿Cuándo la velocidad de la música cambia cómo sientes una actividad? Comparte manteniendo los toques suaves.",
+    "careNote": "Toques suaves y cómodos, sin superficies duras ni golpes cerca de oídos. Pueden observar o moverse en silencio. No hace falta ir rápido."
+  },
+  {
+    "id": "the-quiet-conductor",
+    "title": "El director silencioso",
+    "subtitle": "Un gesto inicia sonidos y los deja descansar.",
+    "skill": "music",
+    "symbol": "hand.raised",
+    "takeaway": "Las señales compartidas ayudan a empezar, parar y hacer música juntos.",
+    "parentPrimer": "Acuerden dos señales: manos abiertas para sonido suave y manos en reposo para silencio. Dirigir ayuda a coordinarse; se trata de cooperación, no obediencia. Sonidos suaves y esperar hasta que todos estén listos. Pueden reemplazarlos por gestos silenciosos.",
+    "materials": [
+      "Sus manos y voces",
+      "Un lugar cómodo para sentarse"
+    ],
+    "toddler": {
+      "action": "Elige un sonido suave o indica empezar mientras el adulto ayuda al grupo.",
+      "question": "¿Toca nuestra banda o descansa?"
+    },
+    "older": {
+      "action": "Dirige una secuencia corta de sonidos y silencios con señales claras y atento al grupo.",
+      "question": "¿Cómo aclaras con las manos el próximo cambio?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Hagan un sonido suave juntos y déjenlo descansar."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Acuerden gestos de inicio y descanso. Muestra una ronda brevísima con una pausa generosa."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "Dirijan por turnos. El pequeño da una señal y el mayor planea una secuencia con silencios. Prueben toques, tarareos o abrir manos sin sonido; permitan cambiar o no participar."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Terminen con una pausa tranquila y nombren un gesto que ayudó."
+      }
+    ],
+    "personalPrompt": "¿Cuándo seguiste o diste una señal útil en grupo? Cuenta cómo supieron qué venía después.",
+    "careNote": "Volumen cómodo y sin inicios que asusten. Nada de silbatos, palos ni instrumentos fuertes. Escuchar en silencio es bienvenido."
+  },
+  {
+    "id": "draw-a-little-score",
+    "title": "Dibuja una pequeña partitura",
+    "subtitle": "Instrucciones dibujadas para una música breve.",
+    "skill": "music",
+    "symbol": "music.note.list",
+    "takeaway": "Las marcas recuerdan qué sonidos y silencios hacer.",
+    "parentPrimer": "Inventen marcas: punto para toque suave, línea ondulada para tarareo y casilla vacía para silencio. Acuerden significados y lean tres casillas de izquierda a derecha. Es una partitura gráfica inventada, sin tener que coincidir con la notación musical convencional.",
+    "materials": [
+      "Una hoja grande dividida en tres casillas",
+      "Crayones gruesos",
+      "Sus manos y voces"
+    ],
+    "toddler": {
+      "action": "Elige una marca o un sonido suave para una casilla y el adulto te sigue.",
+      "question": "¿Qué sonido pide este dibujo?"
+    },
+    "older": {
+      "action": "Crea una clave sencilla, compón tres casillas y comprueba si alguien puede interpretar usándola.",
+      "question": "¿Cómo sabrá otra persona qué significa esta marca?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Dibuja un punto y asígnale un toque suave."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Elige otra marca y una casilla silenciosa. Muestra la clave que explica cada una."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño elige una casilla y el mayor organiza la partitura. Señalen al interpretar. Cambien una marca, toquen la revisión y dejen que un nuevo líder siga la clave."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Nombren la pieza y guarden su partitura con la clave al lado."
+      }
+    ],
+    "personalPrompt": "¿Qué te ayuda a seguir o recordar una música? Comparte cómo registras una idea antes de olvidarla.",
+    "careNote": "Crayones gruesos y sonidos suaves, con opción de gestos silenciosos. Papel sin clips; no golpeen objetos duros ni cerca de oídos."
+  },
+  {
+    "id": "the-other-characters-story",
+    "title": "La historia del otro personaje",
+    "subtitle": "Cuenta un mismo suceso desde dos miradas.",
+    "skill": "storytelling",
+    "symbol": "person.2",
+    "takeaway": "Distintos personajes pueden notar partes diferentes del mismo suceso.",
+    "parentPrimer": "Inventa algo pequeño con dos juguetes grandes, como llegar a un pícnic. Cuéntalo desde uno y luego el otro. Mantén el hecho principal y cambia lo que notan o quieren. Son posibilidades imaginadas, no afirmaciones sobre cómo deben sentirse personas reales.",
+    "materials": [
+      "Dos peluches grandes",
+      "Un lugar de pícnic de papel",
+      "Papel y crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Elige un juguete, dale un sonido o muestra adónde va.",
+      "question": "¿Qué nota tu juguete?"
+    },
+    "older": {
+      "action": "Cuenta el suceso como cada juguete y explica qué detalles o deseos cambiaron con la perspectiva.",
+      "question": "¿Qué podría notar este personaje que el otro no vio?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Dos juguetes llegan al mismo pícnic imaginario."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Cuenta una versión breve como el primer juguete y otra como su compañero."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño mueve un personaje y el mayor le da perspectiva a cada uno. Mantengan lugar y suceso, cambiando qué observa cada juguete. Dibujen dos versiones del momento y dicten sus palabras."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Recuerden un detalle compartido y otro descrito de forma distinta."
+      }
+    ],
+    "personalPrompt": "¿Dos personas recordaron detalles distintos de un mismo día? Comparte un ejemplo amable sin juzgar las emociones de nadie.",
+    "careNote": "Peluches grandes sin partes desmontables. Un suceso tranquilizador y libertad de hablar como personaje o solo moverlo."
+  },
+  {
+    "id": "choose-another-ending",
+    "title": "Elige otro final",
+    "subtitle": "Dale a una historia dos caminos posibles.",
+    "skill": "storytelling",
+    "symbol": "arrow.triangle.branch",
+    "takeaway": "Una elección del personaje puede llevar a otro final.",
+    "parentPrimer": "Inventa un problema pequeño, como una tienda cerrada. Ofrece dos opciones coherentes: volver luego o crear una tienda en casa. Exploren sin declarar una correcta y distingan los sucesos de cada versión.",
+    "materials": [
+      "Un juguete grande",
+      "Papel doblado en tres paneles",
+      "Crayones gruesos"
+    ],
+    "toddler": {
+      "action": "Elige un dibujo de lo que sigue o mueve el juguete para representarlo.",
+      "question": "¿Vuelve a casa o espera con un amigo?"
+    },
+    "older": {
+      "action": "Inventa dos elecciones y muestra finales distintos con el mismo comienzo.",
+      "question": "¿Qué cambió en el final por esa elección?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Empieza una historia de un juguete cuya tienda está cerrada."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Dibuja el comienzo común y propone dos pasos siguientes."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño elige qué camino representar primero y el mayor construye el final. Vuelvan al mismo comienzo y prueben la otra elección. Dibujen ambos finales en los paneles restantes y comparen cómo surgen de cada decisión."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Titulen ambas versiones y elijan una para contar sin necesidad de ordenarlas por preferencia."
+      }
+    ],
+    "personalPrompt": "¿Cuándo un cambio pequeño de plan trajo una experiencia inesperada? Comparte un ejemplo familiar que inspire un cuento.",
+    "careNote": "Juguetes grandes y crayones gruesos. El problema imaginario será pequeño y tranquilizador; cambien la historia si alguno se angustia."
+  },
+  {
+    "id": "a-postcard-from-an-imaginary-place",
+    "title": "Una postal desde un lugar imaginario",
+    "subtitle": "Inventa un sitio y envía un mensaje de juego a casa.",
+    "skill": "storytelling",
+    "symbol": "envelope",
+    "takeaway": "Los detalles concretos ayudan a imaginar un lugar nunca visitado.",
+    "parentPrimer": "Inventa un lugar amable, como una ciudad de cojines enormes. Elige detalles de lo que se ve, oye y hace. Dibuja una postal y dicta un mensaje breve. Distingue recuerdos reales de detalles inventados, aceptando ambos como inspiración.",
+    "materials": [
+      "Una hoja grande doblada como postal",
+      "Crayones gruesos",
+      "Un juguete visitante grande"
+    ],
+    "toddler": {
+      "action": "Elige un color o rasgo y mueve el juguete por el paisaje imaginario.",
+      "question": "¿Qué ve aquí nuestra visita?"
+    },
+    "older": {
+      "action": "Inventa un lugar con dos o tres detalles relacionados y dicta o escribe un mensaje sobre un suceso allí.",
+      "question": "¿Qué detalle ayudará a imaginar nuestro lugar?"
+    },
+    "steps": [
+      {
+        "title": "Despierta un poco de curiosidad",
+        "minutes": 3,
+        "instruction": "Un juguete anuncia que visita un lugar que aún no existe."
+      },
+      {
+        "title": "Comparte lo que sabes",
+        "minutes": 5,
+        "instruction": "Inventa un nombre y un detalle concreto y muestra cómo dibujarlos en una postal."
+      },
+      {
+        "title": "Descubran juntos",
+        "minutes": 17,
+        "instruction": "El pequeño añade un rasgo y el mayor lo conecta con un suceso. Guíen al juguete, dibujen la postal y registren un mensaje breve para un destinatario imaginario. Añadan un detalle tras escucharlo."
+      },
+      {
+        "title": "Guarda un pequeño recuerdo",
+        "minutes": 5,
+        "instruction": "Lean o muestren la postal y recuerden qué partes inventaron."
+      }
+    ],
+    "personalPrompt": "¿Qué detalle recuerdas con claridad de un lugar visitado? Úsalo para empezar a inventar otro.",
+    "careNote": "Papel grande y crayones gruesos, sin sellos, pegatinas ni clips que se vuelvan piezas pequeñas. El viaje será cómodo y los niños podrán cambiar cualquier detalle."
+  }
+]

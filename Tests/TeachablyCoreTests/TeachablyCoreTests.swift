@@ -4,7 +4,7 @@ import XCTest
 final class TeachablyCoreTests: XCTestCase {
     func testCatalogHasCompleteHalfHourActivitiesForBothChildren() throws {
         let activities = try ActivityCatalog.load()
-        XCTAssertEqual(activities.count, 31)
+        XCTAssertEqual(activities.count, 67)
         XCTAssertEqual(Set(activities.map(\.id)).count, activities.count)
         XCTAssertEqual(Set(activities.map(\.skill)), Set(Skill.allCases))
         for activity in activities {
@@ -22,27 +22,27 @@ final class TeachablyCoreTests: XCTestCase {
         XCTAssertFalse(profile.hasChosenSkills, "The parent should still be able to review the choices.")
     }
 
-    func testPersonalPackBalancesSevenInterestsAcrossThreeWeeksWithoutRepeats() throws {
+    func testPersonalPackBalancesSevenInterestsAcrossSixWeeksWithoutRepeats() throws {
         let activities = try ActivityCatalog.load()
         let interests = Skill.familyInterests
         let deck = activities.filter { interests.contains($0.skill) }
-        XCTAssertEqual(deck.count, 21)
-        for skill in interests { XCTAssertEqual(deck.filter { $0.skill == skill }.count, 3, skill.rawValue) }
+        XCTAssertEqual(deck.count, 42)
+        for skill in interests { XCTAssertEqual(deck.filter { $0.skill == skill }.count, 6, skill.rawValue) }
 
         var plans: [DailyPlan] = []
         var picks: [Activity] = []
-        for day in 1...42 {
+        for day in 1...84 {
             let key = "family-day-\(day)"
             let pick = try XCTUnwrap(DailyPlanner.suggest(from: activities, skills: interests, history: plans, day: key))
             XCTAssertTrue(interests.contains(pick.skill))
             picks.append(pick)
             plans.append(DailyPlan(day: key, activityID: pick.id, offeredIDs: [pick.id]))
         }
-        for start in stride(from: 0, to: 42, by: 7) {
+        for start in stride(from: 0, to: 84, by: 7) {
             XCTAssertEqual(Set(picks[start..<(start + 7)].map(\.skill)), interests)
         }
-        XCTAssertEqual(Set(picks.prefix(21).map(\.id)).count, 21)
-        XCTAssertEqual(Set(picks.suffix(21).map(\.id)).count, 21)
+        XCTAssertEqual(Set(picks.prefix(42).map(\.id)).count, 42)
+        XCTAssertEqual(Set(picks.suffix(42).map(\.id)).count, 42)
     }
 
     func testExistingProfilesKeepTheirSavedChoicesAfterInterestLabelsChange() throws {

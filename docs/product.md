@@ -6,7 +6,7 @@
 
 Teachably is a parent-facing daily companion. Its starting point is the parent's own skills, interests, stories, and lived experience. The user has two sons aged 2 and 6 and prefers suggestions based mostly on their own knowledge.
 
-The parent has identified seven interests: maths, reading, basic movement exercise, general physics, diary writing, coding, and critical thinking. These form the default toolkit for new profiles and a personal pack of 21 activities, three per interest.
+The parent has identified seven interests: maths, reading, basic movement exercise, general physics, diary writing, coding, and critical thinking. These form the default toolkit for new profiles and a personal pack of 42 activities, six per interest.
 
 ## One activity, two invitations
 
@@ -22,15 +22,17 @@ The 30 minutes cover preparation together, conversation, play, and reflection. T
 4. Follow a shared plan with separate age prompts.
 5. Save a little memory, with an optional favourite marker.
 
-The plan stays consistent when reopening the app that day. A new local calendar day gets a new pick when the app becomes active. Offered ideas are tracked, even if unfinished. The planner builds a deck from the parent's selected interests, rotates through unseen activities within that deck, and gives the least-explored themes a turn first. A new profile choosing one suggestion per day covers all seven personal themes in each of the first three weeks without repeating an activity. Asking for alternatives can change that cadence. Once the finite deck is exhausted, it rotates again. The full library is always available in Discover.
+The plan stays consistent when reopening the app that day. A new local calendar day gets a new pick when the app becomes active. Offered ideas are tracked, even if unfinished. The planner builds a deck from the parent's selected interests, rotates through unseen activities within that deck, and gives the least-explored themes a turn first. A new profile choosing one suggestion per day covers all seven personal themes in each of the first six weeks without repeating an activity. Asking for alternatives can change that cadence. Once the finite deck is exhausted, it rotates again. The full library is always available in Discover.
 
 ## First version boundaries
 
-The library has 31 activities across 12 themes. The personal starter selection covers 21 activities in the parent's seven stated interests. The remaining ten activities cover making, nature, kitchen skills, music, and storytelling. Choosing themes determines the recommendation deck. Personal teaching notes appear in the guide; their text is not analysed by the recommendation engine.
+The library has 67 activities across 12 themes. The personal starter selection covers 42 activities in the parent's seven stated interests. The remaining 25 activities cover making, nature, kitchen skills, music, and storytelling, with five in each category. Choosing themes determines the recommendation deck. Personal teaching notes appear in the guide; their text is not analysed by the recommendation engine.
 
-Coding uses picture instructions, sequences, loops, and debugging with toys or comfortable movements. Diary writing offers marks, drawings, dictation, and optional writing. Reading uses familiar books and everyday print. These are shared playful invitations; the two-year-old is not expected to read, write, or grasp programming abstractions.
+Coding uses picture instructions, sequences, loops, debugging, conditions, reusable routines, and changing values with toys or comfortable movements. Diary writing offers marks, drawings, dictation, and optional writing. Reading uses familiar books and everyday print, including rhymes, expressive reading, and finding information. These are shared playful invitations; the two-year-old is not expected to read, write, or grasp programming abstractions.
 
 The two ages are fixed at 2 and 6 for this family's prototype. Child nicknames are optional. The app runs offline with local persistence. It has no account, photo uploads, cloud service, notifications, or subscriptions.
+
+Wander provides an exploratory route alongside the daily deck. Its starting bubbles are the parent's selected interests. On supported devices, Apple's Foundation Models framework generates narrower topics, explanations, and examples on device, with age-specific invitations. A source menu also offers the curated library. Generated suggestions remain in Wander and do not automatically become scheduled activities. They require the parent's review; model availability and factual reliability are practical limits of this prototype. See [Wander implementation](wander-port.md).
 
 ## What to learn from trying it
 

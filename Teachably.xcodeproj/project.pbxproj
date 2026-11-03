@@ -22,6 +22,7 @@
 		000000000000000000000201 /* WanderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000200 /* WanderStore.swift */; };
 		000000000000000000000203 /* Views/WanderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000202 /* Views/WanderView.swift */; };
 		000000000000000000000205 /* Views/WanderLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000204 /* Views/WanderLibraryView.swift */; };
+		000000000000000000000211 /* FoundationModelWanderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000210 /* FoundationModelWanderProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		000000000000000000000200 /* WanderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanderStore.swift; sourceTree = "<group>"; };
 		000000000000000000000202 /* Views/WanderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/WanderView.swift; sourceTree = "<group>"; };
 		000000000000000000000204 /* Views/WanderLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/WanderLibraryView.swift; sourceTree = "<group>"; };
+		000000000000000000000210 /* FoundationModelWanderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationModelWanderProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000200 /* WanderStore.swift */,
+				000000000000000000000210 /* FoundationModelWanderProvider.swift */,
 				000000000000000000000202 /* Views/WanderView.swift */,
 				000000000000000000000204 /* Views/WanderLibraryView.swift */,
 				00000000000000000000000E /* FamilyStore.swift */,
@@ -175,6 +178,11 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
+				"zh-Hant",
+				ja,
+				es,
+				id,
 				Base,
 			);
 			mainGroup = 000000000000000000000002;
@@ -215,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				000000000000000000000201 /* WanderStore.swift in Sources */,
+				000000000000000000000211 /* FoundationModelWanderProvider.swift in Sources */,
 				000000000000000000000203 /* Views/WanderView.swift in Sources */,
 				000000000000000000000205 /* Views/WanderLibraryView.swift in Sources */,
 				00000000000000000000000F /* FamilyStore.swift in Sources */,
@@ -273,6 +282,7 @@
 				DEVELOPMENT_TEAM = B25LW5K7BX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Teachably;
+				INFOPLIST_FILE = Teachably/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -317,6 +327,7 @@
 				DEVELOPMENT_TEAM = B25LW5K7BX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Teachably;
+				INFOPLIST_FILE = Teachably/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

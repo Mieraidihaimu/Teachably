@@ -8,33 +8,33 @@ A native iPhone app for sharing a little of what you know with your sons, aged 2
 2. Select the **Teachably** scheme and an iPhone simulator.
 3. Press **Run**, review your seven preselected interests, and open your first adventure.
 
-The deployment target is iOS 17. To run on your own iPhone, select your development team under **Signing & Capabilities** and use a unique bundle identifier.
+The deployment target is iOS 17. Wander's optional on-device generation requires iOS 26 or later, an Apple Intelligence-capable device, Apple Intelligence enabled, and the model downloaded. The app checks availability at runtime; the activity library remains usable on other devices. See [Apple's SystemLanguageModel documentation](https://developer.apple.com/documentation/foundationmodels/systemlanguagemodel). To run on your own iPhone, select your development team under **Signing & Capabilities** and use a unique bundle identifier.
 
 ## In this prototype
 
 - **My skills:** maths, reading, basic movement, physics, diary writing, coding, and critical thinking are preselected for new profiles. Five other themes are also available. Existing saved choices are preserved; **Use my seven interests** applies the personal starter selection.
 - **Today:** a persistent daily suggestion, with another-idea control. Picks come from your selected interests; themes take turns and offered activities rotate before repeating.
-- **Wander:** explore your interests as a bubble map or readable list, follow a trail into explanations and examples, and open the matching family activity. Keep pinned snapshots with personal notes, search earlier ideas, and share Markdown or JSON exports. [Port details](docs/wander-port.md).
+- **Wander:** explore a bubble map or readable list. Choose **Apple AI** for fresh on-device branches, explanations, and examples with separate invitations for ages 2 and 6, or **Activity library** for the original curated content. Source labels distinguish them. Keep pinned snapshots with personal notes, search earlier ideas, and share Markdown or JSON exports. [Port details](docs/wander-port.md).
 - **Activity guide:** materials checklist, a refresher for the parent, separate prompts for ages 2 and 6, and four flexible steps totalling 30 minutes.
 - **Your experience:** write a personal teaching note that appears during the session.
 - **Together time:** a pausable timer for each step, manual progression, and the option to finish early.
-- **Discover:** browse, search, and filter all 31 original activities, including 21 matched to your seven interests.
+- **Discover:** browse, search, and filter all 67 original activities, including 42 matched to your seven interests. Every category has at least five activities.
 - **Memories:** keep a note and mark an experience you would like to repeat.
 - **Your family:** optional nicknames for both children.
 
 Family preferences, daily history, teaching notes, and memories are stored locally in UserDefaults. Wander keeps its trails, pinned snapshots, notes, and view preferences under a separate local key. The app makes no network requests. Removing the app removes its local data; Wander pins can be exported, while family-memory export and cloud sync are future work.
 
-This is a working starter with a finite activity library. It matches broad interests rather than interpreting an arbitrary skill or generating new lessons. When the deck for your selected interests is exhausted, earlier activities return. There are no scheduled reminders yet.
+Today and Discover use the finite, curated activity library. When that deck is exhausted, earlier activities return. Wander can generate ideas beyond the library using Apple's Foundation Models framework, with no API key or app server. Generated suggestions need a parent's review and are not added automatically to the daily activity deck. There are no scheduled reminders yet.
 
-Your personal starter pack has three activities for each of your seven interests. With one suggestion per day, a new profile covers every interest once in each of the first three weeks, without repeating an activity. Asking for another idea also counts the previous suggestion as explored and can change that cadence. See [your activity pack](docs/your-activity-pack.md) for examples.
+Your personal starter pack has six activities for each of your seven interests. With one suggestion per day, a new profile covers every interest once in each of the first six weeks, without repeating an activity. Asking for another idea also counts the previous suggestion as explored and can change that cadence. The five other categories each have five activities. See [your activity pack](docs/your-activity-pack.md) for the full list.
 
 ## Structure
 
 ```text
 Teachably/                      SwiftUI iPhone app and local state
 Sources/TeachablyCore/           Models and deterministic daily planner
-  Wander*.swift                 Local exploration, recall, and pinned snapshots
-  Resources/activities.json     Original editable activity library
+  Wander*.swift                 Exploration, generation validation, recall, pins
+  Resources/en.lproj/activities.json     Original editable activity library
 Tests/TeachablyCoreTests/        Planner, content, persistence, and date tests
 TeachablyUITests/               First adventure and saved-memory smoke test
 docs/product.md                 Product direction and next decisions
@@ -46,7 +46,17 @@ The Xcode app references the local `TeachablyCore` Swift package. The package ca
 swift test
 ```
 
-In Xcode, **Product → Test** runs simulator tests covering first-run interest selection, opening an adventure, pausing its timer, saving a memory, and finding it after relaunch. A second flow explores Wander, pins an explanation, saves a personal note, restores it after relaunch, and recalls an unselected topic from a saved map. Tests use their own local storage suites.
+## Languages
+
+Teachably supports English, Simplified Chinese, Traditional Chinese, Japanese, Spanish, and Indonesian. It follows the device's preferred language, including the per-app language selected in iOS Settings. English is the fallback for unsupported languages or missing interface strings.
+
+The shared `L10n` helper in `Sources/TeachablyCore/Localization.swift` loads interface, accessibility, error, and export copy from `Resources/<language>.lproj/Localizable.strings`. Wrap interface copy in `L10n.string` before passing it to SwiftUI, whose implicit lookup uses the app bundle. Use `L10n.format` with `%@` and `%lld` placeholders for dynamic labels; translations can reorder arguments with positional placeholders. `Resources/en.lproj/activities.json` remains the English activity source. Each translated `activities.json` lives in its language's `.lproj` folder and keeps the original IDs, skill values, symbols, and timings. Add a language to `AppLanguage`, the package resources, and `Teachably/Info.plist` together.
+
+Names, notes, memories, and saved Wander snapshots retain the text originally entered or saved. After changing the app language, Wander opens a fresh starting map while keeping earlier trails and pins. New Apple Intelligence content is requested in the app language, and the app checks the installed model's language support before generation; the translated activity library remains available when generation is unsupported.
+
+Localisation tests check all interface keys and format arguments, all 67 activities in every language, saved-data references, multilingual recall commands, and language-specific Wander caches and generation context.
+
+In Xcode, **Product → Test** runs simulator tests covering first-run interest selection, opening an adventure, pausing its timer, saving a memory, and finding it after relaunch. A second flow explores Wander, pins an explanation, saves a personal note, restores it after relaunch, and recalls an unselected topic from a saved map. An additional flow attempts Apple generation when available, verifies restoration on success, and verifies preserved state and a usable library on a model-service failure. It skips when system availability is false. Tests use their own local storage suites.
 
 An unsigned simulator build can be produced with:
 
@@ -56,7 +66,7 @@ xcodebuild -project Teachably.xcodeproj -scheme Teachably \
   -derivedDataPath /tmp/teachably-build CODE_SIGNING_ALLOWED=NO build
 ```
 
-The Debug-only `--demo` launch argument bypasses the initial interest selection with your seven interests selected. Use it only in a disposable simulator: subsequent actions can save those demonstration preferences.
+The Debug-only `--demo` launch argument bypasses initial interest selection with your seven interests and selects the library for deterministic UI tests. Add `--apple-ai` to exercise live generation. Use these only in a disposable simulator: subsequent actions can save demonstration preferences.
 
 ## Design basis
 
