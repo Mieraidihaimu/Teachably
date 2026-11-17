@@ -27,6 +27,8 @@ struct ContentView: View {
                 .tabItem { Label(L10n.string("Wander"), systemImage: "safari") }
             NavigationStack { DiscoverView() }
                 .tabItem { Label(L10n.string("Discover"), systemImage: "square.grid.2x2") }
+            NavigationStack { DrawingsView() }
+                .tabItem { Label(L10n.string("Drawings"), systemImage: "pencil.and.outline") }
             NavigationStack { SkillsView() }
                 .tabItem { Label(L10n.string("My skills"), systemImage: "hand.raised.fingers.spread") }
             NavigationStack { MemoriesView() }

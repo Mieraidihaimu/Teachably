@@ -45,13 +45,73 @@ final class TeachablyUITests: XCTestCase {
 
         // The session returns to the detail view. Navigate to the root tabs.
         app.navigationBars.buttons.element(boundBy: 0).tap()
-        app.tabBars.buttons["Memories"].tap()
+        openMemories(in: app, title: "Memories")
         XCTAssertTrue(app.staticTexts["We made something together."].waitForExistence(timeout: 5))
         attachScreenshot("Memories", app: app)
         app.terminate()
         app.launch()
-        app.tabBars.buttons["Memories"].tap()
+        openMemories(in: app, title: "Memories")
         XCTAssertTrue(app.staticTexts["We made something together."].waitForExistence(timeout: 5))
+    }
+
+    @MainActor
+    func testDrawingsCanFilterSearchPreviewAndRestoreStars() throws {
+        let app = XCUIApplication()
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB", "--demo"]
+        app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.drawings.tests.\(UUID().uuidString)"
+        app.launch()
+        app.tabBars.buttons["Drawings"].tap()
+        let ball = app.buttons["drawing.rubber-ball"]
+        let fish = app.buttons["drawing.fish"]
+        XCTAssertTrue(ball.waitForExistence(timeout: 5))
+        XCTAssertTrue(fish.exists)
+        XCTAssertTrue(app.staticTexts["Level 1"].isHittable)
+        attachScreenshot("Drawings mosaic", app: app)
+        app.buttons["Animals"].tap()
+        XCTAssertTrue(fish.exists)
+        XCTAssertFalse(ball.exists)
+        app.buttons["All drawings"].tap()
+
+        let levels = app.buttons["drawings.level"]
+        levels.tap()
+        app.buttons["Level 5"].tap()
+        XCTAssertTrue(app.buttons["drawing.chameleon"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Level 5"].isHittable)
+        XCTAssertFalse(ball.exists)
+        levels.tap()
+        app.buttons["All levels"].tap()
+
+        let search = app.textFields["drawings.search"]
+        search.tap()
+        search.typeText("toy TRAIN")
+        let train = app.buttons["drawing.train"]
+        XCTAssertTrue(train.waitForExistence(timeout: 5))
+        XCTAssertFalse(ball.exists)
+        let star = app.buttons["drawing.star.train"]
+        star.tap()
+        XCTAssertEqual(star.label, "Unstar drawing: Toy train")
+        train.tap()
+        XCTAssertTrue(app.images["drawings.preview"].waitForExistence(timeout: 5))
+        let previewStar = app.buttons["drawings.preview.star"]
+        XCTAssertEqual(previewStar.label, "Unstar drawing: Toy train")
+        attachScreenshot("Drawing preview", app: app)
+        app.buttons["Done"].tap()
+        app.buttons["Clear search"].tap()
+        app.buttons["drawings.starred"].tap()
+        XCTAssertTrue(train.exists)
+        XCTAssertFalse(ball.exists)
+
+        app.terminate()
+        app.launch()
+        app.tabBars.buttons["Drawings"].tap()
+        app.buttons["drawings.starred"].tap()
+        XCTAssertTrue(train.waitForExistence(timeout: 5))
+        train.tap()
+        XCTAssertTrue(app.images["drawings.preview"].waitForExistence(timeout: 5))
+        previewStar.tap()
+        XCTAssertEqual(previewStar.label, "Star drawing: Toy train")
+        app.buttons["Done"].tap()
+        XCTAssertTrue(app.staticTexts["No starred drawings yet"].waitForExistence(timeout: 5))
     }
 
     @MainActor
@@ -186,9 +246,21 @@ final class TeachablyUITests: XCTestCase {
                 XCTAssertNotEqual(title, englishActivityTitle, language.code)
             }
             attachScreenshot("Today · \(language.code)", app: app)
-            app.tabBars.buttons.element(boundBy: 4).tap()
+            openMemories(in: app, title: language.memories)
             XCTAssertTrue(app.navigationBars[language.memories].waitForExistence(timeout: 5), language.code)
             app.terminate()
+        }
+    }
+
+    @MainActor
+    private func openMemories(in app: XCUIApplication, title: String) {
+        let tabs = app.tabBars.buttons
+        if tabs[title].exists {
+            tabs[title].tap()
+        } else {
+            // The compact tab bar puts the remaining destinations behind its last item.
+            tabs.element(boundBy: tabs.count - 1).tap()
+            app.staticTexts[title].tap()
         }
     }
 

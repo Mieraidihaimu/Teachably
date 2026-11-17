@@ -23,6 +23,8 @@
 		000000000000000000000203 /* Views/WanderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000202 /* Views/WanderView.swift */; };
 		000000000000000000000205 /* Views/WanderLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000204 /* Views/WanderLibraryView.swift */; };
 		000000000000000000000211 /* FoundationModelWanderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000210 /* FoundationModelWanderProvider.swift */; };
+		000000000000000000000213 /* Views/DrawingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000212 /* Views/DrawingsView.swift */; };
+		000000000000000000000215 /* DrawingCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000214 /* DrawingCatalog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		000000000000000000000202 /* Views/WanderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/WanderView.swift; sourceTree = "<group>"; };
 		000000000000000000000204 /* Views/WanderLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/WanderLibraryView.swift; sourceTree = "<group>"; };
 		000000000000000000000210 /* FoundationModelWanderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationModelWanderProvider.swift; sourceTree = "<group>"; };
+		000000000000000000000212 /* Views/DrawingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/DrawingsView.swift; sourceTree = "<group>"; };
+		000000000000000000000214 /* DrawingCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCatalog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				000000000000000000000012 /* Theme.swift */,
 				000000000000000000000014 /* Views/ActivityDetailView.swift */,
 				000000000000000000000016 /* Views/DiscoverView.swift */,
+				000000000000000000000212 /* Views/DrawingsView.swift */,
+				000000000000000000000214 /* DrawingCatalog.swift */,
 				000000000000000000000018 /* Views/MemoriesView.swift */,
 				00000000000000000000001A /* Views/SessionView.swift */,
 				00000000000000000000001C /* Views/SkillsView.swift */,
@@ -231,6 +237,8 @@
 				000000000000000000000013 /* Theme.swift in Sources */,
 				000000000000000000000015 /* Views/ActivityDetailView.swift in Sources */,
 				000000000000000000000017 /* Views/DiscoverView.swift in Sources */,
+				000000000000000000000213 /* Views/DrawingsView.swift in Sources */,
+				000000000000000000000215 /* DrawingCatalog.swift in Sources */,
 				000000000000000000000019 /* Views/MemoriesView.swift in Sources */,
 				00000000000000000000001B /* Views/SessionView.swift in Sources */,
 				00000000000000000000001D /* Views/SkillsView.swift in Sources */,

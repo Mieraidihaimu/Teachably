@@ -5,10 +5,12 @@ import TeachablyCore
 final class FamilyStore: ObservableObject {
     @Published private(set) var state: FamilyState
     @Published private(set) var activities: [Activity] = []
+    @Published private(set) var starredDrawingIDs: Set<String>
     @Published var errorMessage: String?
     @Published private(set) var todayKey = DailyPlanner.dayKey(for: Date())
     private let defaults: UserDefaults
     private let storageKey = "teachably.family.v1"
+    private let starredDrawingsKey = "teachably.drawings.starred"
 
     init(defaults: UserDefaults? = nil) {
         var storage = defaults ?? .standard
@@ -19,6 +21,7 @@ final class FamilyStore: ObservableObject {
         }
         #endif
         self.defaults = storage
+        self.starredDrawingIDs = Set(storage.stringArray(forKey: starredDrawingsKey) ?? [])
         var restored = FamilyState()
         var problem: String?
         if let data = storage.data(forKey: storageKey) {
@@ -52,6 +55,15 @@ final class FamilyStore: ObservableObject {
         }
     }
     func activity(_ id: String) -> Activity? { activities.first { $0.id == id } }
+
+    func toggleDrawingStar(_ id: String) {
+        if starredDrawingIDs.contains(id) {
+            starredDrawingIDs.remove(id)
+        } else {
+            starredDrawingIDs.insert(id)
+        }
+        defaults.set(starredDrawingIDs.sorted(), forKey: starredDrawingsKey)
+    }
 
     func refreshToday() {
         guard errorMessage == nil else { return }
