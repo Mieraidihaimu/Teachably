@@ -203,12 +203,18 @@ struct DrawingsView: View {
                 Color.clear
                     .aspectRatio(drawing.tileAspectRatio, contentMode: .fit)
                     .overlay {
-                        GeometryReader { proxy in
-                            drawing.image
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: proxy.size.width, height: proxy.size.height)
-                                .clipped()
+                        if let guide = drawing.guide {
+                            guide.stroke(Palette.green, style: StrokeStyle(lineWidth: 5, lineCap: .round, lineJoin: .round))
+                                .padding(8)
+                                .background(drawing.category == .shapes ? Palette.peach : Palette.sage)
+                        } else {
+                            GeometryReader { proxy in
+                                drawing.image
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(width: proxy.size.width, height: proxy.size.height)
+                                    .clipped()
+                            }
                         }
                     }
                     .accessibilityHidden(true)
@@ -234,16 +240,22 @@ struct DrawingsView: View {
 
     private func drawingPreview(_ drawing: Drawing) -> some View {
         NavigationStack {
-            GeometryReader { proxy in
-                drawing.image
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(.rect(cornerRadius: 22))
-                    .frame(maxWidth: min(900, max(0, proxy.size.width - 32)),
-                           maxHeight: max(0, proxy.size.height - 32))
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .accessibilityLabel(drawing.title)
-                    .accessibilityIdentifier("drawings.preview")
+            Group {
+                if let guide = drawing.guide {
+                    DrawingPracticeView(guide: guide, title: drawing.title)
+                } else {
+                    GeometryReader { proxy in
+                        drawing.image
+                            .resizable()
+                            .scaledToFit()
+                            .clipShape(.rect(cornerRadius: 22))
+                            .frame(maxWidth: min(900, max(0, proxy.size.width - 32)),
+                                   maxHeight: max(0, proxy.size.height - 32))
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .accessibilityLabel(drawing.title)
+                            .accessibilityIdentifier("drawings.preview")
+                    }
+                }
             }
             .background(Palette.background)
             .navigationTitle(drawing.title)
@@ -257,6 +269,88 @@ struct DrawingsView: View {
                 }
             }
         }
+    }
+}
+
+private struct DrawingPracticeView: View {
+    let guide: DrawingGuide
+    let title: String
+    @State private var ink = Path()
+    @State private var stroke = Path()
+    @GestureState private var isTracing = false
+
+    private var instruction: String { L10n.string("Trace the dashes, or make your own marks.") }
+
+    var body: some View {
+        VStack(spacing: 16) {
+            Text(instruction)
+                .font(.subheadline)
+                .foregroundStyle(Palette.ink)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+
+            GeometryReader { proxy in
+                Canvas { context, size in
+                    let rect = CGRect(origin: .zero, size: size)
+                    context.stroke(guide.path(in: rect), with: .color(Palette.green.opacity(0.45)),
+                                   style: StrokeStyle(lineWidth: 5, lineCap: .round, lineJoin: .round, dash: [3, 11]))
+
+                    let scale = CGAffineTransform(scaleX: size.width, y: size.height)
+                    let pen = StrokeStyle(lineWidth: 8, lineCap: .round, lineJoin: .round)
+                    context.stroke(ink.applying(scale), with: .color(Palette.green), style: pen)
+                    context.stroke(stroke.applying(scale), with: .color(Palette.green), style: pen)
+                }
+                .background(.white)
+                .clipShape(.rect(cornerRadius: 22))
+                .contentShape(.rect(cornerRadius: 22))
+                .gesture(tracing(in: proxy.size))
+                .accessibilityElement()
+                .accessibilityLabel(title)
+                .accessibilityHint(instruction)
+                .accessibilityDirectTouch(options: .requiresActivation)
+                .accessibilityIdentifier("drawings.practice.canvas")
+            }
+            .aspectRatio(1, contentMode: .fit)
+
+            Button {
+                ink = Path()
+                stroke = Path()
+            } label: {
+                Label(L10n.string("Clear drawing"), systemImage: "arrow.counterclockwise")
+                    .frame(minHeight: 36)
+            }
+            .buttonStyle(.bordered)
+            .tint(Palette.green)
+            .disabled(ink.isEmpty && stroke.isEmpty)
+            .accessibilityIdentifier("drawings.practice.clear")
+        }
+        .padding(16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .onChange(of: isTracing) {
+            if !isTracing { stroke = Path() }
+        }
+    }
+
+    private func tracing(in size: CGSize) -> some Gesture {
+        DragGesture(minimumDistance: 0)
+            .updating($isTracing) { _, isTracing, _ in isTracing = true }
+            .onChanged { value in record(value, in: size) }
+            .onEnded { value in
+                record(value, in: size)
+                ink.addPath(stroke)
+                stroke = Path()
+            }
+    }
+
+    private func record(_ value: DragGesture.Value, in size: CGSize) {
+        guard size.width > 0, size.height > 0 else { return }
+        if stroke.isEmpty {
+            let start = value.startLocation
+            stroke.move(to: CGPoint(x: start.x / size.width, y: start.y / size.height))
+            // Give a tap a short segment so the round pen cap leaves a dot.
+            stroke.addLine(to: CGPoint(x: (start.x + 0.1) / size.width, y: start.y / size.height))
+        }
+        stroke.addLine(to: CGPoint(x: value.location.x / size.width, y: value.location.y / size.height))
     }
 }
 

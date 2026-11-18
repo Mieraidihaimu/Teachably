@@ -1,0 +1,722 @@
+[
+  {
+    "id": "kite-in-the-tree",
+    "title": "The Kite in the Tree",
+    "pictures": [
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "upper", "symbol": "🪁"}], "description": "A girl and a kite high in the sky.", "text": "Nia took her kite to the park. A puff of wind lifted it high."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🌳"}, {"position": "upperRight", "symbol": "🪁"}], "description": "The kite beside the top of a tree.", "text": "The wind pushed the kite into a tree, and its string went slack."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🌳"}, {"position": "upperRight", "symbol": "🪁"}, {"position": "centre", "symbol": "🧑🏾"}], "description": "A grown-up beside the girl and the tree.", "text": "Nia called Dad over. Together they looked for a low branch."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🌳"}, {"position": "upperLeft", "symbol": "🪁"}, {"position": "centre", "symbol": "🧑🏾"}], "description": "Dad beside the tree and the kite out of the leaves.", "text": "Dad lifted the loose string off a low twig. Down came the kite."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "front", "symbol": "🪁"}, {"position": "frontRight", "symbol": "🍃"}], "description": "The kite on the grass beside Nia and Dad.", "text": "Nia untangled its tail on the grass. “Let's try the big field,” she said."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "upper", "symbol": "🪁"}, {"position": "centre", "symbol": "🌼"}], "description": "The kite up in the open sky again.", "text": "They moved away from the trees. This time the kite had the whole sky to dance in."}
+    ]
+  },
+  {
+    "id": "seed-in-a-cup",
+    "title": "A Seed in a Cup",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "front", "symbol": "🫘"}, {"position": "right", "symbol": "🥤"}], "description": "A boy beside a bean and an empty cup.", "text": "Sami found a bean and a paper cup. He wondered what the bean might become."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🪴"}, {"position": "frontLeft", "symbol": "🫘"}], "description": "A bean next to a little pot of soil.", "text": "He put soil in the cup, tucked in the bean, and patted the soil flat."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "right", "symbol": "🪴"}, {"position": "upper", "symbol": "💧"}], "description": "A drop of water above the pot.", "text": "He gave the bean a little drink and put it where the light could reach it."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "right", "symbol": "🌱"}, {"position": "upperRight", "symbol": "☀️"}], "description": "A tiny green shoot in the light.", "text": "A few days later, Sami spotted a green hook poking out of the soil."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🌿"}, {"position": "right", "symbol": "📏"}], "description": "A taller plant with a ruler beside it.", "text": "Two leaves opened. Sami held up a ruler to see how much the plant had grown."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🪴"}, {"position": "right", "symbol": "👧🏻"}, {"position": "upperRight", "symbol": "🌿"}], "description": "Two children beside a leafy plant.", "text": "His sister came to look. “Next time let's plant two,” said Sami."}
+    ]
+  },
+  {
+    "id": "puddle-parade",
+    "title": "The Puddle Parade",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🥾"}, {"position": "upper", "symbol": "🌧️"}], "description": "A girl with boots and rain at the window.", "text": "Bea heard rain patter at the window. She pulled on her boots."},
+      {"setting": "rain", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "upper", "symbol": "☂️"}, {"position": "frontRight", "symbol": "💧"}], "description": "A girl under an umbrella near a puddle.", "text": "Outside, an umbrella kept Bea dry all the way to the gate."},
+      {"setting": "rain", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "💦"}, {"position": "frontRight", "symbol": "🥾"}], "description": "Water splashing up near a boot.", "text": "At the first puddle she tried a little stomp. Splash!"},
+      {"setting": "rain", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "👦🏻"}, {"position": "centre", "symbol": "💦"}], "description": "Two children on either side of a splash.", "text": "Her brother tried two little stomps. His splash was wide enough to make them both laugh."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "👦🏻"}, {"position": "upper", "symbol": "🌈"}, {"position": "front", "symbol": "💧"}], "description": "Two children beside a puddle under a rainbow.", "text": "The rain slowed. They stopped stomping when they spotted colours across the sky."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "👦🏻"}, {"position": "frontLeft", "symbol": "🥾"}, {"position": "frontRight", "symbol": "🧦"}], "description": "Two children with boots off and dry socks nearby.", "text": "Home again, they left their wet boots by the door and wriggled into dry socks."}
+    ]
+  },
+  {
+    "id": "missing-teddy",
+    "title": "The Missing Teddy",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "right", "symbol": "🛏️"}, {"position": "front", "symbol": "🧸"}], "description": "A child with a teddy bear near a bed.", "text": "Leo brought Teddy to bed every night. That morning he carried Teddy out to play."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "right", "symbol": "🛏️"}, {"position": "centre", "symbol": "❓"}], "description": "A child beside a bed with an empty space.", "text": "At bedtime, Teddy wasn't on the pillow. Leo checked under the blanket."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "right", "symbol": "🛋️"}, {"position": "front", "symbol": "🧦"}], "description": "A sock near a sofa and a boy looking nearby.", "text": "He looked under the sofa and found a sock. The sock did not look cuddly."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "right", "symbol": "🧺"}, {"position": "front", "symbol": "🍎"}], "description": "A boy beside a basket and an apple.", "text": "He looked in the kitchen basket. There was an apple, but no Teddy."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "right", "symbol": "📦"}, {"position": "upperRight", "symbol": "🧸"}], "description": "A teddy bear peeking out above a box.", "text": "Then Leo remembered their box train. Teddy was still riding inside the last carriage."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🧸"}, {"position": "right", "symbol": "🛏️"}, {"position": "upper", "symbol": "🌙"}], "description": "A boy and a teddy bear beside a bed.", "text": "Leo tucked Teddy under his arm. “Next stop, bed,” he whispered."}
+    ]
+  },
+  {
+    "id": "duckling-crossing",
+    "title": "Ducks on the Move",
+    "pictures": [
+      {"setting": "water", "figures": [{"position": "left", "symbol": "🦆"}, {"position": "front", "symbol": "🐤"}, {"position": "centre", "symbol": "🐥"}, {"position": "right", "symbol": "🐤"}], "description": "A big duck and ducklings on the water.", "text": "Mother Duck led her little ones to the edge of the pond."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "🦆"}, {"position": "centre", "symbol": "🐥"}, {"position": "right", "symbol": "🪨"}, {"position": "front", "symbol": "🐤"}], "description": "Ducks on the shore beside a rock.", "text": "She climbed onto a flat rock. The ducklings scrambled after her."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "🦆"}, {"position": "centre", "symbol": "🐥"}, {"position": "right", "symbol": "🐤"}, {"position": "upperRight", "symbol": "👧🏽"}], "description": "A child watches ducks go by.", "text": "On the path, Mina stopped and waited while the ducks waddled across."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "🦆"}, {"position": "centre", "symbol": "🐤"}, {"position": "right", "symbol": "🌿"}, {"position": "frontLeft", "symbol": "🐥"}], "description": "One duckling behind the others by some leaves.", "text": "The smallest duckling paused beside a leaf. Mother Duck called out."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "🦆"}, {"position": "centre", "symbol": "🐥"}, {"position": "right", "symbol": "🐤"}, {"position": "frontLeft", "symbol": "💦"}], "description": "A duckling splashing by the others.", "text": "The little duck hurried to catch up and hopped straight into the water."},
+      {"setting": "water", "figures": [{"position": "left", "symbol": "🐤"}, {"position": "centre", "symbol": "🦆"}, {"position": "right", "symbol": "🐥"}, {"position": "upper", "symbol": "💧"}], "description": "A big duck with ducklings around her on the pond.", "text": "Mina watched the whole family paddle away. This time the smallest duck swam in front."}
+    ]
+  },
+  {
+    "id": "paper-boat",
+    "title": "The Paper Boat",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "📄"}, {"position": "right", "symbol": "🖍️"}], "description": "A child with a sheet of paper and a crayon.", "text": "Jo drew a blue stripe on a piece of paper."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "⛵"}, {"position": "front", "symbol": "📄"}], "description": "A child with a small boat and a piece of paper.", "text": "With Mum's help, she folded the paper into a little boat."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "⛵"}, {"position": "right", "symbol": "💧"}], "description": "A child next to a boat at the water's edge.", "text": "Jo set the boat on a shallow puddle and gave it a tiny push."},
+      {"setting": "water", "figures": [{"position": "left", "symbol": "🍃"}, {"position": "centre", "symbol": "⛵"}, {"position": "right", "symbol": "🌿"}], "description": "A boat on water near some leaves.", "text": "A breeze sailed it across until its nose caught in a leaf."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🍃"}, {"position": "right", "symbol": "⛵"}], "description": "A child with a leaf beside the boat.", "text": "Jo nudged the leaf aside with a stick. The boat was free again."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "⛵"}, {"position": "right", "symbol": "🪟"}, {"position": "front", "symbol": "💧"}], "description": "A boat by the window with water drops.", "text": "She put her soggy boat on the windowsill to dry. Its blue stripe was still there."}
+    ]
+  },
+  {
+    "id": "apple-to-share",
+    "title": "An Apple to Share",
+    "pictures": [
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🍎"}, {"position": "right", "symbol": "👧🏽"}], "description": "Two children with one apple between them.", "text": "Ishaan and Tara reached for the same shiny apple."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "right", "symbol": "👧🏽"}, {"position": "upper", "symbol": "❓"}, {"position": "front", "symbol": "🍎"}], "description": "The children beside the apple with a question mark above.", "text": "There was only one. Tara wondered how they could both have some."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🧑🏽"}, {"position": "right", "symbol": "👧🏽"}, {"position": "front", "symbol": "🍎"}], "description": "A grown-up between the children with the apple below.", "text": "They asked Grandpa to cut it into two pieces."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "right", "symbol": "👧🏽"}, {"position": "frontLeft", "symbol": "🍎"}, {"position": "frontRight", "symbol": "🍎"}], "description": "Each child has a piece of apple.", "text": "Grandpa put a piece in front of each child. Ishaan's piece was a little bigger."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🍽️"}, {"position": "right", "symbol": "👧🏽"}, {"position": "front", "symbol": "🍎"}], "description": "The children with a plate and a bit of apple in between.", "text": "Ishaan broke off a little from his piece and put it on Tara's plate."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "right", "symbol": "👧🏽"}, {"position": "centre", "symbol": "😋"}, {"position": "front", "symbol": "🍽️"}], "description": "Two children and an empty plate.", "text": "They crunched until the plate was empty. “Next time, pear?” asked Tara."}
+    ]
+  },
+  {
+    "id": "cardboard-train",
+    "title": "The Cardboard Train",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "👧🏿"}], "description": "Two children with a big cardboard box.", "text": "Kit and Ada found a big empty box. Ada tapped it like a drum."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "right", "symbol": "👧🏿"}, {"position": "centre", "symbol": "📦"}, {"position": "front", "symbol": "🖍️"}], "description": "The children, a box, and a crayon on the rug.", "text": "Kit drew round wheels on the side. Now the box looked like a train."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "👧🏿"}, {"position": "front", "symbol": "🧸"}], "description": "A teddy waiting in front of a cardboard box.", "text": "Ada gave Teddy the first seat. A rabbit toy waited next to him."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "🐰"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "🧸"}, {"position": "upper", "symbol": "🚂"}], "description": "Two toys by the box and a train above.", "text": "The toys took turns riding as the children called out station names."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "👧🏿"}, {"position": "upper", "symbol": "🎵"}], "description": "Two children making music next to a box.", "text": "One corner of the box bent. Kit made a brake noise and pulled into the repair station."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "right", "symbol": "👧🏿"}, {"position": "centre", "symbol": "🛋️"}, {"position": "frontLeft", "symbol": "📦"}, {"position": "frontRight", "symbol": "🧸"}], "description": "A sofa with a box and a teddy nearby.", "text": "They made the sofa the next train. The cardboard box became the station."}
+    ]
+  },
+  {
+    "id": "lunch-for-the-birds",
+    "title": "Lunch for the Birds",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🐦"}, {"position": "right", "symbol": "🌳"}], "description": "A girl watches a bird by a tree.", "text": "Zahra spotted a little bird hopping around under the tree."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🫘"}, {"position": "right", "symbol": "🧑🏾"}], "description": "A child beside a pile of seed and a grown-up.", "text": "Her aunt brought bird seed and helped her fill a feeder."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🌳"}, {"position": "upperRight", "symbol": "🪹"}, {"position": "front", "symbol": "🫘"}], "description": "A tree with a nest shape above and seeds below.", "text": "They hung the feeder from a branch and went inside to give the birds space."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🪟"}, {"position": "upperRight", "symbol": "🐦"}], "description": "A child at a window with a bird nearby.", "text": "For a while nothing happened. Then a small bird landed by the window."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "🐦"}, {"position": "centre", "symbol": "🫘"}, {"position": "right", "symbol": "🐦‍⬛"}], "description": "Two birds around some seed.", "text": "One bird took a seed. Another swept down for its turn."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "📒"}, {"position": "frontRight", "symbol": "🖍️"}, {"position": "upperRight", "symbol": "🐦"}], "description": "A child, an open notebook, a crayon, and a bird beyond.", "text": "Zahra drew two birds in her notebook. She left room for more visitors."}
+    ]
+  },
+  {
+    "id": "snow-friend",
+    "title": "The Snow Friend",
+    "pictures": [
+      {"setting": "snow", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🧤"}, {"position": "right", "symbol": "❄️"}], "description": "A child outdoors with mittens and a snowflake.", "text": "Mai put on her mittens and stepped into the fresh snow."},
+      {"setting": "snow", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "⚪"}, {"position": "frontRight", "symbol": "⚪"}], "description": "A girl near a big snowball and a smaller one.", "text": "She packed a little snowball, then rolled it until it was too big to lift."},
+      {"setting": "snow", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "⛄"}, {"position": "right", "symbol": "👦🏻"}], "description": "Two children beside a snow person.", "text": "Her brother lifted a smaller ball onto it. The snow friend had a head."},
+      {"setting": "snow", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "⛄"}, {"position": "right", "symbol": "🧣"}, {"position": "front", "symbol": "🥕"}], "description": "The snow person next to a scarf and a carrot.", "text": "Mai found a carrot nose. Her brother offered his spare scarf."},
+      {"setting": "snow", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "⛄"}, {"position": "right", "symbol": "👦🏻"}, {"position": "upper", "symbol": "☀️"}], "description": "Two children beside the snow person in sunshine.", "text": "They waved goodbye as sunshine warmed the garden."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "💧"}, {"position": "right", "symbol": "🧣"}, {"position": "front", "symbol": "🥕"}], "description": "A girl beside a puddle, a scarf, and a carrot.", "text": "The next day, the snow friend was a puddle. Mai saved the scarf for the next snow."}
+    ]
+  },
+  {
+    "id": "wobbly-tower",
+    "title": "The Wobbly Tower",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🧱"}, {"position": "right", "symbol": "👧🏻"}], "description": "Two children with blocks between them.", "text": "Mo and Lina decided to build a tower taller than a cushion."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🧱"}, {"position": "upper", "symbol": "🧱"}, {"position": "right", "symbol": "👧🏻"}], "description": "Blocks stacked high between the children.", "text": "They put one narrow block underneath and piled two on top."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "right", "symbol": "👧🏻"}, {"position": "frontLeft", "symbol": "🧱"}, {"position": "front", "symbol": "🧱"}, {"position": "frontRight", "symbol": "🧱"}], "description": "Blocks spread across the floor by the children's feet.", "text": "The tower rocked once, then fell. The blocks made a big clack."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🧱"}, {"position": "frontLeft", "symbol": "🧱"}, {"position": "front", "symbol": "🧱"}, {"position": "frontRight", "symbol": "🧱"}, {"position": "right", "symbol": "👧🏻"}], "description": "A wide row of blocks with one above it.", "text": "Lina laid three blocks side by side. Mo put the next one in the middle."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🧱"}, {"position": "upper", "symbol": "🧱"}, {"position": "right", "symbol": "👧🏻"}, {"position": "front", "symbol": "🧱"}], "description": "A stack of blocks with a wider bottom.", "text": "Their new tower reached the top of the cushion. It stayed still when they let go."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🧱"}, {"position": "upper", "symbol": "🚩"}, {"position": "right", "symbol": "👧🏻"}], "description": "A little flag above the tower.", "text": "Mo added a paper flag. Lina named it the Wobbly Tower, even though it stayed up."}
+    ]
+  },
+  {
+    "id": "little-snail-race",
+    "title": "The Very Slow Race",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "🐌"}, {"position": "centre", "symbol": "🐌"}, {"position": "right", "symbol": "🥬"}], "description": "Two snails with a leaf ahead of them.", "text": "Pip and Dot, two snails, both spotted the same juicy leaf."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "🐌"}, {"position": "centre", "symbol": "🪨"}, {"position": "right", "symbol": "🐌"}, {"position": "front", "symbol": "🥬"}], "description": "A stone between two snails.", "text": "Pip tried to go straight over a pebble. Dot went around."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "🐌"}, {"position": "upper", "symbol": "🐌"}, {"position": "centre", "symbol": "🪨"}, {"position": "right", "symbol": "🥬"}], "description": "One snail on the pebble, with the leaf in view.", "text": "From the top Pip could see the leaf, but getting down took just as long as getting up."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "🪨"}, {"position": "centre", "symbol": "🐌"}, {"position": "right", "symbol": "🥬"}, {"position": "frontRight", "symbol": "🐌"}], "description": "Both snails close to the same leaf.", "text": "Dot was almost there when Pip reached the bottom. They met at the edge of the leaf."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "🐌"}, {"position": "centre", "symbol": "🥬"}, {"position": "right", "symbol": "🐌"}], "description": "The snails on either side of the leaf.", "text": "Dot nibbled one end. Pip nibbled the other."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "🐌"}, {"position": "right", "symbol": "🐌"}, {"position": "front", "symbol": "🌿"}, {"position": "upperRight", "symbol": "☀️"}], "description": "The two snails close together in the sunshine.", "text": "By the time they stopped to rest, neither snail remembered who won."}
+    ]
+  },
+  {
+    "id": "beach-treasure",
+    "title": "A Pocketful of Beach",
+    "pictures": [
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪣"}, {"position": "right", "symbol": "🌊"}], "description": "A child with a bucket by the waves.", "text": "Pia took an empty bucket down to the beach."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🐚"}, {"position": "right", "symbol": "🪣"}], "description": "A shell between Pia and her bucket.", "text": "She found a shell with ridges like little steps."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪨"}, {"position": "right", "symbol": "🪣"}, {"position": "front", "symbol": "🐚"}], "description": "A shell and a smooth stone near the bucket.", "text": "Next she found a smooth stone that shone when the water touched it."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "right", "symbol": "🦀"}, {"position": "centre", "symbol": "🐚"}], "description": "A crab next to a shell.", "text": "Something moved beside another shell. Pia backed up and watched a crab walk away."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "right", "symbol": "🌊"}, {"position": "frontLeft", "symbol": "🐚"}, {"position": "front", "symbol": "🪨"}, {"position": "frontRight", "symbol": "🐚"}], "description": "Shells and a stone in a line on the sand.", "text": "She laid her finds in a line, from the smoothest to the bumpiest."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪣"}, {"position": "right", "symbol": "🌊"}, {"position": "front", "symbol": "🐚"}], "description": "Pia with an empty bucket and a shell on the sand.", "text": "Pia left her line for someone else to find. The bucket went home full of fresh air."}
+    ]
+  },
+  {
+    "id": "bus-to-the-library",
+    "title": "A Bus to the Library",
+    "pictures": [
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "right", "symbol": "🚏"}, {"position": "front", "symbol": "🎒"}], "description": "A child with a bag by a bus stop.", "text": "Ben waited at the bus stop with an empty book bag."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🚌"}, {"position": "right", "symbol": "🚏"}], "description": "A bus arrives at the stop.", "text": "The bus pulled up. Ben and his uncle climbed on."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "🚌"}, {"position": "right", "symbol": "🏫"}, {"position": "upper", "symbol": "🌳"}], "description": "A bus passing trees on its way toward a building.", "text": "Through the window Ben watched trees slide by, then saw the library ahead."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "📚"}, {"position": "right", "symbol": "🧑🏾"}], "description": "A child and a grown-up beside books.", "text": "He carried a dinosaur book and a rhyming book to the desk."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🚌"}, {"position": "front", "symbol": "🎒"}], "description": "A child beside the bus with a book bag.", "text": "On the way home the bag sat heavy on his lap."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "📖"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "upper", "symbol": "🦕"}], "description": "A child and a grown-up with an open book and a dinosaur above.", "text": "Ben opened the dinosaur book first. His uncle made the biggest dinosaur roar very softly."}
+    ]
+  },
+  {
+    "id": "fox-and-the-berries",
+    "title": "Fox and the Berries",
+    "pictures": [
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦊"}, {"position": "right", "symbol": "🫐"}, {"position": "front", "symbol": "🌿"}], "description": "A fox with berries near some leaves.", "text": "Fox found a patch of blueberries and stopped for a snack."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦊"}, {"position": "centre", "symbol": "🫐"}, {"position": "right", "symbol": "🐻"}], "description": "Fox and Bear meet beside the berries.", "text": "Bear arrived with a very empty tummy. Fox paused with a berry in her mouth."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦊"}, {"position": "centre", "symbol": "🫐"}, {"position": "right", "symbol": "🐻"}, {"position": "frontRight", "symbol": "🫐"}], "description": "Berries spread out between Fox and Bear.", "text": "Fox nudged half the pile towards Bear. They ate in the shade."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦊"}, {"position": "right", "symbol": "🐻"}, {"position": "upper", "symbol": "🌧️"}, {"position": "front", "symbol": "💧"}], "description": "Rain falls above Fox and Bear.", "text": "A sudden shower sent cold drops down Bear's nose."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦊"}, {"position": "centre", "symbol": "🍃"}, {"position": "right", "symbol": "🐻"}, {"position": "upperRight", "symbol": "🌧️"}], "description": "Fox and Bear beside a large green leaf.", "text": "Bear held a big leaf over them while they waited for the rain to pass."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦊"}, {"position": "right", "symbol": "🐻"}, {"position": "upper", "symbol": "🌈"}, {"position": "front", "symbol": "🫐"}], "description": "Fox and Bear under a rainbow with berries nearby.", "text": "They split the last berry. It was smaller than a paw and sweet enough for two."}
+    ]
+  },
+  {
+    "id": "bus-stop-beat",
+    "title": "The Bus Stop Beat",
+    "pictures": [
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "right", "symbol": "🚏"}, {"position": "front", "symbol": "👟"}], "description": "A girl and a shoe near a bus stop.", "text": "Inez tapped one shoe while she waited for the bus."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "right", "symbol": "👦🏽"}, {"position": "upper", "symbol": "🎵"}], "description": "Two children with a musical note above them.", "text": "Her brother heard the tapping and clapped between taps."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "👏"}, {"position": "right", "symbol": "👦🏽"}, {"position": "front", "symbol": "👟"}], "description": "Clapping hands above a shoe between the children.", "text": "They made a pattern: tap, clap, tap, clap."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🧑🏾"}, {"position": "right", "symbol": "👦🏽"}, {"position": "upper", "symbol": "🎶"}], "description": "A grown-up between the children under music notes.", "text": "A neighbour joined in with a quiet hum."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🚌"}, {"position": "right", "symbol": "👦🏽"}, {"position": "upperRight", "symbol": "🎵"}], "description": "A bus and the two children.", "text": "The bus arrived just in time for their last clap."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "🚌"}, {"position": "right", "symbol": "🚏"}, {"position": "upper", "symbol": "🎶"}], "description": "The bus leaves the stop with music notes above.", "text": "As they rode away, Inez kept the beat with one finger on her knee."}
+    ]
+  },
+  {
+    "id": "first-picnic",
+    "title": "A Picnic for Three",
+    "pictures": [
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "centre", "symbol": "🧺"}, {"position": "right", "symbol": "🍌"}, {"position": "front", "symbol": "🥪"}], "description": "A child beside a basket, banana, and sandwich.", "text": "Asha packed a banana and sandwiches for a picnic."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "centre", "symbol": "🧺"}, {"position": "right", "symbol": "🧑🏿"}, {"position": "front", "symbol": "🟨"}], "description": "A grown-up and child with a basket and blanket.", "text": "They spread a yellow blanket where the grass was dry."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "centre", "symbol": "🥪"}, {"position": "right", "symbol": "🧑🏿"}, {"position": "front", "symbol": "🐕"}], "description": "A dog waits at the edge of the picnic.", "text": "A dog sat nearby and watched them open their lunch."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "centre", "symbol": "🥪"}, {"position": "right", "symbol": "🧑🏿"}, {"position": "upper", "symbol": "🍃"}, {"position": "front", "symbol": "🐕"}], "description": "The picnic with a leaf blowing overhead.", "text": "A gust lifted a corner of the blanket. Asha put the basket on it."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "centre", "symbol": "🧺"}, {"position": "right", "symbol": "🧑🏿"}, {"position": "front", "symbol": "🐕"}, {"position": "frontRight", "symbol": "🦴"}], "description": "The dog beside a treat near the basket.", "text": "Mum fetched the dog's own snack from a pocket in the basket."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "right", "symbol": "🧑🏿"}, {"position": "centre", "symbol": "🧺"}, {"position": "front", "symbol": "🐕"}, {"position": "upperRight", "symbol": "☀️"}], "description": "The family beside a packed basket in sunshine.", "text": "After all three had eaten, they packed up and walked home together."}
+    ]
+  },
+  {
+    "id": "bell-for-a-bike",
+    "title": "A Bell for the Bike",
+    "pictures": [
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🚲"}, {"position": "right", "symbol": "🧑🏻"}], "description": "A child, a bicycle, and a grown-up.", "text": "Liv wanted a bell for her bike so friends could hear her coming."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🔔"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "front", "symbol": "🔧"}], "description": "A bell and tool between Liv and a grown-up.", "text": "Dad found a bell in a box. Liv held it while he got the right tool."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🚲"}, {"position": "upper", "symbol": "🔔"}, {"position": "right", "symbol": "🧑🏻"}], "description": "A bell above a bicycle beside Liv and Dad.", "text": "They fixed the bell to the handlebar. Liv tried it once indoors."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🚲"}, {"position": "right", "symbol": "👦🏽"}, {"position": "upper", "symbol": "🎶"}], "description": "Liv and a bicycle near a boy with a sound mark above.", "text": "Outside, she rang as she rolled slowly up to her brother."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🚲"}, {"position": "right", "symbol": "👦🏽"}, {"position": "front", "symbol": "🖐️"}], "description": "A boy waving beside Liv and her bicycle.", "text": "He turned at the sound and waved. Liv stopped so he could cross."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🚲"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "upperRight", "symbol": "🔔"}], "description": "Liv back with Dad and the bicycle bell.", "text": "On the way home she rang for Dad. He answered with a cheerful “ding!”"}
+    ]
+  },
+  {
+    "id": "rainbow-shirt",
+    "title": "The Rainbow Shirt",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "👕"}, {"position": "right", "symbol": "🖍️"}], "description": "A child with a plain shirt and a crayon.", "text": "Sol found an old plain shirt and asked if he could give it new colours."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "📄"}, {"position": "right", "symbol": "🖍️"}, {"position": "upper", "symbol": "🌈"}], "description": "A child beside paper, a crayon, and a rainbow.", "text": "He drew a rainbow plan on paper before touching the shirt."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "👕"}, {"position": "right", "symbol": "🧑🏽"}, {"position": "front", "symbol": "🎨"}], "description": "A child and a grown-up with a shirt and paint.", "text": "Auntie helped him spread the shirt flat and brought out fabric paint."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "👕"}, {"position": "right", "symbol": "🎨"}, {"position": "upper", "symbol": "🔴"}], "description": "A painted red mark above Sol, his shirt, and paints.", "text": "The brush made a red drip. Sol made it the first of three little drops under the rainbow."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "👕"}, {"position": "right", "symbol": "🧺"}, {"position": "upper", "symbol": "🌈"}], "description": "A shirt drying outdoors with its rainbow above.", "text": "They left the shirt to dry. Sol checked it every time he went past."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "👕"}, {"position": "right", "symbol": "👧🏽"}, {"position": "upper", "symbol": "🌈"}], "description": "Sol shows a rainbow shirt to another child.", "text": "That afternoon he showed his cousin the rainbow. The three drops were his favourite part."}
+    ]
+  },
+  {
+    "id": "moon-at-the-window",
+    "title": "The Moon at the Window",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🪟"}, {"position": "upperRight", "symbol": "🌙"}], "description": "A girl at a window with a moon outside.", "text": "The moon was in Hana's kitchen window while she had a drink."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🪥"}, {"position": "right", "symbol": "🪟"}, {"position": "upperRight", "symbol": "🌙"}], "description": "Hana with a toothbrush by another window.", "text": "She saw it from the bathroom too, just above the next roof."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🛏️"}, {"position": "upperRight", "symbol": "🌙"}], "description": "Hana beside her bed with the moon still in view.", "text": "“Is the moon following me?” she asked when she saw it from bed."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🧑🏾"}, {"position": "upper", "symbol": "🌙"}], "description": "Hana and a grown-up under the moon.", "text": "Mum took her outside. They walked to the far side of the garden together."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "upper", "symbol": "🌙"}, {"position": "front", "symbol": "🏡"}], "description": "Hana and Mum with the house between them and the moon above.", "text": "Different fence posts went by, but the faraway moon hardly seemed to move."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🛏️"}, {"position": "upperRight", "symbol": "🌙"}, {"position": "front", "symbol": "📖"}], "description": "A girl beside a bed with a book and the moon nearby.", "text": "Back in bed, Hana said goodnight to the moon. It could stay up as long as it liked."}
+    ]
+  },
+  {
+    "id": "button-boat",
+    "title": "The Button Boat",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "🐭"}, {"position": "right", "symbol": "🧵"}, {"position": "front", "symbol": "🔘"}], "description": "A mouse with thread and a large button.", "text": "Mouse found a wide button under the sewing basket."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "🐭"}, {"position": "centre", "symbol": "🔘"}, {"position": "right", "symbol": "💧"}], "description": "Mouse places a button beside the water.", "text": "At a puddle, he set it down and pretended it was a boat."},
+      {"setting": "water", "figures": [{"position": "left", "symbol": "🐭"}, {"position": "centre", "symbol": "🔘"}, {"position": "right", "symbol": "🍃"}], "description": "A mouse, a button, and a floating leaf.", "text": "The button sank. A leaf drifted past without sinking."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "🐭"}, {"position": "centre", "symbol": "🍃"}, {"position": "right", "symbol": "🪵"}], "description": "Mouse beside a leaf and a small stick.", "text": "Mouse laid a twig on the leaf and set it afloat."},
+      {"setting": "water", "figures": [{"position": "left", "symbol": "🐭"}, {"position": "centre", "symbol": "🍃"}, {"position": "right", "symbol": "🐞"}], "description": "A ladybird and a floating leaf near Mouse.", "text": "Ladybird stepped aboard, and the leaf carried her to the other side."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "🐭"}, {"position": "centre", "symbol": "🍃"}, {"position": "right", "symbol": "🐞"}, {"position": "upper", "symbol": "☀️"}], "description": "Mouse and Ladybird on the sunny shore.", "text": "Ladybird waved. “Tomorrow,” called Mouse, “I'll bring another leaf!”"}
+    ]
+  },
+  {
+    "id": "little-lantern",
+    "title": "A Light for the Tent",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "⛺"}, {"position": "right", "symbol": "🧑🏻"}], "description": "A child and a grown-up beside a tent.", "text": "Esme helped her grandad put up a tent in the garden."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "⛺"}, {"position": "upper", "symbol": "⭐"}], "description": "Esme near the tent at night.", "text": "When the sky went dark, the inside of the tent went dark too."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "front", "symbol": "🔦"}], "description": "A torch on the ground between Esme and Grandad.", "text": "Grandad handed Esme a torch. Its beam was just right for finding her shoes."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "⛺"}, {"position": "right", "symbol": "🔦"}], "description": "A torch pointing beside the tent.", "text": "Inside, the bright beam made a tiny spot. The corners were still dark."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🏮"}, {"position": "right", "symbol": "🧑🏻"}], "description": "A glowing lantern between Esme and Grandad.", "text": "Grandad switched on a battery lantern. A gentle light reached all the corners."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "📖"}, {"position": "right", "symbol": "⛺"}, {"position": "upper", "symbol": "🏮"}], "description": "An open book beside the tent with a lantern above.", "text": "They read one page by lantern light. Then Esme heard an owl and closed the book to listen."}
+    ]
+  },
+  {
+    "id": "carrot-with-two-legs",
+    "title": "The Carrot with Two Legs",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🌱"}, {"position": "right", "symbol": "🧑🏽"}], "description": "A child and a grown-up beside small green leaves.", "text": "Ravi and Grandma found carrot tops peeking up from a garden bed."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🥕"}, {"position": "front", "symbol": "🟫"}], "description": "A carrot comes out of the soil near Ravi.", "text": "Ravi pulled gently. The carrot slid out wearing a coat of dirt."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🥕"}, {"position": "frontRight", "symbol": "🥕"}, {"position": "upper", "symbol": "❓"}], "description": "Two carrots close together with a question mark above.", "text": "Under the dirt was a surprise. One carrot had grown two long legs."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🥕"}, {"position": "right", "symbol": "🚰"}, {"position": "front", "symbol": "💧"}], "description": "A child rinses a carrot near a tap.", "text": "Grandma helped him wash it. Ravi made the clean carrot take a little walk."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🥕"}, {"position": "right", "symbol": "🥕"}, {"position": "front", "symbol": "🍽️"}], "description": "Carrots beside a serving plate.", "text": "Grandma cut pieces for lunch. The two-legged carrot tasted just like the straight one."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "📄"}, {"position": "frontRight", "symbol": "🖍️"}, {"position": "upper", "symbol": "🥕"}], "description": "Ravi draws beside a picture of the carrot.", "text": "Ravi drew the carrot in his notebook. In his drawing it wore two tiny boots."}
+    ]
+  },
+  {
+    "id": "lost-mitten",
+    "title": "The Lost Mitten",
+    "pictures": [
+      {"setting": "snow", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🧤"}, {"position": "right", "symbol": "🛷"}], "description": "A boy with a mitten and a sled.", "text": "Finn wore two red mittens when he took his sled out."},
+      {"setting": "snow", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🛷"}, {"position": "frontRight", "symbol": "🧤"}], "description": "A mitten in the snow close to the sled.", "text": "As he pulled the sled, one mitten slipped out of his pocket."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🧤"}, {"position": "right", "symbol": "🧣"}], "description": "A boy with one mitten beside a scarf indoors.", "text": "In the hallway he counted one mitten and one cold hand."},
+      {"setting": "snow", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "👣"}, {"position": "right", "symbol": "🛷"}], "description": "Footprints lead back towards the sled.", "text": "Finn followed his own footprints back to the place where he'd stopped."},
+      {"setting": "snow", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🧤"}, {"position": "right", "symbol": "⛄"}], "description": "A mitten on the snow near a snow person.", "text": "There it was. The snow person had been guarding it."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "frontLeft", "symbol": "🧤"}, {"position": "frontRight", "symbol": "🧤"}, {"position": "centre", "symbol": "☕"}], "description": "Two mittens drying near a mug.", "text": "Finn left both mittens to dry by the door and wrapped his hands around a warm mug."}
+    ]
+  },
+  {
+    "id": "the-hungry-compost-bin",
+    "title": "The Hungry Compost Bin",
+    "pictures": [
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🍌"}, {"position": "right", "symbol": "🥣"}], "description": "A child and a banana peel beside a bowl.", "text": "When Ava finished her banana, she put the peel into a bowl."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🍎"}, {"position": "right", "symbol": "🥣"}, {"position": "front", "symbol": "🍌"}], "description": "A bowl with apple and banana scraps.", "text": "She added an apple core. “Is anyone going to eat these?” she asked."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪣"}, {"position": "right", "symbol": "🧑🏽"}], "description": "A child and grown-up beside a big garden container.", "text": "Grandpa took her out to the compost bin and lifted its lid."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪣"}, {"position": "right", "symbol": "🍂"}, {"position": "front", "symbol": "🍌"}], "description": "Dry leaves and banana scraps beside the bin.", "text": "They tipped in the scraps and tucked them under dry leaves."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪱"}, {"position": "right", "symbol": "🪣"}], "description": "A worm near the compost bin.", "text": "Much later, Grandpa showed Ava a worm in the dark, crumbly compost."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪴"}, {"position": "right", "symbol": "🧑🏽"}, {"position": "frontRight", "symbol": "🪣"}], "description": "A pot and compost beside Ava and Grandpa.", "text": "They mixed some compost into a flowerpot. The old banana peel had helped make food for a plant."}
+    ]
+  },
+  {
+    "id": "windy-wash-day",
+    "title": "Windy Wash Day",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🧺"}, {"position": "right", "symbol": "🧦"}], "description": "A child, a laundry basket, and a sock.", "text": "Omar helped hang the clean socks outside."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🧺"}, {"position": "upperRight", "symbol": "🧦"}, {"position": "upper", "symbol": "🍃"}], "description": "A sock blows up in the wind.", "text": "A gust pulled one sock loose and sent it flying."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "right", "symbol": "🌳"}, {"position": "upperRight", "symbol": "🧦"}], "description": "A sock caught in a tree beside Omar.", "text": "The sock landed on a low branch. Omar could see its striped toe."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🧑🏾"}, {"position": "right", "symbol": "🌳"}, {"position": "front", "symbol": "🧦"}], "description": "A grown-up and child with the sock beneath the tree.", "text": "Mum reached up and freed it. A leaf had got inside."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🧦"}, {"position": "right", "symbol": "🍃"}, {"position": "front", "symbol": "🧺"}], "description": "Omar beside the recovered sock and basket.", "text": "Omar shook out the leaf and used a second peg for the sock."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🧺"}, {"position": "frontLeft", "symbol": "🧦"}, {"position": "frontRight", "symbol": "🧦"}], "description": "Two socks in front of a laundry basket.", "text": "When the socks were dry, Omar matched the stripes. The pair was together again."}
+    ]
+  },
+  {
+    "id": "bell-in-the-fog",
+    "title": "The Bell in the Fog",
+    "pictures": [
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "🐑"}, {"position": "centre", "symbol": "🔔"}, {"position": "right", "symbol": "🌫️"}], "description": "A sheep and a bell with fog nearby.", "text": "A lamb named Pebble heard a bell ring across a foggy field."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "🐑"}, {"position": "right", "symbol": "🌫️"}, {"position": "upper", "symbol": "🎵"}], "description": "A lamb under a sound mark in fog.", "text": "Pebble took two steps then stopped to listen again."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "🐑"}, {"position": "centre", "symbol": "🐦"}, {"position": "right", "symbol": "🌫️"}], "description": "A little bird near the lamb in the fog.", "text": "For a moment all he could hear was a bird in the hedge."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "🐑"}, {"position": "centre", "symbol": "🔔"}, {"position": "right", "symbol": "🐏"}], "description": "The lamb and a bigger sheep with the bell.", "text": "Then the bell rang close by. His mum's nose poked out of the fog."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "🐑"}, {"position": "centre", "symbol": "🐏"}, {"position": "right", "symbol": "🚪"}], "description": "Two sheep together near a gate.", "text": "Pebble walked beside her until they reached the gate."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "🐑"}, {"position": "centre", "symbol": "🐏"}, {"position": "right", "symbol": "🌱"}, {"position": "upper", "symbol": "☀️"}], "description": "Both sheep on green grass as the sky clears.", "text": "By breakfast the fog was lifting. Now Pebble could see the whole field."}
+    ]
+  },
+  {
+    "id": "pancake-that-folded",
+    "title": "The Pancake That Folded",
+    "pictures": [
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🥣"}, {"position": "right", "symbol": "🥚"}], "description": "A boy beside a bowl and an egg.", "text": "Hugo stirred pancake batter while Dad warmed the pan."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🍳"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "frontRight", "symbol": "🥣"}], "description": "A grown-up beside a pan with batter nearby.", "text": "Dad poured a little batter in. It bubbled at the edges."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🍳"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "upper", "symbol": "🥞"}], "description": "A pancake above the pan between Hugo and Dad.", "text": "Dad flipped it. The pancake landed folded in half."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🥞"}, {"position": "right", "symbol": "🍓"}, {"position": "front", "symbol": "🍽️"}], "description": "A pancake, a strawberry, and a plate.", "text": "Hugo saw a pocket where Dad saw a pancake. They filled it with sliced strawberries."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🍽️"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "front", "symbol": "🍓"}], "description": "A strawberry near the plate between the two cooks.", "text": "Hugo took a bite. A berry rolled out the other end."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🥞"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "front", "symbol": "🫐"}], "description": "A new pancake beside a few blueberries.", "text": "“Fold the next one too,” said Hugo. “I want to try a blueberry pocket.”"}
+    ]
+  },
+  {
+    "id": "snack-for-the-journey",
+    "title": "A Snack for the Journey",
+    "pictures": [
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🍌"}, {"position": "right", "symbol": "🎒"}], "description": "A girl with a banana beside a backpack.", "text": "Aya packed a banana for a long walk with Mum."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🎒"}, {"position": "right", "symbol": "🧑🏻"}], "description": "Aya with her bag beside Mum among trees.", "text": "They followed a path through the trees, listening to their footsteps."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🪵"}, {"position": "right", "symbol": "🐿️"}], "description": "A squirrel beside a log near Aya.", "text": "A squirrel darted over a log. Aya stopped to see where it went."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🎒"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "upper", "symbol": "❓"}], "description": "Aya and Mum with an open bag and a question mark above.", "text": "At snack time Aya looked in the bag. A book was there, but the banana wasn't."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🍐"}, {"position": "right", "symbol": "🧑🏻"}], "description": "Aya and Mum beside a pear.", "text": "Mum gave Aya part of her pear. They shared it on a bench."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🍌"}, {"position": "right", "symbol": "🎒"}, {"position": "front", "symbol": "📕"}], "description": "A banana waiting near the bag, beside a book.", "text": "Back home, the banana was still on the counter. Aya ate it while Mum read the book."}
+    ]
+  },
+  {
+    "id": "a-house-for-rabbit",
+    "title": "A House for Rabbit",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "🐰"}, {"position": "right", "symbol": "📦"}], "description": "A toy rabbit, a child, and a box.", "text": "Rose decided her toy Rabbit needed a little house."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "🐰"}, {"position": "front", "symbol": "🖍️"}], "description": "A crayon in front of the box and Rabbit.", "text": "Mum helped make a doorway. Rose drew a square window."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "🐰"}, {"position": "front", "symbol": "🟫"}], "description": "Rabbit beside a doorway blocked by a piece of card.", "text": "Rabbit's ears caught on the door. The opening was too short."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "🧑🏼"}, {"position": "front", "symbol": "🐰"}], "description": "A grown-up helps Rose with the box while Rabbit waits.", "text": "Mum made the doorway taller. Rose tried Rabbit again."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "📦"}, {"position": "upperRight", "symbol": "🐰"}, {"position": "front", "symbol": "🛏️"}], "description": "Rabbit peeks up from the box near a little bed.", "text": "Rabbit fitted inside, with just enough room for a folded cloth bed."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "🐰"}, {"position": "upper", "symbol": "🌙"}], "description": "Rose and Rabbit in the box-house at bedtime.", "text": "At bedtime Rose left the door open a crack. Rabbit liked to see the moon."}
+    ]
+  },
+  {
+    "id": "one-more-beat",
+    "title": "One More Beat",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🥁"}, {"position": "right", "symbol": "👧🏾"}], "description": "Two children sit by a drum.", "text": "Mal and Jo took turns tapping a little drum."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🥁"}, {"position": "right", "symbol": "👧🏾"}, {"position": "upper", "symbol": "🎵"}], "description": "Both children near the drum with one music note.", "text": "Mal tapped twice. Jo tapped twice back."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🥁"}, {"position": "right", "symbol": "👧🏾"}, {"position": "upper", "symbol": "🎶"}], "description": "The children and drum under several music notes.", "text": "Jo tried three taps. Mal answered with four by mistake."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "👏"}, {"position": "right", "symbol": "👧🏾"}, {"position": "front", "symbol": "🥁"}], "description": "Clapping hands above the drum between the children.", "text": "They slowed down and clapped the taps before playing them."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🥁"}, {"position": "right", "symbol": "👧🏾"}, {"position": "upperLeft", "symbol": "🎵"}, {"position": "upperRight", "symbol": "🎶"}], "description": "The children trade turns on the drum.", "text": "This time Mal heard all three taps and played three back."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🥁"}, {"position": "right", "symbol": "👧🏾"}, {"position": "upper", "symbol": "🤫"}], "description": "The children beside the drum with a quiet sign above.", "text": "For the last turn, Jo tapped so softly that they both leaned close to hear."}
+    ]
+  },
+  {
+    "id": "the-water-that-disappeared",
+    "title": "The Disappearing Puddle",
+    "pictures": [
+      {"setting": "rain", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "💧"}, {"position": "right", "symbol": "🥾"}], "description": "A girl and her boots beside a puddle.", "text": "After the rain, Lina found a wide puddle by the step."},
+      {"setting": "rain", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "💧"}, {"position": "right", "symbol": "🪨"}], "description": "A stone marks the edge of the wet patch.", "text": "She laid a small stone at the edge so she could find the same spot later."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "💧"}, {"position": "right", "symbol": "🪨"}, {"position": "upper", "symbol": "☀️"}], "description": "The puddle and its marker in sunshine.", "text": "When the sun came out, Lina checked. The stone was on dry ground."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪨"}, {"position": "front", "symbol": "💧"}, {"position": "right", "symbol": "📏"}], "description": "A smaller wet spot, stone, and ruler near Lina.", "text": "The wet patch was smaller than the ruler she brought to measure it."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪨"}, {"position": "right", "symbol": "🧑🏽"}, {"position": "upper", "symbol": "☀️"}], "description": "A dry patch marked with a stone while two people look.", "text": "By afternoon it had gone. Dad said some water had warmed up and gone into the air."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "📒"}, {"position": "right", "symbol": "🖍️"}, {"position": "upper", "symbol": "💧"}], "description": "Lina with a notebook and a picture of water.", "text": "Lina drew a big puddle, a little puddle, and finally just a stone."}
+    ]
+  },
+  {
+    "id": "squirrel-and-the-hat",
+    "title": "Squirrel and the Hat",
+    "pictures": [
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🧢"}, {"position": "front", "symbol": "🍃"}], "description": "A girl near a cap on a windy day.", "text": "The wind took Kim's cap right off her head."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🧢"}, {"position": "right", "symbol": "🐿️"}], "description": "A cap on the grass near a squirrel.", "text": "It landed near a squirrel. The squirrel stopped with one paw up."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🐿️"}, {"position": "centre", "symbol": "🧢"}, {"position": "right", "symbol": "🌳"}], "description": "A squirrel pulls at a cap near a tree.", "text": "The squirrel tugged the brim. A dry leaf flew out."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🧢"}, {"position": "right", "symbol": "🐿️"}, {"position": "upperRight", "symbol": "🍂"}], "description": "A leaf above the squirrel and cap.", "text": "The squirrel took the leaf and ran to the tree. Kim waited until it was gone."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🧢"}, {"position": "front", "symbol": "🍂"}], "description": "Kim picks up her cap beside another leaf.", "text": "Kim shook another leaf out of the cap and put it back on."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "right", "symbol": "🌳"}, {"position": "upperRight", "symbol": "🐿️"}, {"position": "front", "symbol": "🧢"}], "description": "Kim holds the cap while the squirrel sits by the tree.", "text": "She held the brim all the way home. The squirrel could have the leaves."}
+    ]
+  },
+  {
+    "id": "library-rain",
+    "title": "Three Books in the Rain",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "📚"}, {"position": "right", "symbol": "🎒"}], "description": "A child and three books beside a bag.", "text": "Eli borrowed three books and carried them to the library door."},
+      {"setting": "rain", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "📚"}, {"position": "right", "symbol": "🌧️"}], "description": "A child stands by the books as rain falls outside.", "text": "Rain drummed on the pavement. The books couldn't go out like that."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🎒"}, {"position": "right", "symbol": "📚"}, {"position": "front", "symbol": "🧥"}], "description": "Books and a jacket beside an open bag.", "text": "His bag was small. He put the biggest book in first and tried it the other way round."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🎒"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "front", "symbol": "📚"}], "description": "A grown-up helps Eli with the bag and books.", "text": "An older cousin helped him turn the other books sideways. They all fitted."},
+      {"setting": "rain", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🎒"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "upper", "symbol": "☂️"}], "description": "Eli and his cousin under one umbrella with the bag.", "text": "They walked close under one umbrella. Eli held the bag up off the wet ground."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "📖"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "upper", "symbol": "🌧️"}], "description": "An open book indoors while rain falls outside.", "text": "At home the books were dry. They read the one with the biggest pictures first."}
+    ]
+  },
+  {
+    "id": "hedgehog-bridge",
+    "title": "The Hedgehog Bridge",
+    "pictures": [
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦔"}, {"position": "centre", "symbol": "💧"}, {"position": "right", "symbol": "🍎"}], "description": "A hedgehog near a puddle with an apple on the other side.", "text": "Hedgehog saw a fallen apple across a puddle."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦔"}, {"position": "centre", "symbol": "💧"}, {"position": "right", "symbol": "🐇"}], "description": "A rabbit on the far side of a puddle from Hedgehog.", "text": "Rabbit hopped over in one jump. Hedgehog couldn't jump as far."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦔"}, {"position": "centre", "symbol": "🪵"}, {"position": "right", "symbol": "💧"}], "description": "A branch is lying near the puddle.", "text": "Hedgehog found a wide piece of bark and pushed it towards the water."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦔"}, {"position": "centre", "symbol": "🪵"}, {"position": "right", "symbol": "🐇"}, {"position": "front", "symbol": "💧"}], "description": "Hedgehog and Rabbit beside bark across the water.", "text": "Rabbit pulled the far end onto dry ground. The bark made a bridge."},
+      {"setting": "forest", "figures": [{"position": "centre", "symbol": "🦔"}, {"position": "front", "symbol": "🪵"}, {"position": "right", "symbol": "🍎"}], "description": "Hedgehog on the bridge close to the apple.", "text": "Hedgehog walked across, making each step very small."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦔"}, {"position": "centre", "symbol": "🍎"}, {"position": "right", "symbol": "🐇"}, {"position": "front", "symbol": "🪵"}], "description": "Hedgehog and Rabbit beside the apple and bridge.", "text": "“You can keep the apple,” said Rabbit. “I'll keep the bridge for the next rainy day.”"}
+    ]
+  },
+  {
+    "id": "postcard-for-nan",
+    "title": "A Postcard for Nan",
+    "pictures": [
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "🐚"}, {"position": "right", "symbol": "🌊"}], "description": "A girl beside the waves and a shell.", "text": "Tilly wanted to show Nan what the sea looked like today."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "📄"}, {"position": "right", "symbol": "🖍️"}, {"position": "upper", "symbol": "🌊"}], "description": "Tilly with paper, a crayon, and a picture of waves.", "text": "She drew waves across a postcard and added one tiny shell."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "✉️"}, {"position": "right", "symbol": "🧑🏼"}, {"position": "front", "symbol": "🖊️"}], "description": "Tilly and a grown-up beside a card and a pen.", "text": "Dad wrote Nan's address while Tilly added a big kiss in the corner."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "✉️"}, {"position": "right", "symbol": "📮"}], "description": "Tilly holds a card near a postbox.", "text": "Tilly pushed the card through the slot and heard it land with a soft flap."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "📮"}, {"position": "centre", "symbol": "🚚"}, {"position": "right", "symbol": "✉️"}], "description": "A delivery van carries the post onward.", "text": "The post travelled much farther than Tilly could walk."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👵🏼"}, {"position": "centre", "symbol": "✉️"}, {"position": "right", "symbol": "🐚"}], "description": "Nan beside the delivered card and a shell.", "text": "Nan put the card on her shelf. Now she had a little piece of the sea, too."}
+    ]
+  },
+  {
+    "id": "flower-with-a-visitor",
+    "title": "A Visitor on the Flower",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "🌻"}, {"position": "right", "symbol": "🐝"}], "description": "A boy notices a bee around a sunflower.", "text": "Theo saw a bee land in the middle of a sunflower."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "🌻"}, {"position": "upperRight", "symbol": "🐝"}, {"position": "front", "symbol": "🪑"}], "description": "A child sits back from the sunflower and bee.", "text": "He sat back so the bee had room and watched it move from spot to spot."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "🌻"}, {"position": "right", "symbol": "🌼"}, {"position": "upper", "symbol": "🐝"}], "description": "A bee above two different flowers.", "text": "The bee lifted off and stopped at a smaller flower."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "📒"}, {"position": "right", "symbol": "🌻"}, {"position": "front", "symbol": "🖍️"}], "description": "A notebook and crayon near the tall flower.", "text": "Theo drew both flowers. He put a dot on each place the bee had landed."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "📒"}, {"position": "right", "symbol": "🧑🏿"}, {"position": "upper", "symbol": "🐝"}], "description": "A child shows a grown-up the notebook by the flowers.", "text": "Mum came to look. Theo traced the bee's path with a finger."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "🌻"}, {"position": "right", "symbol": "🌼"}, {"position": "upperRight", "symbol": "🦋"}], "description": "A butterfly near the two flowers.", "text": "A butterfly arrived next. Theo turned to a clean page."}
+    ]
+  },
+  {
+    "id": "new-place-for-the-pot",
+    "title": "A New Place for the Pot",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪴"}, {"position": "right", "symbol": "🪟"}], "description": "A plant sits on one side of a window near a girl.", "text": "Noor's little plant always sat on the same side of the window."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪴"}, {"position": "upperRight", "symbol": "☀️"}], "description": "The pot sits beside a bright patch of sunlight.", "text": "One morning she saw its leaves leaning into the bright patch."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪴"}, {"position": "right", "symbol": "↪️"}], "description": "Noor and the pot with a turning arrow.", "text": "She turned the pot a little and drew how the leaves looked."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "📒"}, {"position": "right", "symbol": "🪴"}, {"position": "upper", "symbol": "☀️"}], "description": "Noor checks the plant using her notebook.", "text": "Days later, she held up her picture. The new leaves were reaching towards the light again."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪴"}, {"position": "right", "symbol": "🧑🏽"}, {"position": "upper", "symbol": "🪟"}], "description": "Noor and a grown-up choose where to put the plant.", "text": "She and Dad found a spot in the middle of the wide window."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪴"}, {"position": "right", "symbol": "📒"}, {"position": "front", "symbol": "🖍️"}], "description": "The plant sits beside Noor's updated drawing.", "text": "Noor drew the scene once more. This time she remembered to draw the light."}
+    ]
+  },
+  {
+    "id": "robot-goes-backwards",
+    "title": "The Robot Goes Backwards",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🤖"}, {"position": "right", "symbol": "📦"}], "description": "A child, a toy robot, and a cardboard box.", "text": "Sam made a finish line from a box for his toy robot."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🤖"}, {"position": "right", "symbol": "📦"}, {"position": "front", "symbol": "➡️"}], "description": "A forward arrow lies near the robot.", "text": "Each arrow card meant one step. Sam laid down a row of cards."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "📦"}, {"position": "centre", "symbol": "👦🏼"}, {"position": "right", "symbol": "🤖"}, {"position": "front", "symbol": "⬅️"}], "description": "The robot is moving away from the box.", "text": "The robot went the wrong way. Sam stopped to check the first card."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🤖"}, {"position": "right", "symbol": "📦"}, {"position": "front", "symbol": "↪️"}], "description": "A turning arrow lies between Sam and the robot.", "text": "He turned the arrow around and asked his sister to try the instructions."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "👧🏼"}, {"position": "right", "symbol": "📦"}, {"position": "frontRight", "symbol": "🤖"}], "description": "A second child watches the robot reach the box.", "text": "This time the robot reached the box. His sister added a little wave at the end."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🤖"}, {"position": "right", "symbol": "👧🏼"}, {"position": "front", "symbol": "⬅️"}], "description": "The toy robot gets ready to go the other way.", "text": "Sam put the old arrow down again. Now the robot had instructions to get home."}
+    ]
+  },
+  {
+    "id": "sock-puppet-show",
+    "title": "The Sock Puppet Show",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🧦"}, {"position": "right", "symbol": "🧺"}], "description": "A girl with a lone sock and laundry basket.", "text": "Amara found one sock with no partner."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🧦"}, {"position": "right", "symbol": "🖍️"}, {"position": "upper", "symbol": "👀"}], "description": "A sock, a marker, and a pair of drawn eyes.", "text": "She drew paper eyes and asked Grandpa to help stick them to the sock."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🧦"}, {"position": "right", "symbol": "📦"}], "description": "The sock puppet next to a box stage.", "text": "A box became a stage. The sock popped up to say hello."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🧦"}, {"position": "right", "symbol": "👦🏾"}, {"position": "front", "symbol": "🧸"}], "description": "An audience of a child and teddy in front of the puppet.", "text": "Her brother brought Teddy to watch. The sock forgot what it was going to say."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🧦"}, {"position": "right", "symbol": "👦🏾"}, {"position": "upper", "symbol": "🎵"}], "description": "A music note above the puppet and the children.", "text": "Amara made the sock sing instead. Teddy danced in her brother's lap."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🧦"}, {"position": "right", "symbol": "👦🏾"}, {"position": "front", "symbol": "👏"}], "description": "The children clap after the puppet's performance.", "text": "The sock took a bow. Its best part had been the bit nobody planned."}
+    ]
+  },
+  {
+    "id": "popcorn-surprise",
+    "title": "The Popcorn Surprise",
+    "pictures": [
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🌽"}, {"position": "right", "symbol": "🥣"}], "description": "A child and corn beside a bowl.", "text": "Remy thought the little dry kernels looked too small to be a snack."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🍲"}, {"position": "right", "symbol": "🧑🏽"}, {"position": "front", "symbol": "🌽"}], "description": "A grown-up by a lidded pot with corn nearby.", "text": "Dad put some in a pot, covered it, and asked Remy to listen from the table."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🍲"}, {"position": "right", "symbol": "🧑🏽"}, {"position": "upper", "symbol": "💥"}], "description": "A lidded pot with a burst shape above it.", "text": "One pop sounded, then another. Soon the sounds came too fast to count."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🍿"}, {"position": "right", "symbol": "🧑🏽"}], "description": "A grown-up puts out a bowl of popcorn.", "text": "Dad poured the cooled popcorn into a bowl. Every piece was bigger than a kernel."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🍿"}, {"position": "right", "symbol": "👧🏽"}, {"position": "front", "symbol": "🍓"}], "description": "Two children with separate snacks.", "text": "Remy ate a little popcorn while Dad gave his toddler sister soft strawberries."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🍿"}, {"position": "right", "symbol": "👧🏽"}, {"position": "upper", "symbol": "🎬"}], "description": "The children near the popcorn as a film starts.", "text": "They settled down for their film. Remy whispered, “Pop, pop!” just before it started."}
+    ]
+  },
+  {
+    "id": "owl-in-the-daytime",
+    "title": "Owl's Daytime Nap",
+    "pictures": [
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦉"}, {"position": "right", "symbol": "🌳"}, {"position": "upper", "symbol": "☀️"}], "description": "Owl near a tree in the bright daytime.", "text": "Owl had been awake all night. Now she wanted a quiet branch for a nap."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦉"}, {"position": "right", "symbol": "🐦"}, {"position": "upper", "symbol": "🎶"}], "description": "A singing bird near Owl.", "text": "A bird was practising a new song. Every verse was louder than the last."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦉"}, {"position": "right", "symbol": "🐿️"}, {"position": "front", "symbol": "🌰"}], "description": "A squirrel beside Owl with a nut below.", "text": "In another tree, Squirrel dropped nuts. They rattled down the bark."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦉"}, {"position": "centre", "symbol": "🌲"}, {"position": "right", "symbol": "🍃"}], "description": "A large leafy tree beside Owl.", "text": "Owl found a tree with thick leaves. They made a soft swishing sound."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "🦉"}, {"position": "right", "symbol": "🌲"}, {"position": "upper", "symbol": "💤"}], "description": "A sleepy sign above Owl and the tree.", "text": "The leaves swished so gently that Owl fell asleep right away."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "🦉"}, {"position": "right", "symbol": "🌲"}, {"position": "upper", "symbol": "🌙"}], "description": "Owl awake by the tree at night.", "text": "When the moon rose, Owl stretched her wings. Now it was her turn to make a little noise."}
+    ]
+  },
+  {
+    "id": "toy-car-wash",
+    "title": "The Toy Car Wash",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🚗"}, {"position": "front", "symbol": "🟫"}], "description": "A boy with a toy car beside a muddy patch.", "text": "Hugo drove his toy car through a patch of mud."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🚗"}, {"position": "right", "symbol": "🪣"}], "description": "The toy car sits near a bucket.", "text": "The wheels wouldn't turn. Mud had filled the spaces around them."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🚗"}, {"position": "right", "symbol": "🪣"}, {"position": "front", "symbol": "🧽"}], "description": "A sponge beside the car and the bucket.", "text": "Hugo dipped a sponge into water and slid it over the roof."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🚗"}, {"position": "right", "symbol": "🧽"}, {"position": "front", "symbol": "💦"}], "description": "The toy car between a sponge and splashing water.", "text": "He rinsed the wheels until they spun again."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🚗"}, {"position": "right", "symbol": "☀️"}, {"position": "front", "symbol": "🟨"}], "description": "The car rests on a cloth in the sunshine.", "text": "While the car dried on a cloth, Hugo drew a new road."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🚗"}, {"position": "right", "symbol": "🛣️"}], "description": "The clean toy car beside a clear road.", "text": "He drove around the mud this time. One little puddle was too tempting to pass."}
+    ]
+  },
+  {
+    "id": "a-crown-for-no-one",
+    "title": "A Crown for Everyone",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "👑"}, {"position": "right", "symbol": "📄"}], "description": "A child beside a paper crown.", "text": "Mila made a paper crown for their rainy-day play."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "👑"}, {"position": "right", "symbol": "👦🏽"}], "description": "Two children and one crown.", "text": "Arlo wanted to wear it too. They both reached for it."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "👑"}, {"position": "right", "symbol": "👦🏽"}, {"position": "front", "symbol": "💔"}], "description": "A torn crown between the two children.", "text": "The paper tore. Both children were quiet for a moment."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "📄"}, {"position": "right", "symbol": "👦🏽"}, {"position": "front", "symbol": "🖍️"}], "description": "Paper and a marker sit between Mila and Arlo.", "text": "“We can fix it together,” said Arlo. They drew two crowns on a fresh sheet."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "right", "symbol": "👦🏽"}, {"position": "upperLeft", "symbol": "👑"}, {"position": "upperRight", "symbol": "👑"}], "description": "One crown above each of the children.", "text": "Mila made Arlo's taller. Arlo made Mila's covered in spots."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🧸"}, {"position": "right", "symbol": "👦🏽"}, {"position": "upper", "symbol": "👑"}], "description": "A teddy bear with a little crown between the children.", "text": "There was enough paper left for Teddy. His crown slipped right over his ears."}
+    ]
+  },
+  {
+    "id": "shadow-puppets",
+    "title": "A Rabbit Made of Shadow",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🔦"}, {"position": "right", "symbol": "🧑🏻"}], "description": "A girl with a torch beside a grown-up.", "text": "Nell and Mum shone a torch onto a bare wall."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "✋"}, {"position": "right", "symbol": "🔦"}], "description": "A hand is held in the torchlight.", "text": "Nell put her hand in the light. A dark shape appeared on the wall."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "✌️"}, {"position": "upperRight", "symbol": "🐇"}], "description": "Two raised fingers and the shape of a rabbit.", "text": "She held up two fingers. The shape looked a little like a rabbit's ears."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "right", "symbol": "🔦"}, {"position": "upper", "symbol": "🐇"}], "description": "A large rabbit shape high above Nell.", "text": "She moved her hand nearer the torch. The rabbit grew big."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "right", "symbol": "🔦"}, {"position": "frontRight", "symbol": "🐇"}], "description": "A small rabbit shape low on the wall.", "text": "She moved it back toward the wall. The rabbit shrank again."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "upperLeft", "symbol": "🐇"}, {"position": "upperRight", "symbol": "🐦"}], "description": "A rabbit and a bird shape above two people.", "text": "Mum made a bird shadow. Nell gave it a small rabbit to talk to."}
+    ]
+  },
+  {
+    "id": "the-longest-necklace",
+    "title": "The Longest Necklace",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "🍂"}, {"position": "right", "symbol": "🍁"}], "description": "A boy finds two differently shaped leaves.", "text": "Tobi picked up a few big fallen leaves from the lawn."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "🍂"}, {"position": "right", "symbol": "🧑🏿"}, {"position": "front", "symbol": "🧶"}], "description": "A child and grown-up with leaves and yarn.", "text": "Dad helped him put the leaves on yarn to make a necklace for Teddy."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "🧸"}, {"position": "right", "symbol": "🍁"}, {"position": "front", "symbol": "🧶"}], "description": "The bear beside the long loop of leafy yarn.", "text": "The loop was so long that it reached Teddy's toes."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "📏"}, {"position": "right", "symbol": "🧸"}, {"position": "front", "symbol": "🧶"}], "description": "A ruler beside the yarn and Teddy.", "text": "Tobi measured a shorter piece against Teddy's shoulders."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "🧸"}, {"position": "right", "symbol": "🍂"}, {"position": "front", "symbol": "🧶"}], "description": "Teddy next to a shorter row of leaves.", "text": "The next one sat high on Teddy's chest. He looked ready for a walk in the woods."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏿"}, {"position": "centre", "symbol": "🧸"}, {"position": "upper", "symbol": "🍁"}, {"position": "right", "symbol": "🪟"}], "description": "Leaves hang up near a window.", "text": "They hung the long necklace by the window. Now the leaves could dance when the window opened."}
+    ]
+  },
+  {
+    "id": "the-bumpy-roll",
+    "title": "The Bumpy Roll",
+    "pictures": [
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🥣"}, {"position": "right", "symbol": "🧑🏾"}], "description": "A child and a grown-up with a mixing bowl.", "text": "Etta helped Grandma mix dough for rolls."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "⚪"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "front", "symbol": "🥣"}], "description": "A ball of dough between the two cooks.", "text": "Grandma showed her how to roll a small piece into a ball."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "⚪"}, {"position": "frontRight", "symbol": "⚪"}, {"position": "right", "symbol": "🥣"}], "description": "Two little balls of dough beside the bowl.", "text": "Etta pressed two pieces together. Her roll looked a little like a cloud."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🥖"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "upper", "symbol": "♨️"}], "description": "Freshly baked bread with a sign of warmth above it.", "text": "After baking, the two pieces had stuck together for good."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🍞"}, {"position": "right", "symbol": "👦🏾"}], "description": "Etta and another child beside bread.", "text": "Once it cooled, Etta pulled her roll apart and gave her brother a piece."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "🍽️"}, {"position": "right", "symbol": "👦🏾"}, {"position": "front", "symbol": "🍞"}], "description": "The children and a plate with one last bit of bread.", "text": "It tasted like any other roll. The soft middle between the two bumps was best."}
+    ]
+  },
+  {
+    "id": "frog-hears-a-drip",
+    "title": "Frog Hears a Drip",
+    "pictures": [
+      {"setting": "water", "figures": [{"position": "left", "symbol": "🐸"}, {"position": "right", "symbol": "🌿"}, {"position": "upper", "symbol": "💧"}], "description": "A frog and a hanging drop of water.", "text": "Frog heard a drip and woke up on a lily pad."},
+      {"setting": "water", "figures": [{"position": "left", "symbol": "🐸"}, {"position": "centre", "symbol": "🌿"}, {"position": "upper", "symbol": "💧"}], "description": "A drop falls off a leaf beside Frog.", "text": "A drop fell off a leaf and made a ring in the pond."},
+      {"setting": "water", "figures": [{"position": "left", "symbol": "🐸"}, {"position": "right", "symbol": "🦆"}, {"position": "front", "symbol": "💦"}], "description": "A duck splashes past Frog.", "text": "Duck paddled by. Her big rings met the tiny rings."},
+      {"setting": "water", "figures": [{"position": "left", "symbol": "🐸"}, {"position": "right", "symbol": "🦆"}, {"position": "upper", "symbol": "🌧️"}], "description": "Frog and Duck under a raincloud.", "text": "Then rain started. Rings appeared everywhere, too many to follow."},
+      {"setting": "shore", "figures": [{"position": "left", "symbol": "🐸"}, {"position": "centre", "symbol": "🍃"}, {"position": "right", "symbol": "🦆"}, {"position": "upper", "symbol": "🌧️"}], "description": "Frog and Duck by a leaf on the bank.", "text": "Frog jumped under a leaf at the edge. Duck stayed in the shower."},
+      {"setting": "water", "figures": [{"position": "left", "symbol": "🐸"}, {"position": "centre", "symbol": "🌿"}, {"position": "right", "symbol": "🦆"}, {"position": "upper", "symbol": "☀️"}], "description": "Frog and Duck return to a sunny lily pad.", "text": "When the rain stopped, Frog jumped back to his pad. One last drop fell, and he heard it."}
+    ]
+  },
+  {
+    "id": "scarf-for-a-statue",
+    "title": "A Scarf for a Statue",
+    "pictures": [
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "right", "symbol": "🗿"}, {"position": "upper", "symbol": "❄️"}], "description": "A child stands beside a statue in cold weather.", "text": "Ash passed a stone statue on the way to the shop. Its shoulders were white with frost."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🧣"}, {"position": "right", "symbol": "🗿"}], "description": "Ash holds a scarf near the statue.", "text": "“It looks cold,” he said, holding up his scarf."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🧣"}, {"position": "right", "symbol": "🧑🏽"}], "description": "A grown-up talks to Ash near his scarf.", "text": "Dad said stone didn't feel cold the way Ash's ears did."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "🧣"}, {"position": "right", "symbol": "👧🏽"}], "description": "Ash with a scarf and another child.", "text": "Around the corner his cousin was waiting with bare ears and cold hands."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "right", "symbol": "👧🏽"}, {"position": "frontRight", "symbol": "🧣"}], "description": "The scarf near the cousin's shoulders.", "text": "Ash lent her his spare scarf. She tied it in a big knot under her chin."},
+      {"setting": "town", "figures": [{"position": "left", "symbol": "👦🏽"}, {"position": "centre", "symbol": "👧🏽"}, {"position": "right", "symbol": "🗿"}, {"position": "upper", "symbol": "☀️"}], "description": "The children pass the statue as the sun comes out.", "text": "They waved to the statue on the way back. It still wore its coat of frost."}
+    ]
+  },
+  {
+    "id": "a-feather-goes-far",
+    "title": "The Feather That Got Away",
+    "pictures": [
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "🪶"}, {"position": "right", "symbol": "🌲"}], "description": "A girl finds a feather near a tree.", "text": "Wren spotted a feather lying on the path."},
+      {"setting": "forest", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "upperRight", "symbol": "🪶"}, {"position": "right", "symbol": "🌲"}], "description": "A feather lifts away from the path.", "text": "Before she could point it out to Grandpa, a breeze picked it up."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "🧑🏼"}, {"position": "upperRight", "symbol": "🪶"}], "description": "A child and a grown-up watch a flying feather.", "text": "They followed slowly. The feather floated over the grass."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "centre", "symbol": "🪶"}, {"position": "right", "symbol": "🌿"}], "description": "The feather catches on some leaves.", "text": "It caught low on a bush, with its soft end sticking out."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "right", "symbol": "🧑🏼"}, {"position": "upper", "symbol": "🪶"}], "description": "The feather lifts again between Wren and Grandpa.", "text": "Another breeze pulled it free. This time they stayed still to watch."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏼"}, {"position": "right", "symbol": "🧑🏼"}, {"position": "upperRight", "symbol": "🐦"}, {"position": "upper", "symbol": "🪶"}], "description": "A bird passes high near the drifting feather.", "text": "A bird flew past while the feather floated down. “One has wings,” said Wren. “One has the wind.”"}
+    ]
+  },
+  {
+    "id": "the-wrap-that-would-not-fit",
+    "title": "The Present Won't Fit",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "📕"}, {"position": "right", "symbol": "🎁"}], "description": "A child beside a book and a little gift box.", "text": "Idris wanted to wrap a book for his sister. His gift box was too short."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "📕"}, {"position": "right", "symbol": "📄"}], "description": "A large book and a sheet of paper near Idris.", "text": "He spread a scrap of paper on the floor. That was too short as well."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "📕"}, {"position": "right", "symbol": "📄"}, {"position": "front", "symbol": "📄"}], "description": "There are now two scraps of paper by the book.", "text": "He matched two scraps at their edges. Together they reached past the book."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "📕"}, {"position": "right", "symbol": "📄"}, {"position": "front", "symbol": "🎨"}], "description": "A painted pattern next to the book and paper.", "text": "He made a trail of painted dots across both scraps."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "🎁"}, {"position": "right", "symbol": "👧🏾"}, {"position": "upper", "symbol": "🎉"}], "description": "Idris presents a wrapped gift to his sister.", "text": "His sister followed the dots with her finger before opening the present."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "📖"}, {"position": "right", "symbol": "👧🏾"}, {"position": "front", "symbol": "📄"}], "description": "The children with the book and the opened wrapping.", "text": "They saved the paper as a bookmark. The dots could wait inside the story."}
+    ]
+  },
+  {
+    "id": "the-round-stone",
+    "title": "Two Stones and a Hill",
+    "pictures": [
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪨"}, {"position": "right", "symbol": "🧑🏽"}], "description": "A child and grown-up beside a rounded stone.", "text": "Cass and Gran found a round stone and a flatter one."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪨"}, {"position": "right", "symbol": "⛰️"}], "description": "A stone rests on a small slope.", "text": "They let the round stone go on a gentle, empty slope. It rolled straight down."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🟫"}, {"position": "right", "symbol": "⛰️"}], "description": "A flat stone stays on the little slope.", "text": "From the same spot the flat stone hardly moved."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🟫"}, {"position": "right", "symbol": "🧑🏽"}, {"position": "upper", "symbol": "↪️"}], "description": "A turning arrow above the flat stone and two people.", "text": "Gran asked what would happen if they stood it on its edge."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🟫"}, {"position": "right", "symbol": "⛰️"}, {"position": "front", "symbol": "🪨"}], "description": "The flat stone stops part way down the hill.", "text": "It wobbled down a little way and fell flat again."},
+      {"setting": "park", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪨"}, {"position": "right", "symbol": "🧑🏽"}, {"position": "front", "symbol": "🟫"}], "description": "Cass and Gran study the two stones side by side.", "text": "Cass left the stones together by the path. “Round or flat?” she asked on the way past the next day."}
+    ]
+  },
+  {
+    "id": "the-garden-map",
+    "title": "A Map to the Mint",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "right", "symbol": "🪴"}, {"position": "front", "symbol": "🌿"}], "description": "A child next to a pot and green leaves.", "text": "Ella's cousin could never find the mint in the garden."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "centre", "symbol": "📄"}, {"position": "right", "symbol": "🖍️"}], "description": "Ella draws with paper and a crayon.", "text": "Ella drew their door, the path, and a big circle for the mint pot."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "centre", "symbol": "📄"}, {"position": "right", "symbol": "👦🏿"}], "description": "Ella and her cousin look at the drawing outdoors.", "text": "Her cousin followed the map and stopped at a pot by the gate."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "centre", "symbol": "🪴"}, {"position": "right", "symbol": "👦🏿"}, {"position": "upper", "symbol": "❓"}], "description": "Both children with a pot and a question mark.", "text": "It wasn't the mint. Ella's circle looked like every other pot."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "centre", "symbol": "📄"}, {"position": "right", "symbol": "🖍️"}, {"position": "upper", "symbol": "🌿"}], "description": "Ella adds a green leaf to her drawing.", "text": "She added a green leaf and drew a stripy mat beside the right pot."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏿"}, {"position": "centre", "symbol": "🪴"}, {"position": "right", "symbol": "👦🏿"}, {"position": "front", "symbol": "🌿"}], "description": "Both children have reached the mint.", "text": "Her cousin found the right pot. They rubbed one leaf and smelled mint on their fingers."}
+    ]
+  },
+  {
+    "id": "three-bowls",
+    "title": "Three Bowls, One Table",
+    "pictures": [
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🥣"}, {"position": "right", "symbol": "🧑🏻"}], "description": "A child and grown-up beside a bowl.", "text": "Ari was setting the table. He put out one bowl for himself."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "frontLeft", "symbol": "🥣"}, {"position": "frontRight", "symbol": "🥣"}, {"position": "right", "symbol": "🧑🏻"}], "description": "Two bowls are set out side by side.", "text": "Dad said he was eating too. Ari fetched a second bowl."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🥣"}, {"position": "right", "symbol": "👧🏻"}, {"position": "frontLeft", "symbol": "🥣"}, {"position": "frontRight", "symbol": "🥣"}], "description": "A girl arrives next to three bowls.", "text": "His sister came in, so Ari put out a third bowl."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🥄"}, {"position": "right", "symbol": "👧🏻"}, {"position": "front", "symbol": "🥣"}], "description": "One spoon and a bowl near the two children.", "text": "There was only one spoon on the table. His sister pointed to the empty places."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🥄"}, {"position": "frontLeft", "symbol": "🥄"}, {"position": "frontRight", "symbol": "🥄"}], "description": "There are three spoons across the table.", "text": "Ari fetched two more spoons and laid one beside each bowl."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏻"}, {"position": "centre", "symbol": "🧑🏻"}, {"position": "right", "symbol": "👧🏻"}, {"position": "front", "symbol": "🥣"}], "description": "Three people at the table with their bowls.", "text": "They counted three bowls, three spoons, and three people ready for soup."}
+    ]
+  },
+  {
+    "id": "little-red-wagon",
+    "title": "The Little Red Wagon",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🛒"}, {"position": "right", "symbol": "🪴"}], "description": "A girl has a cart beside a pot.", "text": "Miri wanted to take a big pot to the far end of the garden."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🛒"}, {"position": "right", "symbol": "🧑🏽"}, {"position": "front", "symbol": "🪴"}], "description": "A grown-up helps move the pot onto the cart.", "text": "Dad helped her lift it into a little wagon. Miri pulled."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🛒"}, {"position": "front", "symbol": "🪨"}, {"position": "right", "symbol": "🪴"}], "description": "One of the wagon's wheels is close to a stone.", "text": "A wheel stopped against a stone. The wagon wouldn't go any farther."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪨"}, {"position": "right", "symbol": "🛒"}], "description": "The stone now sits beside the wagon.", "text": "Dad steadied the wagon while Miri moved the stone out of the way."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🛒"}, {"position": "right", "symbol": "🌻"}, {"position": "front", "symbol": "🪴"}], "description": "The wagon has reached a sunny patch by a flower.", "text": "The wagon rolled all the way to the sunny part of the garden."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🪴"}, {"position": "right", "symbol": "🌻"}, {"position": "front", "symbol": "🛒"}], "description": "The pot stands by the flower with the wagon empty.", "text": "They set the pot beside a sunflower. Miri took the empty wagon back for a rest."}
+    ]
+  },
+  {
+    "id": "star-that-was-not-a-star",
+    "title": "The Star That Blinked",
+    "pictures": [
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "upper", "symbol": "⭐"}], "description": "A child and grown-up look up at a bright point.", "text": "Niko and Gran looked out at the night sky."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "upperRight", "symbol": "✨"}], "description": "A light blinks to one side of the sky.", "text": "Niko spotted one light that blinked on and off."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "upperLeft", "symbol": "✨"}, {"position": "upperRight", "symbol": "⭐"}], "description": "A flashing light is now across from a bright star.", "text": "A little later the light was in a different place. The other lights hardly seemed to move."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "upper", "symbol": "✈️"}], "description": "A plane crosses the night sky.", "text": "Gran said a plane could look like one small light from far away."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "right", "symbol": "🧑🏾"}, {"position": "upperLeft", "symbol": "⭐"}, {"position": "upperRight", "symbol": "⭐"}], "description": "Two steady stars visible above them.", "text": "The blinking light went away. Niko picked two steady stars to draw."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏾"}, {"position": "centre", "symbol": "📒"}, {"position": "right", "symbol": "🖍️"}, {"position": "upper", "symbol": "⭐"}], "description": "Niko draws the night sky in a notebook.", "text": "In his notebook he drew two dots and a line, so he could find the same patch tomorrow."}
+    ]
+  },
+  {
+    "id": "the-busy-box",
+    "title": "The Busy Box",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "🧑🏾"}], "description": "A child and grown-up beside a cardboard box.", "text": "Zuri got out an empty box while Dad sorted the recycling."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "📦"}, {"position": "upper", "symbol": "🚗"}], "description": "A toy car is held above the box.", "text": "She turned it over and made it a garage."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "📦"}, {"position": "upper", "symbol": "⛵"}], "description": "A boat above the box.", "text": "She turned it back and made it a boat for all her teddies."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "👦🏾"}, {"position": "front", "symbol": "🧸"}], "description": "Another child arrives with a teddy.", "text": "Her brother wanted to make a bed. They couldn't make all three things at once."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "👦🏾"}, {"position": "front", "symbol": "🛏️"}], "description": "The two children make the box into a little bed.", "text": "They gave the boat one last trip, then laid a folded cloth in it for a bed."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏾"}, {"position": "centre", "symbol": "📦"}, {"position": "right", "symbol": "👦🏾"}, {"position": "front", "symbol": "🧸"}, {"position": "upper", "symbol": "💤"}], "description": "The toys settle in the box for sleep.", "text": "The teddies fell asleep after their long day. The box was tired too."}
+    ]
+  },
+  {
+    "id": "rain-on-the-roof",
+    "title": "What Is That Tap?",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "right", "symbol": "🪟"}, {"position": "upper", "symbol": "🎵"}], "description": "A boy indoors by a window with a sound mark.", "text": "Ollie heard a small tap while he was drawing."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🚪"}, {"position": "right", "symbol": "🐈"}], "description": "Ollie and a cat beside the door.", "text": "He checked the door. The cat sat there quietly."},
+      {"setting": "kitchen", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🚰"}, {"position": "right", "symbol": "🥣"}], "description": "Ollie checks the tap in the kitchen.", "text": "He checked the kitchen tap. The sink was dry."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "right", "symbol": "🪟"}, {"position": "upperRight", "symbol": "🌧️"}], "description": "Rain near the window beside Ollie.", "text": "A raindrop ran down the window. Then another one followed."},
+      {"setting": "rain", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "🏡"}, {"position": "right", "symbol": "🧑🏼"}, {"position": "upper", "symbol": "🌧️"}], "description": "Ollie and a grown-up near the roof in the rain.", "text": "Dad showed him how drops from the tree fell onto the low roof."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👦🏼"}, {"position": "centre", "symbol": "📒"}, {"position": "right", "symbol": "🖍️"}, {"position": "upper", "symbol": "🌧️"}], "description": "Ollie draws beside a window in the rain.", "text": "Ollie finished his picture to the sound of taps. He added the tree to the corner."}
+    ]
+  },
+  {
+    "id": "cat-and-the-sunny-spot",
+    "title": "Cat's Sunny Spot",
+    "pictures": [
+      {"setting": "room", "figures": [{"position": "left", "symbol": "🐈"}, {"position": "right", "symbol": "🪟"}, {"position": "upper", "symbol": "☀️"}], "description": "Cat sits by a window in the sun.", "text": "Cat found a patch of morning sun beside the window."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "🐈"}, {"position": "centre", "symbol": "🛋️"}, {"position": "right", "symbol": "🪟"}], "description": "Cat and a sofa sit near the window.", "text": "Later the warm patch reached the sofa. Cat moved with it."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "🛋️"}, {"position": "centre", "symbol": "🐈"}, {"position": "frontRight", "symbol": "🟨"}], "description": "Cat and a warm patch near the floor.", "text": "The patch slid onto the rug. Cat climbed down for a second nap."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "🐈"}, {"position": "right", "symbol": "🪟"}, {"position": "upper", "symbol": "☁️"}], "description": "Cat looks towards a window under a cloud.", "text": "A cloud covered the sun. The bright patch was gone."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "🐈"}, {"position": "centre", "symbol": "🧺"}, {"position": "right", "symbol": "👧🏽"}, {"position": "front", "symbol": "🟨"}], "description": "A girl puts a soft cloth in a basket beside Cat.", "text": "Sera tucked a spare towel into a basket away from the draught."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏽"}, {"position": "centre", "symbol": "🧺"}, {"position": "upperRight", "symbol": "🐈"}, {"position": "upper", "symbol": "☀️"}], "description": "Cat rests in the basket as the sun returns.", "text": "The sun came back, but Cat stayed in the basket. It was the warmest spot she knew."}
+    ]
+  },
+  {
+    "id": "goodnight-garden",
+    "title": "Goodnight, Garden",
+    "pictures": [
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🌻"}, {"position": "right", "symbol": "🧑🏻"}], "description": "A child and grown-up beside a sunflower.", "text": "Before bed, June and Mum walked out to say goodnight to the garden."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🌻"}, {"position": "upperRight", "symbol": "🐝"}], "description": "A bee is still near the sunflower.", "text": "They said goodnight to the sunflower. A bee was making one last visit."},
+      {"setting": "garden", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🌿"}, {"position": "right", "symbol": "🐌"}], "description": "A snail sits near the leaves beside June.", "text": "They said goodnight to a snail. It was just beginning to come out."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "upper", "symbol": "🦇"}], "description": "A bat passes above the people in the dusk.", "text": "A bat flew over the fence. Mum said some animals were only just waking up."},
+      {"setting": "night", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🏡"}, {"position": "right", "symbol": "🧑🏻"}, {"position": "upper", "symbol": "🌙"}], "description": "The child and grown-up walk back to their house.", "text": "June waved to everything, even the things she couldn't see."},
+      {"setting": "room", "figures": [{"position": "left", "symbol": "👧🏻"}, {"position": "centre", "symbol": "🛏️"}, {"position": "upperRight", "symbol": "🌙"}, {"position": "front", "symbol": "📖"}], "description": "A child ready for bed while the moon is outside.", "text": "“Good morning, bat,” she whispered from bed. “Goodnight, me.”"}
+    ]
+  }
+]

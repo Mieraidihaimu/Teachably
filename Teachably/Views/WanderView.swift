@@ -3,7 +3,7 @@ import TeachablyCore
 
 struct WanderView: View {
     @EnvironmentObject private var family: FamilyStore
-    @StateObject private var wander = WanderStore()
+    @ObservedObject var wander: WanderStore
     @State private var showLibrary = false
     @State private var query = ""
     @State private var recallQuery = ""

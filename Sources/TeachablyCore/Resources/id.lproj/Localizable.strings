@@ -1,4 +1,14 @@
 /* Teachably — id */
+
+/* Printing for today */
+"Print for today" = "Cetak untuk hari ini";
+"Print" = "Cetak";
+"Activity" = "Aktivitas";
+"Drawing" = "Menggambar";
+"Poem in English" = "Puisi berbahasa Inggris";
+"Couldn’t print" = "Tidak dapat mencetak";
+"Check that an AirPrint printer is available and try again." = "Pastikan ada printer AirPrint yang tersedia, lalu coba lagi.";
+
 "%@ · Step %lld of %lld" = "%@ · Langkah %lld dari %lld";
 "%@ — what made you smile, surprised you, or would you like to try again?" = "%@ — apa yang membuat kalian tersenyum, terkejut, atau ingin mencobanya lagi?";
 "%@, not checked" = "%@, belum dicentang";
@@ -257,7 +267,39 @@
 "Zoom out map" = "Perkecil peta";
 "a little wonder" = "keajaiban kecil";
 
+/* Poetry library and tab navigation */
+"More" = "Lainnya";
+"Poems" = "Puisi";
+"%lld poems in English" = "%lld puisi berbahasa Inggris";
+"Search poems" = "Cari puisi";
+"Poems are unavailable" = "Puisi tidak tersedia";
+"A few tiny lines" = "Beberapa baris pendek";
+"Short, playful rhymes" = "Sajak pendek yang ceria";
+"Rhythm and repetition" = "Irama dan pengulangan";
+"Poems with a little story" = "Puisi dengan cerita pendek";
+"Longer verses" = "Bait yang lebih panjang";
+"Bigger reads and richer words" = "Puisi lebih panjang dengan kosakata baru";
+"Traditional nursery rhyme" = "Sajak anak tradisional";
+"Read aloud" = "Bacakan";
+"Stop reading" = "Berhenti membaca";
+
 /* Drawing gallery */
+"Lines" = "Garis";
+"Shapes" = "Bentuk";
+"Horizontal line" = "Garis mendatar";
+"Vertical line" = "Garis tegak";
+"Diagonal line" = "Garis miring";
+"Arch" = "Lengkungan";
+"Wavy line" = "Garis bergelombang";
+"Zigzag" = "Zigzag";
+"Spiral" = "Spiral";
+"Circle" = "Lingkaran";
+"Oval" = "Oval";
+"Triangle" = "Segitiga";
+"Square" = "Persegi";
+"Rectangle" = "Persegi panjang";
+"Trace the dashes, or make your own marks." = "Ikuti garis putus-putus atau buat coretanmu sendiri.";
+"Clear drawing" = "Hapus gambar";
 "Drawings" = "Gambar";
 "What shall we draw?" = "Kita mau menggambar apa?";
 "Search drawings" = "Cari gambar";
@@ -387,3 +429,13 @@
 "Telescope" = "Teleskop";
 "Hermit crab" = "Kelomang";
 "Toy space station" = "Stasiun luar angkasa mainan";
+
+"Show and Tell" = "Lihat dan Ceritakan";
+"Stories are unavailable" = "Cerita tidak tersedia";
+"%lld stories in English" = "%lld cerita dalam bahasa Inggris";
+"Read story" = "Baca cerita";
+"Look at the pictures. What happens first, next, and last?" = "Lihat gambar-gambarnya. Apa yang terjadi pertama, berikutnya, dan terakhir?";
+"Picture %lld. %@" = "Gambar %lld. %@";
+"Picture %lld of %lld" = "Gambar %lld dari %lld";
+"Previous picture" = "Gambar sebelumnya";
+"Next picture" = "Gambar berikutnya";

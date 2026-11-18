@@ -1,4 +1,14 @@
 /* Simplified Chinese. Keep source keys and format placeholders unchanged. */
+
+/* Printing for today */
+"Print for today" = "打印今日内容";
+"Print" = "打印";
+"Activity" = "活动";
+"Drawing" = "绘画";
+"Poem in English" = "英文诗歌";
+"Couldn’t print" = "无法打印";
+"Check that an AirPrint printer is available and try again." = "请确认有可用的 AirPrint 打印机，然后重试。";
+
 "%@ · Step %lld of %lld" = "%@ · 第 %lld 步，共 %lld 步";
 "%@ — what made you smile, surprised you, or would you like to try again?" = "%@——什么让你会心一笑、感到惊喜，或想再试一次？";
 "%@, not checked" = "%@，尚未确认";
@@ -257,7 +267,39 @@
 "Zoom out map" = "缩小地图";
 "a little wonder" = "一点小惊喜";
 
+/* Poetry library and tab navigation */
+"More" = "更多";
+"Poems" = "诗歌";
+"%lld poems in English" = "%lld 首英语诗歌";
+"Search poems" = "搜索诗歌";
+"Poems are unavailable" = "暂时无法显示诗歌";
+"A few tiny lines" = "短短几行";
+"Short, playful rhymes" = "简短好玩的童谣";
+"Rhythm and repetition" = "节奏与重复";
+"Poems with a little story" = "有小故事的诗";
+"Longer verses" = "篇幅更长的诗";
+"Bigger reads and richer words" = "更长的诗，更多新词";
+"Traditional nursery rhyme" = "传统童谣";
+"Read aloud" = "朗读";
+"Stop reading" = "停止朗读";
+
 /* Drawing gallery */
+"Lines" = "线条";
+"Shapes" = "形状";
+"Horizontal line" = "横线";
+"Vertical line" = "竖线";
+"Diagonal line" = "斜线";
+"Arch" = "弧线";
+"Wavy line" = "波浪线";
+"Zigzag" = "锯齿线";
+"Spiral" = "螺旋线";
+"Circle" = "圆形";
+"Oval" = "椭圆形";
+"Triangle" = "三角形";
+"Square" = "正方形";
+"Rectangle" = "长方形";
+"Trace the dashes, or make your own marks." = "沿着虚线描一描，也可以自由涂鸦。";
+"Clear drawing" = "清除笔迹";
 "Drawings" = "画画";
 "What shall we draw?" = "今天画什么？";
 "Search drawings" = "搜索图画";
@@ -387,3 +429,13 @@
 "Telescope" = "望远镜";
 "Hermit crab" = "寄居蟹";
 "Toy space station" = "玩具空间站";
+
+"Show and Tell" = "看图讲故事";
+"Stories are unavailable" = "故事暂时无法显示";
+"%lld stories in English" = "%lld 个英文故事";
+"Read story" = "阅读故事";
+"Look at the pictures. What happens first, next, and last?" = "看看这些图片。先发生了什么？然后呢？最后呢？";
+"Picture %lld. %@" = "第 %lld 张图。%@";
+"Picture %lld of %lld" = "第 %lld 张图，共 %lld 张";
+"Previous picture" = "上一张图";
+"Next picture" = "下一张图";

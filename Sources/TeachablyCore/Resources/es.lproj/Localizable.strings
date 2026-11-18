@@ -1,4 +1,14 @@
 /* Teachably — es */
+
+/* Printing for today */
+"Print for today" = "Imprimir para hoy";
+"Print" = "Imprimir";
+"Activity" = "Actividad";
+"Drawing" = "Dibujo";
+"Poem in English" = "Poema en inglés";
+"Couldn’t print" = "No se pudo imprimir";
+"Check that an AirPrint printer is available and try again." = "Comprueba que haya una impresora AirPrint disponible y vuelve a intentarlo.";
+
 "%@ · Step %lld of %lld" = "%@ · Paso %lld de %lld";
 "%@ — what made you smile, surprised you, or would you like to try again?" = "%@ — ¿qué les hizo sonreír, les sorprendió o les gustaría repetir?";
 "%@, not checked" = "%@, sin marcar";
@@ -257,7 +267,39 @@
 "Zoom out map" = "Alejar mapa";
 "a little wonder" = "un pequeño asombro";
 
+/* Poetry library and tab navigation */
+"More" = "Más";
+"Poems" = "Poemas";
+"%lld poems in English" = "%lld poemas en inglés";
+"Search poems" = "Buscar poemas";
+"Poems are unavailable" = "Los poemas no están disponibles";
+"A few tiny lines" = "Unos versos muy cortos";
+"Short, playful rhymes" = "Rimas cortas y divertidas";
+"Rhythm and repetition" = "Ritmo y repetición";
+"Poems with a little story" = "Poemas con una pequeña historia";
+"Longer verses" = "Versos más largos";
+"Bigger reads and richer words" = "Poemas más largos con palabras nuevas";
+"Traditional nursery rhyme" = "Rima infantil tradicional";
+"Read aloud" = "Leer en voz alta";
+"Stop reading" = "Detener la lectura";
+
 /* Drawing gallery */
+"Lines" = "Líneas";
+"Shapes" = "Formas";
+"Horizontal line" = "Línea horizontal";
+"Vertical line" = "Línea vertical";
+"Diagonal line" = "Línea diagonal";
+"Arch" = "Arco";
+"Wavy line" = "Línea ondulada";
+"Zigzag" = "Zigzag";
+"Spiral" = "Espiral";
+"Circle" = "Círculo";
+"Oval" = "Óvalo";
+"Triangle" = "Triángulo";
+"Square" = "Cuadrado";
+"Rectangle" = "Rectángulo";
+"Trace the dashes, or make your own marks." = "Sigue los trazos o haz tus propias marcas.";
+"Clear drawing" = "Borrar dibujo";
 "Drawings" = "Dibujos";
 "What shall we draw?" = "¿Qué dibujamos?";
 "Search drawings" = "Buscar dibujos";
@@ -387,3 +429,13 @@
 "Telescope" = "Telescopio";
 "Hermit crab" = "Cangrejo ermitaño";
 "Toy space station" = "Estación espacial de juguete";
+
+"Show and Tell" = "Mira y cuenta";
+"Stories are unavailable" = "No se pueden mostrar los cuentos";
+"%lld stories in English" = "%lld cuentos en inglés";
+"Read story" = "Leer el cuento";
+"Look at the pictures. What happens first, next, and last?" = "Mira las imágenes. ¿Qué pasa al principio, después y al final?";
+"Picture %lld. %@" = "Imagen %lld. %@";
+"Picture %lld of %lld" = "Imagen %lld de %lld";
+"Previous picture" = "Imagen anterior";
+"Next picture" = "Imagen siguiente";

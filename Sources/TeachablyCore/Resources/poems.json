@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "rain-rain-go-away",
+    "level": 0,
+    "title": "Rain, Rain, Go Away",
+    "source": "motherGoose",
+    "text": "Rain, rain, go away,\nCome again another day;\nLittle Johnny wants to play."
+  },
+  {
+    "id": "jack-be-nimble",
+    "level": 0,
+    "title": "Jack Be Nimble",
+    "source": "motherGoose",
+    "text": "Jack be nimble, Jack be quick,\nJack jump over the candlestick."
+  },
+  {
+    "id": "lucy-locket",
+    "level": 0,
+    "title": "Lucy Locket",
+    "source": "motherGoose",
+    "text": "Lucy Locket lost her pocket,\nKitty Fisher found it;\nNothing in it, nothing in it,\nBut the binding round it."
+  },
+  {
+    "id": "abc",
+    "level": 0,
+    "title": "ABC",
+    "source": "motherGoose",
+    "text": "Great A, little a,\nBouncing B!\nThe cat's in the cupboard,\nAnd can't see me."
+  },
+  {
+    "id": "see-saw",
+    "level": 0,
+    "title": "See-Saw",
+    "source": "motherGoose",
+    "text": "See-saw, Margery Daw,\nSold her bed and lay upon straw."
+  },
+  {
+    "id": "lengthening-days",
+    "level": 0,
+    "title": "Lengthening Days",
+    "source": "motherGoose",
+    "text": "As the days grow longer\nThe storms grow stronger."
+  },
+  {
+    "id": "the-mist",
+    "level": 0,
+    "title": "The Mist",
+    "source": "motherGoose",
+    "text": "A hill full, a hole full,\nYet you cannot catch a bowl full."
+  },
+  {
+    "id": "my-kitten",
+    "level": 0,
+    "title": "My Kitten",
+    "source": "motherGoose",
+    "text": "Hey, my kitten, my kitten,\nAnd hey, my kitten, my deary!\nSuch a sweet pet as this\nWas neither far nor neary."
+  },
+  {
+    "id": "a-counting-out-rhyme",
+    "level": 0,
+    "title": "A Counting-Out Rhyme",
+    "source": "motherGoose",
+    "text": "Hickery, dickery, 6 and 7,\nAlabone, Crackabone, 10 and 11,\nSpin, spun, muskidun,\nTwiddle 'em, twaddle 'em, 21."
+  },
+  {
+    "id": "hot-boiled-beans",
+    "level": 0,
+    "title": "Hot Boiled Beans",
+    "source": "motherGoose",
+    "text": "Ladies and gentlemen come to supper—\nHot boiled beans and very good butter."
+  },
+  {
+    "id": "tommy-tittlemouse",
+    "level": 0,
+    "title": "Tommy Tittlemouse",
+    "source": "motherGoose",
+    "text": "Little Tommy Tittlemouse\nLived in a little house;\nHe caught fishes\nIn other men's ditches."
+  },
+  {
+    "id": "a-sieve",
+    "level": 0,
+    "title": "A Sieve",
+    "source": "motherGoose",
+    "text": "A riddle, a riddle, as I suppose,\nA hundred eyes and never a nose!"
+  },
+  {
+    "id": "see-see",
+    "level": 0,
+    "title": "See, See",
+    "source": "motherGoose",
+    "text": "See, see! What shall I see?\nA horse's head where his tail should be."
+  },
+  {
+    "id": "for-baby",
+    "level": 0,
+    "title": "For Baby",
+    "source": "motherGoose",
+    "text": "You shall have an apple,\nYou shall have a plum,\nYou shall have a rattle,\nWhen papa comes home."
+  },
+  {
+    "id": "a-star",
+    "level": 0,
+    "title": "A Star",
+    "source": "motherGoose",
+    "text": "Higher than a house, higher than a tree.\nOh! whatever can that be?"
+  },
+  {
+    "id": "an-icicle",
+    "level": 0,
+    "title": "An Icicle",
+    "source": "motherGoose",
+    "text": "Lives in winter,\nDies in summer,\nAnd grows with its roots upward!"
+  },
+  {
+    "id": "ring-a-ring-o-roses",
+    "level": 0,
+    "title": "Ring a Ring o' Roses",
+    "source": "motherGoose",
+    "text": "Ring a ring o' roses,\nA pocketful of posies.\nTisha! Tisha!\nWe all fall down."
+  },
+  {
+    "id": "one-to-ten",
+    "level": 0,
+    "title": "One to Ten",
+    "source": "motherGoose",
+    "text": "1, 2, 3, 4, 5!\nI caught a hare alive;\n6, 7, 8, 9, 10!\nI let her go again."
+  },
+  {
+    "id": "bell-horses",
+    "level": 0,
+    "title": "Bell Horses",
+    "source": "motherGoose",
+    "text": "Bell horses, bell horses, what time of day?\nOne o'clock, two o'clock, three and away."
+  },
+  {
+    "id": "march-winds-and-april-showers",
+    "level": 0,
+    "title": "March Winds and April Showers",
+    "source": "motherGoose",
+    "text": "March winds and April showers\nBring forth May flowers."
+  },
+  {
+    "id": "the-balloon",
+    "level": 0,
+    "title": "The Balloon",
+    "source": "motherGoose",
+    "text": "\"What is the news of the day,\nGood neighbor, I pray?\"\n\"They say the balloon\nIs gone up to the moon!\""
+  },
+  {
+    "id": "swan",
+    "level": 0,
+    "title": "Swan",
+    "source": "motherGoose",
+    "text": "Swan, swan, over the sea;\nSwim, swan, swim!\nSwan, swan, back again;\nWell swum, swan!"
+  },
+  {
+    "id": "a-sunshiny-shower",
+    "level": 0,
+    "title": "A Sunshiny Shower",
+    "source": "motherGoose",
+    "text": "A sunshiny shower\nWon't last half an hour."
+  },
+  {
+    "id": "wrens-and-robins-in-the-hedge",
+    "level": 0,
+    "title": "Wrens and robins in the hedge",
+    "source": "rossetti",
+    "text": "Wrens and robins in the hedge,\nWrens and robins here and there;\nBuilding, perching, pecking, fluttering,\nEverywhere!"
+  },
+  {
+    "id": "where-innocent-bright-eyed-daisies-are",
+    "level": 0,
+    "title": "Where Innocent Bright-Eyed Daisies Are",
+    "source": "rossetti",
+    "text": "Where innocent bright-eyed daisies are,\nWith blades of grass between,\nEach daisy stands up like a star\nOut of a sky of green."
+  },
+  {
+    "id": "when-fishes-set-umbrellas-up",
+    "level": 0,
+    "title": "When fishes set umbrellas up",
+    "source": "rossetti",
+    "text": "When fishes set umbrellas up\nIf the rain-drops run,\nLizards will want their parasols\nTo shade them from the sun."
+  },
+  {
+    "id": "pussy-has-a-whiskered-face",
+    "level": 0,
+    "title": "Pussy has a whiskered face",
+    "source": "rossetti",
+    "text": "Pussy has a whiskered face,\nKitty has such pretty ways;\nDoggie scampers when I call,\nAnd has a heart to love us all."
+  },
+  {
+    "id": "currants-on-a-bush",
+    "level": 0,
+    "title": "Currants on a bush",
+    "source": "rossetti",
+    "text": "Currants on a bush,\nAnd figs upon a stem,\nAnd cherries on a bending bough,\nAnd Ned to gather them."
+  },
+  {
+    "id": "swift-and-sure-the-swallow",
+    "level": 0,
+    "title": "Swift and sure the swallow",
+    "source": "rossetti",
+    "text": "Swift and sure the swallow,\nSlow and sure the snail:\nSlow and sure may miss his way,\nSwift and sure may fail."
+  },
+  {
+    "id": "rain",
+    "level": 0,
+    "title": "Rain",
+    "source": "stevenson",
+    "text": "The rain is raining all around,\nIt falls on field and tree,\nIt rains on the umbrellas here,\nAnd on the ships at sea."
+  },
+  {
+    "id": "happy-thought",
+    "level": 0,
+    "title": "Happy Thought",
+    "source": "stevenson",
+    "text": "The world is so full of a number of things,\nI'm sure we should all be as happy as kings."
+  },
+  {
+    "id": "little-jumping-joan",
+    "level": 0,
+    "title": "Little Jumping Joan",
+    "source": "motherGoose",
+    "text": "Here am I, little jumping Joan,\nWhen nobody's with me\nI'm always alone."
+  },
+  {
+    "id": "hickory-dickory-dock",
+    "level": 1,
+    "title": "Hickory, Dickory, Dock",
+    "source": "motherGoose",
+    "text": "Hickory, dickory, dock!\nThe mouse ran up the clock;\nThe clock struck one,\nAnd down he run,\nHickory, dickory, dock!"
+  },
+  {
+    "id": "little-boy-blue",
+    "level": 1,
+    "title": "Little Boy Blue",
+    "source": "motherGoose",
+    "text": "Little Boy Blue, come, blow your horn!\nThe sheep's in the meadow, the cow's in the corn.\nWhere's the little boy that looks after the sheep?\nUnder the haystack, fast asleep!"
+  },
+  {
+    "id": "thirty-days-hath-september",
+    "level": 1,
+    "title": "Thirty Days Hath September",
+    "source": "motherGoose",
+    "text": "Thirty days hath September,\nApril, June, and November;\nFebruary has twenty-eight alone,\nAll the rest have thirty-one,\nExcepting leap-year, that's the time\nWhen February's days are twenty-nine."
+  },
+  {
+    "id": "baby-dolly",
+    "level": 1,
+    "title": "Baby Dolly",
+    "source": "motherGoose",
+    "text": "Hush, baby, my dolly, I pray you don't cry,\nAnd I'll give you some bread, and some milk by-and-by;\nOr perhaps you like custard, or, maybe, a tart,\nThen to either you're welcome, with all my heart."
+  },
+  {
+    "id": "leg-over-leg",
+    "level": 1,
+    "title": "Leg Over Leg",
+    "source": "motherGoose",
+    "text": "Leg over leg,\nAs the dog went to Dover;\nWhen he came to a stile,\nJump, he went over."
+  },
+  {
+    "id": "burnie-bee",
+    "level": 1,
+    "title": "Burnie Bee",
+    "source": "motherGoose",
+    "text": "Burnie bee, burnie bee,\nTell me when your wedding be?\nIf it be to-morrow day,\nTake your wings and fly away."
+  },
+  {
+    "id": "a-needle-and-thread",
+    "level": 1,
+    "title": "A Needle and Thread",
+    "source": "motherGoose",
+    "text": "Old Mother Twitchett had but one eye,\nAnd a long tail which she let fly;\nAnd every time she went through a gap,\nA bit of her tail she left in a trap."
+  },
+  {
+    "id": "banbury-cross",
+    "level": 1,
+    "title": "Banbury Cross",
+    "source": "motherGoose",
+    "text": "Ride a cock-horse to Banbury Cross,\nTo see an old lady upon a white horse.\nRings on her fingers, and bells on her toes,\nShe shall have music wherever she goes."
+  },
+  {
+    "id": "five-toes",
+    "level": 1,
+    "title": "Five Toes",
+    "source": "motherGoose",
+    "text": "This little pig went to market;\nThis little pig stayed at home;\nThis little pig had roast beef;\nThis little pig had none;\nThis little pig said, \"Wee, wee!\nI can't find my way home.\""
+  },
+  {
+    "id": "doctor-foster",
+    "level": 1,
+    "title": "Doctor Foster",
+    "source": "motherGoose",
+    "text": "Doctor Foster went to Glo'ster,\nIn a shower of rain;\nHe stepped in a puddle, up to his middle,\nAnd never went there again."
+  },
+  {
+    "id": "diddle-diddle-dumpling",
+    "level": 1,
+    "title": "Diddle Diddle Dumpling",
+    "source": "motherGoose",
+    "text": "Diddle diddle dumpling, my son John\nWent to bed with his breeches on,\nOne stocking off, and one stocking on;\nDiddle diddle dumpling, my son John."
+  },
+  {
+    "id": "the-black-hen",
+    "level": 1,
+    "title": "The Black Hen",
+    "source": "motherGoose",
+    "text": "Hickety, pickety, my black hen,\nShe lays eggs for gentlemen;\nGentlemen come every day\nTo see what my black hen doth lay."
+  },
+  {
+    "id": "a-candle",
+    "level": 1,
+    "title": "A Candle",
+    "source": "motherGoose",
+    "text": "Little Nanny Etticoat\nIn a white petticoat,\nAnd a red nose;\nThe longer she stands\nThe shorter she grows."
+  },
+  {
+    "id": "little-miss-muffet",
+    "level": 1,
+    "title": "Little Miss Muffet",
+    "source": "motherGoose",
+    "text": "Little Miss Muffet\nSat on a tuffet,\nEating of curds and whey;\nThere came a big spider,\nAnd sat down beside her,\nAnd frightened Miss Muffet away."
+  },
+  {
+    "id": "humpty-dumpty",
+    "level": 1,
+    "title": "Humpty Dumpty",
+    "source": "motherGoose",
+    "text": "Humpty Dumpty sat on a wall,\nHumpty Dumpty had a great fall;\nAll the King's horses, and all the King's men\nCannot put Humpty Dumpty together again."
+  },
+  {
+    "id": "jack-sprat",
+    "level": 1,
+    "title": "Jack Sprat",
+    "source": "motherGoose",
+    "text": "Jack Sprat\nCould eat no fat,\nHis wife could eat no lean;\nAnd so,\nBetwixt them both,\nThey licked the platter clean."
+  },
+  {
+    "id": "handy-pandy",
+    "level": 1,
+    "title": "Handy Pandy",
+    "source": "motherGoose",
+    "text": "Handy Pandy, Jack-a-dandy,\nLoves plum cake and sugar candy.\nHe bought some at a grocer's shop,\nAnd out he came, hop, hop, hop!"
+  },
+  {
+    "id": "teeth-and-gums",
+    "level": 1,
+    "title": "Teeth and Gums",
+    "source": "motherGoose",
+    "text": "Thirty white horses upon a red hill,\nNow they tramp, now they champ, now they stand still."
+  },
+  {
+    "id": "the-robins",
+    "level": 1,
+    "title": "The Robins",
+    "source": "motherGoose",
+    "text": "A robin and a robin's son\nOnce went to town to buy a bun.\nThey couldn't decide on plum or plain,\nAnd so they went back home again."
+  },
+  {
+    "id": "pancake-day",
+    "level": 1,
+    "title": "Pancake Day",
+    "source": "motherGoose",
+    "text": "Great A, little a,\nThis is pancake day;\nToss the ball high,\nThrow the ball low,\nThose that come after\nMay sing heigh-ho!"
+  },
+  {
+    "id": "i-ll-tell-you-a-story",
+    "level": 1,
+    "title": "I'll Tell You a Story",
+    "source": "motherGoose",
+    "text": "I'll tell you a story\nAbout Jack-a-Nory:\nAnd now my story's begun.\nI'll tell you another\nAbout his brother:\nAnd now my story is done."
+  },
+  {
+    "id": "baa-baa-black-sheep",
+    "level": 1,
+    "title": "Baa, Baa, Black Sheep",
+    "source": "motherGoose",
+    "text": "Baa, baa, black sheep,\nHave you any wool?\nYes, marry, have I,\nThree bags full;\n\nOne for my master,\nOne for my dame,\nBut none for the little boy\nWho cries in the lane."
+  },
+  {
+    "id": "hey-diddle-diddle",
+    "level": 1,
+    "title": "Hey Diddle Diddle",
+    "source": "motherGoose",
+    "text": "Hey, diddle, diddle!\nThe cat and the fiddle,\nThe cow jumped over the moon;\nThe little dog laughed\nTo see such sport,\nAnd the dish ran away with the spoon."
+  },
+  {
+    "id": "little-jack-horner",
+    "level": 1,
+    "title": "Little Jack Horner",
+    "source": "motherGoose",
+    "text": "Little Jack Horner\nSat in the corner,\nEating of Christmas pie:\nHe put in his thumb,\nAnd pulled out a plum,\nAnd said, \"What a good boy am I!\""
+  },
+  {
+    "id": "mary-mary-quite-contrary",
+    "level": 1,
+    "title": "Mary, Mary, Quite Contrary",
+    "source": "motherGoose",
+    "text": "Mary, Mary, quite contrary,\nHow does your garden grow?\nSilver bells and cockle-shells,\nAnd pretty maids all of a row."
+  },
+  {
+    "id": "birds-of-a-feather",
+    "level": 1,
+    "title": "Birds of a Feather",
+    "source": "motherGoose",
+    "text": "Birds of a feather flock together,\nAnd so will pigs and swine;\nRats and mice will have their choice,\nAnd so will I have mine."
+  },
+  {
+    "id": "the-boy-in-the-barn",
+    "level": 1,
+    "title": "The Boy in the Barn",
+    "source": "motherGoose",
+    "text": "A little boy went into a barn,\nAnd lay down on some hay.\nAn owl came out, and flew about,\nAnd the little boy ran away."
+  },
+  {
+    "id": "betty-blue",
+    "level": 1,
+    "title": "Betty Blue",
+    "source": "motherGoose",
+    "text": "Little Betty Blue\nLost her holiday shoe;\nWhat shall little Betty do?\nGive her another\nTo match the other\nAnd then she'll walk upon two."
+  },
+  {
+    "id": "bedtime",
+    "level": 1,
+    "title": "Bedtime",
+    "source": "motherGoose",
+    "text": "The Man in the Moon looked out of the moon,\nLooked out of the moon and said,\n\"'Tis time for all children, on the earth\nTo think about getting to bed!\""
+  },
+  {
+    "id": "the-donkey",
+    "level": 1,
+    "title": "The Donkey",
+    "source": "motherGoose",
+    "text": "Donkey, donkey, old and gray,\nOpe your mouth and gently bray;\nLift your ears and blow your horn,\nTo wake the world this sleepy morn."
+  },
+  {
+    "id": "peter-piper",
+    "level": 1,
+    "title": "Peter Piper",
+    "source": "motherGoose",
+    "text": "Peter Piper picked a peck of pickled peppers;\nA peck of pickled peppers Peter Piper picked.\nIf Peter Piper picked a peck of pickled peppers,\nWhere's the peck of pickled peppers Peter Piper picked?"
+  },
+  {
+    "id": "come-let-s-to-bed",
+    "level": 1,
+    "title": "Come, Let's to Bed",
+    "source": "motherGoose",
+    "text": "\"To bed! To bed!\"\nSays Sleepy-head;\n\"Tarry awhile,\" says Slow;\n\"Put on the pan,\"\nSays Greedy Nan;\n\"We'll sup before we go.\""
+  },
+  {
+    "id": "sing-sing",
+    "level": 1,
+    "title": "Sing, Sing",
+    "source": "motherGoose",
+    "text": "Sing, sing, what shall I sing?\nCat's run away with the pudding-string!\nDo, do, what shall I do?\nThe cat has bitten it quite in two."
+  },
+  {
+    "id": "the-lost-shoe",
+    "level": 1,
+    "title": "The Lost Shoe",
+    "source": "motherGoose",
+    "text": "Doodle doodle doo,\nThe Princess lost her shoe:\nHer Highness hopped,—\nThe fiddler stopped,\nNot knowing what to do."
+  },
+  {
+    "id": "eight-oclock",
+    "level": 1,
+    "title": "Eight o’clock",
+    "source": "rossetti",
+    "text": "Eight o’clock;\nThe postman’s knock!\nFive letters for Papa;\nOne for Lou,\nAnd none for you,\nAnd three for dear Mamma."
+  },
+  {
+    "id": "bread-and-milk-for-breakfast",
+    "level": 1,
+    "title": "Bread and milk for breakfast",
+    "source": "rossetti",
+    "text": "Bread and milk for breakfast,\nAnd woollen frocks to wear,\nAnd a crumb for robin redbreast\nOn the cold days of the year."
+  },
+  {
+    "id": "if-all-were-rain-and-never-sun",
+    "level": 1,
+    "title": "If all were rain and never sun",
+    "source": "rossetti",
+    "text": "If all were rain and never sun,\nNo bow could span the hill;\nIf all were sun and never rain,\nThere’d be no rainbow still."
+  },
+  {
+    "id": "mix-a-pancake",
+    "level": 1,
+    "title": "Mix a pancake",
+    "source": "rossetti",
+    "text": "Mix a pancake,\nStir a pancake,\nPop it in the pan;\nFry the pancake,\nToss the pancake,—\nCatch it if you can."
+  },
+  {
+    "id": "fly-away-fly-away-over-the-sea",
+    "level": 1,
+    "title": "Fly away, fly away over the sea",
+    "source": "rossetti",
+    "text": "Fly away, fly away over the sea,\nSun-loving swallow, for summer is done;\nCome again, come again, come back to me,\nBringing the summer and bringing the sun."
+  },
+  {
+    "id": "lie-a-bed",
+    "level": 1,
+    "title": "Lie a-bed",
+    "source": "rossetti",
+    "text": "Lie a-bed,\nSleepy head,\nShut up eyes, bo-peep;\nTill daybreak\nNever wake:—\nBaby, sleep."
+  },
+  {
+    "id": "auntie-s-skirts",
+    "level": 1,
+    "title": "Auntie's Skirts",
+    "source": "stevenson",
+    "text": "Whenever Auntie moves around,\nHer dresses make a curious sound,\nThey trail behind her up the floor,\nAnd trundle after through the door."
+  },
+  {
+    "id": "pat-a-cake",
+    "level": 2,
+    "title": "Pat-a-Cake",
+    "source": "motherGoose",
+    "text": "Pat-a-cake, pat-a-cake,\nBaker's man!\nSo I do, master,\nAs fast as I can.\n\nPat it, and prick it,\nAnd mark it with T,\nPut it in the oven\nFor Tommy and me."
+  },
+  {
+    "id": "the-clock",
+    "level": 2,
+    "title": "The Clock",
+    "source": "motherGoose",
+    "text": "There's a neat little clock,—\nIn the schoolroom it stands,—\nAnd it points to the time\nWith its two little hands.\n\nAnd may we, like the clock,\nKeep a face clean and bright,\nWith hands ever ready\nTo do what is right."
+  },
+  {
+    "id": "dame-trot-and-her-cat",
+    "level": 2,
+    "title": "Dame Trot and Her Cat",
+    "source": "motherGoose",
+    "text": "Dame Trot and her cat\nLed a peaceable life,\nWhen they were not troubled\nWith other folks' strife.\n\nWhen Dame had her dinner\nPussy would wait,\nAnd was sure to receive\nA nice piece from her plate."
+  },
+  {
+    "id": "going-to-st-ives",
+    "level": 2,
+    "title": "Going to St. Ives",
+    "source": "motherGoose",
+    "text": "As I was going to St. Ives\nI met a man with seven wives.\nEvery wife had seven sacks,\nEvery sack had seven cats,\nEvery cat had seven kits.\nKits, cats, sacks, and wives,\nHow many were going to St. Ives?"
+  },
+  {
+    "id": "bees",
+    "level": 2,
+    "title": "Bees",
+    "source": "motherGoose",
+    "text": "A swarm of bees in May\nIs worth a load of hay;\nA swarm of bees in June\nIs worth a silver spoon;\nA swarm of bees in July\nIs not worth a fly."
+  },
+  {
+    "id": "to-market",
+    "level": 2,
+    "title": "To Market",
+    "source": "motherGoose",
+    "text": "To market, to market, to buy a fat pig.\nHome again, home again, jiggety jig.\nTo market, to market, to buy a fat hog,\nHome again, home again, jiggety jog.\nTo market, to market, to buy a plum bun,\nHome again, home again, market is done."
+  },
+  {
+    "id": "the-flying-pig",
+    "level": 2,
+    "title": "The Flying Pig",
+    "source": "motherGoose",
+    "text": "Dickory, dickory, dare,\nThe pig flew up in the air;\nThe man in brown soon brought\nhim down,\nDickory,\ndickory,\ndare."
+  },
+  {
+    "id": "pussy-cat-and-queen",
+    "level": 2,
+    "title": "Pussy-Cat and Queen",
+    "source": "motherGoose",
+    "text": "\"Pussy-cat, pussy-cat,\nWhere have you been?\"\n\"I've been to London\nTo look at the Queen.\"\n\n\"Pussy-cat, pussy-cat,\nWhat did you there?\"\n\"I frightened a little mouse\nUnder the chair.\""
+  },
+  {
+    "id": "clap-handies",
+    "level": 2,
+    "title": "Clap Handies",
+    "source": "motherGoose",
+    "text": "Clap, clap handies,\nMammie's wee, wee ain;\nClap, clap handies,\nDaddie's comin' hame,\nHame till his bonny wee bit laddie;\nClap, clap handies,\nMy wee, wee ain."
+  },
+  {
+    "id": "just-like-me",
+    "level": 2,
+    "title": "Just Like Me",
+    "source": "motherGoose",
+    "text": "\"I went up one pair of stairs.\"\n\"Just like me.\"\n\n\"I went up two pairs of stairs.\"\n\"Just like me.\"\n\n\"I went into a room.\"\n\"Just like me.\"\n\n\"I looked out of a window.\"\n\"Just like me.\"\n\n\"And there I saw a monkey.\"\n\"Just like me.\""
+  },
+  {
+    "id": "wee-willie-winkie",
+    "level": 2,
+    "title": "Wee Willie Winkie",
+    "source": "motherGoose",
+    "text": "Wee Willie Winkie runs through the town,\nUpstairs and downstairs, in his nightgown;\nRapping at the window, crying through the lock,\n\"Are the children in their beds? Now it's eight o'clock.\""
+  },
+  {
+    "id": "one-two-three-four-five",
+    "level": 2,
+    "title": "One, Two, Three, Four, Five",
+    "source": "motherGoose",
+    "text": "One, two, three, four, five,\nOnce I caught a fish alive.\nSix, seven, eight, nine, ten,\nBut I let it go again.\nWhy did you let it go?\nBecause it bit my finger so.\nWhich finger did it bite?\nThe little one upon the right."
+  },
+  {
+    "id": "jack-and-jill",
+    "level": 2,
+    "title": "Jack and Jill",
+    "source": "motherGoose",
+    "text": "Jack and Jill went up the hill,\nTo fetch a pail of water;\nJack fell down, and broke his crown,\nAnd Jill came tumbling after.\n\nThen up Jack got and off did trot,\nAs fast as he could caper,\nTo old Dame Dob, who patched his nob\nWith vinegar and brown paper."
+  },
+  {
+    "id": "one-misty-moisty-morning",
+    "level": 2,
+    "title": "One Misty Moisty Morning",
+    "source": "motherGoose",
+    "text": "One misty moisty morning,\nWhen cloudy was the weather,\nI chanced to meet an old man,\nClothed all in leather.\nHe began to compliment\nAnd I began to grin.\nHow do you do? And how do you do?\nAnd how do you do again?"
+  },
+  {
+    "id": "sleep-baby-sleep",
+    "level": 2,
+    "title": "Sleep, Baby, Sleep",
+    "source": "motherGoose",
+    "text": "Sleep, baby, sleep,\nOur cottage vale is deep:\nThe little lamb is on the green,\nWith woolly fleece so soft and clean—\nSleep, baby, sleep.\nSleep, baby, sleep,\nDown where the woodbines creep;\nBe always like the lamb so mild,\nA kind, and sweet, and gentle child.\nSleep, baby, sleep."
+  },
+  {
+    "id": "little-pussy",
+    "level": 2,
+    "title": "Little Pussy",
+    "source": "motherGoose",
+    "text": "I like little Pussy,\nHer coat is so warm,\n\nAnd if I don't hurt her\nShe'll do me no harm;\n\nSo I'll not pull her tail,\nNor drive her away,\n\nBut Pussy and I\nVery gently will play."
+  },
+  {
+    "id": "pretty-john-watts",
+    "level": 2,
+    "title": "Pretty John Watts",
+    "source": "motherGoose",
+    "text": "Pretty John Watts,\nWe are troubled with rats.\nWill you drive them out of the house?\nWe have mice, too, in plenty,\nThat feast in the pantry,\nBut let them stay\nAnd nibble away,\nWhat harm in a little brown mouse?"
+  },
+  {
+    "id": "billy-billy",
+    "level": 2,
+    "title": "Billy, Billy",
+    "source": "motherGoose",
+    "text": "\"Billy, Billy, come and play,\nWhile the sun shines bright as day.\"\n\n\"Yes, my Polly, so I will,\nFor I love to please you still.\"\n\n\"Billy, Billy, have you seen\nSam and Betsy on the green?\"\n\n\"Yes, my Poll, I saw them pass,\nSkipping o'er the new-mown grass.\"\n\n\"Billy, Billy, come along,\nAnd I will sing a pretty song.\""
+  },
+  {
+    "id": "the-man-in-the-wilderness",
+    "level": 2,
+    "title": "The Man in the Wilderness",
+    "source": "motherGoose",
+    "text": "The man in the wilderness\nAsked me\nHow many strawberries\nGrew in the sea.\nI answered him\nAs I thought good,\nAs many as red herrings\nGrew in the wood."
+  },
+  {
+    "id": "pussy-cat-and-the-dumplings",
+    "level": 2,
+    "title": "Pussy-Cat and the Dumplings",
+    "source": "motherGoose",
+    "text": "Pussy-cat ate the dumplings, the dumplings,\nPussy-cat ate the dumplings.\nMamma stood by, and cried, \"Oh, fie!\nWhy did you eat the dumplings?\""
+  },
+  {
+    "id": "the-little-bird",
+    "level": 2,
+    "title": "The Little Bird",
+    "source": "motherGoose",
+    "text": "Once I saw a little bird\nCome hop, hop, hop;\nSo I cried, \"Little bird,\nWill you stop, stop, stop?\"\n\nAnd was going to the window\nTo say, \"How do you do?\"\nBut he shook his little tail,\nAnd far away he flew."
+  },
+  {
+    "id": "dance-little-baby",
+    "level": 2,
+    "title": "Dance, Little Baby",
+    "source": "motherGoose",
+    "text": "Dance, little Baby, dance up high!\nNever mind, Baby, Mother is by.\nCrow and caper, caper and crow,\nThere, little Baby, there you go!\nUp to the ceiling, down to the ground,\nBackwards and forwards, round and round;\nDance, little Baby and Mother will sing,\nWith the merry coral, ding, ding, ding!"
+  },
+  {
+    "id": "pease-porridge",
+    "level": 2,
+    "title": "Pease Porridge",
+    "source": "motherGoose",
+    "text": "Pease porridge hot,\nPease porridge cold,\nPease porridge in the pot,\nNine days old.\nSome like it hot,\nSome like it cold,\nSome like it in the pot,\nNine days old."
+  },
+  {
+    "id": "whistle",
+    "level": 2,
+    "title": "Whistle",
+    "source": "motherGoose",
+    "text": "\"Whistle, daughter, whistle;\nWhistle, daughter dear.\"\n\"I cannot whistle, mammy,\nI cannot whistle clear.\"\n\"Whistle, daughter, whistle;\nWhistle for a pound.\"\n\"I cannot whistle, mammy,\nI cannot make a sound.\""
+  },
+  {
+    "id": "the-robin",
+    "level": 2,
+    "title": "The Robin",
+    "source": "motherGoose",
+    "text": "The north wind doth blow,\nAnd we shall have snow,\nAnd what will poor robin do then,\nPoor thing?\n\nHe'll sit in a barn,\nAnd keep himself warm,\nAnd hide his head under his wing,\nPoor thing!"
+  },
+  {
+    "id": "hot-cross-buns",
+    "level": 2,
+    "title": "Hot-Cross Buns",
+    "source": "motherGoose",
+    "text": "Hot-cross Buns!\nHot-cross Buns!\nOne a penny, two a penny,\nHot-cross Buns!\n\nHot-cross Buns!\nHot-cross Buns!\nIf ye have no daughters,\nGive them to your sons."
+  },
+  {
+    "id": "pussy-cat-by-the-fire",
+    "level": 2,
+    "title": "Pussy-Cat by the Fire",
+    "source": "motherGoose",
+    "text": "Pussy-cat sits by the fire;\nHow can she be fair?\nIn walks the little dog;\nSays: \"Pussy, are you there?\nHow do you do, Mistress Pussy?\nMistress Pussy, how d'ye do?\"\n\"I thank you kindly, little dog,\nI fare as well as you!\""
+  },
+  {
+    "id": "love-me-i-love-you",
+    "level": 2,
+    "title": "Love me,—I love you",
+    "source": "rossetti",
+    "text": "Love me,—I love you,\nLove me, my baby;\nSing it high, sing it low,\nSing it as may be.\n\nMother’s arms under you,\nHer eyes above you;\nSing it high, sing it low,\nLove me,—I love you."
+  },
+  {
+    "id": "kookoorookoo-kookoorookoo",
+    "level": 2,
+    "title": "Kookoorookoo! kookoorookoo!",
+    "source": "rossetti",
+    "text": "“Kookoorookoo! kookoorookoo!”\nCrows the cock before the morn\n“Kikirikee! kikirikee!”\nRoses in the east are born.\n\n“Kookoorookoo! kookoorookoo!”\nEarly birds begin their singing;\n“Kikirikee! kikirikee!”\nThe day, the day, the day is springing."
+  },
+  {
+    "id": "i-dug-and-dug-amongst-the-snow",
+    "level": 2,
+    "title": "I dug and dug amongst the snow",
+    "source": "rossetti",
+    "text": "I dug and dug amongst the snow,\nAnd thought the flowers would never grow;\nI dug and dug amongst the sand,\nAnd still no green thing came to hand.\n\nMelt, O snow! the warm winds blow\nTo thaw the flowers and melt the snow\nBut all the winds from every land\nWill rear no blossom from the sand."
+  },
+  {
+    "id": "growing-in-the-vale",
+    "level": 2,
+    "title": "Growing in the vale",
+    "source": "rossetti",
+    "text": "Growing in the vale\nBy the uplands hilly,\nGrowing straight and frail,\nLady Daffadowndilly.\n\nIn a golden crown,\nAnd a scant green gown\nWhile the spring blows chilly,\nLady Daffadown,\nSweet Daffadowndilly."
+  },
+  {
+    "id": "o-wind-where-have-you-been",
+    "level": 2,
+    "title": "O wind, where have you been",
+    "source": "rossetti",
+    "text": "O wind, where have you been,\nThat you blow so sweet?\nAmong the violets\nWhich blossom at your feet.\n\nThe honeysuckle waits\nFor Summer and for heat.\nBut violets in the chilly Spring\nMake the turf so sweet."
+  },
+  {
+    "id": "on-the-grassy-banks",
+    "level": 2,
+    "title": "On the grassy banks",
+    "source": "rossetti",
+    "text": "On the grassy banks\nLambkins at their pranks;\nWoolly sisters, woolly brothers\nJumping off their feet\nWhile their woolly mothers\nWatch by them and bleat."
+  },
+  {
+    "id": "rushes-in-a-watery-place",
+    "level": 2,
+    "title": "Rushes in a watery place",
+    "source": "rossetti",
+    "text": "Rushes in a watery place,\nAnd reeds in a hollow;\nA soaring skylark in the sky,\nA darting swallow;\nAnd where pale blossom used to hang\nRipe fruit to follow."
+  },
+  {
+    "id": "the-days-are-clear",
+    "level": 2,
+    "title": "The days are clear",
+    "source": "rossetti",
+    "text": "The days are clear,\nDay after day,\nWhen April’s here,\nThat leads to May,\nAnd June\nMust follow soon:\nStay, June, stay!—\nIf only we could stop the moon\nAnd June!"
+  },
+  {
+    "id": "if-a-pig-wore-a-wig",
+    "level": 2,
+    "title": "If a Pig Wore a Wig",
+    "source": "rossetti",
+    "text": "If a pig wore a wig,\nWhat could we say?\nTreat him as a gentleman,\nAnd say “Good day.”\nIf his tail chanced to fail,\nWhat could we do?—\nSend him to the tailoress\nTo get one new."
+  },
+  {
+    "id": "mother-shake-the-cherry-tree",
+    "level": 2,
+    "title": "Mother shake the cherry tree",
+    "source": "rossetti",
+    "text": "Mother shake the cherry-tree,\nSusan catch a cherry;\nOh how funny that will be,\nLet’s be merry!\nOne for brother, one for sister,\nTwo for mother more,\nSix for father, hot and tired,\nKnocking at the door."
+  },
+  {
+    "id": "three-plum-buns",
+    "level": 2,
+    "title": "Three plum buns",
+    "source": "rossetti",
+    "text": "Three plum buns\nTo eat here at the stile\nIn the clover meadow,\nFor we have walked a mile.\n\nOne for you, and one for me,\nAnd one left over:\nGive it to the boy who shouts\nTo scare sheep from the clover."
+  },
+  {
+    "id": "the-dog-lies-in-his-kennel",
+    "level": 2,
+    "title": "The Dog Lies in His Kennel",
+    "source": "rossetti",
+    "text": "The dog lies in his kennel,\nAnd Puss purrs on the rug,\nAnd baby perches on my knee\nFor me to love and hug.\n\nPat the dog and stroke the cat,\nEach in its degree;\nAnd cuddle and kiss my baby,\nAnd baby kiss me."
+  },
+  {
+    "id": "a-frisky-lamb",
+    "level": 2,
+    "title": "A frisky lamb",
+    "source": "rossetti",
+    "text": "A frisky lamb\nAnd a frisky child\nPlaying their pranks\nIn a cowslip meadow:\nThe sky all blue\nAnd the air all mild\nAnd the fields all sun\nAnd the lanes half shadow."
+  },
+  {
+    "id": "a-white-hen-sitting",
+    "level": 2,
+    "title": "A white hen sitting",
+    "source": "rossetti",
+    "text": "A white hen sitting\nOn white eggs three:\nNext, three speckled chickens\nAs plump as plump can be.\n\nAn owl, and a hawk,\nAnd a bat come to see:\nBut chicks beneath their mother’s wing\nSquat safe as safe can be."
+  },
+  {
+    "id": "who-has-seen-the-wind",
+    "level": 2,
+    "title": "Who Has Seen the Wind?",
+    "source": "rossetti",
+    "text": "Who has seen the wind?\nNeither I nor you:\nBut when the leaves hang trembling\nThe wind is passing thro’.\n\nWho has seen the wind?\nNeither you nor I:\nBut when the trees bow down their heads\nThe wind is passing by."
+  },
+  {
+    "id": "a-house-of-cards",
+    "level": 2,
+    "title": "A house of cards",
+    "source": "rossetti",
+    "text": "A house of cards\nIs neat and small\nShake the table,\nIt must fall.\n\nFind the Court cards\nOne by one;\nRaise it, roof it,—\nNow it’s done:—\nShake the table!\nThat’s the fun."
+  },
+  {
+    "id": "is-the-moon-tired",
+    "level": 2,
+    "title": "Is the Moon Tired?",
+    "source": "rossetti",
+    "text": "Is the moon tired? she looks so pale\nWithin her misty veil:\nShe scales the sky from east to west,\nAnd takes no rest.\n\nBefore the coming of the night\nThe moon shows papery white;\nBefore the dawning of the day\nShe fades away."
+  },
+  {
+    "id": "lullaby-oh-lullaby",
+    "level": 2,
+    "title": "Lullaby, oh, lullaby!",
+    "source": "rossetti",
+    "text": "Lullaby, oh, lullaby!\nFlowers are closed and lambs are sleeping;\nLullaby, oh, lullaby!\nStars are up, the moon is peeping;\nLullaby, oh, lullaby\nWhile the birds are silence keeping,\n(Lullaby, oh, lullaby!)\nSleep, my baby, fall a-sleeping,\nLullaby, oh, lullaby!"
+  },
+  {
+    "id": "at-the-seaside",
+    "level": 2,
+    "title": "At the Seaside",
+    "source": "stevenson",
+    "text": "When I was down beside the sea\nA wooden spade they gave to me\nTo dig the sandy shore.\n\nMy holes were empty like a cup.\nIn every hole the sea came up,\nTill it could come no more."
+  },
+  {
+    "id": "singing",
+    "level": 2,
+    "title": "Singing",
+    "source": "stevenson",
+    "text": "Of speckled eggs the birdie sings\nAnd nests among the trees;\nThe sailor sings of ropes and things\nIn ships upon the seas.\n\nThe children sing in far Japan,\nThe children sing in Spain;\nThe organ with the organ man\nIs singing in the rain."
+  },
+  {
+    "id": "fairy-bread",
+    "level": 2,
+    "title": "Fairy Bread",
+    "source": "stevenson",
+    "text": "Come up here, O dusty feet!\nHere is fairy bread to eat.\nHere in my retiring room,\nChildren, you may dine\nOn the golden smell of broom\nAnd the shade of pine;\nAnd when you have eaten well,\nFairy stories hear and tell."
+  },
+  {
+    "id": "the-swing",
+    "level": 3,
+    "title": "The Swing",
+    "source": "stevenson",
+    "text": "How do you like to go up in a swing,\nUp in the air so blue?\nOh, I do think it the pleasantest thing\nEver a child can do!\n\nUp in the air and over the wall,\nTill I can see so wide,\nRivers and trees and cattle and all\nOver the countryside—\n\nTill I look down on the garden green,\nDown on the roof so brown—\nUp in the air I go flying again,\nUp in the air and down!"
+  },
+  {
+    "id": "robin-redbreast",
+    "level": 3,
+    "title": "Robin Redbreast",
+    "source": "motherGoose",
+    "text": "Little Robin Redbreast sat upon a tree,\nUp went Pussy-Cat, down went he,\nDown came Pussy-Cat, away Robin ran,\nSays little Robin Redbreast: \"Catch me if you can!\"\n\nLittle Robin Redbreast jumped upon a spade,\nPussy-Cat jumped after him, and then he was afraid.\nLittle Robin chirped and sang, and what did Pussy say?\nPussy-Cat said: \"Mew, mew, mew,\" and Robin flew away."
+  },
+  {
+    "id": "come-out-to-play",
+    "level": 3,
+    "title": "Come Out to Play",
+    "source": "motherGoose",
+    "text": "Girls and boys, come out to play,\nThe moon doth shine as bright as day;\nLeave your supper, and leave your sleep,\nAnd come with your playfellows into the street.\nCome with a whoop, come with a call,\nCome with a good will or not at all.\nUp the ladder and down the wall,\nA half-penny roll will serve us all.\nYou find milk, and I'll find flour,\nAnd we'll have a pudding in half an hour."
+  },
+  {
+    "id": "the-clever-hen",
+    "level": 3,
+    "title": "The Clever Hen",
+    "source": "motherGoose",
+    "text": "I had a little hen, the prettiest ever seen,\nShe washed me the dishes and kept the house clean;\nShe went to the mill to fetch me some flour,\nShe brought it home in less than an hour;\nShe baked me my bread, she brewed me my ale,\nShe sat by the fire and told many a fine tale."
+  },
+  {
+    "id": "two-birds",
+    "level": 3,
+    "title": "Two Birds",
+    "source": "motherGoose",
+    "text": "There were two birds sat on a stone,\nFa, la, la, la, lal, de;\nOne flew away, and then there was one,\nFa, la, la, la, lal, de;\nThe other bird flew after,\nAnd then there was none,\nFa, la, la, la, lal, de;\nAnd so the stone\nWas left alone,\nFa, la, la, la, lal, de."
+  },
+  {
+    "id": "if-all-the-seas-were-one-sea",
+    "level": 3,
+    "title": "If All the Seas Were One Sea",
+    "source": "motherGoose",
+    "text": "If all the seas were one sea,\nWhat a great sea that would be!\nAnd if all the trees were one tree,\nWhat a great tree that would be!\nAnd if all the axes were one axe,\nWhat a great axe that would be!\nAnd if all the men were one man,\nWhat a great man he would be!\nAnd if the great man took the great axe,\nAnd cut down the great tree,\nAnd let it fall into the great sea,\nWhat a splish splash that would be!"
+  },
+  {
+    "id": "lock-and-key",
+    "level": 3,
+    "title": "Lock and Key",
+    "source": "motherGoose",
+    "text": "\"I am a gold lock.\"\n\"I am a gold key.\"\n\"I am a silver lock.\"\n\"I am a silver key.\"\n\"I am a brass lock.\"\n\"I am a brass key.\"\n\"I am a lead lock.\"\n\"I am a lead key.\"\n\"I am a don lock.\"\n\"I am a don key!\""
+  },
+  {
+    "id": "one-two-buckle-my-shoe",
+    "level": 3,
+    "title": "One, Two, Buckle My Shoe",
+    "source": "motherGoose",
+    "text": "One, two,\nBuckle my shoe;\nThree, four,\nKnock at the door;\nFive, six,\nPick up sticks;\nSeven, eight,\nLay them straight;\nNine, ten,\nA good, fat hen;\nEleven, twelve,\nDig and delve;\nThirteen, fourteen,\nMaids a-courting;\nFifteen, sixteen,\nMaids in the kitchen;\nSeventeen, eighteen,\nMaids a-waiting;\nNineteen, twenty,\nMy plate's empty."
+  },
+  {
+    "id": "old-king-cole",
+    "level": 3,
+    "title": "Old King Cole",
+    "source": "motherGoose",
+    "text": "Old King Cole\nWas a merry old soul,\nAnd a merry old soul was he;\nHe called for his pipe,\nAnd he called for his bowl,\nAnd he called for his fiddlers three!\nAnd every fiddler, he had a fine fiddle,\nAnd a very fine fiddle had he.\n\"Twee tweedle dee, tweedle dee,\" went the fiddlers.\nOh, there's none so rare\nAs can compare\nWith King Cole and his fiddlers three."
+  },
+  {
+    "id": "the-girl-and-the-birds",
+    "level": 3,
+    "title": "The Girl and the Birds",
+    "source": "motherGoose",
+    "text": "When I was a little girl, about seven years old,\nI hadn't got a petticoat, to cover me from the cold.\nSo I went into Darlington, that pretty little town,\nAnd there I bought a petticoat, a cloak, and a gown.\nI went into the woods and built me a kirk,\nAnd all the birds of the air, they helped me to work.\nThe hawk with his long claws pulled down the stone,\nThe dove with her rough bill brought me them home.\nThe parrot was the clergyman, the peacock was the clerk,\nThe bullfinch played the organ,—we made merry work."
+  },
+  {
+    "id": "the-piper-and-his-cow",
+    "level": 3,
+    "title": "The Piper and His Cow",
+    "source": "motherGoose",
+    "text": "There was a piper had a cow,\nAnd he had naught to give her;\nHe pulled out his pipes and played her a tune,\nAnd bade the cow consider.\n\nThe cow considered very well,\nAnd gave the piper a penny,\nAnd bade him play the other tune,\n\"Corn rigs are bonny.\""
+  },
+  {
+    "id": "there-is-but-one-may-in-the-year",
+    "level": 3,
+    "title": "There is but one May in the year",
+    "source": "rossetti",
+    "text": "There is but one May in the year,\nAnd sometimes May is wet and cold;\nThere is but one May in the year\nBefore the year grows old.\n\nYet though it be the chilliest May,\nWith least of sun and most of showers,\nIts wind and dew, its night and day,\nBring up the flowers."
+  },
+  {
+    "id": "what-is-pink",
+    "level": 3,
+    "title": "What Is Pink?",
+    "source": "rossetti",
+    "text": "What is pink? a rose is pink\nBy the fountain’s brink.\nWhat is red? a poppy’s red\nIn its barley bed.\nWhat is blue? the sky is blue\nWhere the clouds float thro’.\nWhat is white? a swan is white\nSailing in the light.\nWhat is yellow: pears are yellow,\nRich and ripe and mellow.\nWhat is green? the grass is green.\nWith small flowers between.\nWhat is violet? clouds are violet\nIn the summer twilight.\nWhat is orange? why, an orange,\nJust an orange!"
+  },
+  {
+    "id": "a-pin-has-a-head-but-has-no-hair",
+    "level": 3,
+    "title": "A pin has a head, but has no hair",
+    "source": "rossetti",
+    "text": "A pin has a head, but has no hair;\nA clock has a face, but no mouth there\nNeedles have eyes, but they cannot see;\nA fly has a trunk without lock or key;\nA timepiece may lose, but cannot win;\nA corn-field dimples without a chin;\nA hill has no leg, but has a foot;\nA wine-glass a stem, but not a root;\nA watch has hands, but no thumb or finger\nA boot has a tongue, but is no singer;\nRivers run, though they have no feet;\nA saw has teeth, but it does not eat;\nAsh-trees have keys, yet never a lock;\nAnd baby crows, without being a cock."
+  },
+  {
+    "id": "hopping-frog-hop-here-and-be-seen",
+    "level": 3,
+    "title": "Hopping frog, hop here and be seen",
+    "source": "rossetti",
+    "text": "Hopping frog, hop here and be seen,\nI’ll not pelt you with stick or stone:\nYour cap is laced and your coat is green;\nGood bye, we’ll let each other alone.\n\nPlodding toad, plod here and be looked at,\nYou the finger of scorn is crooked at:\nBut though you’re lumpish, you’re harmless too;\nYou won’t hurt me, and I won’t hurt you."
+  },
+  {
+    "id": "the-city-mouse-lives-in-a-house",
+    "level": 3,
+    "title": "The city mouse lives in a house",
+    "source": "rossetti",
+    "text": "The city mouse lives in a house;—\nThe garden mouse lives in a bower,\nHe’s friendly with the frogs and toads,\nAnd sees the pretty plants in flower.\n\nThe city mouse eats bread and cheese;—\nThe garden mouse eats what he can;\nWe will not grudge him seeds and stalks,\nPoor little timid furry man."
+  },
+  {
+    "id": "what-does-the-donkey-bray-about",
+    "level": 3,
+    "title": "What does the donkey bray about?",
+    "source": "rossetti",
+    "text": "What does the donkey bray about?\nWhat does the pig grunt through his snout?\nWhat does the goose mean by a hiss?\nOh, Nurse, if you can tell me this,\nI’ll give you such a kiss.\nThe cockatoo calls “cockatoo,”\nThe magpie chatters “how d’ye do?”\nThe jackdaw bids me “go away,”\nCuckoo cries “cuckoo” half the day:\nWhat do the others say?"
+  },
+  {
+    "id": "a-motherless-soft-lambkin",
+    "level": 3,
+    "title": "A motherless soft lambkin",
+    "source": "rossetti",
+    "text": "A motherless soft lambkin\nAlone upon a hill;\nNo mother’s fleece to shelter him\nAnd wrap him from the cold:—\nI’ll run to him and comfort him,\nI’ll fetch him, that I will;\nI’ll care for him and feed him\nUntil he’s strong and bold."
+  },
+  {
+    "id": "dancing-on-the-hill-tops",
+    "level": 3,
+    "title": "Dancing on the Hill-Tops",
+    "source": "rossetti",
+    "text": "Dancing on the hill-tops,\nSinging in the valleys,\nLaughing with the echoes,\nMerry little Alice.\n\nPlaying games with lambkins\nIn the flowering valleys,\nGathering pretty posies,\nHelpful little Alice.\n\nIf her father’s cottage\nTurned into a palace,\nAnd he owned the hill-tops\nAnd the flowering valleys,\nShe’d be none the happier,\nHappy little Alice."
+  },
+  {
+    "id": "the-peacock-has-a-score-of-eyes",
+    "level": 3,
+    "title": "The peacock has a score of eyes",
+    "source": "rossetti",
+    "text": "The peacock has a score of eyes,\nWith which he cannot see;\nThe cod-fish has a silent sound,\nHowever that may be;\nNo dandelions tell the time,\nAlthough they turn to clocks;\nCat’s-cradle does not hold the cat.\nNor foxglove fit the fox."
+  },
+  {
+    "id": "if-a-mouse-could-fly",
+    "level": 3,
+    "title": "If a Mouse Could Fly",
+    "source": "rossetti",
+    "text": "If a mouse could fly,\nOr if a crow could swim,\nOr if a sprat could walk and talk,\nI’d like to be like him.\n\nIf a mouse could fly,\nHe might fly away;\nOr if a crow could swim,\nIt might turn him grey;\nOr if a sprat could walk and talk,\nWhat would he find to say?"
+  },
+  {
+    "id": "in-the-meadowwhat-in-the-meadow",
+    "level": 3,
+    "title": "In the meadow—what in the meadow?",
+    "source": "rossetti",
+    "text": "In the meadow—what in the meadow?\nBluebells, buttercups, meadowsweet,\nAnd fairy rings for the children’s feet\nIn the meadow.\nIn the garden—what in the garden?\nJacob’s-ladder and Solomon’s-seal,\nAnd Love-lies-bleeding beside All-heal\nIn the garden."
+  },
+  {
+    "id": "when-the-cows-come-home-the-milk-is-coming",
+    "level": 3,
+    "title": "When the cows come home the milk is coming",
+    "source": "rossetti",
+    "text": "When the cows come home the milk is coming,\nHoney’s made while the bees are humming;\nDuck and drake on the rushy lake,\nAnd the deer live safe in the breezy brake;\nAnd timid, funny, brisk little bunny,\nWinks his nose and sits all sunny."
+  },
+  {
+    "id": "ferry-me-across-the-water",
+    "level": 3,
+    "title": "Ferry me across the water",
+    "source": "rossetti",
+    "text": "“Ferry me across the water,\nDo, boatman, do.”\n“If you’ve a penny in your purse\nI’ll ferry you.”\n\n“I have a penny in my purse,\nAnd my eyes are blue;\nSo ferry me across the water,\nDo, boatman, do.”\n\n“Step into my ferry-boat,\nBe they black or blue,\nAnd for the penny in your purse\nI’ll ferry you.”"
+  },
+  {
+    "id": "the-horses-of-the-sea",
+    "level": 3,
+    "title": "The horses of the sea",
+    "source": "rossetti",
+    "text": "The horses of the sea\nRear a foaming crest,\nBut the horses of the land\nServe us the best.\n\nThe horses of the land\nMunch corn and clover,\nWhile the foaming sea-horses\nToss and turn over."
+  },
+  {
+    "id": "a-diamond-or-a-coal",
+    "level": 3,
+    "title": "A diamond or a coal?",
+    "source": "rossetti",
+    "text": "A diamond or a coal?\nA diamond, if you please:\nWho cares about a clumsy coal\nBeneath the summer trees?\n\nA diamond or a coal?\nA coal, sir, if you please:\nOne comes to care about the coal\nWhat time the waters freeze."
+  },
+  {
+    "id": "boats-sail-on-the-rivers",
+    "level": 3,
+    "title": "Boats Sail on the Rivers",
+    "source": "rossetti",
+    "text": "Boats sail on the rivers,\nAnd ships sail on the seas;\nBut clouds that sail across the sky\nAre prettier far than these.\n\nThere are bridges on the rivers,\nAs pretty as you please;\nBut the bow that bridges heaven,\nAnd overtops the trees,\nAnd builds a road from earth to sky,\nIs prettier far than these."
+  },
+  {
+    "id": "hurt-no-living-thing",
+    "level": 3,
+    "title": "Hurt no living thing",
+    "source": "rossetti",
+    "text": "Hurt no living thing:\nLadybird, nor butterfly,\nNor moth with dusty wing,\nNor cricket chirping cheerily,\nNor grasshopper so light of leap,\nNor dancing gnat, nor beetle fat,\nNor harmless worms that creep."
+  },
+  {
+    "id": "oh-fair-to-see",
+    "level": 3,
+    "title": "Oh, Fair to See",
+    "source": "rossetti",
+    "text": "Oh, fair to see\nBloom-laden cherry tree,\nArrayed in sunny white;\nAn April day’s delight,\nOh, fair to see!\n\nOh, fair to see\nFruit-laden cherry tree,\nWith balls of shining red\nDecking a leafy head,\nOh, fair to see!"
+  },
+  {
+    "id": "the-peach-tree-on-the-southern-wall",
+    "level": 3,
+    "title": "The peach tree on the southern wall",
+    "source": "rossetti",
+    "text": "The peach tree on the southern wall\nHas basked so long beneath the sun,\nHer score of peaches great and small\nBloom rosy, every one.\n\nA peach for brothers, one for each,\nA peach for you and a peach for me;\nBut the biggest, rosiest, downiest peach\nFor Grandmamma with her tea."
+  },
+  {
+    "id": "if-the-moon-came-from-heaven",
+    "level": 3,
+    "title": "If the moon came from heaven",
+    "source": "rossetti",
+    "text": "If the moon came from heaven,\nTalking all the way,\nWhat could she have to tell us,\nAnd what could she say?\n\n“I’ve seen a hundred pretty things,\nAnd seen a hundred gay\nBut only think: I peep by night\nAnd do not peep by day!”"
+  },
+  {
+    "id": "i-know-a-baby-such-a-baby",
+    "level": 3,
+    "title": "I know a baby, such a baby",
+    "source": "rossetti",
+    "text": "I know a baby, such a baby,—\nRound blue eyes and cheeks of pink,\nSuch an elbow furrowed with dimples,\nSuch a wrist where creases sink.\n\n“Cuddle and love me, cuddle and love me,”\nCrows the mouth of coral pink:\nOh, the bald head, and, oh, the sweet lips,\nAnd, oh, the sleepy eyes that wink!"
+  },
+  {
+    "id": "bed-in-summer",
+    "level": 3,
+    "title": "Bed in Summer",
+    "source": "stevenson",
+    "text": "In winter I get up at night\nAnd dress by yellow candle-light.\nIn summer, quite the other way,\nI have to go to bed by day.\n\nI have to go to bed and see\nThe birds still hopping on the tree,\nOr hear the grown-up people's feet\nStill going past me in the street.\n\nAnd does it not seem hard to you,\nWhen all the sky is clear and blue,\nAnd I should like so much to play,\nTo have to go to bed by day?"
+  },
+  {
+    "id": "pirate-story",
+    "level": 3,
+    "title": "Pirate Story",
+    "source": "stevenson",
+    "text": "Three of us afloat in the meadow by the swing,\nThree of us aboard in the basket on the lea.\nWinds are in the air, they are blowing in the spring,\nAnd waves are on the meadow like the waves there are at sea.\n\nWhere shall we adventure, to-day that we're afloat,\nWary of the weather and steering by a star?\nShall it be to Africa, a-steering of the boat,\nTo Providence, or Babylon, or off to Malabar?\n\nHi! but here's a squadron a-rowing on the sea—\nCattle on the meadow a-charging with a roar!\nQuick, and we'll escape them, they're as mad as they can be,\nThe wicket is the harbour and the garden is the shore."
+  },
+  {
+    "id": "windy-nights",
+    "level": 3,
+    "title": "Windy Nights",
+    "source": "stevenson",
+    "text": "Whenever the moon and stars are set,\nWhenever the wind is high,\nAll night long in the dark and wet,\nA man goes riding by.\nLate in the night when the fires are out,\nWhy does he gallop and gallop about?\n\nWhenever the trees are crying aloud,\nAnd ships are tossed at sea,\nBy, on the highway, low and loud,\nBy at the gallop goes he.\nBy at the gallop he goes, and then\nBy he comes back at the gallop again."
+  },
+  {
+    "id": "a-good-play",
+    "level": 3,
+    "title": "A Good Play",
+    "source": "stevenson",
+    "text": "We built a ship upon the stairs\nAll made of the back-bedroom chairs,\nAnd filled it full of sofa pillows\nTo go a-sailing on the billows.\n\nWe took a saw and several nails,\nAnd water in the nursery pails;\nAnd Tom said, \"Let us also take\nAn apple and a slice of cake;\"—\nWhich was enough for Tom and me\nTo go a-sailing on, till tea.\n\nWe sailed along for days and days\nAnd had the very best of plays;\nBut Tom fell out and hurt his knee,\nSo there was no one left but me."
+  },
+  {
+    "id": "the-cow",
+    "level": 3,
+    "title": "The Cow",
+    "source": "stevenson",
+    "text": "The friendly cow all red and white,\nI love with all my heart:\nShe gives me cream with all her might,\nTo eat with apple-tart.\n\nShe wanders lowing here and there,\nAnd yet she cannot stray,\nAll in the pleasant open air,\nThe pleasant light of day;\n\nAnd blown by all the winds that pass\nAnd wet with all the showers,\nShe walks among the meadow grass\nAnd eats the meadow flowers."
+  },
+  {
+    "id": "the-moon",
+    "level": 3,
+    "title": "The Moon",
+    "source": "stevenson",
+    "text": "The moon has a face like the clock in the hall;\nShe shines on thieves on the garden wall,\nOn streets and field and harbour quays,\nAnd birdies asleep in the forks of the trees.\n\nThe squalling cat and the squeaking mouse,\nThe howling dog by the door of the house,\nThe bat that lies in bed at noon,\nAll love to be out by the light of the moon.\n\nBut all of the things that belong to the day\nCuddle to sleep to be out of her way;\nAnd flowers and children close their eyes\nTill up in the morning the sun shall arise."
+  },
+  {
+    "id": "autumn-fires",
+    "level": 3,
+    "title": "Autumn Fires",
+    "source": "stevenson",
+    "text": "In the other gardens\nAnd all up the vale,\nFrom the autumn bonfires\nSee the smoke trail!\n\nPleasant summer over\nAnd all the summer flowers,\nThe red fire blazes,\nThe grey smoke towers.\n\nSing a song of seasons!\nSomething bright in all!\nFlowers in the summer,\nFires in the fall!"
+  },
+  {
+    "id": "my-shadow",
+    "level": 4,
+    "title": "My Shadow",
+    "source": "stevenson",
+    "text": "I have a little shadow that goes in and out with me,\nAnd what can be the use of him is more than I can see.\nHe is very, very like me from the heels up to the head;\nAnd I see him jump before me, when I jump into my bed.\n\nThe funniest thing about him is the way he likes to grow—\nNot at all like proper children, which is always very slow;\nFor he sometimes shoots up taller like an india-rubber ball,\nAnd he sometimes gets so little that there's none of him at all.\n\nHe hasn't got a notion of how children ought to play,\nAnd can only make a fool of me in every sort of way.\nHe stays so close beside me, he's a coward you can see;\nI'd think shame to stick to nursie as that shadow sticks to me!\n\nOne morning, very early, before the sun was up,\nI rose and found the shining dew on every buttercup;\nBut my lazy little shadow, like an arrant sleepy-head,\nHad stayed at home behind me and was fast asleep in bed."
+  },
+  {
+    "id": "i-saw-a-ship-a-sailing",
+    "level": 4,
+    "title": "I Saw a Ship A-Sailing",
+    "source": "motherGoose",
+    "text": "I saw a ship a-sailing,\nA-sailing on the sea;\nAnd, oh! it was all laden\nWith pretty things for thee!\n\nThere were comfits in the cabin,\nAnd apples in the hold;\nThe sails were made of silk,\nAnd the masts were made of gold.\n\nThe four-and-twenty sailors\nThat stood between the decks,\nWere four-and-twenty white mice\nWith chains about their necks.\n\nThe captain was a duck,\nWith a packet on his back;\nAnd when the ship began to move,\nThe captain said, \"Quack! Quack!\""
+  },
+  {
+    "id": "simple-simon",
+    "level": 4,
+    "title": "Simple Simon",
+    "source": "motherGoose",
+    "text": "Simple Simon met a pieman,\nGoing to the fair;\nSays Simple Simon to the pieman,\n\"Let me taste your ware.\"\n\nSays the pieman to Simple Simon,\n\"Show me first your penny,\"\nSays Simple Simon to the pieman,\n\"Indeed, I have not any.\"\n\nSimple Simon went a-fishing\nFor to catch a whale;\nAll the water he could find\nWas in his mother's pail!\n\nSimple Simon went to look\nIf plums grew on a thistle;\nHe pricked his fingers very much,\nWhich made poor Simon whistle.\n\nHe went to catch a dicky bird,\nAnd thought he could not fail,\nBecause he had a little salt,\nTo put upon its tail.\n\nHe went for water with a sieve,\nBut soon it ran all through;\nAnd now poor Simple Simon\nBids you all adieu."
+  },
+  {
+    "id": "the-bells",
+    "level": 4,
+    "title": "The Bells",
+    "source": "motherGoose",
+    "text": "\"You owe me five shillings,\"\nSay the bells of St. Helen's.\n\"When will you pay me?\"\nSay the bells of Old Bailey.\n\"When I grow rich,\"\nSay the bells of Shoreditch.\n\"When will that be?\"\nSay the bells of Stepney.\n\"I do not know,\"\nSays the great Bell of Bow.\n\"Two sticks in an apple,\"\nRing the bells of Whitechapel.\n\"Halfpence and farthings,\"\nSay the bells of St. Martin's.\n\"Kettles and pans,\"\nSay the bells of St. Ann's.\n\"Brickbats and tiles,\"\nSay the bells of St. Giles.\n\"Old shoes and slippers,\"\nSay the bells of St. Peter's.\n\"Pokers and tongs,\"\nSay the bells of St. John's."
+  },
+  {
+    "id": "how-many-seconds-in-a-minute",
+    "level": 4,
+    "title": "How many seconds in a minute?",
+    "source": "rossetti",
+    "text": "How many seconds in a minute?\nSixty, and no more in it.\n\nHow many minutes in an hour?\nSixty for sun and shower.\n\nHow many hours in a day?\nTwenty-four for work and play.\n\nHow many days in a week?\nSeven both to hear and speak.\n\nHow many weeks in a month?\nFour, as the swift moon runn’th.\n\nHow many months in a year?\nTwelve the almanack makes clear.\n\nHow many years in an age?\nOne hundred says the sage.\n\nHow many ages in time?\nNo one knows the rhyme."
+  },
+  {
+    "id": "january-cold-desolate",
+    "level": 4,
+    "title": "January cold desolate",
+    "source": "rossetti",
+    "text": "January cold desolate;\nFebruary all dripping wet;\nMarch wind ranges;\nApril changes;\nBirds sing in tune\nTo flowers of May,\nAnd sunny June\nBrings longest day;\nIn scorched July\nThe storm-clouds fly\nLightning-torn;\nAugust bears corn,\nSeptember fruit;\nIn rough October\nEarth must disrobe her;\nStars fall and shoot\nIn keen November;\nAnd night is long\nAnd cold is strong\nIn bleak December."
+  },
+  {
+    "id": "i-am-a-king",
+    "level": 4,
+    "title": "I am a King",
+    "source": "rossetti",
+    "text": "I am a King,\nOr an Emperor rather,\nI wear crown-imperial\nAnd prince’s-feather;\nGolden-rod is the sceptre\nI wield and wag,\nAnd a broad purple flag-flower\nWaves for my flag.\n\nElder the pithy\nWith old-man and sage,\nThese are my councillors\nGreen in old age;\nLords-and-ladies in silence\nStand round me and wait,\nWhile gay ragged-robin\nMakes bows at my gate."
+  },
+  {
+    "id": "the-lily-has-a-smooth-stalk",
+    "level": 4,
+    "title": "The lily has a smooth stalk",
+    "source": "rossetti",
+    "text": "The lily has a smooth stalk,\nWill never hurt your hand;\nBut the rose upon her briar\nIs lady of the land.\n\nThere’s sweetness in an apple tree,\nAnd profit in the corn;\nBut lady of all beauty\nIs a rose upon a thorn.\n\nWhen with moss and honey\nShe tips her bending briar,\nAnd half unfolds her glowing heart,\nShe sets the world on fire."
+  },
+  {
+    "id": "young-night-thought",
+    "level": 4,
+    "title": "Young Night-Thought",
+    "source": "stevenson",
+    "text": "All night long and every night,\nWhen my mama puts out the light,\nI see the people marching by,\nAs plain as day, before my eye.\n\nArmies and emperors and kings,\nAll carrying different kinds of things,\nAnd marching in so grand a way,\nYou never saw the like by day.\n\nSo fine a show was never seen\nAt the great circus on the green;\nFor every kind of beast and man\nIs marching in that caravan.\n\nAt first they move a little slow,\nBut still the faster on they go,\nAnd still beside them close I keep\nUntil we reach the town of Sleep."
+  },
+  {
+    "id": "foreign-lands",
+    "level": 4,
+    "title": "Foreign Lands",
+    "source": "stevenson",
+    "text": "Up into the cherry tree\nWho should climb but little me?\nI held the trunk with both my hands\nAnd looked abroad on foreign lands.\n\nI saw the next door garden lie,\nAdorned with flowers, before my eye,\nAnd many pleasant places more\nThat I had never seen before.\n\nI saw the dimpling river pass\nAnd be the sky's blue looking-glass;\nThe dusty roads go up and down\nWith people tramping in to town.\n\nIf I could find a higher tree\nFarther and farther I should see,\nTo where the grown-up river slips\nInto the sea among the ships,\n\nTo where the roads on either hand\nLead onward into fairy land,\nWhere all the children dine at five,\nAnd all the playthings come alive."
+  },
+  {
+    "id": "where-go-the-boats",
+    "level": 4,
+    "title": "Where Go the Boats?",
+    "source": "stevenson",
+    "text": "Dark brown is the river,\nGolden is the sand.\nIt flows along for ever,\nWith trees on either hand.\n\nGreen leaves a-floating,\nCastles of the foam,\nBoats of mine a-boating—\nWhere will all come home?\n\nOn goes the river\nAnd out past the mill,\nAway down the valley,\nAway down the hill.\n\nAway down the river,\nA hundred miles or more,\nOther little children\nShall bring my boats ashore."
+  },
+  {
+    "id": "the-land-of-counterpane",
+    "level": 4,
+    "title": "The Land of Counterpane",
+    "source": "stevenson",
+    "text": "When I was sick and lay a-bed,\nI had two pillows at my head,\nAnd all my toys beside me lay\nTo keep me happy all the day.\n\nAnd sometimes for an hour or so\nI watched my leaden soldiers go,\nWith different uniforms and drills,\nAmong the bed-clothes, through the hills;\n\nAnd sometimes sent my ships in fleets\nAll up and down among the sheets;\nOr brought my trees and houses out,\nAnd planted cities all about.\n\nI was the giant great and still\nThat sits upon the pillow-hill,\nAnd sees before him, dale and plain,\nThe pleasant land of counterpane."
+  },
+  {
+    "id": "the-land-of-nod",
+    "level": 4,
+    "title": "The Land of Nod",
+    "source": "stevenson",
+    "text": "From breakfast on through all the day\nAt home among my friends I stay,\nBut every night I go abroad\nAfar into the land of Nod.\n\nAll by myself I have to go,\nWith none to tell me what to do—\nAll alone beside the streams\nAnd up the mountain-sides of dreams.\n\nThe strangest things are there for me,\nBoth things to eat and things to see,\nAnd many frightening sights abroad\nTill morning in the land of Nod.\n\nTry as I like to find the way,\nI never can get back by day,\nNor can remember plain and clear\nThe curious music that I hear."
+  },
+  {
+    "id": "escape-at-bedtime",
+    "level": 4,
+    "title": "Escape at Bedtime",
+    "source": "stevenson",
+    "text": "The lights from the parlour and kitchen shone out\nThrough the blinds and the windows and bars;\nAnd high overhead and all moving about,\nThere were thousands of millions of stars.\nThere ne'er were such thousands of leaves on a tree,\nNor of people in church or the Park,\nAs the crowds of the stars that looked down upon me,\nAnd that glittered and winked in the dark.\n\nThe Dog, and the Plough, and the Hunter, and all,\nAnd the star of the sailor, and Mars,\nThese shone in the sky, and the pail by the wall\nWould be half full of water and stars.\n\nThey saw me at last, and they chased me with cries,\nAnd they soon had me packed into bed;\nBut the glory kept shining and bright in my eyes,\nAnd the stars going round in my head."
+  },
+  {
+    "id": "marching-song",
+    "level": 4,
+    "title": "Marching Song",
+    "source": "stevenson",
+    "text": "Bring the comb and play upon it!\nMarching, here we come!\nWillie cocks his highland bonnet,\nJohnnie beats the drum.\n\nMary Jane commands the party,\nPeter leads the rear;\nFeet in time, alert and hearty,\nEach a Grenadier!\n\nAll in the most martial manner\nMarching double-quick;\nWhile the napkin, like a banner,\nWaves upon the stick!\n\nHere's enough of fame and pillage,\nGreat commander Jane!\nNow that we've been round the village,\nLet's go home again."
+  },
+  {
+    "id": "the-wind",
+    "level": 4,
+    "title": "The Wind",
+    "source": "stevenson",
+    "text": "I saw you toss the kites on high\nAnd blow the birds about the sky;\nAnd all around I heard you pass,\nLike ladies' skirts across the grass—\nO wind, a-blowing all day long,\nO wind, that sings so loud a song!\n\nI saw the different things you did,\nBut always you yourself you hid.\nI felt you push, I heard you call,\nI could not see yourself at all—\nO wind, a-blowing all day long,\nO wind, that sings so loud a song!\n\nO you that are so strong and cold,\nO blower, are you young or old?\nAre you a beast of field and tree,\nOr just a stronger child than me?\nO wind, a-blowing all day long,\nO wind, that sings so loud a song!"
+  },
+  {
+    "id": "the-lamplighter",
+    "level": 4,
+    "title": "The Lamplighter",
+    "source": "stevenson",
+    "text": "My tea is nearly ready and the sun has left the sky.\nIt's time to take the window to see Leerie going by;\nFor every night at teatime and before you take your seat,\nWith lantern and with ladder he comes posting up the street.\n\nNow Tom would be a driver and Maria go to sea,\nAnd my papa's a banker and as rich as he can be;\nBut I, when I am stronger and can choose what I'm to do,\nO Leerie, I'll go round at night and light the lamps with you!\n\nFor we are very lucky, with a lamp before the door,\nAnd Leerie stops to light it as he lights so many more;\nAnd oh! before you hurry by with ladder and with light;\nO Leerie, see a little child and nod to him tonight!"
+  },
+  {
+    "id": "my-bed-is-a-boat",
+    "level": 4,
+    "title": "My Bed Is a Boat",
+    "source": "stevenson",
+    "text": "My bed is like a little boat;\nNurse helps me in when I embark;\nShe girds me in my sailor's coat\nAnd starts me in the dark.\n\nAt night, I go on board and say\nGood-night to all my friends on shore;\nI shut my eyes and sail away\nAnd see and hear no more.\n\nAnd sometimes things to bed I take,\nAs prudent sailors have to do;\nPerhaps a slice of wedding-cake,\nPerhaps a toy or two.\n\nAll night across the dark we steer;\nBut when the day returns at last,\nSafe in my room, beside the pier,\nI find my vessel fast."
+  },
+  {
+    "id": "from-a-railway-carriage",
+    "level": 4,
+    "title": "From a Railway Carriage",
+    "source": "stevenson",
+    "text": "Faster than fairies, faster than witches,\nBridges and houses, hedges and ditches;\nAnd charging along like troops in a battle\nAll through the meadows the horses and cattle:\nAll of the sights of the hill and the plain\nFly as thick as driving rain;\nAnd ever again, in the wink of an eye,\nPainted stations whistle by.\nHere is a child who clambers and scrambles,\nAll by himself and gathering brambles;\nHere is a tramp who stands and gazes;\nAnd there is the green for stringing the daisies\nHere is a cart run away in the road\nLumping along with man and load;\nAnd here is a mill, and there is a river:\nEach a glimpse and gone for ever!"
+  },
+  {
+    "id": "the-hayloft",
+    "level": 4,
+    "title": "The Hayloft",
+    "source": "stevenson",
+    "text": "Through all the pleasant meadow-side\nThe grass grew shoulder-high,\nTill the shining scythes went far and wide\nAnd cut it down to dry.\n\nThose green and sweetly smelling crops\nThey led in waggons home;\nAnd they piled them here in mountain tops\nFor mountaineers to roam.\n\nHere is Mount Clear, Mount Rusty-Nail,\nMount Eagle and Mount High;—\nThe mice that in these mountains dwell,\nNo happier are than I!\n\nOh, what a joy to clamber there,\nOh, what a place for play,\nWith the sweet, the dim, the dusty air,\nThe happy hills of hay!"
+  },
+  {
+    "id": "farewell-to-the-farm",
+    "level": 4,
+    "title": "Farewell to the Farm",
+    "source": "stevenson",
+    "text": "The coach is at the door at last;\nThe eager children, mounting fast\nAnd kissing hands, in chorus sing:\nGood-bye, good-bye, to everything!\n\nTo house and garden, field and lawn,\nThe meadow-gates we swang upon,\nTo pump and stable, tree and swing,\nGood-bye, good-bye, to everything!\n\nAnd fare you well for evermore,\nO ladder at the hayloft door,\nO hayloft where the cobwebs cling,\nGood-bye, good-bye, to everything!\n\nCrack goes the whip, and off we go;\nThe trees and houses smaller grow;\nLast, round the woody turn we swing:\nGood-bye, good-bye, to everything!"
+  },
+  {
+    "id": "picture-books-in-winter",
+    "level": 4,
+    "title": "Picture-Books in Winter",
+    "source": "stevenson",
+    "text": "Summer fading, winter comes—\nFrosty mornings, tingling thumbs,\nWindow robins, winter rooks,\nAnd the picture story-books.\n\nWater now is turned to stone\nNurse and I can walk upon;\nStill we find the flowing brooks\nIn the picture story-books.\n\nAll the pretty things put by,\nWait upon the children's eye,\nSheep and shepherds, trees and crooks,\nIn the picture story-books.\n\nWe may see how all things are,\nSeas and cities, near and far,\nAnd the flying fairies' looks,\nIn the picture story-books.\n\nHow am I to sing your praise,\nHappy chimney-corner days,\nSitting safe in nursery nooks,\nReading picture story-books?"
+  },
+  {
+    "id": "the-flowers",
+    "level": 4,
+    "title": "The Flowers",
+    "source": "stevenson",
+    "text": "All the names I know from nurse:\nGardener's garters, Shepherd's purse,\nBachelor's buttons, Lady's smock,\nAnd the Lady Hollyhock.\n\nFairy places, fairy things,\nFairy woods where the wild bee wings,\nTiny trees for tiny dames—\nThese must all be fairy names!\n\nTiny woods below whose boughs\nShady fairies weave a house;\nTiny tree-tops, rose or thyme,\nWhere the braver fairies climb!\n\nFair are grown-up people's trees,\nBut the fairest woods are these;\nWhere, if I were not so tall,\nI should live for good and all."
+  },
+  {
+    "id": "to-any-reader",
+    "level": 4,
+    "title": "To Any Reader",
+    "source": "stevenson",
+    "text": "As from the house your mother sees\nYou playing round the garden trees,\nSo you may see, if you will look\nThrough the windows of this book,\nAnother child, far, far away,\nAnd in another garden, play.\nBut do not think you can at all,\nBy knocking on the window, call\nThat child to hear you. He intent\nIs all on his play-business bent.\nHe does not hear; he will not look,\nNor yet be lured out of this book.\nFor, long ago, the truth to say,\nHe has grown up and gone away,\nAnd it is but a child of air\nThat lingers in the garden there."
+  },
+  {
+    "id": "the-owl-and-the-pussy-cat",
+    "level": 5,
+    "title": "The Owl and the Pussy-Cat",
+    "source": "lear",
+    "text": "The Owl and the Pussy-Cat went to sea\nIn a beautiful pea-green boat:\nThey took some honey, and plenty of money\nWrapped up in a five-pound note.\nThe Owl looked up to the stars above,\nAnd sang to a small guitar,\n\"O lovely Pussy, O Pussy, my love,\nWhat a beautiful Pussy you are,\nYou are,\nYou are!\nWhat a beautiful Pussy you are!\"\n\nPussy said to the Owl, \"You elegant fowl,\nHow charmingly sweet you sing!\nOh! let us be married; too long we have tarried:\nBut what shall we do for a ring?\"\nThey sailed away, for a year and a day,\nTo the land where the bong-tree grows;\nAnd there in a wood a Piggy-wig stood,\nWith a ring at the end of his nose,\nHis nose,\nHis nose,\nWith a ring at the end of his nose.\n\n\"Dear Pig, are you willing to sell for one shilling\nYour ring?\" Said the Piggy, \"I will.\"\nSo they took it away, and were married next day\nBy the Turkey who lives on the hill.\nThey dined on mince and slices of quince,\nWhich they ate with a runcible spoon;\nAnd hand in hand, on the edge of the sand,\nThey danced by the light of the moon,\nThe moon,\nThe moon,\nThey danced by the light of the moon."
+  },
+  {
+    "id": "the-mulberry-bush",
+    "level": 5,
+    "title": "The Mulberry Bush",
+    "source": "motherGoose",
+    "text": "Here we go round the mulberry bush,\nThe mulberry bush, the mulberry bush,\nHere we go round the mulberry bush.\nOn a cold and frosty morning.\n\nThis is the way we wash our hands,\nWash our hands, wash our hands,\nThis is the way we wash our hands,\nOn a cold and frosty morning.\n\nThis is the way we wash our clothes.\nWash our clothes, wash our clothes,\nThis is the way we wash our clothes,\nOn a cold and frosty morning.\n\nThis is the way we go to school,\nGo to school, go to school,\nThis is the way we go to school,\nOn a cold and frosty morning.\n\nThis is the way we come out of school,\nCome out of school, come out of school,\nThis is the way we come out of school,\nOn a cold and frosty morning."
+  },
+  {
+    "id": "london-bridge",
+    "level": 5,
+    "title": "London Bridge",
+    "source": "motherGoose",
+    "text": "London Bridge is broken down,\nDance over my Lady Lee;\nLondon Bridge is broken down,\nWith a gay lady.\n\nHow shall we build it up again?\nDance over my Lady Lee;\nHow shall we build it up again?\nWith a gay lady.\n\nBuild it up with silver and gold,\nDance over my Lady Lee;\nBuild it up with silver and gold,\nWith a gay lady.\n\nSilver and gold will be stole away,\nDance over my Lady Lee;\nSilver and gold will be stole away,\nWith a gay lady.\n\nBuild it up with iron and steel,\nDance over my Lady Lee;\nBuild it up with iron and steel,\nWith a gay lady.\n\nIron and steel will bend and bow,\nDance over my Lady Lee;\nIron and steel will bend and bow,\nWith a gay lady.\n\nBuild it up with wood and clay,\nDance over my Lady Lee;\nBuild it up with wood and clay,\nWith a gay lady.\n\nWood and clay will wash away,\nDance over my Lady Lee;\nWood and clay will wash away,\nWith a gay lady.\n\nBuild it up with stone so strong,\nDance over my Lady Lee;\nHuzza! 'twill last for ages long,\nWith a gay lady."
+  },
+  {
+    "id": "minnie-and-mattie",
+    "level": 5,
+    "title": "Minnie and Mattie",
+    "source": "rossetti",
+    "text": "Minnie and Mattie\nAnd fat little May,\nOut in the country,\nSpending a day.\n\nSuch a bright day,\nWith the sun glowing,\nAnd the trees half in leaf,\nAnd the grass growing.\n\nPinky white pigling\nSqueals through his snout,\nWoolly white lambkin\nFrisks all about.\n\nCluck! cluck! the nursing hen\nSummons her folk,—\nDucklings all downy soft\nYellow as yolk.\n\nCluck! cluck! the mother hen\nSummons her chickens\nTo peck the dainty bits\nFound in her pickings.\n\nMinnie and Mattie\nAnd May carry posies,\nHalf of sweet violets,\nHalf of primroses.\n\nGive the sun time enough,\nGlowing and glowing,\nHe’ll rouse the roses\nAnd bring them blowing.\n\nDon’t wait for roses\nLosing to-day,\nO Minnie, Mattie,\nAnd wise little May.\n\nViolets and primroses\nBlossom to-day\nFor Minnie and Mattie\nAnd fat little May."
+  },
+  {
+    "id": "keepsake-mill",
+    "level": 5,
+    "title": "Keepsake Mill",
+    "source": "stevenson",
+    "text": "Over the borders, a sin without pardon,\nBreaking the branches and crawling below,\nOut through the breach in the wall of the garden,\nDown by the banks of the river, we go.\n\nHere is the mill with the humming of thunder,\nHere is the weir with the wonder of foam,\nHere is the sluice with the race running under—\nMarvellous places, though handy to home!\n\nSounds of the village grow stiller and stiller,\nStiller the note of the birds on the hill;\nDusty and dim are the eyes of the miller,\nDeaf are his ears with the moil of the mill.\n\nYears may go by, and the wheel in the river\nWheel as it wheels for us, children, to-day,\nWheel and keep roaring and foaming for ever\nLong after all of the boys are away.\n\nHome from the Indies and home from the ocean,\nHeroes and soldiers we all shall come home;\nStill we shall find the old mill wheel in motion,\nTurning and churning that river to foam.\n\nYou with the bean that I gave when we quarrelled,\nI with your marble of Saturday last,\nHonoured and old and all gaily apparelled,\nHere we shall meet and remember the past."
+  },
+  {
+    "id": "looking-glass-river",
+    "level": 5,
+    "title": "Looking-Glass River",
+    "source": "stevenson",
+    "text": "Smooth it glides upon its travel,\nHere a wimple, there a gleam—\nO the clean gravel!\nO the smooth stream!\n\nSailing blossoms, silver fishes,\nPaven pools as clear as air—\nHow a child wishes\nTo live down there!\n\nWe can see our coloured faces\nFloating on the shaken pool\nDown in cool places,\nDim and very cool;\n\nTill a wind or water wrinkle,\nDipping marten, plumping trout,\nSpreads in a twinkle\nAnd blots all out.\n\nSee the rings pursue each other;\nAll below grows black as night,\nJust as if mother\nHad blown out the light!\n\nPatience, children, just a minute—\nSee the spreading circles die;\nThe stream and all in it\nWill clear by-and-by."
+  },
+  {
+    "id": "the-unseen-playmate",
+    "level": 5,
+    "title": "The Unseen Playmate",
+    "source": "stevenson",
+    "text": "When children are playing alone on the green,\nIn comes the playmate that never was seen.\nWhen children are happy and lonely and good,\nThe Friend of the Children comes out of the wood.\n\nNobody heard him and nobody saw,\nHis is a picture you never could draw,\nBut he's sure to be present, abroad or at home,\nWhen children are happy and playing alone.\n\nHe lies in the laurels, he runs on the grass,\nHe sings when you tinkle the musical glass;\nWhene'er you are happy and cannot tell why,\nThe Friend of the Children is sure to be by!\n\nHe loves to be little, he hates to be big,\n'Tis he that inhabits the caves that you dig;\n'Tis he when you play with your soldiers of tin\nThat sides with the Frenchmen and never can win.\n\n'Tis he, when at night you go off to your bed,\nBids you go to your sleep and not trouble your head;\nFor wherever they're lying, in cupboard or shelf,\n'Tis he will take care of your playthings himself!"
+  },
+  {
+    "id": "my-ship-and-i",
+    "level": 5,
+    "title": "My Ship and I",
+    "source": "stevenson",
+    "text": "O it's I that am the captain of a tidy little ship,\nOf a ship that goes a-sailing on the pond;\nAnd my ship it keeps a-turning all around and all about;\nBut when I'm a little older, I shall find the secret out\nHow to send my vessel sailing on beyond.\n\nFor I mean to grow as little as the dolly at the helm,\nAnd the dolly I intend to come alive;\nAnd with him beside to help me, it's a-sailing I shall go,\nIt's a-sailing on the water, when the jolly breezes blow\nAnd the vessel goes a divie-divie-dive.\n\nO it's then you'll see me sailing through the rushes and the reeds,\nAnd you'll hear the water singing at the prow;\nFor beside the dolly sailor, I'm to voyage and explore,\nTo land upon the island where no dolly was before,\nAnd to fire the penny cannon in the bow."
+  },
+  {
+    "id": "my-kingdom",
+    "level": 5,
+    "title": "My Kingdom",
+    "source": "stevenson",
+    "text": "Down by a shining water well\nI found a very little dell,\nNo higher than my head.\nThe heather and the gorse about\nIn summer bloom were coming out,\nSome yellow and some red.\n\nI called the little pool a sea;\nThe little hills were big to me;\nFor I am very small.\nI made a boat, I made a town,\nI searched the caverns up and down,\nAnd named them one and all.\n\nAnd all about was mine, I said,\nThe little sparrows overhead,\nThe little minnows too.\nThis was the world and I was king;\nFor me the bees came by to sing,\nFor me the swallows flew.\n\nI played there were no deeper seas,\nNor any wider plains than these,\nNor other kings than me.\nAt last I heard my mother call\nOut from the house at evenfall,\nTo call me home to tea.\n\nAnd I must rise and leave my dell,\nAnd leave my dimpled water well,\nAnd leave my heather blooms.\nAlas! and as my home I neared,\nHow very big my nurse appeared.\nHow great and cool the rooms!"
+  },
+  {
+    "id": "my-treasures",
+    "level": 5,
+    "title": "My Treasures",
+    "source": "stevenson",
+    "text": "These nuts, that I keep in the back of the nest\nWhere all my lead soldiers are lying at rest,\nWere gathered in autumn by nursie and me\nIn a wood with a well by the side of the sea.\n\nThis whistle we made (and how clearly it sounds!)\nBy the side of a field at the end of the grounds.\nOf a branch of a plane, with a knife of my own,\nIt was nursie who made it, and nursie alone!\n\nThe stone, with the white and the yellow and grey,\nWe discovered I cannot tell how far away;\nAnd I carried it back although weary and cold,\nFor though father denies it, I'm sure it is gold.\n\nBut of all my treasures the last is the king,\nFor there's very few children possess such a thing;\nAnd that is a chisel, both handle and blade,\nWhich a man who was really a carpenter made."
+  },
+  {
+    "id": "block-city",
+    "level": 5,
+    "title": "Block City",
+    "source": "stevenson",
+    "text": "What are you able to build with your blocks?\nCastles and palaces, temples and docks.\nRain may keep raining, and others go roam,\nBut I can be happy and building at home.\n\nLet the sofa be mountains, the carpet be sea,\nThere I'll establish a city for me:\nA kirk and a mill and a palace beside,\nAnd a harbour as well where my vessels may ride.\n\nGreat is the palace with pillar and wall,\nA sort of a tower on the top of it all,\nAnd steps coming down in an orderly way\nTo where my toy vessels lie safe in the bay.\n\nThis one is sailing and that one is moored:\nHark to the song of the sailors on board!\nAnd see, on the steps of my palace, the kings\nComing and going with presents and things!\n\nNow I have done with it, down let it go!\nAll in a moment the town is laid low.\nBlock upon block lying scattered and free,\nWhat is there left of my town by the sea?\n\nYet as I saw it, I see it again,\nThe kirk and the palace, the ships and the men,\nAnd as long as I live and where'er I may be,\nI'll always remember my town by the sea."
+  },
+  {
+    "id": "nest-eggs",
+    "level": 5,
+    "title": "Nest Eggs",
+    "source": "stevenson",
+    "text": "Birds all the sunny day\nFlutter and quarrel\nHere in the arbour-like\nTent of the laurel.\n\nHere in the fork\nThe brown nest is seated;\nFour little blue eggs\nThe mother keeps heated.\n\nWhile we stand watching her\nStaring like gabies,\nSafe in each egg are the\nBird's little babies.\n\nSoon the frail eggs they shall\nChip, and upspringing\nMake all the April woods\nMerry with singing.\n\nYounger than we are,\nO children, and frailer,\nSoon in blue air they'll be,\nSinger and sailor.\n\nWe, so much older,\nTaller and stronger,\nWe shall look down on the\nBirdies no longer.\n\nThey shall go flying\nWith musical speeches\nHigh over head in the\nTops of the beeches.\n\nIn spite of our wisdom\nAnd sensible talking,\nWe on our feet must go\nPlodding and walking."
+  },
+  {
+    "id": "summer-sun",
+    "level": 5,
+    "title": "Summer Sun",
+    "source": "stevenson",
+    "text": "Great is the sun, and wide he goes\nThrough empty heaven without repose;\nAnd in the blue and glowing days\nMore thick than rain he showers his rays.\n\nThough closer still the blinds we pull\nTo keep the shady parlour cool,\nYet he will find a chink or two\nTo slip his golden fingers through.\n\nThe dusty attic spider-clad\nHe, through the keyhole, maketh glad;\nAnd through the broken edge of tiles\nInto the laddered hay-loft smiles.\n\nMeantime his golden face around\nHe bares to all the garden ground,\nAnd sheds a warm and glittering look\nAmong the ivy's inmost nook.\n\nAbove the hills, along the blue,\nRound the bright air with footing true,\nTo please the child, to paint the rose,\nThe gardener of the World, he goes."
+  },
+  {
+    "id": "night-and-day",
+    "level": 5,
+    "title": "Night and Day",
+    "source": "stevenson",
+    "text": "When the golden day is done,\nThrough the closing portal,\nChild and garden, flower and sun,\nVanish all things mortal.\n\nAs the blinding shadows fall\nAs the rays diminish,\nUnder evening's cloak, they all\nRoll away and vanish.\n\nGarden darkened, daisy shut,\nChild in bed, they slumber—\nGlow-worm in the highway rut,\nMice among the lumber.\n\nIn the darkness houses shine,\nParents move with candles;\nTill on all, the night divine\nTurns the bedroom handles.\n\nTill at last the day begins\nIn the east a-breaking,\nIn the hedges and the whins\nSleeping birds a-waking.\n\nIn the darkness shapes of things,\nHouses, trees and hedges,\nClearer grow; and sparrow's wings\nBeat on window ledges.\n\nThese shall wake the yawning maid;\nShe the door shall open—\nFinding dew on garden glade\nAnd the morning broken.\n\nThere my garden grows again\nGreen and rosy painted,\nAs at eve behind the pane\nFrom my eyes it fainted.\n\nJust as it was shut away,\nToy-like, in the even,\nHere I see it glow with day\nUnder glowing heaven.\n\nEvery path and every plot,\nEvery bush of roses,\nEvery blue forget-me-not\nWhere the dew reposes.\n\n\"Up!\" they cry, \"the day is come\nOn the smiling valleys:\nWe have beat the morning drum;\nPlaymate, join your allies!\""
+  },
+  {
+    "id": "calico-pie",
+    "level": 5,
+    "title": "Calico Pie",
+    "source": "lear",
+    "text": "Calico pie,\nThe little birds fly\nDown to the calico-tree:\nTheir wings were blue,\nAnd they sang \"Tilly-loo!\"\nTill away they flew;\nAnd they never came back to me!\nThey never came back,\nThey never came back,\nThey never came back to me!\n\nCalico jam,\nThe little Fish swam\nOver the Syllabub Sea.\nHe took off his hat\nTo the Sole and the Sprat,\nAnd the Willeby-wat:\nBut he never came back to me;\nHe never came back,\nHe never came back,\nHe never came back to me.\n\nCalico ban,\nThe little Mice ran\nTo be ready in time for tea;\nFlippity flup,\nThey drank it all up,\nAnd danced in the cup:\nBut they never came back to me;\nThey never came back,\nThey never came back,\nThey never came back to me.\n\nCalico drum,\nThe Grasshoppers come,\nThe Butterfly, Beetle, and Bee,\nOver the ground,\nAround and round,\nWith a hop and a bound;\nBut they never came back,\nThey never came back,\nThey never came back.\nThey never came back to me."
+  },
+  {
+    "id": "the-table-and-the-chair",
+    "level": 5,
+    "title": "The Table and the Chair",
+    "source": "lear",
+    "text": "Said the Table to the Chair,\n\"You can hardly be aware\nHow I suffer from the heat\nAnd from chilblains on my feet.\nIf we took a little walk,\nWe might have a little talk;\nPray let us take the air,\"\nSaid the Table to the Chair.\n\nSaid the Chair unto the Table,\n\"Now, you know we are not able:\nHow foolishly you talk,\nWhen you know we cannot walk!\"\nSaid the Table with a sigh,\n\"It can do no harm to try.\nI've as many legs as you:\nWhy can't we walk on two?\"\n\nSo they both went slowly down,\nAnd walked about the town\nWith a cheerful bumpy sound\nAs they toddled round and round;\nAnd everybody cried,\nAs they hastened to their side,\n\"See! the Table and the Chair\nHave come out to take the air!\"\n\nBut in going down an alley,\nTo a castle in a valley,\nThey completely lost their way,\nAnd wandered all the day;\nTill, to see them safely back,\nThey paid a Ducky-quack,\nAnd a Beetle, and a Mouse,\nWho took them to their house.\n\nThen they whispered to each other,\n\"O delightful little brother,\nWhat a lovely walk we've taken!\nLet us dine on beans and bacon.\"\nSo the Ducky and the leetle\nBrowny-Mousy and the Beetle\nDined, and danced upon their heads\nTill they toddled to their beds."
+  }
+]

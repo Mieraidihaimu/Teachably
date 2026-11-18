@@ -5,6 +5,8 @@ enum DrawingCategory: String, CaseIterable {
     case animals = "Animals"
     case things = "Things"
     case toys = "Toys"
+    case lines = "Lines"
+    case shapes = "Shapes"
 
     var title: String { L10n.string(rawValue) }
 }
@@ -14,6 +16,16 @@ struct Drawing: Identifiable {
     let titleKey: String
     let category: DrawingCategory
     let tileAspectRatio: CGFloat
+    let guide: DrawingGuide?
+
+    init(id: String, titleKey: String, category: DrawingCategory, tileAspectRatio: CGFloat,
+         guide: DrawingGuide? = nil) {
+        self.id = id
+        self.titleKey = titleKey
+        self.category = category
+        self.tileAspectRatio = tileAspectRatio
+        self.guide = guide
+    }
 
     var title: String { L10n.string(titleKey) }
     var image: Image { Image("Drawing-\(id)") }
@@ -29,7 +41,7 @@ struct Drawing: Identifiable {
 }
 
 enum DrawingLevel: Int, CaseIterable, Identifiable {
-    case one = 1, two, three, four, five
+    case zero = 0, one, two, three, four, five
 
     var id: Int { rawValue }
     var title: String { L10n.format("Level %lld", rawValue) }
@@ -37,6 +49,10 @@ enum DrawingLevel: Int, CaseIterable, Identifiable {
 
 enum DrawingCatalog {
     static let drawings: [DrawingLevel: [Drawing]] = [
+        .zero: DrawingGuide.allCases.map { guide in
+            Drawing(id: guide.rawValue, titleKey: guide.titleKey, category: guide.category,
+                    tileAspectRatio: 1.16, guide: guide)
+        },
         .one: [
             Drawing(id: "rubber-ball", titleKey: "Rubber ball", category: .toys, tileAspectRatio: 0.90),
             Drawing(id: "apple", titleKey: "Apple", category: .things, tileAspectRatio: 1.03),
@@ -160,4 +176,90 @@ enum DrawingCatalog {
             Drawing(id: "space-station", titleKey: "Toy space station", category: .toys, tileAspectRatio: 1.22)
         ],
     ]
+}
+
+enum DrawingGuide: String, CaseIterable, Shape {
+    case horizontalLine = "horizontal-line"
+    case verticalLine = "vertical-line"
+    case diagonalLine = "diagonal-line"
+    case circle, arch, wavyLine = "wavy-line", zigzag, spiral
+    case oval, triangle, square, rectangle
+
+    var titleKey: String {
+        switch self {
+        case .horizontalLine: "Horizontal line"
+        case .verticalLine: "Vertical line"
+        case .diagonalLine: "Diagonal line"
+        case .arch: "Arch"
+        case .wavyLine: "Wavy line"
+        case .zigzag: "Zigzag"
+        case .spiral: "Spiral"
+        case .circle: "Circle"
+        case .oval: "Oval"
+        case .triangle: "Triangle"
+        case .square: "Square"
+        case .rectangle: "Rectangle"
+        }
+    }
+
+    var category: DrawingCategory {
+        switch self {
+        case .circle, .oval, .triangle, .square, .rectangle: .shapes
+        default: .lines
+        }
+    }
+
+    nonisolated func path(in rect: CGRect) -> Path {
+        // Draw in a centred square so corners and curves keep their proportions.
+        let scale = min(rect.width, rect.height) / 100
+        let transform = CGAffineTransform(a: scale, b: 0, c: 0, d: scale,
+                                          tx: rect.midX - 50 * scale, ty: rect.midY - 50 * scale)
+        let path = Path { path in
+            switch self {
+            case .horizontalLine:
+                path.addLines([CGPoint(x: 14, y: 50), CGPoint(x: 86, y: 50)])
+            case .verticalLine:
+                path.addLines([CGPoint(x: 50, y: 14), CGPoint(x: 50, y: 86)])
+            case .diagonalLine:
+                path.addLines([CGPoint(x: 22, y: 22), CGPoint(x: 78, y: 78)])
+            case .arch:
+                path.move(to: CGPoint(x: 16, y: 67))
+                path.addQuadCurve(to: CGPoint(x: 84, y: 67), control: CGPoint(x: 50, y: 1))
+            case .wavyLine:
+                path.move(to: CGPoint(x: 12, y: 50))
+                path.addCurve(to: CGPoint(x: 50, y: 50), control1: CGPoint(x: 25, y: 18),
+                              control2: CGPoint(x: 37, y: 18))
+                path.addCurve(to: CGPoint(x: 88, y: 50), control1: CGPoint(x: 63, y: 82),
+                              control2: CGPoint(x: 75, y: 82))
+            case .zigzag:
+                path.addLines([CGPoint(x: 12, y: 65), CGPoint(x: 31, y: 35), CGPoint(x: 50, y: 65),
+                               CGPoint(x: 69, y: 35), CGPoint(x: 88, y: 65)])
+            case .spiral:
+                path.move(to: CGPoint(x: 50, y: 14))
+                path.addCurve(to: CGPoint(x: 18, y: 54), control1: CGPoint(x: 30, y: 14),
+                              control2: CGPoint(x: 15, y: 33))
+                path.addCurve(to: CGPoint(x: 64, y: 82), control1: CGPoint(x: 21, y: 77),
+                              control2: CGPoint(x: 43, y: 89))
+                path.addCurve(to: CGPoint(x: 77, y: 42), control1: CGPoint(x: 82, y: 76),
+                              control2: CGPoint(x: 87, y: 58))
+                path.addCurve(to: CGPoint(x: 41, y: 41), control1: CGPoint(x: 69, y: 29),
+                              control2: CGPoint(x: 50, y: 28))
+                path.addCurve(to: CGPoint(x: 57, y: 66), control1: CGPoint(x: 32, y: 54),
+                              control2: CGPoint(x: 44, y: 72))
+                path.addQuadCurve(to: CGPoint(x: 56, y: 50), control: CGPoint(x: 69, y: 60))
+            case .circle:
+                path.addEllipse(in: CGRect(x: 19, y: 19, width: 62, height: 62))
+            case .oval:
+                path.addEllipse(in: CGRect(x: 14, y: 27, width: 72, height: 46))
+            case .triangle:
+                path.addLines([CGPoint(x: 50, y: 18), CGPoint(x: 84, y: 78), CGPoint(x: 16, y: 78)])
+                path.closeSubpath()
+            case .square:
+                path.addRect(CGRect(x: 21, y: 21, width: 58, height: 58))
+            case .rectangle:
+                path.addRect(CGRect(x: 14, y: 27, width: 72, height: 46))
+            }
+        }
+        return path.applying(transform)
+    }
 }

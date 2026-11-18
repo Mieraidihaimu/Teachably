@@ -25,6 +25,11 @@
 		000000000000000000000211 /* FoundationModelWanderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000210 /* FoundationModelWanderProvider.swift */; };
 		000000000000000000000213 /* Views/DrawingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000212 /* Views/DrawingsView.swift */; };
 		000000000000000000000215 /* DrawingCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000214 /* DrawingCatalog.swift */; };
+		000000000000000000000217 /* Views/PoemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000216 /* Views/PoemsView.swift */; };
+		000000000000000000000219 /* Views/TodayPrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000218 /* Views/TodayPrintView.swift */; };
+		00000000000000000000021B /* TodayPrintDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000021A /* TodayPrintDocument.swift */; };
+		00000000000000000000021D /* Views/ShowAndTellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000021C /* Views/ShowAndTellView.swift */; };
+		00000000000000000000021F /* Views/StoryPictureArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000021E /* Views/StoryPictureArtwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,11 @@
 		000000000000000000000210 /* FoundationModelWanderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationModelWanderProvider.swift; sourceTree = "<group>"; };
 		000000000000000000000212 /* Views/DrawingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/DrawingsView.swift; sourceTree = "<group>"; };
 		000000000000000000000214 /* DrawingCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCatalog.swift; sourceTree = "<group>"; };
+		000000000000000000000216 /* Views/PoemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/PoemsView.swift; sourceTree = "<group>"; };
+		000000000000000000000218 /* Views/TodayPrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/TodayPrintView.swift; sourceTree = "<group>"; };
+		00000000000000000000021A /* TodayPrintDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayPrintDocument.swift; sourceTree = "<group>"; };
+		00000000000000000000021C /* Views/ShowAndTellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ShowAndTellView.swift; sourceTree = "<group>"; };
+		00000000000000000000021E /* Views/StoryPictureArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/StoryPictureArtwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +120,15 @@
 				000000000000000000000016 /* Views/DiscoverView.swift */,
 				000000000000000000000212 /* Views/DrawingsView.swift */,
 				000000000000000000000214 /* DrawingCatalog.swift */,
+				000000000000000000000216 /* Views/PoemsView.swift */,
 				000000000000000000000018 /* Views/MemoriesView.swift */,
 				00000000000000000000001A /* Views/SessionView.swift */,
 				00000000000000000000001C /* Views/SkillsView.swift */,
 				00000000000000000000001E /* Views/TodayView.swift */,
+				000000000000000000000218 /* Views/TodayPrintView.swift */,
+				00000000000000000000021A /* TodayPrintDocument.swift */,
+				00000000000000000000021C /* Views/ShowAndTellView.swift */,
+				00000000000000000000021E /* Views/StoryPictureArtwork.swift */,
 				000000000000000000000020 /* Assets.xcassets */,
 			);
 			path = Teachably;
@@ -239,10 +254,15 @@
 				000000000000000000000017 /* Views/DiscoverView.swift in Sources */,
 				000000000000000000000213 /* Views/DrawingsView.swift in Sources */,
 				000000000000000000000215 /* DrawingCatalog.swift in Sources */,
+				000000000000000000000217 /* Views/PoemsView.swift in Sources */,
 				000000000000000000000019 /* Views/MemoriesView.swift in Sources */,
 				00000000000000000000001B /* Views/SessionView.swift in Sources */,
 				00000000000000000000001D /* Views/SkillsView.swift in Sources */,
 				00000000000000000000001F /* Views/TodayView.swift in Sources */,
+				000000000000000000000219 /* Views/TodayPrintView.swift in Sources */,
+				00000000000000000000021D /* Views/ShowAndTellView.swift in Sources */,
+				00000000000000000000021F /* Views/StoryPictureArtwork.swift in Sources */,
+				00000000000000000000021B /* TodayPrintDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

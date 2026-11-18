@@ -45,13 +45,53 @@ final class TeachablyUITests: XCTestCase {
 
         // The session returns to the detail view. Navigate to the root tabs.
         app.navigationBars.buttons.element(boundBy: 0).tap()
-        openMemories(in: app, title: "Memories")
+        openMemories(in: app)
         XCTAssertTrue(app.staticTexts["We made something together."].waitForExistence(timeout: 5))
         attachScreenshot("Memories", app: app)
         app.terminate()
         app.launch()
-        openMemories(in: app, title: "Memories")
+        openMemories(in: app)
         XCTAssertTrue(app.staticTexts["We made something together."].waitForExistence(timeout: 5))
+    }
+
+    @MainActor
+    func testShowAndTellOpensPicturesAndRevealsStoryOnDemand() {
+        let app = XCUIApplication()
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB", "--demo"]
+        app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.stories.tests.\(UUID().uuidString)"
+        app.launch()
+
+        app.tabBars.buttons["More"].tap()
+        app.buttons["more.show-and-tell"].tap()
+        XCTAssertTrue(app.staticTexts["60 stories in English"].waitForExistence(timeout: 5))
+        let story = app.buttons["show-and-tell.story.kite-in-the-tree"]
+        XCTAssertTrue(story.isHittable)
+        attachScreenshot("Show and Tell mosaics", app: app)
+        story.tap()
+
+        let read = app.buttons["show-and-tell.read"]
+        XCTAssertTrue(read.waitForExistence(timeout: 5))
+        for number in 1...6 {
+            XCTAssertTrue(app.buttons["show-and-tell.picture.\(number)"].exists)
+        }
+        XCTAssertFalse(app.staticTexts["show-and-tell.text.1"].exists)
+        attachScreenshot("Six picture sequence", app: app)
+
+        app.buttons["show-and-tell.picture.2"].tap()
+        XCTAssertTrue(app.staticTexts["Picture 2 of 6"].waitForExistence(timeout: 5))
+        app.buttons["Next picture"].tap()
+        XCTAssertTrue(app.staticTexts["Picture 3 of 6"].exists)
+        XCTAssertEqual(app.images["show-and-tell.enlarged"].label, "A grown-up beside the girl and the tree.")
+        attachScreenshot("Enlarged picture", app: app)
+        app.buttons["Done"].tap()
+
+        read.tap()
+        XCTAssertTrue(app.staticTexts["show-and-tell.text.1"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["show-and-tell.text.6"].exists)
+        attachScreenshot("Written story", app: app)
+        app.buttons["Done"].tap()
+        XCTAssertTrue(read.isHittable)
+        XCTAssertFalse(app.staticTexts["show-and-tell.text.1"].exists)
     }
 
     @MainActor
@@ -61,6 +101,9 @@ final class TeachablyUITests: XCTestCase {
         app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.drawings.tests.\(UUID().uuidString)"
         app.launch()
         app.tabBars.buttons["Drawings"].tap()
+        let levels = app.buttons["drawings.level"]
+        levels.tap()
+        app.buttons["Level 1"].tap()
         let ball = app.buttons["drawing.rubber-ball"]
         let fish = app.buttons["drawing.fish"]
         XCTAssertTrue(ball.waitForExistence(timeout: 5))
@@ -72,7 +115,6 @@ final class TeachablyUITests: XCTestCase {
         XCTAssertFalse(ball.exists)
         app.buttons["All drawings"].tap()
 
-        let levels = app.buttons["drawings.level"]
         levels.tap()
         app.buttons["Level 5"].tap()
         XCTAssertTrue(app.buttons["drawing.chameleon"].waitForExistence(timeout: 5))
@@ -115,13 +157,107 @@ final class TeachablyUITests: XCTestCase {
     }
 
     @MainActor
+    func testLevelZeroCanFindTraceAndClearGuides() throws {
+        let app = XCUIApplication()
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB", "--demo"]
+        app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.drawings.tests.\(UUID().uuidString)"
+        app.launch()
+        app.tabBars.buttons["Drawings"].tap()
+        XCTAssertTrue(app.staticTexts["Level 0"].isHittable)
+        attachScreenshot("Level 0 gallery", app: app)
+
+        app.buttons["drawings.level"].tap()
+        app.buttons["Level 0"].tap()
+        let line = app.buttons["drawing.horizontal-line"]
+        XCTAssertTrue(line.waitForExistence(timeout: 5))
+        XCTAssertFalse(app.buttons["drawing.rubber-ball"].exists)
+        line.tap()
+
+        let canvas = app.descendants(matching: .any)["drawings.practice.canvas"]
+        let clear = app.buttons["drawings.practice.clear"]
+        XCTAssertTrue(canvas.waitForExistence(timeout: 5))
+        XCTAssertFalse(clear.isEnabled)
+        let start = canvas.coordinate(withNormalizedOffset: CGVector(dx: 0.2, dy: 0.5))
+        let end = canvas.coordinate(withNormalizedOffset: CGVector(dx: 0.8, dy: 0.5))
+        start.press(forDuration: 0.1, thenDragTo: end)
+        XCTAssertTrue(clear.isEnabled)
+        attachScreenshot("Level 0 tracing", app: app)
+        clear.tap()
+        XCTAssertFalse(clear.isEnabled)
+
+        canvas.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.25)).tap()
+        XCTAssertTrue(clear.isEnabled)
+        app.buttons["Done"].tap()
+        let search = app.textFields["drawings.search"]
+        search.tap()
+        search.typeText("circle")
+        let circle = app.buttons["drawing.circle"]
+        XCTAssertTrue(circle.waitForExistence(timeout: 5))
+        XCTAssertFalse(line.exists)
+        circle.tap()
+        XCTAssertTrue(canvas.waitForExistence(timeout: 5))
+        XCTAssertEqual(canvas.label, "Circle")
+        XCTAssertFalse(clear.isEnabled)
+    }
+
+    @MainActor
+    func testPoemsOpenFromSecondTabAndReadAcrossLevels() throws {
+        let app = XCUIApplication()
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB", "--demo"]
+        app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.poems.tests.\(UUID().uuidString)"
+        app.launch()
+        let tabs = app.tabBars.buttons
+        XCTAssertEqual(tabs.element(boundBy: 1).label, "Poems")
+        XCTAssertFalse(tabs["Wander"].exists)
+        tabs["Poems"].tap()
+        XCTAssertTrue(app.staticTexts["200 poems in English"].waitForExistence(timeout: 5))
+        attachScreenshot("Poems library", app: app)
+
+        app.buttons["poems.level.0"].tap()
+        app.buttons["poem.rain-rain-go-away"].tap()
+        let verse = app.staticTexts["poems.verse"]
+        XCTAssertTrue(verse.waitForExistence(timeout: 5))
+        XCTAssertTrue(verse.label.hasPrefix("Rain, rain, go away,"))
+        let back = app.navigationBars.buttons.element(boundBy: 0)
+        back.tap()
+        back.tap()
+
+        let levelFive = app.buttons["poems.level.5"]
+        if !levelFive.isHittable { app.swipeUp() }
+        levelFive.tap()
+        app.buttons["poem.the-owl-and-the-pussy-cat"].tap()
+        XCTAssertTrue(verse.waitForExistence(timeout: 5))
+        XCTAssertTrue(verse.label.contains("pea-green boat"))
+        XCTAssertTrue(app.staticTexts["Edward Lear"].exists)
+        attachScreenshot("Poem reader", app: app)
+        let read = app.buttons["poems.read"]
+        XCTAssertEqual(read.label, "Read aloud")
+        read.tap()
+        XCTAssertEqual(read.label, "Stop reading")
+        read.tap()
+        XCTAssertEqual(read.label, "Read aloud")
+        back.tap()
+        back.tap()
+
+        let search = app.textFields["poems.search"]
+        if !search.isHittable { app.swipeDown() }
+        search.tap()
+        search.typeText("the SWING")
+        let swing = app.buttons["poem.the-swing"]
+        XCTAssertTrue(swing.waitForExistence(timeout: 5))
+        swing.tap()
+        XCTAssertTrue(verse.waitForExistence(timeout: 5))
+        XCTAssertTrue(verse.label.contains("Up in the air so blue?"))
+    }
+
+    @MainActor
     func testWanderCanExplorePinRecallAndRestoreAfterRelaunch() throws {
         let app = XCUIApplication()
         app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB"]
         app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.wander.tests.\(UUID().uuidString)"
         app.launchArguments += ["--demo"]
         app.launch()
-        app.tabBars.buttons["Wander"].tap()
+        openWander(in: app)
         let coding = app.buttons["Coding & logic"]
         XCTAssertTrue(coding.waitForExistence(timeout: 10))
         attachScreenshot("Wander map", app: app)
@@ -146,7 +282,7 @@ final class TeachablyUITests: XCTestCase {
         app.buttons["Done"].tap()
         app.terminate()
         app.launch()
-        app.tabBars.buttons["Wander"].tap()
+        openWander(in: app)
         XCTAssertTrue(app.staticTexts["An example to try"].waitForExistence(timeout: 5))
         app.buttons["Wander library"].tap()
         XCTAssertTrue(note.waitForExistence(timeout: 5))
@@ -171,7 +307,7 @@ final class TeachablyUITests: XCTestCase {
         app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.apple.tests.\(UUID().uuidString)"
         app.launchArguments += ["--demo", "--apple-ai"]
         app.launch()
-        app.tabBars.buttons["Wander"].tap()
+        openWander(in: app)
         let ready = app.staticTexts["Choose an interest or ask a question to generate a fresh idea here."]
         guard ready.waitForExistence(timeout: 10) else {
             attachScreenshot("Apple model availability", app: app)
@@ -207,10 +343,54 @@ final class TeachablyUITests: XCTestCase {
         app.buttons["wander.pin"].tap()
         app.terminate()
         app.launch()
-        app.tabBars.buttons["Wander"].tap()
+        openWander(in: app)
         XCTAssertTrue(source.waitForExistence(timeout: 10))
         XCTAssertEqual(app.buttons["wander.pin"].label, "Unpin this idea")
         attachScreenshot("Apple generated idea restored", app: app)
+    }
+
+    @MainActor
+    func testPrintForTodayUsesCurrentActivityAndSelectedPages() {
+        let app = XCUIApplication()
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB", "--demo"]
+        app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.print.tests.\(UUID().uuidString)"
+        app.launch()
+
+        let title = app.staticTexts["today.activity.title"]
+        XCTAssertTrue(title.waitForExistence(timeout: 5))
+        let firstTitle = title.label
+        let anotherIdea = app.buttons["Another idea for today"]
+        if !anotherIdea.isHittable { app.swipeUp() }
+        anotherIdea.tap()
+        XCTAssertTrue(title.waitForExistence(timeout: 5))
+        let currentTitle = title.label
+        XCTAssertNotEqual(firstTitle, currentTitle)
+
+        app.tabBars.buttons["More"].tap()
+        app.buttons["more.print-today"].tap()
+        let activity = app.switches["print.today.activity"]
+        let drawing = app.switches["print.today.drawing"]
+        let poem = app.switches["print.today.poem"]
+        let printButton = app.buttons["print.today.open-options"]
+        XCTAssertTrue(activity.waitForExistence(timeout: 5))
+        XCTAssertTrue(activity.label.contains(currentTitle))
+        printButton.tap()
+        XCTAssertTrue(app.cells["Page 1 of 3"].waitForExistence(timeout: 5))
+        attachScreenshot("All three print pages", app: app)
+        app.buttons["Cancel"].tap()
+
+        for page in [activity, drawing, poem] {
+            XCTAssertEqual(page.value as? String, "1")
+            page.switches.firstMatch.tap()
+            XCTAssertEqual(page.value as? String, "0")
+        }
+        XCTAssertFalse(printButton.isEnabled)
+        drawing.switches.firstMatch.tap()
+        XCTAssertTrue(printButton.isEnabled)
+        attachScreenshot("Print for today", app: app)
+        printButton.tap()
+        XCTAssertTrue(app.cells["Page 1 of 1"].waitForExistence(timeout: 5))
+        attachScreenshot("Drawing print preview", app: app)
     }
 
     @MainActor
@@ -246,22 +426,22 @@ final class TeachablyUITests: XCTestCase {
                 XCTAssertNotEqual(title, englishActivityTitle, language.code)
             }
             attachScreenshot("Today · \(language.code)", app: app)
-            openMemories(in: app, title: language.memories)
+            openMemories(in: app)
             XCTAssertTrue(app.navigationBars[language.memories].waitForExistence(timeout: 5), language.code)
             app.terminate()
         }
     }
 
     @MainActor
-    private func openMemories(in app: XCUIApplication, title: String) {
-        let tabs = app.tabBars.buttons
-        if tabs[title].exists {
-            tabs[title].tap()
-        } else {
-            // The compact tab bar puts the remaining destinations behind its last item.
-            tabs.element(boundBy: tabs.count - 1).tap()
-            app.staticTexts[title].tap()
-        }
+    private func openMemories(in app: XCUIApplication) {
+        app.tabBars.buttons.element(boundBy: 4).tap()
+        app.buttons["more.memories"].tap()
+    }
+
+    @MainActor
+    private func openWander(in app: XCUIApplication) {
+        app.tabBars.buttons["More"].tap()
+        app.buttons["more.wander"].tap()
     }
 
     @MainActor

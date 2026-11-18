@@ -1,4 +1,14 @@
 /* Traditional Chinese, with regional terminology and an editorial language pass. */
+
+/* Printing for today */
+"Print for today" = "列印今日內容";
+"Print" = "列印";
+"Activity" = "活動";
+"Drawing" = "繪畫";
+"Poem in English" = "英文詩歌";
+"Couldn’t print" = "無法列印";
+"Check that an AirPrint printer is available and try again." = "請確認有可用的 AirPrint 印表機，然後再試一次。";
+
 "%@ · Step %lld of %lld" = "%@ · 第 %lld 步，共 %lld 步";
 "%@ — what made you smile, surprised you, or would you like to try again?" = "%@——什麼讓你會心一笑、感到驚喜，或想再試一次？";
 "%@, not checked" = "%@，尚未確認";
@@ -257,7 +267,39 @@
 "Zoom out map" = "縮小地圖";
 "a little wonder" = "一點小驚喜";
 
+/* Poetry library and tab navigation */
+"More" = "更多";
+"Poems" = "詩歌";
+"%lld poems in English" = "%lld 首英語詩歌";
+"Search poems" = "搜尋詩歌";
+"Poems are unavailable" = "暫時無法顯示詩歌";
+"A few tiny lines" = "短短幾行";
+"Short, playful rhymes" = "簡短有趣的童謠";
+"Rhythm and repetition" = "節奏與重複";
+"Poems with a little story" = "有小故事的詩";
+"Longer verses" = "篇幅更長的詩";
+"Bigger reads and richer words" = "更長的詩，更多新詞";
+"Traditional nursery rhyme" = "傳統童謠";
+"Read aloud" = "朗讀";
+"Stop reading" = "停止朗讀";
+
 /* Drawing gallery */
+"Lines" = "線條";
+"Shapes" = "形狀";
+"Horizontal line" = "橫線";
+"Vertical line" = "直線";
+"Diagonal line" = "斜線";
+"Arch" = "弧線";
+"Wavy line" = "波浪線";
+"Zigzag" = "鋸齒線";
+"Spiral" = "螺旋線";
+"Circle" = "圓形";
+"Oval" = "橢圓形";
+"Triangle" = "三角形";
+"Square" = "正方形";
+"Rectangle" = "長方形";
+"Trace the dashes, or make your own marks." = "沿著虛線描一描，也可以自由塗鴉。";
+"Clear drawing" = "清除筆跡";
 "Drawings" = "畫畫";
 "What shall we draw?" = "今天畫什麼？";
 "Search drawings" = "搜尋圖畫";
@@ -387,3 +429,13 @@
 "Telescope" = "望遠鏡";
 "Hermit crab" = "寄居蟹";
 "Toy space station" = "玩具太空站";
+
+"Show and Tell" = "看圖說故事";
+"Stories are unavailable" = "故事暫時無法顯示";
+"%lld stories in English" = "%lld 個英文故事";
+"Read story" = "閱讀故事";
+"Look at the pictures. What happens first, next, and last?" = "看看這些圖片。先發生了什麼？接著呢？最後呢？";
+"Picture %lld. %@" = "第 %lld 張圖。%@";
+"Picture %lld of %lld" = "第 %lld 張圖，共 %lld 張";
+"Previous picture" = "上一張圖";
+"Next picture" = "下一張圖";

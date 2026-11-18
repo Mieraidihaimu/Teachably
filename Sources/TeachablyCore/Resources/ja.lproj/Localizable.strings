@@ -1,4 +1,14 @@
 /* Japanese interface, accessibility, error, and export copy. */
+
+/* Printing for today */
+"Print for today" = "今日の分を印刷";
+"Print" = "印刷";
+"Activity" = "アクティビティ";
+"Drawing" = "お絵描き";
+"Poem in English" = "英語の詩";
+"Couldn’t print" = "印刷できませんでした";
+"Check that an AirPrint printer is available and try again." = "AirPrint対応のプリンタが利用可能か確認して、もう一度お試しください。";
+
 "%@ · Step %lld of %lld" = "%@ · ステップ%lld/%lld";
 "%@ — what made you smile, surprised you, or would you like to try again?" = "%@ — 笑顔になったこと、驚いたこと、また試したいことは？";
 "%@, not checked" = "%@、まだ準備していません";
@@ -257,7 +267,39 @@
 "Zoom out map" = "マップを縮小";
 "a little wonder" = "小さなふしぎ";
 
+/* Poetry library and tab navigation */
+"More" = "その他";
+"Poems" = "詩";
+"%lld poems in English" = "英語の詩 %lld 編";
+"Search poems" = "詩を探す";
+"Poems are unavailable" = "詩を表示できません";
+"A few tiny lines" = "短い数行の詩";
+"Short, playful rhymes" = "短くて楽しい詩";
+"Rhythm and repetition" = "リズムとくり返し";
+"Poems with a little story" = "小さなお話の詩";
+"Longer verses" = "少し長めの詩";
+"Bigger reads and richer words" = "長めの詩と豊かな言葉";
+"Traditional nursery rhyme" = "伝承のわらべうた";
+"Read aloud" = "読み上げる";
+"Stop reading" = "読み上げを止める";
+
 /* Drawing gallery */
+"Lines" = "線";
+"Shapes" = "形";
+"Horizontal line" = "横の線";
+"Vertical line" = "縦の線";
+"Diagonal line" = "斜めの線";
+"Arch" = "弧";
+"Wavy line" = "波線";
+"Zigzag" = "ジグザグ";
+"Spiral" = "うずまき";
+"Circle" = "丸";
+"Oval" = "だ円";
+"Triangle" = "三角形";
+"Square" = "正方形";
+"Rectangle" = "長方形";
+"Trace the dashes, or make your own marks." = "点線をなぞったり、自由に描いたりしてみよう。";
+"Clear drawing" = "絵を消す";
 "Drawings" = "お絵かき";
 "What shall we draw?" = "何を描こう？";
 "Search drawings" = "絵を探す";
@@ -387,3 +429,13 @@
 "Telescope" = "望遠鏡";
 "Hermit crab" = "ヤドカリ";
 "Toy space station" = "おもちゃの宇宙ステーション";
+
+"Show and Tell" = "絵を見ておはなし";
+"Stories are unavailable" = "おはなしを表示できません";
+"%lld stories in English" = "英語のおはなし %lld 話";
+"Read story" = "おはなしを読む";
+"Look at the pictures. What happens first, next, and last?" = "絵を見てみよう。最初に何が起きたかな？ その次は？ 最後は？";
+"Picture %lld. %@" = "絵 %lld。%@";
+"Picture %lld of %lld" = "絵 %1$lld ／ 全 %2$lld 枚";
+"Previous picture" = "前の絵";
+"Next picture" = "次の絵";

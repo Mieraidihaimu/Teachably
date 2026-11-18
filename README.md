@@ -14,7 +14,10 @@ The deployment target is iOS 17. Wander's optional on-device generation requires
 
 - **My skills:** maths, reading, basic movement, physics, diary writing, coding, and critical thinking are preselected for new profiles. Five other themes are also available. Existing saved choices are preserved; **Use my seven interests** applies the personal starter selection.
 - **Today:** a persistent daily suggestion, with another-idea control. Picks come from your selected interests; themes take turns and offered activities rotate before repeating.
-- **Wander:** explore a bubble map or readable list. Choose **Apple AI** for fresh on-device branches, explanations, and examples with separate invitations for ages 2 and 6, or **Activity library** for the original curated content. Source labels distinguish them. Keep pinned snapshots with personal notes, search earlier ideas, and share Markdown or JSON exports. [Port details](docs/wander-port.md).
+- **Print for today:** choose the current Today activity, a tracing worksheet, or a short English poem in **More → Print for today**. Each selection prints on its own page through AirPrint.
+- **Poems:** browse 200 English poems across Levels 0–5, from a few short lines to longer poems to read together. Search by title or author and use **Read aloud** to listen with the device's English voice.
+- **Show and Tell:** open **More → Show and Tell** for 60 short English stories. Choose a six-picture mosaic, tell your own version from the numbered pictures, and tap **Read story** when you are ready to read the written version. Tap any picture to see it larger.
+- **Wander:** open it from **More** to explore a bubble map or readable list. Choose **Apple AI** for fresh on-device branches, explanations, and examples with separate invitations for ages 2 and 6, or **Activity library** for the original curated content. Keep pinned snapshots with personal notes, search earlier ideas, and share Markdown or JSON exports. [Port details](docs/wander-port.md).
 - **Activity guide:** materials checklist, a refresher for the parent, separate prompts for ages 2 and 6, and four flexible steps totalling 30 minutes.
 - **Your experience:** write a personal teaching note that appears during the session.
 - **Together time:** a pausable timer for each step, manual progression, and the option to finish early.
@@ -27,6 +30,15 @@ Family preferences, daily history, teaching notes, and memories are stored local
 Today and Discover use the finite, curated activity library. When that deck is exhausted, earlier activities return. Wander can generate ideas beyond the library using Apple's Foundation Models framework, with no API key or app server. Generated suggestions need a parent's review and are not added automatically to the daily activity deck. There are no scheduled reminders yet.
 
 Your personal starter pack has six activities for each of your seven interests. With one suggestion per day, a new profile covers every interest once in each of the first six weeks, without repeating an activity. Asking for another idea also counts the previous suggestion as explored and can change that cadence. The five other categories each have five activities. See [your activity pack](docs/your-activity-pack.md) for the full list.
+
+## Poetry sources
+
+The bundled library uses public-domain English verse with author credits in the reader. Reading levels are based on length, repetition, and vocabulary. The library preserves stanza breaks and uses familiar display titles for some traditional rhymes.
+
+- Traditional nursery rhymes from [The Real Mother Goose](https://www.gutenberg.org/ebooks/10607), illustrated by Blanche Fisher Wright, 1916.
+- Christina Rossetti from [Sing-Song](https://www.gutenberg.org/ebooks/76703), 1893 edition.
+- Robert Louis Stevenson from [A Child's Garden of Verses](https://www.gutenberg.org/ebooks/25609), first published in 1885.
+- Edward Lear from [Nonsense Songs](https://www.gutenberg.org/ebooks/13647), first published in 1871.
 
 ## Structure
 

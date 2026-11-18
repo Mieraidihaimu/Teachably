@@ -23,16 +23,14 @@ struct ContentView: View {
         TabView {
             NavigationStack { TodayView() }
                 .tabItem { Label(L10n.string("Today"), systemImage: "sun.max") }
-            NavigationStack { WanderView() }
-                .tabItem { Label(L10n.string("Wander"), systemImage: "safari") }
+            NavigationStack { PoemsView() }
+                .tabItem { Label(L10n.string("Poems"), systemImage: "book") }
             NavigationStack { DiscoverView() }
                 .tabItem { Label(L10n.string("Discover"), systemImage: "square.grid.2x2") }
             NavigationStack { DrawingsView() }
                 .tabItem { Label(L10n.string("Drawings"), systemImage: "pencil.and.outline") }
-            NavigationStack { SkillsView() }
-                .tabItem { Label(L10n.string("My skills"), systemImage: "hand.raised.fingers.spread") }
-            NavigationStack { MemoriesView() }
-                .tabItem { Label(L10n.string("Memories"), systemImage: "heart") }
+            NavigationStack { MoreView() }
+                .tabItem { Label(L10n.string("More"), systemImage: "ellipsis") }
         }
         .task {
             store.refreshToday()
@@ -50,5 +48,38 @@ struct ContentView: View {
         .alert(L10n.string("Something needs attention"), isPresented: $showError) {
             Button(L10n.string("OK"), role: .cancel) { }
         } message: { Text(store.errorMessage ?? "") }
+    }
+}
+
+private struct MoreView: View {
+    @StateObject private var wander = WanderStore()
+
+    var body: some View {
+        List {
+            NavigationLink { TodayPrintView() } label: {
+                Label(L10n.string("Print for today"), systemImage: "printer")
+            }
+            .accessibilityIdentifier("more.print-today")
+            NavigationLink { ShowAndTellView() } label: {
+                Label(L10n.string("Show and Tell"), systemImage: "photo.on.rectangle.angled")
+            }
+            .accessibilityIdentifier("more.show-and-tell")
+            NavigationLink { WanderView(wander: wander) } label: {
+                Label(L10n.string("Wander"), systemImage: "safari")
+            }
+            .accessibilityIdentifier("more.wander")
+            NavigationLink { SkillsView() } label: {
+                Label(L10n.string("My skills"), systemImage: "hand.raised.fingers.spread")
+            }
+            .accessibilityIdentifier("more.skills")
+            NavigationLink { MemoriesView() } label: {
+                Label(L10n.string("Memories"), systemImage: "heart")
+            }
+            .accessibilityIdentifier("more.memories")
+        }
+        .listStyle(.insetGrouped)
+        .scrollContentBackground(.hidden)
+        .background(Palette.background)
+        .navigationTitle(L10n.string("More"))
     }
 }

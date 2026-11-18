@@ -1,5 +1,15 @@
 /* Shared interface, accessibility, error, and export copy. English text is the fallback key.
    Keep format placeholders and newlines intact. */
+
+/* Printing for today */
+"Print for today" = "Print for today";
+"Print" = "Print";
+"Activity" = "Activity";
+"Drawing" = "Drawing";
+"Poem in English" = "Poem in English";
+"Couldn’t print" = "Couldn’t print";
+"Check that an AirPrint printer is available and try again." = "Check that an AirPrint printer is available and try again.";
+
 "%@ · Step %lld of %lld" = "%@ · Step %lld of %lld";
 "%@ — what made you smile, surprised you, or would you like to try again?" = "%@ — what made you smile, surprised you, or would you like to try again?";
 "%@, not checked" = "%@, not checked";
@@ -258,7 +268,39 @@
 "Zoom out map" = "Zoom out map";
 "a little wonder" = "a little wonder";
 
+/* Poetry library and tab navigation */
+"More" = "More";
+"Poems" = "Poems";
+"%lld poems in English" = "%lld poems in English";
+"Search poems" = "Search poems";
+"Poems are unavailable" = "Poems are unavailable";
+"A few tiny lines" = "A few tiny lines";
+"Short, playful rhymes" = "Short, playful rhymes";
+"Rhythm and repetition" = "Rhythm and repetition";
+"Poems with a little story" = "Poems with a little story";
+"Longer verses" = "Longer verses";
+"Bigger reads and richer words" = "Bigger reads and richer words";
+"Traditional nursery rhyme" = "Traditional nursery rhyme";
+"Read aloud" = "Read aloud";
+"Stop reading" = "Stop reading";
+
 /* Drawing gallery */
+"Lines" = "Lines";
+"Shapes" = "Shapes";
+"Horizontal line" = "Horizontal line";
+"Vertical line" = "Vertical line";
+"Diagonal line" = "Diagonal line";
+"Arch" = "Arch";
+"Wavy line" = "Wavy line";
+"Zigzag" = "Zigzag";
+"Spiral" = "Spiral";
+"Circle" = "Circle";
+"Oval" = "Oval";
+"Triangle" = "Triangle";
+"Square" = "Square";
+"Rectangle" = "Rectangle";
+"Trace the dashes, or make your own marks." = "Trace the dashes, or make your own marks.";
+"Clear drawing" = "Clear drawing";
 "Drawings" = "Drawings";
 "What shall we draw?" = "What shall we draw?";
 "Search drawings" = "Search drawings";
@@ -388,3 +430,13 @@
 "Telescope" = "Telescope";
 "Hermit crab" = "Hermit crab";
 "Toy space station" = "Toy space station";
+
+"Show and Tell" = "Show and Tell";
+"Stories are unavailable" = "Stories are unavailable";
+"%lld stories in English" = "%lld stories in English";
+"Read story" = "Read story";
+"Look at the pictures. What happens first, next, and last?" = "Look at the pictures. What happens first, next, and last?";
+"Picture %lld. %@" = "Picture %lld. %@";
+"Picture %lld of %lld" = "Picture %lld of %lld";
+"Previous picture" = "Previous picture";
+"Next picture" = "Next picture";
