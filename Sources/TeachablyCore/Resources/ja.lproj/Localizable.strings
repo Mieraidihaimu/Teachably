@@ -22,24 +22,20 @@
 "30 relaxed minutes · Together, ages 2 & 6" = "ゆったり30分 · 2歳と6歳で一緒に";
 "6-year-old's nickname" = "6歳の子のニックネーム";
 "A gentle guide. Go at your own pace." = "時間は目安です。自分たちのペースでどうぞ。";
-"A little of what you know. A whole lot of together." = "あなたの知っていることを少し。一緒に過ごす時間をたっぷり。";
 "A little room to wonder" = "「なんで？」を楽しむひととき";
 "A little time,\na lovely memory." = "少しの時間が、\nすてきな思い出に。";
-"A lovely day of discovery" = "発見いっぱいの、いい一日";
 "A moment to keep" = "残しておきたいひととき";
 "A note is optional. Spending a little time together is enough." = "メモは書かなくても大丈夫。一緒に過ごせただけで十分です。";
 "A quick refresher for you" = "おうちの方向けのおさらい";
 "A story, skill, or memory to share…" = "伝えたい話、得意なこと、思い出など…";
 "A takeaway, a question, a story to share…" = "気づいたこと、疑問、一緒に話したいこと…";
 "A topic, question, or example…" = "テーマ、質問、試してみたい例など…";
-"A way you solve a maths problem, a favourite book, a line from your diary. Each activity leaves space for your own experience." = "算数の解き方、好きな本、日記の一節。どの遊びにも、あなた自身の経験を添えられます。";
 "AGE %lld" = "%lld歳";
 "Activity library" = "遊びのライブラリ";
 "Ages 2 & 6" = "2歳と6歳";
 "All ideas" = "すべてのアイデア";
 "All trails" = "すべての探検";
 "An example to try" = "試してみる例";
-"Another idea for today" = "今日は別のアイデアに";
 "Apple AI" = "Apple AI";
 "Apple Intelligence couldn't complete this idea. Try again or choose Activity library. Your current map is still here." = "Apple Intelligenceでアイデアを作成できませんでした。もう一度試すか、「遊びのライブラリ」を選んでください。今のマップは残っています。";
 "Apple Intelligence declined this request. Try a different family learning topic, or choose Activity library." = "Apple Intelligenceがこのリクエストに応答できませんでした。別の学びのテーマを試すか、「遊びのライブラリ」を選んでください。";
@@ -69,7 +65,6 @@
 "Choose a topic or enter a question of up to 240 characters." = "テーマを選ぶか、240文字以内で質問を入力してください。";
 "Choose an idea" = "アイデアを選ぶ";
 "Choose an interest or ask a question to generate a fresh idea here." = "興味のあることを選ぶか質問すると、新しいアイデアを作成できます。";
-"Choose your interests in My skills to find your first shared adventure." = "「得意なこと」で興味のあることを選び、最初の冒険を見つけましょう。";
 "Clear recall search" = "探検の検索をクリア";
 "Close session" = "一緒の時間を閉じる";
 "Coding & logic" = "プログラミングと論理";
@@ -81,7 +76,6 @@
 "Dismiss search highlight" = "検索結果の強調表示を閉じる";
 "Done" = "完了";
 "Enable Apple Intelligence in Settings to generate new ideas. The activity library is available now." = "設定でApple Intelligenceを有効にすると、新しいアイデアを作成できます。遊びのライブラリは今すぐ利用できます。";
-"Enjoy another moment" = "もう少し一緒に楽しむ";
 "Enjoy this again" = "もう一度楽しむ";
 "Every idea has a little something for both of them." = "どのアイデアにも、二人それぞれの楽しみ方があります。";
 "Everyday physics" = "身近な物理";
@@ -96,7 +90,6 @@
 "Favourites to try again" = "また楽しみたいお気に入り";
 "Find a little adventure" = "小さな冒険を探す";
 "Find an idea you've seen…" = "前に見たアイデアを探す…";
-"Find our first adventure" = "最初の冒険を見つける";
 "Finish for today" = "今日はここまで";
 "Fit map" = "マップ全体を表示";
 "Follow a little curiosity" = "小さな好奇心についていこう";
@@ -112,7 +105,6 @@
 "Idea unpinned. Your trail is still saved." = "ピンを外しました。探検の記録は残っています。";
 "Ideas to explore" = "探検したいアイデア";
 "Ideas worth\nreturning to." = "また開きたくなる\nアイデア。";
-"Interests: %lld · Adventures: %lld" = "興味：%lld個 · 冒険：%lld件";
 "It all counts" = "どんな時間も大切";
 "Keep a little discovery, or pick up an earlier trail." = "小さな発見を残したり、前の探検の続きを楽しんだり。";
 "Keep a little memory" = "小さな思い出を残す";
@@ -123,13 +115,11 @@
 "Keep your note within 600 characters." = "メモは600文字以内にしてください。";
 "L%lld" = "階層%lld";
 "L%lld · %@" = "階層%lld · %@";
-"Let's do this together" = "一緒にやってみよう";
 "Library" = "ライブラリ";
 "Library section" = "ライブラリの表示内容";
 "List" = "リスト";
 "Listen, copy, and make patterns with sounds and silences." = "音と静けさを聴き、まねして、リズムを作ります。";
 "Little explorer" = "小さな探検家";
-"Little moments.\nBig discoveries." = "小さなひととき。\n大きな発見。";
 "Look closely at familiar outdoor places and notice their differences." = "身近な屋外の場所をよく見て、違いに気づきます。";
 "Making & fixing" = "作る・直す";
 "Map" = "マップ";
@@ -142,7 +132,6 @@
 "Music & rhythm" = "音楽とリズム";
 "My skills" = "得意なこと";
 "Nature & outdoors" = "自然と外遊び";
-"New suggestions use your saved interests. Today's idea stays put until you choose another." = "新しい提案には保存した興味が反映されます。今日のアイデアは、別のものを選ぶまで変わりません。";
 "Next little step" = "次の小さな一歩";
 "No personal note yet." = "自分のメモはまだありません。";
 "Note saved ✓" = "メモを保存しました ✓";
@@ -153,7 +142,6 @@
 "OK" = "OK";
 "On-device AI requires iOS 26 or later on a device that supports Apple Intelligence." = "端末内AIの利用には、Apple Intelligence対応端末とiOS 26以降が必要です。";
 "One family session, with different invitations for ages 2 and 6. The 30 minutes include playing, chatting, and taking breaks." = "家族でひとつの遊びを、2歳と6歳それぞれの楽しみ方で。30分には遊び、おしゃべり、休憩も含まれます。";
-"One idea. Two little explorers." = "ひとつのアイデア。二人の探検家。";
 "One shared adventure. No streaks, no catching up." = "一緒に楽しんだ冒険は1回。毎日続けなくても、遅れを取り戻さなくても大丈夫。";
 "Open pinned %@" = "保存した「%@」を開く";
 "Open the 30-minute adventure" = "30分の冒険を開く";
@@ -173,7 +161,6 @@
 "Same adventure, their own way" = "同じ冒険、それぞれの楽しみ方";
 "Save" = "保存";
 "Save my note" = "自分のメモを保存";
-"Save my toolkit" = "得意なことを保存";
 "Save note" = "メモを保存";
 "Save our little memory" = "小さな思い出を保存";
 "Saved ideas" = "保存したアイデア";
@@ -191,9 +178,7 @@
 "Something needs attention" = "確認してください";
 "Something they said. A tiny discovery…" = "子どもが言ったこと、小さな発見など…";
 "Something you already know can become a shared discovery. Start with a small example, let each child join in their own way, and follow what they notice." = "あなたが知っていることが、一緒の発見になります。小さな例から始め、それぞれの参加の仕方を大切に、子どもたちの気づきについていきましょう。";
-"Start our little adventure" = "小さな冒険を始める";
 "Start with something you know. Follow an idea until it becomes something you can share." = "知っていることから始めましょう。一緒に楽しめそうなところまで、アイデアをたどってみて。";
-"Start with what you love" = "好きなことから始めよう";
 "Starting point" = "出発点";
 "Step %lld of %lld" = "ステップ%lld/%lld";
 "Stories & imagination" = "物語と想像";
@@ -203,7 +188,6 @@
 "That topic doesn't belong to this map. Choose an idea on the current map." = "そのテーマはこのマップにありません。今のマップからアイデアを選んでください。";
 "The activity library could not be opened. Please close the app and try again." = "遊びのライブラリを開けませんでした。アプリを閉じて、もう一度試してください。";
 "The activity library couldn't be opened. Please reopen the app." = "遊びのライブラリを開けませんでした。アプリを開き直してください。";
-"The best thing you bring is you." = "いちばん大切なのは、あなたが一緒にいること。";
 "The idea" = "このアイデア";
 "The little discovery" = "小さな発見";
 "The model can't use the current language settings. Choose Activity library or check Apple Intelligence settings." = "現在の言語設定ではモデルを利用できません。「遊びのライブラリ」を選ぶか、Apple Intelligenceの設定を確認してください。";
@@ -216,7 +200,6 @@
 "To layer %lld" = "階層%lldまで";
 "Today" = "今日";
 "Together time" = "一緒の時間";
-"Toolkit saved ✓" = "得意なことを保存しました ✓";
 "Topic layout" = "テーマの表示方法";
 "Trail" = "探検の道すじ";
 "Try a design, see how it works, and make a small improvement." = "設計を試し、働きを確かめ、小さな改良を加えます。";
@@ -229,29 +212,22 @@
 "Unpin this idea" = "このアイデアのピンを外す";
 "Unpinned. Your trail is still saved." = "ピンを外しました。探検の記録は残っています。";
 "Use counting, patterns, and choices to make everyday maths visible." = "数えたり、規則を見つけたり、選んだりして、日常の算数を目に見えるものにします。";
-"Use my seven interests" = "最初の7つの興味を選ぶ";
 "Wander" = "探検";
 "Wander content source" = "探検の内容の提供元";
 "Wander library" = "探検のライブラリ";
 "Wander options" = "探検のオプション";
 "We'd love to do this again" = "またやってみたい";
 "What could you\nshare today?" = "今日は何を\n一緒に楽しもう？";
-"What do you know or enjoy? Choose a few things, and we'll find little ways to share them with your sons." = "知っていること、好きなことは何ですか？いくつか選んで、子どもたちに伝える小さな遊びを見つけましょう。";
 "Why I saved this" = "保存した理由";
 "Why did you keep this?" = "どんなところを残したい？";
 "Within" = "検索範囲";
-"You already have\nso much to share." = "あなたにはもう、\n伝えたいことがたくさん。";
 "You are here" = "現在地";
-"You don't have to be an expert." = "専門家でなくても大丈夫。";
-"You've seen today's ideas for your interests. Discover has more to explore." = "今日の興味に合うアイデアはひと通り見ました。「見つける」には、まだいろいろな遊びがあります。";
 "Your Wander" = "あなたの探検";
-"Your everyday superpowers" = "毎日の中の、あなたの得意";
 "Your exploration changed while this idea was being prepared. Please try from the current map." = "準備中に探検の内容が変わりました。今のマップから、もう一度試してください。";
 "Your family" = "家族";
 "Your favourites will grow here" = "お気に入りはここに増えていきます";
 "Your first memory is waiting" = "最初の思い出を待っています";
 "Your half hour, loosely planned" = "ゆるやかな30分の流れ";
-"Your idea for today" = "今日のアイデア";
 "Your latest change could not be saved. Please try reopening the app." = "最新の変更を保存できませんでした。アプリを開き直してみてください。";
 "Your little explorers" = "家族の小さな探検家たち";
 "Your names, interests, teaching notes, and memories stay in the app's local storage. This version has no account or cloud sync." = "名前、興味、教えるときのメモ、思い出は、このアプリの端末内ストレージに保存されます。このバージョンにはアカウントやクラウド同期はありません。";
@@ -265,7 +241,6 @@
 "Your trail of curiosity" = "好奇心の道すじ";
 "Zoom in map" = "マップを拡大";
 "Zoom out map" = "マップを縮小";
-"a little wonder" = "小さなふしぎ";
 
 /* Poetry library and tab navigation */
 "More" = "その他";
@@ -470,8 +445,6 @@
 "Your activity plan" = "アクティビティの流れ";
 "Saved from Wander" = "探検から保存";
 "No saved Wander activities" = "探検から保存したアクティビティはありません";
-"Give each child a way to join in, and let the older one show the younger one how to start." = "それぞれに参加できることを用意して、始め方はお兄ちゃんから弟に見せてもらいましょう。";
-"No new ideas match these filters today. Try clearing a filter." = "今日はこの条件に合う新しいアイデアがありません。条件を一つ外してみましょう。";
 "Younger child" = "下のお子さん";
 "Older child" = "上のお子さん";
 "Nickname" = "ニックネーム";
@@ -497,3 +470,17 @@
 "Our recordings" = "録音したお話";
 "Stop recording from %@" = "%@ の録音を停止";
 "Play recording from %@" = "%@ の録音を再生";
+"Welcome to Teachably" = "Teachablyへようこそ";
+"A daily activity to try with your kids." = "毎日、お子さんと楽しめるアクティビティをひとつ。";
+"See today’s activity" = "今日のアクティビティを見る";
+"Choose interests" = "興味のあることを選ぶ";
+"Pick what you’d like to share." = "お子さんと一緒に楽しみたいテーマを選びましょう。";
+"Use defaults" = "初期設定に戻す";
+"Saved" = "保存しました";
+"Done for today" = "今日の分は完了";
+"No activity yet" = "アクティビティはまだありません";
+"See activity" = "アクティビティを見る";
+"Another idea" = "別のアイデア";
+"See more ideas in Discover." = "「見つける」でほかのアイデアを探せます。";
+"No more matches. Try clearing a filter." = "ほかに一致するアイデアがありません。絞り込み条件を一つ外してみてください。";
+"Start activity" = "アクティビティを始める";

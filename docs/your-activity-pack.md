@@ -30,6 +30,6 @@ The pack starts with the seven interests you named. There are six activities per
 - **Music & rhythm:** You make it. I echo it.; Give a story its own soundtrack; Fast, slow, same pattern; The quiet conductor; Draw a little score.
 - **Stories & imagination:** Three things. One wild story.; A map of your own story; The other character's story; Choose another ending; A postcard from somewhere imaginary.
 
-For a new profile using one suggestion a day, the daily picker covers all seven areas in each seven-day block. Choosing alternatives also counts those ideas as explored. In **My skills**, you can change the selection or use **Use my seven interests** to restore this toolkit. An existing saved profile keeps its choices until you change them.
+With the starter interests and one suggestion a day, the daily picker covers all seven areas in each seven-day block. Choosing alternatives also counts those ideas as explored. In **My skills**, you can change the selection or tap **Use defaults** to restore the starter interests.
 
 Your two-year-old can join through play, gestures, sounds, or brief participation. Your six-year-old can try a question or small challenge. Drawing and dictation are available throughout the diary activities; writing words is optional. The half hour is shared family time, with breaks and an early finish whenever wanted.

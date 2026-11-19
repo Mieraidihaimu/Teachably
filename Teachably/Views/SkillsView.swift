@@ -2,101 +2,99 @@ import SwiftUI
 import TeachablyCore
 
 struct SkillsView: View {
-    var isOnboarding = false
+    var onFinish: (() -> Void)? = nil
     @EnvironmentObject private var store: FamilyStore
-    @Environment(\.dismiss) private var dismiss
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
     @State private var selected: Set<Skill> = []
     @State private var saved = false
 
+    private var isOnboarding: Bool { onFinish != nil }
+    private var columns: [GridItem] {
+        [dynamicTypeSize.isAccessibilitySize
+            ? GridItem(.flexible())
+            : GridItem(.adaptive(minimum: 155), spacing: 10, alignment: .top)]
+    }
+
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 24) {
-                if isOnboarding {
-                    Label("teachably", systemImage: "leaf.circle.fill")
-                        .font(.system(.title2, design: .rounded, weight: .semibold)).foregroundStyle(Palette.green)
-                }
-                VStack(alignment: .leading, spacing: 12) {
-                    Eyebrow(text: L10n.string("Your everyday superpowers"))
-                    Text(L10n.string("You already have\nso much to share."))
-                        .font(.system(.largeTitle, design: .serif, weight: .medium)).tracking(-1)
-                        .accessibilityIdentifier("skills.heading")
-                    Text(L10n.string("What do you know or enjoy? Choose a few things, and we'll find little ways to share them with your sons."))
-                        .foregroundStyle(Palette.muted)
-                }
-                HStack(alignment: .firstTextBaseline) {
-                    Text(L10n.format("Interests: %lld · Adventures: %lld", selected.count, store.activities.filter { selected.contains($0.skill) }.count))
-                        .font(.caption.weight(.semibold)).foregroundStyle(Palette.green)
-                    Spacer()
-                    if selected != Skill.familyInterests {
-                        Button(L10n.string("Use my seven interests")) {
-                            selected = Skill.familyInterests
-                            saved = false
-                        }.font(.caption.weight(.semibold))
-                    }
-                }
-                LazyVGrid(columns: [GridItem(.adaptive(minimum: 145), spacing: 12)], spacing: 12) {
+            VStack(alignment: .leading, spacing: 16) {
+                Text(L10n.string("Pick what you’d like to share."))
+                    .foregroundStyle(Palette.muted)
+
+                LazyVGrid(columns: columns, spacing: 10) {
                     ForEach(Skill.allCases) { skill in
-                        Button {
-                            if selected.contains(skill) { selected.remove(skill) }
-                            else { selected.insert(skill) }
-                            saved = false
-                        } label: {
-                            VStack(alignment: .leading, spacing: 16) {
-                                HStack {
-                                    Image(systemName: skill.symbol).font(.title2)
-                                    Spacer()
-                                    Image(systemName: selected.contains(skill) ? "checkmark.circle.fill" : "circle")
-                                        .font(.body)
-                                }
-                                Text(skill.title).font(.subheadline.weight(.semibold))
-                                    .multilineTextAlignment(.leading)
-                            }
-                            .frame(maxWidth: .infinity, minHeight: 88, alignment: .leading)
-                            .padding(16)
-                            .foregroundStyle(selected.contains(skill) ? Palette.green : Palette.ink)
-                            .background(selected.contains(skill) ? Palette.sage.opacity(0.7) : .white,
-                                        in: RoundedRectangle(cornerRadius: 22))
-                            .overlay(RoundedRectangle(cornerRadius: 22)
-                                .stroke(selected.contains(skill) ? Palette.green : .clear, lineWidth: 1.5))
-                        }
-                        .buttonStyle(.plain)
-                        .accessibilityAddTraits(selected.contains(skill) ? .isSelected : [])
+                        skillButton(skill)
                     }
                 }
-                PaperCard {
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text(L10n.string("You don't have to be an expert."))
-                            .font(.system(.title3, design: .serif, weight: .medium))
-                        Text(L10n.string("A way you solve a maths problem, a favourite book, a line from your diary. Each activity leaves space for your own experience."))
-                            .font(.subheadline).foregroundStyle(Palette.muted)
-                    }
-                }
+
                 if !isOnboarding {
-                    Text(L10n.string("New suggestions use your saved interests. Today's idea stays put until you choose another."))
-                        .font(.caption).foregroundStyle(Palette.muted)
+                    Button(L10n.string("Use defaults")) {
+                        selected = Skill.familyInterests
+                        saved = false
+                    }
+                    .font(.subheadline.weight(.semibold))
+                    .frame(minHeight: 44)
+                    .disabled(selected == Skill.familyInterests)
                 }
             }
-            .padding(22).padding(.bottom, 20)
+            .padding(22)
+            .frame(maxWidth: 620)
+            .frame(maxWidth: .infinity)
         }
-        .background(Palette.background).foregroundStyle(Palette.ink)
-        .navigationTitle(isOnboarding ? "" : L10n.string("My skills"))
+        .background(Palette.background)
+        .foregroundStyle(Palette.ink)
+        .navigationTitle(L10n.string(isOnboarding ? "Choose interests" : "My skills"))
         .navigationBarTitleDisplayMode(.inline)
         .safeAreaInset(edge: .bottom) {
             Button {
-                var profile = store.profile
-                profile.skills = selected
-                profile.hasChosenSkills = true
-                store.updateProfile(profile)
-                saved = true
-                if isOnboarding { dismiss() }
+                store.saveInterests(selected)
+                saved = store.errorMessage == nil
+                onFinish?()
             } label: {
-                Text(isOnboarding ? L10n.string("Find our first adventure") : (saved ? L10n.string("Toolkit saved ✓") : L10n.string("Save my toolkit")))
+                Text(L10n.string(isOnboarding ? "See today’s activity" : (saved ? "Saved" : "Save")))
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 16)
             }
-            .buttonStyle(PrimaryButtonStyle()).disabled(selected.isEmpty)
+            .buttonStyle(PrimaryButtonStyle())
+            .disabled(selected.isEmpty)
             .accessibilityIdentifier("skills.save")
             .opacity(selected.isEmpty ? 0.5 : 1)
-            .padding(.horizontal, 22).padding(.vertical, 12).background(Palette.background)
+            .padding(.horizontal, 22)
+            .padding(.vertical, 12)
+            .frame(maxWidth: 620)
+            .frame(maxWidth: .infinity)
+            .background(Palette.background)
         }
-        .onAppear { selected = store.profile.skills }
+        .onAppear { selected = isOnboarding ? [] : store.profile.skills }
+    }
+
+    private func skillButton(_ skill: Skill) -> some View {
+        let isSelected = selected.contains(skill)
+        return Button {
+            if isSelected { selected.remove(skill) }
+            else { selected.insert(skill) }
+            saved = false
+        } label: {
+            HStack(spacing: 8) {
+                Image(systemName: skill.symbol)
+                    .foregroundStyle(Palette.green)
+                    .accessibilityHidden(true)
+                Text(skill.title)
+                    .font(.subheadline.weight(.semibold))
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+                Spacer(minLength: 0)
+                Image(systemName: isSelected ? "checkmark.circle.fill" : "circle")
+                    .foregroundStyle(isSelected ? Palette.green : Palette.muted)
+                    .accessibilityHidden(true)
+            }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 8)
+            .frame(minHeight: 62)
+            .background(isSelected ? Palette.sage : .white, in: RoundedRectangle(cornerRadius: 16))
+        }
+        .buttonStyle(.plain)
+        .accessibilityAddTraits(isSelected ? .isSelected : [])
+        .accessibilityIdentifier("skills.interest.\(skill.id)")
     }
 }

@@ -106,7 +106,7 @@ struct ActivityDetailView: View {
                 store.setTeachingNote(note, for: activity)
                 showSession = true
             } label: {
-                Label(L10n.string("Start our little adventure"), systemImage: "play.fill")
+                Label(L10n.string("Start activity"), systemImage: "play.fill")
             }
             .buttonStyle(PrimaryButtonStyle()).padding(.horizontal, 22).padding(.vertical, 12)
             .background(Palette.background)

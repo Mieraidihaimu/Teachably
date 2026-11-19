@@ -59,7 +59,7 @@ struct PaperCard<Content: View>: View {
 
 struct ActivityArtwork: View {
     let activity: Activity
-    var height: CGFloat = 190
+    let height: CGFloat
     var body: some View {
         GeometryReader { proxy in
             ZStack {
@@ -81,9 +81,6 @@ struct ActivityArtwork: View {
                     .offset(x: -91, y: -51)
                 Image(systemName: "sparkle").font(.system(size: 16)).foregroundStyle(Palette.green)
                     .offset(x: 111, y: 50)
-                Text(L10n.string("a little wonder")).font(.system(.caption, design: .serif).italic())
-                    .fixedSize(horizontal: true, vertical: false)
-                    .foregroundStyle(Palette.green).rotationEffect(.degrees(-8)).offset(x: -77, y: 64)
             }
             .frame(width: proxy.size.width, height: proxy.size.height)
             .clipped()

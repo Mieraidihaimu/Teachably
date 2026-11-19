@@ -22,24 +22,20 @@
 "30 relaxed minutes · Together, ages 2 & 6" = "30 menit santai · Bersama, usia 2 & 6 tahun";
 "6-year-old's nickname" = "Nama panggilan si kakak usia 6 tahun";
 "A gentle guide. Go at your own pace." = "Panduan santai. Ikuti ritme kalian sendiri.";
-"A little of what you know. A whole lot of together." = "Sedikit pengetahuan Anda. Banyak kebersamaan.";
 "A little room to wonder" = "Ruang kecil untuk bertanya-tanya";
 "A little time,\na lovely memory." = "Waktu sejenak,\nkenangan indah.";
-"A lovely day of discovery" = "Hari yang indah penuh penemuan";
 "A moment to keep" = "Momen untuk dikenang";
 "A note is optional. Spending a little time together is enough." = "Catatan boleh dikosongkan. Meluangkan waktu bersama sudah cukup.";
 "A quick refresher for you" = "Pengingat singkat untuk Anda";
 "A story, skill, or memory to share…" = "Cerita, keterampilan, atau kenangan untuk dibagikan…";
 "A takeaway, a question, a story to share…" = "Pelajaran, pertanyaan, cerita untuk dibagikan…";
 "A topic, question, or example…" = "Topik, pertanyaan, atau contoh…";
-"A way you solve a maths problem, a favourite book, a line from your diary. Each activity leaves space for your own experience." = "Cara Anda memecahkan soal matematika, buku favorit, sepenggal catatan harian. Setiap kegiatan memberi ruang bagi pengalaman Anda.";
 "AGE %lld" = "USIA %lld";
 "Activity library" = "Koleksi kegiatan";
 "Ages 2 & 6" = "Usia 2 & 6 tahun";
 "All ideas" = "Semua ide";
 "All trails" = "Semua jejak";
 "An example to try" = "Contoh untuk dicoba";
-"Another idea for today" = "Ide lain untuk hari ini";
 "Apple AI" = "AI Apple";
 "Apple Intelligence couldn't complete this idea. Try again or choose Activity library. Your current map is still here." = "Apple Intelligence belum dapat menyelesaikan ide ini. Coba lagi atau pilih Koleksi kegiatan. Peta Anda saat ini tetap tersimpan.";
 "Apple Intelligence declined this request. Try a different family learning topic, or choose Activity library." = "Apple Intelligence menolak permintaan ini. Coba topik belajar keluarga lain atau pilih Koleksi kegiatan.";
@@ -69,7 +65,6 @@
 "Choose a topic or enter a question of up to 240 characters." = "Pilih topik atau tulis pertanyaan hingga 240 karakter.";
 "Choose an idea" = "Pilih ide";
 "Choose an interest or ask a question to generate a fresh idea here." = "Pilih minat atau ajukan pertanyaan untuk membuat ide baru di sini.";
-"Choose your interests in My skills to find your first shared adventure." = "Pilih minat di Keterampilan saya untuk menemukan petualangan bersama pertama kalian.";
 "Clear recall search" = "Hapus pencarian ide yang pernah dilihat";
 "Close session" = "Tutup sesi";
 "Coding & logic" = "Pemrograman & logika";
@@ -81,7 +76,6 @@
 "Dismiss search highlight" = "Hapus sorotan pencarian";
 "Done" = "Selesai";
 "Enable Apple Intelligence in Settings to generate new ideas. The activity library is available now." = "Aktifkan Apple Intelligence di Pengaturan untuk membuat ide baru. Koleksi kegiatan sudah tersedia.";
-"Enjoy another moment" = "Nikmati momen lainnya";
 "Enjoy this again" = "Nikmati lagi";
 "Every idea has a little something for both of them." = "Setiap ide punya sesuatu untuk keduanya.";
 "Everyday physics" = "Fisika sehari-hari";
@@ -96,7 +90,6 @@
 "Favourites to try again" = "Favorit untuk dicoba lagi";
 "Find a little adventure" = "Temukan petualangan kecil";
 "Find an idea you've seen…" = "Cari ide yang pernah dilihat…";
-"Find our first adventure" = "Temukan petualangan pertama kita";
 "Finish for today" = "Selesai untuk hari ini";
 "Fit map" = "Sesuaikan peta";
 "Follow a little curiosity" = "Ikuti sedikit rasa ingin tahu";
@@ -112,7 +105,6 @@
 "Idea unpinned. Your trail is still saved." = "Ide dilepas dari sematan. Jejak Anda tetap tersimpan.";
 "Ideas to explore" = "Ide untuk dijelajahi";
 "Ideas worth\nreturning to." = "Ide yang layak\ndikunjungi kembali.";
-"Interests: %lld · Adventures: %lld" = "Minat: %lld · Petualangan: %lld";
 "It all counts" = "Semuanya berarti";
 "Keep a little discovery, or pick up an earlier trail." = "Simpan penemuan kecil, atau lanjutkan jejak sebelumnya.";
 "Keep a little memory" = "Simpan kenangan kecil";
@@ -123,13 +115,11 @@
 "Keep your note within 600 characters." = "Batasi catatan hingga 600 karakter.";
 "L%lld" = "T%lld";
 "L%lld · %@" = "T%lld · %@";
-"Let's do this together" = "Ayo lakukan bersama";
 "Library" = "Koleksi";
 "Library section" = "Bagian koleksi";
 "List" = "Daftar";
 "Listen, copy, and make patterns with sounds and silences." = "Dengarkan, tirukan, dan buat pola dengan suara serta keheningan.";
 "Little explorer" = "Penjelajah kecil";
-"Little moments.\nBig discoveries." = "Momen kecil.\nPenemuan besar.";
 "Look closely at familiar outdoor places and notice their differences." = "Amati tempat di luar rumah yang sudah dikenal dan perhatikan perbedaannya.";
 "Making & fixing" = "Membuat & memperbaiki";
 "Map" = "Peta";
@@ -142,7 +132,6 @@
 "Music & rhythm" = "Musik & irama";
 "My skills" = "Keterampilan saya";
 "Nature & outdoors" = "Alam & kegiatan luar ruang";
-"New suggestions use your saved interests. Today's idea stays put until you choose another." = "Saran baru mengikuti minat yang disimpan. Ide hari ini tetap sama hingga Anda memilih yang lain.";
 "Next little step" = "Langkah kecil berikutnya";
 "No personal note yet." = "Belum ada catatan pribadi.";
 "Note saved ✓" = "Catatan tersimpan ✓";
@@ -153,7 +142,6 @@
 "OK" = "Oke";
 "On-device AI requires iOS 26 or later on a device that supports Apple Intelligence." = "AI di perangkat memerlukan iOS 26 atau lebih baru pada perangkat yang mendukung Apple Intelligence.";
 "One family session, with different invitations for ages 2 and 6. The 30 minutes include playing, chatting, and taking breaks." = "Satu sesi keluarga, dengan ajakan berbeda untuk usia 2 dan 6 tahun. Waktu 30 menit mencakup bermain, mengobrol, dan beristirahat.";
-"One idea. Two little explorers." = "Satu ide. Dua penjelajah kecil.";
 "One shared adventure. No streaks, no catching up." = "Satu petualangan bersama. Tak perlu mengejar target atau mengganti hari yang terlewat.";
 "Open pinned %@" = "Buka sematan %@";
 "Open the 30-minute adventure" = "Buka petualangan 30 menit";
@@ -173,7 +161,6 @@
 "Same adventure, their own way" = "Petualangan yang sama, cara masing-masing";
 "Save" = "Simpan";
 "Save my note" = "Simpan catatan saya";
-"Save my toolkit" = "Simpan keterampilan saya";
 "Save note" = "Simpan catatan";
 "Save our little memory" = "Simpan kenangan kecil kita";
 "Saved ideas" = "Ide tersimpan";
@@ -191,9 +178,7 @@
 "Something needs attention" = "Ada yang perlu diperhatikan";
 "Something they said. A tiny discovery…" = "Ucapan mereka. Penemuan kecil…";
 "Something you already know can become a shared discovery. Start with a small example, let each child join in their own way, and follow what they notice." = "Pengetahuan Anda dapat menjadi penemuan bersama. Mulai dengan contoh kecil, biarkan setiap anak ikut dengan caranya sendiri, lalu ikuti apa yang mereka perhatikan.";
-"Start our little adventure" = "Mulai petualangan kecil kita";
 "Start with something you know. Follow an idea until it becomes something you can share." = "Mulai dari sesuatu yang Anda ketahui. Ikuti sebuah ide hingga menjadi sesuatu yang dapat dibagikan.";
-"Start with what you love" = "Mulai dari yang Anda sukai";
 "Starting point" = "Titik awal";
 "Step %lld of %lld" = "Langkah %lld dari %lld";
 "Stories & imagination" = "Cerita & imajinasi";
@@ -203,7 +188,6 @@
 "That topic doesn't belong to this map. Choose an idea on the current map." = "Topik itu bukan bagian dari peta ini. Pilih ide di peta saat ini.";
 "The activity library could not be opened. Please close the app and try again." = "Koleksi kegiatan tidak dapat dibuka. Tutup aplikasi lalu coba lagi.";
 "The activity library couldn't be opened. Please reopen the app." = "Koleksi kegiatan tidak dapat dibuka. Silakan buka ulang aplikasi.";
-"The best thing you bring is you." = "Kehadiran Anda adalah hal paling berharga.";
 "The idea" = "Idenya";
 "The little discovery" = "Penemuan kecil";
 "The model can't use the current language settings. Choose Activity library or check Apple Intelligence settings." = "Model tidak dapat menggunakan pengaturan bahasa saat ini. Pilih Koleksi kegiatan atau periksa pengaturan Apple Intelligence.";
@@ -216,7 +200,6 @@
 "To layer %lld" = "Hingga tingkat %lld";
 "Today" = "Hari ini";
 "Together time" = "Waktu bersama";
-"Toolkit saved ✓" = "Keterampilan tersimpan ✓";
 "Topic layout" = "Tampilan topik";
 "Trail" = "Jejak";
 "Try a design, see how it works, and make a small improvement." = "Coba suatu rancangan, lihat hasilnya, lalu buat perbaikan kecil.";
@@ -229,29 +212,22 @@
 "Unpin this idea" = "Lepas sematan ide ini";
 "Unpinned. Your trail is still saved." = "Sematan dilepas. Jejak Anda tetap tersimpan.";
 "Use counting, patterns, and choices to make everyday maths visible." = "Gunakan hitungan, pola, dan pilihan untuk melihat matematika dalam keseharian.";
-"Use my seven interests" = "Gunakan tujuh minat saya";
 "Wander" = "Jelajah";
 "Wander content source" = "Sumber konten Jelajah";
 "Wander library" = "Koleksi Jelajah";
 "Wander options" = "Pilihan Jelajah";
 "We'd love to do this again" = "Kami ingin melakukannya lagi";
 "What could you\nshare today?" = "Apa yang bisa Anda\nbagikan hari ini?";
-"What do you know or enjoy? Choose a few things, and we'll find little ways to share them with your sons." = "Apa yang Anda ketahui atau sukai? Pilih beberapa hal, lalu kami bantu temukan cara sederhana untuk membagikannya kepada anak-anak Anda.";
 "Why I saved this" = "Alasan saya menyimpannya";
 "Why did you keep this?" = "Mengapa Anda menyimpan ini?";
 "Within" = "Di dalam";
-"You already have\nso much to share." = "Anda sudah punya\nbanyak hal untuk dibagikan.";
 "You are here" = "Anda di sini";
-"You don't have to be an expert." = "Anda tidak harus menjadi ahli.";
-"You've seen today's ideas for your interests. Discover has more to explore." = "Anda sudah melihat ide hari ini untuk minat Anda. Masih banyak yang bisa dijelajahi di Temukan.";
 "Your Wander" = "Jelajah Anda";
-"Your everyday superpowers" = "Kekuatan istimewa sehari-hari Anda";
 "Your exploration changed while this idea was being prepared. Please try from the current map." = "Penjelajahan Anda berubah saat ide ini disiapkan. Silakan coba dari peta saat ini.";
 "Your family" = "Keluarga Anda";
 "Your favourites will grow here" = "Favorit Anda akan terkumpul di sini";
 "Your first memory is waiting" = "Kenangan pertama Anda menanti";
 "Your half hour, loosely planned" = "Setengah jam kalian, dengan rencana santai";
-"Your idea for today" = "Ide Anda untuk hari ini";
 "Your latest change could not be saved. Please try reopening the app." = "Perubahan terakhir Anda tidak dapat disimpan. Silakan buka ulang aplikasi.";
 "Your little explorers" = "Para penjelajah kecil Anda";
 "Your names, interests, teaching notes, and memories stay in the app's local storage. This version has no account or cloud sync." = "Nama, minat, catatan mengajar, dan kenangan Anda disimpan secara lokal di aplikasi. Versi ini tidak memiliki akun atau sinkronisasi cloud.";
@@ -265,7 +241,6 @@
 "Your trail of curiosity" = "Jejak rasa ingin tahu Anda";
 "Zoom in map" = "Perbesar peta";
 "Zoom out map" = "Perkecil peta";
-"a little wonder" = "keajaiban kecil";
 
 /* Poetry library and tab navigation */
 "More" = "Lainnya";
@@ -470,8 +445,6 @@
 "Your activity plan" = "Langkah-langkah aktivitas";
 "Saved from Wander" = "Disimpan dari Jelajah";
 "No saved Wander activities" = "Belum ada aktivitas yang disimpan dari Jelajah";
-"Give each child a way to join in, and let the older one show the younger one how to start." = "Beri setiap anak cara untuk ikut serta dan biarkan kakak menunjukkan cara memulai kepada adik.";
-"No new ideas match these filters today. Try clearing a filter." = "Tidak ada ide baru yang cocok dengan filter ini hari ini. Coba hapus satu filter.";
 "Younger child" = "Anak yang lebih muda";
 "Older child" = "Anak yang lebih tua";
 "Nickname" = "Nama panggilan";
@@ -497,3 +470,17 @@
 "Our recordings" = "Rekaman kita";
 "Stop recording from %@" = "Hentikan pemutaran rekaman dari %@";
 "Play recording from %@" = "Putar rekaman dari %@";
+"Welcome to Teachably" = "Selamat datang di Teachably";
+"A daily activity to try with your kids." = "Satu aktivitas setiap hari untuk dicoba bersama anak.";
+"See today’s activity" = "Lihat aktivitas hari ini";
+"Choose interests" = "Pilih minat";
+"Pick what you’d like to share." = "Pilih hal yang ingin kamu bagikan.";
+"Use defaults" = "Gunakan pilihan awal";
+"Saved" = "Tersimpan";
+"Done for today" = "Selesai untuk hari ini";
+"No activity yet" = "Belum ada aktivitas";
+"See activity" = "Lihat aktivitas";
+"Another idea" = "Ide lain";
+"See more ideas in Discover." = "Lihat ide lainnya di Temukan.";
+"No more matches. Try clearing a filter." = "Tidak ada hasil lain. Coba hapus satu filter.";
+"Start activity" = "Mulai aktivitas";

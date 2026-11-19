@@ -87,6 +87,13 @@ final class FamilyStore: ObservableObject {
         refreshToday()
     }
 
+    func saveInterests(_ skills: Set<Skill>) {
+        var profile = self.profile
+        profile.skills = skills
+        profile.hasChosenSkills = true
+        updateProfile(profile)
+    }
+
     func nextIdea(matching constraints: Set<IdeaConstraint>) -> Activity? {
         let offered = state.plans.first { $0.day == todayKey }?.offeredIDs ?? []
         return DailyPlanner.suggest(from: activities, skills: profile.skills,

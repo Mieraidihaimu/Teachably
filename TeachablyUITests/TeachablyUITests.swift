@@ -13,24 +13,26 @@ final class TeachablyUITests: XCTestCase {
         // A new suite exercises first-run behaviour without erasing user data.
         app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.tests.\(UUID().uuidString)"
         app.launch()
-        XCTAssertTrue(app.staticTexts["You already have\nso much to share."].waitForExistence(timeout: 10))
-        XCTAssertTrue(app.staticTexts["Interests: 7 · Adventures: 42"].exists)
-        let maths = app.buttons.containing(.staticText, identifier: "Maths & numbers").firstMatch
-        maths.tap()
-        XCTAssertTrue(app.staticTexts["Interests: 6 · Adventures: 36"].exists)
-        maths.tap()
-        XCTAssertTrue(app.staticTexts["Interests: 7 · Adventures: 42"].exists)
-        attachScreenshot("Your interests", app: app)
-        let begin = app.buttons["Find our first adventure"]
-        if !begin.isHittable { app.swipeUp() }
+        XCTAssertTrue(app.staticTexts["welcome.heading"].waitForExistence(timeout: 10))
+        attachScreenshot("Welcome", app: app)
+        app.buttons["welcome.interests"].tap()
+        let begin = app.buttons["skills.save"]
         XCTAssertTrue(begin.waitForExistence(timeout: 5))
+        XCTAssertFalse(begin.isEnabled)
+        let nature = app.buttons["skills.interest.nature"]
+        if !nature.isHittable { app.swipeUp() }
+        nature.tap()
+        XCTAssertTrue(begin.isEnabled)
+        attachScreenshot("Your interests", app: app)
         begin.tap()
 
-        let adventure = app.buttons["Let's do this together"]
+        let adventure = app.buttons["today.activity.open"]
         XCTAssertTrue(adventure.waitForExistence(timeout: 5))
+        let skill = app.descendants(matching: .any)["today.activity.skill"].firstMatch
+        XCTAssertEqual(skill.label, "Nature & outdoors")
         attachScreenshot("Today", app: app)
         adventure.tap()
-        app.buttons["Start our little adventure"].tap()
+        app.buttons["Start activity"].tap()
         XCTAssertTrue(app.buttons["Pause timer"].waitForExistence(timeout: 5))
         app.buttons["Pause timer"].tap()
         XCTAssertTrue(app.buttons["Resume timer"].exists)
@@ -50,6 +52,9 @@ final class TeachablyUITests: XCTestCase {
         attachScreenshot("Memories", app: app)
         app.terminate()
         app.launch()
+        XCTAssertTrue(adventure.waitForExistence(timeout: 5))
+        XCTAssertEqual(skill.label, "Nature & outdoors")
+        XCTAssertFalse(app.staticTexts["welcome.heading"].exists)
         openMemories(in: app)
         XCTAssertTrue(app.staticTexts["We made something together."].waitForExistence(timeout: 5))
     }
@@ -405,7 +410,7 @@ final class TeachablyUITests: XCTestCase {
         let title = app.staticTexts["today.activity.title"]
         XCTAssertTrue(title.waitForExistence(timeout: 5))
         let firstTitle = title.label
-        let anotherIdea = app.buttons["Another idea for today"]
+        let anotherIdea = app.buttons["today.another-idea"]
         if !anotherIdea.isHittable { app.swipeUp() }
         anotherIdea.tap()
         XCTAssertTrue(title.waitForExistence(timeout: 5))
@@ -441,13 +446,13 @@ final class TeachablyUITests: XCTestCase {
 
     @MainActor
     func testEverySupportedLanguageLocalizesOnboardingTodayAndMemories() throws {
-        let languages: [(code: String, today: String, memories: String)] = [
-            ("en", "Today", "Memories"),
-            ("zh-Hans", "今天", "回忆"),
-            ("zh-Hant", "今天", "回憶"),
-            ("ja", "今日", "思い出"),
-            ("es", "Hoy", "Recuerdos"),
-            ("id", "Hari ini", "Kenangan")
+        let languages: [(code: String, welcome: String, today: String, memories: String)] = [
+            ("en", "Welcome to Teachably", "Today", "Memories"),
+            ("zh-Hans", "欢迎使用 Teachably", "今天", "回忆"),
+            ("zh-Hant", "歡迎使用 Teachably", "今天", "回憶"),
+            ("ja", "Teachablyへようこそ", "今日", "思い出"),
+            ("es", "Te damos la bienvenida a Teachably", "Hoy", "Recuerdos"),
+            ("id", "Selamat datang di Teachably", "Hari ini", "Kenangan")
         ]
         var englishActivityTitle = ""
         for language in languages {
@@ -455,21 +460,19 @@ final class TeachablyUITests: XCTestCase {
             app.launchArguments = ["-AppleLanguages", "(\(language.code))", "-AppleLocale", language.code]
             app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.localization.\(UUID().uuidString)"
             app.launch()
-            let welcome = app.staticTexts["skills.heading"]
+            let welcome = app.staticTexts["welcome.heading"]
             XCTAssertTrue(welcome.waitForExistence(timeout: 10), language.code)
-            if language.code != "en" {
-                XCTAssertNotEqual(welcome.label, "You already have\nso much to share.", language.code)
-            }
-            app.buttons["skills.save"].tap()
+            XCTAssertEqual(welcome.label, language.welcome, language.code)
+            app.buttons["welcome.start"].tap()
             let heading = app.staticTexts["today.heading"]
             XCTAssertTrue(heading.waitForExistence(timeout: 10), language.code)
+            XCTAssertEqual(heading.label, language.today, language.code)
             XCTAssertEqual(app.tabBars.buttons.element(boundBy: 0).label, language.today, language.code)
-            let title = app.staticTexts["today.activity.title"].label
-            XCTAssertFalse(title.isEmpty)
-            if language.code == "en" { englishActivityTitle = title }
+            let title = app.staticTexts["today.activity.title"]
+            XCTAssertTrue(title.waitForExistence(timeout: 5), language.code)
+            if language.code == "en" { englishActivityTitle = title.label }
             else {
-                XCTAssertNotEqual(heading.label, "Little moments.\nBig discoveries.", language.code)
-                XCTAssertNotEqual(title, englishActivityTitle, language.code)
+                XCTAssertNotEqual(title.label, englishActivityTitle, language.code)
             }
             attachScreenshot("Today · \(language.code)", app: app)
             openMemories(in: app)

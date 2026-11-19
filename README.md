@@ -6,13 +6,13 @@ A native iPhone app for sharing what you know with your children. Each daily ide
 
 1. Open `Teachably.xcodeproj` in Xcode 26 or newer.
 2. Select the **Teachably** scheme and an iPhone simulator.
-3. Press **Run**, review your seven preselected interests, and open your first adventure.
+3. Press **Run** and tap **See today’s activity**. Tap **Choose interests** if you want to personalise the first suggestion.
 
 The deployment target is iOS 17. Wander's optional on-device generation requires iOS 26 or later, an Apple Intelligence-capable device, Apple Intelligence enabled, and the model downloaded. The app checks availability at runtime; the activity library remains usable on other devices. See [Apple's SystemLanguageModel documentation](https://developer.apple.com/documentation/foundationmodels/systemlanguagemodel). To run on your own iPhone, select your development team under **Signing & Capabilities** and use a unique bundle identifier.
 
 ## In this prototype
 
-- **My skills:** maths, reading, basic movement, physics, diary writing, coding, and critical thinking are preselected for new profiles. Five other themes are also available. Existing saved choices are preserved; **Use my seven interests** applies the personal starter selection.
+- **My skills:** change your interests under **More → My skills**. **Use defaults** restores the seven starter interests.
 - **Today** keeps a daily suggestion and rotates through your interests. Combine **Zero prep**, **15 min**, **Outdoors**, and **Low energy** to find another idea that fits the moment. The short versions have their own four-step timings.
 - **Print for today:** choose the current Today activity, a tracing worksheet, or a short English poem in **More → Print for today**. Each selection prints on its own page through AirPrint.
 - **Poems:** browse 200 English poems across Levels 0–5, from a few short lines to longer poems to read together. Search by title or author and use **Read aloud** to listen with the device's English voice.
@@ -68,7 +68,7 @@ Names, notes, memories, and saved Wander snapshots retain the text originally en
 
 Localisation tests check all interface keys and format arguments, all 67 activities in every language, saved-data references, multilingual recall commands, and language-specific Wander caches and generation context.
 
-In Xcode, **Product → Test** runs simulator tests covering first-run interest selection, opening an adventure, pausing its timer, saving a memory, and finding it after relaunch. A second flow explores Wander, pins an explanation, saves a personal note, restores it after relaunch, and recalls an unselected topic from a saved map. An additional flow attempts Apple generation when available, verifies restoration on success, and verifies preserved state and a usable library on a model-service failure. It skips when system availability is false. Tests use their own local storage suites.
+In Xcode, **Product → Test** runs simulator tests covering both onboarding paths, opening an adventure, pausing its timer, saving a memory, and finding it after relaunch. A second flow explores Wander, pins an explanation, saves a personal note, restores it after relaunch, and recalls an unselected topic from a saved map. An additional flow attempts Apple generation when available, verifies restoration on success, and verifies preserved state and a usable library on a model-service failure. It skips when system availability is false. Tests use their own local storage suites.
 
 An unsigned simulator build can be produced with:
 
@@ -78,7 +78,7 @@ xcodebuild -project Teachably.xcodeproj -scheme Teachably \
   -derivedDataPath /tmp/teachably-build CODE_SIGNING_ALLOWED=NO build
 ```
 
-The Debug-only `--demo` launch argument bypasses initial interest selection with your seven interests and selects the library for deterministic UI tests. Add `--apple-ai` to exercise live generation. Use these only in a disposable simulator: subsequent actions can save demonstration preferences.
+The Debug-only `--demo` launch argument skips onboarding, applies the seven starter interests, and selects the library for deterministic UI tests. Add `--apple-ai` to exercise live generation. Use these only in a disposable simulator, since subsequent actions can save demonstration preferences.
 
 ## Design basis
 

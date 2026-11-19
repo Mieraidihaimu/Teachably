@@ -22,24 +22,20 @@
 "30 relaxed minutes · Together, ages 2 & 6" = "轻松的 30 分钟 · 2 岁和 6 岁一起参与";
 "6-year-old's nickname" = "6 岁孩子的小名";
 "A gentle guide. Go at your own pace." = "轻轻提醒，按自己的节奏来。";
-"A little of what you know. A whole lot of together." = "分享一点你的所知，收获满满的陪伴。";
 "A little room to wonder" = "给好奇心留一点空间";
 "A little time,\na lovely memory." = "一点相伴的时光，\n一段美好的回忆。";
-"A lovely day of discovery" = "充满发现的美好一天";
 "A moment to keep" = "值得留住的一刻";
 "A note is optional. Spending a little time together is enough." = "可以不写记录。一起度过一小段时光就已足够。";
 "A quick refresher for you" = "给你的小提示";
 "A story, skill, or memory to share…" = "一个故事、一项本领，或一段想分享的回忆……";
 "A takeaway, a question, a story to share…" = "一个收获、一个问题，或一个想分享的故事……";
 "A topic, question, or example…" = "一个主题、问题，或例子……";
-"A way you solve a maths problem, a favourite book, a line from your diary. Each activity leaves space for your own experience." = "你解一道数学题的方法、一本喜欢的书、日记中的一句话。每项活动都为你的经历留着位置。";
 "AGE %lld" = "%lld 岁";
 "Activity library" = "活动库";
 "Ages 2 & 6" = "2 岁和 6 岁";
 "All ideas" = "全部点子";
 "All trails" = "所有探索路径";
 "An example to try" = "试试这个例子";
-"Another idea for today" = "今天换个点子";
 "Apple AI" = "Apple AI";
 "Apple Intelligence couldn't complete this idea. Try again or choose Activity library. Your current map is still here." = "Apple 智能未能完成这个点子。请重试或选择活动库。当前地图仍然保留。";
 "Apple Intelligence declined this request. Try a different family learning topic, or choose Activity library." = "Apple 智能拒绝了这次请求。请换一个亲子学习主题，或选择活动库。";
@@ -69,7 +65,6 @@
 "Choose a topic or enter a question of up to 240 characters." = "请选择一个主题，或输入不超过 240 个字符的问题。";
 "Choose an idea" = "选一个点子";
 "Choose an interest or ask a question to generate a fresh idea here." = "选择一项兴趣或提出一个问题，在这里生成新点子。";
-"Choose your interests in My skills to find your first shared adventure." = "在“我的本领”中选择兴趣，找到你们的第一次共同探索。";
 "Clear recall search" = "清除回顾搜索";
 "Close session" = "结束本次活动";
 "Coding & logic" = "编程与逻辑";
@@ -81,7 +76,6 @@
 "Dismiss search highlight" = "取消搜索高亮";
 "Done" = "完成";
 "Enable Apple Intelligence in Settings to generate new ideas. The activity library is available now." = "在“设置”中启用 Apple 智能，即可生成新点子。你现在就能使用活动库。";
-"Enjoy another moment" = "再享受一段时光";
 "Enjoy this again" = "再玩一次";
 "Every idea has a little something for both of them." = "每个点子都有适合他们各自参与的部分。";
 "Everyday physics" = "生活中的物理";
@@ -96,7 +90,6 @@
 "Favourites to try again" = "想再玩的收藏";
 "Find a little adventure" = "寻找一个小小的探索";
 "Find an idea you've seen…" = "查找你看过的点子……";
-"Find our first adventure" = "寻找我们的第一次探索";
 "Finish for today" = "今天就到这里";
 "Fit map" = "适应地图大小";
 "Follow a little curiosity" = "跟随一点好奇心";
@@ -112,7 +105,6 @@
 "Idea unpinned. Your trail is still saved." = "已取消置顶，探索路径仍然保留。";
 "Ideas to explore" = "可以探索的点子";
 "Ideas worth\nreturning to." = "值得再回来的\n好点子。";
-"Interests: %lld · Adventures: %lld" = "兴趣：%lld 项 · 探索：%lld 次";
 "It all counts" = "每一点都算数";
 "Keep a little discovery, or pick up an earlier trail." = "留住一个小发现，或接着以前的路径继续探索。";
 "Keep a little memory" = "留住一段小回忆";
@@ -123,13 +115,11 @@
 "Keep your note within 600 characters." = "记录请控制在 600 个字符以内。";
 "L%lld" = "第 %lld 层";
 "L%lld · %@" = "第 %lld 层 · %@";
-"Let's do this together" = "我们一起试试";
 "Library" = "资料库";
 "Library section" = "资料库分类";
 "List" = "列表";
 "Listen, copy, and make patterns with sounds and silences." = "听一听、模仿一下，用声音和安静编出规律。";
 "Little explorer" = "小探索家";
-"Little moments.\nBig discoveries." = "小小的时光。\n大大的发现。";
 "Look closely at familiar outdoor places and notice their differences." = "仔细看看熟悉的户外环境，发现其中的不同。";
 "Making & fixing" = "动手制作与修理";
 "Map" = "地图";
@@ -142,7 +132,6 @@
 "Music & rhythm" = "音乐与节奏";
 "My skills" = "我的本领";
 "Nature & outdoors" = "自然与户外";
-"New suggestions use your saved interests. Today's idea stays put until you choose another." = "新建议会参考已保存的兴趣。今天的点子会一直保留，直到你主动换一个。";
 "Next little step" = "下一个小步骤";
 "No personal note yet." = "还没有个人记录。";
 "Note saved ✓" = "记录已保存 ✓";
@@ -153,7 +142,6 @@
 "OK" = "好";
 "On-device AI requires iOS 26 or later on a device that supports Apple Intelligence." = "设备端 AI 需要支持 Apple 智能的设备，以及 iOS 26 或更新版本。";
 "One family session, with different invitations for ages 2 and 6. The 30 minutes include playing, chatting, and taking breaks." = "一次亲子活动，为 2 岁和 6 岁孩子准备不同的参与方式。这 30 分钟包含游戏、聊天和休息。";
-"One idea. Two little explorers." = "一个点子，两个小探索家。";
 "One shared adventure. No streaks, no catching up." = "一起探索了一次。不用连续打卡，也不用追赶进度。";
 "Open pinned %@" = "打开置顶点子：%@";
 "Open the 30-minute adventure" = "打开这项 30 分钟探索";
@@ -173,7 +161,6 @@
 "Same adventure, their own way" = "同一次探索，各有各的玩法";
 "Save" = "保存";
 "Save my note" = "保存我的记录";
-"Save my toolkit" = "保存我的本领包";
 "Save note" = "保存记录";
 "Save our little memory" = "保存我们的小回忆";
 "Saved ideas" = "保存的点子";
@@ -191,9 +178,7 @@
 "Something needs attention" = "有件事需要处理";
 "Something they said. A tiny discovery…" = "他们说过的话，一个小小的发现……";
 "Something you already know can become a shared discovery. Start with a small example, let each child join in their own way, and follow what they notice." = "你已经知道的事，也可以变成共同的发现。从一个小例子开始，让每个孩子以自己的方式参与，再跟随他们的观察。";
-"Start our little adventure" = "开始我们的小探索";
 "Start with something you know. Follow an idea until it becomes something you can share." = "从你熟悉的事物开始，跟着一个想法走，直到它成为可以分享的发现。";
-"Start with what you love" = "从你喜欢的事开始";
 "Starting point" = "起点";
 "Step %lld of %lld" = "第 %lld 步，共 %lld 步";
 "Stories & imagination" = "故事与想象";
@@ -203,7 +188,6 @@
 "That topic doesn't belong to this map. Choose an idea on the current map." = "这个主题不属于当前地图。请从当前地图中选择一个点子。";
 "The activity library could not be opened. Please close the app and try again." = "无法打开活动库。请关闭 App 后重试。";
 "The activity library couldn't be opened. Please reopen the app." = "无法打开活动库。请重新打开 App。";
-"The best thing you bring is you." = "你带来的，最珍贵的就是你自己。";
 "The idea" = "这个点子";
 "The little discovery" = "小小的发现";
 "The model can't use the current language settings. Choose Activity library or check Apple Intelligence settings." = "模型无法使用当前的语言设置。请选择活动库，或检查 Apple 智能设置。";
@@ -216,7 +200,6 @@
 "To layer %lld" = "到第 %lld 层";
 "Today" = "今天";
 "Together time" = "相伴时光";
-"Toolkit saved ✓" = "本领包已保存 ✓";
 "Topic layout" = "主题布局";
 "Trail" = "探索路径";
 "Try a design, see how it works, and make a small improvement." = "试一个设计、看看效果，再做一点小改进。";
@@ -229,29 +212,22 @@
 "Unpin this idea" = "取消置顶这个点子";
 "Unpinned. Your trail is still saved." = "已取消置顶，探索路径仍然保留。";
 "Use counting, patterns, and choices to make everyday maths visible." = "通过数数、找规律和做选择，让日常数学看得见。";
-"Use my seven interests" = "使用我的七项兴趣";
 "Wander" = "漫游";
 "Wander content source" = "漫游内容来源";
 "Wander library" = "漫游资料库";
 "Wander options" = "漫游选项";
 "We'd love to do this again" = "我们还想再玩一次";
 "What could you\nshare today?" = "今天可以\n分享什么？";
-"What do you know or enjoy? Choose a few things, and we'll find little ways to share them with your sons." = "你知道些什么，或喜欢做什么？选几项，我们会找些小方法，让你和儿子们一起分享。";
 "Why I saved this" = "我为什么保存它";
 "Why did you keep this?" = "为什么想留住这个点子？";
 "Within" = "搜索范围";
-"You already have\nso much to share." = "你已经有\n那么多可以分享。";
 "You are here" = "你在这里";
-"You don't have to be an expert." = "不必成为专家。";
-"You've seen today's ideas for your interests. Discover has more to explore." = "今天与你兴趣相关的点子都看过了。“发现”里还有更多内容等你探索。";
 "Your Wander" = "你的漫游";
-"Your everyday superpowers" = "你的日常超能力";
 "Your exploration changed while this idea was being prepared. Please try from the current map." = "准备点子时，你的探索位置发生了变化。请从当前地图重新尝试。";
 "Your family" = "你的家庭";
 "Your favourites will grow here" = "你收藏的点子会在这里慢慢积累";
 "Your first memory is waiting" = "第一段回忆，等你来留";
 "Your half hour, loosely planned" = "随心安排的半小时";
-"Your idea for today" = "今天给你的点子";
 "Your latest change could not be saved. Please try reopening the app." = "无法保存最新修改。请尝试重新打开 App。";
 "Your little explorers" = "你的小探索家们";
 "Your names, interests, teaching notes, and memories stay in the app's local storage. This version has no account or cloud sync." = "姓名、兴趣、教学记录和回忆都保存在 App 的本地存储中。此版本没有账户或云同步。";
@@ -265,7 +241,6 @@
 "Your trail of curiosity" = "你的好奇之路";
 "Zoom in map" = "放大地图";
 "Zoom out map" = "缩小地图";
-"a little wonder" = "一点小惊喜";
 
 /* Poetry library and tab navigation */
 "More" = "更多";
@@ -470,8 +445,6 @@
 "Your activity plan" = "活动步骤";
 "Saved from Wander" = "从漫游保存";
 "No saved Wander activities" = "还没有从漫游保存活动";
-"Give each child a way to join in, and let the older one show the younger one how to start." = "给每个孩子一种参与方式，让哥哥带着弟弟开个头。";
-"No new ideas match these filters today. Try clearing a filter." = "今天没有新的点子符合这些条件。试着取消一个筛选条件。";
 "Younger child" = "年幼的孩子";
 "Older child" = "年长的孩子";
 "Nickname" = "昵称";
@@ -497,3 +470,17 @@
 "Our recordings" = "我们的录音";
 "Stop recording from %@" = "停止播放 %@ 的录音";
 "Play recording from %@" = "播放 %@ 的录音";
+"Welcome to Teachably" = "欢迎使用 Teachably";
+"A daily activity to try with your kids." = "每天和孩子一起尝试一项活动。";
+"See today’s activity" = "查看今日活动";
+"Choose interests" = "选择兴趣";
+"Pick what you’d like to share." = "选几个想和孩子分享的主题。";
+"Use defaults" = "恢复默认选择";
+"Saved" = "已保存";
+"Done for today" = "今日已完成";
+"No activity yet" = "暂无活动";
+"See activity" = "查看活动";
+"Another idea" = "换个点子";
+"See more ideas in Discover." = "前往「发现」查看更多点子。";
+"No more matches. Try clearing a filter." = "没有更多符合条件的点子，试着取消一个筛选条件。";
+"Start activity" = "开始活动";

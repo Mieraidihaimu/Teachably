@@ -41,13 +41,79 @@ struct ContentView: View {
             if phase == .active { store.refreshToday() }
         }
         .sheet(isPresented: $showWelcome) {
-            NavigationStack { SkillsView(isOnboarding: true) }
+            NavigationStack { WelcomeView { showWelcome = false } }
                 .interactiveDismissDisabled()
         }
         .onChange(of: store.errorMessage) { _, value in showError = value != nil }
         .alert(L10n.string("Something needs attention"), isPresented: $showError) {
             Button(L10n.string("OK"), role: .cancel) { }
         } message: { Text(store.errorMessage ?? "") }
+    }
+}
+
+private struct WelcomeView: View {
+    @EnvironmentObject private var store: FamilyStore
+    let onFinish: () -> Void
+
+    var body: some View {
+        GeometryReader { geometry in
+            ScrollView {
+                VStack(spacing: 20) {
+                    Image(systemName: "leaf.fill")
+                        .font(.system(size: 48, weight: .medium))
+                        .foregroundStyle(Palette.green)
+                        .frame(width: 102, height: 102)
+                        .background(Palette.sage, in: RoundedRectangle(cornerRadius: 30))
+                        .accessibilityHidden(true)
+
+                    VStack(spacing: 8) {
+                        Text(L10n.string("Welcome to Teachably"))
+                            .font(.system(.largeTitle, design: .serif, weight: .medium))
+                            .accessibilityAddTraits(.isHeader)
+                            .accessibilityIdentifier("welcome.heading")
+                        Text(L10n.string("A daily activity to try with your kids."))
+                            .foregroundStyle(Palette.muted)
+                    }
+                    .multilineTextAlignment(.center)
+                }
+                .padding(24)
+                .frame(maxWidth: 440)
+                .frame(minHeight: geometry.size.height)
+                .frame(maxWidth: .infinity)
+            }
+        }
+        .safeAreaInset(edge: .bottom) {
+            VStack(spacing: 4) {
+                Button {
+                    store.saveInterests(store.profile.skills)
+                    onFinish()
+                } label: {
+                    Text(L10n.string("See today’s activity"))
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 16)
+                }
+                .buttonStyle(PrimaryButtonStyle())
+                .accessibilityIdentifier("welcome.start")
+
+                NavigationLink {
+                    SkillsView(onFinish: onFinish)
+                } label: {
+                    Text(L10n.string("Choose interests"))
+                        .font(.subheadline.weight(.semibold))
+                        .multilineTextAlignment(.center)
+                        .frame(maxWidth: .infinity, minHeight: 44)
+                }
+                .accessibilityIdentifier("welcome.interests")
+            }
+            .padding(.horizontal, 22)
+            .padding(.vertical, 12)
+            .frame(maxWidth: 440)
+            .frame(maxWidth: .infinity)
+            .background(Palette.background)
+        }
+        .background(Palette.background)
+        .foregroundStyle(Palette.ink)
+        .toolbar(.hidden, for: .navigationBar)
     }
 }
 

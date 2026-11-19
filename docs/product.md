@@ -16,8 +16,8 @@ The 30 minutes cover preparation together, conversation, play, and reflection. T
 
 ## The daily loop
 
-1. Choose a few familiar areas in **My skills**.
-2. Receive a daily activity from those areas.
+1. Start with the default interests or choose your own.
+2. Receive a daily activity based on those interests.
 3. Check materials and add a personal story or teaching note.
 4. Follow a shared plan with separate age prompts.
 5. Save a little memory, with an optional favourite marker.
