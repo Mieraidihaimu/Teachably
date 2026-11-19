@@ -184,6 +184,7 @@ private struct WanderPinCard: View {
                     }.font(.caption.weight(.semibold))
                         .disabled(note.trimmingCharacters(in: .whitespacesAndNewlines) == pin.note)
                 }
+                SaveWanderActivityButton(pin: pin, wander: wander)
                 HStack {
                     Menu {
                         if let markdownURL { ShareLink(item: markdownURL) { Label(L10n.string("Notes (.md)"), systemImage: "text.document") } }
@@ -200,5 +201,40 @@ private struct WanderPinCard: View {
             markdownURL = wander.export(pin, json: false)
             jsonURL = wander.export(pin, json: true)
         }
+    }
+}
+
+struct SaveWanderActivityButton: View {
+    let pin: WanderPin
+    @ObservedObject var wander: WanderStore
+    @EnvironmentObject private var family: FamilyStore
+
+    var body: some View {
+        Group {
+            if let activity = family.activity(pin.libraryActivityID) {
+                NavigationLink {
+                    ActivityDetailView(activity: activity)
+                } label: {
+                    Label(L10n.string("Open saved activity"), systemImage: "book.closed.fill")
+                }
+                .accessibilityIdentifier("wander.activity.open")
+            } else if wander.promotingLayerID == pin.snapshot.layer.id {
+                HStack {
+                    ProgressView(L10n.string("Creating activity…"))
+                    Spacer()
+                    Button(L10n.string("Cancel"), action: wander.cancelActivitySave)
+                }
+            } else {
+                Button {
+                    wander.saveActivity(from: pin, in: family)
+                } label: {
+                    Label(L10n.string("Save to Library"), systemImage: "book.closed")
+                }
+                .disabled(wander.isGenerating || wander.promotingLayerID != nil)
+                .accessibilityIdentifier("wander.activity.save")
+            }
+        }
+        .font(.subheadline.weight(.semibold))
+        .frame(minHeight: 44, alignment: .leading)
     }
 }

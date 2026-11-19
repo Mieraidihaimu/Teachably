@@ -17,9 +17,14 @@ struct ActivityDetailView: View {
                 VStack(alignment: .leading, spacing: 12) {
                     Eyebrow(text: activity.skill.title)
                     Text(activity.title).font(.system(.largeTitle, design: .serif, weight: .medium)).tracking(-1)
+                        .accessibilityIdentifier("activity.detail.title")
                     Text(activity.subtitle).foregroundStyle(Palette.muted)
-                    Label(L10n.string("30 relaxed minutes · Together, ages 2 & 6"), systemImage: "clock")
+                    Label(L10n.format("%lld min", activity.duration), systemImage: "clock")
                         .font(.caption).foregroundStyle(Palette.green)
+                    if activity.sourceWanderLayerID != nil {
+                        Text(L10n.string("Generated on this device · Review before sharing"))
+                            .font(.caption).foregroundStyle(Palette.muted)
+                    }
                 }
                 PaperCard {
                     VStack(alignment: .leading, spacing: 12) {
@@ -33,6 +38,9 @@ struct ActivityDetailView: View {
                 }
                 VStack(alignment: .leading, spacing: 13) {
                     SectionTitle(title: L10n.string("Gather a few things"))
+                    if activity.materials.isEmpty {
+                        Text(L10n.string("No materials needed")).font(.subheadline).foregroundStyle(Palette.muted)
+                    }
                     ForEach(activity.materials, id: \.self) { item in
                         Button {
                             if packed.contains(item) { packed.remove(item) } else { packed.insert(item) }
@@ -52,11 +60,10 @@ struct ActivityDetailView: View {
                 }
                 VStack(alignment: .leading, spacing: 12) {
                     SectionTitle(title: L10n.string("Same adventure, their own way"))
-                    AgeCard(name: store.profile.youngerDisplayName, age: 2, prompt: activity.toddler)
-                    AgeCard(name: store.profile.olderDisplayName, age: 6, prompt: activity.older)
+                    ActivityFamilyPrompts(activity: activity)
                 }
                 VStack(alignment: .leading, spacing: 16) {
-                    SectionTitle(title: L10n.string("Your half hour, loosely planned"))
+                    SectionTitle(title: L10n.string("Your activity plan"))
                     ForEach(Array(activity.steps.enumerated()), id: \.offset) { index, step in
                         HStack(alignment: .top, spacing: 13) {
                             Text("\(index + 1)").font(.caption.bold()).foregroundStyle(Palette.green)

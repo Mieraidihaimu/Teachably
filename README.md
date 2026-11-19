@@ -1,6 +1,6 @@
 # Teachably
 
-A native iPhone app for sharing a little of what you know with your sons, aged 2 and 6. One daily idea becomes a flexible, hands-on half hour together, with a different invitation for each child.
+A native iPhone app for sharing what you know with your children. Each daily idea gives both children a way to join in and the older sibling a chance to lead.
 
 ## Run the app
 
@@ -13,21 +13,21 @@ The deployment target is iOS 17. Wander's optional on-device generation requires
 ## In this prototype
 
 - **My skills:** maths, reading, basic movement, physics, diary writing, coding, and critical thinking are preselected for new profiles. Five other themes are also available. Existing saved choices are preserved; **Use my seven interests** applies the personal starter selection.
-- **Today:** a persistent daily suggestion, with another-idea control. Picks come from your selected interests; themes take turns and offered activities rotate before repeating.
+- **Today** keeps a daily suggestion and rotates through your interests. Combine **Zero prep**, **15 min**, **Outdoors**, and **Low energy** to find another idea that fits the moment. The short versions have their own four-step timings.
 - **Print for today:** choose the current Today activity, a tracing worksheet, or a short English poem in **More → Print for today**. Each selection prints on its own page through AirPrint.
 - **Poems:** browse 200 English poems across Levels 0–5, from a few short lines to longer poems to read together. Search by title or author and use **Read aloud** to listen with the device's English voice.
-- **Show and Tell:** open **More → Show and Tell** for 60 short English stories. Choose a six-picture mosaic, tell your own version from the numbered pictures, and tap **Read story** when you are ready to read the written version. Tap any picture to see it larger.
-- **Wander:** open it from **More** to explore a bubble map or readable list. Choose **Apple AI** for fresh on-device branches, explanations, and examples with separate invitations for ages 2 and 6, or **Activity library** for the original curated content. Keep pinned snapshots with personal notes, search earlier ideas, and share Markdown or JSON exports. [Port details](docs/wander-port.md).
-- **Activity guide:** materials checklist, a refresher for the parent, separate prompts for ages 2 and 6, and four flexible steps totalling 30 minutes.
+- **Show and Tell** includes 60 short English stories. Open a six-picture mosaic, tap **Record our story**, then listen back below the pictures. Tap **Read story** to open the written version.
+- **Wander** offers on-device Apple AI exploration and an offline activity library. Pin an idea and tap **Save to Library** to turn it into a four-step, 30-minute activity with Apple Intelligence. Find it in **Discover → Saved from Wander**. [Port details](docs/wander-port.md)
+- **Activity guide** includes a materials checklist, a parent refresher, an invitation for each child's developmental stage, and a specific teaching or setup role for the older sibling.
 - **Your experience:** write a personal teaching note that appears during the session.
 - **Together time:** a pausable timer for each step, manual progression, and the option to finish early.
 - **Discover:** browse, search, and filter all 67 original activities, including 42 matched to your seven interests. Every category has at least five activities.
 - **Memories:** keep a note and mark an experience you would like to repeat.
-- **Your family:** optional nicknames for both children.
+- **Your family** stores optional nicknames and birth months and years. Prompts follow the children's stages as they grow, from Toddler (1–3) to Early Years (4–6) and Primary (7–9).
 
-Family preferences, daily history, teaching notes, and memories are stored locally in UserDefaults. Wander keeps its trails, pinned snapshots, notes, and view preferences under a separate local key. The app makes no network requests. Removing the app removes its local data; Wander pins can be exported, while family-memory export and cloud sync are future work.
+Family preferences, daily history, teaching notes, memories, and activities saved from Wander are stored locally in UserDefaults. Wander trails and pins use a separate local key. Show and Tell recordings are stored as audio files in the app's Application Support directory. Teachably has no account or cloud sync.
 
-Today and Discover use the finite, curated activity library. When that deck is exhausted, earlier activities return. Wander can generate ideas beyond the library using Apple's Foundation Models framework, with no API key or app server. Generated suggestions need a parent's review and are not added automatically to the daily activity deck. There are no scheduled reminders yet.
+Today and Discover use the curated activities and the activities you explicitly save from Wander. When that deck is exhausted, earlier activities return. Review generated activities before sharing them with children.
 
 Your personal starter pack has six activities for each of your seven interests. With one suggestion per day, a new profile covers every interest once in each of the first six weeks, without repeating an activity. Asking for another idea also counts the previous suggestion as explored and can change that cadence. The five other categories each have five activities. See [your activity pack](docs/your-activity-pack.md) for the full list.
 

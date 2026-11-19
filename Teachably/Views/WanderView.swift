@@ -17,6 +17,9 @@ struct WanderView: View {
                     if let layer = wander.current {
                         heading(layer)
                         generationControls(layer)
+                        if let pin = wander.currentPin {
+                            SaveWanderActivityButton(pin: pin, wander: wander)
+                        }
                         if let label = wander.highlightLabel {
                             HStack {
                                 Label(L10n.format("Found: %@", label), systemImage: "magnifyingglass").font(.caption)
@@ -30,13 +33,14 @@ struct WanderView: View {
                             WanderTopicView(layer: layer, layout: wander.layout, viewport: wander.viewport,
                                 visited: wander.engine.visitedBubbleIDs, highlightID: wander.highlightID,
                                 onExpand: { wander.explore(.expand, bubbleID: $0.id) }, onViewport: wander.setViewport)
-                                .disabled(wander.isGenerating)
+                                .disabled(wander.isGenerating || wander.promotingLayerID != nil)
                             HStack(spacing: 12) {
                                 Button { wander.explore(.explain) } label: { Label(L10n.string("Explain"), systemImage: "lightbulb") }
                                 Spacer()
                                 Button { wander.explore(.example) } label: { Label(L10n.string("Show an example"), systemImage: "hands.sparkles") }
                             }
-                            .font(.subheadline.weight(.semibold)).padding(.vertical, 8).disabled(wander.isGenerating)
+                            .font(.subheadline.weight(.semibold)).padding(.vertical, 8)
+                            .disabled(wander.isGenerating || wander.promotingLayerID != nil)
                         } else if let lesson = layer.lesson {
                             lessonContent(lesson)
                         }
@@ -89,8 +93,12 @@ struct WanderView: View {
                 .disabled(wander.isGenerating)
             }
         }
-        .onChange(of: family.profile.skills, initial: true) { _, skills in wander.start(interests: skills) }
-        .onChange(of: scenePhase) { _, phase in if phase == .active { wander.refreshModelStatus() } }
+        .onChange(of: family.profile, initial: true) { _, profile in
+            wander.start(interests: profile.skills, stages: profile.stages())
+        }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active { wander.start(interests: family.profile.skills, stages: family.stages) }
+        }
         .sheet(isPresented: $showLibrary) {
             WanderLibraryView(wander: wander, initialQuery: recallQuery)
         }
@@ -172,7 +180,9 @@ struct WanderView: View {
     }
 
     private func lessonContent(_ lesson: WanderLesson) -> some View {
-        VStack(alignment: .leading, spacing: 20) {
+        let linkedActivity = lesson.activityID.flatMap(family.activity)
+        let stages = family.stages
+        return VStack(alignment: .leading, spacing: 20) {
             PaperCard {
                 VStack(alignment: .leading, spacing: 12) {
                     Eyebrow(text: L10n.string("The idea"))
@@ -186,13 +196,19 @@ struct WanderView: View {
                     Text(lesson.example).font(.subheadline).foregroundStyle(Palette.muted)
                 }
             }
-            AgeCard(name: family.profile.youngerDisplayName, age: 2, prompt: lesson.toddler)
-            AgeCard(name: family.profile.olderDisplayName, age: 6, prompt: lesson.older)
+            if let linkedActivity {
+                ActivityFamilyPrompts(activity: linkedActivity)
+            } else {
+                AgeCard(name: family.profile.youngerDisplayName, stage: stages.younger,
+                        prompt: lesson.prompt(for: stages.younger.band))
+                AgeCard(name: family.profile.olderDisplayName, stage: stages.older,
+                        prompt: lesson.prompt(for: stages.older.band))
+            }
             Text(lesson.personalPrompt).font(.system(.body, design: .serif).italic()).foregroundStyle(Palette.green)
             DisclosureGroup(L10n.string("Keep in mind")) {
                 Text(lesson.consideration).font(.caption).foregroundStyle(Palette.muted).padding(.top, 8)
             }.font(.subheadline)
-            if let activityID = lesson.activityID, let activity = family.activity(activityID) {
+            if let activity = linkedActivity {
                 NavigationLink { ActivityDetailView(activity: activity) } label: {
                     Label(L10n.string("Open the 30-minute adventure"), systemImage: "arrow.up.right")
                 }.buttonStyle(PrimaryButtonStyle())
@@ -218,7 +234,7 @@ struct WanderView: View {
             Button(action: submit) {
                 Image(systemName: "arrow.up").font(.headline).foregroundStyle(.white)
                     .frame(width: 40, height: 40).background(Palette.green, in: Circle())
-            }.disabled(wander.isGenerating || query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+            }.disabled(wander.isGenerating || wander.promotingLayerID != nil || query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                 .accessibilityLabel(L10n.string("Explore topic"))
         }
         .padding(10).background(.white, in: RoundedRectangle(cornerRadius: 23))

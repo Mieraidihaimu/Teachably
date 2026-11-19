@@ -132,8 +132,9 @@ final class WanderTests: XCTestCase {
         let pin = try engine.pinCurrent()
         try engine.setNote("Remember [this] <script>.", pinID: pin.id)
         let export = try XCTUnwrap(engine.activePins.first).markdown
-        XCTAssertTrue(export.contains("## At age 2"))
-        XCTAssertTrue(export.contains("## At age 6"))
+        for band in [DevelopmentalBand.toddler, .earlyYears, .primary] {
+            XCTAssertTrue(export.contains("## \(band.title())"))
+        }
         XCTAssertTrue(export.contains(#"\[this\]"#))
         XCTAssertTrue(export.contains(#"\<script\>"#))
         XCTAssertFalse(export.contains("requestID"))

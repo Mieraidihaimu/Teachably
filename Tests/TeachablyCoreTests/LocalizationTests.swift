@@ -64,6 +64,11 @@ final class LocalizationTests: XCTestCase {
                 XCTAssertEqual(translated.symbol, source.symbol)
                 XCTAssertEqual(translated.steps.map(\.minutes), source.steps.map(\.minutes))
                 XCTAssertEqual(translated.materials.count, source.materials.count)
+                XCTAssertEqual(translated.conditions, source.conditions)
+                XCTAssertEqual(translated.quickVersion?.steps.map(\.minutes), source.quickVersion?.steps.map(\.minutes))
+                XCTAssertFalse(try XCTUnwrap(translated.siblingRole).isEmpty)
+                XCTAssertNotEqual(translated.siblingRole, source.siblingRole, "\(language): \(source.id)")
+                XCTAssertNotEqual(translated.prompt(for: .primary, language: language), translated.older)
                 XCTAssertNotEqual(translated.title, source.title, "\(language): \(source.id)")
                 let text = [translated.title, translated.subtitle, translated.takeaway, translated.parentPrimer,
                     translated.toddler.action, translated.toddler.question, translated.older.action, translated.older.question,

@@ -30,6 +30,8 @@
 		00000000000000000000021B /* TodayPrintDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000021A /* TodayPrintDocument.swift */; };
 		00000000000000000000021D /* Views/ShowAndTellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000021C /* Views/ShowAndTellView.swift */; };
 		00000000000000000000021F /* Views/StoryPictureArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000021E /* Views/StoryPictureArtwork.swift */; };
+		000000000000000000000221 /* StoryAudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000220 /* StoryAudioRecorder.swift */; };
+		000000000000000000000223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000222 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,13 @@
 		00000000000000000000021A /* TodayPrintDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayPrintDocument.swift; sourceTree = "<group>"; };
 		00000000000000000000021C /* Views/ShowAndTellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ShowAndTellView.swift; sourceTree = "<group>"; };
 		00000000000000000000021E /* Views/StoryPictureArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/StoryPictureArtwork.swift; sourceTree = "<group>"; };
+		000000000000000000000220 /* StoryAudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryAudioRecorder.swift; sourceTree = "<group>"; };
+		000000000000000000000224 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en"; path = "en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		000000000000000000000225 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es"; path = "es.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		000000000000000000000226 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "id"; path = "id.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		000000000000000000000227 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ja"; path = "ja.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		000000000000000000000228 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		000000000000000000000229 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +138,8 @@
 				00000000000000000000021A /* TodayPrintDocument.swift */,
 				00000000000000000000021C /* Views/ShowAndTellView.swift */,
 				00000000000000000000021E /* Views/StoryPictureArtwork.swift */,
+				000000000000000000000220 /* StoryAudioRecorder.swift */,
+				000000000000000000000222 /* InfoPlist.strings */,
 				000000000000000000000020 /* Assets.xcassets */,
 			);
 			path = Teachably;
@@ -226,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				000000000000000000000021 /* Assets.xcassets in Resources */,
+				000000000000000000000223 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +274,7 @@
 				000000000000000000000219 /* Views/TodayPrintView.swift in Sources */,
 				00000000000000000000021D /* Views/ShowAndTellView.swift in Sources */,
 				00000000000000000000021F /* Views/StoryPictureArtwork.swift in Sources */,
+				000000000000000000000221 /* StoryAudioRecorder.swift in Sources */,
 				00000000000000000000021B /* TodayPrintDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +296,22 @@
 			targetProxy = 00000000000000000000006C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		000000000000000000000222 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000000000000000000000224 /* en */,
+				000000000000000000000225 /* es */,
+				000000000000000000000226 /* id */,
+				000000000000000000000227 /* ja */,
+				000000000000000000000228 /* zh-Hans */,
+				000000000000000000000229 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		000000000000000000000023 /* Debug */ = {

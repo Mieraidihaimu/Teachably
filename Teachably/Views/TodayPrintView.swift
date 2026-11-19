@@ -18,7 +18,7 @@ struct TodayPrintView: View {
         let day = Calendar.current.ordinality(of: .day, in: .era, for: date) ?? 0
         let guides = DrawingGuide.allCases
         let drawing = TodayPrintPage.drawing(guides[day % guides.count])
-        let activity = store.today.map(TodayPrintPage.activity)
+        let activity = store.today.map { TodayPrintPage.activity($0, store.profile) }
         let poems = Self.shortPoems
         let poem = poems.isEmpty ? nil : TodayPrintPage.poem(poems[day % poems.count])
         let selectedPages = [includeActivity ? activity : nil, includeDrawing ? drawing : nil, includePoem ? poem : nil]

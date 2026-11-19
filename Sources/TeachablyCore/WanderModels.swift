@@ -57,6 +57,15 @@ public struct WanderLesson: Codable, Equatable, Sendable {
     public let older: AgePrompt
     public let personalPrompt: String
     public let activityID: String?
+    public var primary: AgePrompt? = nil
+
+    public func prompt(for band: DevelopmentalBand) -> AgePrompt {
+        switch band {
+        case .toddler: toddler
+        case .earlyYears: older
+        case .primary: primary ?? older.extending(nil, language: L10n.language)
+        }
+    }
 }
 
 public struct WanderLayer: Codable, Equatable, Identifiable, Sendable {
@@ -104,10 +113,13 @@ public struct WanderPin: Codable, Equatable, Identifiable, Sendable {
             "## " + L10n.string("The idea"), escaped(layer.summary)]
         if let lesson = layer.lesson {
             sections += [escaped(lesson.definition), "## " + L10n.format("Try it together: %@", escaped(lesson.exampleTitle)),
-                escaped(lesson.example), "## " + L10n.string("At age 2"), escaped(lesson.toddler.action),
-                escaped(lesson.toddler.question), "## " + L10n.string("At age 6"), escaped(lesson.older.action),
-                escaped(lesson.older.question), "## " + L10n.string("Bring a little of you"), escaped(lesson.personalPrompt),
-                "## " + L10n.string("Keep in mind"), escaped(lesson.consideration)]
+                escaped(lesson.example)]
+            for band in [DevelopmentalBand.toddler, .earlyYears, .primary] {
+                let prompt = lesson.prompt(for: band)
+                sections += ["## " + band.title(), escaped(prompt.action), escaped(prompt.question)]
+            }
+            sections += ["## " + L10n.string("Bring a little of you"), escaped(lesson.personalPrompt),
+                         "## " + L10n.string("Keep in mind"), escaped(lesson.consideration)]
         } else {
             sections += ["## " + L10n.string("Ideas to explore"), layer.bubbles.map { "- **\(escaped($0.label)):** \(escaped($0.summary))" }.joined(separator: "\n")]
         }

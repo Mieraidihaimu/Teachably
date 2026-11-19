@@ -43,6 +43,8 @@
       }
     ],
     "personalPrompt": "Kapan Anda memakai senter atau melihat bayangan mengejutkan? Bagikan pengalaman itu.",
+    "siblingRole": "Buat bayangan melambai dan ajak adik membalas lambaian.",
+    "quickDiscovery": "Bergantian membuat satu bentuk tangan. Geser sekali dan lihat perubahan bayangannya.",
     "careNote": "Pastikan ruangan mudah dilalui. Orang dewasa memegang senter; jangan arahkan ke mata. Pastikan penutup baterai terkunci."
   },
   {
@@ -88,6 +90,7 @@
       }
     ],
     "personalPrompt": "Alat musik, mesin, atau suara keseharian apa yang Anda pahami? Ceritakan kapan Anda pertama kali memperhatikannya.",
+    "siblingRole": "Contohkan dengungan pelan, lalu tirukan bunyi pilihan adik.",
     "careNote": "Jaga suara tetap pelan dan nyaman. Sentuh tenggorokan sendiri saja. Gunakan kotak bersih tanpa staples atau bagian lepas."
   },
   {
@@ -133,6 +136,12 @@
       }
     ],
     "personalPrompt": "Adakah pohon, kebun, atau tempat luar ruang dari masa kecil Anda? Bagikan ceritanya.",
+    "siblingRole": "Contohkan cara memilah dua daun menurut ukuran, lalu minta adik memberikan satu lagi.",
+    "quickDiscovery": "Bandingkan dua daun gugur yang dikenal dari tempat aman. Satu anak menyebutkan perbedaannya dan yang lain menunjukkannya.",
+    "conditions": [
+      "zeroPrep",
+      "outdoors"
+    ],
     "careNote": "Tetap bersama, jauh dari jalan raya dan air. Pegang hanya daun gugur yang dikenal; jangan masukkan tumbuhan ke mulut dan cuci tangan sesudahnya."
   },
   {
@@ -178,6 +187,13 @@
       }
     ],
     "personalPrompt": "Ceritakan perjalanan atau hari berkesan ketika cuaca mengubah rencana Anda.",
+    "siblingRole": "Gambar bentuk awan di udara dan minta adik menunjuk awan berikutnya.",
+    "quickDiscovery": "Amati satu bagian langit dari tempat teduh yang aman. Buat satu bentuk dengan tangan lalu lihat kembali apakah bentuknya berubah.",
+    "conditions": [
+      "zeroPrep",
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "Jangan pernah menatap matahari langsung. Pilih tempat teduh dan aman, jauh dari lalu lintas, balkon, atau air."
   },
   {
@@ -224,6 +240,7 @@
       }
     ],
     "personalPrompt": "Apa yang pernah Anda buat atau perbaiki? Ceritakan saat percobaan pertama belum berhasil.",
+    "siblingRole": "Tunjukkan letak jembatan dan ajak adik memilih mainan yang akan menyeberang.",
     "careNote": "Bangun di lantai. Gunakan mainan ringan yang terlalu besar untuk tertelan. Jembatan ini hanya untuk mainan, bukan untuk diinjak atau dipanjat."
   },
   {
@@ -270,6 +287,7 @@
       }
     ],
     "personalPrompt": "Apa yang Anda sukai dari tempat yang pernah dihuni atau dikunjungi? Tambahkan idenya ke kota.",
+    "siblingRole": "Peragakan jalan di antara dua kardus, lalu minta adik memilih tempat pemberhentian.",
     "careNote": "Orang dewasa melepas staples dan memotong terlebih dahulu. Jaga jalur berjalan tetap kosong dan jangan biarkan anak memanjat masuk ke kotak yang tidak stabil."
   },
   {
@@ -317,6 +335,7 @@
       }
     ],
     "personalPrompt": "Apa yang Anda suka masak? Jelaskan kapan takaran bahan menjadi penting.",
+    "siblingRole": "Letakkan cangkir kosong di samping yang penuh dan minta adik menunjuk yang penuh.",
     "careNote": "Orang dewasa selalu berada dalam jangkauan. Gunakan sedikit air dalam baki dangkal; segera kosongkan setelah selesai dan lap tumpahan."
   },
   {
@@ -363,6 +382,7 @@
       }
     ],
     "personalPrompt": "Bagikan masakan yang diajarkan seseorang kepada Anda, serta orang atau tempat yang mengingatkan Anda padanya.",
+    "siblingRole": "Peragakan langkah pertama resep dan ajak adik memilih gerakan mengaduk untuk ditiru.",
     "careNote": "Tetaplah bermain pura-pura dengan peralatan yang tidak mudah pecah. Simpan alat panas, pisau, dan bahan sungguhan."
   },
   {
@@ -408,6 +428,12 @@
       }
     ],
     "personalPrompt": "Musik apa yang Anda sukai dan siapa yang mengenalkannya? Bersenandunglah sedikit sambil bercerita.",
+    "siblingRole": "Ketuk lutut pelan dan beri jeda agar adik bisa menirunya.",
+    "quickDiscovery": "Bergantian membuat pola dua ketukan pelan. Tambahkan jeda dan beri kedua anak kesempatan menirunya.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Jaga volume tetap nyaman. Gunakan tangan dan permukaan empuk; hindari alat musik lepas dengan bagian kecil."
   },
   {
@@ -454,6 +480,7 @@
       }
     ],
     "personalPrompt": "Lagu, musik film, atau suara akrab apa yang membangkitkan kenangan? Ceritakan alasannya.",
+    "siblingRole": "Buat bunyi untuk satu tokoh, lalu minta adik memilih bunyi tokoh lain.",
     "careNote": "Jaga suara tetap pelan. Awasi penggunaan kertas besar dan singkirkan sobekan kecil."
   },
   {
@@ -499,6 +526,11 @@
       }
     ],
     "personalPrompt": "Cerita apa yang Anda nikmati saat kecil? Pinjam latar atau perasaannya.",
+    "siblingRole": "Kenalkan satu mainan sebagai tokoh dan minta adik memilih temannya.",
+    "quickDiscovery": "Pilih satu tokoh dan beri masalah sederhana. Minta tiap anak menyebutkan atau menunjukkan satu cara yang bisa dicoba tokoh itu.",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "Gunakan mainan terlalu besar untuk tertelan. Orang dewasa memegang tas; jangan kenakan di kepala."
   },
   {
@@ -545,6 +577,7 @@
       }
     ],
     "personalPrompt": "Pilih perjalanan, rumah masa kecil, atau tempat yang terkait orang penting bagi Anda.",
+    "siblingRole": "Tunjukkan cara menggerakkan mainan di peta dan minta adik memilih pemberhentian berikutnya.",
     "careNote": "Gambar di permukaan rendah yang stabil dengan krayon sesuai usia. Jauhkan tutup dan bagian kecil."
   },
   {
@@ -591,6 +624,7 @@
       }
     ],
     "personalPrompt": "Pernahkah Anda menabung atau memilih sesuatu dengan saksama? Ceritakan cara memutuskannya.",
+    "siblingRole": "Jadilah penjaga toko untuk transaksi pertama dan ajak adik memilih mainan.",
     "careNote": "Gunakan uang kertas mainan besar, bukan koin asli atau kepingan kecil. Jangan beri tekanan untuk membeli barang sungguhan."
   },
   {
@@ -636,6 +670,7 @@
       }
     ],
     "personalPrompt": "Di mana pola membantu pekerjaan atau hobi Anda? Tunjukkan contoh sederhana.",
+    "siblingRole": "Contohkan pola tepuk tangan dan tepuk lutut, lalu minta adik melanjutkan tepukannya.",
     "careNote": "Jaga lantai tetap kosong. Taruh mainan di samping jalur, bukan di tempat yang akan diinjak."
   },
   {
@@ -681,6 +716,11 @@
       }
     ],
     "personalPrompt": "Olahraga, tarian, atau permainan luar ruang apa yang Anda nikmati? Bagikan sedikit gerakannya.",
+    "siblingRole": "Contohkan satu gerakan hewan yang lembut dan ajak adik memilih hewan berikutnya.",
+    "quickDiscovery": "Pilih dua hewan dan coba satu gerakan lembut untuk masing-masing. Beristirahat sebentar, lalu biarkan anak-anak menukar urutannya.",
+    "conditions": [
+      "zeroPrep"
+    ],
     "careNote": "Singkirkan rintangan; hindari memanjat dan melompat dari perabot. Pilih gerakan nyaman. Berhenti jika ada yang ingin beristirahat."
   },
   {
@@ -727,6 +767,7 @@
       }
     ],
     "personalPrompt": "Ceritakan pengalaman belajar perlahan. Apa yang membuat Anda terus mencoba?",
+    "siblingRole": "Contohkan lemparan kaus kaki dari bawah dan minta adik menunjuk tempat jatuhnya.",
     "careNote": "Gunakan gulungan kaus kaki besar dan empuk. Bidik keranjang di lantai, jauh dari wajah dan benda pecah belah. Jaga jalur kosong."
   },
   {
@@ -772,6 +813,7 @@
       }
     ],
     "personalPrompt": "Kapan Anda memakai hitungan, pengelompokan, atau trik berhitung cepat? Tunjukkan contoh kecil.",
+    "siblingRole": "Susun mainan berbaris, lalu minta adik menaruh yang terakhir sebelum kalian menghitung.",
     "careNote": "Gunakan benda terlalu besar untuk tertelan. Jaga tempat bermain kosong dan ajak berhitung tanpa menguji."
   },
   {
@@ -817,6 +859,12 @@
       }
     ],
     "personalPrompt": "Apa yang membuat Anda menikmati membaca: tokoh, ide, kalimat, atau perasaan? Bagikan kesenangan itu.",
+    "siblingRole": "Tunjuk satu petunjuk di gambar dan ajak adik memilih detail lain.",
+    "quickDiscovery": "Baca satu adegan pendek. Berhenti di satu gambar agar satu anak bisa menunjuk detail dan yang lain menebak kelanjutannya. Baca sedikit lagi untuk memeriksanya.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Pilih buku kokoh sesuai usia dan tempat nyaman. Anak tidak harus duduk diam sepanjang sesi."
   },
   {
@@ -863,6 +911,7 @@
       }
     ],
     "personalPrompt": "Cerita masa kecil apa yang masih Anda ingat? Ceritakan bagian yang membekas.",
+    "siblingRole": "Letakkan gambar pertama dan minta adik menunjuk tokoh yang memulai cerita.",
     "careNote": "Orang dewasa menangani buku dan bahan. Gunakan krayon sesuai usia, buang pecahan kecil, dan terima gambar atau dikte sebagai pengganti tulisan."
   },
   {
@@ -909,6 +958,7 @@
       }
     ],
     "personalPrompt": "Apa yang Anda baca setiap hari, dan bagaimana manfaatnya? Tunjukkan contoh akrab.",
+    "siblingRole": "Tunjuk kartu nama adik dan biarkan adik memilih tempatnya di samping label yang dikenal.",
     "careNote": "Orang dewasa memilih semua label. Hindari obat, pembersih, kemasan dengan bagian kecil, dan memanjat untuk meraih tulisan."
   },
   {
@@ -954,6 +1004,11 @@
       }
     ],
     "personalPrompt": "Apa yang terbantu Anda perhatikan atau ingat lewat catatan harian? Bagikan catatan keseharian yang nyaman dibacakan.",
+    "siblingRole": "Gambar satu detail dari hari ini dan ajak adik memilih warna atau menambahkan coretan.",
+    "quickDiscovery": "Pilih satu momen hari ini. Gambar satu hal yang diingat dan ajak setiap anak menambahkan satu coretan atau kata.",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "Gunakan alat gambar sesuai usia dan buang pecahan kecil. Bagikan hanya catatan yang Anda inginkan; anak juga boleh menyimpan pikirannya sendiri."
   },
   {
@@ -999,6 +1054,7 @@
       }
     ],
     "personalPrompt": "Bagaimana Anda mencatat hari yang biasa atau campur aduk? Tunjukkan contoh yang nyaman dibagikan.",
+    "siblingRole": "Gambarkan perasaanmu, lalu tawarkan krayon agar adik bisa membuat coretannya sendiri.",
     "careNote": "Pastikan sukarela. Gunakan krayon sesuai usia dan biarkan anak memilih apa yang dibagikan."
   },
   {
@@ -1045,6 +1101,7 @@
       }
     ],
     "personalPrompt": "Apakah Anda memakai catatan harian untuk mengingat ide atau rencana? Bagikan kebiasaan kecil untuk dicoba bersama.",
+    "siblingRole": "Tunjukkan cara melipat catatan dan minta adik menambahkan coretan sebelum menutupnya.",
     "careNote": "Gunakan kertas tanpa staples atau klip dan krayon sesuai usia. Simpan pesan di tempat yang dapat diambil orang dewasa tanpa memanjat."
   },
   {
@@ -1091,6 +1148,7 @@
       }
     ],
     "personalPrompt": "Apa hal kecil yang pernah Anda program atau otomatisasi? Jelaskan masukan dan tindakannya dengan bahasa sehari-hari.",
+    "siblingRole": "Peragakan satu kartu perintah dan minta adik memilih kartu robot berikutnya.",
     "careNote": "Gunakan gerakan nyaman sambil duduk atau berdiri di tempat lapang. Mata tetap terbuka, hindari berputar atau memanjat, dan izinkan siapa pun berhenti atau tidak ikut."
   },
   {
@@ -1137,6 +1195,7 @@
       }
     ],
     "personalPrompt": "Ingatkah Anda kesalahan kode kecil dan petunjuk penemunya? Ceritakan tanpa istilah teknis.",
+    "siblingRole": "Susun gambar tujuan dan minta adik menunjuk tempat mainan harus berhenti.",
     "careNote": "Gunakan mainan besar dan kartu tanpa klip. Letakkan rute di permukaan rendah stabil; jangan masukkan anak ke kotak atau rintangan fisik."
   },
   {
@@ -1182,6 +1241,7 @@
       }
     ],
     "personalPrompt": "Pekerjaan berulang apa yang pernah Anda lakukan dengan kode? Bandingkan dengan mengulang gerakan kecil ini.",
+    "siblingRole": "Contohkan dua gerakan lembut dan minta adik memilih gerakan pertama dalam pengulangan.",
     "careNote": "Pilih gerakan lembut dan pengulangan sedikit. Hindari melompat dari perabot, berputar cepat, atau memaksa terus bergerak."
   },
   {
@@ -1228,6 +1288,7 @@
       }
     ],
     "personalPrompt": "Kapan melihat lebih saksama mengubah kesan pertama Anda? Bagikan contoh sehari-hari.",
+    "siblingRole": "Tunjuk satu petunjuk yang terlihat pada mainan dan minta adik menunjukkan detail lain.",
     "careNote": "Gunakan mainan dikenal yang terlalu besar untuk tertelan. Pemeriksaan tetap sederhana dan aman; cukup melihat, menggambar, dan membayangkan."
   },
   {
@@ -1273,6 +1334,11 @@
       }
     ],
     "personalPrompt": "Kapan informasi tambahan membuat Anda berubah pikiran? Beri contoh sederhana tanpa menekankan siapa yang benar.",
+    "siblingRole": "Contohkan cara meminta petunjuk, lalu minta adik mengeluarkan mainan saat orang dewasa memegang sarung bantal.",
+    "quickDiscovery": "Saat orang dewasa memegang sarung bantal, beri satu petunjuk dan ajak menebak sekali. Minta adik mengeluarkan mainan dan periksa apakah petunjuknya cocok.",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "Orang dewasa selalu memegang sarung. Gunakan boneka besar tanpa bagian lepas, jauhkan dari wajah, dan jangan pernah memasang sarung di kepala."
   },
   {
@@ -1319,6 +1385,7 @@
       }
     ],
     "personalPrompt": "Masalah sehari-hari apa yang pernah Anda pecahkan dengan beberapa cara? Jelaskan cara memilihnya.",
+    "siblingRole": "Tunjukkan satu cara mainan berjalan dan minta adik memilih rute lain untuk dicoba.",
     "careNote": "Gunakan mainan besar ringan. Hanya mainan yang bepergian: jangan mengangkat anak, memanjat kotak, atau membuat struktur untuk diinjak. Lepas staples kardus."
   },
   {
@@ -1366,6 +1433,7 @@
       }
     ],
     "personalPrompt": "Kapan Anda memakai bidang miring atau roda sehari-hari? Hubungkan dengan hasil pengamatan.",
+    "siblingRole": "Peragakan cara melepas mainan tanpa mendorong, lalu minta adik menunjuk tempat berhentinya.",
     "careNote": "Orang dewasa memegang bidang stabil di lantai. Gunakan mainan besar ringan, kemiringan sangat rendah, dan area akhir kosong jauh dari wajah. Anak tidak boleh berdiri atau meluncur di bidang ini."
   },
   {
@@ -1411,6 +1479,13 @@
       }
     ],
     "personalPrompt": "Apa yang membantu Anda menikmati olahraga ringan atau menjaga kebiasaan bergerak? Bagikan hal sederhana.",
+    "siblingRole": "Contohkan gerakan sambil duduk dan cara berhenti, lalu ajak adik memilih gerakan berikutnya.",
+    "quickDiscovery": "Bergantian membuat satu gerakan sambil duduk atau berdiri, lalu berhenti. Setelah beristirahat, minta setiap anak mencoba gerakan yang lebih kecil.",
+    "conditions": [
+      "zeroPrep",
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "Pilih gerakan lembut nyaman, tawarkan versi duduk, dan berhenti jika ada yang ingin. Hindari memanjat, peregangan paksa, menahan napas, dan berputar cepat."
   },
   {
@@ -1457,6 +1532,7 @@
       }
     ],
     "personalPrompt": "Kapan Anda berbagi perlengkapan atau bergiliran di rumah? Ceritakan cara menentukan yang adil.",
+    "siblingRole": "Beri setiap mainan tamu satu balok dan minta adik memberikan balok berikutnya.",
     "careNote": "Gunakan balok terlalu besar untuk tertelan dan jelaskan itu makanan pura-pura. Jangan mencicipi atau memasukkan benda ke mulut."
   },
   {
@@ -1503,6 +1579,7 @@
       }
     ],
     "personalPrompt": "Apa yang pernah Anda ukur saat membuat, membeli, atau menata sesuatu? Ceritakan manfaat satuan yang tepat.",
+    "siblingRole": "Sejajarkan balok pertama dengan tepi buku dan minta adik menaruh balok berikutnya di sampingnya.",
     "careNote": "Gunakan balok besar tanpa bagian lepas dan buku ringan pada permukaan rendah stabil. Jangan menumpuk balok tinggi."
   },
   {
@@ -1549,6 +1626,7 @@
       }
     ],
     "personalPrompt": "Kapan bentuk membantu Anda merencanakan atau mengenali sesuatu? Bagikan contoh tanda, desain, atau benda akrab.",
+    "siblingRole": "Putar segitiga dan tunjukkan bahwa sisinya tetap tiga, lalu minta adik meletakkannya di gambar.",
     "careNote": "Orang dewasa menyiapkan potongan besar dan menjauhkan gunting. Hindari serpihan kecil, klip, serta hiasan lepas; bersihkan sobekan."
   },
   {
@@ -1595,6 +1673,7 @@
       }
     ],
     "personalPrompt": "Rima atau puisi apa yang Anda ingat saat kecil? Bagikan bagian favorit dari ingatan.",
+    "siblingRole": "Ucapkan dua kata yang berima dan ajak adik menirukan bunyi lucunya.",
     "careNote": "Gunakan buku kokoh sesuai usia dan krayon besar. Jangan jadikan permainan tes kecepatan atau mewajibkan siapa pun membuat rima."
   },
   {
@@ -1640,6 +1719,12 @@
       }
     ],
     "personalPrompt": "Siapa yang membacakan cerita untuk Anda, dan apa yang diingat dari suaranya? Coba kebiasaan bercerita ramah Anda sendiri.",
+    "siblingRole": "Buat mainan menyapa dengan dua suara lembut dan minta adik memilih salah satunya.",
+    "quickDiscovery": "Baca satu kalimat pendek dengan dua suara lembut. Ajak setiap anak memilih suara yang cocok dan mencobanya dengan mainan.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Jaga volume nyaman tanpa suara mengejutkan, dan izinkan anak mendengar diam-diam. Gunakan boneka tanpa bagian lepas."
   },
   {
@@ -1686,6 +1771,7 @@
       }
     ],
     "personalPrompt": "Kapan Anda mencari sesuatu dalam buku atau panduan? Bagikan cara menemukan bagian yang dibutuhkan.",
+    "siblingRole": "Buka halaman yang mungkin membantu menjawab pertanyaan dan ajak adik memilih gambar.",
     "careNote": "Gunakan buku anak yang dikenal tanpa sisipan lepas. Pencarian tetap santai; melihat gambar juga termasuk ikut serta."
   },
   {
@@ -1731,6 +1817,13 @@
       }
     ],
     "personalPrompt": "Kapan Anda mengamati orang untuk mempelajari gerakan atau keterampilan? Ceritakan yang membuat peragaan mudah diikuti.",
+    "siblingRole": "Buat bentuk tangan perlahan agar adik bisa meniru, lalu tirukan bentuk pilihannya.",
+    "quickDiscovery": "Bergantian menirukan bentuk tangan perlahan sambil duduk atau berdiri di tempat datar dan lapang. Akhiri dengan salam bersama.",
+    "conditions": [
+      "zeroPrep",
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "Mata terbuka, gerakan nyaman. Beri jarak, gunakan kursi stabil, hindari peregangan paksa, menyeimbangkan di perabot, atau menyentuh untuk mengatur posisi orang."
   },
   {
@@ -1776,6 +1869,12 @@
       }
     ],
     "personalPrompt": "Permainan apa mengajarkan kerja sama atau menyesuaikan diri dengan pasangan? Bagikan contoh sambil bermain.",
+    "siblingRole": "Contohkan guliran pelan dan minta adik memilih penerima berikutnya.",
+    "quickDiscovery": "Gulirkan bola di lantai dalam satu putaran singkat. Geser lebih dekat jika ada yang kesulitan meraih bola.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Gunakan bola besar empuk, tetap di lantai, dan bersihkan bahaya tersandung. Pilih posisi duduk nyaman dan jauhi tangga."
   },
   {
@@ -1821,6 +1920,7 @@
       }
     ],
     "personalPrompt": "Apa yang membantu Anda menemukan kecepatan nyaman saat berjalan atau belajar gerak baru? Bagikan cara beristirahat.",
+    "siblingRole": "Tunjukkan tempat berhenti sejenak di rute pendek dan ajak adik memilih tujuannya.",
     "careNote": "Gunakan lantai rata jauh dari tangga dan sudut tajam. Singkirkan karpet lepas serta rintangan; jangan taruh kertas pijakan. Mata terbuka dan tawarkan pilihan duduk."
   },
   {
@@ -1867,6 +1967,7 @@
       }
     ],
     "personalPrompt": "Di mana Anda ingin benda mudah bergeser, dan di mana cengkeraman berguna? Beri contoh keseharian.",
+    "siblingRole": "Geser balok pelan, lalu ajak adik meraba handuk dan menunjuk tempat balok berhenti.",
     "careNote": "Gunakan balok ringan terlalu besar untuk tertelan. Dorong perlahan jauh dari wajah dan tepi meja; orang dewasa menahan handuk dan menangkap balok."
   },
   {
@@ -1913,6 +2014,7 @@
       }
     ],
     "personalPrompt": "Kapan Anda melihat benda terapung di bak, genangan, atau kolam? Hubungkan dengan pengamatan ini.",
+    "siblingRole": "Perlihatkan mainan di permukaan air dan minta adik menunjuk posisi akhirnya.",
     "careNote": "Orang dewasa mengawasi terus dalam jangkauan lengan, meski air dangkal. Segera kosongkan mangkuk dan lap tumpahan. Jangan gunakan bagian kecil, kaca, mainan listrik, atau benda untuk dicicipi."
   },
   {
@@ -1959,6 +2061,7 @@
       }
     ],
     "personalPrompt": "Kapan Anda merasakan angin mendorong benda seperti jaket atau layangan? Bagikan pengamatannya.",
+    "siblingRole": "Peragakan cara mengipasi layar dengan karton dan minta adik menunjuk saat layar bergerak lagi.",
     "careNote": "Orang dewasa memegang karton dan mengipas menjauhi wajah. Gunakan kertas besar tanpa klip atau batang, hindari tepi tajam, dan segera buang sobekan."
   },
   {
@@ -2005,6 +2108,7 @@
       }
     ],
     "personalPrompt": "Pertanyaan apa yang masih membuat Anda penasaran? Bagikan kesenangan mencatat hal yang belum diketahui.",
+    "siblingRole": "Gambar satu hal yang membuatmu penasaran dan minta adik menunjuk sesuatu untuk ditambahkan.",
     "careNote": "Gunakan krayon sesuai usia dan kertas tanpa staples. Biarkan anak memilih yang dibagikan dan jangan menjanjikan jawaban yang belum ada."
   },
   {
@@ -2051,6 +2155,11 @@
       }
     ],
     "personalPrompt": "Suara sehari-hari apa mengingatkan Anda pada tempat atau waktu tertentu? Ceritakan singkat.",
+    "siblingRole": "Buat tanda untuk satu bunyi pelan dan minta adik memilih krayon untuk tanda berikutnya.",
+    "quickDiscovery": "Dengarkan satu bunyi sehari-hari, lalu gambar atau diktekan satu tanda untuk mengingatnya. Gerakan yang terlihat juga bisa dipilih.",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "Suara tetap lembut dan dapat diprediksi; jangan buat bunyi keras untuk dicatat. Tawarkan pilihan tenang atau visual di tempat dikenal dengan pengawasan dewasa."
   },
   {
@@ -2097,6 +2206,7 @@
       }
     ],
     "personalPrompt": "Pernah menyimpan catatan atau foto proyek saat berubah? Bagikan detail yang Anda syukuri sudah dicatat.",
+    "siblingRole": "Tunjukkan susunan awal balok dan minta adik memindahkan satu balok untuk gambar kedua.",
     "careNote": "Bangun hanya struktur rendah dari balok besar ringan. Gunakan krayon besar dan hindari staples, klip, serta hiasan kecil pada halaman."
   },
   {
@@ -2143,6 +2253,7 @@
       }
     ],
     "personalPrompt": "Benda apa yang memberi respons berbeda terhadap masukan? Berikan contoh sederhana seperti sakelar lampu.",
+    "siblingRole": "Peragakan reaksi mainan saat melihat kartu matahari, lalu minta adik memilih kartu berikutnya.",
     "careNote": "Gunakan kartu besar tanpa klip dan mainan tanpa bagian lepas. Gerakan lembut, hindari kilatan cepat atau sinyal keras; boleh menonton saja."
   },
   {
@@ -2189,6 +2300,7 @@
       }
     ],
     "personalPrompt": "Rutinitas atau kode kecil apa yang Anda pakai ulang? Jelaskan hal yang tetap sama setiap kali dipanggil.",
+    "siblingRole": "Ajarkan dua gerakan salam dan ajak adik memilih gerakan pembuka.",
     "careNote": "Pilih tindakan duduk lembut, kartu besar, dan sedikit langkah. Hindari gerakan paksa atau pengulangan yang melelahkan."
   },
   {
@@ -2236,6 +2348,7 @@
       }
     ],
     "personalPrompt": "Di mana Anda menyimpan angka yang berubah, seperti jumlah tugas tersisa? Jelaskan pentingnya label.",
+    "siblingRole": "Tunjukkan perubahan angka saat satu mainan naik, lalu minta adik memilih penumpang berikutnya.",
     "careNote": "Gunakan figur besar aman bagi balita dan kartu angka besar tanpa klip. Bus tetap berupa gambar; jangan gunakan kotak untuk dimasuki atau dinaiki anak."
   },
   {
@@ -2282,6 +2395,7 @@
       }
     ],
     "personalPrompt": "Kapan Anda menata benda sama dengan cara berbeda? Contohkan buku, alat, atau berkas.",
+    "siblingRole": "Pilah satu mainan berdasarkan kelembutannya, lalu minta adik memberikan benda lain untuk diperiksa bersama.",
     "careNote": "Gunakan benda besar utuh dikenal tanpa baterai terjangkau atau bagian lepas. Batasi jumlah dan letakkan pada permukaan rendah stabil."
   },
   {
@@ -2326,6 +2440,12 @@
       }
     ],
     "personalPrompt": "Kapan pertanyaan lebih spesifik membantu memahami masalah? Bagikan contoh sederhana.",
+    "siblingRole": "Tanyakan mainan mana yang punya roda dan minta adik menunjuk yang cocok.",
+    "quickDiscovery": "Pilih salah satu dari tiga mainan. Sebelum jawabannya diungkap, minta kakak mengajukan satu pertanyaan dan adik menunjuk mainan yang cocok.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Gunakan mainan besar aman untuk balita dan tetap terlihat. Tanpa penutup mata atau menyembunyikan benda di mulut, pakaian, atau tempat yang harus dipanjat."
   },
   {
@@ -2372,6 +2492,7 @@
       }
     ],
     "personalPrompt": "Kapan perubahan rencana membantu memenuhi kebutuhan orang lain? Bagikan contoh biasa.",
+    "siblingRole": "Siapkan dua tempat istirahat dan minta adik memilih mana yang akan dicoba tamu lebih dulu.",
     "careNote": "Gunakan bantal dan handuk sebagai tempat istirahat mainan di lantai. Wajah anak tetap bebas; jangan membungkus siapa pun atau menumpuk bantal tinggi."
   },
   {
@@ -2418,6 +2539,7 @@
       }
     ],
     "personalPrompt": "Kapan Anda membuat atau memperbaiki sesuatu untuk kebutuhan tertentu? Bagikan pemeriksaan sebelum menyebutnya selesai.",
+    "siblingRole": "Pasang dua penyangga atap dan minta adik menggerakkan mainan melewati celahnya.",
     "careNote": "Bangun di lantai memakai bagian besar ringan dan atap rendah. Hanya untuk mainan; tanpa memanjat, berdiri di struktur, staples, atau tepi kardus tajam."
   },
   {
@@ -2464,6 +2586,7 @@
       }
     ],
     "personalPrompt": "Kapan Anda memakai lipatan atau penopang untuk masalah praktis? Peragakan dengan kertas.",
+    "siblingRole": "Tunjukkan cara lipatan pertama membuat gambar berdiri dan minta adik memilih tempatnya.",
     "careNote": "Gunakan kertas besar bertepi halus. Orang dewasa memulai lipatan kuat; jauhkan lipatan tajam dari wajah dan buang sobekan. Tidak perlu gunting, staples, atau klip."
   },
   {
@@ -2510,6 +2633,7 @@
       }
     ],
     "personalPrompt": "Tanda, label, atau diagram apa membantu Anda melakukan sesuatu? Bagikan yang membuatnya jelas.",
+    "siblingRole": "Tunjukkan satu gambar untuk tanda itu dan ajak adik memilih tempat yang mudah terlihat.",
     "careNote": "Gunakan krayon besar dan karton tanpa klip atau pin. Letakkan aman di permukaan rendah; jangan menutupi tanda keselamatan, kendali, pintu, atau tempat memanjat."
   },
   {
@@ -2556,6 +2680,12 @@
       }
     ],
     "personalPrompt": "Tempat luar ruang biasa mana yang Anda kenal baik? Bagikan detail kecil yang senang Anda amati.",
+    "siblingRole": "Tunjuk satu detail dari tempat yang aman dan minta adik menunjuk detail berikutnya.",
+    "quickDiscovery": "Amati petak kecil yang sama dua kali dari tempat aman. Gambar satu detail yang mudah terlewat.",
+    "conditions": [
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "Orang dewasa memilih dan mengawasi tempat aman jauh dari jalan, air, tumbuhan tak dikenal, dan kotoran hewan. Tetap di jalur, jangan ganggu satwa, dan pastikan jendela terkunci aman."
   },
   {
@@ -2602,6 +2732,12 @@
       }
     ],
     "personalPrompt": "Kapan angin mengubah rencana atau menarik perhatian Anda? Bagikan kenangan kecil.",
+    "siblingRole": "Contohkan gerakan ranting dengan tangan dan minta adik menirukannya saat ranting bergerak.",
+    "quickDiscovery": "Amati satu ranting dari tempat yang aman dan terlindung. Buat satu tanda untuk gerakan atau ketenangan yang terlihat.",
+    "conditions": [
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "Amati dari jendela aman atau tempat terlindung saat cuaca ringan. Hindari badai, dahan rusak, jalan raya, atau memanjat; jangan ikat tali atau pita pada anak."
   },
   {
@@ -2648,6 +2784,7 @@
       }
     ],
     "personalPrompt": "Warna apa mengingatkan pada tempat luar ruang favorit atau waktu tertentu? Bagikan tanpa berharap pemandangan hari ini sama.",
+    "siblingRole": "Cocokkan warna krayon dengan pemandangan dan ajak adik memilih warna lain untuk dicari.",
     "careNote": "Jendela tetap aman dan anak tidak naik ambangnya. Di luar, tetap bersama dewasa di jalur aman dan amati tumbuhan tak dikenal tanpa menyentuh atau mencicipi."
   },
   {
@@ -2695,6 +2832,7 @@
       }
     ],
     "personalPrompt": "Persiapan kecil apa membuat waktu makan lebih tenang? Bagikan rutinitas yang bisa dibantu anak.",
+    "siblingRole": "Tunjukkan letak satu cangkir dan minta adik menaruh cangkir kosong di tempat berikutnya.",
     "careNote": "Gunakan peralatan kosong tak mudah pecah dan sendok besar pada permukaan rendah stabil. Jauhkan pisau, makanan panas, kaca, dan taplak menjuntai."
   },
   {
@@ -2743,6 +2881,7 @@
       }
     ],
     "personalPrompt": "Siapa mengajarkan teknik dapur berguna kepada Anda? Bagikan kiat kecil yang memudahkan.",
+    "siblingRole": "Contohkan olesan melingkar yang lembut dan minta adik memilih tempat untuk olesan berikutnya.",
     "careNote": "Orang dewasa memilih makanan akrab sesuai alergi dan kebutuhan makan tiap anak serta menyiapkan semua porsi. Tanpa pisau atau bahan panas. Awasi terus, anak duduk saat makan, dan jangan wajibkan mencicipi."
   },
   {
@@ -2791,6 +2930,7 @@
       }
     ],
     "personalPrompt": "Adakah camilan atau resep keluarga yang Anda hafal? Bagikan cara mempelajari dan yang akan dicatat untuk orang lain.",
+    "siblingRole": "Gambar langkah pertama resep dan minta adik menunjuk bahan atau alat yang digunakan.",
     "careNote": "Orang dewasa memeriksa alergi dan kebutuhan makan individu, menyiapkan porsi sesuai, dan mengawasi terus. Tanpa produk hewani mentah, panas, alat tajam, atau tambahan kecil keras. Makan sambil duduk tanpa tekanan mencicipi."
   },
   {
@@ -2837,6 +2977,7 @@
       }
     ],
     "personalPrompt": "Kapan tempo musik mengubah perasaan suatu kegiatan bagi Anda? Bagikan sambil tetap mengetuk lembut.",
+    "siblingRole": "Ketuk irama perlahan dan minta adik memberi tanda kapan iramanya boleh dipercepat.",
     "careNote": "Ketukan pelan nyaman, hindari permukaan keras atau memukul benda dekat telinga. Anak boleh melihat atau bergerak sunyi. Tidak wajib tempo cepat."
   },
   {
@@ -2882,6 +3023,12 @@
       }
     ],
     "personalPrompt": "Kapan Anda mengikuti atau memberi isyarat membantu dalam kelompok? Bagikan cara orang tahu yang akan terjadi.",
+    "siblingRole": "Tunjukkan tanda untuk berbunyi dan diam, lalu minta adik memberi tanda pertama.",
+    "quickDiscovery": "Pimpin satu putaran pelan dengan dua tanda: berbunyi dan diam. Ganti pemimpin dan coba sekali lagi.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Semua suara bervolume nyaman, tanpa awalan mengejutkan. Jangan gunakan peluit, tongkat, atau alat musik keras; menonton tenang juga boleh."
   },
   {
@@ -2928,6 +3075,7 @@
       }
     ],
     "personalPrompt": "Pengingat apa membantu mengikuti atau mengingat musik? Bagikan cara merekam ide sebelum hilang.",
+    "siblingRole": "Gambar tanda untuk dengungan dan minta adik memilih bunyi untuk kotak berikutnya.",
     "careNote": "Gunakan krayon besar dan suara pelan, dengan pilihan gerakan sunyi. Kertas tanpa klip; jangan mengetuk benda keras atau permukaan dekat telinga."
   },
   {
@@ -2974,6 +3122,7 @@
       }
     ],
     "personalPrompt": "Pernah dua orang mengingat detail berbeda dari hari yang sama? Beri contoh ramah tanpa menganggap perasaan seseorang salah.",
+    "siblingRole": "Tunjukkan apa yang terlihat oleh satu mainan dan minta adik memindahkan mainan lain ke tempatnya melihat.",
     "careNote": "Gunakan boneka besar tanpa bagian lepas. Kejadian rekaan tetap menenangkan dan anak boleh berbicara sebagai tokoh atau hanya menggerakkannya."
   },
   {
@@ -3020,6 +3169,7 @@
       }
     ],
     "personalPrompt": "Kapan perubahan rencana kecil membawa pengalaman tak terduga? Bagikan contoh ramah keluarga untuk inspirasi cerita.",
+    "siblingRole": "Peragakan cerita sampai harus memilih, lalu minta adik menunjuk akhir yang dicoba dulu.",
     "careNote": "Gunakan mainan besar dan krayon besar. Masalah khayalan tetap kecil menenangkan; ubah cerita jika ada anak merasa sedih atau takut."
   },
   {
@@ -3066,6 +3216,7 @@
       }
     ],
     "personalPrompt": "Detail apa paling jelas Anda ingat dari tempat yang dikunjungi? Gunakan untuk memulai tempat rekaan.",
+    "siblingRole": "Gambar satu benda yang bisa dilihat pengunjung dan ajak adik menambahkan coretan tentang tempat itu.",
     "careNote": "Gunakan kertas dan krayon besar tanpa perangko, stiker, atau klip yang bisa menjadi bagian kecil lepas. Perjalanan khayalan tetap nyaman dan anak boleh mengubah detail mana pun."
   }
 ]

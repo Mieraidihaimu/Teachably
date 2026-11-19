@@ -48,12 +48,23 @@ public enum Skill: String, Codable, CaseIterable, Identifiable, Sendable {
 public struct AgePrompt: Codable, Hashable, Sendable {
     public let action: String
     public let question: String
+
+    public init(action: String, question: String) {
+        self.action = action
+        self.question = question
+    }
 }
 
 public struct ActivityStep: Codable, Hashable, Sendable {
     public let title: String
     public let minutes: Int
     public let instruction: String
+
+    public init(title: String, minutes: Int, instruction: String) {
+        self.title = title
+        self.minutes = minutes
+        self.instruction = instruction
+    }
 }
 
 public struct Activity: Codable, Identifiable, Hashable, Sendable {
@@ -67,15 +78,75 @@ public struct Activity: Codable, Identifiable, Hashable, Sendable {
     public let materials: [String]
     public let toddler: AgePrompt
     public let older: AgePrompt
-    public let steps: [ActivityStep]
+    public private(set) var steps: [ActivityStep]
     public let personalPrompt: String
     public let careNote: String
+    public let primary: AgePrompt?
+    public let siblingRole: String?
+    public let conditions: [IdeaConstraint]?
+    public let quickDiscovery: String?
+    public let sourceWanderLayerID: String?
     public var duration: Int { steps.reduce(0) { $0 + $1.minutes } }
+
+    init(id: String, title: String, subtitle: String, skill: Skill, symbol: String, takeaway: String,
+         parentPrimer: String, materials: [String], toddler: AgePrompt, older: AgePrompt,
+         steps: [ActivityStep], personalPrompt: String, careNote: String, primary: AgePrompt? = nil,
+         siblingRole: String? = nil, conditions: [IdeaConstraint]? = nil, quickDiscovery: String? = nil,
+         sourceWanderLayerID: String? = nil) {
+        self.id = id
+        self.title = title
+        self.subtitle = subtitle
+        self.skill = skill
+        self.symbol = symbol
+        self.takeaway = takeaway
+        self.parentPrimer = parentPrimer
+        self.materials = materials
+        self.toddler = toddler
+        self.older = older
+        self.steps = steps
+        self.personalPrompt = personalPrompt
+        self.careNote = careNote
+        self.primary = primary
+        self.siblingRole = siblingRole
+        self.conditions = conditions
+        self.quickDiscovery = quickDiscovery
+        self.sourceWanderLayerID = sourceWanderLayerID
+    }
+
+    public func prompt(for band: DevelopmentalBand, language: AppLanguage = L10n.language) -> AgePrompt {
+        switch band {
+        case .toddler: toddler
+        case .earlyYears: older
+        case .primary: primary ?? older.extending(skill, language: language)
+        }
+    }
+
+    public func siblingPrompt(for profile: FamilyProfile) -> String {
+        if let siblingRole {
+            return L10n.format("%1$@, help %2$@ get started. %3$@",
+                               profile.olderDisplayName, profile.youngerDisplayName, siblingRole)
+        }
+        return L10n.format("%1$@, show %2$@ how to join in, then ask: “%3$@”",
+                           profile.olderDisplayName, profile.youngerDisplayName, toddler.question)
+    }
+
+    public var quickVersion: Activity? {
+        guard let quickDiscovery, steps.count == 4 else { return nil }
+        var activity = self
+        let minutes = [2, 3, 8, 2]
+        activity.steps = steps.enumerated().map { index, step in
+            ActivityStep(title: step.title, minutes: minutes[index],
+                         instruction: index == 2 ? quickDiscovery : step.instruction)
+        }
+        return activity
+    }
 }
 
 public struct FamilyProfile: Codable, Equatable, Sendable {
     public var youngerName = "Little explorer"
     public var olderName = "Big explorer"
+    public var youngerBirthMonth: BirthMonth?
+    public var olderBirthMonth: BirthMonth?
     public var skills: Set<Skill> = Skill.familyInterests
     public var youngerDisplayName: String {
         youngerName.isEmpty || youngerName == "Little explorer" ? L10n.string("Little explorer") : youngerName
@@ -91,6 +162,7 @@ public struct DailyPlan: Codable, Equatable, Sendable {
     public var day: String
     public var activityID: String
     public var offeredIDs: [String]
+    public var isQuick: Bool?
     public init(day: String, activityID: String, offeredIDs: [String]) {
         self.day = day
         self.activityID = activityID
@@ -118,6 +190,7 @@ public struct FamilyState: Codable, Equatable, Sendable {
     public var plans: [DailyPlan] = []
     public var memories: [Memory] = []
     public var teachingNotes: [String: String] = [:]
+    public var customActivities: [Activity]?
     public init() {}
     public func encoded() throws -> Data { try JSONEncoder().encode(self) }
     public static func decode(_ data: Data) throws -> FamilyState {

@@ -19,14 +19,17 @@ public struct WanderGeneratedLesson: Sendable {
     public let toddlerQuestion: String
     public let olderAction: String
     public let olderQuestion: String
+    public let primary: AgePrompt?
     public let consideration: String
     public let personalPrompt: String
     public init(definition: String, example: String, toddlerAction: String, toddlerQuestion: String,
-                olderAction: String, olderQuestion: String, consideration: String, personalPrompt: String) {
+                olderAction: String, olderQuestion: String, consideration: String, personalPrompt: String,
+                primary: AgePrompt? = nil) {
         self.definition = definition; self.example = example
         self.toddlerAction = toddlerAction; self.toddlerQuestion = toddlerQuestion
         self.olderAction = olderAction; self.olderQuestion = olderQuestion
         self.consideration = consideration; self.personalPrompt = personalPrompt
+        self.primary = primary
     }
 }
 
@@ -67,9 +70,10 @@ public enum WanderGenerationError: LocalizedError, Equatable {
 }
 
 extension WanderEngine {
-    public static let generationPromptVersion = "teachably-apple-fm-v2"
+    public static let generationPromptVersion = "teachably-apple-fm-v3"
 
-    public func prepareGeneration(_ incoming: WanderRequest, providerID: String) throws -> WanderGenerationPlan {
+    public func prepareGeneration(_ incoming: WanderRequest, providerID: String,
+                                  stages: FamilyStages = FamilyProfile().stages()) throws -> WanderGenerationPlan {
         guard incoming.query.count <= 240, !incoming.requestID.isEmpty, !providerID.isEmpty else { throw WanderError.invalidRequest }
         let revision: WanderLayer?
         let request: WanderRequest
@@ -101,7 +105,7 @@ extension WanderEngine {
         struct Context: Encodable {
             let goal: String
             let outputLanguage: String
-            let ages: [Int]
+            let children: FamilyStages
             let action: String
             let output: String
             let concept: String
@@ -117,17 +121,19 @@ extension WanderEngine {
             return terms.contains { words.contains($0) }
         }.prefix(2).map { Reference(title: $0.title, idea: $0.takeaway, explanation: String($0.parentPrimer.prefix(400))) }
         let context = Context(goal: "Help a parent share their knowledge through a flexible half-hour family experience.",
-            outputLanguage: catalog.language.generationLanguage, ages: [2, 6], action: request.action.rawValue, output: requiresLesson ? "lesson" : "topic map",
+            outputLanguage: catalog.language.generationLanguage, children: stages, action: request.action.rawValue, output: requiresLesson ? "lesson" : "topic map",
             concept: concept, query: request.query, depth: depth,
             trail: Array((parent?.path ?? []).suffix(4)).map { String($0.prefix(80)) },
             siblings: (parent?.bubbles ?? []).map { String($0.label.prefix(40)) }, libraryReferences: references)
         let encoder = JSONEncoder(); encoder.outputFormatting = [.sortedKeys]
         let json = String(decoding: try encoder.encode(context), as: UTF8.self)
+        let audience = String(decoding: try encoder.encode(stages), as: UTF8.self)
+        let cacheProvider = providerID + Self.generationPromptVersion + audience
         return WanderGenerationPlan(concept: concept, requiresLesson: requiresLesson, contextJSON: json,
             providerID: providerID, incoming: incoming, request: request, parent: parent, selected: selected,
             revisionID: revision?.id,
-            cacheKey: try digest(request, includeRefresh: false, providerID: providerID + Self.generationPromptVersion),
-            signature: try digest(incoming, providerID: providerID + Self.generationPromptVersion),
+            cacheKey: try digest(request, includeRefresh: false, providerID: cacheProvider),
+            signature: try digest(incoming, providerID: cacheProvider),
             startingLayerID: state.currentLayerID, catalogID: catalog.identity)
     }
 
@@ -165,11 +171,14 @@ extension WanderEngine {
         if plan.requiresLesson {
             guard draft.topics.isEmpty, let value = draft.lesson else { throw WanderGenerationError.invalidOutput }
             bubbles = []
+            let primary = try value.primary.map {
+                try AgePrompt(action: checked($0.action, max: 600), question: checked($0.question, max: 250))
+            }
             lesson = try WanderLesson(definition: checked(value.definition, max: 1400), exampleTitle: title,
                 example: checked(value.example, max: 2000), consideration: checked(value.consideration, max: 700),
                 toddler: AgePrompt(action: checked(value.toddlerAction, max: 600), question: checked(value.toddlerQuestion, max: 250)),
                 older: AgePrompt(action: checked(value.olderAction, max: 600), question: checked(value.olderQuestion, max: 250)),
-                personalPrompt: checked(value.personalPrompt, max: 500), activityID: nil)
+                personalPrompt: checked(value.personalPrompt, max: 500), activityID: nil, primary: primary)
         } else {
             guard draft.lesson == nil, (2...6).contains(draft.topics.count) else { throw WanderGenerationError.invalidOutput }
             let labels = draft.topics.map { $0.label.trimmingCharacters(in: .whitespacesAndNewlines).lowercased() }

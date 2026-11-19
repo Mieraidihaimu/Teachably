@@ -30,9 +30,9 @@ The library has 67 activities across 12 themes. The personal starter selection c
 
 Coding uses picture instructions, sequences, loops, debugging, conditions, reusable routines, and changing values with toys or comfortable movements. Diary writing offers marks, drawings, dictation, and optional writing. Reading uses familiar books and everyday print, including rhymes, expressive reading, and finding information. These are shared playful invitations; the two-year-old is not expected to read, write, or grasp programming abstractions.
 
-The two ages are fixed at 2 and 6 for this family's prototype. Child nicknames are optional. The app runs offline with local persistence. It has no account, photo uploads, cloud service, notifications, or subscriptions.
+Optional birth months and years move each child's prompt through the Toddler, Early Years, and Primary stages. The older sibling gets a specific role in each activity. Child nicknames are optional. The app runs offline with local persistence.
 
-Wander provides an exploratory route alongside the daily deck. Its starting bubbles are the parent's selected interests. On supported devices, Apple's Foundation Models framework generates narrower topics, explanations, and examples on device, with age-specific invitations. A source menu also offers the curated library. Generated suggestions remain in Wander and do not automatically become scheduled activities. They require the parent's review; model availability and factual reliability are practical limits of this prototype. See [Wander implementation](wander-port.md).
+Wander starts with the parent's selected interests. On supported devices, Apple Intelligence generates narrower topics, explanations, and examples on device. **Save to Library** turns a pinned idea into a four-step activity for Discover and the daily deck. Review generated activities before sharing them. [Wander implementation](wander-port.md)
 
 ## What to learn from trying it
 
@@ -46,4 +46,4 @@ Wander provides an exploratory route alongside the daily deck. Its starting bubb
 
 Deepen the parent's seven stated areas with more specific skills, favourite books, coding examples, diary habits, and personal stories. A future knowledge bank could store a concrete skill, a personal example, available materials, and the parent's confidence. New activity drafts could then be reviewed and saved into the library, rather than treating a broad theme as a complete account of someone's knowledge.
 
-Other later options include a larger content library, adjustable child ages, an optional daily reminder, and exporting family memories. These are not part of the current implementation.
+Other later options include a larger content library, an optional daily reminder, and exporting family memories.

@@ -1,5 +1,7 @@
 [
   {
+    "siblingRole": "做個揮手的影子，請他揮手回應。",
+    "quickDiscovery": "輪流用手做一個形狀。移動一次，看看影子有什麼變化。",
     "careNote": "保持房間方便走動。由成人拿手電筒，絕不照眼睛。確保電池倉牢固關好。",
     "id": "shadow-stories",
     "materials": [
@@ -46,6 +48,7 @@
     }
   },
   {
+    "siblingRole": "輕輕哼一聲，再讓他選個聲音給你模仿。",
     "careNote": "聲音保持輕柔、舒適。只觸摸自己的喉嚨。使用乾淨、沒有訂書針或松脫部件的紙箱。",
     "id": "sound-lab",
     "materials": [
@@ -91,6 +94,12 @@
     }
   },
   {
+    "siblingRole": "示範怎樣按大小分兩片葉子，請他再遞一片。",
+    "quickDiscovery": "在同一個安全地點比較兩片熟悉的落葉。一個孩子說出區別，另一個指出來。",
+    "conditions": [
+      "zeroPrep",
+      "outdoors"
+    ],
     "careNote": "一家人待在一起，遠離道路和水邊。只碰熟悉的落葉，不把植物放進嘴裡，結束後洗手。",
     "id": "leaf-detectives",
     "materials": [
@@ -136,6 +145,13 @@
     }
   },
   {
+    "siblingRole": "在空中描出一朵雲的形狀，再讓他指出下一朵。",
+    "quickDiscovery": "在安全陰涼處看一小片天空。用手描一個形狀，再看看它有沒有變化。",
+    "conditions": [
+      "zeroPrep",
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "絕不直視太陽。選擇有陰涼的安全位置，遠離車輛、陽台邊緣和水邊。",
     "id": "sky-watchers",
     "materials": [
@@ -181,6 +197,7 @@
     }
   },
   {
+    "siblingRole": "指給他看橋搭在哪裡，讓他選一個過橋的玩具。",
     "careNote": "在地板上搭建。玩具要輕巧，大到無法吞入口中。這是玩具橋，絕不能站上去或攀爬。",
     "id": "paper-bridges",
     "materials": [
@@ -227,6 +244,7 @@
     }
   },
   {
+    "siblingRole": "用玩具走一遍兩個紙箱之間的路，讓他選停靠點。",
     "careNote": "成人事先拆除訂書針，並完成所有裁剪。保持走道暢通，不讓孩子爬進不穩固的紙箱。",
     "id": "cardboard-town",
     "materials": [
@@ -273,6 +291,7 @@
     }
   },
   {
+    "siblingRole": "把空杯和滿杯放在一起，讓他指出滿的那杯。",
     "careNote": "成人全程待在伸手可及的地方。淺托盤裡只放少量水，結束後立刻倒空，並擦乾灑出的水。",
     "id": "kitchen-measures",
     "materials": [
@@ -320,6 +339,7 @@
     }
   },
   {
+    "siblingRole": "用動作演出第一步，讓他選一種攪拌動作一起做。",
     "careNote": "這是一項假裝遊戲，只使用耐摔餐具。把熱裝置、刀具和真正的食材收好。",
     "id": "recipe-moves",
     "materials": [
@@ -366,6 +386,12 @@
     }
   },
   {
+    "siblingRole": "在膝蓋上輕拍一段節奏，停一下讓他跟拍。",
+    "quickDiscovery": "輪流輕輕拍兩拍。加一個停頓，讓兩個孩子都試著跟拍。",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "音量保持舒適。只用雙手和柔軟表面，避免有小零件、容易松脫的樂器。",
     "id": "rhythm-echo",
     "materials": [
@@ -411,6 +437,7 @@
     }
   },
   {
+    "siblingRole": "給一個角色配音，請他給另一個角色選聲音。",
     "careNote": "聲音保持輕柔。在成人看護下使用大張的紙，及時清除撕下的小紙片。",
     "id": "soundtrack-story",
     "materials": [
@@ -457,6 +484,11 @@
     }
   },
   {
+    "siblingRole": "介紹一個玩具角色，讓他選一個夥伴。",
+    "quickDiscovery": "選擇一個角色，給它一個簡單難題。請每個孩子說出或演出一種辦法。",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "玩具要大到無法吞入口中。由成人拿袋子，不可把袋子套在頭上。",
     "id": "story-bag",
     "materials": [
@@ -502,6 +534,7 @@
     }
   },
   {
+    "siblingRole": "示範怎麼讓玩具沿地圖前進，讓他選下一站。",
     "careNote": "在穩固、較低的桌面上畫畫，使用適齡蠟筆。筆帽和細小碎塊放在孩子夠不到的地方。",
     "id": "family-map",
     "materials": [
@@ -548,6 +581,7 @@
     }
   },
   {
+    "siblingRole": "先當一次店主，讓他選一樣要買的玩具。",
     "careNote": "用大張紙鈔，不用真硬幣或小代幣。輕鬆地假裝玩，不給孩子購買真東西的壓力。",
     "id": "toy-shop",
     "materials": [
@@ -594,6 +628,7 @@
     }
   },
   {
+    "siblingRole": "示範拍手、拍腿的節奏，請他接著拍腿。",
     "careNote": "保持地面暢通。玩具放在路線旁，不放在會被踩到的地方。",
     "id": "pattern-path",
     "materials": [
@@ -639,6 +674,11 @@
     }
   },
   {
+    "siblingRole": "示範一個輕柔的動物動作，讓他選下一種動物。",
+    "quickDiscovery": "選兩種動物，各做一個輕柔動作。中間休息一下，再讓孩子交換順序。",
+    "conditions": [
+      "zeroPrep"
+    ],
     "careNote": "清除障礙，避免攀爬或從傢具上跳下，選擇舒服的動作。任何人想休息時就停。",
     "id": "animal-moves",
     "materials": [
@@ -684,6 +724,7 @@
     }
   },
   {
+    "siblingRole": "示範從下往上輕輕拋襪子，讓他指出落點。",
     "careNote": "使用大而柔軟的卷襪子。目標是地板上的籃子，遠離臉和易碎物品，保持路線暢通。",
     "id": "sock-target",
     "materials": [
@@ -730,6 +771,7 @@
     }
   },
   {
+    "siblingRole": "排好一列玩具，讓他放上最後一個，再一起數。",
     "careNote": "物品要大到無法吞入口中。保持遊戲區暢通，把數數當作邀請，不是考試。",
     "id": "same-number-new-shape",
     "materials": [
@@ -775,6 +817,12 @@
     }
   },
   {
+    "siblingRole": "指出圖里的一個線索，讓他選另一個細節一起看。",
+    "quickDiscovery": "讀一個簡短片段，在一張圖前停下，讓一個孩子指細節，另一個猜接下來會怎樣。再讀一點來驗證。",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "選擇結實、適齡的書和舒服的位置，不要求孩子整個活動都坐著不動。",
     "id": "picture-detectives",
     "materials": [
@@ -820,6 +868,7 @@
     }
   },
   {
+    "siblingRole": "擺好第一張圖，讓他指出故事開頭的角色。",
     "careNote": "由成人管理書和材料。使用適齡蠟筆，清除細小斷塊；畫畫或口述都可以，不必寫字。",
     "id": "story-in-three-pictures",
     "materials": [
@@ -866,6 +915,7 @@
     }
   },
   {
+    "siblingRole": "指出他的名字卡，請他選個熟悉的標籤，把名字卡放在旁邊。",
     "careNote": "所有標籤都由成人選擇。避開藥品、清潔用品和帶小部件的包裝，不攀爬去找文字。",
     "id": "words-around-us",
     "materials": [
@@ -912,6 +962,11 @@
     }
   },
   {
+    "siblingRole": "畫下今天的一個細節，讓他選顏色或添一筆。",
+    "quickDiscovery": "選今天的一個片刻。畫下記得的一件事，請每個孩子添一筆或說個詞。",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "使用適齡繪畫工具，清除細小斷塊。只分享你願意讓別人聽見的日記，孩子也可以把想法留給自己。",
     "id": "our-page-of-today",
     "materials": [
@@ -957,6 +1012,7 @@
     }
   },
   {
+    "siblingRole": "示範怎樣畫出自己的心情，遞一支蠟筆讓他自由畫。",
     "careNote": "完全自願參與。使用適齡蠟筆，讓孩子自己選擇分享什麼。",
     "id": "a-moment-and-a-feeling",
     "materials": [
@@ -1002,6 +1058,7 @@
     }
   },
   {
+    "siblingRole": "示範紙條怎麼折，合起來前請他添一筆。",
     "careNote": "使用沒有訂書針或迴紋針的紙，放在成人不用攀爬就能拿到的地方，並使用適齡蠟筆。",
     "id": "a-note-to-tomorrow",
     "materials": [
@@ -1048,6 +1105,7 @@
     }
   },
   {
+    "siblingRole": "示範一張指令卡的動作，讓他給機器人選下一張。",
     "careNote": "在空曠處選擇舒服的坐姿或站姿動作。睜著眼睛，避免轉圈或攀爬，任何人都可以停止或不參與。",
     "id": "friendly-robot",
     "materials": [
@@ -1094,6 +1152,7 @@
     }
   },
   {
+    "siblingRole": "排好目的地圖卡，讓他指出玩具該到哪裡。",
     "careNote": "使用大玩具和沒有夾子的紙卡。路線放在穩固、較低的表面上，不讓孩子鑽進箱子或穿越實體障礙物。",
     "id": "debug-the-toy-route",
     "materials": [
@@ -1140,6 +1199,7 @@
     }
   },
   {
+    "siblingRole": "示範兩個輕柔動作，讓他選循環里先做哪一個。",
     "careNote": "選溫和的動作，只重復少數幾次。避免從傢具上跳下、快速轉圈，不強迫繼續運動。",
     "id": "a-loop-of-silly-moves",
     "materials": [
@@ -1185,6 +1245,7 @@
     }
   },
   {
+    "siblingRole": "指出玩具上的一個線索，讓他再指出一個細節。",
     "careNote": "使用熟悉、大到無法吞入口中的玩具。驗證方法保持簡單安全，只觀察、畫畫和想象也很好。",
     "id": "clue-or-guess",
     "materials": [
@@ -1231,6 +1292,11 @@
     }
   },
   {
+    "siblingRole": "示範怎樣問線索，成人拿穩枕套時請他揭曉玩具。",
+    "quickDiscovery": "由成人拿穩枕套，給一條線索並邀請猜一次。讓小的孩子揭曉玩具，一起看看線索是否吻合。",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "成人全程拿著枕套。使用沒有可拆卸部件的大絨毛玩具，保持臉部無遮擋，絕不把枕套套在頭上。",
     "id": "mystery-pillowcase",
     "materials": [
@@ -1276,6 +1342,7 @@
     }
   },
   {
+    "siblingRole": "示範玩具的一條路線，讓他再選一條試試。",
     "careNote": "玩具要大而輕。這只是玩具旅行，不抱舉孩子、不爬箱子，也不搭可以站人的結構。拆除紙箱上的訂書針。",
     "id": "more-than-one-answer",
     "materials": [
@@ -1322,6 +1389,7 @@
     }
   },
   {
+    "siblingRole": "示範鬆手讓玩具滑下，不用推，再請他指出停在哪裡。",
     "careNote": "成人在地板上扶穩斜坡。使用大而輕的玩具、很緩的坡，以及遠離臉部且暢通的終點區域。絕不讓孩子站在斜坡上或從上面滑下。",
     "id": "little-ramp-lab",
     "materials": [
@@ -1369,6 +1437,13 @@
     }
   },
   {
+    "siblingRole": "示範一個坐著做的動作和停住的樣子，再讓他選下個動作。",
+    "quickDiscovery": "輪流坐著或站著做一個動作，再停住一次。休息後，請每個孩子做一個幅度更小的版本。",
+    "conditions": [
+      "zeroPrep",
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "動作保持溫和舒服，提供坐姿版本，任何人想停就停。避免攀爬、強迫伸展、憋氣和快速轉圈。",
     "id": "move-freeze-notice",
     "materials": [
@@ -1414,6 +1489,7 @@
     }
   },
   {
+    "siblingRole": "給每個玩具客人一塊積木，請他遞來下一塊。",
     "careNote": "積木要大到無法吞入口中，並說明它們是假裝食物。這是玩具野餐，不嘗味道，不把物品放進嘴裡。",
     "id": "a-fair-share-picnic",
     "materials": [
@@ -1460,6 +1536,7 @@
     }
   },
   {
+    "siblingRole": "把第一塊積木對齊書邊，再讓他緊挨著放下一塊。",
     "careNote": "使用無可拆卸部件的大積木和輕書，放在穩固低處。積木留在桌上或地上，不往高處疊。",
     "id": "how-many-blocks-long",
     "materials": [
@@ -1506,6 +1583,7 @@
     }
   },
   {
+    "siblingRole": "轉一轉大三角形，指給他看還是三條邊，再讓他把它放到圖上。",
     "careNote": "成人事先剪好大紙片，剪刀放在孩子夠不到的地方。不用小紙屑、夾子或鬆散裝飾，及時清除撕下的碎片。",
     "id": "shapes-in-a-picture",
     "materials": [
@@ -1552,6 +1630,7 @@
     }
   },
   {
+    "siblingRole": "說兩個押韻的詞，讓他學一學有趣的音。",
     "careNote": "用結實、適齡的書和粗蠟筆，不把遊戲變成速度測試，也不要求任何人表演押韻。",
     "id": "rhyme-time-in-a-book",
     "materials": [
@@ -1598,6 +1677,12 @@
     }
   },
   {
+    "siblingRole": "讓玩具用兩種輕柔的聲音打招呼，請他選一種。",
+    "quickDiscovery": "用兩種輕柔的聲音讀一句話。讓每個孩子選一個適合角色的聲音，用玩具試一試。",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "音量保持舒服，避免嚇人的聲音，兩個孩子都可以安靜地聽。使用沒有松脫部件的絨毛玩具。",
     "id": "read-it-with-feeling",
     "materials": [
@@ -1643,6 +1728,7 @@
     }
   },
   {
+    "siblingRole": "示範怎麼翻到可能有答案的一頁，讓他選一張圖一起看。",
     "careNote": "使用熟悉、適合孩子且沒有鬆散夾頁的書。輕鬆地找，只看圖片也算參與。",
     "id": "a-book-for-our-question",
     "materials": [
@@ -1689,6 +1775,13 @@
     }
   },
   {
+    "siblingRole": "慢慢擺一個手勢讓他模仿，再模仿他選的手勢。",
+    "quickDiscovery": "坐著或站在平坦空曠的地方，輪流模仿一個慢手勢。最後一起做個打招呼的動作。",
+    "conditions": [
+      "zeroPrep",
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "眼睛睜開，動作舒服，人與人留有空間，使用穩固椅子。避免強迫伸展、站在傢具上練平衡，或用手搬動別人來調整姿勢。",
     "id": "follow-my-mirror",
     "materials": [
@@ -1734,6 +1827,12 @@
     }
   },
   {
+    "siblingRole": "示範把球慢慢滾過去，讓他選下一位接球人。",
+    "quickDiscovery": "在地板上輪流輕輕滾球一圈。有人夠不著時，就靠近一點。",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "使用大軟球，讓球始終留在地板上，清除絆倒風險。選擇舒服的坐姿，遠離樓梯玩。",
     "id": "roll-it-to-a-friend",
     "materials": [
@@ -1779,6 +1878,7 @@
     }
   },
   {
+    "siblingRole": "示範在簡單路線的哪裡停一停，讓他選終點。",
     "careNote": "選遠離樓梯、尖角的平整地面，移走松地毯和障礙物，不在地上鋪容易滑動的紙踏腳石。睜眼走，也提供坐著參與的方式。",
     "id": "a-path-at-our-pace",
     "materials": [
@@ -1824,6 +1924,7 @@
     }
   },
   {
+    "siblingRole": "輕輕滑一下積木，請他摸一摸毛巾，再指出積木停在哪裡。",
     "careNote": "積木要輕，大到無法吞入口中。輕推，遠離臉和桌邊；成人扶穩毛巾，並接住積木。",
     "id": "slide-and-compare",
     "materials": [
@@ -1870,6 +1971,7 @@
     }
   },
   {
+    "siblingRole": "在水面上展示玩具，讓他指出玩具最後在哪裡。",
     "careNote": "即使水很淺，成人也須全程看護並待在伸手可及處。結束後立刻倒空、擦乾水，不用小零件、玻璃、電動玩具，也不嘗任何物品。",
     "id": "a-little-floating-lab",
     "materials": [
@@ -1916,6 +2018,7 @@
     }
   },
   {
+    "siblingRole": "示範怎樣扇動厚紙帶動帆，帆再動時請他指出來。",
     "careNote": "成人拿紙板，朝遠離臉部的方向扇。使用沒有夾子或棍子的大紙，避免鋒利邊緣，及時收好撕下的碎紙。",
     "id": "air-moves-a-sail",
     "materials": [
@@ -1962,6 +2065,7 @@
     }
   },
   {
+    "siblingRole": "畫一件你好奇的事，讓他指出一樣想加進去的東西。",
     "careNote": "使用適齡蠟筆和沒有訂書針的紙。讓孩子選分享什麼，不承諾你還沒有的答案。",
     "id": "a-page-of-questions",
     "materials": [
@@ -2008,6 +2112,11 @@
     }
   },
   {
+    "siblingRole": "用一個記號畫下輕輕的聲音，讓他選一支蠟筆畫下一個記號。",
+    "quickDiscovery": "聽一個平常的聲音，再畫個記號或說出來幫助記住。也可以記錄看到的動作。",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "聲音保持輕柔、可預期，不製造響聲來記錄。提供安靜或視覺的選擇，在成人看護下待在熟悉空間。",
     "id": "draw-the-sounds-of-today",
     "materials": [
@@ -2054,6 +2163,7 @@
     }
   },
   {
+    "siblingRole": "擺出積木原來的樣子，讓他挪動一塊來畫第二張圖。",
     "careNote": "只用大而輕的積木搭低矮結構。使用粗蠟筆，紙頁上不加訂書針、夾子或細小裝飾。",
     "id": "before-and-after-a-little-change",
     "materials": [
@@ -2100,6 +2210,7 @@
     }
   },
   {
+    "siblingRole": "演示玩具看到太陽卡會做什麼，請他選下一張卡。",
     "careNote": "使用沒有夾子的大卡，以及沒有松脫部件的玩具。動作輕柔，避免快速閃光或響亮信號，可以只看不動。",
     "id": "if-the-card-says-so",
     "materials": [
@@ -2146,6 +2257,7 @@
     }
   },
   {
+    "siblingRole": "教兩個打招呼的動作，讓他選先做哪一個。",
     "careNote": "選擇溫和的坐姿動作、大卡片和少量步驟，避免強迫動作或重復到疲累。",
     "id": "name-a-little-program",
     "materials": [
@@ -2192,6 +2304,7 @@
     }
   },
   {
+    "siblingRole": "示範玩具上車後數字怎麼變，讓他選下一位乘客。",
     "careNote": "使用適合幼兒的大人偶和沒有夾子的大數字卡。公車只是一幅畫，不用箱子讓孩子爬進去或乘坐。",
     "id": "a-value-that-can-change",
     "materials": [
@@ -2239,6 +2352,7 @@
     }
   },
   {
+    "siblingRole": "示範把一個軟玩具分到一組，請他遞來另一件物品一起判斷。",
     "careNote": "只用完整、熟悉的大物品，沒有孩子能接觸的電池或可拆小零件。數量少一些，放在穩固低處。",
     "id": "sort-it-another-way",
     "materials": [
@@ -2285,6 +2399,12 @@
     }
   },
   {
+    "siblingRole": "問哪個玩具帶輪子，讓他指出符合線索的玩具。",
+    "quickDiscovery": "從三個玩具里選一個。揭曉前，讓大的孩子問一個問題，小的孩子指出符合答案的玩具。",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "用適合幼兒的大玩具，始終保持可見。不蒙眼，不把物品藏在嘴裡、衣服裡或需要攀爬才能拿到的地方。",
     "id": "which-question-helps",
     "materials": [
@@ -2329,6 +2449,7 @@
     }
   },
   {
+    "siblingRole": "佈置兩個休息的地方，讓他選玩具客人先去哪裡。",
     "careNote": "靠墊和毛巾放地板上，只給玩具休息。保持孩子臉部無遮擋，不用布包裹人，也不把靠墊堆高。",
     "id": "a-plan-for-a-toy-visitor",
     "materials": [
@@ -2375,6 +2496,7 @@
     }
   },
   {
+    "siblingRole": "擺好屋頂的兩個支撐，讓他把玩具從中間送進去。",
     "careNote": "在地板上用大而輕的材料搭低屋頂。這只供玩具使用，不攀爬、不站上去，不用訂書針或有鋒利邊緣的紙板。",
     "id": "a-roof-for-a-toy",
     "materials": [
@@ -2421,6 +2543,7 @@
     }
   },
   {
+    "siblingRole": "示範第一道折痕怎樣讓畫站住，讓他選擺放位置。",
     "careNote": "用邊緣光滑的大紙。較硬的折痕由成人先折，避免尖銳折邊靠近臉，收好碎紙。不需要剪刀、訂書針或夾子。",
     "id": "fold-a-standing-picture",
     "materials": [
@@ -2467,6 +2590,7 @@
     }
   },
   {
+    "siblingRole": "展示一個可以用作標誌的圖案，讓他選個容易看到的位置。",
     "careNote": "用粗蠟筆、大卡紙，不加夾子或圖釘，穩放在低處。不蓋安全標誌、控制開關，不擋門口，也不放在需要攀爬的地方。",
     "id": "a-sign-for-our-space",
     "materials": [
@@ -2513,6 +2637,12 @@
     }
   },
   {
+    "siblingRole": "在安全的觀察點指出一個細節，接著請他再找一個。",
+    "quickDiscovery": "在一個安全地點兩次觀察同一小片地方。畫下一個容易忽略的細節。",
+    "conditions": [
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "由成人挑選並看護安全位置，遠離道路、水邊、不認識的植物和動物糞便。留在小路上，不打擾野生生物，窗戶要安全鎖好。",
     "id": "one-small-patch-of-nature",
     "materials": [
@@ -2559,6 +2689,12 @@
     }
   },
   {
+    "siblingRole": "用手模仿樹枝擺動，讓他在樹枝動時也做這個手勢。",
+    "quickDiscovery": "在安全避風處看一根樹枝。把看到的一次擺動或靜止畫個記號。",
+    "conditions": [
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "從安全固定的窗邊，或溫和天氣下安全避風處觀察。避開暴風雨、受損樹枝、道路，不攀爬去看，也不往孩子身上系繩子或絲帶。",
     "id": "what-the-wind-moves",
     "materials": [
@@ -2605,6 +2741,7 @@
     }
   },
   {
+    "siblingRole": "找一支與眼前景物顏色相近的蠟筆，再讓他選一種顏色去找。",
     "careNote": "窗戶要鎖好，不讓孩子站窗台。戶外與成人一起待在安全小路上，不碰也不嘗不認識的植物。",
     "id": "colours-through-the-window",
     "materials": [
@@ -2651,6 +2788,7 @@
     }
   },
   {
+    "siblingRole": "示範杯子該放哪裡，讓他把空杯放到下一個座位前。",
     "careNote": "在穩固低處使用空的耐摔餐具和大勺子。活動中不用刀、熱食、玻璃或垂下來的桌布。",
     "id": "a-place-for-everyone",
     "materials": [
@@ -2698,6 +2836,7 @@
     }
   },
   {
+    "siblingRole": "示範輕輕抹一個圈，讓他選下一個圈畫在哪裡。",
     "careNote": "成人根據每個孩子的過敏情況和進食需要選熟悉食物，準備所有分量。不用刀或熱食材。全程看護，進食時保持坐姿，絕不要求品嘗。",
     "id": "spread-smooth-and-swirl",
     "materials": [
@@ -2746,6 +2885,7 @@
     }
   },
   {
+    "siblingRole": "畫下食譜的第一步，請他指出要用的食材或工具。",
     "careNote": "成人確認過敏和個別進食需要，準備合適分量，並全程看護。不用生的動物性食品、熱源、鋒利工具或小而硬的配料。進食時坐好，不施壓要求品嘗。",
     "id": "a-recipe-in-pictures",
     "materials": [
@@ -2794,6 +2934,7 @@
     }
   },
   {
+    "siblingRole": "慢慢敲一段節奏，讓他用手勢提示什麼時候加快一點。",
     "careNote": "輕拍保持安靜舒服，不拍硬表面，也不在耳邊敲東西。孩子可以看或用無聲動作，不需要快節奏。",
     "id": "fast-slow-same-pattern",
     "materials": [
@@ -2840,6 +2981,12 @@
     }
   },
   {
+    "siblingRole": "示範開始和安靜的手勢，再讓他發出第一個信號。",
+    "quickDiscovery": "用開始和休息兩個手勢帶領一輪安靜的合奏。換一位指揮，再試一次。",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "所有聲音保持舒服，避免突然嚇人的開始。不用哨子、棍子或響亮樂器，安靜看也很歡迎。",
     "id": "the-quiet-conductor",
     "materials": [
@@ -2885,6 +3032,7 @@
     }
   },
   {
+    "siblingRole": "畫一個代表哼聲的記號，讓他給下一格選聲音。",
     "careNote": "用粗蠟筆和輕聲，也可選無聲手勢。紙上不加夾子，不在任何人耳邊敲硬物或硬表面。",
     "id": "draw-a-little-score",
     "materials": [
@@ -2931,6 +3079,7 @@
     }
   },
   {
+    "siblingRole": "示範一個玩具從哪裡能看見什麼，再讓他把另一個玩具放到觀察的位置。",
     "careNote": "使用沒有可拆零件的大絨毛玩具，故事保持安心。孩子可以為角色說話，也可以只移動它。",
     "id": "the-other-characters-story",
     "materials": [
@@ -2977,6 +3126,7 @@
     }
   },
   {
+    "siblingRole": "演到需要做選擇的地方，讓他指出先試哪種結局。",
     "careNote": "用大玩具和粗蠟筆，想象中的難題保持小而安心。任何孩子不舒服，就改變故事。",
     "id": "choose-another-ending",
     "materials": [
@@ -3023,6 +3173,7 @@
     }
   },
   {
+    "siblingRole": "畫一件訪客能看到的東西，讓他為那個地方添上一筆。",
     "careNote": "使用大紙和粗蠟筆，不加可能松脫成小零件的郵票、貼紙或夾子。想象旅程保持舒服，孩子可以改變任何細節。",
     "id": "a-postcard-from-an-imaginary-place",
     "materials": [

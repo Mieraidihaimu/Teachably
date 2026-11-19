@@ -1,3 +1,4 @@
+import AVFAudio
 import SwiftUI
 import TeachablyCore
 
@@ -63,7 +64,15 @@ struct ShowAndTellView: View {
 
 private struct ShowAndTellDetail: View {
     @State private var sheet: StorySheet?
+    @Environment(\.scenePhase) private var scenePhase
+    @StateObject private var audio: StoryAudioRecorder
+    @State private var recordingToDelete: StoryRecording?
     let story: ShowAndTellStory
+
+    init(story: ShowAndTellStory) {
+        self.story = story
+        _audio = StateObject(wrappedValue: StoryAudioRecorder(storyID: story.id))
+    }
 
     var body: some View {
         ScrollView {
@@ -81,6 +90,8 @@ private struct ShowAndTellDetail: View {
                     .foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
 
+                recordButton
+
                 LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 10), count: 2), spacing: 10) {
                     ForEach(story.pictures.indices, id: \.self) { index in
                         let picture = story.pictures[index]
@@ -94,6 +105,7 @@ private struct ShowAndTellDetail: View {
                         .accessibilityIdentifier("show-and-tell.picture.\(index + 1)")
                     }
                 }
+                if !audio.recordings.isEmpty { recordingList }
             }
             .padding(20)
             .frame(maxWidth: 680)
@@ -102,6 +114,21 @@ private struct ShowAndTellDetail: View {
         .background(Palette.background)
         .navigationTitle(story.title)
         .navigationBarTitleDisplayMode(.inline)
+        .onDisappear { audio.stopAudio() }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .background { audio.stopAudio() }
+        }
+        .onReceive(NotificationCenter.default.publisher(for: AVAudioSession.interruptionNotification)) { notification in
+            if notification.userInfo?[AVAudioSessionInterruptionTypeKey] as? UInt == AVAudioSession.InterruptionType.began.rawValue {
+                audio.stopAudio()
+            }
+        }
+        .alert(L10n.string("Delete recording?"), isPresented: Binding(
+            get: { recordingToDelete != nil }, set: { if !$0 { recordingToDelete = nil } }
+        ), presenting: recordingToDelete) { recording in
+            Button(L10n.string("Delete recording"), role: .destructive) { audio.delete(recording) }
+            Button(L10n.string("Cancel"), role: .cancel) { }
+        }
         .sheet(item: $sheet) { selection in
             NavigationStack {
                 switch selection {
@@ -110,6 +137,68 @@ private struct ShowAndTellDetail: View {
                 case .pictures(let index):
                     StoryPictureViewer(story: story, index: index)
                 }
+            }
+        }
+    }
+
+    private var recordButton: some View {
+        PaperCard {
+            VStack(alignment: .leading, spacing: 8) {
+                if let start = audio.recordingSince {
+                    Button { audio.finishRecording() } label: {
+                        HStack {
+                            Label(L10n.string("Stop and save"), systemImage: "stop.circle.fill")
+                            Spacer()
+                            Text(start, style: .timer).monospacedDigit()
+                        }
+                        .foregroundStyle(.red)
+                    }
+                    .accessibilityIdentifier("show-and-tell.record.stop")
+                } else {
+                    Button { Task { await audio.startRecording() } } label: {
+                        Label(L10n.string("Record our story"), systemImage: "mic")
+                    }
+                    .disabled(audio.isRequestingPermission)
+                    .accessibilityIdentifier("show-and-tell.record.start")
+                    Text(L10n.string(audio.recordings.isEmpty
+                        ? "Recordings stay on this device."
+                        : "Play your recordings below the pictures."))
+                        .font(.caption).foregroundStyle(Palette.muted)
+                }
+                if let error = audio.errorMessage {
+                    Text(error).font(.caption).foregroundStyle(Palette.ink)
+                }
+            }
+            .font(.subheadline.weight(.medium))
+        }
+    }
+
+    private var recordingList: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            SectionTitle(title: L10n.string("Our recordings"))
+            ForEach(audio.recordings) { recording in
+                let isPlaying = audio.playingID == recording.id
+                let date = recording.date.formatted(date: .abbreviated, time: .standard)
+                HStack {
+                    Button {
+                        audio.togglePlayback(recording)
+                    } label: {
+                        Label(date, systemImage: isPlaying ? "stop.circle.fill" : "play.circle.fill")
+                            .frame(minHeight: 44)
+                    }
+                    .accessibilityLabel(L10n.format(isPlaying ? "Stop recording from %@" : "Play recording from %@", date))
+                    .disabled(audio.recordingSince != nil || audio.isRequestingPermission)
+                    .accessibilityIdentifier("show-and-tell.record.play")
+                    Spacer()
+                    Button(role: .destructive) {
+                        recordingToDelete = recording
+                    } label: {
+                        Image(systemName: "trash").frame(minWidth: 44, minHeight: 44)
+                    }
+                    .accessibilityLabel(L10n.string("Delete recording"))
+                }
+                .padding(.horizontal, 12)
+                .background(.white, in: .rect(cornerRadius: 12))
             }
         }
     }

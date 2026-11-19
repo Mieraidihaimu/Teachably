@@ -2,7 +2,7 @@ import SwiftUI
 import TeachablyCore
 
 enum TodayPrintPage {
-    case activity(Activity)
+    case activity(Activity, FamilyProfile)
     case drawing(DrawingGuide)
     case poem(Poem)
 
@@ -24,7 +24,7 @@ enum TodayPrintPage {
 
     var title: String {
         switch self {
-        case .activity(let activity): activity.title
+        case .activity(let activity, _): activity.title
         case .drawing(let guide): L10n.string(guide.titleKey)
         case .poem(let poem): poem.title
         }
@@ -76,8 +76,8 @@ private struct Worksheet: View {
                 Text(page.title).font(.system(size: 28, weight: .semibold, design: .serif))
             }
             switch page {
-            case .activity(let activity):
-                activityContent(activity)
+            case .activity(let activity, let profile):
+                activityContent(activity, profile: profile)
             case .drawing(let guide):
                 drawingContent(guide)
             case .poem(let poem):
@@ -91,24 +91,28 @@ private struct Worksheet: View {
         .fixedSize(horizontal: false, vertical: true)
     }
 
-    private func activityContent(_ activity: Activity) -> some View {
-        Group {
+    private func activityContent(_ activity: Activity, profile: FamilyProfile) -> some View {
+        let stages = profile.stages()
+        return Group {
             Text(activity.subtitle)
             VStack(alignment: .leading, spacing: 3) {
                 Text(activity.takeaway).fontWeight(.semibold)
                 Text(activity.parentPrimer)
             }
             section("Gather a few things") {
-                Text(activity.materials.joined(separator: " · "))
+                Text(activity.materials.isEmpty ? L10n.string("No materials needed") : activity.materials.joined(separator: " · "))
             }
             section("Keep in mind") {
                 Text(activity.careNote)
             }
             HStack(alignment: .top, spacing: 20) {
-                agePrompt("At age 2", prompt: activity.toddler)
-                agePrompt("At age 6", prompt: activity.older)
+                agePrompt(profile.youngerDisplayName, stage: stages.younger,
+                          prompt: activity.prompt(for: stages.younger.band))
+                agePrompt(profile.olderDisplayName, stage: stages.older,
+                          prompt: activity.prompt(for: stages.older.band))
             }
-            section("Your half hour, loosely planned") {
+            section("Big brother’s turn") { Text(activity.siblingPrompt(for: profile)) }
+            section("Your activity plan") {
                 ForEach(Array(activity.steps.enumerated()), id: \.offset) { index, step in
                     VStack(alignment: .leading, spacing: 2) {
                         HStack(alignment: .firstTextBaseline) {
@@ -127,8 +131,9 @@ private struct Worksheet: View {
         }
     }
 
-    private func agePrompt(_ label: String, prompt: AgePrompt) -> some View {
-        section(label) {
+    private func agePrompt(_ name: String, stage: ChildStage, prompt: AgePrompt) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text("\(name) · \(stage.label)").font(.system(size: 13, weight: .bold))
             Text(prompt.action)
             Text(prompt.question).italic()
         }

@@ -4,7 +4,7 @@ import TeachablyCore
 @MainActor
 final class FamilyStore: ObservableObject {
     @Published private(set) var state: FamilyState
-    @Published private(set) var activities: [Activity] = []
+    private var curatedActivities: [Activity] = []
     @Published private(set) var starredDrawingIDs: Set<String>
     @Published var errorMessage: String?
     @Published private(set) var todayKey = DailyPlanner.dayKey(for: Date())
@@ -29,7 +29,7 @@ final class FamilyStore: ObservableObject {
             catch { problem = L10n.string("Your saved family data could not be opened. It has been kept on this device. Please close the app and try again.") }
         }
         self.state = restored
-        do { self.activities = try ActivityCatalog.load() }
+        do { self.curatedActivities = try ActivityCatalog.load() }
         catch { problem = L10n.string("The activity library could not be opened. Please close the app and try again.") }
         self.errorMessage = problem
         #if DEBUG
@@ -41,20 +41,28 @@ final class FamilyStore: ObservableObject {
     }
 
     var profile: FamilyProfile { state.profile }
+    var stages: FamilyStages { profile.stages() }
+    var activities: [Activity] { curatedActivities + (state.customActivities ?? []) }
     var today: Activity? {
-        guard let plan = state.plans.first(where: { $0.day == todayKey }) else { return nil }
-        return activity(plan.activityID)
+        guard let plan = state.plans.first(where: { $0.day == todayKey }),
+              let activity = activity(plan.activityID) else { return nil }
+        return plan.isQuick == true ? activity.quickVersion ?? activity : activity
     }
     var completedToday: Bool {
         state.memories.contains { DailyPlanner.dayKey(for: $0.date) == todayKey }
     }
-    var hasMoreIdeas: Bool {
-        let offered = state.plans.first { $0.day == todayKey }?.offeredIDs ?? []
-        return activities.contains {
-            (profile.skills.isEmpty || profile.skills.contains($0.skill)) && !offered.contains($0.id)
-        }
-    }
     func activity(_ id: String) -> Activity? { activities.first { $0.id == id } }
+
+    func addCustomActivity(_ activity: Activity) throws {
+        guard errorMessage == nil else { throw CocoaError(.fileWriteUnknown) }
+        guard self.activity(activity.id) == nil else { return }
+        var next = state
+        var saved = next.customActivities ?? []
+        saved.insert(activity, at: 0)
+        next.customActivities = saved
+        defaults.set(try next.encoded(), forKey: storageKey)
+        state = next
+    }
 
     func toggleDrawingStar(_ id: String) {
         if starredDrawingIDs.contains(id) {
@@ -79,15 +87,19 @@ final class FamilyStore: ObservableObject {
         refreshToday()
     }
 
-    func chooseToday() {
-        guard errorMessage == nil else { return }
+    func nextIdea(matching constraints: Set<IdeaConstraint>) -> Activity? {
+        let offered = state.plans.first { $0.day == todayKey }?.offeredIDs ?? []
+        return DailyPlanner.suggest(from: activities, skills: profile.skills,
+            history: state.plans, day: todayKey, excluding: Set(offered), constraints: constraints)
+    }
+
+    func chooseToday(matching constraints: Set<IdeaConstraint> = []) {
+        guard errorMessage == nil, let next = nextIdea(matching: constraints) else { return }
         let current = state.plans.first { $0.day == todayKey }
-        let excluded = Set(current?.offeredIDs ?? [])
-        guard let next = DailyPlanner.suggest(from: activities, skills: profile.skills,
-            history: state.plans, day: todayKey, excluding: excluded) else { return }
         var plan = current ?? DailyPlan(day: todayKey, activityID: next.id, offeredIDs: [])
         plan.activityID = next.id
         plan.offeredIDs.append(next.id)
+        plan.isQuick = next.duration != activity(next.id)?.duration ? true : nil
         if let index = state.plans.firstIndex(where: { $0.day == todayKey }) {
             state.plans[index] = plan
         } else {

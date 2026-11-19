@@ -106,8 +106,7 @@ struct SessionView: View {
                 }.accessibilityLabel(running ? L10n.string("Pause timer") : L10n.string("Resume timer"))
             }
             .padding(18).background(Palette.sage.opacity(0.5), in: RoundedRectangle(cornerRadius: 22))
-            AgeCard(name: store.profile.youngerDisplayName, age: 2, prompt: activity.toddler)
-            AgeCard(name: store.profile.olderDisplayName, age: 6, prompt: activity.older)
+            ActivityFamilyPrompts(activity: activity)
             if let note = store.state.teachingNotes[activity.id], !note.isEmpty {
                 PaperCard {
                     VStack(alignment: .leading, spacing: 9) {

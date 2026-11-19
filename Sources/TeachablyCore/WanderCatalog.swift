@@ -113,13 +113,14 @@ public struct WanderCatalog: Sendable {
         let definition = nodeID == "root" ? L10n.string("Something you already know can become a shared discovery. Start with a small example, let each child join in their own way, and follow what they notice.", language: language)
             : nodeID.hasPrefix("skill:") ? selected.summary : activity.parentPrimer
         let practical = isQuestions
-            ? L10n.format("At 2, invite: “%@”\n\nAt 6, invite: “%@”\n\n%@", activity.toddler.question, activity.older.question, activity.personalPrompt, language: language)
+            ? activity.personalPrompt
             : L10n.format("Gather %@.\n\n%@", activity.materials.joined(separator: ", "), activity.steps.first(where: { $0.minutes == 17 })?.instruction ?? activity.subtitle, language: language)
         return WanderContent(title: isQuestions ? L10n.string("Questions worth asking", language: language) : example || selected.focus == "example" ? L10n.string("An example to try", language: language) : L10n.string("The little discovery", language: language),
             summary: selected.focus == nil ? selected.title : activity.title, bubbles: [],
             lesson: WanderLesson(definition: definition, exampleTitle: activity.title, example: practical,
                 consideration: activity.careNote, toddler: activity.toddler, older: activity.older,
-                personalPrompt: activity.personalPrompt, activityID: activity.id))
+                personalPrompt: activity.personalPrompt, activityID: activity.id,
+                primary: activity.prompt(for: .primary, language: language)))
     }
 
     func resolve(_ query: String, near parentNodeID: String?) throws -> String {

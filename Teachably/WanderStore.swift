@@ -15,11 +15,14 @@ final class WanderStore: ObservableObject {
     @Published private(set) var modelStatus = FoundationModelWanderProvider.status
     @Published private(set) var mode: WanderGenerationMode = .library
     @Published private(set) var isGenerating = false
+    @Published private(set) var promotingLayerID: String?
     private let defaults: UserDefaults
     private let key = "teachably.wander.v1"
     private var unreadableStorage = false
     private var interests = Skill.familyInterests
+    private var stages = FamilyProfile().stages()
     private var generationTask: Task<Void, Never>?
+    private var promotionTask: Task<Void, Never>?
     private var generationID: UUID?
     private var needsLanguageRoot = false
 
@@ -63,7 +66,8 @@ final class WanderStore: ObservableObject {
         (current?.ancestorIDs ?? []).compactMap { id in engine.state.layers.first { $0.id == id } }
     }
 
-    func start(interests: Set<Skill>) {
+    func start(interests: Set<Skill>, stages: FamilyStages) {
+        self.stages = stages
         refreshModelStatus()
         let refreshStartingMap = self.interests != interests && current?.depth == 0
         if self.interests != interests {
@@ -126,8 +130,10 @@ final class WanderStore: ObservableObject {
         isGenerating = false
     }
     private func generate(_ request: WanderRequest) {
+        guard promotingLayerID == nil else { return }
         do {
-            let plan = try engine.prepareGeneration(request, providerID: FoundationModelWanderProvider.identifier)
+            let plan = try engine.prepareGeneration(request, providerID: FoundationModelWanderProvider.identifier,
+                                                    stages: stages)
             var reused = false
             guard change({ reused = try $0.reuseGeneration(plan) != nil }) else { return }
             if reused { highlightID = nil; highlightLabel = nil; return }
@@ -160,6 +166,41 @@ final class WanderStore: ObservableObject {
                 }
             }
         } catch { errorMessage = error.localizedDescription }
+    }
+
+    func saveActivity(from pin: WanderPin, in family: FamilyStore) {
+        guard promotingLayerID == nil, !isGenerating, family.activity(pin.libraryActivityID) == nil else { return }
+        refreshModelStatus()
+        guard modelStatus.isAvailable, #available(iOS 26.0, *) else {
+            errorMessage = modelStatus.message
+            return
+        }
+        promotingLayerID = pin.snapshot.layer.id
+        errorMessage = nil
+        let stages = family.stages
+        promotionTask = Task {
+            defer {
+                if !Task.isCancelled {
+                    promotingLayerID = nil
+                    promotionTask = nil
+                }
+            }
+            do {
+                let activity = try await FoundationModelWanderProvider.makeActivity(from: pin, stages: stages)
+                try Task.checkCancellation()
+                try family.addCustomActivity(activity)
+            } catch {
+                if !Task.isCancelled {
+                    errorMessage = FoundationModelWanderProvider.failureMessage(error, savingActivity: true)
+                }
+            }
+        }
+    }
+
+    func cancelActivitySave() {
+        promotionTask?.cancel()
+        promotionTask = nil
+        promotingLayerID = nil
     }
     func open(_ id: String) {
         if change({ try $0.open(id) }) { highlightID = nil; highlightLabel = nil }

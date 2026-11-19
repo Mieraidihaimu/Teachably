@@ -9,10 +9,19 @@ public enum DailyPlanner {
 
     public static func suggest(
         from activities: [Activity], skills: Set<Skill>, history: [DailyPlan],
-        day: String, excluding: Set<String> = []
+        day: String, excluding: Set<String> = [], constraints: Set<IdeaConstraint> = []
     ) -> Activity? {
-        let matched = activities.filter { skills.contains($0.skill) }
-        let deck = matched.isEmpty ? activities : matched
+        let situational = constraints.subtracting([.fifteenMinutes])
+        let fitting = activities.compactMap { activity -> Activity? in
+            guard situational.isSubset(of: activity.conditions ?? []) else { return nil }
+            if constraints.contains(.fifteenMinutes), activity.duration > 15 {
+                return activity.quickVersion
+            }
+            return activity
+        }
+        let matched = fitting.filter { skills.contains($0.skill) }
+        let useAllSkills = matched.isEmpty || (!constraints.isEmpty && matched.allSatisfy { excluding.contains($0.id) })
+        let deck = useAllSkills ? fitting : matched
         let available = deck.filter { !excluding.contains($0.id) }
         guard !available.isEmpty else { return nil }
         // Use the most recent deck cycle. An activity is used when offered, even

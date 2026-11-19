@@ -55,6 +55,33 @@ final class TeachablyUITests: XCTestCase {
     }
 
     @MainActor
+    func testTodayShortIdeaRemainsSelectedAfterRelaunch() {
+        let app = XCUIApplication()
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB", "--demo"]
+        app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.today.tests.\(UUID().uuidString)"
+        app.launch()
+
+        let title = app.staticTexts["today.activity.title"]
+        let duration = app.descendants(matching: .any)["today.activity.duration"].firstMatch
+        XCTAssertTrue(title.waitForExistence(timeout: 5))
+        let first = title.label
+        let short = app.buttons["today.filter.fifteenMinutes"]
+        if !short.isHittable { app.swipeUp() }
+        XCTAssertTrue(short.isHittable)
+        short.tap()
+        app.buttons["today.another-idea"].tap()
+        XCTAssertNotEqual(title.label, first)
+        XCTAssertTrue(duration.label.contains("15 min"))
+        let newTitle = title.label
+
+        app.terminate()
+        app.launch()
+        XCTAssertTrue(title.waitForExistence(timeout: 5))
+        XCTAssertEqual(title.label, newTitle)
+        XCTAssertTrue(duration.label.contains("15 min"))
+    }
+
+    @MainActor
     func testShowAndTellOpensPicturesAndRevealsStoryOnDemand() {
         let app = XCUIApplication()
         app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB", "--demo"]
@@ -71,6 +98,7 @@ final class TeachablyUITests: XCTestCase {
 
         let read = app.buttons["show-and-tell.read"]
         XCTAssertTrue(read.waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["show-and-tell.record.start"].isHittable)
         for number in 1...6 {
             XCTAssertTrue(app.buttons["show-and-tell.picture.\(number)"].exists)
         }
@@ -301,7 +329,7 @@ final class TeachablyUITests: XCTestCase {
     }
 
     @MainActor
-    func testAppleGenerationRestoresAnIdeaOrPreservesTheMapOnServiceFailure() throws {
+    func testAppleGenerationRestoresAndSavesAnIdeaOrPreservesTheMapOnServiceFailure() throws {
         let app = XCUIApplication()
         app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_GB"]
         app.launchEnvironment["TEACHABLY_TEST_SUITE"] = "dev.teachably.apple.tests.\(UUID().uuidString)"
@@ -347,6 +375,24 @@ final class TeachablyUITests: XCTestCase {
         XCTAssertTrue(source.waitForExistence(timeout: 10))
         XCTAssertEqual(app.buttons["wander.pin"].label, "Unpin this idea")
         attachScreenshot("Apple generated idea restored", app: app)
+
+        let save = app.buttons["wander.activity.save"]
+        XCTAssertTrue(save.isHittable)
+        save.tap()
+        let open = app.buttons["wander.activity.open"]
+        wait(for: [expectation(for: NSPredicate { _, _ in open.exists || failure.exists }, evaluatedWith: nil)],
+             timeout: 180)
+        XCTAssertTrue(open.exists, failure.exists ? failure.label : "Expected a saved activity")
+        open.tap()
+        let activityTitle = app.staticTexts["activity.detail.title"]
+        XCTAssertTrue(activityTitle.waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["30 min"].exists)
+        let savedTitle = activityTitle.label
+        app.terminate()
+        app.launch()
+        app.tabBars.buttons["Discover"].tap()
+        app.buttons["Saved from Wander"].tap()
+        XCTAssertTrue(app.staticTexts[savedTitle].waitForExistence(timeout: 5))
     }
 
     @MainActor

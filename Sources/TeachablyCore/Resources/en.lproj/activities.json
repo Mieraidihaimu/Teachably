@@ -43,6 +43,8 @@
       }
     ],
     "personalPrompt": "When have you used a torch or noticed a surprising shadow? Share that moment.",
+    "siblingRole": "Make a shadow wave and invite them to wave back.",
+    "quickDiscovery": "Take turns making one hand shape. Move it once and see what happens to the shadow.",
     "careNote": "Keep the room easy to move around in. An adult handles the torch; never shine it into eyes. Secure any battery compartment."
   },
   {
@@ -88,6 +90,7 @@
       }
     ],
     "personalPrompt": "What instrument, machine, or everyday sound do you understand well? Tell them how you first noticed it.",
+    "siblingRole": "Show them a quiet hum, then let them choose a sound for you to echo.",
     "careNote": "Keep sounds gentle and comfortable. Touch only your own throat. Use a clean box without staples or loose parts."
   },
   {
@@ -133,6 +136,12 @@
       }
     ],
     "personalPrompt": "Do you know a tree, garden, or outdoor place from your childhood? Bring that story along.",
+    "siblingRole": "Show how you sort two leaves by size and let them hand you another leaf.",
+    "quickDiscovery": "Compare two familiar fallen leaves from the same safe spot. One child points out a difference and the other shows it.",
+    "conditions": [
+      "zeroPrep",
+      "outdoors"
+    ],
     "careNote": "Stay together away from roads and water. Handle only familiar fallen leaves; keep plants out of mouths and wash hands afterwards."
   },
   {
@@ -178,6 +187,13 @@
       }
     ],
     "personalPrompt": "Tell them about a memorable journey or day when the weather changed your plans.",
+    "siblingRole": "Trace a cloud shape in the air and let them point out the next one.",
+    "quickDiscovery": "Watch one patch of sky from a safe, shaded spot. Trace one shape with your hands and look again to see if it changed.",
+    "conditions": [
+      "zeroPrep",
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "Never look directly at the sun. Use shade and a safe spot away from traffic, balconies, or water."
   },
   {
@@ -224,6 +240,7 @@
       }
     ],
     "personalPrompt": "What have you made or fixed? Share one time a first attempt did not work.",
+    "siblingRole": "Show where the bridge goes and let them choose the toy that crosses it.",
     "careNote": "Build on the floor. Use lightweight toys too large to swallow. These are toy bridges, never for standing or climbing."
   },
   {
@@ -270,6 +287,7 @@
       }
     ],
     "personalPrompt": "What do you like about a place you have lived or visited? Add that idea to the town.",
+    "siblingRole": "Show the toy a path between two boxes and let them choose where it stops.",
     "careNote": "An adult removes staples and does any cutting beforehand. Keep walkways clear and do not let children climb into unstable boxes."
   },
   {
@@ -317,6 +335,7 @@
       }
     ],
     "personalPrompt": "What do you like to cook? Explain a moment when the amount of an ingredient matters.",
+    "siblingRole": "Show an empty cup beside a full one and let them point to the full cup.",
     "careNote": "An adult stays within reach throughout. Use only a little water in a shallow tray; empty it immediately afterwards and wipe spills."
   },
   {
@@ -363,6 +382,7 @@
       }
     ],
     "personalPrompt": "Share a dish someone taught you to make, and the person or place it reminds you of.",
+    "siblingRole": "Mime the first recipe step and let them choose a stirring move to copy.",
     "careNote": "Keep this a pretend activity with unbreakable utensils. Put hot equipment, blades, and real ingredients away."
   },
   {
@@ -408,6 +428,12 @@
       }
     ],
     "personalPrompt": "What music do you love, and who introduced you to it? Hum a little and tell the story.",
+    "siblingRole": "Tap a gentle beat on your knees, then leave a gap for them to echo it.",
+    "quickDiscovery": "Trade one quiet two-beat pattern. Add a pause and let each child try echoing it.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Keep volume comfortable. Use hands and soft surfaces; avoid loose instruments with small parts."
   },
   {
@@ -454,6 +480,7 @@
       }
     ],
     "personalPrompt": "What song, film score, or familiar sound brings back a memory for you? Tell them why.",
+    "siblingRole": "Make a sound for one character and let them choose the sound for another.",
     "careNote": "Keep sounds gentle. Use large sheets of paper with supervision and remove torn scraps."
   },
   {
@@ -499,6 +526,11 @@
       }
     ],
     "personalPrompt": "What stories did you enjoy when you were little? Borrow a setting or feeling from one.",
+    "siblingRole": "Introduce one toy as a character and let them pick who joins it.",
+    "quickDiscovery": "Choose one character and give it a simple problem. Let each child show or tell one thing it could try.",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "Use toys too large to swallow. An adult holds the bag; do not place it over heads."
   },
   {
@@ -545,6 +577,7 @@
       }
     ],
     "personalPrompt": "Choose a journey, a childhood home, or a place connected to someone important to you.",
+    "siblingRole": "Show how to move the toy along your map and let them pick the next stop.",
     "careNote": "Draw on a stable low surface with age-appropriate crayons. Keep caps and small pieces out of reach."
   },
   {
@@ -591,6 +624,7 @@
       }
     ],
     "personalPrompt": "What is something you saved for or chose carefully? Tell them how you decided.",
+    "siblingRole": "Play shopkeeper for the first sale and let them choose a toy to buy.",
     "careNote": "Use large paper notes, never real coins or small tokens. Keep the pretend play free of pressure to buy real things."
   },
   {
@@ -636,6 +670,7 @@
       }
     ],
     "personalPrompt": "Where do patterns help you in your own work or hobbies? Show a simple example.",
+    "siblingRole": "Show a clap-and-pat pattern and let them supply the next pat.",
     "careNote": "Keep the floor clear. Put toys beside the path rather than where someone will step on them."
   },
   {
@@ -681,6 +716,11 @@
       }
     ],
     "personalPrompt": "Which sport, dance, or outdoor game have you enjoyed? Share a small part of it.",
+    "siblingRole": "Show one gentle animal move and let them pick the next animal.",
+    "quickDiscovery": "Pick two animals and try one gentle move for each. Take a short rest between them, then let the children switch the order.",
+    "conditions": [
+      "zeroPrep"
+    ],
     "careNote": "Clear obstacles, avoid climbing and jumping from furniture, and choose comfortable movements. Stop when anyone wants a break."
   },
   {
@@ -727,6 +767,7 @@
       }
     ],
     "personalPrompt": "Tell a story about learning a skill slowly. What helped you keep going?",
+    "siblingRole": "Show a gentle underarm toss and let them point to where the sock landed.",
     "careNote": "Use large soft rolled socks. Aim at the basket on the floor, away from faces and breakables. Keep the path clear."
   },
   {
@@ -772,6 +813,7 @@
       }
     ],
     "personalPrompt": "When do you use counting, grouping, or a quick mental-maths trick? Show one small example.",
+    "siblingRole": "Make a line of toys, then let them add the final toy before you count together.",
     "careNote": "Use objects too large to swallow. Keep the play area clear and let counting remain an invitation rather than a quiz."
   },
   {
@@ -817,6 +859,12 @@
       }
     ],
     "personalPrompt": "What makes you enjoy reading: a character, an idea, a phrase, or a feeling? Share that pleasure with them.",
+    "siblingRole": "Point to one picture clue and let them choose another detail to look at.",
+    "quickDiscovery": "Read one short scene. Pause at a picture so one child can point to a detail and the other can make a prediction. Read a little further to check.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Choose a sturdy age-appropriate book and a comfortable reading spot. Do not require either child to sit still for the whole session."
   },
   {
@@ -863,6 +911,7 @@
       }
     ],
     "personalPrompt": "What story can you still remember from childhood? Tell them which part stayed with you.",
+    "siblingRole": "Put down the first picture and let them point to the character who starts the story.",
     "careNote": "An adult manages the book and materials. Use age-appropriate crayons, remove small broken pieces, and accept drawing or dictation instead of writing."
   },
   {
@@ -909,6 +958,7 @@
       }
     ],
     "personalPrompt": "What do you read in a normal day, and how does it help you? Show one familiar example.",
+    "siblingRole": "Point to their name card and let them choose where to place it beside a familiar label.",
     "careNote": "An adult selects all labels. Avoid medicines, cleaning products, packaging with small parts, and climbing to reach print."
   },
   {
@@ -954,6 +1004,11 @@
       }
     ],
     "personalPrompt": "What does diary writing help you notice or remember? Share an everyday entry you are comfortable reading aloud.",
+    "siblingRole": "Draw one detail from today and let them choose a colour or mark to add.",
+    "quickDiscovery": "Pick one moment from today. Draw one thing you remember and invite each child to add a mark or a word.",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "Use age-appropriate drawing tools and remove small broken pieces. Share only diary entries you want others to hear; the children can keep a thought private too."
   },
   {
@@ -999,6 +1054,7 @@
       }
     ],
     "personalPrompt": "How do you write about a day that was mixed or ordinary? Show a simple example you are comfortable sharing.",
+    "siblingRole": "Show one way to draw your feeling and offer them a crayon to make their own marks.",
     "careNote": "Keep the activity voluntary. Use age-appropriate crayons and let children choose what they share."
   },
   {
@@ -1045,6 +1101,7 @@
       }
     ],
     "personalPrompt": "Do you use a diary to remember ideas or plans? Share one small habit they could try with you.",
+    "siblingRole": "Show how the note folds and let them add a mark before you close it.",
     "careNote": "Use paper without staples or clips. Keep the note somewhere an adult can retrieve it without climbing, and use age-appropriate crayons."
   },
   {
@@ -1091,6 +1148,7 @@
       }
     ],
     "personalPrompt": "What is one small thing you have coded or automated? Explain its input and action in ordinary words.",
+    "siblingRole": "Demonstrate what one command card means and let them choose the robot’s next card.",
     "careNote": "Use comfortable seated or standing actions in a clear space. Keep eyes open, avoid spinning or climbing, and let anyone stop or opt out."
   },
   {
@@ -1137,6 +1195,7 @@
       }
     ],
     "personalPrompt": "Can you remember a small coding bug and the clue that helped you find it? Tell that story without technical jargon.",
+    "siblingRole": "Set out the destination pictures and let them point to where the toy should end up.",
     "careNote": "Use large toys and paper cards without clips. Keep the route on a stable low surface and never put the children inside boxes or physical obstacles."
   },
   {
@@ -1182,6 +1241,7 @@
       }
     ],
     "personalPrompt": "What repetitive job have you used code to do? Compare it with repeating one small action here.",
+    "siblingRole": "Show two gentle moves and let them choose which one comes first in the loop.",
     "careNote": "Choose gentle actions and a small repeat count. Avoid jumping from furniture, fast spinning, or insisting on continued exercise."
   },
   {
@@ -1228,6 +1288,7 @@
       }
     ],
     "personalPrompt": "When did looking more closely change your first impression? Share a small everyday example.",
+    "siblingRole": "Point to one visible clue on a toy and let them show you another detail.",
     "careNote": "Use familiar toys too large to swallow. Keep any check simple and safe; the conversation can stay with looking, drawing, and imagining."
   },
   {
@@ -1273,6 +1334,11 @@
       }
     ],
     "personalPrompt": "When have you changed your mind after getting more information? Share a simple example without making it a lesson about being right.",
+    "siblingRole": "Show how to ask for a clue and let them reveal the toy while the adult holds the case.",
+    "quickDiscovery": "With the adult holding the case, give one clue and invite one guess. Let the younger child reveal the toy and see whether the clue fits.",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "An adult holds the pillowcase throughout. Use large soft toys without detachable parts, keep faces clear, and never place the case over a head."
   },
   {
@@ -1319,6 +1385,7 @@
       }
     ],
     "personalPrompt": "What everyday problem have you solved in more than one way? Explain what helped you choose.",
+    "siblingRole": "Show one way for the toy to travel and let them choose another route to try.",
     "careNote": "Use large lightweight toys. This is a toy journey only: no lifting children, climbing on boxes, or building structures to stand on. Remove staples from cardboard."
   },
   {
@@ -1366,6 +1433,7 @@
       }
     ],
     "personalPrompt": "Where have you used a ramp, wheels, or a gentle slope in everyday life? Connect that experience to what you saw.",
+    "siblingRole": "Show how to let the toy go without a push and let them point to where it stops.",
     "careNote": "An adult holds the ramp stable on the floor. Use a large lightweight toy, a very low slope, and a clear landing area away from faces. Never use the ramp for a child to stand or slide on."
   },
   {
@@ -1411,6 +1479,13 @@
       }
     ],
     "personalPrompt": "What helps you enjoy basic exercise or keep a movement habit? Share one simple thing you do.",
+    "siblingRole": "Show a seated move and a freeze, then let them choose the next move.",
+    "quickDiscovery": "Trade one seated or standing move and freeze once. Rest, then ask each child to show a smaller version.",
+    "conditions": [
+      "zeroPrep",
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "Use gentle comfortable movements, allow a seated version, and stop when anyone wants to. Avoid climbing, forced stretches, breath-holding, and fast spinning."
   },
   {
@@ -1457,6 +1532,7 @@
       }
     ],
     "personalPrompt": "When do you share supplies or take turns at home? Tell them how you decide what is fair.",
+    "siblingRole": "Give one block to each toy guest and let them hand over the next block.",
     "careNote": "Use blocks too large to swallow and explain that they are pretend food. Keep this a toy picnic without tasting or putting objects in mouths."
   },
   {
@@ -1503,6 +1579,7 @@
       }
     ],
     "personalPrompt": "What have you measured when making, buying, or arranging something? Share why using the right unit helped.",
+    "siblingRole": "Line up the first block with the book’s edge and let them put the next block beside it.",
     "careNote": "Use large blocks without detachable pieces and light books on a stable low surface. Keep blocks on the table or floor rather than stacking them high."
   },
   {
@@ -1549,6 +1626,7 @@
       }
     ],
     "personalPrompt": "Where do shapes help you plan or recognise something? Share an example from a sign, design, or familiar object.",
+    "siblingRole": "Turn a large triangle and show it still has three sides, then let them place it on the picture.",
     "careNote": "An adult prepares large paper pieces and keeps scissors out of reach. Avoid small scraps, clips, or loose decorations, and clear away torn pieces."
   },
   {
@@ -1595,6 +1673,7 @@
       }
     ],
     "personalPrompt": "Which rhyme or poem do you remember hearing as a child? Share a short favourite from memory.",
+    "siblingRole": "Say two words with matching sounds and let them echo the funny part.",
     "careNote": "Use a sturdy age-appropriate book and chunky crayons. Avoid turning the game into a speed test or requiring anyone to perform a rhyme."
   },
   {
@@ -1640,6 +1719,12 @@
       }
     ],
     "personalPrompt": "Who read stories to you, and what do you remember about their voice? Try one welcoming storytelling habit of your own.",
+    "siblingRole": "Show how the toy can say hello in two gentle voices and let them pick one.",
+    "quickDiscovery": "Read one short line in two gentle voices. Let each child choose which voice fits the character and try it with the toy.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Keep voices at a comfortable volume, avoid startling sounds, and let either child listen quietly. Use a soft toy without loose parts."
   },
   {
@@ -1686,6 +1771,7 @@
       }
     ],
     "personalPrompt": "When have you looked something up in a book or manual? Share how you found the part you needed.",
+    "siblingRole": "Show how you flip to a promising page and let them choose a picture to explore.",
     "careNote": "Use familiar child-appropriate books without loose inserts. Keep the search relaxed and let looking at pictures count as taking part."
   },
   {
@@ -1731,6 +1817,13 @@
       }
     ],
     "personalPrompt": "When do you watch someone to learn a movement or practical skill? Share what makes a demonstration easy to follow.",
+    "siblingRole": "Make one slow hand shape for them to mirror, then copy a shape they choose.",
+    "quickDiscovery": "Take turns copying one slow hand shape, seated or standing on a clear, level surface. End with a shared greeting.",
+    "conditions": [
+      "zeroPrep",
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "Keep eyes open and movements comfortable. Leave space between people, use stable chairs, and avoid forced stretches, balancing on furniture, or touching someone to reposition them."
   },
   {
@@ -1776,6 +1869,12 @@
       }
     ],
     "personalPrompt": "What game taught you to cooperate or adjust to a partner? Share a small example while you play.",
+    "siblingRole": "Show a slow roll and let them choose who receives the next one.",
+    "quickDiscovery": "Roll the ball along the floor in one short round. Move a little closer if it helps someone reach the ball.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Use a large soft ball, keep it on the floor, and clear the area of trip hazards. Choose comfortable seated positions and keep the game away from stairs."
   },
   {
@@ -1821,6 +1920,7 @@
       }
     ],
     "personalPrompt": "What helps you find a comfortable pace when walking or learning a new movement? Share your own way of taking a break.",
+    "siblingRole": "Show where to pause on a simple route and let them choose the destination.",
     "careNote": "Use a level floor away from stairs and sharp corners. Remove loose rugs and obstacles; do not lay paper stepping stones on the floor. Keep eyes open and offer seated participation."
   },
   {
@@ -1867,6 +1967,7 @@
       }
     ],
     "personalPrompt": "Where do you want something to slide easily, and where is grip useful? Share an everyday example.",
+    "siblingRole": "Show one gentle slide and let them feel the towel and point to where the block stops.",
     "careNote": "Use a lightweight block too large to swallow. Keep pushes gentle and away from faces and table edges; an adult steadies the towel and catches the block."
   },
   {
@@ -1913,6 +2014,7 @@
       }
     ],
     "personalPrompt": "When have you noticed something floating in a bath, puddle, or pond? Connect that memory to what you saw here.",
+    "siblingRole": "Show the toy at the water’s surface and let them point to where it ends up.",
     "careNote": "An adult stays within arm's reach and supervises continuously, even with shallow water. Empty the bowl immediately afterwards, wipe spills, and use no small parts, glass, electrical toys, or objects for tasting."
   },
   {
@@ -1959,6 +2061,7 @@
       }
     ],
     "personalPrompt": "When have you felt wind pushing something, such as a coat or a kite? Share what you noticed.",
+    "siblingRole": "Show how waving the card moves the sail, then let them point when it moves again.",
     "careNote": "An adult holds the card and fans away from faces. Use large sheets without clips or sticks, avoid sharp card edges, and collect any torn paper promptly."
   },
   {
@@ -2005,6 +2108,7 @@
       }
     ],
     "personalPrompt": "What question are you still curious about? Share why you enjoy keeping track of things you do not yet know.",
+    "siblingRole": "Draw one thing you wonder about and let them point to something they want to add.",
     "careNote": "Use age-appropriate crayons and paper without staples. Let children choose what to share, and avoid promising an answer you do not have."
   },
   {
@@ -2051,6 +2155,11 @@
       }
     ],
     "personalPrompt": "Which everyday sound reminds you of a place or time in your life? Tell a short story about it.",
+    "siblingRole": "Make a mark for one quiet sound and let them choose a crayon for the next mark.",
+    "quickDiscovery": "Listen for one ordinary sound, then draw or dictate one mark to remember it. A visible movement works too.",
+    "conditions": [
+      "lowEnergy"
+    ],
     "careNote": "Keep sounds gentle and predictable; do not create loud noises to record. Offer a quiet or visual option and stay in a familiar space under adult supervision."
   },
   {
@@ -2097,6 +2206,7 @@
       }
     ],
     "personalPrompt": "Have you kept a note or picture of a project as it changed? Share a detail you were glad you recorded.",
+    "siblingRole": "Show the first arrangement of blocks and let them move one block for the second picture.",
     "careNote": "Build only low structures with large lightweight blocks. Use chunky crayons and keep the page free of staples, clips, and small decorations."
   },
   {
@@ -2143,6 +2253,7 @@
       }
     ],
     "personalPrompt": "Where does something you use respond differently to an input? Share a simple example, such as a light switch.",
+    "siblingRole": "Show what the toy does when it sees the sun card, then let them pick the next card.",
     "careNote": "Use large cards without clips and a toy without loose parts. Keep actions gentle, avoid rapid flashing or loud signals, and allow watching instead of moving."
   },
   {
@@ -2189,6 +2300,7 @@
       }
     ],
     "personalPrompt": "What small routine or piece of code do you reuse? Explain what stays the same each time you call on it.",
+    "siblingRole": "Teach two moves for a hello routine and let them choose which starts it.",
     "careNote": "Choose gentle seated actions, large cards, and a small number of steps. Avoid forced movements or repeated actions that become tiring."
   },
   {
@@ -2236,6 +2348,7 @@
       }
     ],
     "personalPrompt": "Where do you keep a changing number, such as a count of jobs left? Explain why its label matters.",
+    "siblingRole": "Show how the number changes when a toy boards and let them choose the next passenger.",
     "careNote": "Use large toddler-safe figures and large number cards without clips. Keep the bus a drawing; do not use a box for children to climb into or ride."
   },
   {
@@ -2282,6 +2395,7 @@
       }
     ],
     "personalPrompt": "When do you organise the same things in different ways? Share an example from books, tools, or files.",
+    "siblingRole": "Sort one toy by softness and let them hand you another object to check together.",
     "careNote": "Use only large intact familiar objects without batteries accessible to children or detachable pieces. Keep the collection small and place it on a stable low surface."
   },
   {
@@ -2326,6 +2440,12 @@
       }
     ],
     "personalPrompt": "When did asking a more specific question help you understand a problem? Share a simple example.",
+    "siblingRole": "Ask which toy has wheels and let them point to the toys that fit the clue.",
+    "quickDiscovery": "Choose one of the three toys. Let the older child ask one question and the younger child point to the toys that fit before you reveal the answer.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Use large toddler-safe toys and keep them visible. No blindfolds or hiding objects in mouths, clothes, or places children would need to climb to reach."
   },
   {
@@ -2372,6 +2492,7 @@
       }
     ],
     "personalPrompt": "When have changed plans helped you respond to someone else's needs? Share an ordinary example.",
+    "siblingRole": "Set up two resting spots and let them choose where the toy visitor tries first.",
     "careNote": "Use cushions and towels as toy resting places on the floor. Keep children's faces clear and avoid wrapping anyone in fabric or piling cushions high."
   },
   {
@@ -2418,6 +2539,7 @@
       }
     ],
     "personalPrompt": "When have you made or fixed something to fit a particular need? Share what you checked before calling it finished.",
+    "siblingRole": "Place two supports for the roof and let them guide the toy through the gap.",
     "careNote": "Build on the floor with large lightweight parts and a low roof. This shelter is only for a toy; no climbing, standing on structures, staples, or sharp cardboard edges."
   },
   {
@@ -2464,6 +2586,7 @@
       }
     ],
     "personalPrompt": "Where have you used a fold, brace, or support to solve a practical problem? Show it with the paper.",
+    "siblingRole": "Show how the first fold holds the picture up and let them choose where it stands.",
     "careNote": "Use large sheets with smooth edges. An adult starts firm folds; avoid sharp creases near faces and collect torn scraps. No scissors, staples, or clips are needed."
   },
   {
@@ -2510,6 +2633,7 @@
       }
     ],
     "personalPrompt": "What sign, label, or diagram has helped you do something? Share what made it clear.",
+    "siblingRole": "Show one possible sign picture and let them choose where someone should see it.",
     "careNote": "Use chunky crayons and large card without clips or pins. Rest the sign securely on a low surface; do not place it on safety signs, controls, doorways, or climbing spots."
   },
   {
@@ -2556,6 +2680,12 @@
       }
     ],
     "personalPrompt": "Which ordinary outdoor place have you come to know well? Tell them a small detail you enjoy noticing there.",
+    "siblingRole": "Point out one detail from the safe viewing spot and let them point to the next one.",
+    "quickDiscovery": "Look at the same small patch twice from one safe spot. Draw one detail that was easy to miss.",
+    "conditions": [
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "An adult chooses and supervises a safe viewing place away from roads, water, and unknown plants or animal waste. Stay on paths, leave wildlife undisturbed, and keep windows safely secured."
   },
   {
@@ -2602,6 +2732,12 @@
       }
     ],
     "personalPrompt": "When has the wind changed your plans or caught your attention? Share a small everyday memory.",
+    "siblingRole": "Show a hand gesture for a moving branch and let them copy it when the branch moves.",
+    "quickDiscovery": "Watch one branch from a safe, sheltered spot. Make one mark for a movement or a calm moment you notice.",
+    "conditions": [
+      "outdoors",
+      "lowEnergy"
+    ],
     "careNote": "Observe from a secure window or a safe sheltered place in mild weather. Avoid storms, damaged branches, roads, and climbing to see better; do not attach strings or ribbons to children."
   },
   {
@@ -2648,6 +2784,7 @@
       }
     ],
     "personalPrompt": "What colours remind you of a favourite outdoor place or time of year? Share that memory without expecting today's view to match.",
+    "siblingRole": "Match one crayon to a colour in the view and let them choose another one to look for.",
     "careNote": "Keep windows secured and children off windowsills. Outdoors, stay with an adult on a safe path and observe unknown plants without touching or tasting them."
   },
   {
@@ -2695,6 +2832,7 @@
       }
     ],
     "personalPrompt": "What small preparation makes meals calmer in your home? Share a routine the children can help with.",
+    "siblingRole": "Show where one cup goes and let them put an empty cup at the next place.",
     "careNote": "Use empty unbreakable dishes and large spoons on a stable low surface. Keep knives, hot food, glass, and trailing tablecloths out of the activity."
   },
   {
@@ -2743,6 +2881,7 @@
       }
     ],
     "personalPrompt": "Who showed you a useful kitchen technique? Share a small tip that makes this task easier.",
+    "siblingRole": "Show a gentle swirl and let them choose where to make the next one.",
     "careNote": "The adult chooses familiar foods suitable for each child's allergies and eating needs and prepares all portions. Use no knives or hot ingredients. Supervise continuously, keep children seated for any eating, and never require tasting."
   },
   {
@@ -2791,6 +2930,7 @@
       }
     ],
     "personalPrompt": "Is there a family snack or recipe you know by heart? Share how you learned it and what you would write down for someone else.",
+    "siblingRole": "Draw the first recipe step and let them point to the ingredient or tool that goes with it.",
     "careNote": "The adult checks allergies and individual eating needs, prepares suitable portions, and supervises continuously. Use no raw animal products, heat, sharp tools, or small hard toppings. Any eating happens seated without pressure to taste."
   },
   {
@@ -2837,6 +2977,7 @@
       }
     ],
     "personalPrompt": "When does the pace of music change how an activity feels for you? Share an example while keeping the tapping gentle.",
+    "siblingRole": "Tap a slow rhythm and let them signal when to try it a little faster.",
     "careNote": "Keep taps quiet and comfortable, avoid hard surfaces or striking objects near ears, and let children watch or use silent movements. No fast pace is required."
   },
   {
@@ -2882,6 +3023,12 @@
       }
     ],
     "personalPrompt": "When have you followed or given a helpful cue in a group? Share how people knew what was coming next.",
+    "siblingRole": "Show one signal for sound and one for silence, then let them give the first signal.",
+    "quickDiscovery": "Lead one quiet round with two signals: play and rest. Swap the conductor and try once more.",
+    "conditions": [
+      "zeroPrep",
+      "lowEnergy"
+    ],
     "careNote": "Keep all sounds at a comfortable volume and avoid startling starts. Do not use whistles, sticks, or loud instruments; watching quietly is welcome."
   },
   {
@@ -2928,6 +3075,7 @@
       }
     ],
     "personalPrompt": "What reminders help you follow or remember a piece of music? Share a way of recording an idea before it disappears.",
+    "siblingRole": "Draw a mark for a hum and let them choose the sound for the next box.",
     "careNote": "Use chunky crayons and quiet sounds, with silent gestures as an option. Keep paper free of clips and do not tap hard objects or surfaces near anyone's ears."
   },
   {
@@ -2974,6 +3122,7 @@
       }
     ],
     "personalPrompt": "Have two people remembered different details of a shared day? Tell a gentle example without deciding that one person's feelings were wrong.",
+    "siblingRole": "Show what one toy can see, then let them move the other toy to where it is watching.",
     "careNote": "Use large soft toys without detachable parts. Keep the invented event reassuring and let children choose whether to speak for a character or simply move it."
   },
   {
@@ -3020,6 +3169,7 @@
       }
     ],
     "personalPrompt": "When has a small change of plan led to an unexpected experience? Share a family-friendly example that could inspire a story.",
+    "siblingRole": "Act out the story up to the choice and let them point to the ending you try first.",
     "careNote": "Use large toys and chunky crayons. Keep the imaginary problem small and reassuring, and change the story if either child finds it upsetting."
   },
   {
@@ -3066,6 +3216,7 @@
       }
     ],
     "personalPrompt": "What detail do you remember most clearly from somewhere you visited? Use it as a starting point for an invented place.",
+    "siblingRole": "Draw one thing the visitor can see and let them add a mark from that place.",
     "careNote": "Use large paper and chunky crayons without stamps, stickers, or clips that could become small loose parts. Keep the imaginary journey comfortable and let children change any detail."
   }
 ]

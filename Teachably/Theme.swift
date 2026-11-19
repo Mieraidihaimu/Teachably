@@ -95,15 +95,15 @@ struct ActivityArtwork: View {
 
 struct AgeCard: View {
     let name: String
-    let age: Int
+    let stage: ChildStage
     let prompt: AgePrompt
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack {
-                Image(systemName: age == 2 ? "hand.wave" : "lightbulb")
+                Image(systemName: stage.band == .toddler ? "hand.wave" : "lightbulb")
                 Text(name).fontWeight(.semibold)
                 Spacer()
-                Text(L10n.format("AGE %lld", age)).font(.caption2.bold()).tracking(1)
+                Text(stage.label).font(.caption2.bold()).tracking(1)
             }
             .foregroundStyle(Palette.green)
             Text(prompt.action).font(.subheadline).fixedSize(horizontal: false, vertical: true)
@@ -111,7 +111,29 @@ struct AgeCard: View {
                 .foregroundStyle(Palette.green)
         }
         .padding(18).frame(maxWidth: .infinity, alignment: .leading)
-        .background(age == 2 ? Palette.sage.opacity(0.5) : Palette.peach.opacity(0.6),
+        .background(stage.band == .toddler ? Palette.sage.opacity(0.5) : Palette.peach.opacity(0.6),
                     in: RoundedRectangle(cornerRadius: 20))
+    }
+}
+
+struct ActivityFamilyPrompts: View {
+    let activity: Activity
+    @EnvironmentObject private var store: FamilyStore
+
+    var body: some View {
+        let stages = store.stages
+        AgeCard(name: store.profile.youngerDisplayName, stage: stages.younger,
+                prompt: activity.prompt(for: stages.younger.band))
+        AgeCard(name: store.profile.olderDisplayName, stage: stages.older,
+                prompt: activity.prompt(for: stages.older.band))
+        PaperCard {
+            VStack(alignment: .leading, spacing: 8) {
+                Label(L10n.string("Big brother’s turn"), systemImage: "person.2")
+                    .font(.subheadline.weight(.semibold)).foregroundStyle(Palette.green)
+                Text(activity.siblingPrompt(for: store.profile))
+                    .font(.subheadline).fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .accessibilityIdentifier("activity.sibling-role")
     }
 }

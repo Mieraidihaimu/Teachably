@@ -26,7 +26,8 @@ final class WanderGenerationTests: XCTestCase {
         let root = try engine.explore(WanderRequest(action: .root))
         let plan = try engine.prepareGeneration(WanderRequest(action: .refine, parentID: root.id, query: "Why do rainbows form?"), providerID: "apple-test-v1")
         XCTAssertTrue(plan.requiresLesson)
-        XCTAssertTrue(plan.contextJSON.contains("[2,6]"))
+        XCTAssertTrue(plan.contextJSON.contains(#""band":"toddler""#))
+        XCTAssertTrue(plan.contextJSON.contains(#""band":"earlyYears""#))
         XCTAssertNil(try engine.reuseGeneration(plan))
         let layer = try engine.acceptGenerated(lessonDraft, for: plan)
         XCTAssertNil(layer.lesson?.activityID)
@@ -38,6 +39,51 @@ final class WanderGenerationTests: XCTestCase {
         XCTAssertTrue(try XCTUnwrap(engine.search("Why rainbows form").first).isExact)
         XCTAssertEqual(try WanderState.decode(engine.state.encoded()), engine.state)
         XCTAssertTrue(try engine.pinCurrent().markdown.contains("generated on device with Apple Intelligence"))
+    }
+
+    func testNewFamilyStageChangesAppleGenerationContextAndCacheKey() throws {
+        var engine = try engine()
+        let root = try engine.explore(WanderRequest(action: .root))
+        let request = WanderRequest(action: .refine, parentID: root.id, query: "Patterns")
+        let previous = try engine.prepareGeneration(request, providerID: "test")
+        _ = try engine.acceptGenerated(mapDraft, for: previous)
+        let date = try XCTUnwrap(ISO8601DateFormatter().date(from: "2026-11-01T12:00:00Z"))
+        var profile = FamilyProfile()
+        profile.youngerName = "Private nickname"
+        profile.olderBirthMonth = BirthMonth(year: 2019, month: 11)
+        let next = try engine.prepareGeneration(
+            WanderRequest(action: .refine, parentID: root.id, query: "Patterns"),
+            providerID: "test", stages: profile.stages(on: date))
+        XCTAssertTrue(next.contextJSON.contains(#""age":7,"band":"primary""#))
+        XCTAssertFalse(next.contextJSON.contains("2019"))
+        XCTAssertFalse(next.contextJSON.contains("Private nickname"))
+        XCTAssertNotEqual(previous.cacheKey, next.cacheKey)
+        XCTAssertNil(try engine.reuseGeneration(next))
+    }
+
+    func testPinnedActivityRequiresFourStepsAndPersistsInFamilyLibrary() throws {
+        var engine = try engine()
+        _ = try engine.explore(WanderRequest(action: .root))
+        let pin = try engine.pinCurrent()
+        func makeActivity(stepCount: Int) throws -> Activity {
+            let prompt = AgePrompt(action: "Point to a pattern.", question: "What comes next?")
+            let primary = AgePrompt(action: "Explain the rule.", question: "Would a different rule work?")
+            return try pin.makeLibraryActivity(title: "Our pattern", subtitle: "Play with patterns together.",
+                skill: " numbers ", takeaway: "Patterns repeat.", parentPrimer: "Pick a simple repeated action.",
+                materials: ["A picture book", "A picture book"], toddler: prompt, earlyYears: prompt,
+                primary: primary, siblingRole: "Clap once and invite your brother to copy.",
+                steps: Array(repeating: (title: "Try a pattern", instruction: "Clap together."), count: stepCount),
+                personalPrompt: "Share a pattern you know.", careNote: "Keep the sound gentle.")
+        }
+        XCTAssertThrowsError(try makeActivity(stepCount: 3))
+        let activity = try makeActivity(stepCount: 4)
+        XCTAssertEqual(activity.id, pin.libraryActivityID)
+        XCTAssertEqual(activity.duration, 30)
+        XCTAssertEqual(activity.materials, ["A picture book"])
+        XCTAssertEqual(activity.prompt(for: .primary).action, "Explain the rule.")
+        var state = FamilyState()
+        state.customActivities = [activity]
+        XCTAssertEqual(try FamilyState.decode(state.encoded()).customActivities, [activity])
     }
 
     func testExactReuseAndRequestReplayAreIsolatedFromLibraryAndOtherProviders() throws {

@@ -5,9 +5,11 @@ struct DiscoverView: View {
     @EnvironmentObject private var store: FamilyStore
     @State private var search = ""
     @State private var filter: Skill?
+    @State private var savedOnly = false
 
     private var filtered: [Activity] {
         store.activities.filter { activity in
+            (!savedOnly || activity.sourceWanderLayerID != nil) &&
             (filter == nil || activity.skill == filter) &&
             (search.isEmpty || "\(activity.title) \(activity.subtitle) \(activity.skill.title)"
                 .localizedCaseInsensitiveContains(search))
@@ -26,10 +28,19 @@ struct DiscoverView: View {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 8) {
                         filterButton(L10n.string("All ideas"), skill: nil)
+                        Button {
+                            savedOnly = true
+                            filter = nil
+                        } label: {
+                            filterLabel(L10n.string("Saved from Wander"), selected: savedOnly)
+                        }
+                        .accessibilityAddTraits(savedOnly ? .isSelected : [])
                         ForEach(Skill.allCases) { skill in filterButton(skill.title, skill: skill) }
                     }.padding(.vertical, 2)
                 }
-                if filtered.isEmpty {
+                if filtered.isEmpty && search.isEmpty && savedOnly {
+                    ContentUnavailableView(L10n.string("No saved Wander activities"), systemImage: "books.vertical")
+                } else if filtered.isEmpty {
                     ContentUnavailableView.search(text: search)
                 }
                 LazyVStack(spacing: 12) {
@@ -45,7 +56,7 @@ struct DiscoverView: View {
                                     Text(activity.title).font(.system(.headline, design: .serif))
                                         .foregroundStyle(Palette.ink)
                                     Text(activity.skill.title).font(.caption).foregroundStyle(Palette.muted)
-                                    Text(L10n.string("30 min · Ages 2 & 6")).font(.caption2).foregroundStyle(Palette.muted)
+                                    Text(L10n.format("%lld min", activity.duration)).font(.caption2).foregroundStyle(Palette.muted)
                                 }
                                 Spacer(minLength: 0)
                                 Image(systemName: "chevron.right").font(.caption).foregroundStyle(Palette.muted)
@@ -62,11 +73,16 @@ struct DiscoverView: View {
     }
 
     private func filterButton(_ title: String, skill: Skill?) -> some View {
-        Button { filter = skill } label: {
-            Text(title).font(.caption.weight(.semibold)).padding(.horizontal, 15).padding(.vertical, 11)
-                .foregroundStyle(filter == skill ? .white : Palette.green)
-                .background(filter == skill ? Palette.green : .white, in: Capsule())
+        let selected = !savedOnly && filter == skill
+        return Button { filter = skill; savedOnly = false } label: {
+            filterLabel(title, selected: selected)
         }
-        .accessibilityAddTraits(filter == skill ? .isSelected : [])
+        .accessibilityAddTraits(selected ? .isSelected : [])
+    }
+
+    private func filterLabel(_ title: String, selected: Bool) -> some View {
+        Text(title).font(.caption.weight(.semibold)).padding(.horizontal, 15).padding(.vertical, 11)
+            .foregroundStyle(selected ? .white : Palette.green)
+            .background(selected ? Palette.green : .white, in: Capsule())
     }
 }
