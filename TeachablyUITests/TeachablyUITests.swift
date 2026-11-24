@@ -95,9 +95,11 @@ final class TeachablyUITests: XCTestCase {
 
         app.tabBars.buttons["More"].tap()
         app.buttons["more.show-and-tell"].tap()
-        XCTAssertTrue(app.staticTexts["60 stories in English"].waitForExistence(timeout: 5))
-        let story = app.buttons["show-and-tell.story.kite-in-the-tree"]
+        XCTAssertTrue(app.staticTexts["6 stories in English"].waitForExistence(timeout: 5))
+        XCTAssertFalse(app.buttons["show-and-tell.story.kite-in-the-tree"].exists)
+        let story = app.buttons["show-and-tell.story.three-little-pigs"]
         XCTAssertTrue(story.isHittable)
+        XCTAssertEqual(story.label, "The Three Little Pigs")
         attachScreenshot("Show and Tell mosaics", app: app)
         story.tap()
 
@@ -114,12 +116,13 @@ final class TeachablyUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["Picture 2 of 6"].waitForExistence(timeout: 5))
         app.buttons["Next picture"].tap()
         XCTAssertTrue(app.staticTexts["Picture 3 of 6"].exists)
-        XCTAssertEqual(app.images["show-and-tell.enlarged"].label, "A grown-up beside the girl and the tree.")
+        XCTAssertEqual(app.images["show-and-tell.enlarged"].label, "The pig in blue builds a sturdy red-brick house.")
         attachScreenshot("Enlarged picture", app: app)
         app.buttons["Done"].tap()
 
         read.tap()
         XCTAssertTrue(app.staticTexts["show-and-tell.text.1"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["show-and-tell.text.1"].label.contains("The first pig chose straw."))
         XCTAssertTrue(app.staticTexts["show-and-tell.text.6"].exists)
         attachScreenshot("Written story", app: app)
         app.buttons["Done"].tap()

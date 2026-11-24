@@ -5,11 +5,27 @@ struct StoryPictureArtwork: View {
     let picture: ShowAndTellStory.Picture
 
     var body: some View {
+        switch picture.artwork {
+        case .illustration(let name):
+            Image(decorative: name)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+        case .symbols(let setting, let figures):
+            StorySymbolArtwork(setting: setting, figures: figures)
+        }
+    }
+}
+
+private struct StorySymbolArtwork: View {
+    let setting: ShowAndTellStory.Picture.Setting
+    let figures: [ShowAndTellStory.Picture.Figure]
+
+    var body: some View {
         Canvas { canvas, size in
             var context = canvas
             context.scaleBy(x: size.width / 160, y: size.height / 120)
             scenery(in: context)
-            for figure in picture.figures {
+            for figure in figures {
                 draw(figure, in: context)
             }
         }
@@ -76,7 +92,7 @@ struct StoryPictureArtwork: View {
         context.fill(Path(CGRect(x: 0, y: 0, width: 160, height: 120)),
                      with: .linearGradient(Gradient(colors: [top, horizon]), startPoint: .zero,
                                            endPoint: CGPoint(x: 0, y: 90)))
-        switch picture.setting {
+        switch setting {
         case .room, .kitchen:
             indoorScenery(in: context, floor: floor)
         case .shore, .water:
@@ -87,7 +103,7 @@ struct StoryPictureArtwork: View {
     }
 
     private var colours: (Color, Color, Color) {
-        switch picture.setting {
+        switch setting {
         case .garden: (ink(0x9BD9C7), ink(0xECF4CF), ink(0xA6C77C))
         case .park: (ink(0xA4D9F2), ink(0xE4F2CB), ink(0xAFCD83))
         case .forest: (ink(0x8BBEB0), ink(0xD9E9AB), ink(0xA9B56F))
@@ -103,7 +119,7 @@ struct StoryPictureArtwork: View {
     }
 
     private func indoorScenery(in context: GraphicsContext, floor: Color) {
-        let isKitchen = picture.setting == .kitchen
+        let isKitchen = setting == .kitchen
         let accent = isKitchen ? ink(0x7FAF9C) : ink(0xDA9779)
         rect(context, 0, 80, 160, 40, floor)
         rect(context, 0, 77, 160, 5, .white.opacity(0.57))
@@ -132,7 +148,7 @@ struct StoryPictureArtwork: View {
         cloud(context, x: 20, y: 25)
         oval(context, 117, 11, 17, 17, ink(0xFFD68D))
         rect(context, 0, 61, 160, 59, ink(0x86CBD7))
-        if picture.setting == .shore {
+        if setting == .shore {
             var sand = Path()
             sand.move(to: CGPoint(x: 0, y: 97))
             sand.addQuadCurve(to: CGPoint(x: 160, y: 83), control: CGPoint(x: 62, y: 73))
@@ -148,7 +164,6 @@ struct StoryPictureArtwork: View {
     }
 
     private func outdoorScenery(in context: GraphicsContext, floor: Color) {
-        let setting = picture.setting
         if setting == .night {
             oval(context, 121, 12, 18, 18, ink(0xFFE3A7))
             for point in [CGPoint(x: 21, y: 16), CGPoint(x: 47, y: 29), CGPoint(x: 74, y: 12),

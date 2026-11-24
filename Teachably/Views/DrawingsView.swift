@@ -49,10 +49,9 @@ struct DrawingsView: View {
                         }
                     }
                 }
-                .padding(.horizontal, 20)
-                .padding(.vertical, 18)
-                .frame(maxWidth: 1000)
-                .frame(maxWidth: .infinity)
+                .padding(.horizontal, 16)
+                .padding(.vertical, 16)
+                .teachablyContainer(.browse)
             }
             .scrollDismissesKeyboard(.interactively)
             .onChange(of: level) {
@@ -138,24 +137,33 @@ struct DrawingsView: View {
                     } label: {
                         Image(systemName: "xmark.circle.fill")
                             .foregroundStyle(Palette.muted)
-                            .frame(width: 44, height: 48)
+                            .frame(width: 44, height: 44)
                             .contentShape(Rectangle())
                     }
                     .accessibilityLabel(L10n.string("Clear search"))
                 }
             }
             .padding(.leading, 14)
-            .frame(minHeight: 48)
-            .background(.white, in: RoundedRectangle(cornerRadius: 16))
+            .padding(.trailing, search.isEmpty ? 14 : 0)
+            .frame(minHeight: 44)
+            .background(Palette.surfaceCard, in: RoundedRectangle(cornerRadius: Radius.md))
+            .overlay(RoundedRectangle(cornerRadius: Radius.md).strokeBorder(Palette.lineStrong, lineWidth: 1))
 
             Button {
                 starredOnly.toggle()
             } label: {
                 Image(systemName: starredOnly ? "star.fill" : "star")
                     .font(.system(size: 20, weight: .medium))
-                    .foregroundStyle(starredOnly ? .white : Palette.green)
-                    .frame(width: 48, height: 48)
-                    .background(starredOnly ? Palette.green : Palette.sage, in: RoundedRectangle(cornerRadius: 16))
+                    .foregroundStyle(starredOnly ? Palette.starActive : Palette.green)
+                    .frame(width: 44, height: 44)
+                    .background(
+                        starredOnly ? Palette.gold.opacity(0.24) : Palette.greenTintedSurface,
+                        in: RoundedRectangle(cornerRadius: Radius.md)
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: Radius.md)
+                            .strokeBorder(starredOnly ? Palette.starActive : Palette.line, lineWidth: 1)
+                    )
             }
             .accessibilityLabel(L10n.string("Starred drawings"))
             .accessibilityAddTraits(starredOnly ? .isSelected : [])
@@ -165,18 +173,20 @@ struct DrawingsView: View {
     }
 
     private func categoryButton(_ title: String, category item: DrawingCategory?) -> some View {
-        Button {
+        let selected = category == item
+        return Button {
             category = item
         } label: {
             Text(title)
                 .font(.subheadline.weight(.semibold))
                 .padding(.horizontal, 12)
                 .frame(minHeight: 44)
-                .foregroundStyle(category == item ? .white : Palette.green)
-                .background(category == item ? Palette.green : .white, in: Capsule())
+                .foregroundStyle(selected ? .white : Palette.green)
+                .background(selected ? Palette.green : Palette.surfaceCard, in: Capsule())
+                .overlay(Capsule().strokeBorder(selected ? Palette.green : Palette.line, lineWidth: 1))
         }
         .buttonStyle(.plain)
-        .accessibilityAddTraits(category == item ? .isSelected : [])
+        .accessibilityAddTraits(selected ? .isSelected : [])
     }
 
     @ViewBuilder
@@ -226,9 +236,11 @@ struct DrawingsView: View {
                     .padding(.vertical, 11)
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
-            .background(.white)
-            .clipShape(.rect(cornerRadius: 18))
-            .contentShape(.rect(cornerRadius: 18))
+            .background(Palette.surfaceCard)
+            .clipShape(.rect(cornerRadius: Radius.lg))
+            .overlay(RoundedRectangle(cornerRadius: Radius.lg).strokeBorder(Palette.line, lineWidth: 1))
+            .shadow(color: Palette.ink.opacity(0.06), radius: 10, y: 4)
+            .contentShape(.rect(cornerRadius: Radius.lg))
         }
         .buttonStyle(.plain)
         .accessibilityIdentifier("drawing.\(drawing.id)")
@@ -248,8 +260,12 @@ struct DrawingsView: View {
                         drawing.image
                             .resizable()
                             .scaledToFit()
-                            .clipShape(.rect(cornerRadius: 22))
-                            .frame(maxWidth: min(900, max(0, proxy.size.width - 32)),
+                            .clipShape(.rect(cornerRadius: Radius.lg))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: Radius.lg)
+                                    .strokeBorder(Palette.line, lineWidth: 1)
+                            )
+                            .frame(maxWidth: min(760, max(0, proxy.size.width - 32)),
                                    maxHeight: max(0, proxy.size.height - 32))
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
                             .accessibilityLabel(drawing.title)
@@ -300,9 +316,13 @@ private struct DrawingPracticeView: View {
                     context.stroke(ink.applying(scale), with: .color(Palette.green), style: pen)
                     context.stroke(stroke.applying(scale), with: .color(Palette.green), style: pen)
                 }
-                .background(.white)
-                .clipShape(.rect(cornerRadius: 22))
-                .contentShape(.rect(cornerRadius: 22))
+                .background(Palette.surfaceCard)
+                .clipShape(.rect(cornerRadius: Radius.lg))
+                .overlay(
+                    RoundedRectangle(cornerRadius: Radius.lg)
+                        .strokeBorder(Palette.line, lineWidth: 1)
+                )
+                .contentShape(.rect(cornerRadius: Radius.lg))
                 .gesture(tracing(in: proxy.size))
                 .accessibilityElement()
                 .accessibilityLabel(title)
@@ -317,10 +337,14 @@ private struct DrawingPracticeView: View {
                 stroke = Path()
             } label: {
                 Label(L10n.string("Clear drawing"), systemImage: "arrow.counterclockwise")
-                    .frame(minHeight: 36)
             }
-            .buttonStyle(.bordered)
-            .tint(Palette.green)
+            .buttonStyle(
+                SecondaryButtonStyle(
+                    fullWidth: false,
+                    tint: Palette.recording,
+                    backgroundColor: Palette.recording.opacity(0.10)
+                )
+            )
             .disabled(ink.isEmpty && stroke.isEmpty)
             .accessibilityIdentifier("drawings.practice.clear")
         }
@@ -366,9 +390,10 @@ private struct DrawingStarButton: View {
         } label: {
             Image(systemName: starred ? "star.fill" : "star")
                 .font(.system(size: onTile ? 16 : 20, weight: .semibold))
-                .foregroundStyle(starred ? Color(red: 0.57, green: 0.34, blue: 0.09) : Palette.green)
-                .frame(width: 34, height: 34)
-                .background(.white.opacity(onTile ? 0.94 : 0), in: Circle())
+                .foregroundStyle(starred ? Palette.starActive : Palette.green)
+                .frame(width: 32, height: 32)
+                .background(Palette.surfaceCard.opacity(onTile ? 0.94 : 0), in: Circle())
+                .overlay(Circle().strokeBorder(onTile ? Palette.line : .clear, lineWidth: 1))
                 .frame(width: 44, height: 44)
                 .contentShape(Rectangle())
         }

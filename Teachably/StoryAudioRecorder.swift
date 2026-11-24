@@ -21,16 +21,25 @@ final class StoryAudioRecorder: NSObject, ObservableObject, AVAudioPlayerDelegat
     private var permissionRequest: UUID?
 
     init(storyID: String) {
+        folder = Self.recordingFolder(for: storyID)
+        super.init()
+        do { try loadRecordings() }
+        catch { errorMessage = L10n.string("Saved recordings couldn’t be opened.") }
+    }
+
+    static func hasRecordings(for storyID: String) -> Bool {
+        let files = try? recordingFiles(in: recordingFolder(for: storyID))
+        return files?.isEmpty == false
+    }
+
+    private static func recordingFolder(for storyID: String) -> URL {
         var directory = URL.applicationSupportDirectory.appending(path: "ShowAndTellRecordings", directoryHint: .isDirectory)
         #if DEBUG
         if let suite = ProcessInfo.processInfo.environment["TEACHABLY_TEST_SUITE"] {
             directory.append(path: suite, directoryHint: .isDirectory)
         }
         #endif
-        folder = directory.appending(path: storyID, directoryHint: .isDirectory)
-        super.init()
-        do { try loadRecordings() }
-        catch { errorMessage = L10n.string("Saved recordings couldn’t be opened.") }
+        return directory.appending(path: storyID, directoryHint: .isDirectory)
     }
 
     func startRecording() async {
@@ -141,18 +150,21 @@ final class StoryAudioRecorder: NSObject, ObservableObject, AVAudioPlayerDelegat
     }
 
     private func loadRecordings() throws {
+        recordings = try Self.recordingFiles(in: folder).map { url in
+            let date = try url.resourceValues(forKeys: [.creationDateKey]).creationDate ?? .distantPast
+            return StoryRecording(url: url, date: date)
+        }.sorted { $0.date > $1.date }
+    }
+
+    private static func recordingFiles(in folder: URL) throws -> [URL] {
         let files: [URL]
         do {
             files = try FileManager.default.contentsOfDirectory(at: folder,
                 includingPropertiesForKeys: [.creationDateKey], options: [.skipsHiddenFiles])
         } catch let error as CocoaError where error.code == .fileReadNoSuchFile || error.code == .fileNoSuchFile {
-            recordings = []
-            return
+            return []
         }
-        recordings = try files.filter { $0.pathExtension == "m4a" }.map { url in
-            let date = try url.resourceValues(forKeys: [.creationDateKey]).creationDate ?? .distantPast
-            return StoryRecording(url: url, date: date)
-        }.sorted { $0.date > $1.date }
+        return files.filter { $0.pathExtension == "m4a" }
     }
 
     private func releaseAudioSession() {

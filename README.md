@@ -16,7 +16,7 @@ The deployment target is iOS 17. Wander's optional on-device generation requires
 - **Today** keeps a daily suggestion and rotates through your interests. Combine **Zero prep**, **15 min**, **Outdoors**, and **Low energy** to find another idea that fits the moment. The short versions have their own four-step timings.
 - **Print for today:** choose the current Today activity, a tracing worksheet, or a short English poem in **More → Print for today**. Each selection prints on its own page through AirPrint.
 - **Poems:** browse 200 English poems across Levels 0–5, from a few short lines to longer poems to read together. Search by title or author and use **Read aloud** to listen with the device's English voice.
-- **Show and Tell** includes 60 short English stories. Open a six-picture mosaic, tap **Record our story**, then listen back below the pictures. Tap **Read story** to open the written version.
+- **Show and Tell** includes six classic tales retold in English. Follow six illustrated scenes, tap **Record our story** to save your retelling, and listen back below the pictures. Tap **Read story** to read the tale together. Earlier stories appear below the classics if they have recordings on this device.
 - **Wander** offers on-device Apple AI exploration and an offline activity library. Pin an idea and tap **Save to Library** to turn it into a four-step, 30-minute activity with Apple Intelligence. Find it in **Discover → Saved from Wander**. [Port details](docs/wander-port.md)
 - **Activity guide** includes a materials checklist, a parent refresher, an invitation for each child's developmental stage, and a specific teaching or setup role for the older sibling.
 - **Your experience:** write a personal teaching note that appears during the session.

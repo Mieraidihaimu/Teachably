@@ -47,12 +47,14 @@ struct MemoriesView: View {
                                 Text(activity.title).font(.system(.title3, design: .serif, weight: .medium))
                                 if !memory.note.isEmpty { Text(memory.note).font(.subheadline).foregroundStyle(Palette.muted) }
                                 NavigationLink(L10n.string("Enjoy this again")) { ActivityDetailView(activity: activity) }
-                                    .font(.subheadline.weight(.semibold))
+                                    .buttonStyle(SecondaryButtonStyle(fullWidth: false))
                             }
                         }
                     }
                 }
-            }.padding(22)
+            }
+            .padding(16)
+            .teachablyContainer(.reading)
         }
         .background(Palette.background).foregroundStyle(Palette.ink)
         .navigationTitle(L10n.string("Memories")).navigationBarTitleDisplayMode(.inline)

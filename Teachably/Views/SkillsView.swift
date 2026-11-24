@@ -32,20 +32,18 @@ struct SkillsView: View {
                         selected = Skill.familyInterests
                         saved = false
                     }
-                    .font(.subheadline.weight(.semibold))
-                    .frame(minHeight: 44)
+                    .buttonStyle(SecondaryButtonStyle(fullWidth: false))
                     .disabled(selected == Skill.familyInterests)
                 }
             }
-            .padding(22)
-            .frame(maxWidth: 620)
-            .frame(maxWidth: .infinity)
+            .padding(16)
+            .teachablyContainer(.reading)
         }
         .background(Palette.background)
         .foregroundStyle(Palette.ink)
         .navigationTitle(L10n.string(isOnboarding ? "Choose interests" : "My skills"))
         .navigationBarTitleDisplayMode(.inline)
-        .safeAreaInset(edge: .bottom) {
+        .teachablyBottomBar {
             Button {
                 store.saveInterests(selected)
                 saved = store.errorMessage == nil
@@ -58,12 +56,6 @@ struct SkillsView: View {
             .buttonStyle(PrimaryButtonStyle())
             .disabled(selected.isEmpty)
             .accessibilityIdentifier("skills.save")
-            .opacity(selected.isEmpty ? 0.5 : 1)
-            .padding(.horizontal, 22)
-            .padding(.vertical, 12)
-            .frame(maxWidth: 620)
-            .frame(maxWidth: .infinity)
-            .background(Palette.background)
         }
         .onAppear { selected = isOnboarding ? [] : store.profile.skills }
     }
@@ -85,13 +77,17 @@ struct SkillsView: View {
                     .fixedSize(horizontal: false, vertical: true)
                 Spacer(minLength: 0)
                 Image(systemName: isSelected ? "checkmark.circle.fill" : "circle")
-                    .foregroundStyle(isSelected ? Palette.green : Palette.muted)
+                    .foregroundStyle(isSelected ? Palette.green : Palette.mutedSubtle)
                     .accessibilityHidden(true)
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
-            .frame(minHeight: 62)
-            .background(isSelected ? Palette.sage : .white, in: RoundedRectangle(cornerRadius: 16))
+            .frame(minHeight: 56)
+            .background(isSelected ? Palette.greenTintedSurface : Palette.surfaceCard, in: RoundedRectangle(cornerRadius: Radius.md))
+            .overlay(
+                RoundedRectangle(cornerRadius: Radius.md)
+                    .strokeBorder(isSelected ? Palette.green : Palette.line, lineWidth: isSelected ? 1.5 : 1)
+            )
         }
         .buttonStyle(.plain)
         .accessibilityAddTraits(isSelected ? .isSelected : [])

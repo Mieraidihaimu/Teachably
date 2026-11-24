@@ -20,17 +20,19 @@ struct SessionView: View {
         NavigationStack {
             ScrollViewReader { reader in
                 ScrollView {
-                    VStack(alignment: .leading, spacing: 25) {
-                        Color.clear.frame(height: 1).id("top")
+                    VStack(alignment: .leading, spacing: 14) {
                         if reflecting { reflectionContent }
                         else { sessionContent }
-                    }.padding(24)
+                    }
+                    .padding(16)
+                    .teachablyContainer(.reading)
+                    .background(alignment: .top) { Color.clear.frame(height: 1).id("top") }
                 }
                 .onChange(of: stepIndex) { _, _ in reader.scrollTo("top", anchor: .top) }
                 .onChange(of: reflecting) { _, _ in reader.scrollTo("top", anchor: .top) }
                 .background(Palette.background)
-                .safeAreaInset(edge: .bottom) {
-                    VStack(spacing: 6) {
+                .teachablyBottomBar {
+                    VStack(spacing: 4) {
                         if reflecting {
                             Button {
                                 store.remember(activity: activity, note: memoryNote, favourite: favourite)
@@ -38,19 +40,28 @@ struct SessionView: View {
                             } label: { Text(L10n.string("Save our little memory")) }
                                 .buttonStyle(PrimaryButtonStyle())
                         } else {
-                            Button {
-                                if isLast { finish() }
-                                else { stepIndex += 1; resetTimer() }
-                            } label: {
-                                HStack {
-                                    Text(isLast ? L10n.string("Keep a little memory") : L10n.string("Next little step"))
-                                    Image(systemName: "arrow.right")
+                            HStack(spacing: 10) {
+                                if stepIndex > 0 {
+                                    Button { stepIndex -= 1; resetTimer() } label: {
+                                        Label(L10n.string("Back"), systemImage: "chevron.backward")
+                                    }
+                                    .buttonStyle(SecondaryButtonStyle(fullWidth: false))
                                 }
-                            }.buttonStyle(PrimaryButtonStyle())
+                                Button {
+                                    if isLast { finish() }
+                                    else { stepIndex += 1; resetTimer() }
+                                } label: {
+                                    HStack {
+                                        Text(isLast ? L10n.string("Keep a little memory") : L10n.string("Next little step"))
+                                        Image(systemName: "arrow.right")
+                                    }
+                                }
+                                .buttonStyle(PrimaryButtonStyle())
+                            }
                             Button(L10n.string("Finish for today")) { finish() }
-                                .font(.subheadline).frame(minHeight: 38)
+                                .buttonStyle(QuietButtonStyle(foreground: Palette.muted))
                         }
-                    }.padding(.horizontal, 24).padding(.vertical, 12).background(Palette.background)
+                    }
                 }
             }
             .foregroundStyle(Palette.ink)
@@ -58,13 +69,12 @@ struct SessionView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button { dismiss() } label: { Image(systemName: "xmark") }
-                        .accessibilityLabel(L10n.string("Close session"))
-                }
-                if stepIndex > 0 && !reflecting {
-                    ToolbarItem(placement: .topBarLeading) {
-                        Button(L10n.string("Back")) { stepIndex -= 1; resetTimer() }
+                    Button { dismiss() } label: {
+                        Image(systemName: "xmark")
+                            .frame(width: 44, height: 44)
+                            .contentShape(Rectangle())
                     }
+                    .accessibilityLabel(L10n.string("Close session"))
                 }
             }
         }
@@ -72,7 +82,7 @@ struct SessionView: View {
     }
 
     private var sessionContent: some View {
-        VStack(alignment: .leading, spacing: 24) {
+        VStack(alignment: .leading, spacing: 14) {
             HStack(spacing: 6) {
                 ForEach(activity.steps.indices, id: \.self) { index in
                     Capsule().fill(index <= stepIndex ? Palette.green : Palette.line).frame(height: 5)
@@ -102,11 +112,22 @@ struct SessionView: View {
                     }
                 } label: {
                     Image(systemName: running ? "pause.fill" : "play.fill")
-                        .frame(width: 48, height: 48).background(.white, in: Circle())
-                }.accessibilityLabel(running ? L10n.string("Pause timer") : L10n.string("Resume timer"))
+                        .foregroundStyle(Palette.green)
+                        .frame(width: 44, height: 44)
+                        .background(Palette.surfaceCard, in: Circle())
+                        .overlay(Circle().strokeBorder(Palette.line, lineWidth: 1))
+                }
+                .contentShape(Circle())
+                .accessibilityLabel(running ? L10n.string("Pause timer") : L10n.string("Resume timer"))
             }
-            .padding(18).background(Palette.sage.opacity(0.5), in: RoundedRectangle(cornerRadius: 22))
-            ActivityFamilyPrompts(activity: activity)
+            .padding(.horizontal, 14)
+            .padding(.vertical, 10)
+            .background(Palette.sage.opacity(0.55), in: RoundedRectangle(cornerRadius: Radius.lg))
+            .overlay(
+                RoundedRectangle(cornerRadius: Radius.lg)
+                    .strokeBorder(Palette.sage, lineWidth: 1)
+            )
+            ActivityFamilyPrompts(activity: activity, compact: true)
             if let note = store.state.teachingNotes[activity.id], !note.isEmpty {
                 PaperCard {
                     VStack(alignment: .leading, spacing: 9) {
@@ -130,7 +151,13 @@ struct SessionView: View {
             Text(L10n.format("%@ — what made you smile, surprised you, or would you like to try again?", activity.title))
                 .foregroundStyle(Palette.muted)
             TextField(L10n.string("Something they said. A tiny discovery…"), text: $memoryNote, axis: .vertical)
-                .lineLimit(5...10).padding(18).background(.white, in: RoundedRectangle(cornerRadius: 20))
+                .lineLimit(5...10)
+                .padding(16)
+                .teachablyCardSurface(cornerRadius: Radius.lg)
+                .overlay(
+                    RoundedRectangle(cornerRadius: Radius.lg)
+                        .strokeBorder(Palette.lineStrong, lineWidth: 1)
+                )
                 .accessibilityLabel(L10n.string("Memory note"))
             Toggle(isOn: $favourite) {
                 Label(L10n.string("We'd love to do this again"), systemImage: "heart")

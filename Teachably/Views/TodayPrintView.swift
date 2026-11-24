@@ -41,7 +41,7 @@ struct TodayPrintView: View {
         .background(Palette.background)
         .navigationTitle(L10n.string("Print for today"))
         .navigationBarTitleDisplayMode(.inline)
-        .safeAreaInset(edge: .bottom, spacing: 0) {
+        .teachablyBottomBar {
             Button {
                 printPages(selectedPages, date: dateLabel)
             } label: {
@@ -50,12 +50,6 @@ struct TodayPrintView: View {
             .buttonStyle(PrimaryButtonStyle())
             .accessibilityIdentifier("print.today.open-options")
             .disabled(selectedPages.isEmpty || showingPrintOptions)
-            .opacity(selectedPages.isEmpty ? 0.45 : 1)
-            .frame(maxWidth: 480)
-            .padding(.horizontal, 20)
-            .padding(.vertical, 10)
-            .frame(maxWidth: .infinity)
-            .background(Palette.background)
             .background(PrintAnchor(view: printAnchor).allowsHitTesting(false).accessibilityHidden(true))
         }
         .task { store.refreshToday() }
@@ -74,6 +68,7 @@ struct TodayPrintView: View {
             }
             .padding(.vertical, 4)
         }
+        .tint(Palette.green)
         .accessibilityIdentifier("print.today.\(page.id)")
     }
 

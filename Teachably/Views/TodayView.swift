@@ -16,8 +16,10 @@ struct TodayView: View {
                     Button { showFamily = true } label: {
                         Image(systemName: "person.2").font(.body.weight(.medium))
                             .frame(width: 44, height: 44)
-                            .background(.white, in: Circle())
+                            .background(Palette.surfaceCard, in: Circle())
+                            .overlay(Circle().strokeBorder(Palette.line, lineWidth: 1))
                     }
+                    .contentShape(Circle())
                     .accessibilityLabel(L10n.string("Your family"))
                 }
                 VStack(alignment: .leading, spacing: 6) {
@@ -32,8 +34,9 @@ struct TodayView: View {
                     }
                 }
                 if let activity = store.today {
+                    filterChips
                     activityCard(activity)
-                    ideaPicker
+                    anotherIdeaControl
                 } else {
                     ContentUnavailableView {
                         Label(L10n.string("No activity yet"), systemImage: "sparkles")
@@ -44,17 +47,24 @@ struct TodayView: View {
                     }
                 }
             }
-            .padding(.horizontal, 22).padding(.top, 12).padding(.bottom, 24)
+            .padding(.horizontal, 16).padding(.top, 12).padding(.bottom, 20)
+            .teachablyContainer(.reading)
         }
         .background(Palette.background).foregroundStyle(Palette.ink)
         .toolbar(.hidden, for: .navigationBar)
-        .sheet(isPresented: $showFamily) { NavigationStack { FamilyView() } }
+        .sheet(isPresented: $showFamily) {
+            NavigationStack { FamilyView() }
+                .presentationDetents([.large])
+                .presentationDragIndicator(.visible)
+                .presentationBackground(Palette.background)
+                .presentationCornerRadius(Radius.xl)
+        }
         .onChange(of: store.todayKey) { _, _ in constraints = [] }
     }
 
     private func activityCard(_ activity: Activity) -> some View {
         VStack(alignment: .leading, spacing: 0) {
-            ActivityArtwork(activity: activity, height: 164)
+            ActivityArtwork(activity: activity, height: 160)
             VStack(alignment: .leading, spacing: 12) {
                 Label(activity.skill.title, systemImage: activity.skill.symbol)
                     .font(.caption.weight(.semibold)).foregroundStyle(Palette.green)
@@ -80,38 +90,46 @@ struct TodayView: View {
                 .buttonStyle(PrimaryButtonStyle())
                 .accessibilityIdentifier("today.activity.open")
             }
-            .padding(20)
+            .padding(18)
         }
-        .background(.white, in: RoundedRectangle(cornerRadius: 27))
-        .clipShape(RoundedRectangle(cornerRadius: 27))
+        .clipShape(RoundedRectangle(cornerRadius: Radius.xl))
+        .teachablyCardSurface(cornerRadius: Radius.xl)
     }
 
-    private var ideaPicker: some View {
-        let hasMatch = store.nextIdea(matching: constraints) != nil
-        return VStack(alignment: .leading, spacing: 4) {
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 8) {
-                    ForEach(IdeaConstraint.allCases) { condition in
-                        let selected = constraints.contains(condition)
-                        Button {
-                            if selected { constraints.remove(condition) }
-                            else { constraints.insert(condition) }
-                        } label: {
-                            Text(condition.title).font(.subheadline.weight(.medium))
-                                .padding(.horizontal, 10).frame(minHeight: 44)
-                                .foregroundStyle(selected ? .white : Palette.green)
-                                .background(selected ? Palette.green : .white, in: Capsule())
-                        }
-                        .buttonStyle(.plain)
-                        .accessibilityAddTraits(selected ? .isSelected : [])
-                        .accessibilityIdentifier("today.filter.\(condition.id)")
+    private var filterChips: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 8) {
+                ForEach(IdeaConstraint.allCases) { condition in
+                    let selected = constraints.contains(condition)
+                    Button {
+                        if selected { constraints.remove(condition) }
+                        else { constraints.insert(condition) }
+                    } label: {
+                        Text(condition.title).font(.subheadline.weight(.medium))
+                            .padding(.horizontal, 14).frame(minHeight: 44)
+                            .foregroundStyle(selected ? .white : Palette.green)
+                            .background(selected ? Palette.green : Palette.surfaceCard, in: Capsule())
+                            .overlay(
+                                Capsule()
+                                    .strokeBorder(selected ? Palette.green : Palette.line, lineWidth: 1)
+                            )
                     }
+                    .buttonStyle(.plain)
+                    .contentShape(Capsule())
+                    .accessibilityAddTraits(selected ? .isSelected : [])
+                    .accessibilityIdentifier("today.filter.\(condition.id)")
                 }
             }
+        }
+    }
+
+    private var anotherIdeaControl: some View {
+        let hasMatch = store.nextIdea(matching: constraints) != nil
+        return VStack(alignment: .leading, spacing: 6) {
             Button { withAnimation { store.chooseToday(matching: constraints) } } label: {
                 Label(L10n.string("Another idea"), systemImage: "arrow.triangle.2.circlepath")
-                    .font(.subheadline.weight(.medium)).frame(maxWidth: .infinity, minHeight: 44)
             }
+            .buttonStyle(SecondaryButtonStyle())
             .disabled(!hasMatch)
             .accessibilityIdentifier("today.another-idea")
             if !hasMatch {
@@ -121,6 +139,8 @@ struct TodayView: View {
                     .font(.caption).foregroundStyle(Palette.muted)
             }
         }
+        .padding(.top, 4)
+        .teachablyContainer(.focused)
     }
 }
 
@@ -151,6 +171,9 @@ struct FamilyView: View {
                     .font(.footnote).foregroundStyle(.secondary)
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(Palette.background)
+        .tint(Palette.green)
         .navigationTitle(L10n.string("Your family")).navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .cancellationAction) { Button(L10n.string("Cancel")) { dismiss() } }

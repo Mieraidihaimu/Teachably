@@ -9,11 +9,20 @@ struct ActivityDetailView: View {
     @State private var noteSaved = false
     @State private var showSession = false
 
+    private var isNoteUnchanged: Bool {
+        let saved = (store.state.teachingNotes[activity.id] ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
+        return note.trimmingCharacters(in: .whitespacesAndNewlines) == saved
+    }
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
-                ActivityArtwork(activity: activity, height: 200)
-                    .clipShape(RoundedRectangle(cornerRadius: 26))
+                ActivityArtwork(activity: activity, height: 184)
+                    .clipShape(RoundedRectangle(cornerRadius: Radius.xl))
+                    .overlay(
+                        RoundedRectangle(cornerRadius: Radius.xl)
+                            .strokeBorder(Palette.line, lineWidth: 1)
+                    )
                 VStack(alignment: .leading, spacing: 12) {
                     Eyebrow(text: activity.skill.title)
                     Text(activity.title).font(.system(.largeTitle, design: .serif, weight: .medium)).tracking(-1)
@@ -42,21 +51,29 @@ struct ActivityDetailView: View {
                         Text(L10n.string("No materials needed")).font(.subheadline).foregroundStyle(Palette.muted)
                     }
                     ForEach(activity.materials, id: \.self) { item in
+                        let isPacked = packed.contains(item)
                         Button {
-                            if packed.contains(item) { packed.remove(item) } else { packed.insert(item) }
+                            if isPacked { packed.remove(item) } else { packed.insert(item) }
                         } label: {
                             HStack(spacing: 13) {
-                                Image(systemName: packed.contains(item) ? "checkmark.circle.fill" : "circle")
-                                    .font(.title3).foregroundStyle(Palette.green)
+                                Image(systemName: isPacked ? "checkmark.circle.fill" : "circle")
+                                    .font(.title3)
+                                    .foregroundStyle(isPacked ? Palette.green : Palette.lineStrong)
                                 Text(item).font(.subheadline).foregroundStyle(Palette.ink)
                                 Spacer()
-                            }.frame(minHeight: 38)
+                            }
+                            .frame(minHeight: 44)
+                            .contentShape(Rectangle())
                         }
-                        .accessibilityLabel(L10n.format(packed.contains(item) ? "%@, ready" : "%@, not checked", item))
+                        .accessibilityLabel(L10n.format(isPacked ? "%@, ready" : "%@, not checked", item))
                     }
                     Text(activity.careNote).font(.caption).foregroundStyle(Palette.muted)
                         .padding(14).frame(maxWidth: .infinity, alignment: .leading)
-                        .background(Palette.sage.opacity(0.35), in: RoundedRectangle(cornerRadius: 16))
+                        .background(Palette.sage.opacity(0.45), in: RoundedRectangle(cornerRadius: Radius.md))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: Radius.md)
+                                .strokeBorder(Palette.sage, lineWidth: 1)
+                        )
                 }
                 VStack(alignment: .leading, spacing: 12) {
                     SectionTitle(title: L10n.string("Same adventure, their own way"))
@@ -88,28 +105,35 @@ struct ActivityDetailView: View {
                         Text(activity.personalPrompt).font(.subheadline).foregroundStyle(Palette.muted)
                         TextField(L10n.string("A story, skill, or memory to share…"), text: $note, axis: .vertical)
                             .lineLimit(3...6).font(.subheadline).padding(13)
-                            .background(Palette.background, in: RoundedRectangle(cornerRadius: 13))
+                            .background(Palette.background, in: RoundedRectangle(cornerRadius: Radius.md))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: Radius.md)
+                                    .strokeBorder(Palette.lineStrong, lineWidth: 1)
+                            )
                             .accessibilityLabel(L10n.string("Your teaching note"))
                         Button(noteSaved ? L10n.string("Note saved ✓") : L10n.string("Save my note")) {
                             store.setTeachingNote(note, for: activity)
                             noteSaved = true
-                        }.font(.subheadline.weight(.semibold))
+                        }
+                        .buttonStyle(SecondaryButtonStyle(fullWidth: false))
+                        .disabled(isNoteUnchanged && !noteSaved)
+                        .frame(maxWidth: .infinity, alignment: .trailing)
                     }
                 }
             }
-            .padding(22)
+            .padding(16)
+            .teachablyContainer(.reading)
         }
         .background(Palette.background).foregroundStyle(Palette.ink)
         .navigationBarTitleDisplayMode(.inline)
-        .safeAreaInset(edge: .bottom) {
+        .teachablyBottomBar {
             Button {
                 store.setTeachingNote(note, for: activity)
                 showSession = true
             } label: {
                 Label(L10n.string("Start activity"), systemImage: "play.fill")
             }
-            .buttonStyle(PrimaryButtonStyle()).padding(.horizontal, 22).padding(.vertical, 12)
-            .background(Palette.background)
+            .buttonStyle(PrimaryButtonStyle())
         }
         .fullScreenCover(isPresented: $showSession) { SessionView(activity: activity) }
         .onAppear { note = store.state.teachingNotes[activity.id] ?? "" }

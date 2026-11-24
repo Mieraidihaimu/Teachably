@@ -49,7 +49,7 @@ struct WanderLibraryView: View {
                         WanderNotice(text: error) { wander.errorMessage = nil }
                     }
                     if tab == 0 { pinnedContent } else { exploredContent }
-                }.padding(22)
+                }.padding(16).teachablyContainer(.reading)
             }
             .background(Palette.background).foregroundStyle(Palette.ink)
             .navigationTitle(L10n.string("Saved ideas")).navigationBarTitleDisplayMode(.inline)
@@ -75,13 +75,24 @@ struct WanderLibraryView: View {
             HStack {
                 Image(systemName: "magnifyingglass").foregroundStyle(Palette.muted)
                 TextField(L10n.string("Find an idea you've seen…"), text: $query)
-                    .font(.subheadline).accessibilityLabel(L10n.string("Search explored ideas"))
+                    .font(.subheadline).frame(minHeight: 44).accessibilityLabel(L10n.string("Search explored ideas"))
                     .onChange(of: query) { _, value in if value.count > 240 { query = String(value.prefix(240)) } }
                 if !query.isEmpty {
-                    Button { query = "" } label: { Image(systemName: "xmark.circle.fill") }
-                        .accessibilityLabel(L10n.string("Clear recall search"))
+                    Button { query = "" } label: {
+                        Image(systemName: "xmark.circle.fill")
+                            .frame(width: 44, height: 44)
+                            .contentShape(Rectangle())
+                    }
+                    .accessibilityLabel(L10n.string("Clear recall search"))
                 }
-            }.padding(14).background(.white, in: RoundedRectangle(cornerRadius: 17))
+            }
+            .padding(.horizontal, 12)
+            .frame(minHeight: 44)
+            .teachablyCardSurface(cornerRadius: Radius.md)
+            .overlay(
+                RoundedRectangle(cornerRadius: Radius.md)
+                    .strokeBorder(Palette.lineStrong, lineWidth: 1)
+            )
             DisclosureGroup(L10n.string("Search within your trail")) {
                 VStack(spacing: 13) {
                     Picker(L10n.string("Within"), selection: $scope) {
@@ -124,7 +135,7 @@ struct WanderLibraryView: View {
     private func row(title: String, subtitle: String, depth: Int, exact: Bool = false) -> some View {
         HStack(alignment: .top, spacing: 13) {
             Text(L10n.format("L%lld", depth)).font(.caption.bold()).foregroundStyle(Palette.green)
-                .padding(9).background(Palette.sage, in: RoundedRectangle(cornerRadius: 12))
+                .padding(9).background(Palette.sage, in: RoundedRectangle(cornerRadius: Radius.sm))
             VStack(alignment: .leading, spacing: 7) {
                 Text(title).font(.system(.headline, design: .serif))
                 if exact { Text(L10n.string("Exact match")).font(.caption2.bold()).foregroundStyle(Palette.green) }
@@ -134,7 +145,7 @@ struct WanderLibraryView: View {
             Image(systemName: "arrow.up.right").font(.caption).foregroundStyle(Palette.green)
         }
         .padding(15).frame(maxWidth: .infinity, alignment: .leading)
-        .background(.white, in: RoundedRectangle(cornerRadius: 20))
+        .teachablyCardSurface(cornerRadius: Radius.lg)
     }
 }
 
@@ -170,7 +181,11 @@ private struct WanderPinCard: View {
                 Text(L10n.string("Why did you keep this?")).font(.caption.weight(.semibold)).foregroundStyle(Palette.green)
                 TextField(L10n.string("A takeaway, a question, a story to share…"), text: $note, axis: .vertical)
                     .lineLimit(2...5).font(.subheadline).padding(13)
-                    .background(Palette.background, in: RoundedRectangle(cornerRadius: 14))
+                    .background(Palette.background, in: RoundedRectangle(cornerRadius: Radius.md))
+                    .overlay(
+                        RoundedRectangle(cornerRadius: Radius.md)
+                            .strokeBorder(Palette.lineStrong, lineWidth: 1)
+                    )
                     .accessibilityLabel(L10n.string("Pinned idea note"))
                     .onChange(of: note) { _, value in
                         if value.count > 600 { note = String(value.prefix(600)) }
@@ -181,19 +196,27 @@ private struct WanderPinCard: View {
                     Spacer()
                     Button(saved ? L10n.string("Note saved ✓") : L10n.string("Save note")) {
                         saved = wander.saveNote(note, pinID: pin.id)
-                    }.font(.caption.weight(.semibold))
-                        .disabled(note.trimmingCharacters(in: .whitespacesAndNewlines) == pin.note)
+                    }
+                    .buttonStyle(SecondaryButtonStyle(fullWidth: false))
+                    .disabled(note.trimmingCharacters(in: .whitespacesAndNewlines) == pin.note)
                 }
                 SaveWanderActivityButton(pin: pin, wander: wander)
                 HStack {
                     Menu {
                         if let markdownURL { ShareLink(item: markdownURL) { Label(L10n.string("Notes (.md)"), systemImage: "text.document") } }
                         if let jsonURL { ShareLink(item: jsonURL) { Label(L10n.string("Original snapshot (.json)"), systemImage: "curlybraces") } }
-                    } label: { Label(L10n.string("Share"), systemImage: "square.and.arrow.up").font(.caption.weight(.semibold)) }
+                    } label: {
+                        Label(L10n.string("Share"), systemImage: "square.and.arrow.up")
+                            .font(.caption.weight(.semibold))
+                            .frame(minHeight: 44)
+                            .contentShape(Rectangle())
+                    }
                     Spacer()
                     Button { wander.removePin(pin.id) } label: {
-                        Label(L10n.string("Unpin"), systemImage: "pin.slash").font(.caption)
-                    }.accessibilityLabel(L10n.format("Unpin %@", pin.snapshot.layer.displayTitle))
+                        Label(L10n.string("Unpin"), systemImage: "pin.slash")
+                    }
+                    .buttonStyle(QuietButtonStyle(foreground: Palette.recording))
+                    .accessibilityLabel(L10n.format("Unpin %@", pin.snapshot.layer.displayTitle))
                 }
             }
         }

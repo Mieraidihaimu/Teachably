@@ -33,9 +33,8 @@ struct PoemsView: View {
                     }
                 }
             }
-            .padding(20)
-            .frame(maxWidth: 720)
-            .frame(maxWidth: .infinity)
+            .padding(16)
+            .teachablyContainer(.browse)
         }
         .scrollDismissesKeyboard(.interactively)
         .background(Palette.background)
@@ -70,8 +69,12 @@ struct PoemsView: View {
         }
         .padding(.leading, 14)
         .padding(.trailing, 4)
-        .frame(minHeight: 48)
-        .background(.white, in: .rect(cornerRadius: 16))
+        .frame(minHeight: 44)
+        .background(Palette.surfaceCard, in: RoundedRectangle(cornerRadius: Radius.md))
+        .overlay(
+            RoundedRectangle(cornerRadius: Radius.md)
+                .strokeBorder(Palette.lineStrong, lineWidth: 1)
+        )
     }
 
     private func levelLink(_ level: PoemLevel) -> some View {
@@ -95,7 +98,7 @@ struct PoemsView: View {
             }
             .padding(.vertical, 13)
             .padding(.horizontal, 16)
-            .background(.white, in: .rect(cornerRadius: 16))
+            .teachablyCardSurface(cornerRadius: Radius.lg)
         }
         .buttonStyle(.plain)
         .accessibilityIdentifier("poems.level.\(level.id)")
@@ -111,9 +114,8 @@ private struct PoemLevelView: View {
             LazyVStack(spacing: 10) {
                 ForEach(poems) { PoemLink(poem: $0, showsLevel: false) }
             }
-            .padding(20)
-            .frame(maxWidth: 720)
-            .frame(maxWidth: .infinity)
+            .padding(16)
+            .teachablyContainer(.browse)
         }
         .background(Palette.background)
         .navigationTitle(level.title)
@@ -150,7 +152,7 @@ private struct PoemLink: View {
                     .accessibilityHidden(true)
             }
             .padding(16)
-            .background(.white, in: .rect(cornerRadius: 16))
+            .teachablyCardSurface(cornerRadius: Radius.lg)
         }
         .buttonStyle(.plain)
         .accessibilityIdentifier("poem.\(poem.id)")
@@ -180,14 +182,13 @@ private struct PoemReader: View {
                 }
                 .foregroundStyle(Palette.ink)
             }
-            .padding(20)
-            .frame(maxWidth: 680)
-            .frame(maxWidth: .infinity)
+            .padding(16)
+            .teachablyContainer(.reading)
         }
         .background(Palette.background)
         .navigationTitle(poem.level.title)
         .navigationBarTitleDisplayMode(.inline)
-        .safeAreaInset(edge: .bottom, spacing: 0) {
+        .teachablyBottomBar {
             Button {
                 if narration.isReading {
                     narration.stop()
@@ -200,11 +201,6 @@ private struct PoemReader: View {
             }
             .buttonStyle(PrimaryButtonStyle())
             .accessibilityIdentifier("poems.read")
-            .frame(maxWidth: 480)
-            .padding(.horizontal, 20)
-            .padding(.vertical, 10)
-            .frame(maxWidth: .infinity)
-            .background(Palette.background)
         }
         .onDisappear { narration.stop() }
         .onChange(of: scenePhase) { _, phase in

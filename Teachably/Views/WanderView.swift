@@ -5,6 +5,7 @@ struct WanderView: View {
     @EnvironmentObject private var family: FamilyStore
     @ObservedObject var wander: WanderStore
     @State private var showLibrary = false
+    @State private var libraryDetent: PresentationDetent = .large
     @State private var query = ""
     @State private var recallQuery = ""
     @Environment(\.scenePhase) private var scenePhase
@@ -34,12 +35,16 @@ struct WanderView: View {
                                 visited: wander.engine.visitedBubbleIDs, highlightID: wander.highlightID,
                                 onExpand: { wander.explore(.expand, bubbleID: $0.id) }, onViewport: wander.setViewport)
                                 .disabled(wander.isGenerating || wander.promotingLayerID != nil)
-                            HStack(spacing: 12) {
-                                Button { wander.explore(.explain) } label: { Label(L10n.string("Explain"), systemImage: "lightbulb") }
-                                Spacer()
-                                Button { wander.explore(.example) } label: { Label(L10n.string("Show an example"), systemImage: "hands.sparkles") }
+                            HStack(spacing: 10) {
+                                Button { wander.explore(.explain) } label: {
+                                    Label(L10n.string("Explain"), systemImage: "lightbulb")
+                                }
+                                .buttonStyle(SecondaryButtonStyle())
+                                Button { wander.explore(.example) } label: {
+                                    Label(L10n.string("Show an example"), systemImage: "hands.sparkles")
+                                }
+                                .buttonStyle(SecondaryButtonStyle())
                             }
-                            .font(.subheadline.weight(.semibold)).padding(.vertical, 8)
                             .disabled(wander.isGenerating || wander.promotingLayerID != nil)
                         } else if let lesson = layer.lesson {
                             lessonContent(lesson)
@@ -56,25 +61,35 @@ struct WanderView: View {
                             Button(L10n.string("Undo"), action: wander.undoUnpin).font(.caption.bold())
                         }.padding(16).background(Palette.sage.opacity(0.6), in: RoundedRectangle(cornerRadius: 16))
                     }
-                }.padding(.horizontal, 22).padding(.bottom, 24)
+                }.padding(.horizontal, 16).padding(.bottom, 20).teachablyContainer(.browse)
             }
             .onChange(of: wander.current?.id) { _, _ in reader.scrollTo("wander-top", anchor: .top) }
             .background(Palette.background).foregroundStyle(Palette.ink)
-            .safeAreaInset(edge: .bottom) {
+            .safeAreaInset(edge: .bottom, spacing: 0) {
                 VStack(spacing: 0) {
-                    if wander.isGenerating {
-                        HStack {
-                            ProgressView().tint(Palette.green)
-                            Text(L10n.string("Generating on this device…")).font(.caption)
-                            Spacer()
-                            Button(L10n.string("Cancel"), action: wander.cancelGeneration).font(.caption.bold())
-                        }.padding(.horizontal, 22).padding(.vertical, 10)
+                    Rectangle()
+                        .fill(Palette.line)
+                        .frame(height: 1)
+                    VStack(spacing: 8) {
+                        if wander.isGenerating {
+                            HStack {
+                                ProgressView().tint(Palette.green)
+                                Text(L10n.string("Generating on this device…")).font(.caption)
+                                Spacer()
+                                Button(L10n.string("Cancel"), action: wander.cancelGeneration).font(.caption.bold())
+                            }.padding(.vertical, 4)
+                        }
+                        if let error = wander.errorMessage {
+                            WanderNotice(text: error) { wander.errorMessage = nil }
+                        }
+                        composer
                     }
-                    if let error = wander.errorMessage {
-                        WanderNotice(text: error) { wander.errorMessage = nil }.padding(.horizontal, 18)
-                    }
-                    composer
-                }.background(Palette.background)
+                    .padding(.horizontal, 16)
+                    .padding(.top, 8)
+                    .padding(.bottom, 8)
+                    .teachablyContainer(.reading)
+                }
+                .background(Palette.background)
             }
         }
         .navigationTitle(L10n.string("Wander")).navigationBarTitleDisplayMode(.inline)
@@ -101,6 +116,10 @@ struct WanderView: View {
         }
         .sheet(isPresented: $showLibrary) {
             WanderLibraryView(wander: wander, initialQuery: recallQuery)
+                .presentationDetents([.medium, .large], selection: $libraryDetent)
+                .presentationDragIndicator(.visible)
+                .presentationBackground(Palette.background)
+                .presentationCornerRadius(Radius.xl)
         }
     }
 
@@ -110,12 +129,22 @@ struct WanderView: View {
                 Eyebrow(text: layer.depth == 0 ? L10n.string("A little room to wonder") : L10n.string("Your trail of curiosity"))
                 Spacer()
                 Text(L10n.format("L%lld", layer.depth)).font(.caption.bold()).foregroundStyle(Palette.green)
-                    .padding(.horizontal, 10).padding(.vertical, 6).background(Palette.sage, in: Capsule())
+                    .padding(.horizontal, 10).padding(.vertical, 6)
+                    .background(Palette.sage, in: RoundedRectangle(cornerRadius: Radius.sm))
+                    .overlay(
+                        RoundedRectangle(cornerRadius: Radius.sm)
+                            .strokeBorder(Palette.line, lineWidth: 1)
+                    )
             }
             HStack(alignment: .top, spacing: 12) {
                 if let parent = layer.parentID {
                     Button { wander.open(parent) } label: {
-                        Image(systemName: "arrow.left").frame(width: 40, height: 40).background(.white, in: Circle())
+                        Image(systemName: "arrow.left")
+                            .frame(width: 40, height: 40)
+                            .background(Palette.surfaceCard, in: Circle())
+                            .overlay(Circle().strokeBorder(Palette.line, lineWidth: 1))
+                            .frame(width: 44, height: 44)
+                            .contentShape(Rectangle())
                     }.accessibilityLabel(L10n.string("Back one layer")).disabled(wander.isGenerating)
                 }
                 Text(layer.title).font(.system(.largeTitle, design: .serif, weight: .medium))
@@ -165,7 +194,12 @@ struct WanderView: View {
                     .font(.caption2).foregroundStyle(Palette.muted)
             }
         }
-        .padding(14).background(Palette.sage.opacity(0.45), in: RoundedRectangle(cornerRadius: 17))
+        .padding(14)
+        .background(Palette.sage.opacity(0.45), in: RoundedRectangle(cornerRadius: Radius.lg))
+        .overlay(
+            RoundedRectangle(cornerRadius: Radius.lg)
+                .strokeBorder(Palette.sage, lineWidth: 1)
+        )
         .foregroundStyle(Palette.green)
     }
 
@@ -214,31 +248,50 @@ struct WanderView: View {
                 }.buttonStyle(PrimaryButtonStyle())
             }
         }
+        .teachablyContainer(.reading)
     }
 
     private var composer: some View {
-        HStack(spacing: 12) {
+        let submitDisabled = wander.isGenerating || wander.promotingLayerID != nil || query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        return HStack(spacing: 8) {
             Button {
                 if let pin = wander.currentPin { wander.removePin(pin.id) } else { wander.pin() }
             } label: {
                 Image(systemName: wander.currentPin == nil ? "pin" : "pin.fill")
-                    .font(.title3).foregroundStyle(Palette.green).frame(width: 36, height: 40)
+                    .font(.title3)
+                    .foregroundStyle(Palette.green)
+                    .frame(width: 44, height: 44)
+                    .contentShape(Rectangle())
             }
             .accessibilityLabel(wander.currentPin == nil ? L10n.string("Keep this idea") : L10n.string("Unpin this idea"))
             .accessibilityIdentifier("wander.pin").disabled(wander.current == nil)
             TextField(L10n.string("A topic, question, or example…"), text: $query)
-                .font(.subheadline).submitLabel(.search).onSubmit(submit)
+                .font(.subheadline)
+                .frame(minHeight: 44)
+                .submitLabel(.search)
+                .onSubmit(submit)
                 .accessibilityLabel(L10n.string("Explore a topic"))
                 .onChange(of: query) { _, value in if value.count > 240 { query = String(value.prefix(240)) } }
                 .disabled(wander.isGenerating)
             Button(action: submit) {
-                Image(systemName: "arrow.up").font(.headline).foregroundStyle(.white)
-                    .frame(width: 40, height: 40).background(Palette.green, in: Circle())
-            }.disabled(wander.isGenerating || wander.promotingLayerID != nil || query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
-                .accessibilityLabel(L10n.string("Explore topic"))
+                Image(systemName: "arrow.up")
+                    .font(.headline)
+                    .foregroundStyle(submitDisabled ? Palette.mutedSubtle : .white)
+                    .frame(width: 36, height: 36)
+                    .background(submitDisabled ? Palette.disabledFill : Palette.green, in: Circle())
+                    .frame(width: 44, height: 44)
+                    .contentShape(Rectangle())
+            }
+            .disabled(submitDisabled)
+            .accessibilityLabel(L10n.string("Explore topic"))
         }
-        .padding(10).background(.white, in: RoundedRectangle(cornerRadius: 23))
-        .padding(.horizontal, 18).padding(.vertical, 8).background(Palette.background)
+        .padding(.horizontal, 8)
+        .padding(.vertical, 4)
+        .teachablyCardSurface(cornerRadius: Radius.xl)
+        .overlay(
+            RoundedRectangle(cornerRadius: Radius.xl)
+                .strokeBorder(Palette.lineStrong, lineWidth: 1)
+        )
     }
     private func submit() {
         let text = query.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -254,11 +307,25 @@ struct WanderNotice: View {
     let text: String
     let dismiss: () -> Void
     var body: some View {
-        HStack(alignment: .top, spacing: 12) {
+        HStack(alignment: .center, spacing: 8) {
             Text(text).font(.caption).accessibilityIdentifier("wander.error")
+                .padding(.vertical, 4)
             Spacer(minLength: 0)
-            Button(action: dismiss) { Image(systemName: "xmark") }.accessibilityLabel(L10n.string("Dismiss message"))
-        }.padding(16).background(Palette.peach.opacity(0.65), in: RoundedRectangle(cornerRadius: 17))
+            Button(action: dismiss) {
+                Image(systemName: "xmark")
+                    .frame(width: 44, height: 44)
+                    .contentShape(Rectangle())
+            }
+            .accessibilityLabel(L10n.string("Dismiss message"))
+        }
+        .padding(.leading, 16)
+        .padding(.trailing, 4)
+        .padding(.vertical, 8)
+        .background(Palette.peach.opacity(0.65), in: RoundedRectangle(cornerRadius: Radius.lg))
+        .overlay(
+            RoundedRectangle(cornerRadius: Radius.lg)
+                .strokeBorder(Palette.peach, lineWidth: 1)
+        )
     }
 }
 
@@ -286,7 +353,7 @@ struct WanderTopicView: View {
                     Button { onExpand(bubble) } label: {
                         HStack(spacing: 13) {
                             Image(systemName: bubble.symbol).font(.title3).frame(width: 44, height: 48)
-                                .background(tint(bubble, index), in: RoundedRectangle(cornerRadius: 14))
+                                .background(tint(bubble, index), in: RoundedRectangle(cornerRadius: Radius.md))
                             VStack(alignment: .leading, spacing: 6) {
                                 Text(bubble.label).font(.system(.headline, design: .serif))
                                 Text(bubble.summary).font(.caption).foregroundStyle(Palette.muted)
@@ -294,8 +361,11 @@ struct WanderTopicView: View {
                             Spacer(minLength: 0)
                             Image(systemName: visited.contains(bubble.id) ? "checkmark" : "arrow.up.right").font(.caption)
                         }.padding(16).frame(maxWidth: .infinity, alignment: .leading)
-                            .background(.white, in: RoundedRectangle(cornerRadius: 22))
-                            .overlay(RoundedRectangle(cornerRadius: 22).stroke(bubble.id == highlightID ? Palette.green : .clear, lineWidth: 2))
+                            .teachablyCardSurface(cornerRadius: Radius.lg)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: Radius.lg)
+                                    .strokeBorder(bubble.id == highlightID ? Palette.green : .clear, lineWidth: 2)
+                            )
                     }.buttonStyle(.plain).accessibilityLabel(bubble.label).accessibilityHint(bubble.summary)
                 }
             }
@@ -345,14 +415,36 @@ struct WanderTopicView: View {
                         .onEnded { value in var view = viewport; view.scale *= value; onViewport(view) })
                 }
                 .aspectRatio(1, contentMode: .fit).clipped()
-                HStack(spacing: 20) {
-                    Button { zoom(-0.1) } label: { Image(systemName: "minus") }.accessibilityLabel(L10n.string("Zoom out map"))
-                    Button("\(Int(viewport.scale * 100))%") { onViewport(WanderViewport()) }.accessibilityLabel(L10n.string("Fit map"))
-                    Button { zoom(0.1) } label: { Image(systemName: "plus") }.accessibilityLabel(L10n.string("Zoom in map"))
+                HStack(spacing: 0) {
+                    Button { zoom(-0.1) } label: {
+                        Image(systemName: "minus")
+                            .frame(minWidth: 44, minHeight: 44)
+                            .contentShape(Rectangle())
+                    }
+                    .accessibilityLabel(L10n.string("Zoom out map"))
+                    Button { onViewport(WanderViewport()) } label: {
+                        Text("\(Int(viewport.scale * 100))%")
+                            .frame(minHeight: 44)
+                            .padding(.horizontal, 4)
+                            .contentShape(Rectangle())
+                    }
+                    .accessibilityLabel(L10n.string("Fit map"))
+                    Button { zoom(0.1) } label: {
+                        Image(systemName: "plus")
+                            .frame(minWidth: 44, minHeight: 44)
+                            .contentShape(Rectangle())
+                    }
+                    .accessibilityLabel(L10n.string("Zoom in map"))
                 }
-                .font(.caption.weight(.medium)).padding(.bottom, 14)
+                .font(.caption.weight(.medium))
+                .teachablyCardSurface(cornerRadius: Radius.md)
+                .frame(maxWidth: .infinity, alignment: .trailing)
+                .padding(.top, 6)
+                .padding(.trailing, 8)
+                .padding(.bottom, 6)
             }
-            .padding(8).background(.white.opacity(0.6), in: RoundedRectangle(cornerRadius: 25))
+            .padding(10)
+            .teachablyPaperSurface(cornerRadius: Radius.xl)
         }
     }
     private func tint(_ bubble: WanderBubble, _ index: Int) -> Color {

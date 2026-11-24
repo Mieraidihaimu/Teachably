@@ -1,0 +1,218 @@
+[
+  {
+    "id": "three-little-pigs",
+    "title": "The Three Little Pigs",
+    "pictures": [
+      {
+        "image": "story-three-little-pigs-1",
+        "description": "The pig in yellow tucks straw into the wall of a straw house.",
+        "text": "Three little pigs set out to build houses. The first pig chose straw. It was so light that his little house went up in no time."
+      },
+      {
+        "image": "story-three-little-pigs-2",
+        "description": "The pig in green ties sticks together for a house.",
+        "text": "The second pig tied sticks together. Soon he had a house too. When the wind blew, the sticks rattled."
+      },
+      {
+        "image": "story-three-little-pigs-3",
+        "description": "The pig in blue builds a sturdy red-brick house.",
+        "text": "The third pig laid one brick on top of another. His house took longer to build, but its walls felt strong and still."
+      },
+      {
+        "image": "story-three-little-pigs-4",
+        "description": "The wolf blows the straw house apart and the pig in yellow runs away.",
+        "text": "Along came a wolf. He huffed and he puffed, and the straw scattered. The first pig ran straight to his brother’s stick house."
+      },
+      {
+        "image": "story-three-little-pigs-5",
+        "description": "Sticks fly from the second house as the wolf blows and two pigs run away.",
+        "text": "The wolf huffed and puffed again. The sticks tumbled down, and both pigs ran to their brother’s brick house."
+      },
+      {
+        "image": "story-three-little-pigs-6",
+        "description": "The wolf blows at the brick house while all three pigs watch safely from its window.",
+        "text": "The wolf huffed and puffed until he ran out of breath. The brick house stood firm. At last he gave up, and the three little pigs were safe together."
+      }
+    ]
+  },
+  {
+    "id": "goldilocks-and-the-three-bears",
+    "title": "Goldilocks and the Three Bears",
+    "pictures": [
+      {
+        "image": "story-goldilocks-and-the-three-bears-1",
+        "description": "Goldilocks peeks through the open door of a cottage in the woods.",
+        "text": "Three bears went for a walk while their porridge cooled. A girl named Goldilocks found their cottage. She knocked, heard no answer, and peeked inside."
+      },
+      {
+        "image": "story-goldilocks-and-the-three-bears-2",
+        "description": "Goldilocks eats from the smallest of three bowls of porridge.",
+        "text": "On the table were three bowls. The biggest bowl of porridge was too hot. The middle one was too cold. The smallest was just right, so she ate it all."
+      },
+      {
+        "image": "story-goldilocks-and-the-three-bears-3",
+        "description": "The smallest wooden chair breaks beneath Goldilocks.",
+        "text": "Next she tried three chairs. The first two felt too big. The smallest felt just right, until it broke with a crack!"
+      },
+      {
+        "image": "story-goldilocks-and-the-three-bears-4",
+        "description": "Goldilocks is curled up asleep in the smallest bed, beside two larger beds.",
+        "text": "Upstairs were three beds. One felt too hard and one too soft. The smallest felt just right, and Goldilocks fell fast asleep."
+      },
+      {
+        "image": "story-goldilocks-and-the-three-bears-5",
+        "description": "Goldilocks wakes up and sees the three bears around the bed.",
+        "text": "The bears came home and found an empty bowl and a broken chair. In the bedroom Baby Bear cried, “Someone’s been sleeping in my bed, and she’s still there!” Goldilocks opened her eyes."
+      },
+      {
+        "image": "story-goldilocks-and-the-three-bears-6",
+        "description": "Goldilocks runs down the path as the three bears watch from the cottage.",
+        "text": "Goldilocks jumped out of bed, ran down the stairs and hurried home through the woods. The three bears watched her go."
+      }
+    ]
+  },
+  {
+    "id": "tortoise-and-the-hare",
+    "title": "The Tortoise and the Hare",
+    "pictures": [
+      {
+        "image": "story-tortoise-and-the-hare-1",
+        "description": "The hare and the tortoise face each other at the start of a path.",
+        "text": "“I’m the fastest animal here,” boasted the hare. “Then race me,” said the tortoise. They agreed to race along the meadow path."
+      },
+      {
+        "image": "story-tortoise-and-the-hare-2",
+        "description": "The hare bounds ahead while the tortoise walks behind.",
+        "text": "Off they went! In a few leaps, the hare was far ahead. The tortoise kept walking, one slow step at a time."
+      },
+      {
+        "image": "story-tortoise-and-the-hare-3",
+        "description": "The hare curls up asleep under a tree by the path.",
+        "text": "The hare looked back and thought, “I have time for a nap.” He curled up in the shade and soon fell asleep."
+      },
+      {
+        "image": "story-tortoise-and-the-hare-4",
+        "description": "The tortoise walks past the sleeping hare.",
+        "text": "Step by step, the tortoise came to the tree. He passed the sleeping hare and kept going."
+      },
+      {
+        "image": "story-tortoise-and-the-hare-5",
+        "description": "The hare wakes as the tortoise nears the red finish ribbon.",
+        "text": "When the hare woke, he saw the tortoise near the finish. He sprang up and ran as fast as he could."
+      },
+      {
+        "image": "story-tortoise-and-the-hare-6",
+        "description": "The tortoise crosses the finish ribbon just before the hare.",
+        "text": "Too late! The tortoise reached the ribbon first. “You never stopped,” said the hare. The tortoise smiled."
+      }
+    ]
+  },
+  {
+    "id": "little-red-riding-hood",
+    "title": "Little Red Riding Hood",
+    "pictures": [
+      {
+        "image": "story-little-red-riding-hood-1",
+        "description": "A girl in a red hood carries a basket and waves goodbye to her mother.",
+        "text": "Little Red Riding Hood was taking a basket of food to Grandma. “Stay on the path,” said her mother. Red waved goodbye and set off."
+      },
+      {
+        "image": "story-little-red-riding-hood-2",
+        "description": "Little Red Riding Hood meets a grey wolf at a fork in the path.",
+        "text": "In the woods she met a wolf. He asked where she was going. When she told him, the wolf slipped away down a shorter path."
+      },
+      {
+        "image": "story-little-red-riding-hood-3",
+        "description": "The wolf knocks at Grandma’s cottage as Grandma peeks from the window.",
+        "text": "The wolf reached Grandma’s cottage first. Grandma saw him through the window and hid in the pantry. The wolf crept inside and put on her nightcap."
+      },
+      {
+        "image": "story-little-red-riding-hood-4",
+        "description": "Little Red Riding Hood sees long wolf ears poking out of Grandma’s nightcap.",
+        "text": "When Red arrived, someone was tucked up in Grandma’s bed. “What big ears you have!” she said. Then she saw a long grey nose and called for help."
+      },
+      {
+        "image": "story-little-red-riding-hood-5",
+        "description": "A woodcutter holds the door as the wolf runs out in Grandma’s nightcap.",
+        "text": "A woodcutter heard Red and opened the door. The startled wolf jumped out of bed and ran back into the woods."
+      },
+      {
+        "image": "story-little-red-riding-hood-6",
+        "description": "Grandma and Little Red Riding Hood share food from the basket.",
+        "text": "Grandma came out of the pantry and hugged Red. Then they opened the basket and shared the bread she had brought."
+      }
+    ]
+  },
+  {
+    "id": "lion-and-the-mouse",
+    "title": "The Lion and the Mouse",
+    "pictures": [
+      {
+        "image": "story-lion-and-the-mouse-1",
+        "description": "A tiny grey mouse climbs over the paw of a sleeping lion.",
+        "text": "A lion was asleep in the shade. A little mouse scurried over his paw and woke him up."
+      },
+      {
+        "image": "story-lion-and-the-mouse-2",
+        "description": "The little mouse looks up at the lion from his great paw.",
+        "text": "The lion caught the mouse in his great paw. “Please let me go,” said the mouse. “Perhaps I can help you one day.”"
+      },
+      {
+        "image": "story-lion-and-the-mouse-3",
+        "description": "The lion lifts his paw and the mouse scampers away.",
+        "text": "The lion wondered how such a small creature could help him. Still, he lifted his paw and let the mouse run free."
+      },
+      {
+        "image": "story-lion-and-the-mouse-4",
+        "description": "The mouse finds the lion trapped in a rope net.",
+        "text": "Later the mouse heard a roar. He followed the sound and found the lion tangled in a net."
+      },
+      {
+        "image": "story-lion-and-the-mouse-5",
+        "description": "The mouse gnaws through the thick rope that traps the lion.",
+        "text": "The mouse nibbled through one rope, then another. Soon there was a hole big enough for the lion to step through."
+      },
+      {
+        "image": "story-lion-and-the-mouse-6",
+        "description": "The lion and mouse face each other beside the torn net.",
+        "text": "The lion stepped free. “Thank you, little friend,” he said. The mouse smiled up at him."
+      }
+    ]
+  },
+  {
+    "id": "three-billy-goats-gruff",
+    "title": "The Three Billy Goats Gruff",
+    "pictures": [
+      {
+        "image": "story-three-billy-goats-gruff-1",
+        "description": "Three goats look across a bridge towards a green meadow.",
+        "text": "Three billy goats had eaten nearly all the grass on their side of the stream. Across a bridge, the meadow was thick and green."
+      },
+      {
+        "image": "story-three-billy-goats-gruff-2",
+        "description": "The smallest goat crosses the bridge as the troll peeks out from underneath.",
+        "text": "Trip-trap went the smallest goat. “Who’s on my bridge?” called a troll. “Only me,” said the goat. “My bigger brother is coming.” The troll let him pass."
+      },
+      {
+        "image": "story-three-billy-goats-gruff-3",
+        "description": "The middle-sized goat crosses while the troll calls up to him.",
+        "text": "Trip-trap went the middle goat. “Who’s on my bridge?” called the troll again. “Only me,” said the goat. “Our biggest brother is coming.” The troll let him pass too."
+      },
+      {
+        "image": "story-three-billy-goats-gruff-4",
+        "description": "The biggest goat and the troll stand face to face on the bridge.",
+        "text": "TRIP-TRAP went the biggest goat. This time the troll climbed onto the bridge. “Stop!” he shouted. The biggest goat lowered his horns and stood his ground."
+      },
+      {
+        "image": "story-three-billy-goats-gruff-5",
+        "description": "The biggest goat looks down as the troll splashes into the stream.",
+        "text": "The troll rushed at the goat. The goat held firm, and the troll tumbled into the stream with a great splash."
+      },
+      {
+        "image": "story-three-billy-goats-gruff-6",
+        "description": "All three goats eat tall green grass together beyond the bridge.",
+        "text": "The troll waded safely to the bank and went away. The biggest goat joined his brothers, and all three ate their fill of sweet green grass."
+      }
+    ]
+  }
+]

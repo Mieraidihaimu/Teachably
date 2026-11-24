@@ -43,6 +43,10 @@ struct ContentView: View {
         .sheet(isPresented: $showWelcome) {
             NavigationStack { WelcomeView { showWelcome = false } }
                 .interactiveDismissDisabled()
+                .presentationDetents([.large])
+                .presentationDragIndicator(.visible)
+                .presentationBackground(Palette.background)
+                .presentationCornerRadius(Radius.xl)
         }
         .onChange(of: store.errorMessage) { _, value in showError = value != nil }
         .alert(L10n.string("Something needs attention"), isPresented: $showError) {
@@ -60,10 +64,14 @@ private struct WelcomeView: View {
             ScrollView {
                 VStack(spacing: 20) {
                     Image(systemName: "leaf.fill")
-                        .font(.system(size: 48, weight: .medium))
+                        .font(.system(size: 42, weight: .medium))
                         .foregroundStyle(Palette.green)
-                        .frame(width: 102, height: 102)
-                        .background(Palette.sage, in: RoundedRectangle(cornerRadius: 30))
+                        .frame(width: 88, height: 88)
+                        .background(Palette.sage, in: RoundedRectangle(cornerRadius: Radius.xl))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: Radius.xl)
+                                .strokeBorder(Palette.line, lineWidth: 1)
+                        )
                         .accessibilityHidden(true)
 
                     VStack(spacing: 8) {
@@ -77,13 +85,12 @@ private struct WelcomeView: View {
                     .multilineTextAlignment(.center)
                 }
                 .padding(24)
-                .frame(maxWidth: 440)
                 .frame(minHeight: geometry.size.height)
-                .frame(maxWidth: .infinity)
+                .teachablyContainer(.focused)
             }
         }
-        .safeAreaInset(edge: .bottom) {
-            VStack(spacing: 4) {
+        .teachablyBottomBar {
+            VStack(spacing: 6) {
                 Button {
                     store.saveInterests(store.profile.skills)
                     onFinish()
@@ -99,17 +106,12 @@ private struct WelcomeView: View {
                     SkillsView(onFinish: onFinish)
                 } label: {
                     Text(L10n.string("Choose interests"))
-                        .font(.subheadline.weight(.semibold))
                         .multilineTextAlignment(.center)
-                        .frame(maxWidth: .infinity, minHeight: 44)
+                        .frame(maxWidth: .infinity)
                 }
+                .buttonStyle(QuietButtonStyle())
                 .accessibilityIdentifier("welcome.interests")
             }
-            .padding(.horizontal, 22)
-            .padding(.vertical, 12)
-            .frame(maxWidth: 440)
-            .frame(maxWidth: .infinity)
-            .background(Palette.background)
         }
         .background(Palette.background)
         .foregroundStyle(Palette.ink)

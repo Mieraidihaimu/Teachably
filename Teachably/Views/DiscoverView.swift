@@ -50,8 +50,8 @@ struct DiscoverView: View {
                         } label: {
                             HStack(spacing: 16) {
                                 Image(systemName: activity.symbol).font(.system(size: 27, weight: .light))
-                                    .frame(width: 68, height: 76)
-                                    .background(Palette.tint(for: activity.skill), in: RoundedRectangle(cornerRadius: 18))
+                                    .frame(width: 64, height: 72)
+                                    .background(Palette.tint(for: activity.skill), in: RoundedRectangle(cornerRadius: Radius.md))
                                 VStack(alignment: .leading, spacing: 6) {
                                     Text(activity.title).font(.system(.headline, design: .serif))
                                         .foregroundStyle(Palette.ink)
@@ -59,13 +59,18 @@ struct DiscoverView: View {
                                     Text(L10n.format("%lld min", activity.duration)).font(.caption2).foregroundStyle(Palette.muted)
                                 }
                                 Spacer(minLength: 0)
-                                Image(systemName: "chevron.right").font(.caption).foregroundStyle(Palette.muted)
+                                Image(systemName: "chevron.right")
+                                    .font(.caption.weight(.semibold))
+                                    .foregroundStyle(Palette.green)
                             }
-                            .padding(14).background(.white, in: RoundedRectangle(cornerRadius: 23))
+                            .padding(14)
+                            .teachablyCardSurface(cornerRadius: Radius.lg)
                         }.buttonStyle(.plain)
                     }
                 }
-            }.padding(22)
+            }
+            .padding(16)
+            .teachablyContainer(.browse)
         }
         .background(Palette.background)
         .navigationTitle(L10n.string("Discover")).navigationBarTitleDisplayMode(.inline)
@@ -81,8 +86,15 @@ struct DiscoverView: View {
     }
 
     private func filterLabel(_ title: String, selected: Bool) -> some View {
-        Text(title).font(.caption.weight(.semibold)).padding(.horizontal, 15).padding(.vertical, 11)
+        Text(title)
+            .font(.caption.weight(.semibold))
+            .padding(.horizontal, 14)
+            .frame(minHeight: 44)
             .foregroundStyle(selected ? .white : Palette.green)
-            .background(selected ? Palette.green : .white, in: Capsule())
+            .background(selected ? Palette.green : Palette.surfaceCard, in: Capsule())
+            .overlay(
+                Capsule()
+                    .strokeBorder(selected ? Palette.green : Palette.line, lineWidth: 1)
+            )
     }
 }

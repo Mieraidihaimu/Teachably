@@ -4,6 +4,7 @@ import TeachablyCore
 
 struct ShowAndTellView: View {
     private let stories = (try? ShowAndTellCatalog.load()) ?? []
+    @State private var earlierStories: [ShowAndTellStory] = []
 
     var body: some View {
         ScrollView {
@@ -16,24 +17,35 @@ struct ShowAndTellView: View {
                         .font(.subheadline)
                         .foregroundStyle(Palette.muted)
                         .padding(.bottom, 4)
-                    ForEach(stories) { story in
-                        NavigationLink {
-                            ShowAndTellDetail(story: story)
-                        } label: {
-                            storyRow(story)
-                        }
-                        .buttonStyle(.plain)
-                        .accessibilityLabel(Text(verbatim: story.title))
-                        .accessibilityIdentifier("show-and-tell.story.\(story.id)")
-                    }
+                    ForEach(stories, content: storyLink)
+                }
+                if !earlierStories.isEmpty {
+                    SectionTitle(title: L10n.string("Earlier stories with recordings"))
+                        .padding(.top, 12)
+                    ForEach(earlierStories, content: storyLink)
                 }
             }
-            .padding(20)
-            .frame(maxWidth: 680)
-            .frame(maxWidth: .infinity)
+            .padding(16)
+            .teachablyContainer(.reading)
         }
         .background(Palette.background)
         .navigationTitle(L10n.string("Show and Tell"))
+        .onAppear {
+            earlierStories = ((try? ShowAndTellCatalog.loadOriginals()) ?? []).filter {
+                StoryAudioRecorder.hasRecordings(for: $0.id)
+            }
+        }
+    }
+
+    private func storyLink(_ story: ShowAndTellStory) -> some View {
+        NavigationLink {
+            ShowAndTellDetail(story: story)
+        } label: {
+            storyRow(story)
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(Text(verbatim: story.title))
+        .accessibilityIdentifier("show-and-tell.story.\(story.id)")
     }
 
     private func storyRow(_ story: ShowAndTellStory) -> some View {
@@ -41,7 +53,7 @@ struct ShowAndTellView: View {
             LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 3), count: 3), spacing: 3) {
                 ForEach(story.pictures.indices, id: \.self) { index in
                     StoryPictureArtwork(picture: story.pictures[index])
-                        .clipShape(.rect(cornerRadius: 3))
+                        .clipShape(.rect(cornerRadius: 4))
                 }
             }
             .frame(width: 120)
@@ -57,13 +69,14 @@ struct ShowAndTellView: View {
                 .accessibilityHidden(true)
         }
         .padding(12)
-        .background(.white, in: .rect(cornerRadius: 16))
-        .contentShape(Rectangle())
+        .teachablyCardSurface(cornerRadius: Radius.lg)
+        .contentShape(.rect(cornerRadius: Radius.lg))
     }
 }
 
 private struct ShowAndTellDetail: View {
     @State private var sheet: StorySheet?
+    @State private var textDetent: PresentationDetent = .large
     @Environment(\.scenePhase) private var scenePhase
     @StateObject private var audio: StoryAudioRecorder
     @State private var recordingToDelete: StoryRecording?
@@ -77,14 +90,6 @@ private struct ShowAndTellDetail: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                Button {
-                    sheet = .text
-                } label: {
-                    Label(L10n.string("Read story"), systemImage: "book")
-                }
-                .buttonStyle(PrimaryButtonStyle())
-                .accessibilityIdentifier("show-and-tell.read")
-
                 Text(L10n.string("Look at the pictures. What happens first, next, and last?"))
                     .font(.subheadline)
                     .foregroundStyle(Palette.muted)
@@ -107,11 +112,20 @@ private struct ShowAndTellDetail: View {
                 }
                 if !audio.recordings.isEmpty { recordingList }
             }
-            .padding(20)
-            .frame(maxWidth: 680)
-            .frame(maxWidth: .infinity)
+            .padding(16)
+            .teachablyContainer(.reading)
         }
         .background(Palette.background)
+        .teachablyBottomBar {
+            Button {
+                textDetent = .large
+                sheet = .text
+            } label: {
+                Label(L10n.string("Read story"), systemImage: "book")
+            }
+            .buttonStyle(PrimaryButtonStyle())
+            .accessibilityIdentifier("show-and-tell.read")
+        }
         .navigationTitle(story.title)
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear { audio.stopAudio() }
@@ -134,10 +148,15 @@ private struct ShowAndTellDetail: View {
                 switch selection {
                 case .text:
                     storyText
+                        .presentationDetents([.medium, .large], selection: $textDetent)
                 case .pictures(let index):
                     StoryPictureViewer(story: story, index: index)
+                        .presentationDetents([.large])
                 }
             }
+            .presentationDragIndicator(.visible)
+            .presentationBackground(Palette.background)
+            .presentationCornerRadius(Radius.xl)
         }
     }
 
@@ -151,13 +170,21 @@ private struct ShowAndTellDetail: View {
                             Spacer()
                             Text(start, style: .timer).monospacedDigit()
                         }
-                        .foregroundStyle(.red)
+                        .padding(.horizontal, 14)
+                        .frame(minHeight: 44)
+                        .background(Palette.recording.opacity(0.12), in: RoundedRectangle(cornerRadius: Radius.md))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: Radius.md)
+                                .strokeBorder(Palette.recording.opacity(0.35), lineWidth: 1)
+                        )
+                        .foregroundStyle(Palette.recording)
                     }
                     .accessibilityIdentifier("show-and-tell.record.stop")
                 } else {
                     Button { Task { await audio.startRecording() } } label: {
                         Label(L10n.string("Record our story"), systemImage: "mic")
                     }
+                    .buttonStyle(SecondaryButtonStyle(fullWidth: false))
                     .disabled(audio.isRequestingPermission)
                     .accessibilityIdentifier("show-and-tell.record.start")
                     Text(L10n.string(audio.recordings.isEmpty
@@ -193,25 +220,33 @@ private struct ShowAndTellDetail: View {
                     Button(role: .destructive) {
                         recordingToDelete = recording
                     } label: {
-                        Image(systemName: "trash").frame(minWidth: 44, minHeight: 44)
+                        Image(systemName: "trash")
+                            .frame(minWidth: 44, minHeight: 44)
+                            .foregroundStyle(Palette.recording)
                     }
+                    .foregroundStyle(Palette.recording)
+                    .tint(Palette.recording)
                     .accessibilityLabel(L10n.string("Delete recording"))
                 }
                 .padding(.horizontal, 12)
-                .background(.white, in: .rect(cornerRadius: 12))
+                .teachablyCardSurface(cornerRadius: Radius.md)
             }
         }
     }
 
     private func numberedPicture(_ picture: ShowAndTellStory.Picture, index: Int) -> some View {
         StoryPictureArtwork(picture: picture)
-            .clipShape(.rect(cornerRadius: 12))
+            .clipShape(.rect(cornerRadius: Radius.md))
+            .overlay(
+                RoundedRectangle(cornerRadius: Radius.md)
+                    .strokeBorder(Palette.line, lineWidth: 1)
+            )
             .overlay(alignment: .topLeading) {
                 Text(index + 1, format: .number)
                     .font(.caption.monospacedDigit().weight(.bold))
                     .foregroundStyle(Palette.ink)
                     .frame(minWidth: 25, minHeight: 25)
-                    .background(.white, in: .circle)
+                    .background(Palette.surfaceCard, in: .circle)
                     .padding(7)
             }
     }
@@ -230,9 +265,9 @@ private struct ShowAndTellDetail: View {
                 }
             }
             .foregroundStyle(Palette.ink)
-            .frame(maxWidth: 540, alignment: .leading)
-            .padding(24)
-            .frame(maxWidth: .infinity)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(20)
+            .teachablyContainer(.focused)
         }
         .background(Palette.background)
         .navigationTitle(L10n.string("Read story"))
@@ -267,7 +302,7 @@ private struct StoryPictureViewer: View {
         VStack(spacing: 18) {
             Spacer(minLength: 0)
             StoryPictureArtwork(picture: picture)
-                .clipShape(.rect(cornerRadius: 20))
+                .clipShape(.rect(cornerRadius: Radius.lg))
                 .accessibilityRepresentation {
                     Image(systemName: "photo")
                         .accessibilityLabel(Text(verbatim: picture.description))
@@ -281,8 +316,9 @@ private struct StoryPictureViewer: View {
             HStack {
                 Button { move(-1) } label: {
                     Image(systemName: "chevron.backward")
-                        .frame(width: 48, height: 48)
-                        .background(.white, in: .circle)
+                        .frame(width: 44, height: 44)
+                        .background(Palette.surfaceCard, in: Circle())
+                        .overlay(Circle().strokeBorder(Palette.line, lineWidth: 1))
                 }
                 .disabled(index == 0)
                 .accessibilityLabel(L10n.string("Previous picture"))
@@ -294,8 +330,9 @@ private struct StoryPictureViewer: View {
                 Spacer()
                 Button { move(1) } label: {
                     Image(systemName: "chevron.forward")
-                        .frame(width: 48, height: 48)
-                        .background(.white, in: .circle)
+                        .frame(width: 44, height: 44)
+                        .background(Palette.surfaceCard, in: Circle())
+                        .overlay(Circle().strokeBorder(Palette.line, lineWidth: 1))
                 }
                 .disabled(index == story.pictures.count - 1)
                 .accessibilityLabel(L10n.string("Next picture"))
@@ -303,9 +340,9 @@ private struct StoryPictureViewer: View {
             .buttonStyle(.borderless)
             Spacer(minLength: 0)
         }
-        .frame(maxWidth: 680)
         .padding(20)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .teachablyContainer(.reading)
+        .frame(maxHeight: .infinity)
         .background(Palette.background)
         .navigationTitle(story.title)
         .navigationBarTitleDisplayMode(.inline)
